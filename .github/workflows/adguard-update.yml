@@ -1,0 +1,100 @@
+name: Update AdGuard Filters
+
+on:
+  schedule:
+    # 每天北京时间早上 4:00 执行 (UTC 时间 20:00)
+    # 你可以根据需要调整时间，例如 UTC 0:00 对应北京时间 8:00
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    # 允许手动点击按钮执行
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 1. Download and Merge Filters
+        run: |
+          # 清空或创建 AdGE.txt
+          > AdGE.txt
+          
+          # 定义 URL 数组
+          URLS=(
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_19_Annoyances_Popups/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_20_Annoyances_MobileApp/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_22_Annoyances_Widgets/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_21_Annoyances_Other/filter.txt"
+            "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
+          )
+
+          echo "开始下载并拼接规则..."
+          for url in "${URLS[@]}"; do
+            echo "Downloading: $url"
+            curl -sSL "$url" >> AdGE.txt
+            # 确保每个文件末尾有换行符，防止拼接错误
+            echo -e "\n" >> AdGE.txt
+          done
+          
+          echo "拼接完成，文件大小："
+          ls -lh AdGE.txt
+
+      - name: 2. Install hostlist-compiler
+        run: npm install -g @adguard/hostlist-compiler
+
+      - name: 3. Compress and Compile
+        run: |
+          # 注意：hostlist-compiler 标准用法需要 JSON 配置文件。
+          # 这里我们动态生成一个 config.json，指向刚才下载的 AdGE.txt
+          cat <<EOF > config.json
+          {
+            "name": "AdGuard Extension Merge",
+            "description": "Merged AdGuard filters",
+            "version": "1.0.$(date +%s)",
+            "homepage": "https://github.com/${{ github.repository }}",
+            "sources": [
+              {
+                "source": "AdGE.txt",
+                "type": "adblock"
+              }
+            ]
+          }
+          EOF
+
+          # 执行编译命令
+          # -c 指定配置，-o 指定输出
+          hostlist-compiler -c config.json -o AdGuardExtension.txt
+          
+          # 清理临时配置文件（可选）
+          rm config.json
+
+      - name: 4. Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # 添加生成的文件
+          git add AdGE.txt AdGuardExtension.txt
+          
+          # 检查是否有变更，有则提交
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update AdGuard filters: $(date +'%Y-%m-%d')"
+            git push
+          fi
