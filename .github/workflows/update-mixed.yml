@@ -49,7 +49,6 @@ jobs:
           echo "开始下载并拼接规则..."
           for url in "${URLS[@]}"; do
             echo "Downloading: $url"
-            # 下载并追加，确保末尾换行
             curl -sSL "$url" >> AdGE_uB_Mixed.txt
             echo -e "\n" >> AdGE_uB_Mixed.txt
           done
@@ -62,7 +61,6 @@ jobs:
 
       - name: 3. Compress and Compile
         run: |
-          # 创建临时配置 config.json
           cat <<EOF > config.json
           {
             "name": "AdGuard Extension Merge",
@@ -78,13 +76,11 @@ jobs:
           }
           EOF
 
-          # 编译生成 Mixed.txt
           hostlist-compiler -c config.json -o Mixed.txt
           
-          # 【要求1】删除原始拼接文件和临时配置，不推送到仓库
           rm AdGE_uB_Mixed.txt config.json
 
-      - name: 4. Deduplicate against Upstream
+      - name: 4. Process (Deduplicate, Filter Length & Comments)
         shell: python
         run: |
           import urllib.request
@@ -95,51 +91,61 @@ jobs:
           
           print(f"正在下载参照列表: {upstream_url}")
           try:
-              # 下载参照列表内容
               with urllib.request.urlopen(upstream_url) as response:
                   upstream_data = response.read().decode('utf-8')
-              
-              # 将参照列表转为 Set 集合（自动去重且查找速度快）
-              # 使用 strip() 去除首尾空格，确保精确匹配
               upstream_rules = set(line.strip() for line in upstream_data.splitlines() if line.strip())
-              print(f"参照列表规则数: {len(upstream_rules)}")
-
-              # 读取本地生成的文件
+              
               if not os.path.exists(local_file):
-                  print("错误: Mixed.txt 不存在")
                   exit(1)
 
               with open(local_file, 'r', encoding='utf-8') as f:
                   local_lines = f.readlines()
-              
-              original_count = len(local_lines)
-              print(f"本地原始规则数: {original_count}")
 
-              # 开始比对去重
               new_lines = []
-              removed_count = 0
               
-              # 保留文件头部的注释（通常以 ! 开头）或者是元数据
-              # 如果你想严格去除，也可以把注释加入比对
               for line in local_lines:
                   clean_line = line.strip()
                   
-                  # 逻辑：如果这一行不为空，且存在于参照列表中，则跳过（即删除）
-                  # 注意：这里我们保留了注释行，除非注释行也一模一样
-                  if clean_line and clean_line in upstream_rules:
-                      removed_count += 1
+                  # 1. 跳过空行
+                  if not clean_line:
+                      continue
+
+                  # 2. 智能处理 '!' 开头的行
+                  if clean_line.startswith('!'):
+                      # 保留 !# 开头的特殊指令 (如 !#safari_cb_affinity, !#include)
+                      if clean_line.startswith('!#'):
+                          pass 
+                      else:
+                          # 删除普通注释
+                          continue
+
+                  # 3. 智能处理 '#' 开头的行
+                  # 注意：在 AdBlock 语法中，## 是通用隐藏规则，不能删！
+                  if clean_line.startswith('#'):
+                      # 如果是 ## 或 #@# (白名单) 等规则开头，保留
+                      if clean_line.startswith('##') or clean_line.startswith('#@#') or clean_line.startswith('#?#'):
+                          pass
+                      else:
+                          # 删除 Hosts 文件的注释 (如 # 127.0.0.1)
+                          continue
+
+                  # 4. 删除超长行
+                  if len(line) >= 1024:
+                      continue
+
+                  # 5. 上游去重
+                  if clean_line in upstream_rules:
+                      continue
                   else:
                       new_lines.append(line)
 
-              print(f"剔除重复规则数: {removed_count}")
-              print(f"剩余规则数: {len(new_lines)}")
+              print(f"处理完成，剩余规则数: {len(new_lines)}")
 
-              # 写回文件
               with open(local_file, 'w', encoding='utf-8') as f:
                   f.writelines(new_lines)
 
           except Exception as e:
-              print(f"去重脚本出错: {e}")
+              print(f"脚本错误: {e}")
               exit(1)
 
       - name: 5. Commit and Push
@@ -147,13 +153,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 只添加结果文件
           git add Mixed.txt
           
-          # 检查是否有实质性变更
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update filters: Deduplicated $(date +'%Y-%m-%d')"
+            git commit -m "Update filters: Cleaned & Deduplicated $(date +'%Y-%m-%d')"
             git push
           fi
