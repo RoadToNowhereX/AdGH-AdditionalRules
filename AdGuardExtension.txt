@@ -1,8 +1,8 @@
 ! Title: AdGuard Extension Merge
 ! Description: Merged AdGuard filters with Deduplication
-! Version: 1.0.1767471237
+! Version: 1.0.1767557666
 ! Homepage: https://github.com/RoadToNowhereX/AdGH-AdditionalRules
-! Last modified: 2026-01-03T20:13:58.575Z
+! Last modified: 2026-01-04T20:14:27.388Z
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 ! Source: AdGE.txt
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
@@ -5819,7 +5819,6 @@ pvpoke-re.com#%#//scriptlet('trusted-replace-argument', 'String.prototype.indexO
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=pvpoke-re.com
 ||g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299$subdocument,redirect=noopframe,domain=pvpoke-re.com
 ||g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299$xmlhttprequest,redirect=nooptext,domain=pvpoke-re.com
-pvpoke-re.com#%#(()=>{const t=Promise.prototype.then;Promise.prototype.then=new Proxy(t,{apply:(t,e,o)=>{const n=o[0];return"function"!=typeof n||(o[0]=new Proxy(n,{apply:(t,e,o)=>{let n=o[0];if(n&&"object"==typeof n){const t=Object.keys(n);if(4===t.length&&"totalMessages"in n){const e=t.find((t=>"boolean"==typeof n[t]));e&&!1===n[e]&&(n[e]=!0)}}return Reflect.apply(t,e,o)}})),Reflect.apply(t,e,o)}});try{Promise.prototype.then.toString=()=>"function then() { [native code] }"}catch(t){}})();
 ! TODO: use scriptlet once https://github.com/AdguardTeam/Scriptlets/issues/526 is fixed
 pvpoke-re.com#%#((e="",t="",o="basic",s="",n)=>{const r={apply:(r,a,u)=>{try{let r="";const a=u[0],c=u[1]?.method||"";let l=!1;if("string"==typeof a&&a.includes(e)&&c.toLowerCase()===t.toLowerCase()?(r=a,l=!0):a instanceof Request&&a.url.includes(e)&&a.method.toLowerCase()===t.toLowerCase()&&(r=a.url,l=!0),l){const e=((e,t)=>{try{if(void 0===e||"cors"===e||"no-cors"===e)return new URL(t).origin===document.location.origin?"basic":"no-cors"===e?"opaque":"cors"}catch(e){}})(o,r),t=((e,t)=>{const o=e||"",n=new Response(s,{headers:{"Content-Length":`${s.length}`},status:200,statusText:"OK"});return"opaque"===t?Object.defineProperties(n,{body:{value:null},status:{value:0},ok:{value:!1},statusText:{value:""},url:{value:""},type:{value:t}}):Object.defineProperties(n,{url:{value:o},type:{value:t}}),n})(r,e);return n?new Promise((e=>{setTimeout((()=>{e(t)}),n)})):Promise.resolve(t)}}catch(e){}return Reflect.apply(r,a,u)}};window.fetch=new Proxy(window.fetch,r)})("https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299","HEAD","no-cors","",121);
 pvpoke-re.com#%#//scriptlet('remove-attr', 'data-instype', 'ins.adsbygoogle:has(> div#aswift_0_host)')
@@ -28550,8 +28549,8 @@ birminghammail.co.uk#%#//scriptlet("set-constant", "chameleonVideo.adDisabledReq
 hentaiworld.tv#%#//scriptlet("prevent-window-open", "hyenadata")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184560
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135825
-turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('prevent-setTimeout', 'window.open')
-turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('set-constant', 'premium', 'undefined')
+turbocloud.xyz,turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('prevent-setTimeout', 'window.open')
+turbocloud.xyz,turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('set-constant', 'premium', 'undefined')
 ! TODO: remove hints when this issue is resolved - https://github.com/AdguardTeam/Scriptlets/issues/517
 trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('trusted-replace-node-text', 'script', 'openNewTab', '/openNewTab[(]".*?"[)]/g', 'null')
 !+ NOT_VALIDATE PLATFORM(windows, mac, android)
@@ -61905,6 +61904,7 @@ _reklama_$domain=~youtube.com
 /render-ad.php?ad_id=
 /render-sidebar-ad.php?ad_id=
 /_meetups/r.php?click_id=$document
+.*.*.com/papi/$third-party
 .com/papi/*/327/
 .com/papi/*/456/
 .com/players/*/-1/70/$script,third-party
@@ -85870,7 +85870,6 @@ marketscreener.com###zppRight2
 ultrabookreview.com###zzifhome
 ultrabookreview.com###zzifhome2
 arydigital.tv###zzright
-talkingpointsmemo.com##.--span\:12.AdSlot
 bigissue.com##.-ad
 gamejolt.com##.-ad-widget
 olympics.com##.-adv
@@ -85900,6 +85899,7 @@ tvnz.co.nz##.AdOnPause
 issuu.com##.AdPlacement
 alltrails.com##.AdPlacement_container__tMolj
 manabadi.co.in##.AdSW
+talkingpointsmemo.com##.AdSlot
 hbr.org##.AdSlotZone_ad-container__eXYUj
 legacy.com##.AdSlot__StandardAd-sc-2n7c64-0
 eliteprospects.com##.AdSlot_rectangle__HUBWN
@@ -88343,7 +88343,6 @@ theguardian.com##.js-top-banner
 extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
 khaleejtimes.com##.js_ad_st
-talkingpointsmemo.com##.js_preheader-ad-container
 iobroker.net##.jss125
 paycalculator.com.au##.jss336
 calorieking.com##.jss356
@@ -90065,7 +90064,6 @@ thumbsnap.com##.ts-blurb-wrap
 thesimsresource.com##.tsr-ad
 yidio.com##.tt
 telegraphindia.com##.ttdadbox310
-venturebeat.com##.tude-cw-wrap
 tutorialink.com##.tutorialink-ad1
 tutorialink.com##.tutorialink-ad2
 tutorialink.com##.tutorialink-ad3
@@ -93027,7 +93025,7 @@ katestube.com###pre-block
 sleazyneasy.com###pre-spots
 mopoga.com###preGamescontainer
 tojav.net###preroll
-alotav.com,javbraze.com,javdoe.fun,javdoe.sh,javhat.tv,javhd.*,javhdz.today,javseen.tv,javseenz.tv,javtape.site,xjav.online###previewBox
+alotav.com,javbraze.com,javdoe.fun,javdoe.sh,javfindx.com,javhat.tv,javhd.*,javhdz.today,javseen.tv,javseenz.tv,javtape.site,xjav.online###previewBox
 xvideos.name###publicidad-video
 celebjihad.com###pud
 deserttechairconditioning.com###r-ad-banner
@@ -139938,7 +139936,7 @@ sackyvysavace.cz,doplnvitamin.cz###xx-cookies-plugin
 officeworks.com.au##div[data-automation-test^="TrackingBanner_"]
 console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref="modal"] > div#modal h2:contains(Cookie Settings)) { display: none!important; }
 console.scaleway.com#$#body { overflow: auto !important; padding-right: 0 !important; }
-nttgame.com,developer.confluent.io,nhl.com###onetrust-consent-sdk
+edition.cnn.com,nttgame.com,developer.confluent.io,nhl.com##body #onetrust-consent-sdk
 timesnownews.com##div[class^="_"] > div[class^="_"][style^="max-width:"]
 worksmile.com##.cookies-component
 narzedzia.pl,oponeo.*,pneus-oponeo.be,banden-oponeo.be,centrumrowerowe.pl###consentsPolicyDialog
@@ -178748,7 +178746,7 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 instagram.com##._aagw:empty
 ! End: Instagram.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221747
-5ch.net#%#//scriptlet('href-sanitizer', 'a[href*="jump5.ch/?"]')
+5ch.net#%#//scriptlet('href-sanitizer', 'a[href^="http://jump"][href*="/?http"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221484
 itest.5ch.net#%#//scriptlet('trusted-replace-argument', 'window.open', '0', 'replace:/^https:\/\/itest\.5ch\.net\/jump\/to\?url=(.+)/$1/', '/jump/to?url=')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221152
@@ -194527,6 +194525,7 @@ lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-he
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
 ! NOTE: Popular rules end ⬆️
 ! !SECTION: Cookies - Popular rules
+maxidom.ru###modalPageCookies
 otello.ru##div[data-n="wat-cookie-banner-body"]
 malcare.com##.cookie-policy-conv
 airlift.net#%#//scriptlet('set-cookie', 'airlift-policy-agreed', 'true')
@@ -200346,7 +200345,7 @@ sackyvysavace.cz,doplnvitamin.cz###xx-cookies-plugin
 officeworks.com.au##div[data-automation-test^="TrackingBanner_"]
 console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref="modal"] > div#modal h2:contains(Cookie Settings)) { display: none!important; }
 console.scaleway.com#$#body { overflow: auto !important; padding-right: 0 !important; }
-nttgame.com,developer.confluent.io,nhl.com###onetrust-consent-sdk
+edition.cnn.com,nttgame.com,developer.confluent.io,nhl.com##body #onetrust-consent-sdk
 timesnownews.com##div[class^="_"] > div[class^="_"][style^="max-width:"]
 worksmile.com##.cookies-component
 narzedzia.pl,oponeo.*,pneus-oponeo.be,banden-oponeo.be,centrumrowerowe.pl###consentsPolicyDialog
@@ -241878,7 +241877,7 @@ instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[
 instagram.com##._aagw:empty
 ! End: Instagram.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221747
-5ch.net#%#//scriptlet('href-sanitizer', 'a[href*="jump5.ch/?"]')
+5ch.net#%#//scriptlet('href-sanitizer', 'a[href^="http://jump"][href*="/?http"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221484
 itest.5ch.net#%#//scriptlet('trusted-replace-argument', 'window.open', '0', 'replace:/^https:\/\/itest\.5ch\.net\/jump\/to\?url=(.+)/$1/', '/jump/to?url=')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221152
