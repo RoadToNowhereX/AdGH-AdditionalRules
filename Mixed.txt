@@ -22154,7 +22154,7 @@ dexerto.com$$script[id="dblock-inline"]
 razzball.com,newatlas.com$$script:contains(head.appendChild.bind)
 razzball.com,newatlas.com#%#//scriptlet('remove-node-text', 'script', 'head.appendChild.bind')
 razzball.com,newatlas.com#%#//scriptlet('prevent-setTimeout', '[native code]', '500')
-||html-load.com^$script,domain=endfield.gg|expedition33.gg|cookierun.gg|dcworldscollide.gg|destiny2zone.com|digimonzone.com|dotgg.gg|dragonball.gg|fabtcg.gg|fplzone.com|lorcana.gg|lostsword.gg|marvelrivals.gg|marvelsnapzone.com|moco.gg|onepiece.gg|pathofexile.gg|playingmtg.com|ptcgpocket.gg|riftbound.gg|shadowverse.gg|snowbreak.gg|thebazaarzone.com|tokon.gg|umamusume.gg|wutheringwaves.gg|ygozone.gg|zenless.gg
+||html-load.com^$script,redirect=noopjs,domain=endfield.gg|expedition33.gg|cookierun.gg|dcworldscollide.gg|destiny2zone.com|digimonzone.com|dotgg.gg|dragonball.gg|fabtcg.gg|fplzone.com|lorcana.gg|lostsword.gg|marvelrivals.gg|marvelsnapzone.com|moco.gg|onepiece.gg|pathofexile.gg|playingmtg.com|ptcgpocket.gg|riftbound.gg|shadowverse.gg|snowbreak.gg|thebazaarzone.com|tokon.gg|umamusume.gg|wutheringwaves.gg|ygozone.gg|zenless.gg
 endfield.gg,expedition33.gg,cookierun.gg,dcworldscollide.gg,destiny2zone.com,digimonzone.com,dotgg.gg,dragonball.gg,fabtcg.gg,fplzone.com,lorcana.gg,lostsword.gg,marvelrivals.gg,marvelsnapzone.com,moco.gg,onepiece.gg,pathofexile.gg,playingmtg.com,ptcgpocket.gg,riftbound.gg,shadowverse.gg,snowbreak.gg,thebazaarzone.com,tokon.gg,umamusume.gg,wutheringwaves.gg,ygozone.gg,zenless.gg#%#//scriptlet('remove-node-text', 'script', 'html-load.com')
 thetruthaboutcars.com#%#//scriptlet('json-prune', 'USER.features.ad_shield')
 corral.net,e46fanatics.com,jeepforum.com,ifish.net,frugalvillage.com,menstennisforums.com##div[spottype]
@@ -22378,6 +22378,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 techarmor.xyz##.my-ad-container
+hide.cx##.min-h-\[670px\]._min-h-\[274px\]
 genshin-center.com##div[class^="units_lb1Wrapper_"]
 genshin-center.com##div[class^="units_mpuWrapper_"]
 pcgamesn.com,wargamer.com##body .sn-placement:not(#style_important)
@@ -47967,7 +47968,6 @@ _prebid.js$script
 =300x250/
 =336x280,
 =468x60/
-=468x60_
 =468x80_
 =728x90/
 _120_600.
@@ -62140,8 +62140,6 @@ browsershots.org#@#.advert_area
 ||auditude.com^
 ||buyeasy.by^
 ||demand.supply^$script
-||dmiiqrlkypdmw.online^
-||fiizbmjzykchn.website^
 ||fwmrm.net^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
@@ -62153,11 +62151,9 @@ browsershots.org#@#.advert_area
 ||ntv.io^
 ||ojrq.net^
 ||paid.outbrain.com^
-||queasy-regular.pro^
 ||redirectingat.com^
 ||rubiconproject.com^
 ||totaladblock.com^
-||tyybhgldnupn.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
 ||0i0i0i0.com^$document
@@ -69268,6 +69264,7 @@ browsershots.org#@#.advert_area
 ||pastemytxt.com/download_ad.jpg
 ||path-2-happiness.com/*/select_adv
 ||patient.info/scripts/doda.js
+||paypalobjects.com/web/res/*/js/ad.js
 ||pcexpress.ca/pcx-bff/api/v2/media/ads^
 ||pcmag.com/js/alpine/$domain=speedtest.net
 ||pelisfree.site/js/script_
@@ -70287,7 +70284,7 @@ nextdoor.com###ad
 ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
 nationalrail.co.uk###ad-aboveHeader-a-wrapper
 lasvegassun.com###ad-colB-
-getmodsapk.com###ad-container
+getmodsapk.com,paypal.com###ad-container
 astrolis.com###ad-daily
 retrostic.com,sickchirpse.com###ad-header
 livescore.com###ad-holder-gad-news-article-item
@@ -71160,6 +71157,7 @@ ultrabookreview.com###postadsside
 ultrabookreview.com###postzzif
 fastpeoplesearch.com###pradLink
 fastpeoplesearch.com###pradLink + p
+time.com###pre-nav-container
 the-scientist.com###preHeader
 playok.com###pread
 adlice.com###preview-div
@@ -71264,6 +71262,7 @@ koimoi.com###sidebar1
 scotsman.com###sidebarMPU1
 scotsman.com###sidebarMPU2
 ubergizmo.com###sidebar_card_spon
+thebridalbox.com###sidebar_first_ad_container
 trucknetuk.com###sidebarright
 image.pi7.org###sidebarxad
 disqus.com###siderail-sticky-ads-module
@@ -71833,6 +71832,7 @@ vscode.one##._flamelab-ad
 timeout.com##._inlineAdContainer_1nxd6_60
 365scores.com##._main-content_ad__ifF3C
 365scores.com##._main-content_prediction__Gwi2c
+observer.co.uk##._minH-_md_90px
 tampafp.com##._ning_outer
 filerox.com##._ozxowqadvert
 filext.com##.a
@@ -72002,6 +72002,7 @@ imresizer.com##.ad-slot-2-fixed-ad
 imresizer.com##.ad-slot-3-fixed-ad
 cnn.com##.ad-slot-dynamic
 cnn.com##.ad-slot-header__wrapper
+goal.com##.ad-slot-live-score
 barandbench.com##.ad-slot-row-m__ad-Wrapper__cusCS
 oann.com##.ad-slot__ad-label
 cnn.com##.ad-slot__ad-wrapper
@@ -75136,6 +75137,7 @@ hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
 nodejs.libhunt.com##.saashub-ad
 steamladder.com##.salad
+takeuforward.org##.sales-timer-banner
 sherbrookerecord.com##.sam-pro-container
 softonic.com##.sam-slot
 f95zone.to##.samAlignCenter
@@ -75955,6 +75957,7 @@ vodacomsoccer.com##.widget-ad-block
 bollywoodhungama.com##.widget-advert
 boernestar.com##.widget-advert_placement
 wikikeep.com##.widget-area
+nightingaledvs.com##.widget-area--below-post
 superdeluxeedition.com##.widget-bg-image__deal-alert
 cinemaexpress.com##.widget-container-133
 taiyangnews.info##.widget-module__widgetWrapper__Rzg0s
@@ -76609,7 +76612,6 @@ tennisworldusa.org##[style="width:300px;min-height:250px;"]
 newagebd.net##[style^="float:left; width:320px;"]
 hsreplay.net##[style^="min-height: 90px;"]
 decrypt.co##[style^="min-width: 728px;"]
-perchance.org##[style^="position: fixed;"]:not(#localMediaGallery_root)
 filmdaily.co,gelbooru.com,integral-calculator.com,twcenter.net##[style^="width: 728px;"]
 mn4u.net##[style^="width:336px!important;"]
 klto9.com##[style^="width:336px"]
@@ -110696,6 +110698,8 @@ kizi.com#%#window.google_trackConversion = function() {};
 @@||blocket.se^*/xtcore.js
 @@||reseguiden.se^*.siteCatalyst.js
 ||fastwebtrends.com^
+||sapnest.com^
+||scentedkindly.com^
 $removeparam=elqTrackId
 $removeparam=elq
 $removeparam=elqaid
@@ -115412,6 +115416,8 @@ cmp.focus.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9[title*="Z
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+properstar.co.uk#%#//scriptlet('trusted-click-element', '.consent .btn-outline-secondary, .consent-settings-modal-content .consent-buttons .btn-primary', '', '1500')
+gzt.com#%#//scriptlet('set-cookie', 'kvkk-accepted', 'true')
 racer.com#$##termly-code-snippet-support { display: none !important; }
 racer.com#$#body[class^="termly-styles-preventBodyScroll-"] { overflow: auto !important; }
 racer.com#%#//scriptlet('trusted-click-element', '#termly-code-snippet-support .t-preference-button, #termly-code-snippet-support .t-checkBox--performance, #termly-code-snippet-support .t-checkBox--social_networking, #termly-code-snippet-support .t-saveButton')
@@ -115741,7 +115747,7 @@ revolutionrace.pl#$#body.body--modal { position: static !important; }
 food.cloud###ConsentBanner
 joybuy.de#%#//scriptlet('trusted-set-cookie', 'cookie_consent', '%7B%22e%22%3A1%2C%22f%22%3A0%2C%22a%22%3A0%2C%22t%22%3A0%7D')
 notebooki.pl,zegaris.pl,goodsport.pl#%#//scriptlet('trusted-click-element', '#cc--main button[class="c-bn"], #cc--main button#s-rall-bn', '!cookie:cc_cookie')
-mt.gov,3trolle.pl,premiumtech.pl,tri-elektro.pl,yoer.pl#%#//scriptlet('trusted-click-element', '#cc--main button.c-bn.c_link, #cc--main button#s-rall-bn', '!cookie:cc_cookie')
+chery.com.tr,mt.gov,3trolle.pl,premiumtech.pl,tri-elektro.pl,yoer.pl#%#//scriptlet('trusted-click-element', '#cc--main button.c-bn.c_link, #cc--main button#s-rall-bn', '!cookie:cc_cookie')
 finax.eu#%#//scriptlet('trusted-set-cookie', 'cookieconsent', '{"analytic":false,"preferential":false,"marketing":false,"enhanced_conversions":false}')
 pttavm.com#%#//scriptlet('set-local-storage-item', 'cookie_status', '1')
 kia.com#%#//scriptlet('set-cookie', 'agn_push', '1')
@@ -119633,7 +119639,7 @@ tddomovoy.ru##.block_mess_cookies
 crispedge.com##.load-accept-cookies
 nta.co.jp##.ImCmpApp
 ertflix.gr##div[class^="CookiePolicyInfo__"]
-interhurt.net,klient.gdansk.uw.gov.pl,scantour.ru,skpari.ru,dobry.ru,ugursaat.com.tr,klient.interrisk.pl,mysky-shop.pl,classen.pl,snackit.eu,lajkonik.pl,blsslovakiavisa.com,imgtray.com,dybank.com.tr,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,alpindustria.ru,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,promax.media.pl,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,tripster.ru,segodnya.ua,blog.nubank.com.br,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,gramota.ru,brokenranks.com,poisondrop.ru,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz,wybory.gov.pl##.cookies
+vancouverok.com,interhurt.net,klient.gdansk.uw.gov.pl,scantour.ru,skpari.ru,dobry.ru,ugursaat.com.tr,klient.interrisk.pl,mysky-shop.pl,classen.pl,snackit.eu,lajkonik.pl,blsslovakiavisa.com,imgtray.com,dybank.com.tr,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,alpindustria.ru,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,promax.media.pl,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,tripster.ru,segodnya.ua,blog.nubank.com.br,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,gramota.ru,brokenranks.com,poisondrop.ru,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz,wybory.gov.pl##.cookies
 jumbomail.me##.cookies-usage-panel
 journal.lemonde.fr##.gdpr-lmd-standard
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr
@@ -169472,6 +169478,8 @@ cmp.focus.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9[title*="Z
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+properstar.co.uk#%#//scriptlet('trusted-click-element', '.consent .btn-outline-secondary, .consent-settings-modal-content .consent-buttons .btn-primary', '', '1500')
+gzt.com#%#//scriptlet('set-cookie', 'kvkk-accepted', 'true')
 racer.com#$##termly-code-snippet-support { display: none !important; }
 racer.com#$#body[class^="termly-styles-preventBodyScroll-"] { overflow: auto !important; }
 racer.com#%#//scriptlet('trusted-click-element', '#termly-code-snippet-support .t-preference-button, #termly-code-snippet-support .t-checkBox--performance, #termly-code-snippet-support .t-checkBox--social_networking, #termly-code-snippet-support .t-saveButton')
@@ -169801,7 +169809,7 @@ revolutionrace.pl#$#body.body--modal { position: static !important; }
 food.cloud###ConsentBanner
 joybuy.de#%#//scriptlet('trusted-set-cookie', 'cookie_consent', '%7B%22e%22%3A1%2C%22f%22%3A0%2C%22a%22%3A0%2C%22t%22%3A0%7D')
 notebooki.pl,zegaris.pl,goodsport.pl#%#//scriptlet('trusted-click-element', '#cc--main button[class="c-bn"], #cc--main button#s-rall-bn', '!cookie:cc_cookie')
-mt.gov,3trolle.pl,premiumtech.pl,tri-elektro.pl,yoer.pl#%#//scriptlet('trusted-click-element', '#cc--main button.c-bn.c_link, #cc--main button#s-rall-bn', '!cookie:cc_cookie')
+chery.com.tr,mt.gov,3trolle.pl,premiumtech.pl,tri-elektro.pl,yoer.pl#%#//scriptlet('trusted-click-element', '#cc--main button.c-bn.c_link, #cc--main button#s-rall-bn', '!cookie:cc_cookie')
 finax.eu#%#//scriptlet('trusted-set-cookie', 'cookieconsent', '{"analytic":false,"preferential":false,"marketing":false,"enhanced_conversions":false}')
 pttavm.com#%#//scriptlet('set-local-storage-item', 'cookie_status', '1')
 kia.com#%#//scriptlet('set-cookie', 'agn_push', '1')
@@ -173693,7 +173701,7 @@ tddomovoy.ru##.block_mess_cookies
 crispedge.com##.load-accept-cookies
 nta.co.jp##.ImCmpApp
 ertflix.gr##div[class^="CookiePolicyInfo__"]
-interhurt.net,klient.gdansk.uw.gov.pl,scantour.ru,skpari.ru,dobry.ru,ugursaat.com.tr,klient.interrisk.pl,mysky-shop.pl,classen.pl,snackit.eu,lajkonik.pl,blsslovakiavisa.com,imgtray.com,dybank.com.tr,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,alpindustria.ru,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,promax.media.pl,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,tripster.ru,segodnya.ua,blog.nubank.com.br,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,gramota.ru,brokenranks.com,poisondrop.ru,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz,wybory.gov.pl##.cookies
+vancouverok.com,interhurt.net,klient.gdansk.uw.gov.pl,scantour.ru,skpari.ru,dobry.ru,ugursaat.com.tr,klient.interrisk.pl,mysky-shop.pl,classen.pl,snackit.eu,lajkonik.pl,blsslovakiavisa.com,imgtray.com,dybank.com.tr,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,alpindustria.ru,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,promax.media.pl,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,tripster.ru,segodnya.ua,blog.nubank.com.br,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,gramota.ru,brokenranks.com,poisondrop.ru,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,dozapteka.pl,u24.gov.ua,calltouch.ru,vlab.cz,wybory.gov.pl##.cookies
 jumbomail.me##.cookies-usage-panel
 journal.lemonde.fr##.gdpr-lmd-standard
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr
@@ -237085,6 +237093,7 @@ wss://*.*.top/$third-party
 .cn/cS389.js
 ||uaa.com/js/dxj.
 uaa.com##.popup_dialog_box
+wss://*.com:29*/$third-party
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
@@ -239355,7 +239364,6 @@ _prebid.js$script
 =300x250/
 =336x280,
 =468x60/
-=468x60_
 =468x80_
 =728x90/
 _120_600.
@@ -253524,6 +253532,7 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
+||8h4tit96p2wmlxvh7r.cfd^
 ||admitad.com^
 ||ads-static.conde.digital^
 ||alipromo.com^
@@ -253532,13 +253541,11 @@ browsershots.org#@#.advert_area
 ||auditude.com^
 ||buyeasy.by^
 ||demand.supply^$script
-||dmiiqrlkypdmw.online^
-||fiizbmjzykchn.website^
 ||fwmrm.net^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
 ||imasdk.googleapis.com^
-||kipvptyusewoq.space^
+||inbyeabnetretried.cfd^
 ||kqzyfj.com^
 ||loadercdn.com^
 ||macro.adnami.io^
@@ -253546,13 +253553,14 @@ browsershots.org#@#.advert_area
 ||ntv.io^
 ||ojrq.net^
 ||paid.outbrain.com^
-||queasy-regular.pro^
 ||redirectingat.com^
 ||rubiconproject.com^
 ||totaladblock.com^
-||tyybhgldnupn.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
+||wyhyxqjm.com^
+||xsmeqhlcpsiyk.space^
+||xwsixfdmrazgs.site^
 ||0i0i0i0.com^$document
 ||123-stream.org^$document
 ||1asb.com^$document
@@ -260670,6 +260678,7 @@ browsershots.org#@#.advert_area
 ||pastemytxt.com/download_ad.jpg
 ||path-2-happiness.com/*/select_adv
 ||patient.info/scripts/doda.js
+||paypalobjects.com/web/res/*/js/ad.js
 ||pcexpress.ca/pcx-bff/api/v2/media/ads^
 ||pcmag.com/js/alpine/$domain=speedtest.net
 ||pelisfree.site/js/script_
@@ -261690,7 +261699,7 @@ nextdoor.com###ad
 ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
 nationalrail.co.uk###ad-aboveHeader-a-wrapper
 lasvegassun.com###ad-colB-
-getmodsapk.com###ad-container
+getmodsapk.com,paypal.com###ad-container
 astrolis.com###ad-daily
 retrostic.com,sickchirpse.com###ad-header
 livescore.com###ad-holder-gad-news-article-item
@@ -262563,6 +262572,7 @@ ultrabookreview.com###postadsside
 ultrabookreview.com###postzzif
 fastpeoplesearch.com###pradLink
 fastpeoplesearch.com###pradLink + p
+time.com###pre-nav-container
 the-scientist.com###preHeader
 playok.com###pread
 adlice.com###preview-div
@@ -262667,6 +262677,7 @@ koimoi.com###sidebar1
 scotsman.com###sidebarMPU1
 scotsman.com###sidebarMPU2
 ubergizmo.com###sidebar_card_spon
+thebridalbox.com###sidebar_first_ad_container
 trucknetuk.com###sidebarright
 image.pi7.org###sidebarxad
 disqus.com###siderail-sticky-ads-module
@@ -263236,6 +263247,7 @@ vscode.one##._flamelab-ad
 timeout.com##._inlineAdContainer_1nxd6_60
 365scores.com##._main-content_ad__ifF3C
 365scores.com##._main-content_prediction__Gwi2c
+observer.co.uk##._minH-_md_90px
 tampafp.com##._ning_outer
 filerox.com##._ozxowqadvert
 filext.com##.a
@@ -263405,6 +263417,7 @@ imresizer.com##.ad-slot-2-fixed-ad
 imresizer.com##.ad-slot-3-fixed-ad
 cnn.com##.ad-slot-dynamic
 cnn.com##.ad-slot-header__wrapper
+goal.com##.ad-slot-live-score
 barandbench.com##.ad-slot-row-m__ad-Wrapper__cusCS
 oann.com##.ad-slot__ad-label
 cnn.com##.ad-slot__ad-wrapper
@@ -266540,6 +266553,7 @@ hope1032.com.au##.s-supported-by
 japantoday.com##.s10r
 nodejs.libhunt.com##.saashub-ad
 steamladder.com##.salad
+takeuforward.org##.sales-timer-banner
 sherbrookerecord.com##.sam-pro-container
 softonic.com##.sam-slot
 f95zone.to##.samAlignCenter
@@ -267359,6 +267373,7 @@ vodacomsoccer.com##.widget-ad-block
 bollywoodhungama.com##.widget-advert
 boernestar.com##.widget-advert_placement
 wikikeep.com##.widget-area
+nightingaledvs.com##.widget-area--below-post
 superdeluxeedition.com##.widget-bg-image__deal-alert
 cinemaexpress.com##.widget-container-133
 taiyangnews.info##.widget-module__widgetWrapper__Rzg0s
@@ -268013,7 +268028,6 @@ tennisworldusa.org##[style="width:300px;min-height:250px;"]
 newagebd.net##[style^="float:left; width:320px;"]
 hsreplay.net##[style^="min-height: 90px;"]
 decrypt.co##[style^="min-width: 728px;"]
-perchance.org##[style^="position: fixed;"]:not(#localMediaGallery_root)
 filmdaily.co,gelbooru.com,integral-calculator.com,twcenter.net##[style^="width: 728px;"]
 mn4u.net##[style^="width:336px!important;"]
 klto9.com##[style^="width:336px"]
@@ -275070,6 +275084,7 @@ _WebVitalsReporter_
 .acemlna.com/Prod/link-tracker?$image
 .acemlnb.com/Prod/link-tracker?$image
 .alcmpn.com/
+.animatebookstore.com/c/$image
 .aozorabank.co.jp/r/*/open/$image
 .app.returnpath.net/
 .aveda.com/t/$image
@@ -275169,6 +275184,7 @@ _WebVitalsReporter_
 .pledgebox.com/t/$image
 .pstmrk.it/open^
 .publish0x.com/t/
+.qualtrics.com/subscription/watermark.gif?
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
 .redsift.com/e/o/$image
@@ -275783,6 +275799,7 @@ omni.soundestlink.com$image
 ||aamsitecertifier.com^$third-party
 ||aaxdetect.com^$third-party
 ||abcstats.com^$third-party
+||ablecdp.com^$third-party
 ||ablsrv.com^$third-party
 ||ablyft.com^$third-party
 ||abmr.net^$third-party
@@ -277063,6 +277080,7 @@ omni.soundestlink.com$image
 ||measured.com^$third-party
 ||measuremap.com^$third-party
 ||measurementapi.com^$third-party
+||media.net^$third-party
 ||media01.eu^$third-party
 ||mediaarmor.com^$third-party
 ||mediaforgews.com^$third-party
@@ -278401,6 +278419,8 @@ omni.soundestlink.com$image
 ||xmrpool.net^$third-party
 ||zlx.com.br^$third-party
 ||fastwebtrends.com^
+||sapnest.com^
+||scentedkindly.com^
 ||actirinius.com^$third-party
 ||aimtell.com^$third-party
 ||alertme.news^$third-party
@@ -279767,6 +279787,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.stamped.io/cdn/images/pixel.png
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
 ||cdn.super.com/remote-event-registry.json
+||cdn.tolt.io/tolt.js
 ||cdn.zg-api.com^*/analytics.js
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
@@ -305950,6 +305971,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||play.pp9yy.com/hall/v1/netstat/
 ||ta.sanook.com^
 ||thairath.co.th/event/
+||a.n11.com^
 ||c.gazetevatan.com^
 ||cimri.com/api/pixel
 ||giquhome.com/0/sendEventV2
@@ -313441,6 +313463,8 @@ www.cambe.pr.gov.br##+js(noeval-if, tigervip2)
 ||clinitex.fr/META5KYC/$doc
 ||metamask*.webflow.io^$doc
 ||keychron.in/wp-includes/certificates/home^$all
+||metamask-support.io^$all
+||mertamask.com^$all
 /\.(?:cc|com|top|vip)\/index\/index\/lang\/[a-z]{2}-[a-z]{2}\b/$doc,to=cc|com|top|vip
 /index/index/*Trade/tradelist^$doc
 ||bitvavo*.cc^$doc
@@ -314694,7 +314718,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||01.d55u5.ru^
 ||012.zenith-snap.ru^
 ||028.11u812580.ru^
-||02a.mg-1-u-5.ru^
 ||03.obvp2.ru^
 ||03.su4n.ru^
 ||034d2.bl8205.ru^
@@ -314719,11 +314742,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||09o.ap2thsh0pk.ru^
 ||0a.k59ee.ru^
 ||0a9bd.softcr5st.ru^
-||0bd.ldef4.ru^
 ||0c.dzem-4.ru^
 ||0dmtxln9.afriteblurbcepes.ru^
 ||0do79h4s.blueh1ll.ru^
-||0e.hnaq6.ru^
 ||0ec.barg5t0get.ru^
 ||0ej.frostc0met.ru^
 ||0er.owlflug.ru^
@@ -314761,7 +314782,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||0q.xvo4.ru^
 ||0s.frostbranch.ru^
 ||0ti.night-bloom.ru^
-||0tl.hnaq6.ru^
 ||0tmh.frostc0met.ru^
 ||0u.idi0tnau8h.ru^
 ||0up.sunsh1ne.ru^
@@ -314803,6 +314823,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||1.181.224.39^
 ||1.181.227.38^
 ||1.181.227.62^
+||1.181.227.74^
 ||1.190.158.27^
 ||1.196.78.212^
 ||1.196.90.69^
@@ -314834,7 +314855,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||1.94.108.127^
 ||1.94.184.17^
 ||1.off3.ru^
-||1.wsit4.ru^
 ||10.bracket-fern.ru^
 ||10.glacierbruecke.ru^
 ||10.k59ee.ru^
@@ -314846,7 +314866,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||101.127.143.2^
 ||101.132.148.165^
 ||101.168.47.205^
-||101.200.220.118^
 ||101.226.8.163^
 ||101.255.92.202^
 ||101.33.243.139^
@@ -314860,7 +314879,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||101.43.58.190^
 ||101.43.91.156^
 ||101.58.64.137^
-||101.68.204.84^
 ||101.99.233.30^
 ||101.99.90.40^
 ||102.130.245.28^
@@ -314918,6 +314936,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.150.186.125^
 ||103.153.93.18^
 ||103.154.90.21^
+||103.155.93.183^
 ||103.156.141.240^
 ||103.158.175.183^
 ||103.159.221.33^
@@ -314958,13 +314977,14 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.205.253.253^
 ||103.206.139.61^
 ||103.208.104.102^
+||103.208.181.67^
 ||103.208.202.85^
 ||103.209.67.34^
 ||103.212.53.219^
 ||103.216.179.178^
+||103.217.215.238^
 ||103.226.249.227^
 ||103.226.72.176^
-||103.227.118.45^
 ||103.23.149.233^
 ||103.231.12.171^
 ||103.231.12.172^
@@ -315002,7 +315022,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.27.157.202^
 ||103.27.157.60^
 ||103.28.204.208^
-||103.28.227.58^
 ||103.28.61.82^
 ||103.30.77.154^
 ||103.30.85.58^
@@ -315016,6 +315035,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.39.139.222^
 ||103.40.13.122^
 ||103.43.128.123^
+||103.43.18.19^
+||103.43.6.114^
 ||103.43.6.118^
 ||103.43.8.166^
 ||103.51.144.60^
@@ -315053,8 +315074,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.67.52.144^
 ||103.7.27.90^
 ||103.70.147.42^
-||103.70.204.249^
-||103.70.204.50^
 ||103.71.46.122^
 ||103.73.160.115^
 ||103.73.66.43^
@@ -315072,7 +315091,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.77.241.43^
 ||103.77.246.136^
 ||103.78.13.52^
-||103.79.114.28^
 ||103.79.114.29^
 ||103.8.164.18^
 ||103.82.37.232^
@@ -315085,7 +315103,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.85.20.97^
 ||103.85.4.130^
 ||103.86.182.176^
-||103.90.205.115^
 ||103.90.207.139^
 ||103.90.207.13^
 ||103.90.207.234^
@@ -315096,6 +315113,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||103.96.73.64^
 ||103.96.75.2^
 ||103.98.38.229^
+||104.131.89.219^
 ||104.168.0.133^
 ||104.168.7.52^
 ||104.193.63.208^
@@ -315184,6 +315202,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||107.173.180.173^
 ||107.174.142.52^
 ||107.174.33.15^
+||107.174.65.53^
 ||107.174.76.246^
 ||107.174.95.25^
 ||107.175.242.93^
@@ -315224,8 +315243,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||109.115.242.166^
 ||109.121.142.86^
 ||109.123.232.177^
-||109.160.87.2^
-||109.162.180.211^
 ||109.171.30.19^
 ||109.193.105.79^
 ||109.200.137.235^
@@ -315243,6 +315260,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||109.60.161.184^
 ||109.61.150.234^
 ||109.69.79.44^
+||109.73.242.146^
 ||109.74.204.206^
 ||109.86.237.250^
 ||109.92.143.90^
@@ -315255,10 +315273,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||10zseo44.5kylight.ru^
 ||11.4355ptdown.bulubulue.cn^
 ||11.briarhaven.ru^
-||11.ss-9-y-4.ru^
 ||11.t4mox.ru^
 ||110.138.113.246^
-||110.177.100.171^
 ||110.177.110.34^
 ||110.182.236.10^
 ||110.227.197.204^
@@ -315294,7 +315310,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||110.36.16.186^
 ||110.36.16.68^
 ||110.36.16.78^
+||110.36.16.99^
 ||110.36.17.177^
+||110.36.26.158^
 ||110.36.29.208^
 ||110.36.29.75^
 ||110.36.29.76^
@@ -315438,6 +315456,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||110.37.31.198^
 ||110.37.32.134^
 ||110.37.33.101^
+||110.37.33.191^
 ||110.37.33.197^
 ||110.37.33.206^
 ||110.37.33.39^
@@ -315547,6 +315566,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||110.37.68.141^
 ||110.37.68.172^
 ||110.37.68.195^
+||110.37.68.236^
 ||110.37.69.187^
 ||110.37.69.207^
 ||110.37.69.220^
@@ -315591,6 +315611,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||110.37.86.32^
 ||110.37.87.178^
 ||110.37.87.223^
+||110.37.87.232^
 ||110.37.87.96^
 ||110.37.89.12^
 ||110.37.89.47^
@@ -315823,6 +315844,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||112.157.174.69^
 ||112.166.215.247^
 ||112.166.251.156^
+||112.18.10.80^
 ||112.185.135.210^
 ||112.194.28.129^
 ||112.194.28.169^
@@ -315882,7 +315904,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||112.237.108.33^
 ||112.237.111.91^
 ||112.237.153.199^
-||112.237.154.133^
 ||112.237.197.146^
 ||112.237.211.134^
 ||112.237.226.34^
@@ -316051,7 +316072,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||112.248.118.35^
 ||112.248.119.113^
 ||112.248.125.80^
-||112.248.127.169^
 ||112.248.138.208^
 ||112.248.138.76^
 ||112.248.141.127^
@@ -316122,7 +316142,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||112.248.81.6^
 ||112.248.81.73^
 ||112.248.81.77^
-||112.248.82.156^
 ||112.248.83.0^
 ||112.249.164.116^
 ||112.249.165.95^
@@ -316215,6 +316234,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||113.206.74.246^
 ||113.206.99.134^
 ||113.21.120.35^
+||113.218.212.151^
 ||113.218.212.221^
 ||113.218.212.228^
 ||113.218.212.55^
@@ -316233,10 +316253,14 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||113.221.12.46^
 ||113.221.24.130^
 ||113.221.26.58^
+||113.221.27.197^
 ||113.221.36.178^
+||113.221.37.218^
 ||113.221.38.41^
 ||113.221.39.46^
 ||113.221.43.176^
+||113.221.45.139^
+||113.221.45.93^
 ||113.221.56.16^
 ||113.221.56.68^
 ||113.221.57.152^
@@ -316454,7 +316478,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||113.237.4.248^
 ||113.237.42.170^
 ||113.237.47.53^
-||113.237.48.169^
 ||113.237.48.236^
 ||113.237.52.217^
 ||113.237.55.144^
@@ -316494,6 +316517,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||113.238.71.130^
 ||113.238.76.46^
 ||113.238.96.7^
+||113.238.98.51^
 ||113.239.102.7^
 ||113.239.117.254^
 ||113.239.121.105^
@@ -316548,10 +316572,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||113.251.67.169^
 ||113.251.73.207^
 ||113.251.73.241^
+||113.251.83.92^
 ||113.253.116.252^
 ||113.30.149.154^
 ||113.44.67.52^
-||113.44.76.133^
 ||113.44.76.47^
 ||113.45.205.53^
 ||113.47.12.71^
@@ -316582,6 +316606,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||114.226.124.243^
 ||114.226.171.93^
 ||114.226.193.63^
+||114.226.203.73^
 ||114.226.206.81^
 ||114.226.207.0^
 ||114.226.207.37^
@@ -316608,7 +316633,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||114.239.34.159^
 ||114.239.57.154^
 ||114.239.63.205^
-||114.239.91.198^
 ||114.242.100.72^
 ||114.31.8.22^
 ||114.31.8.25^
@@ -316618,14 +316642,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||114.55.106.136^
 ||114.66.38.114^
 ||114.66.51.223^
-||114.66.52.198^
 ||114.67.181.194^
 ||114.7.160.114^
 ||114.7.209.193^
 ||115.120.198.246^
 ||115.127.68.162^
 ||115.127.75.219^
-||115.159.149.113^
 ||115.160.65.124^
 ||115.160.65.71^
 ||115.178.100.190^
@@ -316636,6 +316658,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.190.178.249^
 ||115.190.22.7^
 ||115.190.235.92^
+||115.190.237.175^
 ||115.190.58.252^
 ||115.199.60.255^
 ||115.204.215.172^
@@ -316693,7 +316716,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.48.146.33^
 ||115.48.147.104^
 ||115.48.147.142^
-||115.48.147.186^
 ||115.48.147.194^
 ||115.48.147.30^
 ||115.48.148.128^
@@ -316765,6 +316787,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.48.16.176^
 ||115.48.16.99^
 ||115.48.160.162^
+||115.48.160.172^
 ||115.48.160.228^
 ||115.48.160.24^
 ||115.48.160.38^
@@ -316812,7 +316835,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.48.3.125^
 ||115.48.34.211^
 ||115.48.34.246^
-||115.48.35.248^
 ||115.48.44.32^
 ||115.48.48.203^
 ||115.48.5.9^
@@ -316959,6 +316981,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.49.5.90^
 ||115.49.6.144^
 ||115.49.6.222^
+||115.49.6.235^
 ||115.49.64.188^
 ||115.49.64.201^
 ||115.49.64.210^
@@ -317041,7 +317064,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.50.179.183^
 ||115.50.179.43^
 ||115.50.18.98^
-||115.50.181.28^
 ||115.50.182.220^
 ||115.50.184.118^
 ||115.50.185.58^
@@ -317159,7 +317181,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.50.5.30^
 ||115.50.51.182^
 ||115.50.54.102^
-||115.50.57.73^
 ||115.50.59.165^
 ||115.50.59.38^
 ||115.50.6.218^
@@ -317204,7 +317225,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.50.93.123^
 ||115.50.93.236^
 ||115.50.93.32^
-||115.50.94.127^
 ||115.50.95.61^
 ||115.50.97.52^
 ||115.51.1.129^
@@ -317377,6 +317397,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.53.221.70^
 ||115.53.221.87^
 ||115.53.222.142^
+||115.53.222.167^
 ||115.53.223.75^
 ||115.53.23.120^
 ||115.53.23.211^
@@ -317384,6 +317405,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.53.242.174^
 ||115.53.242.77^
 ||115.53.243.110^
+||115.53.243.132^
 ||115.53.244.247^
 ||115.53.246.150^
 ||115.53.246.47^
@@ -317410,6 +317432,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.54.127.9^
 ||115.54.128.193^
 ||115.54.128.214^
+||115.54.128.98^
 ||115.54.131.15^
 ||115.54.134.124^
 ||115.54.135.109^
@@ -317530,6 +317553,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.55.195.71^
 ||115.55.196.168^
 ||115.55.196.199^
+||115.55.196.246^
 ||115.55.196.90^
 ||115.55.197.62^
 ||115.55.198.174^
@@ -317575,6 +317599,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.55.225.178^
 ||115.55.225.232^
 ||115.55.225.63^
+||115.55.225.7^
 ||115.55.225.82^
 ||115.55.225.85^
 ||115.55.225.9^
@@ -317588,7 +317613,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.55.228.106^
 ||115.55.228.201^
 ||115.55.228.202^
-||115.55.229.163^
 ||115.55.229.239^
 ||115.55.229.252^
 ||115.55.23.250^
@@ -317654,6 +317678,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.55.254.9^
 ||115.55.255.160^
 ||115.55.255.203^
+||115.55.255.244^
 ||115.55.255.251^
 ||115.55.255.93^
 ||115.55.255.9^
@@ -317729,6 +317754,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.55.58.34^
 ||115.55.58.55^
 ||115.55.58.71^
+||115.55.58.84^
 ||115.55.59.177^
 ||115.55.59.178^
 ||115.55.59.185^
@@ -317803,6 +317829,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.56.144.30^
 ||115.56.145.113^
 ||115.56.146.139^
+||115.56.146.181^
 ||115.56.146.227^
 ||115.56.146.240^
 ||115.56.146.249^
@@ -317966,6 +317993,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.57.228.91^
 ||115.57.229.209^
 ||115.57.229.84^
+||115.57.230.145^
 ||115.57.230.204^
 ||115.57.230.246^
 ||115.57.230.88^
@@ -318090,6 +318118,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.58.85.91^
 ||115.58.86.115^
 ||115.58.86.176^
+||115.58.86.207^
 ||115.58.86.212^
 ||115.58.86.216^
 ||115.58.86.28^
@@ -318150,7 +318179,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.59.4.23^
 ||115.59.4.94^
 ||115.59.5.247^
-||115.59.5.59^
 ||115.59.6.8^
 ||115.59.60.112^
 ||115.59.69.216^
@@ -318254,13 +318282,14 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.61.15.187^
 ||115.61.15.229^
 ||115.61.15.47^
+||115.61.16.253^
 ||115.61.17.0^
 ||115.61.17.11^
 ||115.61.17.48^
-||115.61.18.195^
 ||115.61.19.97^
 ||115.61.2.105^
 ||115.61.2.35^
+||115.61.236.173^
 ||115.61.238.106^
 ||115.61.239.63^
 ||115.61.242.107^
@@ -318294,6 +318323,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.62.145.108^
 ||115.62.145.15^
 ||115.62.147.123^
+||115.62.147.80^
 ||115.62.148.143^
 ||115.62.149.49^
 ||115.62.151.201^
@@ -318375,6 +318405,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.63.181.16^
 ||115.63.181.66^
 ||115.63.181.77^
+||115.63.182.239^
 ||115.63.182.240^
 ||115.63.183.12^
 ||115.63.187.125^
@@ -318389,8 +318420,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||115.63.203.206^
 ||115.63.203.51^
 ||115.63.204.208^
+||115.63.204.68^
 ||115.63.206.175^
-||115.63.207.218^
 ||115.63.229.129^
 ||115.63.231.195^
 ||115.63.240.172^
@@ -318504,6 +318535,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||116.138.107.209^
 ||116.138.108.62^
 ||116.138.108.82^
+||116.138.109.164^
 ||116.138.109.34^
 ||116.138.109.38^
 ||116.138.109.39^
@@ -318621,6 +318653,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||116.48.27.129^
 ||116.48.27.143^
 ||116.48.27.144^
+||116.48.27.182^
 ||116.48.27.216^
 ||116.48.27.29^
 ||116.48.27.3^
@@ -318714,6 +318747,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.199.73.108^
 ||117.199.73.20^
 ||117.199.77.239^
+||117.199.77.240^
 ||117.20.16.99^
 ||117.20.27.25^
 ||117.200.114.67^
@@ -318809,6 +318843,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.206.20.172^
 ||117.206.20.75^
 ||117.206.26.190^
+||117.206.27.122^
 ||117.206.27.124^
 ||117.206.27.192^
 ||117.206.29.31^
@@ -318913,6 +318948,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.209.16.242^
 ||117.209.16.24^
 ||117.209.16.32^
+||117.209.16.3^
 ||117.209.16.45^
 ||117.209.16.48^
 ||117.209.16.59^
@@ -319238,7 +319274,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.209.89.55^
 ||117.209.89.62^
 ||117.209.89.81^
-||117.209.89.82^
 ||117.209.89.85^
 ||117.209.89.90^
 ||117.209.89.93^
@@ -319341,6 +319376,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.209.95.88^
 ||117.209.95.89^
 ||117.209.95.90^
+||117.210.211.194^
 ||117.210.214.164^
 ||117.211.145.153^
 ||117.211.147.55^
@@ -319369,6 +319405,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.212.175.80^
 ||117.212.18.143^
 ||117.212.20.107^
+||117.212.24.55^
 ||117.212.30.210^
 ||117.212.30.61^
 ||117.212.31.38^
@@ -319387,7 +319424,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.213.91.205^
 ||117.214.225.116^
 ||117.215.129.210^
-||117.215.129.223^
 ||117.215.133.182^
 ||117.215.148.183^
 ||117.215.151.109^
@@ -319607,6 +319643,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.247.208.124^
 ||117.247.213.187^
 ||117.247.215.18^
+||117.247.215.94^
 ||117.247.29.39^
 ||117.248.0.172^
 ||117.248.24.105^
@@ -319659,7 +319696,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||117.254.181.203^
 ||117.254.182.25^
 ||117.254.96.19^
-||117.254.97.155^
 ||117.254.97.32^
 ||117.254.97.41^
 ||117.254.97.69^
@@ -319715,7 +319751,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||118.127.112.49^
 ||118.139.167.36^
 ||118.141.249.234^
-||118.178.133.241^
 ||118.178.135.188^
 ||118.178.231.121^
 ||118.179.121.235^
@@ -319741,8 +319776,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||118.248.37.80^
 ||118.248.37.84^
 ||118.248.73.241^
-||118.25.68.152^
-||118.25.85.198^
 ||118.25.91.151^
 ||118.250.11.190^
 ||118.250.9.253^
@@ -319856,7 +319889,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||119.116.34.220^
 ||119.116.34.34^
 ||119.116.35.64^
-||119.116.35.97^
 ||119.116.36.124^
 ||119.116.36.20^
 ||119.116.36.245^
@@ -319927,15 +319959,16 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||119.119.255.26^
 ||119.119.255.69^
 ||119.123.217.39^
+||119.148.103.214^
 ||119.15.241.101^
 ||119.15.92.78^
 ||119.163.232.127^
 ||119.163.233.82^
 ||119.163.25.14^
 ||119.163.73.31^
+||119.164.12.224^
 ||119.164.203.25^
 ||119.164.67.92^
-||119.164.72.70^
 ||119.164.77.226^
 ||119.165.105.192^
 ||119.165.13.10^
@@ -319964,6 +319997,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||119.179.206.133^
 ||119.179.214.101^
 ||119.179.215.0^
+||119.179.215.103^
 ||119.179.215.142^
 ||119.179.215.154^
 ||119.179.215.162^
@@ -320050,6 +320084,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||119.184.63.97^
 ||119.185.142.73^
 ||119.185.164.156^
+||119.185.168.247^
 ||119.185.173.166^
 ||119.185.174.130^
 ||119.185.174.80^
@@ -320063,6 +320098,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||119.185.241.198^
 ||119.185.241.221^
 ||119.185.241.35^
+||119.185.241.69^
 ||119.185.242.108^
 ||119.185.243.178^
 ||119.185.243.243^
@@ -320114,7 +320150,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||119.189.238.239^
 ||119.189.239.131^
 ||119.189.239.162^
-||119.189.239.3^
 ||119.189.246.97^
 ||119.189.252.162^
 ||119.190.16.223^
@@ -320122,16 +320157,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||119.193.158.215^
 ||119.202.194.206^
 ||119.204.138.162^
-||119.206.216.132^
 ||119.235.118.246^
 ||119.236.167.160^
 ||119.237.79.15^
-||119.252.167.172^
 ||119.28.140.233^
 ||119.29.183.182^
 ||119.29.59.103^
-||119.45.105.211^
-||119.45.29.172^
+||119.40.91.22^
 ||119.91.141.214^
 ||119.91.25.19^
 ||119.91.32.154^
@@ -320187,7 +320219,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||120.24.64.74^
 ||120.25.163.165^
 ||120.253.33.107^
-||120.27.207.37^
 ||120.28.110.31^
 ||120.28.116.155^
 ||120.28.119.126^
@@ -320230,7 +320261,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||120.28.197.118^
 ||120.28.197.166^
 ||120.28.197.97^
-||120.28.198.141^
 ||120.28.200.112^
 ||120.28.201.35^
 ||120.28.201.75^
@@ -320287,7 +320317,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||120.50.10.30^
 ||120.50.27.182^
 ||120.56.10.177^
-||120.56.2.92^
 ||120.56.5.121^
 ||120.57.162.9^
 ||120.57.163.58^
@@ -320300,6 +320329,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||120.61.150.34^
 ||120.61.158.87^
 ||120.61.161.122^
+||120.61.170.184^
 ||120.61.192.43^
 ||120.61.196.153^
 ||120.61.202.165^
@@ -320360,12 +320390,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||121.181.169.61^
 ||121.181.185.147^
 ||121.181.234.240^
-||121.183.56.218^
 ||121.184.128.134^
 ||121.200.63.106^
 ||121.202.142.68^
 ||121.202.153.132^
-||121.202.196.93^
 ||121.202.204.227^
 ||121.202.208.107^
 ||121.202.208.237^
@@ -320442,7 +320470,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||122.232.116.131^
 ||122.51.46.102^
 ||122.51.93.94^
-||122.55.206.38^
 ||123.10.0.189^
 ||123.10.0.26^
 ||123.10.11.136^
@@ -320490,7 +320517,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.10.230.34^
 ||123.10.232.40^
 ||123.10.233.158^
-||123.10.233.168^
 ||123.10.233.170^
 ||123.10.233.236^
 ||123.10.233.47^
@@ -320518,7 +320544,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.10.5.209^
 ||123.10.51.111^
 ||123.10.55.59^
-||123.10.60.172^
 ||123.10.61.156^
 ||123.10.63.187^
 ||123.10.7.88^
@@ -320662,6 +320687,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.12.177.162^
 ||123.12.178.218^
 ||123.12.179.111^
+||123.12.181.34^
 ||123.12.186.125^
 ||123.12.187.3^
 ||123.12.19.107^
@@ -320684,6 +320710,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.12.199.173^
 ||123.12.199.186^
 ||123.12.199.251^
+||123.12.199.74^
 ||123.12.199.94^
 ||123.12.20.170^
 ||123.12.21.11^
@@ -320691,7 +320718,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.12.22.175^
 ||123.12.22.249^
 ||123.12.221.241^
-||123.12.221.24^
 ||123.12.223.100^
 ||123.12.223.183^
 ||123.12.223.199^
@@ -320795,6 +320821,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.129.134.92^
 ||123.129.134.9^
 ||123.129.135.167^
+||123.129.135.245^
 ||123.129.135.45^
 ||123.129.135.95^
 ||123.129.152.199^
@@ -320878,6 +320905,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.132.165.60^
 ||123.132.167.238^
 ||123.132.167.44^
+||123.132.167.69^
 ||123.132.180.61^
 ||123.132.182.133^
 ||123.132.185.199^
@@ -320999,7 +321027,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.14.51.234^
 ||123.14.56.111^
 ||123.14.56.154^
-||123.14.56.212^
 ||123.14.57.168^
 ||123.14.57.194^
 ||123.14.57.67^
@@ -321187,12 +321214,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.190.31.208^
 ||123.190.31.244^
 ||123.190.70.154^
-||123.190.74.197^
 ||123.190.74.45^
 ||123.190.88.101^
 ||123.190.90.117^
 ||123.190.94.216^
 ||123.190.95.171^
+||123.200.12.186^
 ||123.205.127.222^
 ||123.207.20.187^
 ||123.209.101.118^
@@ -321229,7 +321256,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.232.219.237^
 ||123.232.43.185^
 ||123.233.150.224^
-||123.233.165.161^
 ||123.234.246.129^
 ||123.235.153.8^
 ||123.235.169.17^
@@ -321249,7 +321275,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.254.111.232^
 ||123.254.111.71^
 ||123.28.10.26^
-||123.28.162.29^
 ||123.30.121.59^
 ||123.4.128.95^
 ||123.4.128.97^
@@ -321282,12 +321307,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.4.191.95^
 ||123.4.192.102^
 ||123.4.193.239^
-||123.4.193.41^
 ||123.4.195.156^
 ||123.4.196.157^
 ||123.4.196.25^
 ||123.4.196.48^
-||123.4.198.129^
 ||123.4.199.206^
 ||123.4.199.254^
 ||123.4.2.12^
@@ -321312,6 +321335,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.4.242.126^
 ||123.4.243.191^
 ||123.4.243.23^
+||123.4.244.202^
 ||123.4.244.39^
 ||123.4.246.153^
 ||123.4.246.165^
@@ -321324,8 +321348,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.4.35.6^
 ||123.4.40.149^
 ||123.4.41.255^
-||123.4.44.46^
-||123.4.44.90^
 ||123.4.45.52^
 ||123.4.45.90^
 ||123.4.46.114^
@@ -321347,6 +321369,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.5.124.162^
 ||123.5.124.185^
 ||123.5.124.236^
+||123.5.124.238^
 ||123.5.125.132^
 ||123.5.125.39^
 ||123.5.126.142^
@@ -321405,7 +321428,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.5.157.227^
 ||123.5.158.125^
 ||123.5.158.193^
-||123.5.158.78^
 ||123.5.159.159^
 ||123.5.159.16^
 ||123.5.159.175^
@@ -321431,7 +321453,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.5.173.131^
 ||123.5.173.155^
 ||123.5.173.67^
-||123.5.173.87^
 ||123.5.174.101^
 ||123.5.174.150^
 ||123.5.174.165^
@@ -321512,6 +321533,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.7.223.57^
 ||123.7.223.85^
 ||123.7.226.139^
+||123.7.226.229^
 ||123.7.226.2^
 ||123.7.227.175^
 ||123.7.227.37^
@@ -321535,6 +321557,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.8.129.16^
 ||123.8.129.222^
 ||123.8.13.44^
+||123.8.13.91^
 ||123.8.130.53^
 ||123.8.14.111^
 ||123.8.14.89^
@@ -321590,7 +321613,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.8.43.60^
 ||123.8.44.46^
 ||123.8.48.176^
-||123.8.48.9^
 ||123.8.49.180^
 ||123.8.49.198^
 ||123.8.51.95^
@@ -321704,10 +321726,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||123.9.85.16^
 ||123.9.87.50^
 ||123.9.88.85^
+||123.9.90.57^
 ||123.9.95.95^
 ||123.99.197.140^
 ||123.99.197.19^
 ||123.99.198.195^
+||123.ywxww.net^
 ||123123-b5b.pages.dev^
 ||124.123.123.15^
 ||124.123.26.174^
@@ -321815,8 +321839,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||124.92.88.108^
 ||124.92.90.124^
 ||124.92.90.83^
+||124.92.91.158^
 ||124.94.164.239^
 ||124.94.166.14^
+||124.94.166.58^
 ||124.94.167.5^
 ||124.94.170.253^
 ||124.94.170.55^
@@ -321889,7 +321915,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.229.245.143^
 ||125.237.36.246^
 ||125.24.11.48^
-||125.24.82.71^
 ||125.246.120.7^
 ||125.25.50.77^
 ||125.253.125.72^
@@ -321983,7 +322008,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.41.136.255^
 ||125.41.137.158^
 ||125.41.137.242^
-||125.41.137.53^
 ||125.41.137.59^
 ||125.41.137.79^
 ||125.41.139.169^
@@ -322123,6 +322147,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.42.27.142^
 ||125.42.29.194^
 ||125.42.33.175^
+||125.42.33.21^
 ||125.42.33.76^
 ||125.42.73.9^
 ||125.42.77.111^
@@ -322143,6 +322168,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.43.146.98^
 ||125.43.146.99^
 ||125.43.147.152^
+||125.43.224.51^
 ||125.43.226.197^
 ||125.43.228.29^
 ||125.43.229.15^
@@ -322153,6 +322179,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.43.24.116^
 ||125.43.24.17^
 ||125.43.24.53^
+||125.43.24.82^
 ||125.43.241.239^
 ||125.43.247.87^
 ||125.43.249.168^
@@ -322175,7 +322202,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.43.35.248^
 ||125.43.35.89^
 ||125.43.36.15^
-||125.43.36.226^
 ||125.43.36.229^
 ||125.43.36.71^
 ||125.43.37.157^
@@ -322213,6 +322239,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.43.83.241^
 ||125.43.83.55^
 ||125.43.88.212^
+||125.43.89.209^
 ||125.43.89.96^
 ||125.43.90.30^
 ||125.43.91.217^
@@ -322220,10 +322247,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.43.92.102^
 ||125.43.92.224^
 ||125.43.92.49^
+||125.43.93.135^
 ||125.43.94.235^
 ||125.43.94.254^
+||125.43.95.142^
 ||125.43.95.175^
-||125.43.95.85^
 ||125.44.118.245^
 ||125.44.155.94^
 ||125.44.156.9^
@@ -322252,6 +322280,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.44.211.123^
 ||125.44.211.172^
 ||125.44.211.55^
+||125.44.212.125^
 ||125.44.212.139^
 ||125.44.213.167^
 ||125.44.214.100^
@@ -322300,7 +322329,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.44.32.214^
 ||125.44.32.251^
 ||125.44.32.85^
-||125.44.33.137^
 ||125.44.33.48^
 ||125.44.33.79^
 ||125.44.33.87^
@@ -322316,6 +322344,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.44.40.120^
 ||125.44.40.205^
 ||125.44.41.133^
+||125.44.41.83^
 ||125.44.43.252^
 ||125.44.43.84^
 ||125.44.44.103^
@@ -322350,7 +322379,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.45.11.196^
 ||125.45.11.201^
 ||125.45.11.226^
-||125.45.11.229^
 ||125.45.11.2^
 ||125.45.146.93^
 ||125.45.156.71^
@@ -322433,6 +322461,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.45.9.65^
 ||125.45.96.89^
 ||125.46.129.17^
+||125.46.132.158^
 ||125.46.144.56^
 ||125.46.145.45^
 ||125.46.147.143^
@@ -322560,6 +322589,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||125.47.86.133^
 ||125.47.86.202^
 ||125.47.86.212^
+||125.47.86.21^
 ||125.47.86.252^
 ||125.47.86.56^
 ||125.47.86.62^
@@ -322595,6 +322625,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||128.199.86.145^
 ||128.241.245.150^
 ||129.0.120.134^
+||129.151.184.17^
 ||129.152.20.82^
 ||129.204.103.151^
 ||129.204.146.115^
@@ -322632,7 +322663,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||130.12.180.72^
 ||130.12.180.76^
 ||130.12.180.85^
+||130.185.193.208^
 ||130.250.191.166^
+||130.43.77.2^
 ||130.94.58.163^
 ||130.94.58.172^
 ||131.108.39.235^
@@ -322683,6 +322716,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||138.188.38.198^
 ||138.188.38.229^
 ||138.188.38.53^
+||138.188.39.130^
 ||138.188.40.77^
 ||138.188.43.72^
 ||138.188.44.244^
@@ -322716,16 +322750,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||139.255.123.227^
 ||139.255.40.124^
 ||139.255.67.189^
-||139.255.97.118^
 ||139.59.121.197^
 ||139.59.246.232^
 ||139.59.247.208^
 ||13p3ause7381df.com^
 ||13rv.wild5ky.ru^
 ||13va.windl1ne.ru^
-||14-0-204-188.static.pccw-hkt.com^
 ||14.0.136.205^
-||14.0.204.188^
 ||14.1.106.185^
 ||14.107.43.120^
 ||14.107.43.128^
@@ -322738,7 +322769,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||14.142.209.198^
 ||14.155.185.72^
 ||14.155.201.196^
-||14.155.220.97^
 ||14.155.235.243^
 ||14.161.6.225^
 ||14.162.157.83^
@@ -322778,6 +322808,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||14.231.206.201^
 ||14.231.241.202^
 ||14.236.120.74^
+||14.236.194.22^
 ||14.237.1.195^
 ||14.237.54.95^
 ||14.240.222.118^
@@ -322794,7 +322825,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||14.245.231.186^
 ||14.245.82.241^
 ||14.245.82.47^
-||14.245.84.157^
 ||14.245.96.157^
 ||14.245.99.14^
 ||14.249.107.216^
@@ -322811,6 +322841,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||14.53.123.70^
 ||14.54.96.182^
 ||14.57.183.208^
+||14.63.68.207^
 ||14.888-c.ru^
 ||14.vqod-2.ru^
 ||140.112.62.119^
@@ -322907,6 +322938,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||145.249.186.153^
 ||145614.spottedhatless.com^
 ||146.0.42.82^
+||146.0.74.122^
 ||146.103.111.128^
 ||146.103.42.112^
 ||146.190.35.87^
@@ -322985,6 +323017,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||151.16.58.234^
 ||151.16.61.0^
 ||151.16.81.38^
+||151.177.122.26^
 ||151.177.149.112^
 ||151.232.184.253^
 ||151.233.58.217^
@@ -323021,14 +323054,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||151.243.95.252^
 ||151.244.111.70^
 ||151.244.232.50^
-||151.244.72.141^
 ||151.244.72.224^
-||151.244.72.38^
 ||151.245.104.90^
 ||151.248.56.14^
 ||151.25.164.9^
 ||151.25.167.99^
-||151.251.196.158^
 ||151.31.229.165^
 ||151.53.100.5^
 ||151.73.48.15^
@@ -323066,6 +323096,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||154.12.90.150^
 ||154.12.95.211^
 ||154.126.178.16^
+||154.126.186.56^
 ||154.193.244.146^
 ||154.198.49.6^
 ||154.201.69.143^
@@ -323135,7 +323166,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||157.15.98.82^
 ||157.15.98.92^
 ||157.156.243.49^
-||157.156.247.127^
 ||157.156.253.229^
 ||157.157.252.77^
 ||157.173.100.101^
@@ -323166,7 +323196,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||158.94.208.102^
 ||158.94.208.122^
 ||158.94.208.162^
-||158.94.208.190^
 ||158.94.208.27^
 ||158.94.208.39^
 ||158.94.209.200^
@@ -323190,6 +323219,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||159.223.94.233^
 ||159.65.125.10^
 ||159.65.97.208^
+||159.75.172.32^
 ||159.75.201.5^
 ||159.75.221.127^
 ||159.89.26.251^
@@ -323214,7 +323244,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||162.0.225.149^
 ||162.19.205.62^
 ||162.209.178.187^
-||162.209.178.188^
 ||162.209.178.189^
 ||162.209.178.190^
 ||162.215.130.152^
@@ -323241,7 +323270,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||163.142.79.54^
 ||163.142.85.25^
 ||163.142.86.12^
-||163.142.87.113^
 ||163.142.87.199^
 ||163.142.93.192^
 ||163.142.93.71^
@@ -323254,7 +323282,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||164.126.150.95^
 ||164.160.41.10^
 ||164.163.25.141^
-||164.68.99.27^
 ||164.92.129.208^
 ||164.92.201.130^
 ||165.154.125.212^
@@ -323281,6 +323308,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||166.117.91.70^
 ||166.143.253.132^
 ||166.144.131.188^
+||166.147.146.187^
 ||166.246.56.147^
 ||166.48.10.4^
 ||167.150.100.196^
@@ -323320,7 +323348,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||170.0.60.80^
 ||170.205.54.44^
 ||170.233.57.178^
-||170.233.57.187^
 ||170.55.7.234^
 ||170.64.169.241^
 ||170.84.134.195^
@@ -323355,17 +323382,14 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||171.37.63.119^
 ||171.38.148.227^
 ||171.38.192.211^
-||171.8.87.226^
 ||171.80.1.116^
 ||171.81.101.139^
-||171.81.96.33^
 ||171.81.99.72^
 ||1717.1000uc.com^
 ||171f42aj.5kylight.ru^
 ||172-86-123-179.plesk.page^
 ||172.104.181.205^
 ||172.105.120.88^
-||172.105.18.98^
 ||172.125.40.45^
 ||172.170.254.193^
 ||172.232.114.51^
@@ -323418,6 +323442,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.0.60.106^
 ||175.0.60.223^
 ||175.0.61.40^
+||175.0.74.173^
 ||175.1.251.74^
 ||175.10.100.240^
 ||175.10.88.237^
@@ -323427,7 +323452,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.101.19.103^
 ||175.107.12.59^
 ||175.107.16.92^
-||175.107.21.11^
 ||175.11.242.245^
 ||175.11.72.192^
 ||175.111.3.234^
@@ -323492,7 +323516,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.147.231.2^
 ||175.147.231.54^
 ||175.147.235.151^
-||175.147.243.244^
 ||175.147.244.78^
 ||175.147.245.121^
 ||175.147.246.29^
@@ -323570,6 +323593,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.149.89.254^
 ||175.149.91.236^
 ||175.149.93.101^
+||175.149.94.239^
 ||175.149.94.254^
 ||175.150.130.42^
 ||175.150.131.72^
@@ -323586,7 +323610,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.150.68.181^
 ||175.150.69.205^
 ||175.150.71.0^
-||175.150.74.142^
 ||175.150.77.82^
 ||175.150.78.21^
 ||175.150.78.48^
@@ -323615,7 +323638,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.151.186.250^
 ||175.151.190.44^
 ||175.151.211.60^
-||175.151.224.198^
 ||175.151.224.253^
 ||175.151.228.13^
 ||175.151.231.216^
@@ -323694,7 +323716,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.165.86.44^
 ||175.165.86.68^
 ||175.165.86.93^
-||175.165.87.16^
 ||175.165.87.57^
 ||175.165.92.210^
 ||175.165.92.243^
@@ -323872,7 +323893,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||175.9.164.67^
 ||176.100.37.194^
 ||176.101.15.5^
-||176.104.33.39^
 ||176.106.241.72^
 ||176.114.144.145^
 ||176.114.218.229^
@@ -323918,7 +323938,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||176.65.132.13^
 ||176.65.132.144^
 ||176.65.132.156^
-||176.65.132.174^
 ||176.65.132.17^
 ||176.65.132.197^
 ||176.65.132.198^
@@ -323927,7 +323946,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||176.65.132.233^
 ||176.65.132.242^
 ||176.65.132.46^
-||176.65.132.48^
 ||176.65.132.79^
 ||176.65.132.98^
 ||176.65.134.201^
@@ -323945,11 +323963,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||176.65.148.203^
 ||176.65.148.204^
 ||176.65.148.239^
-||176.65.148.38^
 ||176.65.148.41^
 ||176.65.148.92^
 ||176.65.149.171^
 ||176.65.149.215^
+||176.65.149.243^
 ||176.65.149.4.ptr.pfcloud.network^
 ||176.65.149.4^
 ||176.65.35.214^
@@ -323959,6 +323977,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||176.91.170.213^
 ||176.97.124.206^
 ||176.97.162.109^
+||176.97.162.241^
 ||176.97.190.248^
 ||176.97.210.242^
 ||176.97.76.153^
@@ -323977,8 +323996,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||177.212.252.109^
 ||177.212.253.94^
 ||177.212.255.10^
+||177.212.255.63^
 ||177.222.103.60^
-||177.247.15.185^
 ||177.36.61.196^
 ||177.42.72.125^
 ||177.42.75.200^
@@ -323991,6 +324010,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||177.71.60.145^
 ||177.71.60.67^
 ||177.84.130.195^
+||177.87.1.78^
 ||177.87.37.31^
 ||177.99.64.156^
 ||177.99.64.8^
@@ -324062,11 +324082,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||178.173.199.225^
 ||178.173.218.126^
 ||178.173.39.201^
+||178.176.204.240^
+||178.176.204.250^
 ||178.183.125.31^
 ||178.183.205.197^
 ||178.183.208.134^
 ||178.188.30.171^
-||178.19.174.250^
 ||178.19.47.234^
 ||178.19.47.247^
 ||178.19.47.83^
@@ -324075,6 +324096,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||178.210.214.48^
 ||178.210.50.116^
 ||178.210.83.9^
+||178.211.135.170^
 ||178.214.241.150^
 ||178.217.165.135^
 ||178.218.114.67^
@@ -324088,7 +324110,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||178.34.177.42^
 ||178.34.177.78^
 ||178.34.182.186^
+||178.34.183.162^
 ||178.45.219.15^
+||178.48.13.117^
 ||178.50.101.106^
 ||178.50.101.190^
 ||178.50.109.254^
@@ -324100,8 +324124,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||178.50.209.78^
 ||178.50.212.249^
 ||178.50.217.155^
+||178.50.27.155^
 ||178.50.30.34^
-||178.50.34.24^
 ||178.50.78.62^
 ||178.50.81.93^
 ||178.50.94.164^
@@ -324116,7 +324140,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||178.78.32.67^
 ||179.1.196.137^
 ||179.108.89.220^
-||179.108.90.55^
 ||179.126.27.192^
 ||179.151.49.81^
 ||179.151.50.200^
@@ -324128,6 +324151,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||179.183.191.146^
 ||179.185.182.136^
 ||179.186.137.243^
+||179.186.137.244^
 ||179.186.143.195^
 ||179.187.240.157^
 ||179.189.254.54^
@@ -324248,6 +324272,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||180.58.48.4^
 ||180.76.141.175^
 ||180.76.153.78^
+||180.92.228.34^
 ||180.93.98.23^
 ||181.1.13.248^
 ||181.1.15.223^
@@ -324277,6 +324302,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||181.211.252.34^
 ||181.223.9.36^
 ||181.235.10.171^
+||181.235.3.218^
 ||181.31.70.41^
 ||181.36.153.151^
 ||181.48.119.70^
@@ -324314,7 +324340,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.112.15.78^
 ||182.112.152.189^
 ||182.112.177.156^
-||182.112.182.211^
 ||182.112.184.150^
 ||182.112.184.167^
 ||182.112.189.247^
@@ -324459,7 +324484,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.113.207.223^
 ||182.113.207.48^
 ||182.113.207.55^
-||182.113.207.60^
 ||182.113.209.158^
 ||182.113.210.219^
 ||182.113.210.96^
@@ -324595,7 +324619,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.114.251.79^
 ||182.114.252.99^
 ||182.114.253.136^
-||182.114.253.240^
 ||182.114.253.51^
 ||182.114.254.197^
 ||182.114.254.236^
@@ -324626,13 +324649,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.114.49.24^
 ||182.114.49.56^
 ||182.114.50.203^
+||182.114.50.75^
 ||182.114.51.17^
 ||182.114.51.204^
 ||182.114.51.235^
 ||182.114.51.243^
 ||182.115.130.124^
 ||182.115.130.83^
-||182.115.134.33^
 ||182.115.139.15^
 ||182.115.139.16^
 ||182.115.146.74^
@@ -324679,6 +324702,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.116.118.15^
 ||182.116.118.169^
 ||182.116.118.205^
+||182.116.118.216^
 ||182.116.118.44^
 ||182.116.118.48^
 ||182.116.118.65^
@@ -324721,6 +324745,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.116.22.96^
 ||182.116.222.42^
 ||182.116.226.188^
+||182.116.229.182^
 ||182.116.23.11^
 ||182.116.23.179^
 ||182.116.23.21^
@@ -324733,6 +324758,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.116.32.164^
 ||182.116.32.167^
 ||182.116.32.17^
+||182.116.32.71^
 ||182.116.34.137^
 ||182.116.34.212^
 ||182.116.34.67^
@@ -324768,9 +324794,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.116.53.31^
 ||182.116.53.99^
 ||182.116.54.226^
-||182.116.54.235^
 ||182.116.67.184^
-||182.116.68.60^
 ||182.116.73.254^
 ||182.116.74.208^
 ||182.116.75.136^
@@ -324819,7 +324843,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.117.121.184^
 ||182.117.122.1^
 ||182.117.123.163^
-||182.117.125.142^
 ||182.117.126.145^
 ||182.117.126.181^
 ||182.117.126.21^
@@ -325054,7 +325077,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.119.61.42^
 ||182.119.61.49^
 ||182.119.61.58^
-||182.119.61.87^
 ||182.119.62.218^
 ||182.119.62.82^
 ||182.119.63.202^
@@ -325066,7 +325088,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.119.75.118^
 ||182.119.75.213^
 ||182.119.77.163^
-||182.119.77.184^
 ||182.119.78.78^
 ||182.119.8.22^
 ||182.119.9.41^
@@ -325130,6 +325151,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.121.112.204^
 ||182.121.112.91^
 ||182.121.112.92^
+||182.121.113.42^
 ||182.121.113.70^
 ||182.121.114.192^
 ||182.121.114.209^
@@ -325142,7 +325164,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.121.117.242^
 ||182.121.117.53^
 ||182.121.117.81^
-||182.121.118.172^
 ||182.121.118.227^
 ||182.121.118.231^
 ||182.121.119.183^
@@ -325191,7 +325212,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.121.157.176^
 ||182.121.157.19^
 ||182.121.157.236^
-||182.121.157.252^
 ||182.121.158.82^
 ||182.121.159.173^
 ||182.121.159.97^
@@ -325286,6 +325306,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.121.253.20^
 ||182.121.253.221^
 ||182.121.40.169^
+||182.121.40.75^
 ||182.121.40.83^
 ||182.121.41.188^
 ||182.121.41.218^
@@ -325345,6 +325366,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.121.91.110^
 ||182.121.92.10^
 ||182.121.92.165^
+||182.121.92.68^
 ||182.121.92.85^
 ||182.121.93.210^
 ||182.122.144.105^
@@ -325381,7 +325403,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.122.233.48^
 ||182.122.234.223^
 ||182.122.234.234^
-||182.122.235.142^
 ||182.122.235.230^
 ||182.122.235.243^
 ||182.122.235.83^
@@ -325499,6 +325520,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.124.192.248^
 ||182.124.194.187^
 ||182.124.201.49^
+||182.124.201.96^
 ||182.124.203.113^
 ||182.124.206.123^
 ||182.124.207.155^
@@ -325690,6 +325712,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.126.89.74^
 ||182.126.89.86^
 ||182.126.90.176^
+||182.126.90.198^
 ||182.126.90.246^
 ||182.126.90.8^
 ||182.126.91.140^
@@ -325718,7 +325741,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.127.101.214^
 ||182.127.101.225^
 ||182.127.102.169^
-||182.127.102.197^
 ||182.127.102.40^
 ||182.127.103.14^
 ||182.127.103.210^
@@ -325828,7 +325850,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.127.222.159^
 ||182.127.25.211^
 ||182.127.27.170^
-||182.127.27.184^
 ||182.127.29.160^
 ||182.127.29.36^
 ||182.127.3.222^
@@ -325897,6 +325918,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.143.113.229^
 ||182.143.113.250^
 ||182.143.113.61^
+||182.143.114.148^
 ||182.143.114.30^
 ||182.143.114.43^
 ||182.143.114.73^
@@ -325916,7 +325938,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.215.17.152^
 ||182.218.52.121^
 ||182.240.227.25^
-||182.240.227.45^
 ||182.240.229.225^
 ||182.240.52.200^
 ||182.240.9.230^
@@ -325938,8 +325959,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||182.255.44.77^
 ||182.34.61.118^
 ||182.60.1.181^
+||182.60.10.116^
 ||182.60.233.245^
-||182.60.3.48^
 ||182.60.4.36^
 ||182.60.7.248^
 ||182.60.8.102^
@@ -325952,6 +325973,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||183.106.76.226^
 ||183.108.106.18^
 ||183.130.211.149^
+||183.130.250.181^
 ||183.132.76.150^
 ||183.132.76.73^
 ||183.132.79.5^
@@ -325977,6 +325999,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||183.191.215.242^
 ||183.196.29.73^
 ||183.214.149.164^
+||183.23.130.217^
 ||183.23.130.91^
 ||183.23.131.57^
 ||183.23.131.64^
@@ -326001,6 +326024,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||183sjbh.com^
 ||184.145.10.220^
 ||184.148.6.8^
+||184.174.32.240^
 ||184.185.30.182^
 ||184.70.122.98^
 ||184.73.130.151^
@@ -326031,7 +326055,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||185.143.145.151^
 ||185.145.97.80^
 ||185.147.40.12^
-||185.147.40.4^
 ||185.147.41.77^
 ||185.147.41.88^
 ||185.15.80.161^
@@ -326046,6 +326069,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||185.165.171.197^
 ||185.168.174.15^
 ||185.168.174.198^
+||185.168.227.130^
 ||185.170.153.172^
 ||185.170.153.201^
 ||185.170.154.109^
@@ -326065,6 +326089,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||185.186.25.2^
 ||185.186.26.202^
 ||185.19.33.241^
+||185.191.89.108^
 ||185.191.89.120^
 ||185.191.89.122^
 ||185.193.126.158^
@@ -326131,7 +326156,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||185.247.226.135^
 ||185.253.218.162^
 ||185.253.75.188^
-||185.254.30.188^
 ||185.255.209.131^
 ||185.32.4.11^
 ||185.39.31.126^
@@ -326146,6 +326170,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||185.49.168.84^
 ||185.50.11.205^
 ||185.57.69.125^
+||185.61.246.225^
 ||185.63.102.142^
 ||185.63.102.97^
 ||185.63.103.161^
@@ -326157,12 +326182,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||185.83.88.114^
 ||185.88.29.170^
 ||185.9.139.110^
-||185.93.89.62^
 ||185.97.113.40^
 ||185.97.208.98^
 ||185.99.212.79^
 ||1855e8b9-5b39-418e-b53e-3259c2f0c3fc.random.tsrv1.ws^
-||186.10.26.26^
 ||186.106.133.44^
 ||186.118.121.223^
 ||186.120.127.53^
@@ -326185,7 +326208,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||186.235.248.95^
 ||186.235.86.129^
 ||186.236.15.186^
-||186.3.78.195^
 ||186.39.126.13^
 ||186.39.6.181^
 ||186.39.8.16^
@@ -326196,7 +326218,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||186.47.208.198^
 ||186.6.225.47^
 ||186.6.233.238^
-||186.67.227.98^
 ||186.7.105.13^
 ||186.7.33.3^
 ||186.87.82.140^
@@ -326267,7 +326288,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||188.214.30.148^
 ||188.214.39.205^
 ||188.227.196.169^
-||188.235.22.82^
 ||188.24.197.235^
 ||188.240.184.12^
 ||188.241.62.243^
@@ -326296,8 +326316,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||188.82.127.68^
 ||188.94.33.122^
 ||188.95.148.167^
-||188.95.186.50^
-||189.129.14.121^
 ||189.130.179.44^
 ||189.131.224.229^
 ||189.131.227.210^
@@ -326312,6 +326330,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||189.157.143.224^
 ||189.159.103.116^
 ||189.159.120.138^
+||189.159.123.53^
 ||189.159.134.240^
 ||189.159.143.83^
 ||189.159.154.166^
@@ -326329,11 +326348,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||189.182.171.210^
 ||189.196.45.102^
 ||189.222.126.181^
-||189.222.51.165^
 ||189.223.130.126^
 ||189.3.141.242^
 ||189.3.141.243^
-||189.50.222.0^
 ||189.56.202.86^
 ||189.61.50.98^
 ||189.78.218.217^
@@ -326374,8 +326391,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||190.255.85.156^
 ||190.55.21.89^
 ||190.55.22.176^
-||190.61.84.162^
-||190.7.149.242^
 ||190.92.158.250^
 ||191.101.51.11^
 ||191.103.251.153^
@@ -326446,6 +326461,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||193.201.82.147^
 ||193.222.97.42^
 ||193.226.235.105^
+||193.228.134.161^
 ||193.228.135.75^
 ||193.23.200.86^
 ||193.233.126.177^
@@ -326475,7 +326491,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||194.106.197.80^
 ||194.116.236.109^
 ||194.120.24.207^
-||194.122.165.156^
 ||194.122.165.159^
 ||194.122.191.15^
 ||194.132.172.103^
@@ -326503,7 +326518,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||194.38.20.224^
 ||194.38.20.42^
 ||194.38.20.95^
-||194.4.153.253^
 ||194.41.113.58^
 ||194.44.90.47^
 ||194.58.47.140^
@@ -326545,6 +326559,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||195.24.237.113^
 ||195.24.237.169^
 ||195.24.237.218^
+||195.24.237.39^
 ||195.24.237.42^
 ||195.24.237.73^
 ||195.250.173.158^
@@ -326552,7 +326567,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||195.32.18.58^
 ||195.32.18.73^
 ||195.34.102.234^
-||195.64.182.106^
 ||195.64.233.163^
 ||195.66.105.122^
 ||195.74.240.169^
@@ -326569,6 +326583,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||195.96.129.181^
 ||195.96.135.237^
 ||195.98.66.198^
+||196.1.187.122^
 ||196.188.135.20^
 ||196.188.76.254^
 ||196.188.80.240^
@@ -326600,6 +326615,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||196.210.92.204^
 ||196.216.56.124^
 ||196.219.119.42^
+||196.219.130.75^
 ||196.219.141.140^
 ||196.251.100.100^
 ||196.251.100.191^
@@ -326628,7 +326644,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||196.251.70.188^
 ||196.251.70.25^
 ||196.251.72.110^
-||196.251.72.149^
 ||196.251.80.211^
 ||196.251.80.30^
 ||196.251.81.216^
@@ -326647,8 +326662,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||197.159.1.58^
 ||197.162.159.181^
 ||197.164.59.31^
+||197.200.214.131^
 ||197.210.129.150^
-||197.232.133.112^
 ||197.232.169.31^
 ||197.232.21.221^
 ||197.245.244.254^
@@ -326656,6 +326671,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||197.48.137.101^
 ||197.83.226.120^
 ||197.89.115.36^
+||197.89.199.157^
+||197.91.184.99^
 ||198-144-189-90.cprapid.com^
 ||198.12.121.168^
 ||198.12.85.86^
@@ -326703,7 +326720,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||1fu.si9a.ru^
 ||1gzu.9z2503.ru^
 ||1h.fe-k2.ru^
-||1h.qzad3.ru^
 ||1h.zo4n.ru^
 ||1hi.to1j.ru^
 ||1hm2.stormm1nd.ru^
@@ -326712,11 +326728,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||1id.r9xa.ru^
 ||1it.la9q.ru^
 ||1j9.wduh8.ru^
-||1jd.bvuf2.ru^
 ||1jd.twigmantle.ru^
 ||1jm.cloudm1x.ru^
 ||1k.j-0-tchamber.ru^
-||1k.vbep3.ru^
 ||1kl.xa9t.ru^
 ||1l.j3ve.ru^
 ||1m.2mq4r.ru^
@@ -326745,7 +326759,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||1ris.pi6o.online^
 ||1rr.s0apcluster.ru^
 ||1rs.wqix5.ru^
-||1s.ktox5.ru^
 ||1s.stoner0ck.ru^
 ||1saadqdwdqd.camdvr.org^
 ||1sw.stix-2.ru^
@@ -326760,7 +326773,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||1ulufjyr.dive9uoht2.ru^
 ||1unarpetal.ru^
 ||1usljhth.1nterject0il.ru^
-||1uy.qzad3.ru^
 ||1v.fastl1ne.ru^
 ||1v.j8ro.ru^
 ||1vvmu70s.amberflume.ru^
@@ -326782,7 +326794,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||1yqf.c1earwave.ru^
 ||1yy.fog-tangent.ru^
 ||1z.5no-v.ru^
-||1z3.ss-9-y-4.ru^
 ||1zil1.s3.cubbit.eu^
 ||1zqb.fire1n5ulat.ru^
 ||1zqf.knurlpocket.ru^
@@ -326840,7 +326851,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||2.54.239.98^
 ||2.54.83.155^
 ||2.54.83.40^
-||2.54.83.78^
 ||2.54.84.143^
 ||2.54.88.115^
 ||2.54.88.189^
@@ -326849,9 +326859,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||2.54.89.165^
 ||2.54.89.174^
 ||2.54.90.226^
-||2.54.91.236^
 ||2.54.96.206^
-||2.54.96.233^
 ||2.54.97.253^
 ||2.54.98.68^
 ||2.54.99.175^
@@ -326881,7 +326889,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||2.83.229.165^
 ||2.off3.ru^
 ||2.s61y5.ru^
-||2.vqod2.ru^
 ||20.195.41.174^
 ||20.206.111.75^
 ||20.218.135.233^
@@ -326930,20 +326937,17 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||200.59.84.52^
 ||200.59.84.67^
 ||200.59.85.177^
-||200.59.85.196^
 ||200.59.85.247^
 ||200.59.85.252^
 ||200.59.85.253^
 ||200.59.85.254^
 ||200.59.86.126^
 ||200.59.86.130^
-||200.59.86.16^
 ||200.59.86.222^
 ||200.59.86.250^
 ||200.59.86.254^
 ||200.59.86.78^
 ||200.59.88.110^
-||200.59.88.117^
 ||200.59.88.120^
 ||200.59.88.122^
 ||200.59.88.141^
@@ -326972,7 +326976,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||200.59.88.241^
 ||200.59.88.244^
 ||200.59.88.247^
-||200.59.88.25^
 ||200.59.88.28^
 ||200.59.88.29^
 ||200.59.88.2^
@@ -327026,6 +327029,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||201.184.231.250^
 ||201.191.156.103^
 ||201.197.252.54^
+||201.20.104.54^
 ||201.223.240.176^
 ||201.223.241.243^
 ||201.223.241.48^
@@ -327056,7 +327060,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||202.111.131.95^
 ||202.112.50.151^
 ||202.124.33.242^
-||202.129.16.172^
+||202.125.72.134^
 ||202.131.234.26^
 ||202.139.20.12^
 ||202.148.20.138^
@@ -327079,9 +327083,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||202.3.248.179^
 ||202.4.101.78^
 ||202.4.124.58^
+||202.40.178.201^
+||202.40.178.226^
 ||202.5.36.243^
 ||202.5.50.108^
 ||202.5.52.110^
+||202.5.61.33^
 ||202.51.100.238^
 ||202.53.164.46^
 ||202.55.132.254^
@@ -327092,13 +327099,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||202.57.43.234^
 ||202.59.90.109^
 ||202.68.234.213^
-||202.69.40.164^
 ||202.74.244.233^
 ||202.74.75.181^
 ||202.78.201.3^
 ||202.83.163.29^
 ||202.83.163.2^
 ||202.83.163.46^
+||202.88.234.44^
 ||202.95.14.118^
 ||202.95.14.27^
 ||202.95.14.32^
@@ -327141,7 +327148,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||204.76.203.52^
 ||204.77.130.20^
 ||205.185.113.192^
-||205.185.124.206^
 ||205.250.199.73^
 ||206.0.180.96^
 ||206.108.146.249^
@@ -327155,12 +327161,14 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||207.154.204.54^
 ||207.180.232.206^
 ||207.231.111.48^
+||207.56.138.126^
 ||207.56.138.150^
 ||208.109.244.121^
 ||208.67.107.146^
 ||208.76.223.208^
 ||208.85.21.245^
 ||208.89.168.93^
+||209.131.252.152^
 ||209.141.34.113^
 ||209.141.49.229^
 ||209.141.49.251^
@@ -327239,7 +327247,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||212.225.203.24^
 ||212.225.248.26^
 ||212.231.226.35^
-||212.27.26.206^
+||212.237.112.109^
 ||212.3.211.157^
 ||212.33.214.52^
 ||212.34.98.12^
@@ -327416,6 +327424,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||218.60.182.107^
 ||218.60.182.68^
 ||218.60.183.181^
+||218.60.254.147^
 ||218.60.255.127^
 ||218.60.255.142^
 ||218.61.97.104^
@@ -327466,6 +327475,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.155.10.233^
 ||219.155.10.79^
 ||219.155.100.29^
+||219.155.103.114^
 ||219.155.11.64^
 ||219.155.11.93^
 ||219.155.12.133^
@@ -327512,11 +327522,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.155.200.158^
 ||219.155.200.204^
 ||219.155.201.107^
+||219.155.201.174^
 ||219.155.201.180^
 ||219.155.201.203^
 ||219.155.201.236^
 ||219.155.201.94^
-||219.155.202.124^
 ||219.155.202.147^
 ||219.155.202.158^
 ||219.155.202.173^
@@ -327541,7 +327551,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.155.209.46^
 ||219.155.21.22^
 ||219.155.210.131^
-||219.155.210.133^
 ||219.155.210.16^
 ||219.155.210.179^
 ||219.155.210.212^
@@ -327569,7 +327578,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.155.224.175^
 ||219.155.225.2^
 ||219.155.228.158^
-||219.155.228.217^
 ||219.155.228.84^
 ||219.155.229.178^
 ||219.155.229.92^
@@ -327593,7 +327601,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.155.251.80^
 ||219.155.252.113^
 ||219.155.252.114^
-||219.155.253.3^
 ||219.155.254.148^
 ||219.155.254.181^
 ||219.155.255.166^
@@ -327648,6 +327655,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.156.130.119^
 ||219.156.131.141^
 ||219.156.131.30^
+||219.156.143.178^
 ||219.156.16.118^
 ||219.156.16.169^
 ||219.156.17.168^
@@ -327662,6 +327670,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.156.173.80^
 ||219.156.173.97^
 ||219.156.174.140^
+||219.156.174.152^
 ||219.156.174.164^
 ||219.156.174.46^
 ||219.156.174.55^
@@ -327732,11 +327741,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.156.63.198^
 ||219.156.63.212^
 ||219.156.64.192^
-||219.156.7.39^
 ||219.156.72.118^
 ||219.156.72.34^
 ||219.156.73.107^
-||219.156.75.199^
 ||219.156.76.136^
 ||219.156.76.172^
 ||219.156.78.70^
@@ -327767,7 +327774,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.157.133.196^
 ||219.157.134.194^
 ||219.157.138.83^
-||219.157.143.25^
 ||219.157.144.36^
 ||219.157.147.67^
 ||219.157.150.245^
@@ -327873,6 +327879,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.157.34.137^
 ||219.157.35.192^
 ||219.157.36.93^
+||219.157.37.165^
 ||219.157.48.109^
 ||219.157.48.126^
 ||219.157.48.37^
@@ -327891,6 +327898,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||219.157.54.80^
 ||219.157.54.86^
 ||219.157.55.58^
+||219.157.56.193^
 ||219.157.56.221^
 ||219.157.57.116^
 ||219.157.57.44^
@@ -327937,8 +327945,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||220.162.32.249^
 ||220.162.34.182^
 ||220.162.35.196^
-||220.164.229.231^
-||220.165.232.160^
 ||220.176.129.97^
 ||220.192.234.105^
 ||220.192.234.72^
@@ -328026,7 +328032,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.1.226.67^
 ||221.1.227.162^
 ||221.1.227.221^
-||221.1.227.239^
 ||221.1.227.43^
 ||221.1.227.48^
 ||221.1.227.96^
@@ -328124,7 +328129,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.14.52.97^
 ||221.14.53.84^
 ||221.14.56.233^
-||221.14.56.38^
 ||221.14.59.51^
 ||221.14.59.98^
 ||221.14.60.145^
@@ -328135,7 +328139,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.14.62.255^
 ||221.14.63.231^
 ||221.142.48.141^
-||221.143.49.222^
 ||221.15.0.12^
 ||221.15.0.211^
 ||221.15.0.36^
@@ -328165,6 +328168,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.15.14.48^
 ||221.15.14.4^
 ||221.15.14.59^
+||221.15.14.96^
 ||221.15.140.136^
 ||221.15.140.137^
 ||221.15.140.161^
@@ -328204,7 +328208,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.15.184.63^
 ||221.15.185.157^
 ||221.15.185.73^
-||221.15.186.132^
 ||221.15.186.163^
 ||221.15.186.225^
 ||221.15.186.23^
@@ -328249,7 +328252,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.15.21.178^
 ||221.15.21.41^
 ||221.15.21.6^
-||221.15.213.159^
 ||221.15.215.182^
 ||221.15.216.102^
 ||221.15.216.199^
@@ -328315,6 +328317,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.15.88.245^
 ||221.15.88.2^
 ||221.15.88.56^
+||221.15.88.74^
 ||221.15.88.89^
 ||221.15.89.173^
 ||221.15.9.118^
@@ -328324,7 +328327,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.15.90.184^
 ||221.15.90.200^
 ||221.15.91.48^
-||221.15.92.172^
 ||221.15.92.40^
 ||221.15.92.7^
 ||221.15.93.11^
@@ -328353,7 +328355,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.202.17.37^
 ||221.202.185.252^
 ||221.202.19.113^
-||221.202.19.48^
 ||221.202.19.99^
 ||221.202.192.19^
 ||221.202.206.233^
@@ -328362,6 +328363,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.202.210.183^
 ||221.202.212.4^
 ||221.202.212.96^
+||221.202.215.172^
 ||221.202.22.91^
 ||221.202.23.44^
 ||221.202.234.168^
@@ -328385,7 +328387,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||221.214.162.253^
 ||221.214.192.20^
 ||221.214.197.249^
-||221.215.211.18^
 ||221.215.247.164^
 ||221.225.247.124^
 ||221.229.42.215^
@@ -328396,6 +328397,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||2215.c70ye.ru^
 ||222.109.224.64^
 ||222.116.86.39^
+||222.117.7.182^
 ||222.118.158.30^
 ||222.127.152.103^
 ||222.127.152.164^
@@ -328439,7 +328441,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.127.75.70^
 ||222.127.76.16^
 ||222.127.77.227^
-||222.127.90.74^
 ||222.132.225.209^
 ||222.133.108.32^
 ||222.133.111.109^
@@ -328469,7 +328470,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.134.174.80^
 ||222.134.175.150^
 ||222.134.175.38^
-||222.136.102.74^
 ||222.136.108.13^
 ||222.136.128.73^
 ||222.136.131.114^
@@ -328540,6 +328540,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.137.145.249^
 ||222.137.146.117^
 ||222.137.146.126^
+||222.137.146.148^
+||222.137.146.167^
 ||222.137.146.176^
 ||222.137.146.184^
 ||222.137.146.220^
@@ -328614,6 +328616,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.137.38.215^
 ||222.137.39.51^
 ||222.137.4.19^
+||222.137.4.223^
 ||222.137.4.230^
 ||222.137.43.134^
 ||222.137.43.146^
@@ -328635,6 +328638,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.137.82.142^
 ||222.137.83.167^
 ||222.137.83.215^
+||222.137.83.229^
 ||222.137.83.235^
 ||222.137.84.195^
 ||222.137.84.255^
@@ -328643,6 +328647,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.137.85.38^
 ||222.137.86.210^
 ||222.137.86.74^
+||222.137.87.26^
 ||222.137.92.10^
 ||222.137.92.171^
 ||222.137.93.120^
@@ -328754,7 +328759,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.138.225.187^
 ||222.138.227.123^
 ||222.138.227.24^
-||222.138.234.171^
 ||222.138.238.105^
 ||222.138.64.12^
 ||222.138.78.121^
@@ -328831,10 +328835,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.139.64.204^
 ||222.139.66.249^
 ||222.139.68.225^
+||222.139.70.77^
 ||222.139.72.104^
 ||222.139.72.145^
 ||222.139.72.25^
-||222.139.81.233^
 ||222.139.82.18^
 ||222.139.84.247^
 ||222.139.85.156^
@@ -328853,7 +328857,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.140.119.169^
 ||222.140.128.29^
 ||222.140.128.68^
-||222.140.129.110^
 ||222.140.129.153^
 ||222.140.129.95^
 ||222.140.130.178^
@@ -328925,7 +328928,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.140.187.182^
 ||222.140.187.212^
 ||222.140.187.226^
-||222.140.187.99^
 ||222.140.188.93^
 ||222.140.192.152^
 ||222.140.193.15^
@@ -329046,6 +329048,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.141.79.246^
 ||222.141.79.50^
 ||222.141.79.96^
+||222.141.8.13^
 ||222.141.80.247^
 ||222.141.81.13^
 ||222.141.81.142^
@@ -329078,6 +329081,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.142.207.105^
 ||222.142.207.162^
 ||222.142.207.48^
+||222.142.208.164^
 ||222.142.208.18^
 ||222.142.208.214^
 ||222.142.208.26^
@@ -329110,6 +329114,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.142.245.153^
 ||222.142.245.57^
 ||222.142.245.76^
+||222.142.246.200^
 ||222.142.246.66^
 ||222.142.246.70^
 ||222.142.247.133^
@@ -329117,7 +329122,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.142.247.218^
 ||222.142.247.228^
 ||222.142.249.175^
-||222.142.249.180^
 ||222.142.250.222^
 ||222.142.250.250^
 ||222.142.250.41^
@@ -329143,7 +329147,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.142.255.40^
 ||222.142.36.44^
 ||222.165.237.58^
+||222.165.237.59^
 ||222.165.237.60^
+||222.165.237.61^
 ||222.165.237.62^
 ||222.166.248.15^
 ||222.185.73.117^
@@ -329185,7 +329191,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||222.93.26.110^
 ||222.95.24.93^
 ||223.108.58.13^
-||223.108.58.15^
 ||223.11.157.26^
 ||223.11.56.95^
 ||223.15.165.148^
@@ -329204,7 +329209,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||223.151.75.192^
 ||223.151.76.51^
 ||223.154.80.155^
-||223.16.184.105^
 ||223.165.5.38^
 ||223.166.85.198^
 ||223.197.231.77^
@@ -329224,6 +329228,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||23.132.164.54^
 ||23.132.164.55^
 ||23.132.228.234^
+||23.160.168.165^
 ||23.160.56.117^
 ||23.160.56.21^
 ||23.160.56.26^
@@ -329257,9 +329262,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||238.yq2r.ru^
 ||24.0prichpe7ch.ru^
 ||24.156.183.72^
-||24.227.22.18^
 ||24.234.159.5^
 ||24.251.252.101^
+||24.37.71.230^
+||24.54.85.143^
 ||24.54.95.49^
 ||24.93.22.147^
 ||246cn17001online.shop^
@@ -329272,8 +329278,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.10.66.14^
 ||27.10.66.223^
 ||27.10.71.187^
+||27.10.71.237^
 ||27.10.71.2^
-||27.11.75.70^
 ||27.110.187.132^
 ||27.110.187.133^
 ||27.12.105.170^
@@ -329297,6 +329303,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.124.45.251^
 ||27.125.169.235^
 ||27.14.239.148^
+||27.147.155.130^
 ||27.147.210.218^
 ||27.147.225.2^
 ||27.15.131.41^
@@ -329321,7 +329328,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.154.95.135^
 ||27.154.95.184^
 ||27.156.154.3^
-||27.157.140.68^
 ||27.158.144.186^
 ||27.158.159.164^
 ||27.193.123.250^
@@ -329350,13 +329356,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.202.118.80^
 ||27.202.120.76^
 ||27.202.16.46^
-||27.202.160.22^
 ||27.202.171.63^
 ||27.202.171.92^
 ||27.202.185.168^
 ||27.202.186.214^
 ||27.202.211.52^
 ||27.202.212.135^
+||27.202.212.68^
 ||27.202.213.0^
 ||27.202.214.43^
 ||27.202.215.86^
@@ -329401,9 +329407,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.204.230.122^
 ||27.204.237.171^
 ||27.204.237.91^
-||27.206.186.206^
 ||27.206.188.13^
-||27.206.188.236^
 ||27.206.189.50^
 ||27.206.221.122^
 ||27.206.234.135^
@@ -329429,6 +329433,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.207.137.93^
 ||27.207.139.108^
 ||27.207.145.75^
+||27.207.156.99^
 ||27.207.160.103^
 ||27.207.181.120^
 ||27.207.184.172^
@@ -329509,10 +329514,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.215.127.171^
 ||27.215.127.179^
 ||27.215.136.170^
+||27.215.14.168^
 ||27.215.141.189^
 ||27.215.142.11^
 ||27.215.143.1^
 ||27.215.143.47^
+||27.215.143.83^
 ||27.215.154.142^
 ||27.215.176.124^
 ||27.215.176.139^
@@ -329609,6 +329616,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||27.215.83.228^
 ||27.215.83.245^
 ||27.215.83.45^
+||27.215.84.21^
 ||27.215.84.47^
 ||27.215.85.19^
 ||27.215.86.141^
@@ -329814,7 +329822,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||2iz.d3-6.ru^
 ||2j.w8i0h.ru^
 ||2jgq.frostc0de.ru^
-||2k.sheh0.ru^
 ||2l.kdit5.ru^
 ||2lh.i-c-81.ru^
 ||2lkz.brightf1eld.ru^
@@ -329838,7 +329845,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||2tfg15f1.blu3field.ru^
 ||2to.t0rchmingle.ru^
 ||2ts4xbdl.inimit9adin2.ru^
-||2tx.kj-4-o-0.ru^
 ||2u.aud1mi5s.ru^
 ||2u8.si9a.ru^
 ||2v.cl1nkbarge.ru^
@@ -329860,14 +329866,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||2xg.jamcrest.ru^
 ||2y.hre9in7mamma.ru^
 ||2y5a.f1recliff.ru^
-||2yf.ndoq0.ru^
 ||2yn.polywhiz.ru^
 ||2yq4.brambleage.ru^
 ||2yri.d7mbbmer1d.ru^
 ||2yv.waveb0x.ru^
 ||2z.wo-h3.ru^
 ||2z1alloom2.click^
-||2zi.ss-9-y-4.ru^
 ||2zoom2meet.com^
 ||2zoouumin.com^
 ||2zoouunntoday.com^
@@ -329895,6 +329899,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||31.129.6.104^
 ||31.130.248.85^
 ||31.132.152.126^
+||31.132.233.44^
 ||31.147.204.35^
 ||31.153.107.223^
 ||31.155.2.194^
@@ -329944,7 +329949,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||3135.y438414.ru^
 ||31agostomax3.dynuddns.net^
 ||31agostomax4.dynuddns.com^
-||31x.rjuq3.ru^
 ||32.219.189.94^
 ||32.k59ee.ru^
 ||324.5m9081.ru^
@@ -329953,7 +329957,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||33.njur.ru^
 ||333.37i658094.ru^
 ||333.i327147.ru^
-||33f.gtus4.ru^
 ||33y5t.stormm1nd.ru^
 ||33zvn57u.c0nfectgod5on.ru^
 ||33zy.quenchorbit.ru^
@@ -329992,14 +329995,18 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||36.163.57.158^
 ||36.255.7.13^
 ||36.27.60.97^
+||36.34.82.55^
 ||36.37.128.140^
 ||36.48.64.196^
 ||36.48.73.129^
 ||36.49.26.176^
 ||36.49.34.112^
+||36.49.36.51^
 ||36.49.65.11^
+||36.49.65.2^
 ||36.49.65.5^
 ||36.49.65.7^
+||36.64.14.250^
 ||36.64.174.50^
 ||36.64.210.218^
 ||36.64.227.134^
@@ -330007,7 +330014,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||36.66.139.36^
 ||36.66.151.7^
 ||36.66.168.49^
-||36.67.25.26^
 ||36.67.66.178^
 ||36.69.69.140^
 ||36.69.84.35^
@@ -330016,6 +330022,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||36.70.230.75^
 ||36.70.238.149^
 ||36.70.66.209^
+||36.71.23.195^
 ||36.72.71.250^
 ||36.75.241.208^
 ||36.75.245.48^
@@ -330027,16 +330034,15 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||36.88.164.50^
 ||36.88.180.115^
 ||36.88.244.2^
+||36.88.6.203^
 ||36.89.21.251^
 ||36.89.62.19^
 ||36.91.144.195^
-||36.91.77.59^
 ||36.92.110.187^
 ||36.92.154.218^
 ||36.92.68.239^
 ||36.92.68.241^
 ||36.92.93.101^
-||36.93.2.29^
 ||36.94.219.31^
 ||36.95.77.138^
 ||36.97.146.97^
@@ -330061,7 +330067,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.19.55.254^
 ||37.19.9.250^
 ||37.192.22.166^
-||37.192.40.240^
 ||37.194.25.119^
 ||37.202.158.48^
 ||37.202.49.118^
@@ -330149,6 +330154,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.80.234.31^
 ||37.80.240.160^
 ||37.80.248.217^
+||37.80.255.44^
 ||37.80.32.76^
 ||37.80.4.76^
 ||37.80.40.197^
@@ -330175,6 +330181,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.81.140.203^
 ||37.81.146.40^
 ||37.81.149.222^
+||37.81.151.180^
 ||37.81.156.158^
 ||37.81.156.215^
 ||37.81.158.220^
@@ -330202,6 +330209,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.81.7.144^
 ||37.81.7.177^
 ||37.81.73.199^
+||37.81.84.190^
 ||37.81.88.219^
 ||37.81.93.194^
 ||37.82.1.17^
@@ -330240,6 +330248,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.82.88.222^
 ||37.82.94.4^
 ||37.82.96.6^
+||37.82.98.206^
 ||37.83.100.158^
 ||37.83.107.20^
 ||37.83.110.201^
@@ -330330,6 +330339,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.84.88.165^
 ||37.84.89.2^
 ||37.84.94.122^
+||37.84.94.44^
 ||37.85.103.251^
 ||37.85.104.96^
 ||37.85.126.114^
@@ -330350,9 +330360,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.85.182.12^
 ||37.85.187.225^
 ||37.85.190.27^
+||37.85.194.8^
 ||37.85.198.102^
 ||37.85.200.35^
 ||37.85.208.121^
+||37.85.21.19^
 ||37.85.211.136^
 ||37.85.211.47^
 ||37.85.218.86^
@@ -330374,6 +330386,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||37.85.63.205^
 ||37.85.64.181^
 ||37.85.68.197^
+||37.85.72.18^
 ||37.85.76.151^
 ||37.85.79.131^
 ||37.85.80.166^
@@ -330416,7 +330429,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||38.60.134.241^
 ||38.60.192.70^
 ||38.60.195.42^
-||38.60.203.137^
 ||38.60.216.200^
 ||38.85.201.33^
 ||38.91.107.72^
@@ -330475,10 +330487,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||39.74.19.137^
 ||39.74.211.112^
 ||39.74.245.166^
+||39.74.245.7^
 ||39.74.245.95^
 ||39.74.246.208^
 ||39.74.246.35^
 ||39.74.249.172^
+||39.74.250.237^
 ||39.74.251.247^
 ||39.74.32.119^
 ||39.74.32.227^
@@ -330488,7 +330502,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||39.74.38.39^
 ||39.74.4.125^
 ||39.74.47.51^
-||39.74.54.114^
 ||39.74.54.43^
 ||39.74.64.19^
 ||39.74.65.137^
@@ -330605,8 +330618,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||39.90.144.176^
 ||39.90.144.198^
 ||39.90.144.24^
-||39.90.145.169^
 ||39.90.145.44^
+||39.90.146.143^
 ||39.90.146.213^
 ||39.90.147.24^
 ||39.90.148.191^
@@ -330642,7 +330655,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||3accdomain3.ru^
 ||3bm.dlun-7.ru^
 ||3bvphmwg.wind5tone.ru^
-||3c.xbiq2.ru^
 ||3ccw2.orbitalnip.ru^
 ||3ch.u-v9.ru^
 ||3cnui.v-0-xenridge.ru^
@@ -330675,14 +330687,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||3ji4a.sn1rlpatch.ru^
 ||3k.rxir-9.ru^
 ||3l.hush-copper.ru^
-||3l.kj-4-o-0.ru^
 ||3la6ol.net^
 ||3m.5lau8htwater.ru^
 ||3mb.p7li.ru^
 ||3mt.manual-1-sa-1-yz.ru^
 ||3mta.6362o9.ru^
 ||3mu0h.paper-knurl.ru^
-||3n.ndoq0.ru^
 ||3o.ussn7.ru^
 ||3pause738gee.com^
 ||3pausecmeor.com^
@@ -330744,7 +330754,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||41.140.129.7^
 ||41.142.140.11^
 ||41.143.55.91^
-||41.144.132.230^
 ||41.144.133.1^
 ||41.145.128.149^
 ||41.145.128.165^
@@ -330759,7 +330768,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||41.146.33.19^
 ||41.147.201.226^
 ||41.160.128.130^
-||41.160.234.219^
 ||41.162.188.251^
 ||41.190.57.114^
 ||41.190.69.6^
@@ -330795,7 +330803,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||41.75.128.147^
 ||41.75.128.149^
 ||41.76.195.60^
-||41.77.74.90^
 ||41.83.61.200^
 ||41.84.251.217^
 ||41.k59ee.ru^
@@ -330846,6 +330853,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.177.181.50^
 ||42.177.181.55^
 ||42.177.181.99^
+||42.177.191.243^
 ||42.177.196.193^
 ||42.177.196.218^
 ||42.177.196.55^
@@ -330892,7 +330900,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.178.170.33^
 ||42.178.171.118^
 ||42.178.171.156^
-||42.178.171.159^
 ||42.178.171.50^
 ||42.178.177.142^
 ||42.178.183.102^
@@ -330928,7 +330935,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.178.60.208^
 ||42.178.61.12^
 ||42.178.61.48^
-||42.178.61.98^
 ||42.178.62.38^
 ||42.178.81.110^
 ||42.178.81.144^
@@ -331007,11 +331013,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.180.67.156^
 ||42.180.76.132^
 ||42.180.76.152^
+||42.180.8.201^
 ||42.180.82.75^
 ||42.180.84.147^
+||42.180.92.236^
 ||42.181.1.99^
+||42.192.39.152^
 ||42.192.49.146^
-||42.192.49.72^
 ||42.193.115.114^
 ||42.194.199.15^
 ||42.2.93.67^
@@ -331116,7 +331124,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.224.193.128^
 ||42.224.193.143^
 ||42.224.193.184^
-||42.224.193.38^
 ||42.224.194.121^
 ||42.224.194.212^
 ||42.224.195.188^
@@ -331227,7 +331234,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.225.200.174^
 ||42.225.201.183^
 ||42.225.201.233^
-||42.225.201.255^
 ||42.225.202.141^
 ||42.225.202.177^
 ||42.225.202.66^
@@ -331247,7 +331253,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.225.218.193^
 ||42.225.218.92^
 ||42.225.219.111^
-||42.225.220.235^
 ||42.225.223.169^
 ||42.225.228.14^
 ||42.225.228.80^
@@ -331263,7 +331268,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.225.68.169^
 ||42.225.70.125^
 ||42.225.82.103^
-||42.225.84.10^
 ||42.225.85.197^
 ||42.225.85.30^
 ||42.225.87.217^
@@ -331305,7 +331309,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.226.66.69^
 ||42.226.67.137^
 ||42.226.67.214^
-||42.226.67.36^
 ||42.226.67.7^
 ||42.226.68.119^
 ||42.226.68.173^
@@ -331427,7 +331430,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.227.237.226^
 ||42.227.237.245^
 ||42.227.238.0^
-||42.227.238.111^
 ||42.227.238.113^
 ||42.227.238.161^
 ||42.227.238.250^
@@ -331501,6 +331503,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.228.34.160^
 ||42.228.34.77^
 ||42.228.35.116^
+||42.228.35.136^
 ||42.228.36.205^
 ||42.228.37.147^
 ||42.228.37.175^
@@ -331509,7 +331512,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.228.38.181^
 ||42.228.38.228^
 ||42.228.39.201^
-||42.228.39.87^
 ||42.228.40.245^
 ||42.228.40.28^
 ||42.228.41.7^
@@ -331555,7 +331557,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.229.186.205^
 ||42.229.188.109^
 ||42.229.216.113^
-||42.229.216.160^
 ||42.229.216.95^
 ||42.229.217.55^
 ||42.229.218.129^
@@ -331833,7 +331834,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.232.100.172^
 ||42.232.102.169^
 ||42.232.177.10^
-||42.232.177.21^
 ||42.232.178.51^
 ||42.232.178.9^
 ||42.232.181.205^
@@ -331852,6 +331852,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.232.228.133^
 ||42.232.228.41^
 ||42.232.229.101^
+||42.232.229.122^
 ||42.232.229.199^
 ||42.232.229.204^
 ||42.232.229.252^
@@ -331921,7 +331922,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.233.135.60^
 ||42.233.136.163^
 ||42.233.137.153^
-||42.233.139.196^
 ||42.233.140.91^
 ||42.233.142.139^
 ||42.233.145.219^
@@ -331954,7 +331954,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.234.151.74^
 ||42.234.152.3^
 ||42.234.154.120^
-||42.234.154.140^
 ||42.234.155.8^
 ||42.234.158.119^
 ||42.234.158.2^
@@ -332020,7 +332019,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.235.145.14^
 ||42.235.145.21^
 ||42.235.148.10^
-||42.235.148.196^
 ||42.235.148.1^
 ||42.235.148.52^
 ||42.235.150.127^
@@ -332130,7 +332128,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.235.54.28^
 ||42.235.55.175^
 ||42.235.55.46^
-||42.235.55.73^
 ||42.235.6.134^
 ||42.235.60.189^
 ||42.235.60.82^
@@ -332183,7 +332180,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.235.90.149^
 ||42.235.90.19^
 ||42.235.90.29^
-||42.235.90.59^
 ||42.235.91.252^
 ||42.235.91.30^
 ||42.235.92.102^
@@ -332229,6 +332225,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.237.47.190^
 ||42.237.47.93^
 ||42.237.48.154^
+||42.237.48.186^
 ||42.237.48.42^
 ||42.237.48.75^
 ||42.237.48.82^
@@ -332320,6 +332317,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.239.12.100^
 ||42.239.141.166^
 ||42.239.142.11^
+||42.239.143.149^
 ||42.239.143.99^
 ||42.239.148.105^
 ||42.239.148.212^
@@ -332423,12 +332421,14 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.4.123.34^
 ||42.4.154.138^
 ||42.4.154.66^
+||42.4.155.154^
 ||42.4.158.177^
 ||42.4.181.128^
 ||42.4.21.169^
 ||42.4.23.129^
 ||42.4.248.43^
 ||42.4.249.86^
+||42.4.25.112^
 ||42.4.252.8^
 ||42.4.99.12^
 ||42.5.10.102^
@@ -332444,6 +332444,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.5.239.229^
 ||42.5.24.5^
 ||42.5.242.14^
+||42.5.246.182^
 ||42.5.247.76^
 ||42.5.249.110^
 ||42.5.26.180^
@@ -332494,6 +332495,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.52.207.122^
 ||42.52.208.207^
 ||42.52.241.97^
+||42.52.248.86^
 ||42.52.25.158^
 ||42.52.26.49^
 ||42.52.26.5^
@@ -332553,6 +332555,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.53.72.7^
 ||42.53.76.151^
 ||42.53.76.90^
+||42.53.90.100^
 ||42.54.10.223^
 ||42.54.10.30^
 ||42.54.102.111^
@@ -332560,6 +332563,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.54.146.129^
 ||42.54.147.132^
 ||42.54.147.150^
+||42.54.149.204^
 ||42.54.15.138^
 ||42.54.15.67^
 ||42.54.150.197^
@@ -332672,6 +332676,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.56.25.55^
 ||42.56.32.224^
 ||42.56.33.6^
+||42.56.48.255^
 ||42.56.50.199^
 ||42.56.50.36^
 ||42.56.50.43^
@@ -332757,12 +332762,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.59.231.60^
 ||42.59.237.19^
 ||42.59.237.227^
-||42.59.237.3^
 ||42.59.238.142^
 ||42.59.238.159^
 ||42.59.238.8^
 ||42.59.239.112^
 ||42.59.239.57^
+||42.59.245.133^
 ||42.59.246.119^
 ||42.59.246.219^
 ||42.59.247.248^
@@ -332778,6 +332783,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.6.161.233^
 ||42.6.163.101^
 ||42.6.179.143^
+||42.6.184.130^
 ||42.6.184.94^
 ||42.6.185.234^
 ||42.6.186.107^
@@ -332831,6 +332837,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.7.200.167^
 ||42.7.202.40^
 ||42.7.203.8^
+||42.7.21.193^
 ||42.7.214.160^
 ||42.7.216.159^
 ||42.7.229.208^
@@ -332855,6 +332862,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.85.131.16^
 ||42.85.134.58^
 ||42.85.135.251^
+||42.85.15.228^
 ||42.85.158.183^
 ||42.85.165.16^
 ||42.85.167.107^
@@ -332868,6 +332876,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.85.195.226^
 ||42.85.2.179^
 ||42.85.209.178^
+||42.85.211.175^
 ||42.85.211.48^
 ||42.85.213.224^
 ||42.85.216.128^
@@ -332886,11 +332895,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||42.85.9.179^
 ||42.86.106.105^
 ||42.86.109.40^
-||42.86.110.82^
 ||42.86.111.89^
 ||42.86.120.50^
 ||42.86.137.246^
 ||42.86.140.69^
+||42.86.141.144^
 ||42.86.168.171^
 ||42.86.168.46^
 ||42.86.168.47^
@@ -332973,6 +332982,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||43.224.0.5^
 ||43.226.39.44^
 ||43.229.135.199^
+||43.229.20.42^
+||43.230.156.43^
 ||43.230.158.26^
 ||43.230.158.77^
 ||43.230.194.254^
@@ -332997,9 +333008,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||43.252.159.101^
 ||43.252.159.76^
 ||43.252.159.78^
-||43.255.216.26^
 ||43.tvil0.ru^
-||4393eb8c.solaraweb-alj.pages.dev^
 ||44.200.11.23^
 ||44.203.141.243^
 ||44.208.147.17^
@@ -333008,11 +333017,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||44.d55u5.ru^
 ||45.11.229.113^
 ||45.11.229.11^
-||45.112.126.123^
 ||45.113.227.17^
 ||45.115.236.152^
 ||45.115.254.68^
 ||45.115.254.91^
+||45.116.68.12^
 ||45.116.68.70^
 ||45.118.144.151^
 ||45.118.32.122^
@@ -333085,7 +333094,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||45.144.233.192^
 ||45.145.229.72^
 ||45.147.202.53^
-||45.148.244.74^
 ||45.149.154.140^
 ||45.149.235.92^
 ||45.150.34.192^
@@ -333109,6 +333117,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||45.156.87.128^
 ||45.156.87.142^
 ||45.156.87.145^
+||45.156.87.158^
 ||45.156.87.159^
 ||45.156.87.163^
 ||45.156.87.180^
@@ -333209,7 +333218,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||45.92.29.74^
 ||45.93.20.34^
 ||45.94.47.92^
-||45.95.18.115^
 ||450d4a71-458d-4d35-bd01-b075cdb0d900.random.tsrv1.ws^
 ||454.razorplume.ru^
 ||4564.obnoxiousdevalue.digital^
@@ -333217,7 +333225,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||46.10.51.174^
 ||46.100.164.217^
 ||46.100.167.32^
-||46.109.43.185^
 ||46.12.146.6^
 ||46.122.12.254^
 ||46.124.211.15^
@@ -333241,7 +333248,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||46.163.181.104^
 ||46.163.184.136^
 ||46.163.189.194^
-||46.175.139.20^
 ||46.176.1.84^
 ||46.178.6.110^
 ||46.183.220.22^
@@ -333262,7 +333268,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||46.243.3.117^
 ||46.246.12.14^
 ||46.246.86.9^
-||46.250.54.75^
 ||46.37.123.15^
 ||46.4.194.54^
 ||46.52.164.170^
@@ -333277,7 +333282,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||46.77.51.179^
 ||46.77.52.190^
 ||46.8.46.114^
-||46.97.36.186^
 ||46.97.36.202^
 ||46.chel0be7upt.ru^
 ||46.fa3y.ru^
@@ -333411,7 +333415,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||490.halfquark.ru^
 ||4920.37i658094.ru^
 ||4920.i327147.ru^
-||495161.yummygorgeous.com^
 ||49i.ussn-7.ru^
 ||4a.cfob-5.ru^
 ||4b.cloudpeak.ru^
@@ -333452,7 +333455,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||4o.p0larday.ru^
 ||4o2.fa3y.ru^
 ||4o6i.mashvortex.ru^
-||4ol.ndoq0.ru^
 ||4p1m.kzg-w-4-y.ru^
 ||4p2.wi7e.ru^
 ||4p2h.c1ubmel0dic.ru^
@@ -333483,11 +333485,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||4zx.paperknurl.ru^
 ||5-253-86-21.cprapid.com^
 ||5.10.183.36^
+||5.101.11.9^
 ||5.101.85.24^
 ||5.101.86.59^
 ||5.11.76.99^
 ||5.133.102.226^
-||5.133.102.252^
 ||5.134.194.149^
 ||5.134.195.36^
 ||5.134.253.119^
@@ -333564,7 +333566,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||5.182.210.61^
 ||5.188.227.19^
 ||5.198.242.56^
-||5.199.136.61^
 ||5.201.182.164^
 ||5.201.187.179^
 ||5.205.229.190^
@@ -333645,7 +333646,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||51.79.214.125^
 ||51.81.104.115^
 ||51.89.205.214^
-||51.91.111.186^
 ||51201.billingfox.digital^
 ||5125124.pages.dev^
 ||5169.mardiripping.digital^
@@ -333879,7 +333879,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||59.88.12.170^
 ||59.88.12.72^
 ||59.88.13.119^
-||59.88.131.195^
 ||59.88.131.245^
 ||59.88.136.94^
 ||59.88.136.9^
@@ -333906,6 +333905,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||59.88.20.205^
 ||59.88.22.233^
 ||59.88.224.39^
+||59.88.224.60^
 ||59.88.227.158^
 ||59.88.227.85^
 ||59.88.228.138^
@@ -333957,6 +333957,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||59.92.176.90^
 ||59.92.181.179^
 ||59.92.181.207^
+||59.92.182.160^
 ||59.92.186.153^
 ||59.92.191.74^
 ||59.92.235.182^
@@ -334087,7 +334088,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||59.96.143.250^
 ||59.97.176.129^
 ||59.97.176.12^
-||59.97.176.133^
 ||59.97.176.155^
 ||59.97.176.163^
 ||59.97.176.183^
@@ -334214,10 +334214,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||59.97.255.139^
 ||59.97.255.192^
 ||59.97.255.223^
-||59.97.255.235^
 ||59.98.114.38^
 ||59.98.115.202^
 ||59.98.119.0^
+||59.98.191.85^
 ||59.98.193.142^
 ||59.98.198.154^
 ||59.98.198.174^
@@ -334276,7 +334276,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||5j.8b-1d.ru^
 ||5j.to1j.ru^
 ||5jxd.r-1-mrock.ru^
-||5k.dnek6.ru^
 ||5k.ldef-4.ru^
 ||5kch.n0vaharbor.ru^
 ||5l6zy0pd.blu3c0ve.ru^
@@ -334527,6 +334526,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||60.23.234.197^
 ||60.23.234.243^
 ||60.23.234.39^
+||60.23.235.10^
 ||60.23.235.145^
 ||60.23.235.169^
 ||60.23.235.249^
@@ -334597,6 +334597,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.1.236.248^
 ||61.1.239.39^
 ||61.1.239.92^
+||61.106.168.181^
 ||61.136.84.135^
 ||61.136.84.87^
 ||61.136.86.214^
@@ -334617,7 +334618,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.137.157.143^
 ||61.137.157.201^
 ||61.137.159.216^
-||61.137.159.243^
 ||61.137.161.85^
 ||61.137.166.221^
 ||61.137.176.80^
@@ -334678,11 +334678,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.163.158.146^
 ||61.163.158.24^
 ||61.163.159.44^
-||61.163.198.160^
 ||61.163.198.199^
 ||61.166.154.109^
 ||61.168.139.180^
 ||61.168.162.171^
+||61.168.162.183^
 ||61.168.162.59^
 ||61.168.162.64^
 ||61.168.162.82^
@@ -334725,6 +334725,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.2.45.141^
 ||61.2.45.172^
 ||61.2.45.191^
+||61.2.69.101^
 ||61.215.151.173^
 ||61.223.210.184^
 ||61.240.239.106^
@@ -334735,6 +334736,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.243.143.125^
 ||61.243.143.16^
 ||61.244.254.110^
+||61.245.11.12^
 ||61.245.138.176^
 ||61.3.102.160^
 ||61.3.107.124^
@@ -334772,7 +334774,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.52.1.162^
 ||61.52.1.189^
 ||61.52.100.12^
-||61.52.101.35^
 ||61.52.104.114^
 ||61.52.104.75^
 ||61.52.105.216^
@@ -334812,16 +334813,15 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.52.158.142^
 ||61.52.158.173^
 ||61.52.158.217^
+||61.52.158.255^
 ||61.52.159.229^
 ||61.52.159.50^
-||61.52.170.37^
 ||61.52.171.161^
 ||61.52.173.167^
 ||61.52.173.239^
 ||61.52.173.244^
 ||61.52.178.48^
 ||61.52.179.236^
-||61.52.179.254^
 ||61.52.181.18^
 ||61.52.181.71^
 ||61.52.182.215^
@@ -334840,7 +334840,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.52.188.138^
 ||61.52.189.208^
 ||61.52.189.222^
-||61.52.190.71^
 ||61.52.191.120^
 ||61.52.191.63^
 ||61.52.193.147^
@@ -334861,7 +334860,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.52.215.241^
 ||61.52.216.169^
 ||61.52.216.205^
-||61.52.216.81^
 ||61.52.217.119^
 ||61.52.217.141^
 ||61.52.217.167^
@@ -334961,6 +334959,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.52.62.191^
 ||61.52.62.194^
 ||61.52.63.101^
+||61.52.70.51^
 ||61.52.73.148^
 ||61.52.74.180^
 ||61.52.75.122^
@@ -335071,7 +335070,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.53.135.138^
 ||61.53.135.191^
 ||61.53.135.207^
-||61.53.135.247^
 ||61.53.135.252^
 ||61.53.135.3^
 ||61.53.135.62^
@@ -335085,7 +335083,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.53.140.148^
 ||61.53.140.186^
 ||61.53.140.233^
-||61.53.141.12^
 ||61.53.141.163^
 ||61.53.141.228^
 ||61.53.141.29^
@@ -335134,11 +335131,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.53.237.47^
 ||61.53.238.133^
 ||61.53.238.135^
-||61.53.238.147^
 ||61.53.238.96^
 ||61.53.250.85^
 ||61.53.3.238^
-||61.53.3.54^
 ||61.53.72.132^
 ||61.53.72.165^
 ||61.53.72.185^
@@ -335151,7 +335146,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.53.73.157^
 ||61.53.73.176^
 ||61.53.73.212^
-||61.53.73.224^
 ||61.53.73.237^
 ||61.53.73.250^
 ||61.53.73.253^
@@ -335171,6 +335165,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.53.75.206^
 ||61.53.75.223^
 ||61.53.75.96^
+||61.53.80.129^
 ||61.53.80.53^
 ||61.53.80.8^
 ||61.53.81.12^
@@ -335205,7 +335200,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||61.53.86.180^
 ||61.53.86.25^
 ||61.53.86.67^
-||61.53.86.69^
 ||61.53.87.106^
 ||61.53.87.107^
 ||61.53.87.117^
@@ -335362,7 +335356,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||62fhvzqh.benefc2th0de.ru^
 ||62spf.n1ghtflow.ru^
 ||63.245.127.62^
-||63.250.60.95^
 ||63.47.210.150^
 ||63.amberflint.ru^
 ||631cf.ant1d5ulphur.ru^
@@ -335381,6 +335374,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||64.20.142.214^
 ||64.225.49.218^
 ||64.226.121.55^
+||64.226.91.31^
 ||64.227.129.58^
 ||64.227.154.196^
 ||64.234.95.70^
@@ -335419,7 +335413,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||66.39.79.68^
 ||66.49.95.131^
 ||66.68.214.187^
-||66.71.242.67^
+||66.71.242.68^
 ||66.71.242.69^
 ||66.71.242.70^
 ||66.71.249.146^
@@ -335429,12 +335423,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||66o.brightc0re.ru^
 ||67.10.149.213^
 ||67.177.204.82^
-||67.210.101.50^
 ||67.214.245.59^
 ||67.217.57.240^
 ||67.60.129.152^
 ||67.ha5r.ru^
-||67.rjuq3.ru^
 ||676.stonemist.ru^
 ||679.skyf0rge.ru^
 ||68.107.218.106^
@@ -335474,14 +335466,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||6901420.bl8205.ru^
 ||697yp.mcr0phnuc1.ru^
 ||698.se5m.ru^
-||69c.dzem4.ru^
 ||69d.ykgw-2.ru^
 ||69z.stonec0re.ru^
 ||6a.m2la.ru^
 ||6axg.mintdr1ft.ru^
 ||6c.e-dx.ru^
 ||6c.g7ve.ru^
-||6c.rjuq3.ru^
 ||6cfc.frostmark.ru^
 ||6cm.ykgw-2.ru^
 ||6controller.online^
@@ -335509,11 +335499,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||6i4.re7x.ru^
 ||6i4.ze9y.ru^
 ||6ifg.mistybyte.ru^
-||6j.vbep3.ru^
 ||6kdo.hovermint.ru^
 ||6kjhgj.secludingcurly.digital^
 ||6l.ussn7.ru^
-||6lv.qrow6.ru^
 ||6lz.horizonbloom.ru^
 ||6mm.ibzr-2.ru^
 ||6n.3-5y.ru^
@@ -335524,7 +335512,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||6nn.gr1tbinder.ru^
 ||6o.jamcrest.ru^
 ||6o2p1.0ctave5pairi.ru^
-||6p.dnek6.ru^
 ||6pause839e.com^
 ||6pz.bray-circuit.ru^
 ||6r7t5g36.n1ghtsh0re.ru^
@@ -335552,6 +335539,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||6zy.l-ly.ru^
 ||7.c70ye.ru^
 ||7.kzg-w-4-y.ru^
+||70.166.89.181^
 ||70.184.13.47^
 ||70.190.199.152^
 ||70.39.111.114^
@@ -335562,14 +335550,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||70.95.233.160^
 ||70.b9sa.ru^
 ||70.re7x.ru^
-||70.xbiq2.ru^
 ||706391.31e854642.ru^
 ||706391.y438414.ru^
 ||71.104.46.31^
 ||71.15.96.217^
 ||71.194.158.117^
 ||71.198.110.126^
-||71.207.128.92^
 ||71.207.64.66^
 ||71.239.7.81^
 ||71.25.181.86^
@@ -335595,6 +335581,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||72.61.131.157^
 ||72.61.47.208^
 ||72.62.59.160^
+||72.80.246.9^
 ||72.em1npe0ny.ru^
 ||72.ko1osunde2d.ru^
 ||72563.37i658094.ru^
@@ -335639,7 +335626,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||75.p7li.ru^
 ||75.wave5tone.ru^
 ||75z.ripple-cask.ru^
-||76.130.209.104^
 ||76.136.85.221^
 ||76.140.113.250^
 ||76.154.249.207^
@@ -335676,7 +335662,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||77.181.221.52^
 ||77.184.144.102^
 ||77.189.143.14^
-||77.189.187.2^
+||77.189.229.47^
 ||77.189.243.7^
 ||77.189.246.160^
 ||77.189.70.180^
@@ -335695,11 +335681,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||77.247.88.111^
 ||77.247.88.124^
 ||77.247.88.68^
-||77.247.88.81^
 ||77.247.88.96^
 ||77.247.93.89^
 ||77.29.60.243^
 ||77.44.221.229^
+||77.45.73.90^
 ||77.45.77.84^
 ||77.46.134.34^
 ||77.46.134.40^
@@ -335737,6 +335723,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||78.110.68.96^
 ||78.110.73.255^
 ||78.110.77.152^
+||78.111.30.28^
 ||78.111.30.6^
 ||78.132.104.126^
 ||78.132.20.7^
@@ -335745,7 +335732,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||78.132.30.66^
 ||78.132.8.187^
 ||78.136.240.220^
-||78.140.248.242^
 ||78.140.32.219^
 ||78.141.196.6^
 ||78.142.18.92^
@@ -335777,9 +335763,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||78.187.17.22^
 ||78.188.137.146^
 ||78.188.91.108^
-||78.20.115.5^
 ||78.26.11.253^
-||78.26.136.125^
 ||78.26.180.129^
 ||78.26.81.99^
 ||78.29.14.127^
@@ -335799,9 +335783,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||78.46.240.128^
 ||78.51.188.116^
 ||78.51.220.142^
+||78.63.149.52^
 ||78.69.113.141^
 ||78.70.152.202^
 ||78.71.231.184^
+||78.84.91.221^
 ||78.87.187.116^
 ||78.90.248.149^
 ||78.slaq.ru^
@@ -335874,7 +335860,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||7juhe.gr0upw0rk.ru^
 ||7k24.br1ckw0rd.ru^
 ||7k4.windm1st.ru^
-||7k5.qzad3.ru^
 ||7kqic.corest0rm.ru^
 ||7l.ckar-4.ru^
 ||7lim.xyz^
@@ -335882,7 +335867,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||7mqkvitp.rockyhigra.ru^
 ||7mqyam5a.h0wevpro5eca.ru^
 ||7n.luc7y5nub.ru^
-||7n.vbep3.ru^
 ||7nb.dae017f.ru^
 ||7nt.fori5po1u.ru^
 ||7o.ynbr-8.ru^
@@ -335893,7 +335877,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||7qqa.softgl1de.ru^
 ||7r.95tbm.ru^
 ||7r.j3ve.ru^
-||7r.qrow6.ru^
 ||7r.wreckly.ru^
 ||7r.ynmh-8.ru^
 ||7r8r.br1ckw0rd.ru^
@@ -335920,12 +335903,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||7yq9kkyk.5t0rmr1dge.ru^
 ||7yyu6.snowcrest.ru^
 ||7z.nightfl0w.ru^
-||7zt.vqod2.ru^
 ||8.129.101.20^
 ||8.129.17.165^
 ||8.131.118.10^
 ||8.131.63.6^
-||8.134.51.218^
 ||8.136.1.42^
 ||8.137.114.210^
 ||8.137.147.224^
@@ -335940,6 +335921,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||8.141.113.248^
 ||8.148.237.33^
 ||8.148.5.67^
+||8.149.128.10^
 ||8.152.100.155^
 ||8.152.218.67^
 ||8.152.223.39^
@@ -335956,7 +335938,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||8.217.198.214^
 ||8.217.48.249^
 ||8.218.138.77^
-||8.218.225.42^
 ||8.218.50.207^
 ||80.102.73.55^
 ||80.11.25.16^
@@ -336022,6 +336003,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||81.211.8.190^
 ||81.215.166.66^
 ||81.215.176.194^
+||81.218.154.53^
 ||81.22.42.232^
 ||81.225.196.133^
 ||81.226.201.46^
@@ -336031,6 +336013,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||81.27.61.247^
 ||81.30.194.134^
 ||81.30.208.254^
+||81.38.70.125^
 ||81.42.247.62^
 ||81.42.249.132^
 ||81.45.183.125^
@@ -336077,6 +336060,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||82.22.184.127^
 ||82.22.184.67^
 ||82.22.23.30^
+||82.221.139.173^
 ||82.25.56.13^
 ||82.27.2.229^
 ||82.4.52.242^
@@ -336104,7 +336088,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||83.219.1.198^
 ||83.219.248.37^
 ||83.224.128.105^
-||83.224.129.64^
 ||83.224.130.197^
 ||83.224.131.74^
 ||83.224.132.116^
@@ -336194,6 +336177,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||84.21.189.63^
 ||84.214.174.219^
 ||84.22.136.158^
+||84.234.96.159^
 ||84.234.96.51^
 ||84.234.96.53^
 ||84.234.98.102^
@@ -336245,12 +336229,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||85.130.160.219^
 ||85.15.111.160^
 ||85.15.117.176^
-||85.159.0.251^
 ||85.163.234.15^
 ||85.187.54.142^
 ||85.187.82.120^
 ||85.190.102.98^
-||85.192.41.2^
 ||85.204.214.8^
 ||85.204.220.8^
 ||85.204.221.106^
@@ -336273,12 +336255,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||85.57.30.25^
 ||85.72.39.196^
 ||85.90.245.231^
+||85.95.183.178^
 ||85.95.191.148^
 ||85.97.210.235^
 ||85.98.234.69^
 ||85.98.249.34^
 ||85.99.67.214^
-||85.ndoq0.ru^
 ||851.93i197934.ru^
 ||851.rv6324.ru^
 ||85a24fyd.blu3c0ve.ru^
@@ -336312,9 +336294,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||87.120.219.26^
 ||87.120.254.220^
 ||87.121.112.123^
+||87.121.112.124^
 ||87.121.222.129^
 ||87.121.79.179^
-||87.121.84.101^
 ||87.121.84.111^
 ||87.121.84.11^
 ||87.121.84.130^
@@ -336338,6 +336320,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||87.197.107.203^
 ||87.197.160.196^
 ||87.200.95.114^
+||87.227.140.66^
 ||87.247.202.34^
 ||87.249.142.126^
 ||87.251.249.41^
@@ -336444,6 +336427,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||89.216.100.166^
 ||89.216.107.99^
 ||89.222.151.167^
+||89.228.12.82^
 ||89.228.74.4^
 ||89.231.14.137^
 ||89.231.18.9^
@@ -336477,7 +336461,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||8b0ng.bene1i8ht.ru^
 ||8bg.bashglider.ru^
 ||8c.wavec0met.ru^
-||8cf.ldef4.ru^
 ||8controller.online^
 ||8controller.ru^
 ||8cu.co0perport5.ru^
@@ -336522,7 +336505,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||8r1qnkm3.rabk0r5pech.ru^
 ||8rt2.emberhoehle.ru^
 ||8s.1yjp.ru^
-||8s.kj-4-o-0.ru^
 ||8s.wavec0de.ru^
 ||8s3.s7li.ru^
 ||8sapu4d.com^
@@ -336569,6 +336551,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||91.106.91.147^
 ||91.109.153.10^
 ||91.121.34.146^
+||91.122.210.7^
 ||91.130.20.7^
 ||91.134.176.227^
 ||91.140.109.61^
@@ -336598,7 +336581,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||91.202.233.214^
 ||91.202.233.215^
 ||91.202.233.224^
-||91.203.89.146^
 ||91.205.191.202^
 ||91.207.184.142^
 ||91.208.206.49^
@@ -336609,6 +336591,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||91.215.85.209^
 ||91.215.85.210^
 ||91.215.85.215^
+||91.215.85.42^
 ||91.219.23.37^
 ||91.219.239.20^
 ||91.219.239.49^
@@ -336695,6 +336678,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||91.92.242.214^
 ||91.92.242.225^
 ||91.92.242.27^
+||91.92.242.42^
 ||91.92.243.117^
 ||91.92.243.129^
 ||91.92.243.152^
@@ -336744,6 +336728,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||92.241.77.214^
 ||92.246.89.117^
 ||92.246.90.22^
+||92.247.4.226^
 ||92.255.234.53^
 ||92.40.112.114^
 ||92.40.118.229^
@@ -336790,6 +336775,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||93.215.23.87^
 ||93.22.197.81^
 ||93.239.181.235^
+||93.239.184.31^
 ||93.39.215.44^
 ||93.43.53.67^
 ||93.55.251.246^
@@ -336813,10 +336799,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||94.103.2.92^
 ||94.130.229.174^
 ||94.141.135.186^
+||94.142.63.8^
 ||94.154.172.199^
 ||94.154.35.115^
 ||94.154.35.154^
-||94.154.35.25^
 ||94.154.35.52^
 ||94.154.35.73^
 ||94.154.46.250^
@@ -336935,6 +336921,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||95.6.24.96^
 ||95.6.41.155^
 ||95.62.202.150^
+||95.67.26.217^
 ||95.70.238.134^
 ||95.70.252.2^
 ||95.78.66.80^
@@ -336957,7 +336944,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||96.66.24.242^
 ||96.66.24.248^
 ||96.9.228.226^
-||96.9.87.21^
 ||96.j8ro.ru^
 ||964.30u241207.ru^
 ||967m.stormc0de.ru^
@@ -336973,7 +336959,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||98.213.164.39^
 ||98.70.13.131^
 ||98.drip-anchor.ru^
-||98.hnaq6.ru^
 ||987i.bri8hten0ld.ru^
 ||989.f0rtunmentho1.ru^
 ||98du.mor-5-tud-1-es.ru^
@@ -336982,8 +336967,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||99.118.215.24^
 ||99.71.130.109^
 ||99.r46eu.ru^
-||99194034-96-20180108171507.webstarterz.com^
-||9a.zqof0.ru^
 ||9am.8-f-e8.ru^
 ||9aoj.jump3r.ru^
 ||9az.q7jt-0k.ru^
@@ -336999,7 +336982,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||9dv8.f1auntre6.ru^
 ||9e.hb0-e.ru^
 ||9fvaco8b.t0rchbasil.ru^
-||9g.ldef4.ru^
 ||9gu.wildr0sehub.ru^
 ||9gzt.c0ffee8rind.ru^
 ||9h54jr6k.get2b0ut.ru^
@@ -337008,7 +336990,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||9ht.xa9t.ru^
 ||9i.njur.ru^
 ||9ij.v3ix.ru^
-||9j.dlun7.ru^
 ||9j5.5x7u.ru^
 ||9j6.col1ectfre5h.ru^
 ||9jw.ju8r.ru^
@@ -337031,7 +337012,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||9pt.bu1gep2lest.ru^
 ||9q.55-0p.ru^
 ||9q.raincr5st.ru^
-||9r.gtus4.ru^
 ||9r6r.deep5ky.ru^
 ||9rg.c0pperknit.ru^
 ||9rt5b.dexlotion.ru^
@@ -337045,7 +337025,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||9t4.wir-2.ru^
 ||9tkz.qu2rv0lts.ru^
 ||9u.ve5l.ru^
-||9v.dlun7.ru^
 ||9vo.wolkenspur3.ru^
 ||9wk.bluef0rm.ru^
 ||9x.windl1nk.ru^
@@ -337059,12 +337038,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||9yg.m2la.ru^
 ||9yi.j935.ru^
 ||9z.m7lo.ru^
-||9zc.sxuj7.ru^
 ||9zpya.drift-shad-0-w.ru^
 ||9zs.my^
 ||a-gwo.pages.dev^
 ||a.1vd-z.ru^
-||a.1wd2k.ru^
 ||a.4fg2n.ru^
 ||a.4md69.ru^
 ||a.565fit.ru^
@@ -337089,7 +337066,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||a0gqv.pe8d.online^
 ||a0p2.2bj82sg.ru^
 ||a1.4a7vci9.ru^
-||a1.5sv1g.ru^
 ||a1.g6xt-5n.ru^
 ||a1.mi9q.ru^
 ||a1.no4s.ru^
@@ -337102,7 +337078,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||a1t7m.t-7-1u.ru^
 ||a2.driftl1ne.ru^
 ||a2.gi0x.ru^
-||a27.jcof9.ru^
 ||a2h4.ey-l2q.ru^
 ||a2mx.8r-4u.ru^
 ||a2n.ripplerover.ru^
@@ -337254,9 +337229,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||adver.com.br^
 ||advustech.com^
 ||ae.to-qa.ru^
-||ae.wsit4.ru^
 ||ae09.briarhaven.ru^
 ||aehz.id1otre5ist.ru^
+||aerconditionat-arges.ro^
 ||aesthetic-parfait-d56344.netlify.app^
 ||aff1xslavka.com^
 ||affectionate-edison.196-251-72-149.plesk.page^
@@ -337281,7 +337256,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ahh.ve5l.ru^
 ||ahp.wave5hift.ru^
 ||ai-assistant.life^
-||ai.bvuf2.ru^
 ||ai.datap1xel.ru^
 ||ai.ky-4x.ru^
 ||ai2uuwqw.ecumen1sm0ff.ru^
@@ -337298,7 +337272,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||aj.saffronkern.ru^
 ||ajbkf.c1earwave.ru^
 ||ajdjdhsjsk.shop^
-||ajf.jcof9.ru^
 ||ajpl.ripple-cask.ru^
 ||ajsdhasjdha.sbs^
 ||ak.1-nyearbo-0-k.ru^
@@ -337455,7 +337428,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||aq.c1ubmel0dic.ru^
 ||aq.pen1sp7edef.ru^
 ||aq9.deepc0rest.ru^
-||aqcszh.com^
 ||aqmj4.deepc0rest.ru^
 ||ar.luc-7-y-5-nub.ru^
 ||ar.qcet-8.ru^
@@ -337502,6 +337474,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||as.x3-ri.ru^
 ||as.ze-lu.ru^
 ||asassassaasas.pages.dev^
+||asd124asdasfasfasfa1231.zjzkzjzkz.xyz^
 ||asdad.florpeter.xyz^
 ||asdkdakd.kozow.com^
 ||asdkl.shop^
@@ -337530,7 +337503,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||at.s4-ti.ru^
 ||at.to-qa.ru^
 ||at0micwallets.com^
-||at7.rjuq3.ru^
 ||atasapka.com.tr^
 ||atcfx.net^
 ||atd.e-dx.ru^
@@ -337545,8 +337517,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||atteppzkf.com^
 ||atualizajbl.online^
 ||au.1nju5tred.ru^
-||au.hnaq6.ru^
 ||au.twy0.ru^
+||au72nuxzv2.ufs.sh^
 ||audio.aud-1-mi-5-s.ru^
 ||audio5.soundg0.ru^
 ||audit.smsmtrainings.com^
@@ -337594,7 +337566,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||awy.sp-1-nterpad.ru^
 ||ax.m0onforger.ru^
 ||ax.tr-8n.ru^
-||ax73.kpyw8.ru^
 ||ax74.3-2pd.ru^
 ||ax75.vorn5.ru^
 ||axe.run-c-you.ru^
@@ -337620,9 +337591,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||azure5.bluem1st.ru^
 ||b.25qx7.ru^
 ||b.4kl-9.ru^
-||b.4xq2k.ru^
 ||b.60nma5.ru^
-||b.7wh2n.ru^
 ||b.8ss4e.ru^
 ||b.c70ye.ru^
 ||b.lb3091.online^
@@ -337657,7 +337626,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||b2m.3pea2.ru^
 ||b2q7pt.br2qin5pect.ru^
 ||b2vf.vukm9.ru^
-||b2vt.plig5.ru^
 ||b2vu.7-5wd.ru^
 ||b2x0.stonef1eld.ru^
 ||b2y6.8786.online^
@@ -337680,7 +337648,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||b4x.ravel-pink.ru^
 ||b5.su4n.ru^
 ||b53.syrupdock.ru^
-||b5d.rjuq3.ru^
 ||b5h.ykgw2.ru^
 ||b5k2.g6xt-5n.ru^
 ||b5mx.33b2.online^
@@ -337809,11 +337776,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||bbd.imp2rtund0.ru^
 ||bbpa.interk2ts2v.ru^
 ||bcly.info^
-||bcm.stix2.ru^
 ||bcq.je9t.ru^
 ||bcqz.clearspark.ru^
-||bd.1jd3t.ru^
-||bd.9zk8r.ru^
 ||bd.brightl1ne.ru^
 ||bd.falconhimmel.ru^
 ||bd.i924ao.ru^
@@ -337932,7 +337896,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||bit.ju5q.ru^
 ||bite.softp1ne.ru^
 ||bixfoy.pa5spra8mat.ru^
-||bj.dlun7.ru^
 ||bj.t1va.ru^
 ||bj4.crust5p1ant.ru^
 ||bj5y6-0f-9h4-9fgg4-1324992141.cos.ap-bangkok.myqcloud.com^
@@ -337953,7 +337916,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||blenderx.mouthrunnbeva1986.workers.dev^
 ||blenderx.osloyverjua1977.workers.dev^
 ||blenderxnew.tohocaper1979.workers.dev^
-||blessdayservices.org^
 ||bleue4.bluem1st.ru^
 ||blink.cl0udvex.ru^
 ||blink.foamswitch.ru^
@@ -338032,6 +337994,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||boom.plume-anchor.ru^
 ||boost.bu1gep2lest.ru^
 ||bop.s7li.ru^
+||bopsbdb.sbs^
 ||bot.devnguvcl.dev^
 ||bot.peepoo.online^
 ||bot.windy.wtf^
@@ -338072,7 +338035,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||bramble.bramblefix.ru^
 ||branch.nightl1ne.ru^
 ||brand8.emberklamm.ru^
-||bratusferramentas.grupomoltz.com.br^
 ||braun5.copperweide8.ru^
 ||brave-cori.196-251-72-149.plesk.page^
 ||bravoteam6.org^
@@ -338126,11 +338088,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||broth.s0uponwe2ther.ru^
 ||brown6.1-mafus-044-e.ru^
 ||browns.sn1pixel.ru^
-||brp.dzem4.ru^
 ||brplay.store^
 ||brq2n7.br-2-qin-5-pect.ru^
 ||brq5n2.br2qin5pect.ru^
 ||bru81.aud-1-mi-5-s.ru^
+||brucal100.mariadobairro.sbs^
 ||brucontal73.floresflorchuva.cfd^
 ||brudkaalaska.xyz^
 ||bruke.0akstream.ru^
@@ -338222,7 +338184,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||bytenet.serveftp.com^
 ||byv.q3lo.ru^
 ||bz.5-rt.ru^
-||bz.ktox5.ru^
 ||bz.onyxmorgen.ru^
 ||bz.quasarorchid.ru^
 ||bzf.aclz9.ru^
@@ -338275,7 +338236,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||c3.6aiiwi2.ru^
 ||c3.g-lim.ru^
 ||c3436037.salamanderprocessing.pages.dev^
-||c3fn.kpyw8.ru^
 ||c3fp.3-2pd.ru^
 ||c3fs.vorn5.ru^
 ||c3k9.4y328.online^
@@ -338309,7 +338269,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||c7nh.8j8-o.ru^
 ||c7p.5m9081.online^
 ||c7p1.1e2u2a0.ru^
-||c7pa.hpap6.ru^
 ||c7pz.9-1pv.ru^
 ||c7qv.te7ap.online^
 ||c7t.5no-v.ru^
@@ -338330,7 +338289,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||c8.tundrasable.ru^
 ||c8.yf-l3.ru^
 ||c81.darkm0on.ru^
-||c8l.kj-4-o-0.ru^
 ||c8m2t.op76.online^
 ||c8n.8i-9.ru^
 ||c8r1n.9-s-7g.ru^
@@ -338442,7 +338400,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||cfs7.blog.daum.net^
 ||cfs9.blog.daum.net^
 ||cfu.twr.mybluehost.me^
-||cg.vbep3.ru^
 ||cg.xer-o.ru^
 ||ch.0-pal-summit.ru^
 ||ch.bo8y.ru^
@@ -338452,7 +338409,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||chamber.st-1-lt-forge.ru^
 ||chamjs.com^
 ||champ.f1ercen1ivin.ru^
-||changemyseat.com^
 ||charityjs.com^
 ||charlesschrf.com^
 ||charm.ist0mpi1e.ru^
@@ -338532,6 +338488,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||clear1.ta11y.ru^
 ||clear2.r1ver.ru^
 ||clears.syc0aq8uy1.online^
+||clehal.triunfodelamor.sbs^
+||clevaz.sortilegio.sbs^
 ||clever-northcutt.196-251-72-149.plesk.page^
 ||clientetv.crn.re^
 ||cliff.brightl1ne.ru^
@@ -338627,6 +338585,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||colislivraisonsuivi.support^
 ||collect-myparcel.help^
 ||comet.softcr5st.ru^
+||commerce-ciao.info^
 ||commit0.gethe-4-e.ru^
 ||commonloamprojects.com^
 ||community.tsrv1.ws^
@@ -338645,7 +338604,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||connect.itsupport247.net^
 ||connects-magiceden.io^
 ||connexion-support.com^
-||constrainthome080doc-1318069902.cos.ap-chengdu.myqcloud.com^
 ||constructora-alpigroup.com^
 ||continentalgroup.net.in^
 ||controllerjs.com^
@@ -338692,7 +338650,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||cpc9302.com^
 ||cpcontacts.5-253-86-21.cprapid.com^
 ||cpcontacts.redirect-code.duckdns.org^
-||cpe90-146-57-238.liwest.at^
 ||cpqps.wildc0ast.ru^
 ||cptchic.icu^
 ||cptfxltd.com^
@@ -338713,6 +338670,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||crat0n.b0xlight.ru^
 ||crate.j-1-ngleknob.ru^
 ||crazy-proskuriakova.196-251-72-149.plesk.page^
+||crazyitaliano.com^
 ||crazywickedaddiction.com^
 ||creek.leafshift.ru^
 ||creek5.r1verdrop.ru^
@@ -338756,7 +338714,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||cs2bs.lake5p1rit.ru^
 ||csk.vietnamddns.com^
 ||csomagklds-2025.com^
-||csz.kj-4-o-0.ru^
 ||ct3-24.ru^
 ||ctdrpu.za.com^
 ||ctf.nibsnap.ru^
@@ -338776,13 +338733,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||cut.tov4.ru^
 ||cute-meerkat-c97370.netlify.app^
 ||cutting-edge.in^
-||cv.gdyl2.ru^
 ||cv8.f-o-9bt.ru^
 ||cvgekgnf.b0utontran5fer.ru^
 ||cw.acr0b2tdiffer.ru^
 ||cwci.oceandrift.ru^
 ||cwma-10-b2-v4wan-167603-cust66.vm2.cable.virginm.net^
-||cwp.qrow6.ru^
 ||cwscj.stonec0re.ru^
 ||cwt.m1stleaf.ru^
 ||cwv2t.s0larbudge.ru^
@@ -338795,7 +338750,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||cyc.rxir-9.ru^
 ||cycl1e.windc0de.ru^
 ||d.14yaa.com^
-||d.kpzip.com^
 ||d.wanyouxi7.com^
 ||d0.meqt.ru^
 ||d0.skyf0rge.ru^
@@ -338818,7 +338772,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||d2.n1ghtcore.ru^
 ||d2.pen-1-sp-7-edef.ru^
 ||d2.twy-0.ru^
-||d2314eac.solaraweb-alj.pages.dev^
 ||d29.v3ix.ru^
 ||d2a5.5no-v.ru^
 ||d2l.bo3l.ru^
@@ -338861,7 +338814,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||d3yv.6-w0y.ru^
 ||d3zq9.k9-2g8.ru^
 ||d4.da5y.ru^
-||d4.hnaq6.ru^
 ||d4.l2nd0fenet.ru^
 ||d44vdnpu.dealblitz.qpon^
 ||d45m6uxw.n1ghtcre5t.ru^
@@ -338895,7 +338847,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||d7.tfdl.net^
 ||d7m0.q3lo.online^
 ||d7q.a-8-xp.ru^
-||d7qx.kqag6.ru^
 ||d7qy.0-1gc.ru^
 ||d7qz.qihs8.ru^
 ||d7w2.zephyrsteg.online^
@@ -339034,6 +338985,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||derpixonpartygames.com^
 ||derv1n.de5per5eem.ru^
 ||derxip.caskwander.ru^
+||detierra.cl^
 ||device.redirec.com^
 ||devilnet.xyz^
 ||dew.mi4x.ru^
@@ -339056,7 +339008,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||dg45.n1ghtowl.ru^
 ||dgl.blyp9.ru^
 ||dgt-2025.com^
-||dh.sheh0.ru^
 ||dh28.s0ftcrest.ru^
 ||dhitrackparcei.help^
 ||dhtk.deepf0rm.ru^
@@ -339093,7 +339044,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||dip.net-0-prosa.ru^
 ||dip.qen9.ru^
 ||dirzam.exh2ust8one.ru^
-||disk.accord1key.cn^
 ||distracted-nightingale.196-251-72-149.plesk.page^
 ||divvanews.com^
 ||dizelexcel.xyz^
@@ -339111,7 +339061,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||dl.dzqzd.com^
 ||dl.gamedva.top^
 ||dl.instanderapkofficial.com^
-||dl.natgo.cn^
 ||dl.seyarabata.com^
 ||dl.y8-8.ru^
 ||dl7.apkhome.net^
@@ -339195,6 +339144,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||download.kbcard.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.suxiazai.com^
 ||download.towertour.appleoffortune.xyz^
 ||download2.huduntech.com^
 ||downloader.nvms9000.su^
@@ -339244,7 +339194,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||drb.amin0mer3ges.ru^
 ||dream5.tuful32io3.online^
 ||dreams.sys7yn0iy5.ru^
-||dreamwatchevent.com^
 ||dreamy-hamilton.196-251-72-149.plesk.page^
 ||dreamy-keller.196-251-72-149.plesk.page^
 ||drgenov.com^
@@ -339347,7 +339296,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||dz4y1.p2rabpr0nos.ru^
 ||dzthj.dup-1-ic-4-ermaph.ru^
 ||e.2f8-2.ru^
-||e.5sv1g.ru^
 ||e.b8c90.ru^
 ||e.y742au.ru^
 ||e0.meltquark.ru^
@@ -339367,7 +339315,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||e2.q-0-spi.ru^
 ||e2h.s0ftmint.ru^
 ||e2kj.ru7x.online^
-||e2rv.llim8.ru^
 ||e2rw.6-0sg.ru^
 ||e2rx.nowc8.ru^
 ||e31.stormblink.ru^
@@ -339376,7 +339323,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||e3pz.11u812580.online^
 ||e3ytn.qo1s.online^
 ||e4.fog-map.ru^
-||e4e.ktox5.ru^
 ||e4r6k9l.ru^
 ||e5.tundrasable.ru^
 ||e5w.cleardawn.ru^
@@ -339469,7 +339415,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ehpgqp.sa.com^
 ||ehu.bramblestrom.ru^
 ||ei.je9t.ru^
-||ei3.sheh0.ru^
 ||eia.dr1ftshade.ru^
 ||eich3e.nar7owsized.ru^
 ||eiche.alderquartz.ru^
@@ -339596,8 +339541,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||et.trowy.ru^
 ||et.twy-0.ru^
 ||et.ve1vet0rchid.ru^
-||et.xbiq2.ru^
-||et1.dzem4.ru^
 ||etch.s-2-ly.ru^
 ||eternitysoftware.world^
 ||ethical-points-competitive-fluid.trycloudflare.com^
@@ -339616,7 +339559,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ew.t2kec2reujo.ru^
 ||ewd.gl8r.ru^
 ||ewgmd.patchvine.ru^
-||ewm.ndoq0.ru^
 ||ewo.0fv1.ru^
 ||ewp3.bul1upd2ted.ru^
 ||ewrd3.ga8tukh1yat.ru^
@@ -339647,7 +339589,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||f.6aiiwi2.ru^
 ||f.mcyz4.ru^
 ||f.npo-iskra.ru^
-||f.wsit4.ru^
 ||f0.bra9lupt5ev.ru^
 ||f0.wduh8.ru^
 ||f0b.ze9y.ru^
@@ -339696,7 +339637,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||f6b.st0rmbyte.ru^
 ||f6rx.ko0um.online^
 ||f6ua.desj1.ru^
-||f6ud.nmys4.ru^
 ||f6ue.4-5sq.ru^
 ||f78.ju8r.ru^
 ||f7du.cdn-3-29.ru^
@@ -339784,7 +339724,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||fdvfr.n0uvpu7itan.ru^
 ||fe.gyj-0.ru^
 ||fe.jg7ra.ru^
-||fe.vqod2.ru^
 ||featherstorage.com^
 ||feels-lounge-release-thursday.trycloudflare.com^
 ||feld.harewinkel.ru^
@@ -339848,6 +339787,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||file-secure-sharing.com^
 ||file.blackint3.com^
 ||file.edunet.ac^
+||file.uhsea.com^
 ||filerit.com^
 ||files-ld.s3.us-east-2.amazonaws.com^
 ||files.secureapk.app^
@@ -339881,7 +339821,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||fizz.sp1nterpad.ru^
 ||fizz.v0xencrate.ru^
 ||fizz3.picketcore.ru^
-||fj.gtus4.ru^
 ||fjd.da6v.ru^
 ||fjhk.snowtrace.ru^
 ||fjord.alderquartz.ru^
@@ -339952,6 +339891,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||flipgg.sbs^
 ||flipinlanjal.mail-cube.store^
 ||flisinfuntar.mail-lab.store^
+||flomenrinder2.mariadobairro.sbs^
 ||flononconsal.mail-genius.store^
 ||florix.fl0rinf2t.ru^
 ||flour.1-mafus-044-e.ru^
@@ -340047,7 +339987,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||fp.aclz9.ru^
 ||fp57ddz7.stormh1ll.ru^
 ||fpx0w.bowin-1-nca-5.ru^
-||fq.wdax1.ru^
 ||fq3v.darkf1eld.ru^
 ||fq8.r1ver.ru^
 ||fqz.band5tair5.ru^
@@ -340059,15 +339998,18 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||fracture.disfi8tit2n.ru^
 ||frakt8.crystalv1be.ru^
 ||fraldasbaby.mooo.com^
+||frarol.cuidandote.sbs^
 ||fray.nerv0u5radic.ru^
 ||frboe5t2.inimit9adin2.ru^
 ||freeporngamesnocreditcard.com^
 ||freminfar.floresdelphinium.cfd^
+||frepanfinbel7.mariaislena.sbs^
 ||frepanlanral563.luxpost.shop^
 ||fresh.5-milod-931-o.ru^
 ||fresh.di5orientr0w.ru^
 ||freshonline.lovestoblog.com^
 ||freshpitaclub.screenconnect.com^
+||fretansal.marimar.sbs^
 ||frewqeqsq32.0hi.me^
 ||friendly-cray.196-251-72-149.plesk.page^
 ||friendsandplants.com^
@@ -340141,23 +340083,19 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||fz.tiansys.cn^
 ||fzjn4gee.hush-pancake.ru^
 ||fzr.p0larday.ru^
-||g.1jd3t.ru^
 ||g.9715w.ru^
 ||g.9b9-7.ru^
-||g.9zk8r.ru^
 ||g.falconhimmel.ru^
 ||g.i924ao.ru^
 ||g.yxb-au.ru^
 ||g0.de-6a.ru^
 ||g0.xo3v.ru^
-||g0.zqof0.ru^
 ||g00d.da-5-v.ru^
 ||g00d.s7li.online^
 ||g0bn9.wi7o.online^
 ||g0ld.mab7o.online^
 ||g0nd9.rainst0ne.ru^
 ||g0nq.desj1.ru^
-||g0ny.nmys4.ru^
 ||g0nz.4-5sq.ru^
 ||g0qm.ko0um.online^
 ||g0sqa.139z.online^
@@ -340206,7 +340144,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||g5zx.9-88.online^
 ||g6.85cu3895.ru^
 ||g6k2.5u5vbu6.ru^
-||g6ta.kqag6.ru^
 ||g6tb.0-1gc.ru^
 ||g6tc.qihs8.ru^
 ||g6u.m2la.ru^
@@ -340224,7 +340161,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||g7x.7g37b.ru^
 ||g7ya.y2u-72.ru^
 ||g8.k5gc56.ru^
-||g8.ldef4.ru^
 ||g8.n-61-5.ru^
 ||g8.ye-t5c.ru^
 ||g8f.opal-hollow.ru^
@@ -340315,16 +340251,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||gb.kaq51.ru^
 ||gbb9.darkfl0w.ru^
 ||gbeq.itki5se1.ru^
-||gc.ss-9-y-4.ru^
 ||gc31.windst0ne.ru^
 ||gcd1.softf0x.ru^
 ||gci.no4s.ru^
-||gd.bh-3-i-6.ru^
 ||gd.ki8n.ru^
 ||gd5do.b2rvshap0v.ru^
 ||gd7k1.bluel1ght.ru^
 ||gdk.f1rewall.ru^
-||ge.sheh0.ru^
 ||ge1.xa5r.ru^
 ||gear.j1tmech2nic.ru^
 ||gear.je-9-r.ru^
@@ -340398,7 +340331,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||giz.cloudb1t.ru^
 ||gizmo.skysh1ne.ru^
 ||gjin.ever-mint.ru^
-||gk.dnek6.ru^
 ||gk.quartz-leaf.ru^
 ||gk0.bl1zpond.ru^
 ||gk9.i4-27k.ru^
@@ -340493,6 +340425,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||gloam7.duskfield.ru^
 ||globaltechbilling.com^
 ||globondinim4.floresflorestrela.cfd^
+||glorinmingir.abismodepasion.sbs^
 ||gloss.his5isappe2r.ru^
 ||glow.b1tcascade.ru^
 ||glow.br0adtemp1ate.ru^
@@ -340572,7 +340505,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||googletagamnager.com^
 ||goolges-tikitok.sbs^
 ||goramobil.app^
-||gordon-and-son.com^
 ||gosped.s1aughttre5s.ru^
 ||goto.stnts.com^
 ||gox7.unslicedcapacity.digital^
@@ -340591,6 +340523,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||grain.muddleoak.ru^
 ||grain.q0spi.online^
 ||grain.vextimber.ru^
+||grambil.mariaislena.sbs^
 ||grammindiz.floresnigella.cfd^
 ||grandmarketsfx.com^
 ||graniteguyservices.com^
@@ -340631,6 +340564,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||gruen.jadeecke.ru^
 ||grufuncinlhar.floresflorcravovermelho.cfd^
 ||grugoncinsom.floresclivia.cfd^
+||gruqual.abismodepasion.sbs^
 ||grusul4.floresfloripomeiaverde.cfd^
 ||gruzam.period5ty1ed.ru^
 ||gryazovets.ruskidka.com^
@@ -340696,7 +340630,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||gzt.lo9q.ru^
 ||h.3c38h.ru^
 ||h.t-nin.ru^
-||h.vqod2.ru^
 ||h07.bo3l.ru^
 ||h0f8.solarfracht.online^
 ||h0me.qytan.online^
@@ -340715,7 +340648,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||h1u.ra6n.ru^
 ||h1vf4.lu2p.online^
 ||h1z.lb3091.online^
-||h2.7wh2n.ru^
 ||h2.cloverschnee.ru^
 ||h2.kuq5g.ru^
 ||h2.owp-oo.ru^
@@ -340752,10 +340684,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||h2x.sn-1-pixel.ru^
 ||h3.0f78.ru^
 ||h3.3x6-7.ru^
-||h3.4cv6c.ru^
 ||h3.def1nmem0r.ru^
 ||h3.i261au.ru^
-||h38.sxuj7.ru^
 ||h3d9.fl0watch.ru^
 ||h3kp.cdn-2-45.ru^
 ||h3l8.9r3s.online^
@@ -340785,15 +340715,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||h6.5h0p.ru^
 ||h650evc4.cl0ud5tream.ru^
 ||h6p4t.1z57.online^
-||h7.1wd2k.ru^
 ||h7.2f8-2.ru^
 ||h7.4a8u6.ru^
-||h7.5lr1v.ru^
-||h7.5sv1g.ru^
 ||h7.o-y3ii.ru^
 ||h7.y742au.ru^
 ||h71.ye-t5c.ru^
-||h7lm.kpyw8.ru^
 ||h7ln.3-2pd.ru^
 ||h7lp.vorn5.ru^
 ||h7rl1.quench-orbit.ru^
@@ -340804,7 +340730,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||h8r.lo9q.online^
 ||h8rf.9h-5y.ru^
 ||h8s2.brassufer.online^
-||h9.1jd3t.ru^
 ||h9.5e7i0.ru^
 ||h9.i924ao.ru^
 ||h9.yxb-au.ru^
@@ -340813,7 +340738,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||h9j.l0ngprope1l.ru^
 ||h9kq.x3le.online^
 ||h9l.zo8k.ru^
-||h9m.9zk8r.ru^
 ||h9m.lunarlicht.ru^
 ||h9p3.566318z8.ru^
 ||h9r.1p-8s.ru^
@@ -340913,7 +340837,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||hd.acr0b2tdiffer.ru^
 ||hd1p.r1mrock.ru^
 ||hd3n.fi7em.online^
-||hd5r.plig5.ru^
 ||hd6p.vukm9.ru^
 ||hd6r.7-5wd.ru^
 ||hdbg.adm1rep1ay.ru^
@@ -340939,6 +340862,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||helpdps.site^
 ||helpdps.space^
 ||helpdps.tech^
+||helpdpsradar.tech^
 ||helpradar.shop^
 ||helpradar.site^
 ||helpradar.space^
@@ -341007,7 +340931,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||hj9.ge7kom0ley.ru^
 ||hjfng.wavermint.ru^
 ||hk.hb0-e.ru^
-||hk.vbep3.ru^
 ||hk.xa4p.online^
 ||hk003.ccwink.cc^
 ||hk03.akebi.cc^
@@ -341020,21 +340943,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||hl5n.cl0ckmint.ru^
 ||hlherb.com^
 ||hlp.wi0x.ru^
-||hm.bh3i6.ru^
-||hm.fj2e0.ru^
-||hm.fj4i6.ru^
-||hm.fp0y9.ru^
-||hm.fq1y8.ru^
-||hm.kj4o0.ru^
-||hm.ll7y5.ru^
-||hm.ls2a9.ru^
-||hm.mg1u5.ru^
-||hm.mw9y4.ru^
-||hm.pf6o2.ru^
-||hm.rk8y6.ru^
-||hm.ss9y4.ru^
-||hm.xbiq2.ru^
-||hm.zk5e7.ru^
 ||hm5ark.mar-5-hma-1-narc.ru^
 ||hmo.stoneh0use.ru^
 ||hn3.jg-7-ra.ru^
@@ -341141,7 +341049,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||hudrex.lobo8rnerf1.ru^
 ||hue.b9ku.ru^
 ||hufqam.m2ximtherm0s.ru^
-||hui.dzem4.ru^
 ||hullabusch.com^
 ||hulmet.insti8sc2tter.ru^
 ||hultiq.v-1-nexettle.ru^
@@ -341208,7 +341115,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||i62yv.bel1etin7eg.ru^
 ||i6gx6.s0ftfern.ru^
 ||i6y.no4s.ru^
-||i7.dlun7.ru^
 ||i7b3x8r.ru^
 ||i8.55-0p.ru^
 ||i8.kdit-5.ru^
@@ -341332,7 +341238,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ios5.blackandark.com^
 ||ioy.wi7o.ru^
 ||ip1.p8ri.ru^
-||ip423869596.ahcdn.com^
 ||ip66-179-93-123.pbiaas.com^
 ||ipu.hy6o.ru^
 ||iq.18yk.ru^
@@ -341376,13 +341281,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||iyiqs094.fa1ditmim2ns.ru^
 ||iyp61.sc2ntrepid2t.ru^
 ||iyr1c.fenod.online^
-||iyw.wdax1.ru^
 ||iz.blyp9.ru^
 ||iz.fe-k2.ru^
-||izocab.com^
 ||izogard.com^
 ||izw.mjg1.ru^
-||j-0-09g-9bh-h-ggf-1324992141.cos.ap-bangkok.myqcloud.com^
 ||j.5h4553.online^
 ||j0.95tbm.ru^
 ||j0.f1y5agacious.ru^
@@ -341458,7 +341360,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||jat.suf1nau8h.ru^
 ||javnek.mintbrook.ru^
 ||javxet.imp0rttwi5t.ru^
-||jawaratekno.com^
 ||jaxbim.buoyc0mp1aint.ru^
 ||jaxhef.plume-vortex.ru^
 ||jaxvel.stonem1st.ru^
@@ -341474,12 +341375,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||jd5.fv0-93.ru^
 ||jd51sa.glosscreate.digital^
 ||jdiw5.mintflash.ru^
-||jdv.bvuf2.ru^
 ||jdvgsjjs.sbs^
 ||je.dzem-4.ru^
 ||je.tvil-0.ru^
 ||je.tvil0.ru^
-||je.vqod2.ru^
 ||je5mf64c.p2ciftamp0n.ru^
 ||jebxit.g2un7makeup.ru^
 ||jelvon.di5pl2yleft.ru^
@@ -341524,7 +341423,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||jkshaonv.com^
 ||jkt338.top^
 ||jl.bracketloam.ru^
-||jm58.nmys4.ru^
 ||jm59.4-5sq.ru^
 ||jm5a.desj1.ru^
 ||jmpbowl.space^
@@ -341568,7 +341466,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||jp.braycircuit.ru^
 ||jp2.cl0udbreeze.ru^
 ||jprglro7.frostm1nd.ru^
-||jpv.dlun7.ru^
 ||jq.darkbreeze.ru^
 ||jq.u-v9.ru^
 ||jq8ob.bowin1nca5.ru^
@@ -341606,8 +341503,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||jutup.ydns.eu^
 ||juzmat.f0undoutw2y.ru^
 ||jv.zzax-4.ru^
-||jvu.bh-3-i-6.ru^
-||jw.ktox5.ru^
 ||jw.q4zi.ru^
 ||jwr.m2jo.ru^
 ||jx.che7nt2rp.ru^
@@ -341622,21 +341517,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||jz.dzem-4.ru^
 ||jz.j8ro.ru^
 ||jzyc.mintburst.ru^
-||k.5lr1v.ru^
 ||k.6e5a5u3.ru^
-||k.fj2e0.ru^
-||k.fj4i6.ru^
-||k.fp0y9.ru^
-||k.fq1y8.ru^
-||k.kj4o0.ru^
-||k.ll7y5.ru^
-||k.ls2a9.ru^
-||k.mg1u5.ru^
-||k.mw9y4.ru^
-||k.pf6o2.ru^
-||k.rk8y6.ru^
-||k.ss9y4.ru^
-||k.zk5e7.ru^
 ||k0.1z22k.ru^
 ||k0.f-xiu4.ru^
 ||k0.owp-oo.ru^
@@ -341721,7 +341602,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||k7x.nebularanke.ru^
 ||k7yb.1yjp.online^
 ||k8.r0en3ap.ru^
-||k8.wsit4.ru^
 ||k8c2.hushdr0pper.ru^
 ||k8jv1m2.ru^
 ||k8x1.starmarkt.online^
@@ -341742,7 +341622,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||k9r2.0bj3i.ru^
 ||k9r2.7ph88.ru^
 ||k9r2.lej75a.ru^
-||k9uv.zzax4.ru^
 ||k9uw.6-3tm.ru^
 ||k9ux.jobt9.ru^
 ||k9v3.sn-1-pixel.ru^
@@ -341752,7 +341631,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ka.ky-4x.ru^
 ||ka.s2-ly.ru^
 ||ka.ze-lu.ru^
-||ka84.llim8.ru^
 ||ka85.6-0sg.ru^
 ||ka86.nowc8.ru^
 ||kabl.fun^
@@ -341793,7 +341671,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||kas.orbitalnip.ru^
 ||katana.chernobyl.network^
 ||katyache.com^
-||kavacanada.ca^
 ||kavqet.me2n5precede.ru^
 ||kavyasourcing.com^
 ||kb786matkaapp.store^
@@ -341833,19 +341710,16 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||key.z3lu.ru^
 ||key7hp.keyhope.ru^
 ||kezqer.plume-vortex.ru^
-||kf.bvuf2.ru^
 ||kf.loxr.ru^
 ||kf2.evermint.ru^
 ||kfhdx.f1recliff.ru^
 ||kfy.be3q.ru^
-||kgv.sxuj7.ru^
 ||khamar.ir^
 ||khg2e.kos0ltyu4etey.ru^
 ||khoancatbetong89.vn^
 ||khw6m.evacu0t0nova.ru^
 ||ki.fe9v.ru^
 ||ki.r7va.com^
-||kib.zqof0.ru^
 ||kibu.jaxmorrow.ru^
 ||kidsrun.vrace.vn^
 ||kijfer.ext0rttramp1e.ru^
@@ -341952,7 +341826,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||krone.st0nefall.ru^
 ||krone3.wolspfad.ru^
 ||kronicxleopard.win^
-||ks.sxuj7.ru^
 ||ksgwkcii.ku6chni8ht.ru^
 ||kt.ckyq-9.ru^
 ||ktp-digital.online^
@@ -341989,7 +341862,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||kz.harborfreund.ru^
 ||kz1.9i3mpa6.ru^
 ||kz17u.spry-volt.ru^
-||kz3m.hpap6.ru^
 ||kz8m.te7ap.online^
 ||kzg.be3q.ru^
 ||kzw.lakeray.ru^
@@ -342042,7 +341914,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||l6vzy.sp-1-nterpad.ru^
 ||l7ks5.brahtr0phy.ru^
 ||l7x.q-0-spi.ru^
-||l8.dzem4.ru^
 ||l8.p7li.ru^
 ||l8k.zm6392.online^
 ||l8lp.kn-1-fecast.ru^
@@ -342052,7 +341923,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||l8qh.moxt5.ru^
 ||l8rd.30u241207.online^
 ||l9.a1mond0prit.ru^
-||l9.zqof0.ru^
 ||l9c2.picket-core.ru^
 ||l9o.knurl-pocket.ru^
 ||l9q7.6aiiwi2.ru^
@@ -342156,7 +342026,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||levifrenchbulldogs.com^
 ||lextran.com^
 ||lf.ziqa.ru^
-||lf8.rjuq3.ru^
 ||lfm9.darkw1nd.ru^
 ||lga.5g-t.ru^
 ||lgq.entire1y5ming.ru^
@@ -342226,7 +342095,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||linkresmiag168.online^
 ||linkresmiag168.site^
 ||linkresmiag168.store^
-||lio.vbep3.ru^
 ||livechatkingbet189.store^
 ||livelyfeather.ydqbg11598.workers.dev^
 ||livraison-colis-france.com^
@@ -342253,7 +342121,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ljh.dc-8.ru^
 ||ljo.cl0udfall.ru^
 ||ljy.r0ad.ru^
-||lk.bh-3-i-6.ru^
 ||lk.ckyq9.ru^
 ||lk.ha7e.ru^
 ||lk51.stormm1nd.ru^
@@ -342271,13 +342138,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||lmofficialtrustedmatka.online^
 ||lmsx6.lightw1nd.ru^
 ||ln.esca1t3ust.ru^
-||ln.qzad3.ru^
 ||ln.yjor.ru^
 ||lndonesia.my^
 ||lng7jr.longj0urney.ru^
 ||lng7p0.l0ngpo1e.ru^
 ||lnpw.silentl1ne.ru^
-||lo.jcof9.ru^
 ||lo.loqcloud.online^
 ||lo.pl-8a.ru^
 ||lo.tov-4.ru^
@@ -342345,7 +342210,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||lr.yq2r.ru^
 ||lr.znx7.ru^
 ||lr9kw.c0rkpr0tect.ru^
-||lt3b.nmys4.ru^
 ||lt3c.4-5sq.ru^
 ||lt3d.desj1.ru^
 ||lt7d.ko0um.online^
@@ -342367,7 +342231,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||lux-trust-aide-support.info^
 ||luxor.boscoplus.com^
 ||luxtrust-secure.info^
-||lv.gdyl2.ru^
 ||lv.quartzmug.ru^
 ||lv2.fl0wmortar.ru^
 ||lv5j.l0ng.ru^
@@ -342440,16 +342303,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||m1sty.lake5p1rit.ru^
 ||m1styx.mistflare.ru^
 ||m1x5hn.mar5hma1narc.ru^
-||m1yl.hpap6.ru^
 ||m2.3x6-7.ru^
-||m2.4cv6c.ru^
 ||m2.f-o-9bt.ru^
 ||m2.i261au.ru^
-||m21.sheh0.ru^
 ||m22u9.l1ghtforest.ru^
 ||m29810.contaboserver.net^
 ||m2a9.1ne-z.ru^
-||m2f.bvuf2.ru^
 ||m2fv.49o103159.online^
 ||m2m8.silverrun.ru^
 ||m2q8.op-76.online^
@@ -342463,7 +342322,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||m3a0z.idi0tnau8h.ru^
 ||m3edx.bep0ver7y.ru^
 ||m3p.z2q2.ru^
-||m3qe.zzax4.ru^
 ||m3qf.6-3tm.ru^
 ||m3qh.jobt9.ru^
 ||m3t.5u5vbu6.ru^
@@ -342512,7 +342370,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||m7y1.7aoasu3.ru^
 ||m7y1.8d9691.online^
 ||m8.4fg2n.ru^
-||m8.4xq2k.ru^
 ||m8.4y2o5.ru^
 ||m8.ahz-ya.ru^
 ||m8.x-ceu8.ru^
@@ -342574,7 +342431,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||mail.vm05.transportrrj.com^
 ||mail.wwflt.com^
 ||main.dsn.ovh^
-||main.novatrade.bot^
 ||majr5a.hubr1s5ajor.ru^
 ||make.mydaymakemyday.info^
 ||malibito.duckdns.org^
@@ -342631,7 +342487,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||me9x.9z2503.ru^
 ||mead.loamgarde.ru^
 ||meadow.driftmeadow.ru^
-||medises.co.kr^
 ||medow.rainv1sta.ru^
 ||meer.regenwald.ru^
 ||meer6.briarhaven.ru^
@@ -342675,7 +342530,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||mhvyf5.demotionborrower.digital^
 ||mhw.codes^
 ||mi.bramblestrom.ru^
-||mi.bvuf2.ru^
 ||mi.g-lim.ru^
 ||mi.sne4p.ru^
 ||mi.wduh8.ru^
@@ -342763,7 +342617,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||mizh.raincr5st.ru^
 ||mizpar.go1ogun0ow.ru^
 ||mizu.deep5tone.ru^
-||mj.ldef4.ru^
 ||mje.ckar-4.ru^
 ||mjjt.jam-crest.ru^
 ||mk1qq.rainf0x.ru^
@@ -342772,7 +342625,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ml2s.al1ah5natch.ru^
 ||mlele101.fwh.is^
 ||mlo.j-7m.ru^
-||mmd.zqof0.ru^
 ||mmmmamamam.shop^
 ||mmvzir.ha1fsovnarc0m.ru^
 ||mmw.da6v.ru^
@@ -342793,7 +342645,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||mogimall.com^
 ||mojtabaabbasi.com^
 ||moltav.e9uatp2nth.ru^
-||mom.jcof9.ru^
 ||mon-abonnement-disney.info^
 ||mon-colis-suivi-bpost.info^
 ||mon-comptes.help^
@@ -342926,7 +342777,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||msi-bj2.pages.dev^
 ||msoftdatastore.z22.web.core.windows.net^
 ||mt.pe8d.ru^
-||mt05.llim8.ru^
 ||mt06.6-0sg.ru^
 ||mt07.nowc8.ru^
 ||mt526-github-io.pages.dev^
@@ -343057,9 +342907,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||n2v4.bo8y.online^
 ||n2v5m.71o9.online^
 ||n3.1vd-z.ru^
-||n3.1wd2k.ru^
 ||n3.2f8-2.ru^
-||n3.5sv1g.ru^
 ||n3.o-y3ii.ru^
 ||n3.y742au.ru^
 ||n3.yo11.ru^
@@ -343083,7 +342931,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||n4wq.xb1-60.ru^
 ||n4y2.4y328.online^
 ||n5.1ronpath.ru^
-||n5.7wh2n.ru^
 ||n5.9715w.ru^
 ||n547.sbs^
 ||n5i.z2q2.ru^
@@ -343096,7 +342943,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||n6q.i1msth.com^
 ||n6ta.ve1p.online^
 ||n6tr.139z.online^
-||n6u.wsit4.ru^
 ||n6vt.9-32p.ru^
 ||n7.cedarnova.ru^
 ||n7.cobaltwolke.ru^
@@ -343112,8 +342958,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||n8n.heroxhost.com^
 ||n8r.k0xx-i4.ru^
 ||n8u.v0xelspark.ru^
-||n8x.jcof9.ru^
-||n8yr.kqag6.ru^
 ||n8ys.0-1gc.ru^
 ||n8yt.qihs8.ru^
 ||n8z.lweaq9b.ru^
@@ -343144,7 +342988,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||nakaizu.com^
 ||nalnk.hush-copper.ru^
 ||nalock.ru^
-||namaacont.com^
 ||namerena-help.pages.dev^
 ||nangtamlonto.top^
 ||nap.rqyp1.ru^
@@ -343164,6 +343007,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||nc.plig-5.ru^
 ||nccf0.amber-flint.ru^
 ||ncxps.com^
+||ndirection.kr^
 ||ndown2.ra2ol.com^
 ||ndtv.plus^
 ||ne.suf-1-nau-8-h.ru^
@@ -343229,7 +343073,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ngocronggohan.online^
 ||nh60c.mounta1npath.ru^
 ||nhg.cobbleyard.ru^
-||ni.vqod2.ru^
 ||nib.cobbleyard.ru^
 ||nicnetworkvvs.uk^
 ||nifqex.caskwander.ru^
@@ -343251,7 +343094,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||nimbus6.l1ghtstorm.ru^
 ||nimeshpatel.in.net^
 ||nip.frostb1te.ru^
-||nis.zqof0.ru^
 ||nj.n6ri.ru^
 ||nj.ty9a.ru^
 ||njs.c0rres5cour.ru^
@@ -343259,7 +343101,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||nk.bluef0rest.ru^
 ||nkomvdvv.r2nkteh2.ru^
 ||nkpoor.sa.com^
-||nkv.gdyl2.ru^
 ||nl.fireh0rn.ru^
 ||nl.rainst0ne.ru^
 ||nln8.sh2mvi5cous.ru^
@@ -343341,7 +343182,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||npo.wi0x.ru^
 ||npqxzvny.m2p5uck.ru^
 ||nq.pe8d.ru^
-||nq.xbiq2.ru^
 ||nq5.nebularanke.ru^
 ||nqi.yldv.ru^
 ||nqpv.simp7euna3t.ru^
@@ -343374,10 +343214,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||nulfer.be2vesati5t.ru^
 ||nulqen.den1mp7imad.ru^
 ||nurqet.rainpixel.ru^
+||nusatoyota.co.id^
 ||nv57.ap2thsh0pk.ru^
 ||nve.ozxg-5.ru^
 ||nvgt8.wildshift.ru^
-||nw.hnaq6.ru^
 ||nw.mi9q.ru^
 ||nws.aclz9.ru^
 ||nx.hi8hmu1berry.ru^
@@ -343411,7 +343251,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||o6.al1ah5natch.ru^
 ||o6.fl-0-wbud.ru^
 ||o6.skylintap.ru^
-||o6v.gdyl2.ru^
 ||o7.tanglehook.ru^
 ||o78qu.v0ltmorrow.ru^
 ||o7oz.rockwind.ru^
@@ -343419,7 +343258,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||o8v8m.a4chptr1ck.ru^
 ||o9.fi0m.ru^
 ||o9ekn7ff.bohem1apred0m.ru^
-||o9n.sheh0.ru^
 ||oa.amberr0cket.ru^
 ||oak.1ittleriver.ru^
 ||oak.bid5.ru^
@@ -343504,7 +343342,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||old.agroonline.uz^
 ||old.bullydog.com^
 ||old.umcl.us^
-||olf.zqof0.ru^
 ||oly.sea5t0rm.ru^
 ||om.jg7ra.ru^
 ||om0o.stormc0de.ru^
@@ -343568,7 +343405,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||onyxsentinelx.de^
 ||onyxshieldcore.de^
 ||onyxstealthnet.de^
-||onz.dnek6.ru^
 ||oo.ckyq-9.ru^
 ||oo.mardiripping.digital^
 ||oo44p295.ment0rr2nsom.ru^
@@ -343616,6 +343452,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||orx5.par2ch0ld.ru^
 ||os.twy0.ru^
 ||os.x3-ri.ru^
+||osamasabir.com^
 ||osjsjsj.sbs^
 ||ospwrf10ny.anondns.net^
 ||oth5c1.c1othwou1d.ru^
@@ -343672,7 +343509,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||p01.f-o-9bt.ru^
 ||p0a.8ss4e.ru^
 ||p0la.cdn-6-38.ru^
-||p0qe.kpyw8.ru^
 ||p0qf.3-2pd.ru^
 ||p0qh.vorn5.ru^
 ||p0r.q7jt-0k.ru^
@@ -343735,7 +343571,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||p7.ko-lu.ru^
 ||p7.stormm1nd.ru^
 ||p7.ykgw2.ru^
-||p7km.plig5.ru^
 ||p7l0.wildm1st.ru^
 ||p7lrd.wi7o.online^
 ||p7qk.v0rtatouch.ru^
@@ -343751,7 +343586,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||p8t3k.kzg-w-4y.ru^
 ||p9.1o6y4.ru^
 ||p9.1vd-z.ru^
-||p9.1wd2k.ru^
 ||p9a.mjg-1.online^
 ||p9akm.9-s-7g.ru^
 ||p9as.fkur8.ru^
@@ -343894,7 +343728,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||pex7in.br-2-qin-5-pect.ru^
 ||pexvur.b0rzvorsink2.ru^
 ||pezqiv.ab5olutsa8ogul.ru^
-||pf.mg-1-u-5.ru^
 ||pf4.77-6.ru^
 ||pf4ad.dr0gaguaran.ru^
 ||pf7ad.rec1aimswal1.ru^
@@ -344008,9 +343841,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||pkw.kos0ltyu4etey.ru^
 ||pkxq.gl1tchloam.ru^
 ||pl.3x6-7.ru^
-||pl.4cv6c.ru^
 ||pl.i261au.ru^
 ||pl.je9t.ru^
+||plafinlungem.corazonindomable.sbs^
+||plaminfar76.corazonindomable.sbs^
 ||plane.l2titsm1ne.ru^
 ||planetariumobil.ro^
 ||planmenpunval.floresixia.cfd^
@@ -344018,6 +343852,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||planner5dl.site^
 ||planronpal2.floresixia.cfd^
 ||plasma.blo0dci7cul.ru^
+||platanxonjal67.sortilegio.sbs^
 ||platum.luxxmail.store^
 ||plavomore.com^
 ||play.mclighthouse.ir^
@@ -344096,6 +343931,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||praetor2.a7mpr0tori.ru^
 ||prairie.regenwald.ru^
 ||prajsm.com^
+||prarol.cuidandote.sbs^
 ||pravy2.seven5pr2y.ru^
 ||predovec.com^
 ||prepstarcenter.com^
@@ -344127,6 +343963,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||prosil.mail-mentor.store^
 ||protecaocartao.online^
 ||protection-hub.cfd^
+||protherapycenter.com^
 ||prowl.j1ttersnap.ru^
 ||prowl.mistyw0lf.ru^
 ||prprrvoh.hush-pancake.ru^
@@ -344141,7 +343978,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||psm1e.ravenklause.ru^
 ||psmds.br1stlefax.ru^
 ||pstoto99.quest^
-||pt.5lr1v.ru^
 ||pt.9wb-k.ru^
 ||pt.gyj-0.ru^
 ||pt.o-a4eu.ru^
@@ -344218,11 +344054,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||purr5x.c1oudcat.ru^
 ||puumo7.easypanel.host^
 ||pv.2f8-2.ru^
-||pv.5sv1g.ru^
 ||pv.614lo.ru^
 ||pv.y742au.ru^
 ||pvsa.gxfugy.cn^
-||pw.xbiq2.ru^
 ||pw0kt.de5criptun1ver.ru^
 ||pw91.xyz^
 ||pwmt.embertrail.ru^
@@ -344246,7 +344080,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||pzskci29.shadowf1ow.ru^
 ||q.0f78.ru^
 ||q.6wou3.ru^
-||q.7wh2n.ru^
 ||q.owp-oo.ru^
 ||q.tgmop.ru^
 ||q0ck.dripanchor.ru^
@@ -344268,7 +344101,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||q1ezk.cloudsh1ft.ru^
 ||q1h.tvil-0.ru^
 ||q1me4.yw9a.online^
-||q1n.4xq2k.ru^
 ||q1r.emberfrontier.ru^
 ||q1v8.3-5y.online^
 ||q1zd.s64lr5ok.com^
@@ -344277,7 +344109,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||q2.embergarten.ru^
 ||q2.ozxg-5.ru^
 ||q2.wlh84.ru^
-||q2g.mg-1-u-5.ru^
 ||q2hzn.op76.online^
 ||q2k.lunarlicht.ru^
 ||q2k.sunny-harbor.ru^
@@ -344288,21 +344119,17 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||q3.4md69.ru^
 ||q3.7kf1u.ru^
 ||q3.der14i.ru^
-||q3.sheh0.ru^
 ||q3.yjor.ru^
-||q3b.mg-1-u-5.ru^
 ||q3ha.5g-t.online^
 ||q3n.fumb1eim2ge.ru^
 ||q3v2.zo4n.online^
 ||q3vz.3v9-u.ru^
 ||q3x.4a7vci9.ru^
-||q4.1jd3t.ru^
 ||q4.5e7i0.ru^
 ||q4.falconhimmel.ru^
 ||q4.i924ao.ru^
 ||q4.ravenpfad.ru^
 ||q4m.v3ix.online^
-||q4ws.hpap6.ru^
 ||q4wt.9-1pv.ru^
 ||q4xn.te7ap.online^
 ||q5.1051lt6.ru^
@@ -344323,7 +344150,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||q7.2bj82sg.ru^
 ||q7.565fit.ru^
 ||q7.566318z8.ru^
-||q7.9zk8r.ru^
 ||q7.basaltwerk.ru^
 ||q7.k8cr-9b.ru^
 ||q7.kdit5.ru^
@@ -344361,7 +344187,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||q8x.q3lo.ru^
 ||q8yr.4aeaco0.ru^
 ||q8z1.7i091.online^
-||q9.5lr1v.ru^
 ||q9.o-a4eu.ru^
 ||q9.plig-5.ru^
 ||q9a.hy6o.ru^
@@ -344370,7 +344195,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||q9lt.1s-1n.ru^
 ||q9ne.pohv3.ru^
 ||q9p4.meltquark.ru^
-||q9pw.llim8.ru^
 ||q9px.6-0sg.ru^
 ||q9py.nowc8.ru^
 ||q9v5lqkv.brist1ynom2d.ru^
@@ -344380,7 +344204,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||qa9.k5gc56.ru^
 ||qak.n2vr.ru^
 ||qau.c1earstone.ru^
-||qb.4cv6c.ru^
 ||qb.i261au.ru^
 ||qb.xa9t.ru^
 ||qbd.hy6o.ru^
@@ -344461,7 +344284,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||qppe.bul1upd2ted.ru^
 ||qpr.5no-v.ru^
 ||qq.kdit5.ru^
-||qq.sxuj7.ru^
 ||qq7.wqix5.ru^
 ||qqc.lo2p.ru^
 ||qqes.0prichpe7ch.ru^
@@ -344537,20 +344359,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||qz7.6ck9465.online^
 ||qz8.8y5o8a8.ru^
 ||qz8hd.mjg-1.online^
-||qz9.bh3i6.ru^
-||qz9.fj2e0.ru^
-||qz9.fj4i6.ru^
-||qz9.fp0y9.ru^
-||qz9.fq1y8.ru^
-||qz9.kj4o0.ru^
-||qz9.ll7y5.ru^
-||qz9.ls2a9.ru^
-||qz9.mg1u5.ru^
-||qz9.mw9y4.ru^
-||qz9.pf6o2.ru^
-||qz9.rk8y6.ru^
-||qz9.ss9y4.ru^
-||qz9.zk5e7.ru^
 ||qzf73dvm.vagusbra.ru^
 ||qzz.va4n.ru^
 ||r00m.rjofi.online^
@@ -344582,11 +344390,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||r1se.treqz.online^
 ||r1v6tqom.ku6chni8ht.ru^
 ||r2.blyp-9.ru^
-||r2.mg-1-u-5.ru^
 ||r2.uht-3-o.ru^
 ||r2cx.desj1.ru^
 ||r2cy.4-5sq.ru^
-||r2cz.nmys4.ru^
 ||r2k.kettlewisp.ru^
 ||r2l.solarfracht.online^
 ||r2n.6aiiwi2.ru^
@@ -344630,11 +344436,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||r6tva.k9-2g8.ru^
 ||r6wt2.u4-r-o.ru^
 ||r7.0vs-r.ru^
-||r7.4xq2k.ru^
 ||r7.4y2o5.ru^
 ||r7.uz-k9.ru^
 ||r7.y-o7uu.ru^
-||r79.mg-1-u-5.ru^
 ||r7a.mi7x.online^
 ||r7h0g4s.ru^
 ||r7k2.sk-f0s.ru^
@@ -344732,15 +344536,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ray.wib8.ru^
 ||ray0ut.sunfold.ru^
 ||razzledazzlejewelrystore.com^
-||rb.wsit4.ru^
 ||rb.yffl9.ru^
 ||rb2.5t0p.ru^
-||rb54.kqag6.ru^
 ||rb55.0-1gc.ru^
 ||rb56.qihs8.ru^
 ||rblfh.bracketfern.ru^
 ||rc.clearb1te.ru^
-||rc.kj-4-o-0.ru^
 ||rcbplay.xyz^
 ||rceventhub.com^
 ||rd5.8vl8u.ru^
@@ -345021,11 +344822,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||ruvnix.b7ewer1atif.ru^
 ||rvrc.darkw1nd.ru^
 ||rvzvl.c2dmiumgho5t.ru^
-||rw.gdyl2.ru^
 ||rw.q3lo.ru^
 ||rwe3y.v1braclaw.ru^
 ||rwg.amb1gf0rest.ru^
-||rwh.gtus4.ru^
 ||rwz.tweakmire.ru^
 ||rx6cd.cliffwave.ru^
 ||rxquickpay.com^
@@ -345047,8 +344846,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||s.0ouuky0.ru^
 ||s.0vs-r.ru^
 ||s.2mq4r.ru^
-||s.4cv6c.ru^
-||s.4xq2k.ru^
 ||s.5e8y8.ru^
 ||s.8oryn.ru^
 ||s.91-7l.ru^
@@ -345085,7 +344882,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||s1l.ve1p.ru^
 ||s1lk.n-4-ke.ru^
 ||s1ne.do-k-3.ru^
-||s1ob.llim8.ru^
 ||s1oc.6-0sg.ru^
 ||s1od.nowc8.ru^
 ||s1te.fa-0-n.ru^
@@ -345105,21 +344901,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||s3nzk.pe8d.online^
 ||s3ov5.bounceme.net^
 ||s3w9.hushdr0pper.ru^
-||s4.bh3i6.ru^
-||s4.fj2e0.ru^
-||s4.fj4i6.ru^
-||s4.fp0y9.ru^
-||s4.fq1y8.ru^
-||s4.kj4o0.ru^
-||s4.ll7y5.ru^
-||s4.ls2a9.ru^
-||s4.mg1u5.ru^
-||s4.mw9y4.ru^
-||s4.pf6o2.ru^
-||s4.rk8y6.ru^
-||s4.ss9y4.ru^
 ||s4.xer-o.ru^
-||s4.zk5e7.ru^
 ||s41p4.lightb0x.ru^
 ||s4f.zzax-4.ru^
 ||s4k1.5x7u.online^
@@ -345133,7 +344915,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||s6.yjor.ru^
 ||s622.mossgate.ru^
 ||s638zqw3.5t0rmr1dge.ru^
-||s64.bh-3-i-6.ru^
 ||s6h.windsh1ft.ru^
 ||s7b4.sn-1-pixel.ru^
 ||s7gnorm4.f0ursme1ting.ru^
@@ -345222,7 +345003,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||sc.5x7u.ru^
 ||sc.b2ra.ru^
 ||sc7nd8s4.heh0vli8ht.ru^
-||scainseto.com.br^
 ||scan.504.su^
 ||scd.bracketfern.ru^
 ||scg7.st0nepeak.ru^
@@ -345343,7 +345123,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||sg123.net^
 ||sgbvj.cloudb1rd.ru^
 ||sgeseducation.com^
-||sgy.wdax1.ru^
 ||sh.18yk.ru^
 ||sh.vakun.ru^
 ||sh0re7.brightlake.ru^
@@ -345352,7 +345131,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||shad3o.0akshade.ru^
 ||shade.darkp1xel.ru^
 ||shade.shadowm1nt.ru^
-||shaderm.com^
 ||shadow-grove.ru^
 ||shadow.adv0cal1egat.ru^
 ||shadow.champm2loma1.ru^
@@ -345425,6 +345203,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||shore.sunm0tion.ru^
 ||short.n0uvpu7itan.ru^
 ||shotv.app^
+||shqdown.ggzuhao.com^
 ||shy.n4ym.ru^
 ||shztibgb.atendimentozm.com^
 ||sibto4.b2rtdenia1.ru^
@@ -345535,7 +345314,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||smsmtrainings.com^
 ||smtp.tsrv1.ws^
 ||sn.hyk5.ru^
-||sn.ss-9-y-4.ru^
 ||sn0wy7.sn0wtrail.ru^
 ||sn7.saffrondent.ru^
 ||snap.j1ttersnap.ru^
@@ -345678,6 +345456,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||spray.dunkr1n5her.ru^
 ||spray.m1stwave.ru^
 ||sprng9.fr0gtime.ru^
+||spruder.mariamercedes.sbs^
 ||spryn.seven5pr2y.ru^
 ||spst.hqup.in^
 ||spur.gravelwhisk.ru^
@@ -345721,6 +345500,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||st3eg.aphrh1tc4h.ru^
 ||stack.suf-1-nau-8-h.ru^
 ||stack8.f-2-na-7-under.ru^
+||staguntonsil.mariamercedes.sbs^
 ||stahl.goldtalon.ru^
 ||stake.dou5etossin8.ru^
 ||standard-analytics-endpoint-54.s3.ca-central-1.amazonaws.com^
@@ -345734,7 +345514,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||starvina.cfd^
 ||statementmsi.xyz^
 ||static.3001.net^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||static.zongheng.com^
@@ -345821,10 +345600,13 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||strange-spence.196-251-72-149.plesk.page^
 ||strange-swartz.196-251-72-149.plesk.page^
 ||strange-yalow.196-251-72-149.plesk.page^
+||straranvel67.lausurpadora.sbs^
 ||strat.skytrac5.ru^
 ||stream3.datash1ft.ru^
 ||streammobs.com^
+||strilenfar67.rebelde.sbs^
 ||stripe-connect.org^
+||striranmonvaz7.lausurpadora.sbs^
 ||strm9a.st0rmshade.ru^
 ||strmx7.stormglow.ru^
 ||strom.graniteweide.ru^
@@ -345921,7 +345703,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||swiftfusion.tech^
 ||swirl.gravel-whisk.ru^
 ||switch.ventrill.ru^
-||sx.qzad3.ru^
 ||sx87.zzax4.ru^
 ||sx88.6-3tm.ru^
 ||sx89.jobt9.ru^
@@ -345938,7 +345719,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||syn-096-011-145-107.biz.spectrum.com^
 ||synap.nerv0u5radic.ru^
 ||synap3.sv0orchond0.ru^
-||synergyconsulting.us^
 ||syr3un.e9uatp2nth.ru^
 ||sz.maplexenon.ru^
 ||sz0.windc0ve.ru^
@@ -345964,27 +345744,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||t0uq.99y401874.online^
 ||t0w.jaxmorrow.ru^
 ||t0y6.op-76.online^
-||t1.1wd2k.ru^
 ||t1.3pea2.ru^
 ||t1.aclz-9.ru^
 ||t1.ahz-ya.ru^
-||t1.bh3i6.ru^
 ||t1.cobaltwolke.ru^
-||t1.fj2e0.ru^
-||t1.fj4i6.ru^
-||t1.fp0y9.ru^
-||t1.fq1y8.ru^
-||t1.kj4o0.ru^
-||t1.ll7y5.ru^
-||t1.ls2a9.ru^
-||t1.mg1u5.ru^
-||t1.mw9y4.ru^
 ||t1.o-y3ii.ru^
-||t1.pf6o2.ru^
-||t1.rk8y6.ru^
-||t1.ss9y4.ru^
 ||t1.x3le.ru^
-||t1.zk5e7.ru^
 ||t19.q9-j341.ru^
 ||t1g.3v9-u.ru^
 ||t1i.ac0rnrepr0d.ru^
@@ -346046,7 +345811,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||t5hl.31e854642.online^
 ||t5m.60nma5.ru^
 ||t5v3.t1va.online^
-||t5vo.kqag6.ru^
 ||t5vp.0-1gc.ru^
 ||t5vq.qihs8.ru^
 ||t5y0.9z2503.ru^
@@ -346071,7 +345835,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||t8cz.y2u-72.ru^
 ||t8kc.xb1-60.ru^
 ||t8q1.ravelpink.ru^
-||t8qn.hpap6.ru^
 ||t92.do-04d2.ru^
 ||t9f.qcet-8.ru^
 ||t9f.zo8k.ru^
@@ -346189,7 +345952,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||tcpro2013.xyz^
 ||td2qd.windc0ve.ru^
 ||tdebwovt.pu7eer0d.ru^
-||tdejb.com^
 ||tdh.t2kec2reujo.ru^
 ||te.ember-harbor.ru^
 ||te.vakun.ru^
@@ -346247,7 +346009,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||thrift.ca5hunse1fish.ru^
 ||thrumble.quartz-nibble.ru^
 ||thrust.r0bintorque.ru^
-||thtp2.volamngayxua.net^
 ||thunder.hiiistorm.ru^
 ||thunderforst.online^
 ||thy.m4rj.ru^
@@ -346352,7 +346113,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||top8onlinegame.com^
 ||topaz.mcej-9.ru^
 ||topdigis889.com^
-||topmedsolution.com^
 ||topquangcaohieuqua.vip^
 ||torch.amber-coil.ru^
 ||torq3l.b2tnikpu1yar.ru^
@@ -346366,10 +346126,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||tp.op76.ru^
 ||tpa.gtus-4.ru^
 ||tpauser9be.com^
-||tq.1jd3t.ru^
 ||tq.1ne-z.ru^
 ||tq.9b9-7.ru^
-||tq.9zk8r.ru^
 ||tq.i924ao.ru^
 ||tq.mistybyte.ru^
 ||tq.pixelstern.ru^
@@ -346385,7 +346143,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||tqi7q7rf.deepmi5t.ru^
 ||tr-girisadresleri.com^
 ||tr-login.com^
-||tr.gtus4.ru^
 ||tr.st1ltforge.ru^
 ||tr1pgo.longj0urney.ru^
 ||tr8.z-x0.ru^
@@ -346458,7 +346215,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||trimed.com.au^
 ||trmm.space^
 ||trtmyanmar.com^
+||trugonder.rebelde.sbs^
 ||trumpisperfect.com^
+||trurol07.marimar.sbs^
 ||truss.mistybr1dge.ru^
 ||truss.safebr1dge.ru^
 ||trusting-raman.196-251-72-149.plesk.page^
@@ -346562,10 +346321,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||tz.yq2r.ru^
 ||tz6.4y328.online^
 ||tz9q.9-1pv.ru^
-||u.qzad3.ru^
 ||u0.bracketloam.ru^
 ||u0.f1restone.ru^
-||u0.xbiq2.ru^
 ||u0b.0bj3i.ru^
 ||u0b.6aiiwi2.ru^
 ||u0b.7ph88.ru^
@@ -346608,7 +346365,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||u4r8c.t-7-1u.ru^
 ||u4r9.q3lo.online^
 ||u4xv.3-2pd.ru^
-||u4xz.kpyw8.ru^
 ||u5.m1stzone.ru^
 ||u5.ve1p.ru^
 ||u5bd1.i1msth.com^
@@ -346741,6 +346497,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||uniquedreambuilders.in^
 ||unit.b-9-ku.ru^
 ||unitv-apk.org^
+||universalgroup.com.vc^
 ||uno.dicti0nvica1.ru^
 ||unruffled-banach.196-251-72-149.plesk.page^
 ||uny.ra6n.ru^
@@ -346748,7 +346505,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||up.freeandlast.com^
 ||up.gloksubway.com^
 ||up.je5w.com^
-||up.ldef4.ru^
 ||up.yq-4n.ru^
 ||up17.tarotbag.digital^
 ||upaicdn.xinmei365.com^
@@ -346793,7 +346549,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||uslrd.muddleoak.ru^
 ||ustg1.par2ch0ld.ru^
 ||ut.ky-4x.ru^
-||ut.ndoq0.ru^
 ||ut.q0spi.ru^
 ||ut.tr-8n.ru^
 ||utazznapolyba.hu^
@@ -346849,20 +346604,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||v1rx.8j8-o.ru^
 ||v1zt.37i658094.online^
 ||v2.7i091.online^
-||v2.bh3i6.ru^
-||v2.fj2e0.ru^
-||v2.fj4i6.ru^
-||v2.fp0y9.ru^
-||v2.fq1y8.ru^
-||v2.kj4o0.ru^
-||v2.ll7y5.ru^
-||v2.ls2a9.ru^
-||v2.mg1u5.ru^
-||v2.mw9y4.ru^
-||v2.pf6o2.ru^
-||v2.rk8y6.ru^
-||v2.ss9y4.ru^
-||v2.zk5e7.ru^
 ||v21nv.hushzigzag.ru^
 ||v2a.k8cr-9b.ru^
 ||v2k7.ha0m.online^
@@ -346895,7 +346636,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||v4oof0fy.dep2rtmen0va.ru^
 ||v4q7p.l3rc-0.ru^
 ||v4sz.08u073852.online^
-||v5.qrow6.ru^
 ||v585188.hosted-by-vdsina.com^
 ||v5pxe3tg.fa1ditmim2ns.ru^
 ||v5q.r0en3ap.ru^
@@ -346941,7 +346681,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||v9x2.lb3091.online^
 ||v9y32.m1stybird.ru^
 ||va.hpap-6.ru^
-||va3.jcof9.ru^
 ||va43.du2iv.ru^
 ||vaamsmgfreocmroe-1342087530.cos.sa-saopaulo.myqcloud.com^
 ||vablot.exh2ust8one.ru^
@@ -347001,7 +346740,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||vccvbbcvbc.pages.dev^
 ||vcute69.bounceme.net^
 ||vcz.us^
-||vd3h.llim8.ru^
 ||vd3j.6-0sg.ru^
 ||vd3k.nowc8.ru^
 ||vdf.interk2ts2v.ru^
@@ -347064,7 +346802,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||vg.lightst0rm.ru^
 ||vg.plig-5.ru^
 ||vgd.vg^
-||vgg.ndoq0.ru^
 ||vghecu28.f0refraterni5.ru^
 ||vh.emberiake.ru^
 ||vh.j1nxbuckle.ru^
@@ -347115,7 +346852,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||vjonlinetv.lat.coindiana.com.co^
 ||vjonlinetv.lat^
 ||vjsjr.v0lticrum.ru^
-||vk.4xq2k.ru^
 ||vk.kos0ltyu4etey.ru^
 ||vk.y-o7uu.ru^
 ||vk2x.9-1pv.ru^
@@ -347131,7 +346867,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||vm.ykgw-2.ru^
 ||vm05.transportrrj.com^
 ||vmi2847209.contaboserver.net^
-||vmi2852148.contaboserver.net^
 ||vmi714278.contaboserver.net^
 ||vmr3absd.ddns.net^
 ||vmr3b.bounceme.net^
@@ -347165,11 +346900,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||vqx.q9-j341.ru^
 ||vr.kpyw-8.ru^
 ||vr.ozxg-5.ru^
-||vr2x.hpap6.ru^
 ||vr3b.ddns.net^
-||vr4.bh-3-i-6.ru^
 ||vr4x.te7ap.online^
-||vr6.sxuj7.ru^
 ||vrfdns.com^
 ||vrporngamesfree.com^
 ||vrxl3.primurib1er.ru^
@@ -347195,7 +346927,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||vx.quartzmug.ru^
 ||vx7.snareplum.ru^
 ||vxkap1bk.impercepm0no8.ru^
-||vy.ktox5.ru^
 ||vy6.g7ve.ru^
 ||vyc.z-x0.ru^
 ||vyf3.mirthcap.ru^
@@ -347234,7 +346965,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||w1d7ou.c1othwou1d.ru^
 ||w1hb.k9-2g8.ru^
 ||w1i.glacierbruecke.ru^
-||w1n.5lr1v.ru^
 ||w1ndo.windstack.ru^
 ||w1v9.j935.online^
 ||w1z.ju8r.online^
@@ -347246,7 +346976,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||w2q9lxtj.redf1ee7.ru^
 ||w2socks.xyz^
 ||w2t.ravenpfad.ru^
-||w3.gdyl2.ru^
 ||w3c.quartzace.ru^
 ||w3d.33b2.online^
 ||w3q0.7mdmu7og.ru^
@@ -347296,7 +347025,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||w9c3a.x625v7.ru^
 ||w9hd3.mi9q.online^
 ||w9pl.ko0um.online^
-||w9qk.nmys4.ru^
 ||w9ql.4-5sq.ru^
 ||w9qm.desj1.ru^
 ||w9r2.6362o9.ru^
@@ -347551,7 +347279,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||wl.ha5r.ru^
 ||wlk.n5ol.ru^
 ||wlvpw.wavec0met.ru^
-||wm.ktox5.ru^
 ||wm.oc57y.ru^
 ||wm.xer-o.ru^
 ||wm1wu.aud1mi5s.ru^
@@ -347647,7 +347374,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||wp2.unairdedemo.com^
 ||wp6.basaltwerk.ru^
 ||wpaii.com^
-||wpy.bh-3-i-6.ru^
 ||wq.cl1ffwood.ru^
 ||wq.v-0-xenridge.ru^
 ||wq0.o4-lq-8.ru^
@@ -347660,7 +347386,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||wrap.hollowzip.ru^
 ||wren.wrenhafen.ru^
 ||wretdf.obnoxiousdevalue.digital^
-||wso.wdax1.ru^
 ||wt.clearl1ne.ru^
 ||wtechcomercio.com.br^
 ||wth.te8x.ru^
@@ -347679,6 +347404,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||wwtalk.icu^
 ||www-martiansoftware-com.pages.dev^
 ||www-mondiai-particuliers.com^
+||www2.0zz0.com^
 ||www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||wwwccompletesecurityllc90-117server1.s0t.ru^
@@ -347690,11 +347416,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||wy3.minglecrate.ru^
 ||wyd.kdit5.ru^
 ||wylde.s0ftvale.ru^
-||wyp.vbep3.ru^
 ||wytlaf.hump7yb0lt.ru^
 ||wz.3911.com^
-||wz.7wh2n.ru^
-||wz.bvuf2.ru^
 ||wz.f-xiu4.ru^
 ||wz.owp-oo.ru^
 ||wz.t1va.ru^
@@ -347705,16 +347428,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||wzu.ki8n.ru^
 ||x.068xaw.ru^
 ||x.1vd-z.ru^
-||x.1wd2k.ru^
-||x.4cv6c.ru^
-||x.4xq2k.ru^
 ||x.4y328.online^
-||x.5lr1v.ru^
 ||x.64198.ru^
 ||x.7g37b.ru^
 ||x.8vl8u.ru^
 ||x.94e-w8.ru^
-||x.9zk8r.ru^
 ||x.b8c90.ru^
 ||x.i261au.ru^
 ||x.o-y3ii.ru^
@@ -347799,7 +347517,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||x85.deepw0rd.ru^
 ||x8lb.6-w0y.ru^
 ||x8m.2s84d.ru^
-||x8n.1jd3t.ru^
 ||x9.wo-h3.ru^
 ||x93.skyf1eld.ru^
 ||x94.shadowm1st.ru^
@@ -347857,7 +347574,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||xingba888.today^
 ||xiyp5.sp-1-nterpad.ru^
 ||xj.3druv.ru^
-||xj.qrow6.ru^
 ||xj.va4n.ru^
 ||xj8qd.g4eyhhar1eq.ru^
 ||xjayj.cloudsh1ft.ru^
@@ -347901,11 +347617,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||xq.y742au.ru^
 ||xq74.fi7em.online^
 ||xq8.6cm81.ru^
-||xq9.5sv1g.ru^
 ||xq9.d-k-6j.ru^
 ||xq9.dae017f.ru^
 ||xq9.diab4uette.ru^
-||xq91.plig5.ru^
 ||xq92.7-5wd.ru^
 ||xq97.vukm9.ru^
 ||xqs.8i-9.ru^
@@ -347918,7 +347632,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||xshop.com.tr^
 ||xsud.idealbros.com^
 ||xt.614lo.ru^
-||xt.7wh2n.ru^
 ||xt.fl-0-wmortar.ru^
 ||xt.owp-oo.ru^
 ||xt83.maplexenon.ru^
@@ -347971,7 +347684,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||y1.t4mo.ru^
 ||y1bd.pohv3.ru^
 ||y1dk.fi7em.online^
-||y1mc.kqag6.ru^
 ||y1md.0-1gc.ru^
 ||y1me.qihs8.ru^
 ||y1r5.u-v-9.online^
@@ -347984,10 +347696,8 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||y2aew.mossgate.ru^
 ||y2sk.30u241207.online^
 ||y36.bluecl1ff.ru^
-||y3a.dnek6.ru^
 ||y3a81.gyrodesk.ru^
 ||y3ag.vukm9.ru^
-||y3aj.plig5.ru^
 ||y3ak.7-5wd.ru^
 ||y3ctp4x3.heh0vli8ht.ru^
 ||y3kx.j935.online^
@@ -348005,7 +347715,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||y4tn.3-5y.online^
 ||y4uhk.softmint.ru^
 ||y4w1.565fit.ru^
-||y5.hnaq6.ru^
 ||y5.yjor.ru^
 ||y54.bana1ity8ed.ru^
 ||y5fw.4-l8u.ru^
@@ -348072,13 +347781,11 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||yard.pincerloom.ru^
 ||yarn.x-2-lu.ru^
 ||yaw.tov4.ru^
-||yay.ktox5.ru^
 ||yb.oc57y.ru^
 ||yb.su-4n.ru^
 ||ybgctdtbzvgpdxjivafy.supabase.co^
 ||ydb7x.brightst0ne.ru^
 ||ydmnx.darkc0de.ru^
-||ydw.gtus4.ru^
 ||ye.fy-7a.ru^
 ||ye.g-vox.ru^
 ||ye.hpap-6.ru^
@@ -348153,7 +347860,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||yoxel2.copperweide8.ru^
 ||yp.amin0mer3ges.ru^
 ||yp.frostsh1ft.ru^
-||yp.qrow6.ru^
 ||ypa.clear5ky.ru^
 ||ypedorado.com.br^
 ||yq.spiintforge.ru^
@@ -348166,6 +347872,7 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||yt.llim-8.ru^
 ||yt.silverpath.ru^
 ||yt6.ussn-7.ru^
+||ythvh.lol^
 ||ytultr.pro^
 ||ytultraa.live^
 ||yturewezz.wuaze.com^
@@ -348199,17 +347906,14 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||z.9bp6i.ru^
 ||z01.a-8-xp.ru^
 ||z0d.xa4p.ru^
-||z0h.wdax1.ru^
 ||z0r.nebularanke.ru^
 ||z0t8n.798u-g.ru^
 ||z0tb.ha0m.online^
 ||z0wa.8j8-o.ru^
-||z1.1jd3t.ru^
 ||z1.5e7i0.ru^
 ||z1.8g89.ru^
 ||z1.9b9-7.ru^
 ||z1.9wb-k.ru^
-||z1.9zk8r.ru^
 ||z1.crystalmoor.ru^
 ||z1.falconhimmel.ru^
 ||z1.i924ao.ru^
@@ -348217,7 +347921,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||z1.summitmond.ru^
 ||z1.v-bua0.ru^
 ||z1.yxb-au.ru^
-||z1f.rjuq3.ru^
 ||z1mk.2h7-o.ru^
 ||z1mtk9.t1metalk.ru^
 ||z1mv.1p-8s.ru^
@@ -348276,14 +347979,12 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||z8wm.7-09f.ru^
 ||z9.4kl-9.ru^
 ||z9.i261au.ru^
-||z9.stix2.ru^
 ||z9.xa4p.online^
 ||z9bdth4n.blu3cioud.ru^
 ||z9f4.wi7o.online^
 ||z9k1.4md69.ru^
 ||z9kq.4a8u6.online^
 ||z9l5.m1stybird.ru^
-||z9m.4cv6c.ru^
 ||z9m2.ba2q7q.ru^
 ||z9q.q8-v-4of.ru^
 ||z9s.starl1tewave.ru^
@@ -348310,7 +348011,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||zb5c8o44.cl0udv1sta.ru^
 ||zbas.wave5hift.ru^
 ||zbb6it90.quartz-sketch.ru^
-||zc.1wd2k.ru^
 ||zc.o-y3ii.ru^
 ||zdj.qcet8.ru^
 ||zdvey.y0ur.ru^
@@ -348349,7 +348049,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||zhengxinpeixun.oss-cn-qingdao.aliyuncs.com^
 ||zhigao5191.com^
 ||zhikey.com^
-||zi.jcof9.ru^
 ||zig.quench-orbit.ru^
 ||zigzag.amberflint.ru^
 ||zil.bashglider.ru^
@@ -348373,7 +348072,6 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||zmasta.com^
 ||zn.qzad-3.ru^
 ||zn3foc66.skyc0rest.ru^
-||zn4e.plig5.ru^
 ||zn5e.7-5wd.ru^
 ||zn5r.vukm9.ru^
 ||zn8c.fi7em.online^
@@ -348422,12 +348120,10 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||zs.b1tcrush.ru^
 ||zssxccxzzxx.lovestoblog.com^
 ||zt.2f8-2.ru^
-||zt.5sv1g.ru^
 ||zt.hyk5.ru^
 ||zt3.ripplerover.ru^
 ||zts.ha0m.ru^
 ||zudm1q.c0lombve8et.ru^
-||zue.dnek6.ru^
 ||zul4ep.bi1ingnause2.ru^
 ||zulpex.ru5t1eview.ru^
 ||zuv1ak.cl0udmist.ru^
@@ -348445,11 +348141,9 @@ sport.elwatannews.com##+js(aost, Array.prototype.indexOf, isWin)
 ||zy8.fe7a.ru^
 ||zycdjz.com^
 ||zyhunkenya.co.ke^
-||zyk.dzem4.ru^
 ||zylxz5wp.sparmarkt.qpon^
 ||zym.windf0x.ru^
 ||zyz.q4zi.ru^
-||zz19.kpyw8.ru^
 ||zz1a.3-2pd.ru^
 ||zz1c.vorn5.ru^
 ||zzcc.eghyahl.com^
