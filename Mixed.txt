@@ -3356,6 +3356,7 @@
 ||8.notify.bizonads-ssp.com^
 ||_sips._tcp.3323174.notifysrv.com^
 ||a.eunow4u.com^
+||a.gentlefieldpattern.com^
 ||a.ku34bh9la09.com^
 ||a.ma3ion.com^
 ||a.mx.notifysrv.com^
@@ -3437,6 +3438,7 @@
 ||s.dsntah.com^
 ||s.etology.com^
 ||s.eunow4u.com^
+||s.gentlefieldpattern.com^
 ||s.ku34bh9la09.com^
 ||s.ma3ion.com^
 ||s.magsrv.com^
@@ -4849,6 +4851,10 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+||adultconfessions.com/js/abdetectorpro
+bigshare.io#@#.AdsBox
+bigshare.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
+f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 @@||manhuarmtl.com^$generichide
 rez.jbnews.it.com#%#//scriptlet('prevent-addEventListener', 'load', 'location.reload')
 rpmplay.online#%#//scriptlet('google-ima3')
@@ -19184,7 +19190,6 @@ tvhayz.top###ads-preload
 tvhayz.top##.float-ck-center-lt
 tvhayz.top#%#//scriptlet("prevent-setTimeout", "myGreeting")
 sexapi.xyz###banner
-javhd.news###page > div[id][style^="position: fixed;"][style*="z-index:"]
 choidangcap.us##.float-ck
 choidangcap.us##.uix_contentWrapper > div[align="center"] > a[target="_blank"] > img
 ||i.imgur.com/*.gif$domain=cakhia19.tv
@@ -20356,10 +20361,10 @@ videobin.co#%#//scriptlet('set-cookie', 'overlay', 'true')
 videobin.co#%#//scriptlet('abort-current-inline-script', 'document.attachEvent', 'initBCPopunder')
 birminghammail.co.uk#%#//scriptlet("set-constant", "chameleonVideo.adDisabledRequested", "true")
 hentaiworld.tv#%#//scriptlet("prevent-window-open", "hyenadata")
-turbocloud.xyz,turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('prevent-setTimeout', 'window.open')
-turbocloud.xyz,turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('set-constant', 'premium', 'undefined')
-trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('trusted-replace-node-text', 'script', 'openNewTab', '/openNewTab[(]".*?"[)]/g', 'null')
-$replace=/openNewTab\(".*?".{0\,10}\)/null/,document,subdocument,to=turbovidhls.com|trailerhg.xyz|turboplayers.xyz|javggvideo.xyz|turtleviplay.xyz|findjav.com|stbturbo.xyz|emturbovid.com
+turbovid.vip,turbocloud.xyz,turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('prevent-setTimeout', 'window.open')
+turbovid.vip,turbocloud.xyz,turbovidhls.com,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('set-constant', 'premium', 'undefined')
+turbovid.vip,trailerhg.xyz,turboplayers.xyz,javggvideo.xyz,turtleviplay.xyz,findjav.com,stbturbo.xyz,emturbovid.com#%#//scriptlet('trusted-replace-node-text', 'script', 'openNewTab', '/openNewTab[(]".*?"[)]/g', 'null')
+$replace=/openNewTab\(".*?".{0\,10}\)/null/,document,subdocument,to=turbovidhls.com|trailerhg.xyz|turboplayers.xyz|javggvideo.xyz|turtleviplay.xyz|findjav.com|stbturbo.xyz|emturbovid.com|turbovid.vip
 mega4upload.com#%#//scriptlet('remove-attr', 'onclick', '#direct_link > a[onclick]')
 igg-games.com#%#//scriptlet("set-constant", "advanced_ads_ready", "noopFunc")
 footybite.to,givemenbastreams.com#%#//scriptlet("abort-current-inline-script", "setTimeout", "admc")
@@ -22471,7 +22476,7 @@ weatherzone.com.au,lifehacker.jp#%#//scriptlet('trusted-replace-node-text', 'scr
 ||ad-shield.cc^
 neoseeker.com$$script:contains(:()=>eval,)
 neoseeker.com$$script[src="shieldload.neoseeker.com"]
-vague.style,magmix.jp,langenscheidt.com,merinfo.se,9gag.com,petbook.de,boardingarea.com,ukaudiomart.com,canuckaudiomart.com,newatlas.com$$script[data-cfasync="false"][nowprocket]
+egolf.jp,otonanswer.jp,vague.style,magmix.jp,trafficnews.jp,langenscheidt.com,merinfo.se,9gag.com,petbook.de,boardingarea.com,ukaudiomart.com,canuckaudiomart.com,newatlas.com$$script[data-cfasync="false"][nowprocket]
 .com/script/*.js|$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|gamewith.jp|motor-talk.de|worldhistory.org|kr-weathernews.com|nikkan-gendai.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org
 ://www.*.xyz/script/$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|gamewith.jp|motor-talk.de|worldhistory.org|kr-weathernews.com|nikkan-gendai.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org
 auone.jp,deckshop.pro,laposte.net,newser.com,reneweconomy.com.au,saabcentral.com,signupgenius.com,slickdeals.net,smithsonianmag.com,zerogpt.com,nikkan-gendai.com,kr-weathernews.com,worldhistory.org,motor-talk.de,gamewith.jp,picks.my,myforecast.com,gruene-zitate.de,blogmura.com,thefreebieguy.com,infor.pl,knowt.com,jmty.jp$$script[tag-content="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/="]
@@ -22556,6 +22561,7 @@ smsonline.cloud#$?#html[data-theme][lang] [id^="img_"][style]:has(iframe[framebo
 .html-load.com/*/d/$domain=~dogdrip.net|~smsonline.cloud
 .fb2.html-load.com/player/$domain=~dogdrip.net|~smsonline.cloud
 ||html-load.com^$image,~third-party,domain=html-load.com,important
+~dogdrip.net,~smsonline.cloud##div[id^="img_"][style^="width: 100%;height: 90px;position: fixed;bottom: 0px;left: 0px;z-index:"]
 ~dogdrip.net,~smsonline.cloud##div[id^="img_"] > button.gCloseButton
 ~dogdrip.net,~smsonline.cloud##amp-img[height="   120"]
 ~dogdrip.net,~smsonline.cloud##amp-img[width="   300"]
@@ -22720,6 +22726,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 techarmor.xyz##.my-ad-container
+bigshare.io#%#//scriptlet('prevent-addEventListener', 'click', 'openAdTab')
 g2a.com###popupLink
 g2a.com#?#li[class^="SearchPage_StyledProductCard"]:has(> div.contents > div[class^="group/unibox"] > div.flex > div > div > div.flex > div.inline-grid:contains(SPONSORED))
 g2a.com#?#ul[class^="uni-box-slider__chunk"] > .col-span-1:has(> div.contents > div > div.flex-col > div > div.inline-grid:contains(SPONSORED))
@@ -22740,7 +22747,7 @@ zeenews.india.com#$##read_button { display: none !important; }
 hexload.com##a[href*="?key="]
 krakenfiles.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'history.go')
 krakenfiles.com##.myardbox
-rpmplay.online,pandamovies.org#%#//scriptlet('prevent-window-open')
+pornwatch.ws,rpmplay.online,pandamovies.org#%#//scriptlet('prevent-window-open')
 embedseek.online#%#//scriptlet('prevent-addEventListener', 'click', 'popunder')
 pandamovies.org##a[href^="https://freepopnews.skin/"]
 ||connatix.com/rtb/
@@ -22869,7 +22876,6 @@ newegg.com##.product-headline.is-new
 newegg.com##.row-side-banners
 yesporn.vip##.asside-link
 yesporn.vip##.header-inner > a:not([href^="https://yesporn.vip/"], [href="https://t.me/+xf80qlGHH_9kNWY0"])
-thefileslocker.net###hiddenLinkImg
 familyporn.tv$$script:contains(popMethods)
 familyporn.tv#%#//scriptlet('remove-node-text', 'script', 'popMethods')
 tabooporn.tv##.textlink a[target="blank"]
@@ -23041,7 +23047,6 @@ astro-seek.com##.stredni-menu > div[style$="width: 100%;"]
 docsquiffy.com##.penci-banner-box
 finanzas.yahoo.com,finance.yahoo.com##.sdaContainer
 fromvalerieskitchen.com##.at-manual-sidebar
-eatwell101.com##.adsenseright
 eatwell101.com##div[id^="desk"]
 eatwell101.com###professor_prebid-root
 ||eatwell101.com/wp-content/themes/*/custom/ads/
@@ -23189,9 +23194,7 @@ seeklogo.com##.sstkBannerWp
 seeklogo.com##.pagePartnersWp
 observerbd.com##.col-lg-4 > div[style^="padding"]:has(> ins.adsbygoogle)
 lastminute.com.au##div[role="main"] > div.comet-homepage-module > div.SimpleContainer:has(a[href^="https://adclick.g.doubleclick.net/"])
-nanoreview.net##.gtx_lol_o_desktop
 old.reddit.com##.sb-unit
-washingtonpost.com##wp-ad-wrapper
 washingtonpost.com##.grid-body > div.PJLV:has(> div[data-testid="outbrain"])
 ||streamed.pk/static/rainbet3.webp
 streamed.pk##.py-0 > .border.p-4:has(> button + a[target="_blank"])
@@ -23469,7 +23472,6 @@ nicomanga.com,nihonkuni.com,rawinu.com,weloma.art,love4u.net#%#//scriptlet('set-
 forge.plebmasters.de#%#//scriptlet('prevent-fetch', '/partners/home')
 ||api.plebmasters.de/v*/announcements/
 ||ping0.cc/static/images/ad/
-ping0.cc##.aditems
 /ads/*.js$domain=megatukmax.xyz|megamax.me
 h-donghua.xyz##body > div[id][style*="position:fixed;"][style*=";z-index:"]
 h-donghua.xyz##.video-content > div[id][style*="position:absolute;"][style*=";z-index:"]
@@ -23523,7 +23525,6 @@ videogameschronicle.com##.vgc-layout__adbreak
 nypost.com#%#//scriptlet('adjust-setTimeout', '[native code]', '7000', '0.001')
 appleinsider.com##.block:has(> div.ad)
 tupaki.com##body div[id^="detail_wrap_ad_"]:not(#style_important)
-weather.com##.combinedTopAdsSectionWrapper
 shopthemedetector.com#%#//scriptlet('set-cookie', 'shopify', '1')
 shopthemedetector.com#%#//scriptlet('set-cookie', 'tiktok', '1')
 shopthemedetector.com#%#//scriptlet('set-cookie', 'wix', '1')
@@ -23759,9 +23760,8 @@ nulljungle.com##.epcl-banner
 cricfy.net#%#//scriptlet('abort-current-inline-script', 'googletag', '')
 windowsonarm.org##div[aria-labelledby="fui-ra"] + div table tbody > tr:has(ins.adsbygoogle)
 windowsonarm.org##.sm\:px-6.lg\:px-8 > .py-8 > div:has(ins.adsbygoogle)
-venturebeat.com##.vb-ad-slot
 venturebeat.com##.article-body > div[class]:has(> div[id*="-"]:only-child:empty)
-rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.online,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
+pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.online,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
 jojo-news.com###cb-row--footer-main:has(#bottombanner)
 24porn.com##.b-head-6
 umatechnology.org###rk-exit-modal-bg
@@ -23843,7 +23843,6 @@ pornoxo.com##li.media-item.no-popup
 bigwarp.*###banner-overlay
 filemirage.com#%#//scriptlet('trusted-replace-node-text', 'script', 'window.open(', '/if *\(!1 *=== *[a-z]+ * \|\| *void *0 *=== *[a-z]+\.count *\)/', 'if (false)')
 vgtimes.com##.adfshift
-vgtimes.com##.banner_in_news
 ||radiotimes.com/stitcher-assets/radiotimes/ad-manager.js
 au.news.yahoo.com##main > section ul.gap-4 > li.relative:has(> div[class*="grid-cols-"]:first-child + div.group[id^="_"]:last-child)
 fextralife.com###related-games-ad
@@ -24260,7 +24259,6 @@ itchygame.com#$?#.a-th:not([itemscope]) { remove: true; }
 itchygame.com##.nav > li.dropdown-alt-toggle:has(> a[href^="/out.php?"])
 ||tubator.com/lookout/ex_api.php
 xzhentai.net##div[class*="-banner-"]
-365scores.com##div[class^="external-ad_"]
 365scores.com##div[class^="_main-content_ad_"]
 rule34.us##div[data-cl-spot]
 rule34.us##div[style="height: 490px;"]
@@ -24596,7 +24594,6 @@ rargb.to,footybite.to#%#//scriptlet('prevent-addEventListener', '/mousedown|touc
 /assets/js/bootstrap.main.js$domain=totalsportek.pro|footybite.to
 governmentjobvacancies.com,biharkhabar.co###loading-container
 briefly.co.za##.c-adv-branding__top
-briefly.co.za##.post__sponsor-banner
 ||cdn.briefly.co.za/banners/
 tempmail.ninja##.ads-container
 independent.co.uk###billboard-wrapper
@@ -24727,7 +24724,6 @@ liquipedia.net##.fo-nttax-infobox > div:has(> .infobox-center > div > a[href*="?
 koreatimes.co.kr##div[class^="homeLayoutWrapper_aside-contents-wrap"] > div[class^="homeLayoutWrapper_aside-contents"] > div:has(> div[id^="div-gpt-ad"])
 koreatimes.co.kr##div[class^="wrap DetailTabool"]
 koreatimes.co.kr##div[class^="homeLayoutWrapper"]:has(> div.wrap > div[class^="HomeTaboola"])
-armorgames.com##.ad-lrgrec
 armorgames.com##div[class^="ad-large-"]
 thepointsguy.com##div[data-testid="tpg-inline"]
 thepointsguy.com##main > div[class^="jsx-"]:has(> div.nudgeModal > div.content > span > a[href^="https://oc.brcclx.com/"])
@@ -25018,7 +25014,6 @@ online2pdf.com##div[class*="adbox_"]
 online2pdf.com#?#.main > table > tbody > tr > td:has(> div[class] > div > div[style]:contains(From the developer of Online2PDF.com))
 ||djerycom.ug/obulango/
 djerycom.ug###artist-meta
-demonicscans.org##div[id^="pf-"]
 athlonsports.com##.m-fixedbottom-ad--container
 athlonsports.com##section[id^="phxoutbrain-"]
 tribune.net.ph##.skinner
@@ -25414,7 +25409,6 @@ samfw.com##.my-1 > a[target="_blank"] > img
 samfw.com###download_section .col-lg-10 > a[target="_blank"][style]
 twitchmetrics.net##.list-group > div.container:has(> div[class^="franklyad"])
 kitap.name##div[class*="bg-gray"]:has(> ins.adsbygoogle)
-fark.com###sellwyld
 filespayouts.com###normal-box
 filespayouts.com##center > a[onclick^="window.open"][rel]
 winshell.org##.content > center:has(> .adsbygoogle)
@@ -25501,7 +25495,6 @@ pushsquare.com###page-sidebar > .insert:has(> div[data-dfp-id])
 pushsquare.com###content > .article-billboard:has(> div[data-dfp-id])
 pushsquare.com###page > .inset:not(.content-wrapper):has(> .insert > div[data-dfp-id])
 collider.com###adsninja-below-main-pic
-klz9.com###aigirlfriendad
 traverseticker.com##a[onclick*="Ads"]
 traverseticker.com##div[class*="adBox"]
 traverseticker.com##div[class*="bannersBox"]
@@ -25643,7 +25636,6 @@ newsnow.co.uk#%#//scriptlet('set-constant', 'nnad.AdSlotManager.createAdSlot', '
 ||newsnow.co.uk^$cookie=nnusrst
 ||newsnow.co.uk^$cookie=nn_uid
 ||newsnow.co.uk^$cookie=nn_sid
-forums.redflagdeals.com###primisContainer
 wzstats.gg##app-desktop-takeover-ad
 ashemaletube.com##.navmenu > li:has(> a[rel="sponsored"])
 ||cdn77.ashemaletube.com/ast/*/bg-b.jpg
@@ -26205,7 +26197,6 @@ tubator.com##div[id][style*="height: 250px;"]
 notthebee.com##div[id^="commentList"] + div.overflow-hidden:has(> div > a[href="/join"])
 bangla.bdnews24.com##main > div.container:has(> div.row iframe[src^="https://welcome.bdnews24.com/innstar/"])
 fandom.com##.top-ads-container
-cnbctv18.com##.rhs-long-ad
 top-mods.com##div[style*="width:300px;"][style*="height:600px;"]
 top-mods.com##.mods_dwn_block > div.mods_dwn_block_left:has(> div.rl_cnt_bg)
 mtgnexus.com###logged_out_thin
@@ -26249,7 +26240,6 @@ myflixerz.to##a[href="https://pcnema.to"]
 flamecomics.me##article > .entry-content > .kln
 flamecomics.me##body > div[style^="position: fixed; top:"][style*="z-index:"][style*="height:"][style*="width:"][style*="z-index:"]
 flamecomics.me#$#body[style*="padding-top:"] { padding-top: 0 !important; }
-livemint.com##.inlineAds
 pornhdxvideos.com##div[class^="alert alert-"][style="overflow: hidden!important"]
 ||pornhdxvideos.com/nb/ba_lo.php
 ||pornhdxvideos.com/nb/fn_la-*.js
@@ -26459,7 +26449,6 @@ trannylime.com###_iframe_content
 waskucity.com##.samAdvertiseHere
 waskucity.com##.xxx
 transtxxx.com##div[class^="video-conten"] > div + div
-yahoo.com###commerce-module-container
 play.dictionary.com#%#//scriptlet('adjust-setInterval', 'generalTimeLeft', '*', '0.01')
 automaton-media.com,ricedigital.co.uk,vladan.fr#%#//scriptlet('abort-on-property-read', 'wpsite_clickable_data')
 automaton-media.com#$#html > body { background-image: none !important; }
@@ -26478,7 +26467,6 @@ climaeradar.com.br,havadurumuveradar.com,idojarasesradar.hu,kairosradar.gr,meteo
 bestproducts.com##main > div[class^="css-"]:has(> div.ad-disclaimer)
 ||cdn.productreview.com.au/assets/public/gnisitrevda_*.js
 productreview.com.au##div[data-sticky-ad-container]
-dev.to##.js-billboard-container
 tech5s.co##center:has(> div > button[onclick^="handleDownload("])
 bing.com##.b_bza_pole
 nytimes.com##div:has(> div[data-testid="StandardAd"]:only-child)
@@ -26630,8 +26618,6 @@ nsfwmonster.com#$?#.content > div.item:has(> iframe.osBannerPreload) { remove: t
 hardgif.com##.item:has(> .osBannerPreload:only-child)
 hardgif.com#%#//scriptlet('trusted-set-cookie-reload', 'clickedAlready', '1')
 lnkfi.re###lnk-ad-header
-cyberscore.live##.partner-rb-full-page
-cyberscore.live##.wrapper-partner-rb
 ||cyberscore.live/images/bnrk-res/
 investorgain.com#?#p:has(> b:contains(We can help you to open your demat account))
 voodc.com#%#//scriptlet('remove-node-text', 'script', 'adserverDomain')
@@ -26729,15 +26715,12 @@ forum.rclone.org##.home-logo-wrapper-outlet a[href^="https://"][target="_blank"]
 ||usgas.ca/images/road_trip_must_haves_400.jpg
 tennis.com##article > div.d3-l-grid--outer:has(> div.oc-c-article__body > div.body-parts-center > div.oc-c-article__adv)
 twinfinite.net##.htlad-twinfinitenet_leaderboard_atf
-mytempsms.com##.content > .container[style]:has(> .adsbygoogle)
-mytempsms.com###container-ad > .col-sm-12[style]:has(> .adsbygoogle)
 bscscan.com###ContentPlaceHolder1_lblTextAd
 pcmag.com#?#.mx-auto > div[class^="my-"]:has(> div.hide-three > a[href][rel="sponsored"]) + div.leading-tight
 pcmag.com#?#.mx-auto > div[class^="my-"]:has(> div.hide-three > a[href][rel="sponsored"])
 pcmag.com##div#similar-products
 bestforpuzzles.com##div[data-element-description$=" ad"]
 bestforpuzzles.com##div[class^="GameTemplate__adSidebar___"]
-msn.com##.DisplayAdsWC
 msn.com##.vd-ad
 dexerto.com##div[id^="article-"] > div.wp-block-buttons > div.wp-block-button:has(> a[href^="https://www.amazon.com/dp/"])
 freetogame.com##.games_area > div.game-card:has(> div.card > ins.adsbygoogle)
@@ -26748,7 +26731,6 @@ mmacore.tv##.prodlst
 mmacore.tv###lzSkyAd
 mmacore.tv##.resp_ban
 ||cloudfront.net/images/banners/original/$domain=mmacore.tv
-adsoftheworld.com##.tracking-widest
 futurezone.at##.outbrain
 flightconnections.com##.right-column:has(> .route-display-box-container)
 bscscan.com##.row > div.col-auto:has(> div.d-none > a[href^="https://goto.bscscan.com/"])
@@ -27569,7 +27551,6 @@ nutraceuticalsworld.com##div[id^="main-content-ad-"] + hr
 nutraceuticalsworld.com#?#.box-wrapper > .pull-right > .well:has(> .panel > .media-list div[id^="related-content-box-"] > [id^="google_ads_iframe"])
 subtitlecat.com##div.header-top
 imginn.com##.block-h12
-imginn.com##.block-sulvo
 chubbyporn.com##.twocolumns > .aside
 ||v.poki.com/*/advertisement*.mp4$redirect=noopmp4-1s
 /[a-z0-9]{8,}.[a-z]{3,}/$xmlhttprequest,third-party,domain=tapeantiads.com
@@ -27702,7 +27683,6 @@ thedailystar.net##a[href="https://myprime.com.bd/"]
 thedailystar.net##a[href^="http://pusti.com.bd/"]
 thedailystar.net##a[href^="https://waltonbd.com/"]
 rudaw.net##.section--ad
-lasvegasweekly.com###bottom-bar-container
 1tamilblasters.*##p[style="text-align: center;"] > a[target="_blank"] > img
 1tamilblasters.*#?#.ipsWidget > .ipsWidget_inner:has(> p[style="text-align: center;"]:only-child > a[target="_blank"] > img)
 express.co.uk##.vf3-conversations-list__promo
@@ -27729,7 +27709,6 @@ aetherhub.com##div[id^="zone"][class^="mx-auto"]
 dnsstuff.com##.entry-content > h2 > a[href] > img[width="614"]
 dnsstuff.com##.entry-content > p > a[href][target="_blank"] > img
 ||api.blockchain.info/explorer-gateway/advertisements
-eurogamer.net##.primis_wrapper
 react.libhunt.com##.lib-list > .feed-item:not(.lib)
 ||trackdz.com/img/banners/
 mega4upload.com##div[class="mb-4 text-center"] > a > img
@@ -28093,7 +28072,6 @@ thelallantop.com###taboola-ads
 ||savemp4.red/live_stream_bn.php
 officialcharts.com##div[type="content_ignite_advert"]
 soompi.com##.article-wrapper div > p > a[target="_blank"] > img
-cnbctv18.com##.desk_header_banner
 biblestudytools.com##featuredtopicslistviewcomponent
 chicago.suntimes.com##.Page-above
 ||wgno.com^$domain=mytwintiers.com
@@ -28577,7 +28555,6 @@ grammarcheck.me##.lasso-display-table
 grammarcheck.me##.wp-block-affiliate-plugin-lasso
 vccgenerator.org##.adxad
 gizchina.it##body div[id^="lx_"][class*="_ribboned"]
-gadgets360.com##.pagepusheradATF
 searchenginejournal.com##.sej-bbb-section
 timesofindia.com,indiatimes.com##div[data-aff-type]
 myfigurecollection.net##.xy-wide-top
@@ -29346,7 +29323,6 @@ meracalculator.com##.col-sm-12 > div[style^="min-height:"]
 timesnownews.com##._1ML8q
 anonfile.co,arahdrive.com,fastupload.io,video.hizliresim.com##.vr-adv-unit
 ||kisscartoon.*/api/pop*.php
-businessgreen.com##.notice-slot-full-below-header
 alternativeto.net##div[style^="min-height:114px;background-color:"]
 alternativeto.net##div[style^="min-height: 114px; background-color:"]
 work.ink##body > div[style*="width: 100%; height: 100%;"] > a[target="_blank"]
@@ -29463,7 +29439,6 @@ phoneia.com###colophon > div[style^="height:295px;"]
 ||cdn.streamgoto.lc/js/clock1.js
 pussytorrents.org##body > [style^="position: fixed;"][style*="z-index: 999999"]
 ||nzbstars.com/nb/froader.js
-minecraftskins.com##.antiblock-wrapper
 namemc.com##div[class*="col-md"] > div[style*="min-height:"]
 namemc.com##.small-gutters > div[class="col-12"]
 love4porn.com##.block-video > div.top
@@ -29683,7 +29658,6 @@ apklinker.com###gadvheader
 opencritic.com##app-home-carousel-v3[title="GOG Winter Sale"]
 cdkeyit.it,allkeyshop.com##body > a[class^="blc-"]
 myrateplan.com##.view-id-top_banner_ad
-iplogger.org##.commercial-wide
 videogamegeek.com,boardgamegeek.com##gg-leaderboard-ad
 boardgamegeek.com###dfp-leaderboard-lg
 fakazavibes.com,zamusic.org,javhdo.net,movies.meetdownload.com,123movies.la##a[href^="https://bit.ly/"]
@@ -31531,7 +31505,6 @@ karaoke-lyrics.net##.ad_large_square
 getmyuni.com##.appendAdDiv
 adoclib.com##.blog_right_sidebar
 bollywoodshaadis.com##.artcl_ad_dsk
-bollywoodshaadis.com##.adv_text2
 getthot.com##.redirect-iframe
 leaklinks.com##a[href="http://missingtoofff.com/"]
 $subdocument,third-party,domain=getthot.com|search.gametarget.eu
@@ -31888,7 +31861,6 @@ thedailystar.net##.pane-ad-pane
 thedailystar.net##.block-region-footer-sticky
 bandwidthplace.com##.da-wrapper
 spicyip.com##iframe[src="//www.lens.org/lens/embed/search"]
-batimes.com.ar##.bg-ads-space
 coolgenerator.com##.for-ad
 wordcounter.io##.sidebar__display
 wordcounter.io##.page-aside__display
@@ -32611,8 +32583,6 @@ weather.com##div[id^="Taboola-sidebar"]
 ytmp3.net,thepiratebay2.to,hexupload.net,techboyz.xyz,b-ass.org,kartaplovdiv.com##a[target="_blank"] > img
 kartaplovdiv.com##.play-video
 sidereel.com###netaktion_ad
-salon.com##.advertise_text
-salon.com##.outer_ad_container
 studytonight.com##.asc-ads
 studytonight.com###body-content > div[style="min-height: 300px;overflow: auto;"]
 canonrumors.com###execphp-2
@@ -33188,7 +33158,6 @@ livescore.com###banner-top-image-wrapper
 foxaholic.com##div[class*="foxaholic-publift-"][class*="_sticky"]
 ||pouvideo.cc/player*/vast.js
 finviz.com##td[valign="top"][style*="gfx/banner"]
-livemint.com###adfreeDeskSpace
 livemint.com###specialAd
 ||sexe-libre.org/*.php$script,~third-party
 ||sexe-libre.org/rotate/*-1024x200px-
@@ -35612,7 +35581,6 @@ sexy-youtubers.com##iframe[width="300px"][height="250px"]
 ||static.showheroes.com/publishertag.js
 fritchy.com,imagebam.com##div[id^="ad-header"]
 owlcation.com,history.com##.m-adaptive-ad-component
-history.com##.m-in-content-ad-row
 ||get-to.link/delicate-water-5f5b/
 mrproblogger.com,shrinkme.click,shrinkme.*###imgAddDirectLink
 cumilf.com##.visibility
@@ -38767,7 +38735,6 @@ prnt.sc##.grundik-div
 ||1watchmygf.com/js/mygf*.js
 androidapksfree.com##.post-content > div[style="text-align:center"] > div > i:first-child
 androidapksfree.com##.post-content > div[style="text-align:center"] > i:first-child
-newser.com##.RightRailAds
 ||image.winudf.com/*/upload/promopure/$domain=apkpure.*
 streamlive.to###ad_footer
 hanime.tv##.golden-saucer
@@ -45462,6 +45429,7 @@ implbits.com#@#.banner_container
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
 !#########################################
+@@||mxcontent.net^$media,stealth=referrer,domain=m1xdrop.com
 @@||checkout.api.scayle.cloud/next/api/$stealth=3p-auth
 @@||gse.it^$stealth=ip
 @@||kfc.com^$stealth=ip
@@ -62705,10 +62673,13 @@ browsershots.org#@#.advert_area
 ||paid.outbrain.com^
 ||redirectingat.com^
 ||rubiconproject.com^
-||tambukipeag.cyou^
+||snashesunlacetandan.cyou^
 ||totaladblock.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
+||wywgohkuukfin.online^
+||zmyodzglqdaox.site^
+||zpdhpjptjxipw.website^
 ||0i0i0i0.com^$document
 ||123-stream.org^$document
 ||1asb.com^$document
@@ -72059,6 +72030,7 @@ xxxporn.tube###watch_undervideo
 worldcrunch.com###wc_leaderboard
 topfiveforex.com###wcfloatDiv
 the-express.com###web-strip-banner
+iptv.playtorrio.xyz###welcomePromo
 webfail.com###wf-d-300x250-sb1
 walterfootball.com###wf_brow_box
 sportscardforum.com###wgo_affiliates
@@ -72435,6 +72407,7 @@ am5.com##.ad-box-right-pc-1
 diffchecker.com##.ad-box_container__q9Jhx
 mv-voice.com##.ad-break
 tvtropes.org##.ad-caption-subscribe-wrapper
+ntvstream.cx##.ad-close-btn
 imsa.com##.ad-close-container
 thisiscolossal.com##.ad-code-block
 npr.org##.ad-config
@@ -72445,6 +72418,7 @@ apponic.com##.ad-container-compact
 24timezones.com##.ad-container-diff
 newthinking.com##.ad-container-mpu
 24timezones.com##.ad-container-top-index
+kanogoma.com##.ad-ctr
 wheelofnames.com##.ad-declaration
 sciencealert.com##.ad-desktop\:block
 cnn.com##.ad-feedback__modal
@@ -72492,6 +72466,7 @@ mirror.co.uk,themirror.com##.ad-placeholder
 gadgethacks.com,notus.org##.ad-placement
 bbcgoodfood.com,olivemagazine.com,radiotimes.com##.ad-placement-inline--2
 order-order.com##.ad-popup-footer
+ntvstream.cx##.ad-popup-overlay
 fanfox.net##.ad-reader
 wapt.com##.ad-rectangle
 mydramalist.com##.ad-removal-info
@@ -74549,6 +74524,7 @@ overtake.gg##.js-notice.notice
 beermoneyforum.com##.js-notices
 formula1.com##.js-promo-item
 archdaily.com##.js-publift
+stackoverflow.com##.js-sidebar-zone
 theguardian.com##.js-top-banner
 extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
@@ -74980,7 +74956,7 @@ autosport.com##.ms-side-items--with-banner
 codeproject.com##.msg-300x250
 cryptoticker.io##.mso-cls-wrapper
 marinetraffic.com##.mt-desktop-mode
-textcompare.org##.mui-19wbou7
+textcompare.org##.mui-ot0xle
 boardgameoracle.com##.mui-style-1kdz9ml
 boardgameoracle.com##.mui-style-1vh0vdw
 boardgameoracle.com##.mui-style-x73gw8
@@ -75038,6 +75014,7 @@ firstpost.com##.newadd
 farminguk.com##.news-advert-button-click
 hurriyetdailynews.com##.news-detail-adv
 sammobile.com##.news-for-you-wrapper
+caspianpost.com##.news-inner__banner
 blabbermouth.net##.news-single-ads
 dailysocial.id##.news__detail-ads-subs
 digit.in##.news_adhide_device
@@ -75369,6 +75346,7 @@ federalnewsnetwork.com,texasmonthly.com##.promo-inline
 spin.com##.promo-lead
 coveteur.com##.promo-placeholder
 ecaytrade.com##.promo-processed
+iptv.playtorrio.xyz##.promo-sidebar
 texasmonthly.com##.promo-topper
 lawandcrime.com##.promo-unit
 comedy.co.uk##.promo-wrapper
@@ -75759,6 +75737,7 @@ coincodex.com##.sidebar-4skyscraper
 jayisgames.com##.sidebar-ad-top
 autoguide.com,motorcycle.com##.sidebar-ad-unit
 movieinsider.com##.sidebar-ad300
+kanogoma.com##.sidebar-aside
 dailycoffeenews.com##.sidebar-box
 coingape.com##.sidebar-btn-container
 ixbt.games##.sidebar-c
@@ -78029,6 +78008,7 @@ sfyimby.com#?#.textwidget:contains(ADVERTISEMENT)
 trademe.co.nz##.tm-display-s-listing__cards-flex:has(tm-sponsored-listings-tag)
 trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 deccanchronicle.com##.to-be-async-loaded-ad:has(> [style*="center"])
+moviebite.cc#?#.transition-all.overflow-hidden.w-full:contains(Advertisement)
 twitter.com,x.com##.tweet:has(.promo)
 wowcher.co.uk##.two-by-two-deal:has(a[href*="src=sponsored_search_"])
 news.sky.com##.ui-box:has(.ui-advert)
@@ -78207,6 +78187,7 @@ classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.c
 provigo.ca#?#.css-1nhzth8:contains(/sponsorisé|sponsored/)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:contains(Ad)
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
+etherscan.io#?#section.container-xxl > .py-4:contains(Sponsored)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
@@ -79089,6 +79070,7 @@ imagebam.com###cs-link
 hentaiasmr.moe###custom_html-14
 hentaiprn.com###custom_html-19
 asiaxbit.com,celebritymovieblog.com,interracial-girls.com###custom_html-2
+muchohentai.com###custom_html-24
 zhentube.com###custom_html-38
 dpfantasy.org,hotcelebshome.com###custom_html-4
 xxx-game.org###custom_html-5
@@ -80158,11 +80140,13 @@ gelbooru.com##[style$="height: 250px; "]
 zerochan.net##[style$="min-height: 300px !important; "]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="blob:"]:not(video)
+muchohentai.com##[style="display: inline-block !important;"]
 xozilla.com##[style="height: 220px !important; overflow: hidden;"]
 hentairider.com##[style="height: 250px;padding:5px;"]
 eporner.com##[style="margin: 20px auto; height: 275px; width: 900px;"]
 rule34.xxx##[style="min-height: 135px; box-sizing: border-box;"]
 vjav.com##[style="width: 728px; height: 90px;"]
+muchohentai.com##[style="width:100%;height:250px;"]
 gelbooru.com,xozilla.com##[style^="height: 250px !important; overflow: hidden;"]
 missav.*,missav123.com,missav888.com,njavtv.com##[style^="width: 300px; height: 250px;"]
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
@@ -138749,6 +138733,7 @@ zmail.mtrl.me$image
 /athena-etm.js
 /js/nr-analytics.js
 .com/?rb=$xmlhttprequest
+/bcwc.analytic.js?
 /fpc/cookie_js.php
 /outLoging.js
 /outLoging2.js
@@ -153455,7 +153440,7 @@ azaraks.com.tr,gamemar.com,torex.ru,mesadepo.com,firstechllc.com,planbmedia.io,h
 mathaeser.de,stadt-brandenburg.de,vitaello.com.ua,uskudar.edu.tr,encycolorpedia.com,learn.innopolis.university,interhome.pl,alhadath.net,chiccentre.com,accredito.com,bonsai.de,diehumanisten.de,downloadfreecourse.com,interhome.de,techonthenet.com,ncalculators.com,editpad.org,katho-nrw.de,fiyatgrafik.com,gartenprofi.net,alibre.info,fisglobal.com,delamar.de,gnosis.io,anyclip.com,manybooks.net,cardzmania.com,antarestech.com,nperf.com,notebookinfo.de,telefuel.com,alarabiya.net,dijnet.hu###consent
 turkuvazkitap.com.tr,muhitkitap.com.tr,support.a1.by,kargomsende.com,aboneturkuvaz.com,omroepbrabant.nl,tdp.com.tr,turkuvazabone.com,turkuvazmatbaacilik.com##.sticky-footer
 apara.com.tr,anews.com.tr,harpersbazaar.com.tr,minikacocuk.com.tr,minikago.com.tr,724dinle.com,takvim.com.tr,atvavrupa.tv,paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
-lobpreissuche.de,zsl-bw.de,gelsenkirchen.de,sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
+fahrschule-krug-online.de,lobpreissuche.de,zsl-bw.de,gelsenkirchen.de,sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
 aivo.ai,key-hub.eu,aver.com,avereurope.com,gazetebirlik.com###cookieWarnBox
 sparkasse-muensterland-ost.de,sparkasse-dachau.de,foerde-sparkasse.de,bw-bank.de,sparkasse-allgaeu.de,sparkasse-oberlausitz-niederschlesien.de,spkvr.de,sparkasse-freiburg.de,kskmse.de,sparkasse-mittelfranken-sued.de,sparkasse-hochfranken.de#%#//scriptlet('trusted-click-element', '.if6_eprivacy a[title="Ablehnen"]', '', '500')
 haberglobal.com,yenicaggazetesi.com,pastmap.org.uk,trove.scot,blog.engineshed.scot,historicenvironment.scot,artigercek.com,yesilcamevi.com,yeniankara.com.tr,ona.org.br,nefes.com.tr,kontraspor.com,bandlab.com,esimdb.com,odatv.com,medyahaber.com,solodev.com,mblock.cc,sonhaberler.com,superhaber.com,aydinlik.com.tr,duvarenglish.com,dunya.com,kamugundemi.com,ekonomim.com,vatanbilgisayar.com,young.scot,haberglobal.com.tr,bambusliebe.de,mblock.makeblock.com,nethaber.com,internetistanbul.com,gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
@@ -153552,6 +153537,8 @@ cmp.focus.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9[title*="Z
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+fahrschule-krug-online.de#%#//scriptlet('trusted-set-cookie', 'ws_cookie', 'googlemap-explicit-consent%3Daccept')
+shulex.com,voc.ai##div[class^="index_container"] > div[class*="index_slideTop"]:has(a[href="/privacy-policy"])
 ||vwfs.se/assets/js/cookie.js
 vrk.de#%#//scriptlet('trusted-click-element', '[style] > [style] > s-button[data-testid="button--einstellungen-speichern"] > button.s-button__button')
 kolesa.ru#%#//scriptlet('set-cookie', '_kcp', '1')
@@ -153855,7 +153842,7 @@ barnim.de,uoa.gr##div[aria-label="cookieconsent-dialog"]
 pergamos.lib.uoa.gr##.slide-up
 etwinning.indire.it###bannerContent
 ecologie.gouv.fr#%#//scriptlet('set-cookie', 'EA_cookie_intermediaire', '1', '/', 'ecologie.gouv.fr')
-ecologie.gouv.fr#%#//scriptlet('trusted-set-cookie', 'orejime', '{%22eulerian_analytics%22:false%2C%22adform%22:false%2C%22instagram%22:true%2C%22x_twitter_cards%22:true%2C%22x_twitter%22:true%2C%22dailymotion%22:true%2C%22youtube%22:true%2C%22vimeo%22:true%2C%22strictly_necessary%22:true}')
+ecologie.gouv.fr#%#//scriptlet('trusted-set-cookie', 'orejime', '{%22eulerian_analytics%22:false%2C%22adform%22:false%2C%22facebook%22:false%2C%22veepee%22:false%2C%22criteo%22:false%2C%22enovate%22:false%2C%22outbrain%22:false%2C%22teads%22:false%2C%22locala%22:false%2C%22google_360%22:false%2C%22instagram%22:true%2C%22x_twitter_cards%22:true%2C%22x_twitter%22:true%2C%22dailymotion%22:true%2C%22youtube%22:true%2C%22vimeo%22:true%2C%22strictly_necessary%22:true}')
 youtrack.jetbrains.com##div[data-test="alert-container"][class^="ring-ui-manager-alertContainer"]
 dom.ria.com#%#//scriptlet('set-cookie-reload', 'gdpr', '1')
 ancestry.de#%#//scriptlet('trusted-click-element', 'div[id^="Banner_cookie_"] #rejectAllBtn')
@@ -181951,6 +181938,7 @@ labs.google.com#@##google-hats-survey
 ekonomika.org.tr,lagacetadesalamanca.es,lovense.com,evvelcevap.com,wal.yalenkino.org,pibig.info,lefigaro.fr,banki.ru,a2zapk.io,delfi.lt,ganyancanavari.com,turkcell.com.tr,a101.com.tr,news.mail.ru,realitatea.net,winnipegfreepress.com,tenorshare.com,gzt.com,haber.biz,sakshi.com,shiftdelete.net,community.oneplus.com,lnc.nc,superfilmes.ph,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
 wallstreet-online.de,dni.ru#%#if (window.PushManager) { window.PushManager.prototype.subscribe = function () { return { then: function (func) { } }; }; }
 macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFunc")
+||pcmag.com/iterable/push-*.js
 ||app.bildirim.com.tr/main.js
 e-forologia.gr###NotificationModal
 ||infobus.eu/js/firebase-export.js
@@ -182800,6 +182788,8 @@ ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocael
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
+pcmag.com##a[href="https://www.google.com/preferences/source?q=pcmag.com"]
+ip-insider.de##.inf-box-article-nl
 g2a.com##.bg-background-accent-primary-soft
 startribune.com#$#.tp-backdrop { display: none !important; }
 startribune.com##ins[id^="piano-z"] > .tp-container-inner
@@ -208095,7 +208085,7 @@ azaraks.com.tr,gamemar.com,torex.ru,mesadepo.com,firstechllc.com,planbmedia.io,h
 mathaeser.de,stadt-brandenburg.de,vitaello.com.ua,uskudar.edu.tr,encycolorpedia.com,learn.innopolis.university,interhome.pl,alhadath.net,chiccentre.com,accredito.com,bonsai.de,diehumanisten.de,downloadfreecourse.com,interhome.de,techonthenet.com,ncalculators.com,editpad.org,katho-nrw.de,fiyatgrafik.com,gartenprofi.net,alibre.info,fisglobal.com,delamar.de,gnosis.io,anyclip.com,manybooks.net,cardzmania.com,antarestech.com,nperf.com,notebookinfo.de,telefuel.com,alarabiya.net,dijnet.hu###consent
 turkuvazkitap.com.tr,muhitkitap.com.tr,support.a1.by,kargomsende.com,aboneturkuvaz.com,omroepbrabant.nl,tdp.com.tr,turkuvazabone.com,turkuvazmatbaacilik.com##.sticky-footer
 apara.com.tr,anews.com.tr,harpersbazaar.com.tr,minikacocuk.com.tr,minikago.com.tr,724dinle.com,takvim.com.tr,atvavrupa.tv,paradergi.com.tr,vavtv.com.tr,aspor.com.tr,ahaber.com.tr,atv.com.tr,fikriyat.com,fotomac.com.tr,turkuvazkitap.com.tr,turkuvazradyolar.com,yeniasir.com.tr##.veriAltBar
-lobpreissuche.de,zsl-bw.de,gelsenkirchen.de,sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
+fahrschule-krug-online.de,lobpreissuche.de,zsl-bw.de,gelsenkirchen.de,sgs-cqe.de,km-bw.de,heinrich-braun-klinikum.de,kzvn.de,pleissental-klinik.de,bsw.de,contabo.de,avs.de,skybet.de###cookiehinweis
 aivo.ai,key-hub.eu,aver.com,avereurope.com,gazetebirlik.com###cookieWarnBox
 sparkasse-muensterland-ost.de,sparkasse-dachau.de,foerde-sparkasse.de,bw-bank.de,sparkasse-allgaeu.de,sparkasse-oberlausitz-niederschlesien.de,spkvr.de,sparkasse-freiburg.de,kskmse.de,sparkasse-mittelfranken-sued.de,sparkasse-hochfranken.de#%#//scriptlet('trusted-click-element', '.if6_eprivacy a[title="Ablehnen"]', '', '500')
 haberglobal.com,yenicaggazetesi.com,pastmap.org.uk,trove.scot,blog.engineshed.scot,historicenvironment.scot,artigercek.com,yesilcamevi.com,yeniankara.com.tr,ona.org.br,nefes.com.tr,kontraspor.com,bandlab.com,esimdb.com,odatv.com,medyahaber.com,solodev.com,mblock.cc,sonhaberler.com,superhaber.com,aydinlik.com.tr,duvarenglish.com,dunya.com,kamugundemi.com,ekonomim.com,vatanbilgisayar.com,young.scot,haberglobal.com.tr,bambusliebe.de,mblock.makeblock.com,nethaber.com,internetistanbul.com,gazeteoku.com,konhaber.com,haberfokus.com,belge.com.tr,medyatava.com,memurhaber.com,borsamatik.com.tr,dbschenker.com,elele.com.tr,superhaber.tv,gazeteciler.com,gazeteduvar.com.tr,f5haber.com,medyafaresi.com,internethaber.com,aceis.org.br,brilliant.org,elmaelma.com,internetspor.com,tv100.com,afs.org.br,cosdna.com,eksiup.com,greyhound.com,hpe.com##.privacy-banner
@@ -208192,6 +208182,8 @@ cmp.focus.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9[title*="Z
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
 lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+fahrschule-krug-online.de#%#//scriptlet('trusted-set-cookie', 'ws_cookie', 'googlemap-explicit-consent%3Daccept')
+shulex.com,voc.ai##div[class^="index_container"] > div[class*="index_slideTop"]:has(a[href="/privacy-policy"])
 ||vwfs.se/assets/js/cookie.js
 vrk.de#%#//scriptlet('trusted-click-element', '[style] > [style] > s-button[data-testid="button--einstellungen-speichern"] > button.s-button__button')
 kolesa.ru#%#//scriptlet('set-cookie', '_kcp', '1')
@@ -208495,7 +208487,7 @@ barnim.de,uoa.gr##div[aria-label="cookieconsent-dialog"]
 pergamos.lib.uoa.gr##.slide-up
 etwinning.indire.it###bannerContent
 ecologie.gouv.fr#%#//scriptlet('set-cookie', 'EA_cookie_intermediaire', '1', '/', 'ecologie.gouv.fr')
-ecologie.gouv.fr#%#//scriptlet('trusted-set-cookie', 'orejime', '{%22eulerian_analytics%22:false%2C%22adform%22:false%2C%22instagram%22:true%2C%22x_twitter_cards%22:true%2C%22x_twitter%22:true%2C%22dailymotion%22:true%2C%22youtube%22:true%2C%22vimeo%22:true%2C%22strictly_necessary%22:true}')
+ecologie.gouv.fr#%#//scriptlet('trusted-set-cookie', 'orejime', '{%22eulerian_analytics%22:false%2C%22adform%22:false%2C%22facebook%22:false%2C%22veepee%22:false%2C%22criteo%22:false%2C%22enovate%22:false%2C%22outbrain%22:false%2C%22teads%22:false%2C%22locala%22:false%2C%22google_360%22:false%2C%22instagram%22:true%2C%22x_twitter_cards%22:true%2C%22x_twitter%22:true%2C%22dailymotion%22:true%2C%22youtube%22:true%2C%22vimeo%22:true%2C%22strictly_necessary%22:true}')
 youtrack.jetbrains.com##div[data-test="alert-container"][class^="ring-ui-manager-alertContainer"]
 dom.ria.com#%#//scriptlet('set-cookie-reload', 'gdpr', '1')
 ancestry.de#%#//scriptlet('trusted-click-element', 'div[id^="Banner_cookie_"] #rejectAllBtn')
@@ -236591,6 +236583,7 @@ labs.google.com#@##google-hats-survey
 ekonomika.org.tr,lagacetadesalamanca.es,lovense.com,evvelcevap.com,wal.yalenkino.org,pibig.info,lefigaro.fr,banki.ru,a2zapk.io,delfi.lt,ganyancanavari.com,turkcell.com.tr,a101.com.tr,news.mail.ru,realitatea.net,winnipegfreepress.com,tenorshare.com,gzt.com,haber.biz,sakshi.com,shiftdelete.net,community.oneplus.com,lnc.nc,superfilmes.ph,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
 wallstreet-online.de,dni.ru#%#if (window.PushManager) { window.PushManager.prototype.subscribe = function () { return { then: function (func) { } }; }; }
 macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFunc")
+||pcmag.com/iterable/push-*.js
 ||app.bildirim.com.tr/main.js
 e-forologia.gr###NotificationModal
 ||infobus.eu/js/firebase-export.js
@@ -237440,6 +237433,8 @@ ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocael
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
+pcmag.com##a[href="https://www.google.com/preferences/source?q=pcmag.com"]
+ip-insider.de##.inf-box-article-nl
 g2a.com##.bg-background-accent-primary-soft
 startribune.com#$#.tp-backdrop { display: none !important; }
 startribune.com##ins[id^="piano-z"] > .tp-container-inner
@@ -261113,6 +261108,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 ||im.1vkx.cn/uploads/images/*.gif$third-party
+news.ebc.net.tw##.inline_box
 yunjiema.net##.container > .row.table-hover:has(> .col-md-8 > .adsbygoogle)
 yunjiema.net#$#.container > .row.table-hover.bg-messages:has(+ .row.table-hover > .col-md-8 > .adsbygoogle) { background-color: transparent !important; }
 xiazai.zol.com.cn##.soft-summary__buttons > div[style^="width"]:not([class])
@@ -292057,23 +292053,21 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
-||2x71phg5viv56c.rest^
+||4wbnhn5qonbe62v6om3q344fuk329.rest^
 ||admitad.com^
 ||ads-static.conde.digital^
+||albinesfill.cyou^
 ||alipromo.com^
 ||alitems.com^
 ||atdmt.com^
 ||auditude.com^
-||blinkyavowssparrer.cyou^
-||buckishsprat.qpon^
+||babyismseedkin.shop^
+||bef891h74vej93umvgwypul8nvu1nykuj.cfd^
+||bobwoodlappahaet.cfd^
 ||buyeasy.by^
-||creedalbioral.cfd^
 ||demand.supply^$script
-||eyv4jnvu1gzi6zuq.cfd^
-||farrelwaspier.cyou^
-||filllocate.com^
-||flavoryhunger.cfd^
 ||fwmrm.net^
+||gloggoperla.shop^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
 ||imasdk.googleapis.com^
@@ -292081,20 +292075,23 @@ browsershots.org#@#.advert_area
 ||loadercdn.com^
 ||macro.adnami.io^
 ||monetag.com^
-||nkkqppuwwapjol.xyz^
 ||ntv.io^
 ||ojrq.net^
 ||paid.outbrain.com^
-||pruigoenows.cyou^
-||ranjitkintyre.shop^
+||qifovsypvah.xyz^
 ||redirectingat.com^
 ||rubiconproject.com^
-||skyhexyl.shop^
-||svsxnnkyqfdt.com^
-||tambukipeag.cyou^
+||snackyriving.cyou^
+||snashesunlacetandan.cyou^
 ||totaladblock.com^
+||tunfulopilia.shop^
 ||videoplaza.tv^
+||wjhurodf.com^
 ||wpnrtnmrewunrtok.xyz^
+||wywgohkuukfin.online^
+||zmyodzglqdaox.site^
+||zpdhpjptjxipw.website^
+||zqmepwnolaptm.online^
 ||0i0i0i0.com^$document
 ||123-stream.org^$document
 ||1asb.com^$document
@@ -301455,6 +301452,7 @@ xxxporn.tube###watch_undervideo
 worldcrunch.com###wc_leaderboard
 topfiveforex.com###wcfloatDiv
 the-express.com###web-strip-banner
+iptv.playtorrio.xyz###welcomePromo
 webfail.com###wf-d-300x250-sb1
 walterfootball.com###wf_brow_box
 sportscardforum.com###wgo_affiliates
@@ -301831,6 +301829,7 @@ am5.com##.ad-box-right-pc-1
 diffchecker.com##.ad-box_container__q9Jhx
 mv-voice.com##.ad-break
 tvtropes.org##.ad-caption-subscribe-wrapper
+ntvstream.cx##.ad-close-btn
 imsa.com##.ad-close-container
 thisiscolossal.com##.ad-code-block
 npr.org##.ad-config
@@ -301841,6 +301840,7 @@ apponic.com##.ad-container-compact
 24timezones.com##.ad-container-diff
 newthinking.com##.ad-container-mpu
 24timezones.com##.ad-container-top-index
+kanogoma.com##.ad-ctr
 wheelofnames.com##.ad-declaration
 sciencealert.com##.ad-desktop\:block
 cnn.com##.ad-feedback__modal
@@ -301888,6 +301888,7 @@ mirror.co.uk,themirror.com##.ad-placeholder
 gadgethacks.com,notus.org##.ad-placement
 bbcgoodfood.com,olivemagazine.com,radiotimes.com##.ad-placement-inline--2
 order-order.com##.ad-popup-footer
+ntvstream.cx##.ad-popup-overlay
 fanfox.net##.ad-reader
 wapt.com##.ad-rectangle
 mydramalist.com##.ad-removal-info
@@ -303946,6 +303947,7 @@ overtake.gg##.js-notice.notice
 beermoneyforum.com##.js-notices
 formula1.com##.js-promo-item
 archdaily.com##.js-publift
+stackoverflow.com##.js-sidebar-zone
 theguardian.com##.js-top-banner
 extratv.com##.js-track-link
 chewy.com##.js-tracked-ad-product
@@ -304377,7 +304379,7 @@ autosport.com##.ms-side-items--with-banner
 codeproject.com##.msg-300x250
 cryptoticker.io##.mso-cls-wrapper
 marinetraffic.com##.mt-desktop-mode
-textcompare.org##.mui-19wbou7
+textcompare.org##.mui-ot0xle
 boardgameoracle.com##.mui-style-1kdz9ml
 boardgameoracle.com##.mui-style-1vh0vdw
 boardgameoracle.com##.mui-style-x73gw8
@@ -304435,6 +304437,7 @@ firstpost.com##.newadd
 farminguk.com##.news-advert-button-click
 hurriyetdailynews.com##.news-detail-adv
 sammobile.com##.news-for-you-wrapper
+caspianpost.com##.news-inner__banner
 blabbermouth.net##.news-single-ads
 dailysocial.id##.news__detail-ads-subs
 digit.in##.news_adhide_device
@@ -304766,6 +304769,7 @@ federalnewsnetwork.com,texasmonthly.com##.promo-inline
 spin.com##.promo-lead
 coveteur.com##.promo-placeholder
 ecaytrade.com##.promo-processed
+iptv.playtorrio.xyz##.promo-sidebar
 texasmonthly.com##.promo-topper
 lawandcrime.com##.promo-unit
 comedy.co.uk##.promo-wrapper
@@ -305156,6 +305160,7 @@ coincodex.com##.sidebar-4skyscraper
 jayisgames.com##.sidebar-ad-top
 autoguide.com,motorcycle.com##.sidebar-ad-unit
 movieinsider.com##.sidebar-ad300
+kanogoma.com##.sidebar-aside
 dailycoffeenews.com##.sidebar-box
 coingape.com##.sidebar-btn-container
 ixbt.games##.sidebar-c
@@ -307426,6 +307431,7 @@ sfyimby.com##.textwidget:has-text(ADVERTISEMENT)
 trademe.co.nz##.tm-display-s-listing__cards-flex:has(tm-sponsored-listings-tag)
 trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 deccanchronicle.com##.to-be-async-loaded-ad:has(> [style*="center"])
+moviebite.cc##.transition-all.overflow-hidden.w-full:has-text(Advertisement)
 twitter.com,x.com##.tweet:has(.promo)
 wowcher.co.uk##.two-by-two-deal:has(a[href*="src=sponsored_search_"])
 news.sky.com##.ui-box:has(.ui-advert)
@@ -307604,6 +307610,7 @@ classcentral.com##p + div:has(.responsive-post:has([href^="https://www.semrush.c
 provigo.ca#?#.css-1nhzth8:-abp-contains(/sponsorisé|sponsored/)
 rome2rio.com#?#div[aria-labelledby="schedules-header"] > div > div:-abp-contains(Ad)
 duckduckgo.com##section > div[class]:has(button[data-testid="ad-badge-ad-tooltip-products"])
+etherscan.io##section.container-xxl > .py-4:has-text(Sponsored)
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
@@ -308486,6 +308493,7 @@ imagebam.com###cs-link
 hentaiasmr.moe###custom_html-14
 hentaiprn.com###custom_html-19
 asiaxbit.com,celebritymovieblog.com,interracial-girls.com###custom_html-2
+muchohentai.com###custom_html-24
 zhentube.com###custom_html-38
 dpfantasy.org,hotcelebshome.com###custom_html-4
 xxx-game.org###custom_html-5
@@ -309555,11 +309563,13 @@ gelbooru.com##[style$="height: 250px; "]
 zerochan.net##[style$="min-height: 300px !important; "]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="base64"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="blob:"]:not(video)
+muchohentai.com##[style="display: inline-block !important;"]
 xozilla.com##[style="height: 220px !important; overflow: hidden;"]
 hentairider.com##[style="height: 250px;padding:5px;"]
 eporner.com##[style="margin: 20px auto; height: 275px; width: 900px;"]
 rule34.xxx##[style="min-height: 135px; box-sizing: border-box;"]
 vjav.com##[style="width: 728px; height: 90px;"]
+muchohentai.com##[style="width:100%;height:250px;"]
 gelbooru.com,xozilla.com##[style^="height: 250px !important; overflow: hidden;"]
 missav.*,missav123.com,missav888.com,njavtv.com##[style^="width: 300px; height: 250px;"]
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
@@ -311427,6 +311437,7 @@ gamcore.com##li.d-md-block > a[rel]
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
+/fdmg-tag-manager/tags.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
 /federated-analytics.all.min.js
@@ -312804,6 +312815,7 @@ gamcore.com##li.d-md-block > a[rel]
 /supercookie.asp
 /supercookie.js
 /svs.gif?
+/sw.js?origin=
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
@@ -313385,6 +313397,7 @@ gamcore.com##li.d-md-block > a[rel]
 ://signal.*/hardal
 ://signals.*/hardal
 ://sp.*/sp/h|$xmlhttprequest
+://ssgtm.
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.targito.
@@ -313441,6 +313454,7 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+/cdn/wpm/b3918e4e0wbf3ac3cepc5707306mb02b36c6m.js
 /_static/deliver.js?nonce=$script,~third-party
 /javascripts/browserfp.min.js?templateId=
 /munin/a/ls?t=$xmlhttprequest
@@ -320542,6 +320556,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
+||assets.targetimg1.com/ssx/ssx.mod.js$domain=target.com
 ||ats.alot.com^
 ||att.com/scripts/adobe/prod/marketing.min.js
 ||audacy.com/data-events/
@@ -320657,6 +320672,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
@@ -321443,6 +321459,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pac.thetimes.com^
 ||papi.stylar.ai^
 ||pardot.com/pd.js
+||partsgeek.com/sspgt/
 ||pay4fans.com/api/analytics
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
@@ -349898,7 +349915,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||0g7o3.redm0on.ru^
 ||0gays.siickhorn.ru^
 ||0gs.mossgate.ru^
-||0i.frostwilder.ru^
 ||0icby.gr-1-tbinder.ru^
 ||0iz7q.mashrift.ru^
 ||0k.softc0re.ru^
@@ -349927,7 +349943,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||1.15.246.91^
 ||1.170.166.44^
 ||1.181.224.146^
-||1.181.224.195^
 ||1.181.224.211^
 ||1.181.224.7^
 ||1.181.225.139^
@@ -349938,6 +349953,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||1.196.90.69^
 ||1.198.31.227^
 ||1.2.185.44^
+||1.2.218.40^
 ||1.222.192.112^
 ||1.234.82.104^
 ||1.244.47.211^
@@ -349949,7 +349965,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||1.53.249.124^
 ||1.53.249.172^
 ||1.54.109.183^
-||1.54.226.228^
 ||1.55.3.209^
 ||1.55.3.72^
 ||1.55.79.237^
@@ -349968,6 +349983,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||101.126.75.125^
 ||101.127.143.2^
 ||101.127.184.185^
+||101.128.66.193^
 ||101.168.32.118^
 ||101.168.40.172^
 ||101.168.47.205^
@@ -350020,13 +350036,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.130.219.150^
 ||103.133.177.250^
 ||103.143.167.155^
+||103.144.210.195^
 ||103.145.168.74^
 ||103.145.191.146^
 ||103.145.31.238^
 ||103.146.122.62^
 ||103.146.202.41^
 ||103.146.23.141^
-||103.146.23.148^
 ||103.146.23.241^
 ||103.146.230.31^
 ||103.146.230.32^
@@ -350047,6 +350063,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.158.175.183^
 ||103.159.152.118^
 ||103.159.221.33^
+||103.159.72.227^
 ||103.16.75.50^
 ||103.160.130.8^
 ||103.163.118.111^
@@ -350082,7 +350099,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.205.253.253^
 ||103.206.139.61^
 ||103.208.104.102^
-||103.208.181.67^
 ||103.208.202.85^
 ||103.209.184.118^
 ||103.209.184.121^
@@ -350091,11 +350107,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.212.53.219^
 ||103.216.179.178^
 ||103.217.215.238^
+||103.217.84.226^
 ||103.220.214.246^
 ||103.220.28.184^
 ||103.226.249.227^
 ||103.226.72.176^
-||103.227.118.45^
 ||103.23.149.233^
 ||103.231.12.171^
 ||103.231.12.172^
@@ -350108,6 +350124,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.231.15.65^
 ||103.232.121.115^
 ||103.232.121.145^
+||103.236.133.81^
 ||103.236.93.228^
 ||103.240.211.121^
 ||103.241.42.40^
@@ -350119,9 +350136,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.246.245.194^
 ||103.247.13.147^
 ||103.247.164.242^
+||103.247.218.186^
+||103.252.116.60.sslip.io^
+||103.252.116.60^
 ||103.252.89.75^
 ||103.252.94.132^
-||103.253.180.15^
 ||103.254.110.182^
 ||103.26.141.6^
 ||103.26.82.163^
@@ -350214,6 +350233,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.8.164.18^
 ||103.82.37.232^
 ||103.83.86.109^
+||103.84.39.181^
 ||103.85.20.184^
 ||103.85.20.252^
 ||103.85.20.29^
@@ -350226,6 +350246,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||103.90.207.234^
 ||103.90.38.99^
 ||103.93.177.130^
+||103.93.200.20^
 ||103.93.54.226^
 ||103.93.93.211^
 ||103.96.73.64^
@@ -350286,7 +350307,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||106.52.208.143^
 ||106.54.170.108^
 ||106.54.220.107^
-||106.54.244.136^
 ||106.55.134.240^
 ||106.55.154.4^
 ||106.55.60.141^
@@ -350295,6 +350315,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||106.57.1.25^
 ||106.57.1.63^
 ||106.58.23.242^
+||106.59.0.186^
 ||106.59.100.71^
 ||106.75.162.108^
 ||106.75.215.96^
@@ -350343,7 +350364,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||109.107.168.164^
 ||109.107.168.85^
 ||109.107.181.28^
-||109.108.49.60^
 ||109.108.84.121^
 ||109.111.136.162^
 ||109.111.157.61^
@@ -350351,7 +350371,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||109.111.55.221^
 ||109.111.55.252^
 ||109.115.242.166^
-||109.121.142.86^
 ||109.123.232.177^
 ||109.160.87.2^
 ||109.171.30.19^
@@ -350385,7 +350404,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.136.49.94^
 ||110.138.113.246^
 ||110.182.236.7^
-||110.227.197.204^
 ||110.232.78.200^
 ||110.24.36.76^
 ||110.243.18.221^
@@ -350441,7 +350459,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.36.70.241^
 ||110.36.71.70^
 ||110.36.71.80^
+||110.36.77.15^
 ||110.36.77.16^
+||110.36.77.17^
 ||110.36.77.35^
 ||110.36.80.163^
 ||110.36.80.164^
@@ -350571,6 +350591,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.37.15.21^
 ||110.37.17.122^
 ||110.37.17.155^
+||110.37.17.198^
 ||110.37.17.5^
 ||110.37.18.113^
 ||110.37.18.179^
@@ -350665,6 +350686,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.37.39.234^
 ||110.37.39.88^
 ||110.37.4.189^
+||110.37.40.14^
 ||110.37.40.215^
 ||110.37.41.165^
 ||110.37.41.233^
@@ -350732,7 +350754,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.37.59.251^
 ||110.37.6.176^
 ||110.37.6.213^
-||110.37.6.58^
 ||110.37.60.109^
 ||110.37.60.233^
 ||110.37.60.79^
@@ -350897,9 +350918,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.39.226.134^
 ||110.39.226.207^
 ||110.39.226.242^
-||110.39.226.65^
 ||110.39.227.164^
-||110.39.227.195^
 ||110.39.227.19^
 ||110.39.227.1^
 ||110.39.227.231^
@@ -350909,7 +350928,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.39.227.6^
 ||110.39.227.7^
 ||110.39.227.80^
-||110.39.227.9^
 ||110.39.228.100^
 ||110.39.228.113^
 ||110.39.228.163^
@@ -350918,6 +350936,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.39.229.159^
 ||110.39.229.188^
 ||110.39.230.171^
+||110.39.230.2^
 ||110.39.230.3^
 ||110.39.231.106^
 ||110.39.231.161^
@@ -350929,6 +350948,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.39.232.190^
 ||110.39.232.208^
 ||110.39.232.231^
+||110.39.233.197^
 ||110.39.233.226^
 ||110.39.233.246^
 ||110.39.233.38^
@@ -351022,7 +351042,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||110.78.143.207^
 ||110.81.113.223^
 ||110.81.113.254^
-||110.81.115.165^
 ||110.85.88.21^
 ||110.85.99.171^
 ||110.93.196.173^
@@ -351053,7 +351072,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||111.92.243.97^
 ||111101111.ru^
 ||112.113.109.60^
-||112.113.133.134^
 ||112.124.33.87^
 ||112.124.36.95^
 ||112.124.61.189^
@@ -351063,6 +351081,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||112.148.106.118^
 ||112.157.174.69^
 ||112.163.117.220^
+||112.166.251.156^
 ||112.168.60.136^
 ||112.18.10.80^
 ||112.185.135.210^
@@ -351093,6 +351112,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||112.225.204.66^
 ||112.225.236.255^
 ||112.225.48.155^
+||112.225.50.134^
 ||112.225.81.88^
 ||112.226.135.151^
 ||112.226.200.169^
@@ -351148,7 +351168,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||112.239.120.94^
 ||112.239.122.43^
 ||112.239.122.92^
-||112.239.123.113^
 ||112.239.123.148^
 ||112.239.123.151^
 ||112.239.123.175^
@@ -351274,11 +351293,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||112.248.154.241^
 ||112.248.155.168^
 ||112.248.160.112^
+||112.248.160.224^
 ||112.248.161.111^
 ||112.248.162.103^
 ||112.248.162.18^
 ||112.248.166.155^
-||112.248.184.11^
 ||112.248.184.135^
 ||112.248.184.25^
 ||112.248.185.236^
@@ -351297,7 +351316,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||112.248.191.15^
 ||112.248.191.29^
 ||112.248.191.32^
-||112.248.231.139^
 ||112.248.24.15^
 ||112.248.244.20^
 ||112.248.244.218^
@@ -351405,7 +351423,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||113.206.99.134^
 ||113.21.120.35^
 ||113.218.212.151^
-||113.218.212.221^
 ||113.218.212.228^
 ||113.218.212.85^
 ||113.218.213.128^
@@ -351506,7 +351523,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||113.229.188.57^
 ||113.229.190.125^
 ||113.229.190.172^
-||113.229.190.32^
 ||113.229.191.153^
 ||113.229.191.97^
 ||113.229.227.222^
@@ -351673,6 +351689,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||113.238.225.26^
 ||113.238.232.176^
 ||113.238.248.186^
+||113.238.29.205^
 ||113.238.29.213^
 ||113.238.68.162^
 ||113.238.71.125^
@@ -351716,10 +351733,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||113.248.191.79^
 ||113.249.10.196^
 ||113.249.12.115^
-||113.249.12.81^
-||113.249.16.172^
 ||113.249.18.56^
-||113.249.2.83^
 ||113.25.104.111^
 ||113.25.105.38^
 ||113.25.105.80^
@@ -351745,6 +351759,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||114.159.214.246^
 ||114.215.193.12^
 ||114.216.225.235^
+||114.217.63.147^
 ||114.223.127.201^
 ||114.225.170.112^
 ||114.226.124.243^
@@ -351785,15 +351800,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||114.66.51.223^
 ||114.66.52.198^
 ||114.67.181.194^
-||114.7.160.114^
 ||114.7.20.38^
-||114.7.209.193^
 ||115.120.198.246^
 ||115.127.68.162^
 ||115.127.75.219^
 ||115.131.219.91^
 ||115.159.149.113^
-||115.160.65.124^
 ||115.178.100.190^
 ||115.178.97.182^
 ||115.190.149.214^
@@ -351820,7 +351832,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.245.112.26^
 ||115.29.202.62^
 ||115.46.152.101^
-||115.46.195.199^
 ||115.48.10.87^
 ||115.48.131.196^
 ||115.48.132.198^
@@ -351833,7 +351844,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.48.143.58^
 ||115.48.144.205^
 ||115.48.144.208^
-||115.48.144.41^
 ||115.48.144.68^
 ||115.48.145.108^
 ||115.48.145.120^
@@ -351911,7 +351921,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.48.160.255^
 ||115.48.160.38^
 ||115.48.160.49^
-||115.48.160.51^
 ||115.48.160.65^
 ||115.48.161.110^
 ||115.48.161.180^
@@ -352009,7 +352018,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.49.211.145^
 ||115.49.211.171^
 ||115.49.211.249^
-||115.49.211.34^
 ||115.49.218.247^
 ||115.49.22.44^
 ||115.49.224.147^
@@ -352038,7 +352046,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.49.240.152^
 ||115.49.240.71^
 ||115.49.243.213^
-||115.49.248.152^
 ||115.49.248.245^
 ||115.49.25.115^
 ||115.49.25.145^
@@ -352118,6 +352125,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.49.77.69^
 ||115.49.78.184^
 ||115.49.78.27^
+||115.49.78.80^
 ||115.49.79.121^
 ||115.49.79.182^
 ||115.49.79.250^
@@ -352134,7 +352142,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.50.100.15^
 ||115.50.101.243^
 ||115.50.103.23^
-||115.50.103.242^
 ||115.50.103.98^
 ||115.50.105.213^
 ||115.50.105.222^
@@ -352211,6 +352218,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.50.230.193^
 ||115.50.230.64^
 ||115.50.231.154^
+||115.50.231.21^
 ||115.50.231.244^
 ||115.50.237.38^
 ||115.50.238.176^
@@ -352249,7 +352257,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.50.40.249^
 ||115.50.41.191^
 ||115.50.41.60^
-||115.50.43.160^
 ||115.50.43.170^
 ||115.50.43.43^
 ||115.50.45.31^
@@ -352337,7 +352344,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.51.5.227^
 ||115.51.57.201^
 ||115.51.59.112^
-||115.51.59.50^
 ||115.51.60.136^
 ||115.51.60.29^
 ||115.51.61.39^
@@ -352347,7 +352353,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.51.89.17^
 ||115.51.90.130^
 ||115.51.93.56^
-||115.51.94.210^
 ||115.51.95.129^
 ||115.51.96.192^
 ||115.51.97.125^
@@ -352518,7 +352523,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.10.207^
 ||115.55.10.92^
 ||115.55.11.137^
-||115.55.11.145^
 ||115.55.112.217^
 ||115.55.113.76^
 ||115.55.115.120^
@@ -352579,7 +352583,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.198.174^
 ||115.55.198.21^
 ||115.55.199.174^
-||115.55.199.204^
 ||115.55.199.207^
 ||115.55.20.173^
 ||115.55.20.34^
@@ -352596,7 +352599,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.207.136^
 ||115.55.207.224^
 ||115.55.207.225^
-||115.55.207.246^
 ||115.55.21.89^
 ||115.55.217.230^
 ||115.55.217.75^
@@ -352634,7 +352636,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.228.172^
 ||115.55.228.183^
 ||115.55.228.201^
-||115.55.228.202^
 ||115.55.229.0^
 ||115.55.229.252^
 ||115.55.23.250^
@@ -352651,7 +352652,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.235.12^
 ||115.55.235.133^
 ||115.55.235.183^
-||115.55.235.4^
 ||115.55.236.105^
 ||115.55.236.146^
 ||115.55.236.188^
@@ -352693,7 +352693,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.251.6^
 ||115.55.251.8^
 ||115.55.251.95^
-||115.55.252.4^
 ||115.55.252.67^
 ||115.55.253.82^
 ||115.55.254.222^
@@ -352708,6 +352707,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.28.215^
 ||115.55.30.231^
 ||115.55.33.117^
+||115.55.33.176^
 ||115.55.34.108^
 ||115.55.35.103^
 ||115.55.35.217^
@@ -352803,7 +352803,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.63.63^
 ||115.55.63.73^
 ||115.55.63.7^
-||115.55.8.200^
 ||115.55.8.203^
 ||115.55.8.235^
 ||115.55.80.238^
@@ -352811,7 +352810,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.55.81.247^
 ||115.55.82.182^
 ||115.55.83.55^
-||115.55.84.12^
 ||115.55.84.214^
 ||115.55.84.233^
 ||115.55.84.7^
@@ -352882,6 +352880,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.56.158.63^
 ||115.56.158.76^
 ||115.56.158.9^
+||115.56.159.25^
 ||115.56.159.90^
 ||115.56.160.225^
 ||115.56.160.89^
@@ -352961,8 +352960,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.57.192.139^
 ||115.57.192.162^
 ||115.57.192.23^
-||115.57.192.93^
-||115.57.193.176^
 ||115.57.193.64^
 ||115.57.194.168^
 ||115.57.194.186^
@@ -353039,6 +353036,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.57.90.131^
 ||115.58.12.108^
 ||115.58.120.15^
+||115.58.124.176^
 ||115.58.127.198^
 ||115.58.128.162^
 ||115.58.128.183^
@@ -353085,6 +353083,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.58.171.185^
 ||115.58.171.66^
 ||115.58.173.188^
+||115.58.174.123^
 ||115.58.174.99^
 ||115.58.34.112^
 ||115.58.37.63^
@@ -353100,7 +353099,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.58.85.15^
 ||115.58.85.89^
 ||115.58.85.91^
-||115.58.86.115^
 ||115.58.86.176^
 ||115.58.86.207^
 ||115.58.86.216^
@@ -353129,6 +353127,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.59.120.190^
 ||115.59.121.138^
 ||115.59.13.251^
+||115.59.14.156^
 ||115.59.15.74^
 ||115.59.15.87^
 ||115.59.16.187^
@@ -353136,6 +353135,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.59.162.159^
 ||115.59.21.152^
 ||115.59.228.151^
+||115.59.229.213^
 ||115.59.231.107^
 ||115.59.234.140^
 ||115.59.234.84^
@@ -353147,6 +353147,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.59.26.64^
 ||115.59.27.109^
 ||115.59.28.47^
+||115.59.29.112^
 ||115.59.29.179^
 ||115.59.3.72^
 ||115.59.31.70^
@@ -353218,13 +353219,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.61.117.96^
 ||115.61.118.119^
 ||115.61.118.159^
-||115.61.118.193^
 ||115.61.118.1^
 ||115.61.119.128^
 ||115.61.119.12^
 ||115.61.119.135^
 ||115.61.119.196^
-||115.61.119.209^
 ||115.61.119.94^
 ||115.61.12.224^
 ||115.61.12.5^
@@ -353243,9 +353242,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.61.2.105^
 ||115.61.2.35^
 ||115.61.236.173^
-||115.61.239.63^
 ||115.61.242.69^
-||115.61.3.153^
 ||115.61.32.166^
 ||115.61.4.43^
 ||115.61.43.245^
@@ -353284,9 +353281,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.62.153.20^
 ||115.62.154.250^
 ||115.62.157.225^
+||115.62.168.43^
 ||115.62.169.153^
 ||115.62.171.240^
-||115.62.180.61^
 ||115.62.180.72^
 ||115.62.182.24^
 ||115.62.183.27^
@@ -353333,6 +353330,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.63.14.109^
 ||115.63.14.227^
 ||115.63.14.38^
+||115.63.144.13^
 ||115.63.145.177^
 ||115.63.145.31^
 ||115.63.146.53^
@@ -353445,6 +353443,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||115.72.198.127^
 ||115.78.234.227^
 ||115.96.25.65^
+||1158.94.210.68^
 ||116.103.160.249^
 ||116.103.165.187^
 ||116.103.167.211^
@@ -353453,7 +353452,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||116.103.174.53^
 ||116.105.132.176^
 ||116.105.136.241^
-||116.105.137.252^
 ||116.108.125.87^
 ||116.109.171.2^
 ||116.109.174.102^
@@ -353485,14 +353483,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||116.138.13.56^
 ||116.138.134.25^
 ||116.138.14.14^
-||116.138.165.244^
 ||116.138.174.117^
 ||116.138.177.158^
 ||116.138.177.26^
 ||116.138.186.138^
 ||116.138.186.176^
 ||116.138.188.57^
-||116.138.188.79^
 ||116.138.189.9^
 ||116.138.190.123^
 ||116.138.190.126^
@@ -353541,7 +353537,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||116.139.202.229^
 ||116.139.202.7^
 ||116.139.213.67^
-||116.139.236.236^
 ||116.139.241.207^
 ||116.139.29.142^
 ||116.139.32.107^
@@ -353550,7 +353545,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||116.139.40.40^
 ||116.139.42.146^
 ||116.139.42.16^
-||116.139.43.110^
 ||116.139.55.203^
 ||116.139.80.93^
 ||116.140.128.200^
@@ -353583,7 +353577,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||116.24.190.130^
 ||116.44.185.140^
 ||116.48.27.129^
-||116.48.27.143^
 ||116.48.27.144^
 ||116.48.27.182^
 ||116.48.27.216^
@@ -353663,6 +353656,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.198.12.130^
 ||117.198.12.197^
 ||117.198.14.192^
+||117.198.14.255^
 ||117.198.14.40^
 ||117.198.14.8^
 ||117.198.15.240^
@@ -353693,6 +353687,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.199.73.108^
 ||117.199.73.20^
 ||117.199.77.240^
+||117.20.16.241^
 ||117.20.16.99^
 ||117.20.17.17^
 ||117.20.27.25^
@@ -353718,7 +353713,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.201.179.156^
 ||117.201.188.72^
 ||117.202.0.15^
-||117.203.154.24^
 ||117.203.156.251^
 ||117.203.54.198^
 ||117.203.55.1^
@@ -353726,6 +353720,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.204.164.144^
 ||117.204.164.150^
 ||117.204.164.208^
+||117.204.164.227^
 ||117.204.164.249^
 ||117.204.164.45^
 ||117.204.164.95^
@@ -353734,7 +353729,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.204.165.238^
 ||117.204.166.138^
 ||117.204.166.147^
-||117.204.166.206^
 ||117.204.166.58^
 ||117.204.167.149^
 ||117.204.167.229^
@@ -353839,6 +353833,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.209.0.157^
 ||117.209.1.248^
 ||117.209.1.92^
+||117.209.10.196^
 ||117.209.10.233^
 ||117.209.10.32^
 ||117.209.10.48^
@@ -354021,7 +354016,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.209.26.72^
 ||117.209.26.86^
 ||117.209.27.136^
-||117.209.27.156^
 ||117.209.27.158^
 ||117.209.27.187^
 ||117.209.27.199^
@@ -354036,6 +354030,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.209.27.96^
 ||117.209.28.143^
 ||117.209.28.150^
+||117.209.28.169^
 ||117.209.28.187^
 ||117.209.28.28^
 ||117.209.28.37^
@@ -354199,8 +354194,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.209.87.107^
 ||117.209.87.110^
 ||117.209.87.133^
-||117.209.87.135^
-||117.209.87.13^
 ||117.209.87.151^
 ||117.209.87.163^
 ||117.209.87.181^
@@ -354248,6 +354241,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.209.9.20^
 ||117.209.9.74^
 ||117.209.90.0^
+||117.209.90.100^
 ||117.209.90.101^
 ||117.209.90.10^
 ||117.209.90.126^
@@ -354446,6 +354440,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.215.55.125^
 ||117.215.55.149^
 ||117.215.55.236^
+||117.215.56.209^
 ||117.215.56.242^
 ||117.215.56.40^
 ||117.215.57.113^
@@ -354476,7 +354471,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.216.24.32^
 ||117.216.28.167^
 ||117.216.29.33^
-||117.216.30.205^
 ||117.216.30.26^
 ||117.216.31.212^
 ||117.216.46.161^
@@ -354640,10 +354634,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.242.207.178^
 ||117.242.225.62^
 ||117.242.229.116^
-||117.242.230.251^
 ||117.242.231.87^
 ||117.242.232.153^
-||117.242.232.209^
 ||117.242.235.254^
 ||117.242.236.138^
 ||117.242.239.183^
@@ -354684,6 +354676,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||117.247.151.64^
 ||117.247.153.79^
 ||117.247.189.148^
+||117.247.191.106^
 ||117.247.213.187^
 ||117.247.214.29^
 ||117.247.215.18^
@@ -354829,11 +354822,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||118.34.109.121^
 ||118.42.229.80^
 ||118.43.201.85^
-||118.44.144.198^
 ||118.46.63.2^
 ||118.68.254.207^
 ||118.68.49.159^
 ||118.69.157.212^
+||118.70.214.169^
 ||118.71.108.201^
 ||118.71.110.163^
 ||118.71.150.170^
@@ -354904,6 +354897,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||119.115.78.38^
 ||119.115.82.203^
 ||119.115.90.134^
+||119.115.99.238^
 ||119.116.131.231^
 ||119.116.134.111^
 ||119.116.134.176^
@@ -354928,7 +354922,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||119.116.33.125^
 ||119.116.34.116^
 ||119.116.34.220^
-||119.116.34.34^
 ||119.116.35.61^
 ||119.116.35.64^
 ||119.116.36.124^
@@ -355030,6 +355023,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||119.179.238.197^
 ||119.179.238.70^
 ||119.179.239.109^
+||119.179.239.69^
 ||119.179.240.160^
 ||119.179.248.150^
 ||119.179.248.28^
@@ -355054,7 +355048,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||119.179.253.245^
 ||119.179.253.90^
 ||119.179.254.19^
+||119.179.254.51^
 ||119.179.254.98^
+||119.179.255.155^
 ||119.179.255.68^
 ||119.179.255.96^
 ||119.179.85.231^
@@ -355065,7 +355061,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||119.180.12.237^
 ||119.180.15.180^
 ||119.180.42.225^
-||119.180.55.79^
 ||119.180.77.140^
 ||119.180.9.52^
 ||119.182.166.123^
@@ -355081,10 +355076,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||119.184.29.143^
 ||119.184.31.163^
 ||119.184.31.172^
+||119.184.31.239^
 ||119.184.48.116^
 ||119.184.6.174^
 ||119.184.61.133^
-||119.184.63.97^
 ||119.185.131.145^
 ||119.185.162.76^
 ||119.185.168.247^
@@ -355144,6 +355139,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||119.189.213.36^
 ||119.189.214.46^
 ||119.189.215.19^
+||119.189.215.239^
 ||119.189.215.253^
 ||119.189.216.63^
 ||119.189.217.154^
@@ -355185,6 +355181,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||120.157.138.179^
 ||120.157.138.41^
 ||120.157.143.85^
+||120.157.145.42^
 ||120.157.15.202^
 ||120.157.151.62^
 ||120.157.159.22^
@@ -355314,7 +355311,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||120.48.25.153^
 ||120.48.43.140^
 ||120.50.10.30^
-||120.50.27.182^
 ||120.55.75.154^
 ||120.56.10.177^
 ||120.56.5.121^
@@ -355336,6 +355332,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||120.61.16.125^
 ||120.61.170.184^
 ||120.61.18.182^
+||120.61.18.90^
 ||120.61.192.43^
 ||120.61.202.165^
 ||120.61.202.236^
@@ -355356,7 +355353,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||120.61.92.149^
 ||120.61.93.99^
 ||120.7.95.185^
-||120.76.158.8^
 ||120.78.230.178^
 ||120.79.192.88^
 ||120.79.255.238^
@@ -355378,7 +355374,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||120.84.214.114^
 ||120.84.214.39^
 ||120.84.214.95^
-||120.84.215.131^
 ||120.84.215.152^
 ||120.84.215.161^
 ||120.84.215.227^
@@ -355397,10 +355392,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||121.147.82.32^
 ||121.149.99.231^
 ||121.152.192.85^
-||121.158.4.119^
+||121.154.116.86^
 ||121.161.50.226^
 ||121.163.139.4^
 ||121.166.27.211^
+||121.167.209.164^
 ||121.169.225.252^
 ||121.173.138.102^
 ||121.181.169.61^
@@ -355416,10 +355412,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||121.202.208.237^
 ||121.202.209.191^
 ||121.202.209.31^
-||121.202.209.46^
+||121.202.211.217^
 ||121.205.208.140^
 ||121.205.208.95^
-||121.207.44.122^
 ||121.207.55.79^
 ||121.225.51.68^
 ||121.226.229.227^
@@ -355470,6 +355465,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||122.234.107.107^
 ||122.237.106.194^
 ||122.51.93.94^
+||122.55.206.38^
 ||123.10.0.189^
 ||123.10.0.26^
 ||123.10.11.136^
@@ -355574,7 +355570,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.11.242.199^
 ||123.11.243.151^
 ||123.11.243.1^
-||123.11.243.240^
 ||123.11.255.243^
 ||123.11.255.35^
 ||123.11.4.235^
@@ -355586,7 +355581,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.11.54.114^
 ||123.11.6.171^
 ||123.11.66.43^
-||123.11.7.70^
 ||123.11.70.147^
 ||123.11.71.88^
 ||123.11.71.97^
@@ -355610,6 +355604,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.11.76.135^
 ||123.11.77.10^
 ||123.11.77.141^
+||123.11.77.250^
 ||123.11.77.43^
 ||123.11.79.173^
 ||123.11.79.60^
@@ -355630,7 +355625,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.12.155.211^
 ||123.12.155.98^
 ||123.12.158.180^
-||123.12.171.112^
 ||123.12.175.195^
 ||123.12.175.41^
 ||123.12.177.162^
@@ -355692,6 +355686,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.12.230.224^
 ||123.12.230.238^
 ||123.12.230.94^
+||123.12.231.138^
 ||123.12.231.220^
 ||123.12.231.22^
 ||123.12.231.73^
@@ -355752,6 +355747,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.129.130.18^
 ||123.129.130.7^
 ||123.129.131.112^
+||123.129.131.232^
 ||123.129.131.32^
 ||123.129.131.44^
 ||123.129.131.46^
@@ -355769,7 +355765,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.129.135.45^
 ||123.129.155.25^
 ||123.129.155.81^
-||123.129.49.80^
 ||123.129.57.156^
 ||123.129.58.193^
 ||123.129.58.39^
@@ -355799,6 +355794,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.13.166.31^
 ||123.13.182.140^
 ||123.13.2.37^
+||123.13.24.80^
 ||123.13.28.199^
 ||123.13.3.12^
 ||123.13.30.128^
@@ -355880,11 +355876,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.14.182.85^
 ||123.14.183.149^
 ||123.14.183.164^
-||123.14.183.175^
 ||123.14.183.247^
 ||123.14.183.65^
 ||123.14.184.110^
 ||123.14.184.124^
+||123.14.184.128^
 ||123.14.184.86^
 ||123.14.185.42^
 ||123.14.187.94^
@@ -355915,11 +355911,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.14.250.178^
 ||123.14.250.229^
 ||123.14.251.116^
+||123.14.251.136^
 ||123.14.251.222^
 ||123.14.252.178^
 ||123.14.252.195^
 ||123.14.253.0^
-||123.14.253.97^
 ||123.14.254.99^
 ||123.14.255.100^
 ||123.14.27.31^
@@ -355972,7 +355968,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.14.99.192^
 ||123.14.99.243^
 ||123.143.141.75^
-||123.148.195.28^
 ||123.148.202.145^
 ||123.156.251.84^
 ||123.16.137.81^
@@ -356072,6 +356067,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.189.20.235^
 ||123.189.203.140^
 ||123.189.21.205^
+||123.189.21.224^
 ||123.189.90.220^
 ||123.19.118.217^
 ||123.19.244.39^
@@ -356098,7 +356094,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.190.16.17^
 ||123.190.16.63^
 ||123.190.17.96^
-||123.190.18.231^
 ||123.190.18.77^
 ||123.190.19.0^
 ||123.190.19.204^
@@ -356131,8 +356126,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.190.88.101^
 ||123.190.90.117^
 ||123.190.94.216^
-||123.190.95.171^
 ||123.190.98.252^
+||123.200.12.186^
 ||123.200.25.54^
 ||123.205.127.222^
 ||123.207.20.187^
@@ -356261,26 +356256,32 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.4.45.90^
 ||123.4.46.114^
 ||123.4.46.20^
+||123.4.46.23^
 ||123.4.47.109^
 ||123.4.48.140^
 ||123.4.48.9^
 ||123.5.1.120^
 ||123.5.115.161^
 ||123.5.118.54^
+||123.5.118.90^
 ||123.5.119.64^
 ||123.5.124.162^
 ||123.5.124.185^
 ||123.5.124.238^
 ||123.5.125.128^
+||123.5.125.131^
 ||123.5.125.132^
 ||123.5.125.149^
 ||123.5.125.165^
+||123.5.125.202^
+||123.5.125.30^
 ||123.5.125.39^
 ||123.5.126.142^
 ||123.5.126.152^
 ||123.5.126.203^
 ||123.5.126.65^
 ||123.5.127.159^
+||123.5.127.203^
 ||123.5.128.163^
 ||123.5.129.134^
 ||123.5.13.145^
@@ -356322,8 +356323,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.5.153.105^
 ||123.5.153.35^
 ||123.5.154.46^
-||123.5.155.127^
 ||123.5.155.171^
+||123.5.155.184^
 ||123.5.155.65^
 ||123.5.155.73^
 ||123.5.156.102^
@@ -356409,6 +356410,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.5.252.120^
 ||123.5.31.56^
 ||123.5.8.193^
+||123.53.111.37^
 ||123.53.36.199^
 ||123.53.39.124^
 ||123.56.226.71^
@@ -356472,7 +356474,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.8.161.156^
 ||123.8.162.170^
 ||123.8.163.29^
-||123.8.172.79^
 ||123.8.175.179^
 ||123.8.176.227^
 ||123.8.176.76^
@@ -356497,7 +356498,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.8.189.118^
 ||123.8.19.9^
 ||123.8.2.201^
-||123.8.21.232^
 ||123.8.25.87^
 ||123.8.26.120^
 ||123.8.27.30^
@@ -356560,7 +356560,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.9.197.177^
 ||123.9.197.236^
 ||123.9.199.150^
-||123.9.199.154^
 ||123.9.199.20^
 ||123.9.204.188^
 ||123.9.216.36^
@@ -356608,7 +356607,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||123.9.95.95^
 ||123.99.197.19^
 ||123.99.198.195^
-||123.ywxww.net^
 ||123123-b5b.pages.dev^
 ||124.11.64.42^
 ||124.123.123.15^
@@ -356673,7 +356671,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||124.223.191.245^
 ||124.223.73.186^
 ||124.229.34.59^
-||124.230.164.87^
 ||124.230.216.19^
 ||124.234.128.173^
 ||124.234.199.209^
@@ -356933,7 +356930,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||125.41.224.213^
 ||125.41.224.46^
 ||125.41.224.98^
-||125.41.225.196^
+||125.41.225.143^
 ||125.41.225.200^
 ||125.41.225.210^
 ||125.41.225.246^
@@ -357083,7 +357080,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||125.43.32.98^
 ||125.43.33.176^
 ||125.43.33.215^
-||125.43.33.71^
 ||125.43.35.89^
 ||125.43.37.157^
 ||125.43.37.4^
@@ -357221,7 +357217,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||125.44.51.162^
 ||125.44.52.183^
 ||125.44.52.228^
-||125.44.52.8^
 ||125.44.54.174^
 ||125.44.54.79^
 ||125.44.55.183^
@@ -357243,6 +357238,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||125.45.11.2^
 ||125.45.146.93^
 ||125.45.156.71^
+||125.45.17.92^
 ||125.45.18.149^
 ||125.45.19.233^
 ||125.45.26.95^
@@ -357307,7 +357303,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||125.45.9.125^
 ||125.45.96.89^
 ||125.45.99.104^
-||125.46.129.17^
 ||125.46.132.158^
 ||125.46.135.37^
 ||125.46.147.143^
@@ -357376,13 +357371,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||125.47.255.169^
 ||125.47.33.224^
 ||125.47.35.150^
-||125.47.35.93^
 ||125.47.48.245^
+||125.47.49.34^
 ||125.47.50.110^
 ||125.47.56.112^
 ||125.47.56.167^
 ||125.47.56.72^
-||125.47.57.255^
 ||125.47.59.215^
 ||125.47.59.236^
 ||125.47.60.167^
@@ -357423,13 +357417,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||125.47.91.234^
 ||125.47.92.9^
 ||125.47.93.43^
-||125.65.145.24^
 ||125.79.72.137^
 ||125.79.72.206^
 ||125.80.154.184^
 ||125.80.194.76^
 ||125.80.194.99^
-||125.80.195.109^
 ||125.80.198.34^
 ||125.80.208.206^
 ||125.80.212.109^
@@ -357520,9 +357512,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||134.209.209.26^
 ||134.209.96.175^
 ||134.236.150.254^
-||134.249.141.119^
 ||135.225.120.199^
 ||135y.clearb1te.ru^
+||136.113.36.100^
 ||136.228.163.150^
 ||137.175.16.1^
 ||137.220.194.49^
@@ -357591,11 +357583,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||14.107.43.163^
 ||14.107.43.186^
 ||14.107.43.239^
-||14.107.43.28^
 ||14.107.43.43^
 ||14.157.140.237^
 ||14.161.6.225^
-||14.162.157.83^
 ||14.165.168.179^
 ||14.165.46.131^
 ||14.167.190.134^
@@ -357690,6 +357680,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||141.149.36.27^
 ||141.155.36.213^
 ||141.196.141.186^
+||141.237.242.31^
 ||141.98.10.11^
 ||141.98.10.61^
 ||141.98.10.64^
@@ -357722,6 +357713,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||143.20.37.250^
 ||143.20.64.84^
 ||143.20.79.19^
+||143.255.240.195^
 ||143.92.43.153^
 ||143.92.43.231^
 ||143.92.43.246^
@@ -357777,6 +357769,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||146.190.4.241^
 ||146.196.120.21^
 ||146.247.226.29^
+||146.255.245.170^
 ||146.66.163.195^
 ||146.66.246.189^
 ||147.135.254.49^
@@ -357917,10 +357910,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||153.37.77.156^
 ||154.0.129.114^
 ||154.0.129.134^
+||154.117.211.78^
 ||154.12.31.76^
 ||154.12.36.140^
 ||154.12.87.44^
 ||154.12.90.150^
+||154.126.184.240^
 ||154.126.186.56^
 ||154.193.244.146^
 ||154.201.69.143^
@@ -357987,6 +357982,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||156.238.233.21^
 ||156.238.233.49^
 ||156.245.248.173^
+||156.246.93.156^
 ||157.10.63.251^
 ||157.15.112.45^
 ||157.15.98.82^
@@ -358023,12 +358019,14 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||158.94.210.179^
 ||158.94.210.187^
 ||158.94.210.189^
+||158.94.210.195^
 ||158.94.210.44^
 ||158.94.210.63^
 ||158.94.210.68^
 ||158.94.210.88^
 ||159.148.48.50^
 ||159.192.97.94^
+||159.196.71.244^
 ||159.203.9.141^
 ||159.223.105.127^
 ||159.223.160.166^
@@ -358048,6 +358046,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||160.202.15.212^
 ||160.25.8.42^
 ||160.250.132.50^
+||160.250.225.17^
 ||160.250.247.152^
 ||160.30.136.37^
 ||160.30.159.104^
@@ -358096,6 +358095,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||163.47.9.13^
 ||163.5.63.96^
 ||163.53.178.8^
+||164.126.129.225^
 ||164.126.150.95^
 ||164.160.41.10^
 ||164.68.97.90^
@@ -358114,6 +358114,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||165.22.255.233^
 ||165.22.48.119^
 ||165.227.188.95^
+||165.232.165.152^
 ||165.245.129.3^
 ||165.245.143.128^
 ||165.73.108.6^
@@ -358131,6 +358132,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||167.250.49.155^
 ||167.62.40.139^
 ||167.71.110.80^
+||167.71.115.223^
 ||167.71.78.186^
 ||167.86.88.2^
 ||167.88.164.167^
@@ -358180,6 +358182,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||171.22.16.193^
 ||171.224.108.25^
 ||171.226.213.234^
+||171.231.122.208^
 ||171.231.131.90^
 ||171.231.133.252^
 ||171.231.157.179^
@@ -358237,6 +358240,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||174.105.154.212^
 ||174.138.24.216^
 ||174.142.195.203^
+||174.162.140.179^
 ||174.163.48.188^
 ||174.34.242.140^
 ||174.54.15.59^
@@ -358292,7 +358296,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||175.147.152.208^
 ||175.147.152.85^
 ||175.147.153.210^
-||175.147.155.192^
 ||175.147.156.254^
 ||175.147.156.7^
 ||175.147.157.132^
@@ -358423,7 +358426,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||175.151.170.201^
 ||175.151.172.218^
 ||175.151.179.50^
-||175.151.186.250^
 ||175.151.190.44^
 ||175.151.211.60^
 ||175.151.224.253^
@@ -358433,10 +358435,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||175.151.67.94^
 ||175.151.74.250^
 ||175.155.144.17^
-||175.155.146.27^
 ||175.164.192.128^
 ||175.164.196.147^
-||175.164.198.25^
 ||175.164.206.90^
 ||175.165.108.217^
 ||175.165.109.171^
@@ -358614,7 +358614,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||175.173.87.160^
 ||175.173.87.71^
 ||175.174.100.223^
-||175.174.102.203^
 ||175.174.103.223^
 ||175.174.103.97^
 ||175.174.106.180^
@@ -358636,6 +358635,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||175.175.134.79^
 ||175.175.15.146^
 ||175.175.15.151^
+||175.175.15.47^
 ||175.175.15.88^
 ||175.175.17.222^
 ||175.175.2.109^
@@ -358692,12 +358692,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||176.101.15.5^
 ||176.106.241.72^
 ||176.106.27.249^
+||176.114.144.145^
 ||176.114.218.229^
 ||176.117.107.154^
 ||176.117.107.205^
 ||176.118.13.206^
 ||176.12.6.42^
-||176.120.203.230^
 ||176.123.1.63^
 ||176.193.191.71^
 ||176.195.184.161^
@@ -358724,8 +358724,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||176.239.245.185^
 ||176.241.64.23^
 ||176.35.55.164^
+||176.57.184.77^
 ||176.57.70.199^
 ||176.62.179.34^
+||176.65.13.192^
 ||176.65.132.100^
 ||176.65.132.121^
 ||176.65.132.133^
@@ -358798,6 +358800,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||177.139.76.89^
 ||177.154.84.204^
 ||177.154.84.222^
+||177.155.128.195^
 ||177.185.208.178^
 ||177.200.124.78^
 ||177.212.245.64^
@@ -358821,6 +358824,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||177.71.60.145^
 ||177.84.130.195^
 ||177.87.1.78^
+||177.87.37.31^
 ||177.92.240.168^
 ||177.95.203.38^
 ||177.99.64.156^
@@ -358829,13 +358833,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||178.130.46.39^
 ||178.130.46.41^
 ||178.131.113.174^
-||178.131.118.73^
 ||178.131.167.138^
 ||178.131.167.98^
-||178.131.175.199^
 ||178.131.185.193^
 ||178.131.45.13^
 ||178.131.56.21^
+||178.131.73.217^
 ||178.131.81.7^
 ||178.131.85.14^
 ||178.131.88.18^
@@ -358857,7 +358860,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||178.141.199.250^
 ||178.141.20.230^
 ||178.141.205.77^
-||178.141.206.119^
 ||178.141.22.123^
 ||178.141.221.107^
 ||178.141.65.140^
@@ -358902,9 +358904,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||178.176.204.240^
 ||178.176.204.250^
 ||178.183.125.31^
-||178.183.205.197^
 ||178.183.208.134^
-||178.183.70.63^
 ||178.188.30.171^
 ||178.19.163.212^
 ||178.19.47.234^
@@ -358942,7 +358942,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||178.50.139.253^
 ||178.50.166.116^
 ||178.50.186.30^
-||178.50.212.249^
 ||178.50.217.155^
 ||178.50.234.87^
 ||178.50.255.195^
@@ -358984,6 +358983,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||179.43.172.109^
 ||179.43.175.148^
 ||179.43.182.27^
+||179.43.186.214^
 ||179.43.189.17^
 ||179.51.168.26^
 ||179.52.1.42^
@@ -359020,7 +359020,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||180.116.223.42^
 ||180.148.33.24^
 ||180.149.198.22^
-||180.182.225.138^
 ||180.190.185.100^
 ||180.190.185.44^
 ||180.190.186.97^
@@ -359091,7 +359090,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||181.129.21.74^
 ||181.134.212.137^
 ||181.143.114.106^
+||181.143.173.195^
 ||181.143.20.60^
+||181.143.31.218^
 ||181.162.177.136^
 ||181.166.103.98^
 ||181.171.188.254^
@@ -359105,6 +359106,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||181.200.7.169^
 ||181.205.74.178^
 ||181.206.158.190^
+||181.211.15.11^
+||181.211.250.118^
 ||181.211.252.34^
 ||181.223.9.36^
 ||181.235.10.171^
@@ -359140,7 +359143,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.112.140.73^
 ||182.112.148.120^
 ||182.112.15.78^
-||182.112.152.189^
 ||182.112.177.156^
 ||182.112.184.150^
 ||182.112.184.167^
@@ -359172,7 +359174,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.112.239.253^
 ||182.112.241.252^
 ||182.112.28.112^
-||182.112.28.172^
 ||182.112.28.86^
 ||182.112.29.148^
 ||182.112.29.149^
@@ -359196,6 +359197,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.112.43.51^
 ||182.112.43.84^
 ||182.112.7.198^
+||182.112.7.84^
 ||182.112.73.183^
 ||182.112.77.169^
 ||182.112.79.209^
@@ -359225,11 +359227,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.113.194.135^
 ||182.113.194.138^
 ||182.113.194.184^
+||182.113.195.163^
 ||182.113.195.183^
 ||182.113.195.74^
 ||182.113.195.86^
 ||182.113.196.7^
-||182.113.197.183^
 ||182.113.197.21^
 ||182.113.198.154^
 ||182.113.198.36^
@@ -359264,7 +359266,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.113.209.158^
 ||182.113.210.219^
 ||182.113.210.96^
-||182.113.212.130^
 ||182.113.214.167^
 ||182.113.214.191^
 ||182.113.214.30^
@@ -359285,7 +359286,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.113.233.42^
 ||182.113.234.69^
 ||182.113.24.16^
-||182.113.25.122^
 ||182.113.26.130^
 ||182.113.26.139^
 ||182.113.26.182^
@@ -359335,10 +359335,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.113.7.132^
 ||182.113.7.15^
 ||182.113.8.145^
+||182.113.8.59^
 ||182.113.9.180^
 ||182.114.192.118^
 ||182.114.192.152^
+||182.114.192.157^
 ||182.114.192.163^
+||182.114.192.241^
 ||182.114.193.108^
 ||182.114.193.126^
 ||182.114.193.25^
@@ -359352,7 +359355,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.114.195.5^
 ||182.114.196.160^
 ||182.114.196.72^
-||182.114.197.135^
 ||182.114.197.14^
 ||182.114.197.178^
 ||182.114.198.110^
@@ -359363,7 +359365,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.114.202.173^
 ||182.114.202.214^
 ||182.114.212.143^
-||182.114.240.79^
 ||182.114.241.42^
 ||182.114.242.57^
 ||182.114.248.133^
@@ -359383,7 +359384,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.114.254.197^
 ||182.114.254.236^
 ||182.114.255.146^
-||182.114.255.36^
 ||182.114.255.4^
 ||182.114.255.61^
 ||182.114.32.195^
@@ -359403,6 +359403,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.114.48.57^
 ||182.114.48.69^
 ||182.114.49.142^
+||182.114.49.207^
 ||182.114.49.219^
 ||182.114.49.24^
 ||182.114.49.56^
@@ -359432,6 +359433,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.115.241.140^
 ||182.115.247.121^
 ||182.115.74.67^
+||182.116.10.20^
 ||182.116.116.112^
 ||182.116.116.136^
 ||182.116.116.154^
@@ -359521,6 +359523,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.116.39.68^
 ||182.116.39.99^
 ||182.116.48.133^
+||182.116.48.199^
 ||182.116.48.93^
 ||182.116.49.140^
 ||182.116.49.144^
@@ -359565,14 +359568,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.117.10.66^
 ||182.117.104.160^
 ||182.117.105.237^
-||182.117.11.241^
 ||182.117.110.236^
 ||182.117.111.36^
 ||182.117.113.209^
 ||182.117.113.249^
 ||182.117.116.55^
 ||182.117.117.135^
-||182.117.117.143^
 ||182.117.12.212^
 ||182.117.120.95^
 ||182.117.122.1^
@@ -359580,7 +359581,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.117.126.145^
 ||182.117.126.181^
 ||182.117.126.21^
-||182.117.126.42^
 ||182.117.127.252^
 ||182.117.128.78^
 ||182.117.129.49^
@@ -359641,7 +359641,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.117.43.206^
 ||182.117.48.169^
 ||182.117.48.182^
-||182.117.48.98^
 ||182.117.49.249^
 ||182.117.5.211^
 ||182.117.50.182^
@@ -359659,12 +359658,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.117.68.41^
 ||182.117.68.47^
 ||182.117.69.178^
+||182.117.69.182^
 ||182.117.69.18^
 ||182.117.69.231^
 ||182.117.69.234^
 ||182.117.69.236^
 ||182.117.69.250^
-||182.117.69.4^
 ||182.117.69.98^
 ||182.117.7.123^
 ||182.117.7.63^
@@ -359691,7 +359690,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.117.79.121^
 ||182.117.79.156^
 ||182.117.79.220^
-||182.117.79.243^
 ||182.117.8.66^
 ||182.117.83.83^
 ||182.117.84.219^
@@ -359716,7 +359714,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.119.10.7^
 ||182.119.10.95^
 ||182.119.107.137^
-||182.119.11.211^
 ||182.119.111.80^
 ||182.119.116.106^
 ||182.119.119.106^
@@ -359784,7 +359781,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.119.29.148^
 ||182.119.29.172^
 ||182.119.29.174^
-||182.119.29.222^
 ||182.119.29.224^
 ||182.119.3.116^
 ||182.119.3.46^
@@ -359902,7 +359898,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.121.14.101^
 ||182.121.14.142^
 ||182.121.143.32^
-||182.121.144.223^
 ||182.121.145.64^
 ||182.121.147.255^
 ||182.121.148.165^
@@ -359926,7 +359921,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.121.157.19^
 ||182.121.157.236^
 ||182.121.158.179^
-||182.121.158.82^
 ||182.121.159.173^
 ||182.121.159.31^
 ||182.121.159.97^
@@ -359949,7 +359943,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.121.175.29^
 ||182.121.176.5^
 ||182.121.178.12^
-||182.121.179.100^
+||182.121.178.91^
 ||182.121.18.20^
 ||182.121.180.230^
 ||182.121.181.143^
@@ -360000,7 +359994,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.121.241.99^
 ||182.121.242.177^
 ||182.121.245.103^
-||182.121.247.116^
 ||182.121.247.74^
 ||182.121.248.190^
 ||182.121.248.21^
@@ -360111,7 +360104,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.123.140.215^
 ||182.123.141.34^
 ||182.123.142.157^
-||182.123.143.66^
 ||182.123.158.227^
 ||182.123.163.89^
 ||182.123.164.63^
@@ -360125,6 +360117,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.123.192.70^
 ||182.123.192.93^
 ||182.123.193.139^
+||182.123.193.237^
 ||182.123.194.211^
 ||182.123.195.143^
 ||182.123.195.64^
@@ -360133,7 +360126,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.123.196.60^
 ||182.123.197.203^
 ||182.123.197.40^
-||182.123.198.48^
 ||182.123.199.140^
 ||182.123.208.114^
 ||182.123.208.190^
@@ -360161,7 +360153,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.123.233.77^
 ||182.123.234.115^
 ||182.123.239.105^
-||182.123.239.134^
 ||182.123.239.252^
 ||182.123.239.41^
 ||182.123.239.52^
@@ -360172,6 +360163,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.123.250.180^
 ||182.123.250.87^
 ||182.123.252.255^
+||182.123.253.108^
 ||182.123.253.126^
 ||182.123.44.131^
 ||182.124.114.245^
@@ -360215,7 +360207,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.124.249.165^
 ||182.124.25.128^
 ||182.124.251.60^
-||182.124.252.171^
 ||182.124.252.93^
 ||182.124.28.137^
 ||182.124.29.24^
@@ -360240,13 +360231,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.126.104.93^
 ||182.126.106.247^
 ||182.126.108.178^
-||182.126.108.44^
 ||182.126.109.122^
 ||182.126.109.186^
 ||182.126.109.189^
 ||182.126.110.89^
 ||182.126.112.16^
-||182.126.112.43^
 ||182.126.113.210^
 ||182.126.113.228^
 ||182.126.113.239^
@@ -360283,14 +360272,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.126.124.45^
 ||182.126.124.7^
 ||182.126.124.80^
-||182.126.125.109^
 ||182.126.125.206^
 ||182.126.126.177^
 ||182.126.126.198^
 ||182.126.126.19^
 ||182.126.127.113^
 ||182.126.127.141^
-||182.126.127.164^
 ||182.126.127.174^
 ||182.126.127.177^
 ||182.126.127.230^
@@ -360301,7 +360288,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.126.143.190^
 ||182.126.180.251^
 ||182.126.181.84^
-||182.126.182.234^
 ||182.126.182.245^
 ||182.126.182.52^
 ||182.126.193.51^
@@ -360325,7 +360311,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.126.245.252^
 ||182.126.245.64^
 ||182.126.246.122^
-||182.126.246.12^
 ||182.126.246.88^
 ||182.126.247.200^
 ||182.126.247.37^
@@ -360353,7 +360338,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.126.86.87^
 ||182.126.87.161^
 ||182.126.87.205^
-||182.126.87.62^
 ||182.126.87.69^
 ||182.126.88.125^
 ||182.126.88.144^
@@ -360383,6 +360367,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.126.95.76^
 ||182.126.97.249^
 ||182.126.99.106^
+||182.126.99.48^
 ||182.127.100.17^
 ||182.127.100.84^
 ||182.127.101.12^
@@ -360542,11 +360527,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.143.113.250^
 ||182.143.113.61^
 ||182.143.114.148^
-||182.143.114.30^
 ||182.143.115.130^
 ||182.146.185.126^
 ||182.146.222.239^
 ||182.146.222.245^
+||182.16.177.85^
 ||182.160.102.188^
 ||182.160.116.52^
 ||182.163.114.232^
@@ -360568,6 +360553,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||182.252.66.2^
 ||182.253.115.155^
 ||182.253.115.156^
+||182.253.60.194^
 ||182.253.60.197^
 ||182.253.60.198^
 ||182.254.146.29^
@@ -360660,7 +360646,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||185.132.53.83^
 ||185.133.173.243^
 ||185.133.214.138^
-||185.136.195.96^
 ||185.138.68.19^
 ||185.14.92.100^
 ||185.14.92.152^
@@ -360679,9 +360664,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||185.163.204.237^
 ||185.163.204.28^
 ||185.164.163.34^
+||185.165.169.101^
 ||185.165.171.197^
 ||185.168.174.117^
 ||185.168.174.198^
+||185.168.227.130^
 ||185.170.153.172^
 ||185.170.153.201^
 ||185.170.154.109^
@@ -360692,7 +360679,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||185.170.154.71^
 ||185.170.154.82^
 ||185.170.154.95^
-||185.172.128.16^
 ||185.174.173.32^
 ||185.176.94.42^
 ||185.18.222.17^
@@ -360763,10 +360749,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||185.241.208.248^
 ||185.242.235.31^
 ||185.242.3.127^
+||185.242.3.128^
 ||185.242.3.143^
 ||185.242.3.144^
 ||185.243.99.154^
-||185.245.35.68^
+||185.244.149.152^
 ||185.246.143.254^
 ||185.247.224.107^
 ||185.247.226.135^
@@ -360775,9 +360762,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||185.255.209.131^
 ||185.27.211.107^
 ||185.30.46.118^
+||185.30.46.167^
 ||185.32.4.11^
 ||185.34.145.76^
 ||185.36.205.153^
+||185.39.181.103^
 ||185.39.31.126^
 ||185.4.64.128^
 ||185.4.65.177^
@@ -360790,12 +360779,14 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||185.44.81.114^
 ||185.45.194.50^
 ||185.46.17.62^
+||185.49.168.84^
 ||185.50.148.169^
 ||185.57.69.125^
 ||185.61.246.225^
 ||185.63.103.161^
 ||185.63.103.28^
 ||185.70.130.193^
+||185.75.110.142^
 ||185.76.252.53^
 ||185.8.233.160^
 ||185.80.0.36^
@@ -360814,11 +360805,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||186.169.56.67^
 ||186.169.61.230^
 ||186.169.75.2^
-||186.192.98.105^
 ||186.215.245.175^
 ||186.222.71.142^
 ||186.235.86.129^
 ||186.3.78.195^
+||186.39.18.40^
 ||186.42.113.6^
 ||186.42.98.2^
 ||186.47.208.198^
@@ -360828,7 +360819,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||186.7.105.13^
 ||186.7.33.3^
 ||186.73.152.142^
-||186.87.82.140^
 ||186.88.211.32^
 ||186.96.193.14^
 ||187.115.179.188^
@@ -360864,11 +360854,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||188.118.38.161^
 ||188.12.100.131^
 ||188.12.184.204^
+||188.124.228.98^
 ||188.126.240.54^
 ||188.134.8.43^
 ||188.137.250.243^
 ||188.147.175.138^
-||188.147.175.18^
 ||188.149.206.91^
 ||188.150.21.103^
 ||188.150.45.193^
@@ -360881,7 +360871,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||188.175.134.62^
 ||188.208.59.211^
 ||188.208.60.45^
-||188.212.158.75^
 ||188.213.79.248^
 ||188.214.30.148^
 ||188.214.39.205^
@@ -360913,6 +360902,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||188.82.127.68^
 ||188.94.33.122^
 ||188.95.148.167^
+||188.95.186.50^
 ||189.135.140.125^
 ||189.135.179.233^
 ||189.135.97.19^
@@ -360994,14 +360984,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||190.55.21.89^
 ||190.55.22.176^
 ||190.7.149.242^
-||190.70.237.191^
 ||190.80.235.239^
 ||190.92.158.250^
 ||191.101.51.11^
 ||191.103.251.153^
 ||191.107.86.255^
 ||191.19.235.78^
-||191.25.194.171^
 ||191.25.198.234^
 ||191.25.199.205^
 ||191.25.199.56^
@@ -361019,6 +361007,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||192.109.200.210^
 ||192.109.200.244^
 ||192.109.200.250^
+||192.109.200.3^
 ||192.109.200.60^
 ||192.140.161.160^
 ||192.140.176.79^
@@ -361049,6 +361038,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||192.3.177.142^
 ||192.3.27.135^
 ||192.64.11.150^
+||193.106.58.174^
 ||193.109.44.54^
 ||193.111.117.194^
 ||193.111.248.32^
@@ -361067,7 +361057,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||193.201.82.146^
 ||193.201.82.147^
 ||193.221.201.191^
-||193.226.235.105^
 ||193.228.134.161^
 ||193.228.135.75^
 ||193.23.200.86^
@@ -361081,7 +361070,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||193.24.123.68^
 ||193.242.149.32^
 ||193.248.193.108^
-||193.252.195.223^
 ||193.26.115.81^
 ||193.32.162.76^
 ||193.34.213.150^
@@ -361093,7 +361081,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||193.42.38.49^
 ||193.42.62.196^
 ||193.5.65.188^
-||193.56.135.130^
 ||193.56.135.247^
 ||193.56.135.85^
 ||193.56.28.202^
@@ -361114,12 +361101,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||194.15.36.84^
 ||194.150.220.218^
 ||194.160.223.169^
-||194.183.186.164^
 ||194.187.151.7^
 ||194.208.56.60^
 ||194.223.59.102^
 ||194.233.68.134^
-||194.242.103.87^
 ||194.246.84.13^
 ||194.26.141.203^
 ||194.26.192.202^
@@ -361178,13 +361163,14 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||195.24.237.42^
 ||195.24.237.73^
 ||195.246.224.21^
+||195.250.173.158^
 ||195.26.97.59^
 ||195.32.18.58^
 ||195.32.18.73^
 ||195.34.102.234^
 ||195.34.91.22^
-||195.64.182.106^
 ||195.74.240.169^
+||195.88.62.106^
 ||195.9.14.86^
 ||195.96.135.237^
 ||196.188.135.20^
@@ -361214,7 +361200,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||196.210.92.110^
 ||196.216.56.124^
 ||196.219.119.42^
-||196.219.130.75^
 ||196.219.141.140^
 ||196.251.100.100^
 ||196.251.100.191^
@@ -361227,10 +361212,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||196.251.107.4^
 ||196.251.107.61^
 ||196.251.107.94^
-||196.251.115.22^
 ||196.251.116.84^
 ||196.251.87.155^
-||196.251.88.204^
 ||196.29.232.203^
 ||196.39.143.113^
 ||196.41.63.179^
@@ -361247,10 +361230,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||197.232.60.155^
 ||197.245.244.254^
 ||197.246.70.168^
+||197.254.71.110^
+||197.44.77.98^
 ||197.83.226.120^
 ||197.89.115.36^
 ||197.89.199.157^
 ||197.89.38.131^
+||197.91.184.99^
 ||198-144-189-90.cprapid.com^
 ||198.12.121.168^
 ||198.12.85.86^
@@ -361272,9 +361258,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||199.16.59.214^
 ||199.168.184.115^
 ||199.190.54.8^
-||199.192.215.93^
 ||199.38.100.9^
-||199.38.245.248^
 ||199.48.76.6^
 ||19r6l.softgl1de.ru^
 ||1acn.mossgate.ru^
@@ -361330,6 +361314,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||1zqb.fire1n5ulat.ru^
 ||1zqf.knurlpocket.ru^
 ||2.101.215.232^
+||2.103.70.96^
 ||2.103.87.146^
 ||2.136.145.238^
 ||2.136.63.232^
@@ -361340,7 +361325,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||2.183.102.181^
 ||2.183.102.40^
 ||2.183.103.136^
-||2.183.104.132^
 ||2.183.109.157^
 ||2.183.110.168^
 ||2.183.110.200^
@@ -361382,6 +361366,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||2.54.83.78^
 ||2.54.84.143^
 ||2.54.88.115^
+||2.54.88.189^
 ||2.54.88.190^
 ||2.54.89.165^
 ||2.54.89.174^
@@ -361389,14 +361374,14 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||2.54.96.206^
 ||2.54.96.233^
 ||2.54.97.253^
+||2.54.98.68^
 ||2.54.99.175^
 ||2.55.101.94^
-||2.55.122.229^
 ||2.55.125.165^
 ||2.55.126.179^
+||2.55.73.103^
 ||2.55.81.169^
 ||2.55.82.160^
-||2.55.94.61^
 ||2.56.122.3^
 ||2.56.165.101^
 ||2.56.179.204^
@@ -361404,6 +361389,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||2.57.122.121^
 ||2.57.122.170^
 ||2.57.19.146^
+||2.58.56.19^
 ||2.59.133.151^
 ||2.59.163.169^
 ||2.67.132.29^
@@ -361429,7 +361415,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||20.81.164.199^
 ||20.92.160.27^
 ||200.115.102.16^
-||200.115.249.127^
 ||200.121.44.12^
 ||200.122.211.138^
 ||200.14.250.72^
@@ -361482,12 +361467,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||201.184.231.250^
 ||201.191.156.103^
 ||201.197.252.54^
-||201.20.104.54^
 ||201.223.240.176^
 ||201.223.240.1^
 ||201.223.241.243^
 ||201.223.241.48^
-||201.223.241.92^
 ||201.223.242.116^
 ||201.223.242.170^
 ||201.223.242.89^
@@ -361527,10 +361510,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||202.139.20.12^
 ||202.141.166.71^
 ||202.141.225.42^
-||202.148.18.218^
-||202.148.18.220^
+||202.141.244.42^
 ||202.148.20.138^
 ||202.152.45.93^
+||202.154.187.26^
 ||202.154.5.83^
 ||202.162.99.237^
 ||202.166.218.154^
@@ -361546,14 +361529,16 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||202.3.248.179^
 ||202.4.101.78^
 ||202.4.124.58^
+||202.40.178.201^
+||202.40.178.226^
 ||202.40.178.238^
 ||202.5.50.108^
 ||202.5.52.110^
 ||202.5.61.33^
-||202.51.100.238^
 ||202.53.164.214^
 ||202.53.164.46^
 ||202.56.160.190^
+||202.57.39.2^
 ||202.57.43.234^
 ||202.59.90.109^
 ||202.61.139.34^
@@ -361603,6 +361588,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||203.212.222.22^
 ||203.223.44.206^
 ||203.80.244.154^
+||203.83.186.62^
 ||203.99.180.141^
 ||204.10.161.71^
 ||204.76.203.254^
@@ -361610,7 +361596,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||204.77.130.20^
 ||205.185.113.192^
 ||205.185.127.97^
-||205.209.114.243^
 ||205.250.199.73^
 ||206.0.180.96^
 ||206.119.174.15^
@@ -361624,7 +361609,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||206.237.12.183^
 ||206.238.70.42^
 ||206.245.132.222^
-||207.148.70.26^
 ||207.154.204.54^
 ||207.180.232.206^
 ||207.231.111.146^
@@ -361697,6 +361681,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||212.18.223.229^
 ||212.192.23.48^
 ||212.200.106.94^
+||212.21.31.221^
 ||212.225.179.114^
 ||212.225.179.160^
 ||212.225.186.186^
@@ -361709,8 +361694,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||212.33.214.52^
 ||212.34.98.12^
 ||212.38.88.162^
+||212.39.79.233^
 ||212.50.57.143^
 ||212.55.98.177^
+||212.56.35.232^
 ||212.57.109.75^
 ||212.64.201.67^
 ||212.64.210.74^
@@ -361740,7 +361727,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||213.176.16.91^
 ||213.176.65.60^
 ||213.176.79.38^
-||213.199.33.111^
 ||213.199.41.106^
 ||213.199.56.71^
 ||213.202.211.46^
@@ -361780,13 +361766,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||213.43.73.236^
 ||213.43.75.71^
 ||213.43.75.9^
+||213.47.243.57^
 ||213.5.19.220^
 ||213.5.194.56^
 ||213.6.196.230^
 ||213.6.74.138^
 ||213.65.123.45^
 ||213.81.223.230^
-||213.91.204.178^
 ||213.91.236.237^
 ||213.96.13.100^
 ||215be44b-06b4-4bfd-8b66-92003bd7fe54.random.tsrv1.ws^
@@ -361823,6 +361809,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||217.160.27.36^
 ||217.168.136.87^
 ||217.217.243.43^
+||217.218.139.205^
 ||217.24.144.83^
 ||217.24.150.181^
 ||217.24.151.34^
@@ -361844,6 +361831,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||218.153.161.181^
 ||218.154.181.253^
 ||218.155.74.6^
+||218.155.92.14^
 ||218.156.97.21^
 ||218.212.2.95^
 ||218.24.16.126^
@@ -361877,7 +361865,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||218.91.153.60^
 ||218.91.19.138^
 ||218.95.50.11^
-||218.95.50.120^
 ||218.95.50.141^
 ||218.95.53.91^
 ||218.95.81.158^
@@ -361908,6 +361895,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.154.26.204^
 ||219.154.32.177^
 ||219.154.33.189^
+||219.154.33.217^
 ||219.155.10.141^
 ||219.155.10.225^
 ||219.155.10.233^
@@ -361993,10 +361981,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.155.211.213^
 ||219.155.211.238^
 ||219.155.211.84^
-||219.155.220.163^
 ||219.155.221.167^
 ||219.155.221.16^
 ||219.155.222.141^
+||219.155.222.209^
 ||219.155.222.92^
 ||219.155.223.118^
 ||219.155.223.68^
@@ -362004,6 +361992,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.155.226.246^
 ||219.155.228.158^
 ||219.155.228.27^
+||219.155.228.76^
 ||219.155.228.84^
 ||219.155.229.178^
 ||219.155.229.92^
@@ -362013,6 +362002,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.155.231.208^
 ||219.155.231.238^
 ||219.155.231.50^
+||219.155.232.115^
 ||219.155.234.36^
 ||219.155.236.127^
 ||219.155.236.152^
@@ -362031,12 +362021,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.155.251.32^
 ||219.155.252.113^
 ||219.155.254.148^
+||219.155.254.62^
 ||219.155.255.96^
 ||219.155.26.124^
 ||219.155.4.203^
 ||219.155.41.206^
 ||219.155.42.199^
-||219.155.43.228^
 ||219.155.43.84^
 ||219.155.56.123^
 ||219.155.56.147^
@@ -362126,7 +362116,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.156.33.80^
 ||219.156.34.170^
 ||219.156.40.204^
-||219.156.40.61^
 ||219.156.41.198^
 ||219.156.42.255^
 ||219.156.42.34^
@@ -362145,6 +362134,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.156.57.192^
 ||219.156.57.195^
 ||219.156.57.27^
+||219.156.57.45^
 ||219.156.57.49^
 ||219.156.59.22^
 ||219.156.59.240^
@@ -362163,7 +362153,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.156.76.136^
 ||219.156.78.70^
 ||219.156.79.191^
-||219.156.79.203^
 ||219.156.81.185^
 ||219.156.83.239^
 ||219.156.88.190^
@@ -362194,7 +362183,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.157.16.50^
 ||219.157.164.44^
 ||219.157.165.31^
-||219.157.167.104^
 ||219.157.167.7^
 ||219.157.167.9^
 ||219.157.168.35^
@@ -362224,7 +362212,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.157.19.51^
 ||219.157.190.102^
 ||219.157.191.74^
-||219.157.20.210^
 ||219.157.20.64^
 ||219.157.202.141^
 ||219.157.202.192^
@@ -362299,6 +362286,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||219.157.60.158^
 ||219.157.60.32^
 ||219.157.61.72^
+||219.157.62.177^
 ||219.157.63.128^
 ||219.157.63.133^
 ||219.157.63.83^
@@ -362372,6 +362360,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||220.202.89.124^
 ||220.202.89.154^
 ||220.202.89.38^
+||220.202.90.120^
 ||220.202.90.165^
 ||220.202.90.23^
 ||220.202.90.52^
@@ -362387,7 +362376,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.0.208.222^
 ||221.0.208.91^
 ||221.0.239.182^
-||221.1.148.205^
 ||221.1.150.220^
 ||221.1.156.246^
 ||221.1.158.109^
@@ -362402,6 +362390,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.1.225.65^
 ||221.1.225.7^
 ||221.1.226.103^
+||221.1.226.106^
 ||221.1.226.169^
 ||221.1.226.233^
 ||221.1.226.235^
@@ -362433,6 +362422,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.13.221.227^
 ||221.13.221.232^
 ||221.13.234.225^
+||221.13.248.176^
 ||221.13.248.198^
 ||221.13.248.242^
 ||221.13.249.9^
@@ -362445,6 +362435,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.14.107.51^
 ||221.14.107.58^
 ||221.14.12.185^
+||221.14.12.254^
 ||221.14.122.105^
 ||221.14.123.47^
 ||221.14.123.74^
@@ -362463,8 +362454,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.14.174.18^
 ||221.14.175.218^
 ||221.14.175.7^
-||221.14.182.99^
-||221.14.183.148^
 ||221.14.184.123^
 ||221.14.185.254^
 ||221.14.188.159^
@@ -362483,7 +362472,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.14.37.123^
 ||221.14.38.24^
 ||221.14.39.42^
-||221.14.39.85^
 ||221.14.40.102^
 ||221.14.40.91^
 ||221.14.41.218^
@@ -362571,9 +362559,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.15.187.109^
 ||221.15.187.171^
 ||221.15.188.117^
-||221.15.188.161^
 ||221.15.188.192^
 ||221.15.189.10^
+||221.15.189.25^
 ||221.15.189.26^
 ||221.15.190.190^
 ||221.15.190.206^
@@ -362587,6 +362575,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.15.191.36^
 ||221.15.192.135^
 ||221.15.192.62^
+||221.15.193.178^
 ||221.15.193.237^
 ||221.15.194.119^
 ||221.15.194.254^
@@ -362641,7 +362630,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.15.77.80^
 ||221.15.79.211^
 ||221.15.79.61^
-||221.15.79.79^
 ||221.15.8.18^
 ||221.15.8.61^
 ||221.15.8.87^
@@ -362733,7 +362721,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||221.3.96.207^
 ||222.103.204.143^
 ||222.109.224.64^
-||222.114.103.68^
 ||222.117.7.182^
 ||222.118.158.30^
 ||222.127.152.164^
@@ -362829,7 +362816,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.137.105.67^
 ||222.137.106.104^
 ||222.137.106.66^
-||222.137.106.6^
 ||222.137.107.121^
 ||222.137.112.64^
 ||222.137.113.213^
@@ -362856,7 +362842,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.137.147.118^
 ||222.137.152.139^
 ||222.137.152.219^
-||222.137.152.247^
 ||222.137.153.230^
 ||222.137.155.252^
 ||222.137.157.215^
@@ -362919,7 +362904,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.137.4.223^
 ||222.137.4.230^
 ||222.137.41.26^
-||222.137.43.134^
 ||222.137.43.146^
 ||222.137.43.162^
 ||222.137.7.148^
@@ -362934,13 +362918,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.137.78.10^
 ||222.137.78.186^
 ||222.137.79.168^
-||222.137.79.195^
 ||222.137.82.142^
 ||222.137.83.215^
 ||222.137.83.229^
 ||222.137.83.235^
 ||222.137.84.195^
 ||222.137.85.38^
+||222.137.87.189^
 ||222.137.87.26^
 ||222.137.92.171^
 ||222.137.93.120^
@@ -362964,7 +362948,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.138.103.248^
 ||222.138.103.47^
 ||222.138.114.45^
-||222.138.116.129^
 ||222.138.116.133^
 ||222.138.116.14^
 ||222.138.116.23^
@@ -363014,6 +362997,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.138.176.244^
 ||222.138.177.111^
 ||222.138.177.73^
+||222.138.177.98^
 ||222.138.178.124^
 ||222.138.178.145^
 ||222.138.178.76^
@@ -363054,6 +363038,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.138.79.76^
 ||222.139.100.155^
 ||222.139.101.66^
+||222.139.103.245^
 ||222.139.106.138^
 ||222.139.109.30^
 ||222.139.113.255^
@@ -363223,7 +363208,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.141.116.30^
 ||222.141.116.67^
 ||222.141.117.113^
-||222.141.117.134^
 ||222.141.117.213^
 ||222.141.12.253^
 ||222.141.12.2^
@@ -363261,7 +363245,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.141.41.73^
 ||222.141.42.118^
 ||222.141.42.12^
-||222.141.42.18^
 ||222.141.42.253^
 ||222.141.42.47^
 ||222.141.42.85^
@@ -363275,7 +363258,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.141.46.207^
 ||222.141.46.218^
 ||222.141.46.44^
-||222.141.47.188^
 ||222.141.47.45^
 ||222.141.74.190^
 ||222.141.74.221^
@@ -363322,6 +363304,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.142.223.213^
 ||222.142.223.52^
 ||222.142.240.174^
+||222.142.240.219^
 ||222.142.240.245^
 ||222.142.240.71^
 ||222.142.241.119^
@@ -363331,14 +363314,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.142.242.201^
 ||222.142.243.103^
 ||222.142.243.40^
-||222.142.244.14^
 ||222.142.245.76^
 ||222.142.246.200^
 ||222.142.246.66^
 ||222.142.247.133^
 ||222.142.247.197^
 ||222.142.247.216^
-||222.142.247.218^
 ||222.142.247.228^
 ||222.142.248.135^
 ||222.142.248.236^
@@ -363382,13 +363363,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||222.220.145.243^
 ||222.239.87.50^
 ||222.243.95.50^
+||222.244.110.238^
 ||222.245.2.80^
 ||222.246.12.255^
 ||222.246.41.106^
 ||222.246.41.186^
 ||222.246.42.222^
 ||222.246.42.27^
-||222.246.43.173^
 ||222.246.43.40^
 ||222.246.43.84^
 ||222.246.43.99^
@@ -363449,6 +363430,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||24.156.183.72^
 ||24.227.22.18^
 ||24.234.159.5^
+||24.245.129.91^
 ||24.251.252.101^
 ||24.37.71.230^
 ||24.54.85.143^
@@ -363468,7 +363450,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.10.71.2^
 ||27.110.187.132^
 ||27.12.105.170^
-||27.121.84.42^
 ||27.121.87.41^
 ||27.124.20.146^
 ||27.124.20.209^
@@ -363489,7 +363470,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.124.45.250^
 ||27.124.45.251^
 ||27.125.169.235^
-||27.14.239.148^
 ||27.147.210.218^
 ||27.147.225.2^
 ||27.15.131.41^
@@ -363511,7 +363491,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.154.95.184^
 ||27.158.144.186^
 ||27.158.159.164^
-||27.193.123.250^
 ||27.193.168.216^
 ||27.193.20.132^
 ||27.193.238.161^
@@ -363534,7 +363513,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.202.185.168^
 ||27.202.191.74^
 ||27.202.210.15^
-||27.202.211.52^
 ||27.202.212.135^
 ||27.202.212.68^
 ||27.202.213.0^
@@ -363635,7 +363613,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.207.242.225^
 ||27.207.242.46^
 ||27.207.246.137^
-||27.207.246.166^
+||27.207.247.111^
 ||27.207.38.153^
 ||27.207.39.112^
 ||27.207.39.82^
@@ -363706,6 +363684,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.215.180.14^
 ||27.215.180.182^
 ||27.215.181.118^
+||27.215.181.183^
 ||27.215.181.207^
 ||27.215.181.252^
 ||27.215.182.113^
@@ -363731,13 +363710,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.215.210.105^
 ||27.215.211.172^
 ||27.215.211.210^
-||27.215.211.236^
 ||27.215.211.64^
 ||27.215.212.114^
 ||27.215.212.28^
 ||27.215.212.86^
 ||27.215.213.49^
 ||27.215.213.55^
+||27.215.213.75^
 ||27.215.214.115^
 ||27.215.214.229^
 ||27.215.214.74^
@@ -363747,6 +363726,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.215.215.97^
 ||27.215.44.125^
 ||27.215.45.116^
+||27.215.45.75^
 ||27.215.46.20^
 ||27.215.47.141^
 ||27.215.47.234^
@@ -363779,7 +363759,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.215.83.168^
 ||27.215.83.228^
 ||27.215.84.21^
-||27.215.84.47^
 ||27.215.86.141^
 ||27.215.86.6^
 ||27.215.87.100^
@@ -363789,6 +363768,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.216.19.118^
 ||27.216.191.152^
 ||27.216.208.47^
+||27.216.215.209^
 ||27.216.228.40^
 ||27.216.229.236^
 ||27.216.34.178^
@@ -363807,6 +363787,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.219.142.205^
 ||27.219.152.147^
 ||27.219.2.12^
+||27.220.10.185^
 ||27.220.10.3^
 ||27.220.113.193^
 ||27.220.113.246^
@@ -363818,7 +363799,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.220.247.48^
 ||27.220.81.28^
 ||27.220.81.93^
-||27.220.88.69^
 ||27.220.93.35^
 ||27.222.148.132^
 ||27.222.148.183^
@@ -363882,6 +363862,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.37.25.199^
 ||27.37.25.21^
 ||27.37.25.35^
+||27.37.27.230^
 ||27.37.32.119^
 ||27.37.33.10^
 ||27.37.33.188^
@@ -363928,7 +363909,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||27.75.202.243^
 ||27.75.67.144^
 ||27.75.70.82^
-||27.78.220.247^
 ||27.78.222.4^
 ||27.8.104.195^
 ||27.8.106.26^
@@ -364023,6 +364003,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||31.140.168.146^
 ||31.140.202.149^
 ||31.147.204.35^
+||31.148.121.247^
 ||31.153.107.223^
 ||31.153.31.194^
 ||31.155.2.194^
@@ -364034,6 +364015,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||31.184.194.114^
 ||31.186.54.111^
 ||31.186.54.203^
+||31.207.243.122^
 ||31.208.1.179^
 ||31.208.90.65^
 ||31.210.217.24^
@@ -364042,6 +364024,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||31.223.60.33^
 ||31.28.10.93^
 ||31.28.11.111^
+||31.28.238.16^
 ||31.28.31.6^
 ||31.31.118.136^
 ||31.45.149.45^
@@ -364128,7 +364111,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||36.66.139.36^
 ||36.66.151.7^
 ||36.67.66.178^
-||36.69.84.35^
 ||36.70.109.77^
 ||36.70.229.43^
 ||36.70.230.75^
@@ -364145,7 +364127,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||36.88.244.2^
 ||36.88.6.203^
 ||36.91.144.195^
-||36.91.77.59^
 ||36.92.110.187^
 ||36.92.154.210^
 ||36.92.154.218^
@@ -364202,11 +364183,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.252.66.188^
 ||37.252.69.10^
 ||37.252.69.92^
+||37.252.86.167^
 ||37.255.195.37^
 ||37.255.209.158^
 ||37.255.210.242^
 ||37.255.229.18^
 ||37.27.187.213^
+||37.29.91.102^
 ||37.34.172.44^
 ||37.34.209.216^
 ||37.34.230.9^
@@ -364222,7 +364205,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.55.197.206^
 ||37.55.198.100^
 ||37.57.33.51^
-||37.6.64.222^
 ||37.60.225.5^
 ||37.60.228.204^
 ||37.66.121.202^
@@ -364232,8 +364214,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.80.109.48^
 ||37.80.11.164^
 ||37.80.111.146^
-||37.80.114.221^
-||37.80.115.15^
 ||37.80.12.132^
 ||37.80.123.213^
 ||37.80.123.74^
@@ -364260,7 +364240,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.80.216.199^
 ||37.80.229.35^
 ||37.80.234.31^
-||37.80.240.160^
 ||37.80.248.217^
 ||37.80.255.44^
 ||37.80.32.76^
@@ -364274,7 +364253,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.80.73.87^
 ||37.80.79.174^
 ||37.80.82.239^
-||37.80.84.98^
 ||37.80.89.182^
 ||37.80.90.19^
 ||37.81.10.241^
@@ -364287,7 +364265,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.81.121.73^
 ||37.81.136.81^
 ||37.81.139.169^
-||37.81.139.70^
 ||37.81.140.203^
 ||37.81.146.40^
 ||37.81.149.222^
@@ -364297,13 +364274,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.81.166.120^
 ||37.81.167.248^
 ||37.81.168.95^
-||37.81.170.32^
-||37.81.174.39^
 ||37.81.185.135^
 ||37.81.188.249^
 ||37.81.193.69^
 ||37.81.194.23^
-||37.81.203.140^
 ||37.81.205.29^
 ||37.81.208.216^
 ||37.81.208.6^
@@ -364324,7 +364298,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.81.95.149^
 ||37.82.1.17^
 ||37.82.10.129^
-||37.82.128.50^
 ||37.82.135.74^
 ||37.82.14.24^
 ||37.82.140.54^
@@ -364358,7 +364331,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.82.96.6^
 ||37.82.98.206^
 ||37.83.107.20^
-||37.83.118.81^
 ||37.83.127.136^
 ||37.83.20.104^
 ||37.83.21.44^
@@ -364371,7 +364343,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.83.4.242^
 ||37.83.45.114^
 ||37.83.46.187^
-||37.83.51.228^
 ||37.83.52.187^
 ||37.83.52.72^
 ||37.83.54.19^
@@ -364386,7 +364357,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.84.104.115^
 ||37.84.108.60^
 ||37.84.117.199^
-||37.84.121.251^
 ||37.84.122.92^
 ||37.84.124.246^
 ||37.84.125.151^
@@ -364416,7 +364386,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.84.208.72^
 ||37.84.215.142^
 ||37.84.215.72^
-||37.84.219.120^
 ||37.84.220.207^
 ||37.84.228.255^
 ||37.84.229.144^
@@ -364438,7 +364407,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.84.74.21^
 ||37.84.8.63^
 ||37.84.88.165^
-||37.84.89.2^
 ||37.84.94.122^
 ||37.84.94.44^
 ||37.85.104.96^
@@ -364461,7 +364429,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.85.187.225^
 ||37.85.190.27^
 ||37.85.194.8^
-||37.85.198.102^
 ||37.85.200.35^
 ||37.85.208.121^
 ||37.85.21.19^
@@ -364469,7 +364436,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.85.218.86^
 ||37.85.221.201^
 ||37.85.224.37^
-||37.85.225.247^
 ||37.85.23.187^
 ||37.85.240.3^
 ||37.85.252.41^
@@ -364478,7 +364444,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||37.85.4.201^
 ||37.85.40.226^
 ||37.85.43.164^
-||37.85.5.164^
 ||37.85.50.225^
 ||37.85.57.126^
 ||37.85.58.206^
@@ -364514,6 +364479,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||38.246.245.82^
 ||38.246.253.93^
 ||38.247.134.212^
+||38.255.43.60^
 ||38.38.251.244^
 ||38.47.239.72^
 ||38.54.112.159^
@@ -364545,12 +364511,14 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||39.105.200.188^
 ||39.105.223.127^
 ||39.106.35.19^
+||39.106.81.175^
 ||39.107.242.130^
 ||39.126.196.101^
 ||39.152.114.202^
 ||39.185.221.169^
 ||39.187.126.20^
 ||39.187.126.211^
+||39.187.126.220^
 ||39.187.126.222^
 ||39.187.126.24^
 ||39.187.66.102^
@@ -364562,6 +364530,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||39.25.137.18^
 ||39.34.209.186^
 ||39.36.83.9^
+||39.40.152.179^
 ||39.40.158.44^
 ||39.40.172.123^
 ||39.40.181.105^
@@ -364573,6 +364542,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||39.68.148.99^
 ||39.71.101.47^
 ||39.71.227.180^
+||39.71.228.38^
 ||39.71.231.194^
 ||39.73.14.37^
 ||39.73.60.151^
@@ -364599,7 +364569,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||39.74.35.86^
 ||39.74.36.235^
 ||39.74.37.237^
-||39.74.38.39^
 ||39.74.39.36^
 ||39.74.4.125^
 ||39.74.47.51^
@@ -364630,6 +364599,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||39.78.194.23^
 ||39.78.47.133^
 ||39.78.51.137^
+||39.79.1.35^
 ||39.79.105.65^
 ||39.79.109.130^
 ||39.79.109.8^
@@ -364652,7 +364622,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||39.79.7.249^
 ||39.79.76.50^
 ||39.79.78.88^
-||39.79.8.190^
 ||39.79.8.58^
 ||39.79.80.116^
 ||39.79.85.48^
@@ -364826,8 +364795,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||41.190.57.114^
 ||41.190.69.6^
 ||41.203.218.38^
-||41.211.101.107^
 ||41.214.60.95^
+||41.215.23.222^
 ||41.216.188.162^
 ||41.216.189.110^
 ||41.216.189.149^
@@ -364853,20 +364822,17 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||41.75.128.145^
 ||41.75.128.147^
 ||41.75.128.149^
-||41.76.195.60^
 ||41.77.74.90^
 ||41xyhih6.sunb2zealou5.ru^
 ||42.112.115.83^
 ||42.112.57.79^
 ||42.112.76.232^
 ||42.113.193.91^
-||42.114.65.159^
 ||42.116.36.29^
 ||42.117.123.110^
 ||42.118.15.59^
 ||42.118.17.42^
 ||42.119.154.173^
-||42.119.176.2^
 ||42.176.121.141^
 ||42.176.122.18^
 ||42.176.123.10^
@@ -365052,6 +365018,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.224.101.123^
 ||42.224.109.202^
 ||42.224.109.210^
+||42.224.11.203^
 ||42.224.11.242^
 ||42.224.11.244^
 ||42.224.115.150^
@@ -365108,7 +365075,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.224.169.77^
 ||42.224.170.190^
 ||42.224.171.135^
-||42.224.171.193^
 ||42.224.171.205^
 ||42.224.172.135^
 ||42.224.173.154^
@@ -365128,6 +365094,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.224.189.165^
 ||42.224.190.132^
 ||42.224.192.120^
+||42.224.192.141^
 ||42.224.193.128^
 ||42.224.193.143^
 ||42.224.194.212^
@@ -365136,7 +365103,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.224.196.199^
 ||42.224.196.36^
 ||42.224.197.167^
-||42.224.197.189^
 ||42.224.198.111^
 ||42.224.199.151^
 ||42.224.199.228^
@@ -365348,7 +365314,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.227.130.16^
 ||42.227.130.170^
 ||42.227.131.41^
-||42.227.131.49^
 ||42.227.133.125^
 ||42.227.133.248^
 ||42.227.133.40^
@@ -365390,6 +365355,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.227.203.28^
 ||42.227.204.127^
 ||42.227.205.31^
+||42.227.205.79^
 ||42.227.206.175^
 ||42.227.206.218^
 ||42.227.206.227^
@@ -365484,7 +365450,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.228.40.245^
 ||42.228.41.7^
 ||42.228.42.126^
-||42.228.42.210^
 ||42.228.42.58^
 ||42.228.44.13^
 ||42.228.46.143^
@@ -365522,7 +365487,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.229.186.205^
 ||42.229.216.195^
 ||42.229.216.217^
-||42.229.217.55^
 ||42.229.218.223^
 ||42.229.218.27^
 ||42.229.219.125^
@@ -365635,7 +365599,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.230.45.95^
 ||42.230.45.9^
 ||42.230.46.107^
-||42.230.46.1^
 ||42.230.46.214^
 ||42.230.46.24^
 ||42.230.46.34^
@@ -365655,7 +365618,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.231.111.186^
 ||42.231.114.188^
 ||42.231.115.59^
-||42.231.168.220^
 ||42.231.168.228^
 ||42.231.171.19^
 ||42.231.181.215^
@@ -365720,7 +365682,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.231.70.74^
 ||42.231.75.160^
 ||42.231.75.60^
-||42.231.78.245^
 ||42.231.79.151^
 ||42.231.79.78^
 ||42.231.88.128^
@@ -365807,6 +365768,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.232.57.248^
 ||42.232.66.230^
 ||42.232.67.99^
+||42.232.74.167^
 ||42.232.75.218^
 ||42.232.75.233^
 ||42.232.76.191^
@@ -365814,7 +365776,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.232.80.31^
 ||42.232.81.134^
 ||42.232.82.49^
-||42.232.84.111^
 ||42.232.87.61^
 ||42.232.88.14^
 ||42.232.89.176^
@@ -365876,7 +365837,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.234.202.126^
 ||42.234.202.23^
 ||42.234.202.248^
-||42.234.203.68^
 ||42.234.203.97^
 ||42.234.204.149^
 ||42.234.205.5^
@@ -365957,7 +365917,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.235.171.154^
 ||42.235.171.24^
 ||42.235.171.251^
-||42.235.172.170^
 ||42.235.175.254^
 ||42.235.176.221^
 ||42.235.177.7^
@@ -365973,7 +365932,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.235.184.81^
 ||42.235.185.200^
 ||42.235.185.22^
-||42.235.186.103^
 ||42.235.186.107^
 ||42.235.186.203^
 ||42.235.188.232^
@@ -365990,13 +365948,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.235.37.146^
 ||42.235.38.118^
 ||42.235.38.87^
-||42.235.39.97^
 ||42.235.44.42^
 ||42.235.48.237^
 ||42.235.48.247^
 ||42.235.49.70^
 ||42.235.5.164^
-||42.235.5.203^
 ||42.235.51.28^
 ||42.235.51.46^
 ||42.235.51.69^
@@ -366013,13 +365969,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.235.64.95^
 ||42.235.65.249^
 ||42.235.66.100^
-||42.235.66.133^
 ||42.235.66.44^
 ||42.235.67.227^
 ||42.235.67.63^
 ||42.235.67.73^
 ||42.235.67.80^
-||42.235.68.119^
 ||42.235.68.226^
 ||42.235.69.199^
 ||42.235.69.207^
@@ -366059,6 +366013,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.235.97.24^
 ||42.235.98.202^
 ||42.235.98.250^
+||42.235.99.143^
 ||42.235.99.169^
 ||42.235.99.218^
 ||42.235.99.65^
@@ -366230,7 +366185,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.239.78.36^
 ||42.239.79.49^
 ||42.239.8.216^
-||42.239.8.66^
 ||42.239.9.122^
 ||42.239.9.223^
 ||42.242.128.123^
@@ -366254,7 +366208,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.4.154.66^
 ||42.4.155.154^
 ||42.4.181.128^
-||42.4.23.129^
 ||42.4.25.112^
 ||42.4.25.13^
 ||42.4.252.8^
@@ -366267,7 +366220,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.5.2.87^
 ||42.5.20.207^
 ||42.5.226.102^
-||42.5.226.195^
 ||42.5.227.243^
 ||42.5.228.193^
 ||42.5.229.137^
@@ -366373,7 +366325,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.53.60.119^
 ||42.53.62.62^
 ||42.53.63.154^
-||42.53.72.7^
 ||42.53.90.100^
 ||42.54.10.223^
 ||42.54.10.251^
@@ -366397,7 +366348,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.54.188.142^
 ||42.54.65.7^
 ||42.54.9.158^
-||42.54.9.223^
 ||42.54.9.81^
 ||42.54.91.67^
 ||42.55.0.123^
@@ -366406,7 +366356,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.55.1.169^
 ||42.55.1.186^
 ||42.55.1.44^
-||42.55.10.125^
 ||42.55.10.151^
 ||42.55.115.72^
 ||42.55.12.155^
@@ -366481,7 +366430,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.56.163.119^
 ||42.56.163.6^
 ||42.56.163.89^
-||42.56.164.82^
 ||42.56.165.31^
 ||42.56.174.219^
 ||42.56.174.235^
@@ -366553,7 +366501,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.58.148.123^
 ||42.58.151.240^
 ||42.58.164.211^
-||42.58.166.131^
 ||42.58.169.41^
 ||42.58.172.71^
 ||42.58.18.31^
@@ -366621,6 +366568,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.6.202.103^
 ||42.6.209.138^
 ||42.6.247.2^
+||42.6.251.37^
 ||42.6.252.131^
 ||42.6.253.162^
 ||42.6.32.103^
@@ -366654,7 +366602,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||42.7.152.166^
 ||42.7.153.220^
 ||42.7.179.227^
-||42.7.183.146^
 ||42.7.194.101^
 ||42.7.194.203^
 ||42.7.195.31^
@@ -366849,6 +366796,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||45.113.227.17^
 ||45.115.176.9^
 ||45.115.236.152^
+||45.116.68.12^
 ||45.116.68.70^
 ||45.117.177.93^
 ||45.118.32.122^
@@ -366904,7 +366852,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||45.135.194.45^
 ||45.135.194.71^
 ||45.135.194.7^
-||45.135.194.81^
 ||45.135.194.89^
 ||45.135.232.33^
 ||45.137.201.200^
@@ -366979,6 +366926,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||45.156.87.48^
 ||45.156.87.73^
 ||45.159.189.85^
+||45.167.249.58^
 ||45.171.177.193^
 ||45.171.177.196^
 ||45.172.218.76^
@@ -367011,11 +366959,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||45.231.145.15^
 ||45.232.75.4^
 ||45.233.94.135^
+||45.234.234.14^
 ||45.236.116.198^
-||45.236.129.75^
 ||45.240.237.3^
 ||45.240.237.56^
-||45.240.237.68^
 ||45.240.239.108^
 ||45.249.208.252^
 ||45.32.133.19^
@@ -367046,6 +366993,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||45.82.252.178^
 ||45.83.207.105^
 ||45.83.207.173^
+||45.83.207.188^
 ||45.83.207.191^
 ||45.83.207.194^
 ||45.83.28.169^
@@ -367071,11 +367019,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||45.94.31.13^
 ||45.94.31.234^
 ||45.94.47.92^
+||45.95.146.23^
 ||450d4a71-458d-4d35-bd01-b075cdb0d900.random.tsrv1.ws^
 ||454.razorplume.ru^
 ||46.0.51.247^
 ||46.100.164.217^
 ||46.101.112.70^
+||46.109.73.17^
 ||46.12.146.6^
 ||46.122.12.254^
 ||46.124.211.15^
@@ -367086,6 +367036,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||46.149.71.230^
 ||46.151.182.196^
 ||46.151.182.229^
+||46.151.182.231^
 ||46.151.182.238^
 ||46.151.182.47^
 ||46.151.182.4^
@@ -367136,6 +367087,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||46.77.51.179^
 ||46.77.52.190^
 ||46.8.46.114^
+||46.8.78.208^
 ||46.97.36.186^
 ||46.97.36.202^
 ||46.chel0be7upt.ru^
@@ -367154,6 +367106,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||47.105.55.111^
 ||47.107.136.106^
 ||47.108.233.240^
+||47.108.63.64^
 ||47.108.72.53^
 ||47.109.105.42^
 ||47.109.145.121^
@@ -367210,6 +367163,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||47.50.167.228^
 ||47.50.169.82^
 ||47.60.128.16^
+||47.60.155.144^
 ||47.76.53.145^
 ||47.76.78.160^
 ||47.76.94.15^
@@ -367290,7 +367244,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||4pause1dfd.com^
 ||4r272ptd8p.ufs.sh^
 ||4rx0l.skyhollow.ru^
-||4shn.t1decrystai.ru^
 ||4sv.cl0udmark.ru^
 ||4v.sunf0rest.ru^
 ||4vc.s0ftbyte.ru^
@@ -367305,11 +367258,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||5.101.11.9^
 ||5.101.86.59^
 ||5.11.69.127^
+||5.11.69.45^
 ||5.11.70.176^
 ||5.11.73.208^
 ||5.11.76.99^
 ||5.133.102.226^
 ||5.133.102.252^
+||5.133.139.91^
 ||5.134.253.119^
 ||5.143.166.224^
 ||5.149.184.170^
@@ -367388,12 +367343,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||5.198.242.56^
 ||5.201.176.87^
 ||5.201.182.164^
+||5.202.101.153^
 ||5.206.227.156^
 ||5.228.153.222^
 ||5.228.165.235^
 ||5.230.253.188^
 ||5.235.189.3^
-||5.235.191.57^
 ||5.235.192.111^
 ||5.235.210.223^
 ||5.235.240.37^
@@ -367445,6 +367400,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||5.8.18.7^
 ||5.81.96.215^
 ||5.89.102.77^
+||5.89.112.21^
 ||50.158.67.146^
 ||50.21.181.195^
 ||50.217.49.93^
@@ -367514,6 +367470,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||58.219.103.191^
 ||58.22.95.116^
 ||58.22.95.171^
+||58.240.204.121^
 ||58.255.42.218^
 ||58.255.43.17^
 ||58.255.44.133^
@@ -367641,8 +367598,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||59.183.119.61^
 ||59.183.123.72^
 ||59.183.124.186^
+||59.183.126.142^
 ||59.183.128.205^
-||59.183.129.252^
 ||59.183.130.7^
 ||59.183.133.95^
 ||59.183.142.117^
@@ -367651,6 +367608,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||59.184.211.101^
 ||59.184.214.136^
 ||59.184.216.141^
+||59.184.218.241^
 ||59.184.220.38^
 ||59.184.223.218^
 ||59.184.240.185^
@@ -367669,6 +367627,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||59.184.246.114^
 ||59.184.246.3^
 ||59.184.246.70^
+||59.184.247.121^
 ||59.184.248.101^
 ||59.184.248.23^
 ||59.184.249.69^
@@ -367712,7 +367671,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||59.7.217.245^
 ||59.7.236.161^
 ||59.88.1.128^
-||59.88.12.72^
 ||59.88.132.43^
 ||59.88.136.174^
 ||59.88.136.94^
@@ -367754,7 +367712,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||59.88.3.36^
 ||59.88.30.104^
 ||59.88.33.238^
-||59.88.34.28^
 ||59.88.38.84^
 ||59.88.41.63^
 ||59.88.43.18^
@@ -368206,7 +368163,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||60.18.85.122^
 ||60.18.96.56^
 ||60.18.98.167^
-||60.186.205.33^
 ||60.19.164.203^
 ||60.19.167.98^
 ||60.19.195.186^
@@ -368237,10 +368193,10 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||60.19.5.121^
 ||60.19.60.118^
 ||60.19.61.125^
+||60.19.62.113^
 ||60.19.62.84^
 ||60.19.68.27^
 ||60.19.68.67^
-||60.19.71.59^
 ||60.19.71.60^
 ||60.19.71.86^
 ||60.205.139.210^
@@ -368392,7 +368348,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||60alfredo.odc-conecta.com^
 ||60lk5.g-1-zmotrail.ru^
 ||60sek.cleardawn.ru^
-||60w.lake-spry.ru^
 ||61.0.100.16^
 ||61.0.101.219^
 ||61.0.104.232^
@@ -368449,6 +368404,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.137.198.252^
 ||61.137.199.107^
 ||61.137.199.254^
+||61.137.200.118^
 ||61.137.200.225^
 ||61.137.201.188^
 ||61.137.202.197^
@@ -368456,7 +368412,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.137.205.120^
 ||61.137.206.249^
 ||61.137.207.37^
-||61.137.246.15^
 ||61.158.158.245^
 ||61.158.158.63^
 ||61.160.215.114^
@@ -368468,11 +368423,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.163.130.252^
 ||61.163.137.152^
 ||61.163.137.221^
-||61.163.138.33^
 ||61.163.139.155^
 ||61.163.144.94^
 ||61.163.146.63^
-||61.163.147.138^
 ||61.163.148.220^
 ||61.163.150.34^
 ||61.163.159.44^
@@ -368506,7 +368459,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.176.199.47^
 ||61.176.199.4^
 ||61.176.199.76^
-||61.176.210.26^
 ||61.179.89.92^
 ||61.179.90.48^
 ||61.183.16.127^
@@ -368516,7 +368468,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.2.150.28^
 ||61.2.152.43^
 ||61.2.158.14^
-||61.2.45.141^
 ||61.2.45.172^
 ||61.2.45.191^
 ||61.2.69.101^
@@ -368536,7 +368487,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.3.109.160^
 ||61.3.109.219^
 ||61.3.109.22^
+||61.3.111.14^
 ||61.3.111.61^
+||61.3.129.52^
 ||61.3.131.125^
 ||61.3.131.161^
 ||61.3.131.84^
@@ -368557,6 +368510,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.3.21.57^
 ||61.3.210.191^
 ||61.3.214.145^
+||61.3.22.194^
 ||61.3.22.203^
 ||61.3.23.115^
 ||61.3.24.1^
@@ -368617,6 +368571,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.52.158.173^
 ||61.52.158.221^
 ||61.52.158.255^
+||61.52.158.27^
 ||61.52.159.118^
 ||61.52.159.229^
 ||61.52.159.50^
@@ -368626,6 +368581,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.52.173.167^
 ||61.52.173.239^
 ||61.52.173.244^
+||61.52.175.98^
 ||61.52.181.71^
 ||61.52.182.65^
 ||61.52.182.79^
@@ -368654,6 +368610,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.52.199.72^
 ||61.52.2.239^
 ||61.52.208.2^
+||61.52.212.11^
 ||61.52.213.53^
 ||61.52.214.203^
 ||61.52.215.241^
@@ -368753,6 +368710,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.52.70.51^
 ||61.52.71.108^
 ||61.52.72.135^
+||61.52.75.190^
 ||61.52.75.238^
 ||61.52.76.111^
 ||61.52.76.148^
@@ -368785,6 +368743,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.53.107.95^
 ||61.53.109.139^
 ||61.53.11.244^
+||61.53.110.27^
 ||61.53.110.40^
 ||61.53.111.161^
 ||61.53.116.101^
@@ -368853,7 +368812,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.53.135.185^
 ||61.53.135.191^
 ||61.53.135.3^
-||61.53.135.62^
 ||61.53.138.135^
 ||61.53.138.212^
 ||61.53.138.237^
@@ -368878,7 +368836,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.53.151.252^
 ||61.53.152.37^
 ||61.53.152.40^
-||61.53.157.152^
 ||61.53.157.202^
 ||61.53.157.236^
 ||61.53.192.182^
@@ -368932,7 +368889,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.53.75.103^
 ||61.53.75.129^
 ||61.53.75.143^
-||61.53.75.147^
 ||61.53.75.154^
 ||61.53.75.158^
 ||61.53.75.206^
@@ -368966,6 +368922,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.53.85.201^
 ||61.53.85.218^
 ||61.53.85.234^
+||61.53.85.30^
 ||61.53.85.3^
 ||61.53.86.108^
 ||61.53.86.180^
@@ -369048,6 +369005,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||61.54.69.46^
 ||61.54.69.56^
 ||61.54.70.131^
+||61.54.71.13^
 ||61.54.75.202^
 ||61.68.66.89^
 ||61.7.157.26^
@@ -369070,6 +369028,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||62.175.253.29^
 ||62.175.253.31^
 ||62.175.253.38^
+||62.175.253.88^
 ||62.176.113.135^
 ||62.196.41.132^
 ||62.197.62.195^
@@ -369226,7 +369185,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||6far5.c2rndiv1ne.ru^
 ||6fnuy.deepf0rm.ru^
 ||6g3xqw6s.bonusquelle.qpon^
-||6gx.gi-0-wmarsh.ru^
 ||6h.f0rce.ru^
 ||6h7s.proxyjet.ru^
 ||6hcht7x5.bohem1apred0m.ru^
@@ -369287,7 +369245,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||72.60.237.59^
 ||72.61.47.208^
 ||72.62.59.160^
-||72.80.246.9^
 ||72.em1npe0ny.ru^
 ||72.ko1osunde2d.ru^
 ||72ec8d09-fce8-4272-9829-f4a17ae33269.random.tsrv1.ws^
@@ -369315,7 +369272,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||74.9.224.148^
 ||75.102.135.249^
 ||75.119.134.80^
-||75.144.208.234^
 ||75.18.210.19^
 ||75.180.21.218^
 ||75.20.188.106^
@@ -369397,6 +369353,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||77.29.60.243^
 ||77.42.21.37^
 ||77.44.221.229^
+||77.45.213.134^
 ||77.46.134.34^
 ||77.46.134.40^
 ||77.46.170.18^
@@ -369406,6 +369363,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||77.50.222.238^
 ||77.53.106.55^
 ||77.65.45.186^
+||77.82.189.229^
 ||77.82.70.105^
 ||77.83.207.98^
 ||77.83.240.155^
@@ -369424,6 +369382,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||77.90.60.32^
 ||78.11.94.15^
 ||78.110.70.37^
+||78.111.30.28^
 ||78.111.30.6^
 ||78.132.111.230^
 ||78.132.112.17^
@@ -369443,7 +369402,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||78.151.169.133^
 ||78.153.155.135^
 ||78.153.155.97^
-||78.157.28.83^
 ||78.161.193.73^
 ||78.165.113.157^
 ||78.165.116.86^
@@ -369461,7 +369419,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||78.186.115.49^
 ||78.187.104.169^
 ||78.187.17.22^
-||78.188.137.146^
 ||78.188.91.108^
 ||78.26.11.253^
 ||78.26.180.129^
@@ -369611,7 +369568,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||80.125.134.252^
 ||80.125.152.138^
 ||80.125.159.238^
-||80.125.190.158^
 ||80.134.152.50^
 ||80.14.38.66^
 ||80.144.170.135^
@@ -369621,6 +369577,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||80.211.134.99^
 ||80.217.36.58^
 ||80.23.51.234^
+||80.23.51.235^
 ||80.23.51.236^
 ||80.23.51.237^
 ||80.24.87.77^
@@ -369635,7 +369592,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||80.28.228.106^
 ||80.40.106.22^
 ||80.40.194.39^
-||80.44.110.148^
 ||80.44.5.122^
 ||80.64.16.241^
 ||80.65.80.230^
@@ -369649,6 +369605,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||80.78.26.68^
 ||80.87.206.0^
 ||80.89.131.190^
+||80.91.79.204^
 ||80.94.92.103^
 ||80.94.92.143^
 ||80.94.92.89^
@@ -369658,13 +369615,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||81.151.191.123^
 ||81.152.253.107^
 ||81.152.255.172^
-||81.16.123.55^
 ||81.16.242.236^
 ||81.16.247.69^
 ||81.16.247.81^
 ||81.16.247.83^
 ||81.16.249.96^
 ||81.16.250.173^
+||81.16.251.131^
 ||81.211.8.190^
 ||81.215.176.194^
 ||81.218.154.53^
@@ -369728,6 +369685,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||82.67.39.194^
 ||82.76.103.106^
 ||83.136.211.85^
+||83.142.209.229^
 ||83.142.209.230^
 ||83.147.13.105^
 ||83.147.241.206^
@@ -369737,6 +369695,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||83.166.197.212^
 ||83.168.110.127^
 ||83.168.110.34^
+||83.168.95.235^
 ||83.169.209.220^
 ||83.171.168.46^
 ||83.171.170.38^
@@ -369767,8 +369726,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||83.224.152.183^
 ||83.224.152.246^
 ||83.224.154.243^
-||83.224.154.6^
-||83.224.154.84^
 ||83.224.155.252^
 ||83.224.157.191^
 ||83.224.159.187^
@@ -369805,9 +369762,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||83.229.126.183^
 ||83.229.85.197^
 ||83.239.105.190^
+||83.239.108.174^
 ||83.255.45.54^
 ||83.43.72.35^
-||83.43.85.37^
 ||83.49.126.199^
 ||83.49.229.90^
 ||83.59.42.54^
@@ -369828,7 +369785,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||84.234.96.53^
 ||84.234.98.102^
 ||84.234.99.235^
-||84.236.147.129^
 ||84.240.6.31^
 ||84.241.22.227^
 ||84.242.139.154^
@@ -369836,7 +369792,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||84.252.120.115^
 ||84.252.120.207^
 ||84.32.10.28^
-||84.49.211.156^
 ||84.51.109.0^
 ||84.51.120.127^
 ||84.51.90.24^
@@ -369857,6 +369812,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||85.108.81.254^
 ||85.108.83.210^
 ||85.108.88.177^
+||85.112.69.96^
 ||85.113.44.29^
 ||85.114.172.154^
 ||85.12.192.249^
@@ -369874,13 +369830,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||85.15.188.196^
 ||85.159.0.251^
 ||85.163.234.15^
+||85.175.101.203^
 ||85.187.237.98^
 ||85.187.54.142^
 ||85.187.82.120^
 ||85.190.102.98^
 ||85.190.96.149^
 ||85.204.104.159^
-||85.204.105.97^
 ||85.204.214.8^
 ||85.204.220.8^
 ||85.204.221.106^
@@ -369896,7 +369852,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||85.235.145.247^
 ||85.25.72.70^
 ||85.26.194.85^
-||85.26.211.169^
 ||85.26.222.124^
 ||85.31.237.39^
 ||85.50.208.136^
@@ -369948,6 +369903,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||87.121.112.124^
 ||87.121.79.127^
 ||87.121.79.186^
+||87.121.79.78^
 ||87.121.79.9^
 ||87.121.84.111^
 ||87.121.84.11^
@@ -369959,6 +369915,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||87.121.84.44^
 ||87.121.84.45^
 ||87.121.84.49^
+||87.121.84.51^
 ||87.121.84.52^
 ||87.121.84.59^
 ||87.121.84.68^
@@ -369969,7 +369926,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||87.15.156.48^
 ||87.15.9.136^
 ||87.167.244.233^
-||87.167.253.166^
 ||87.187.234.81^
 ||87.197.107.203^
 ||87.197.160.196^
@@ -369992,7 +369948,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||88.123.92.100^
 ||88.135.26.83^
 ||88.135.90.46^
-||88.135.91.23^
 ||88.147.134.37^
 ||88.18.152.24^
 ||88.18.153.252^
@@ -370018,7 +369973,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||88.24.79.94^
 ||88.244.165.253^
 ||88.245.35.31^
-||88.245.38.228^
 ||88.246.250.107^
 ||88.247.113.210^
 ||88.247.222.82^
@@ -370054,14 +370008,16 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||89.144.31.18^
 ||89.145.160.158^
 ||89.169.12.15^
+||89.184.185.198^
 ||89.197.168.148^
 ||89.207.70.144^
 ||89.21.194.49^
+||89.210.62.39^
 ||89.213.193.168^
 ||89.216.100.166^
 ||89.216.107.99^
-||89.22.255.120^
 ||89.222.151.167^
+||89.228.12.82^
 ||89.228.74.4^
 ||89.23.205.198^
 ||89.231.14.137^
@@ -370174,6 +370130,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||91.202.233.214^
 ||91.202.233.215^
 ||91.202.233.224^
+||91.203.89.146^
 ||91.207.184.142^
 ||91.208.206.49^
 ||91.212.45.5^
@@ -370323,7 +370280,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||92.241.77.214^
 ||92.246.89.117^
 ||92.246.90.22^
+||92.247.4.226^
 ||92.248.146.15^
+||92.253.237.180^
 ||92.255.169.145^
 ||92.255.234.53^
 ||92.28.158.213^
@@ -370333,13 +370292,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||92.41.111.83^
 ||92.41.144.12^
 ||92.41.145.132^
-||92.41.157.30^
 ||92.41.222.199^
 ||92.50.136.42^
 ||92.50.185.202^
 ||92.53.69.246^
 ||92.63.185.32^
 ||92.66.30.68^
+||92.83.216.226^
 ||92.88.150.14^
 ||92.95.36.52^
 ||92.sp1remoss.ru^
@@ -370352,20 +370311,17 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||93.113.166.79^
 ||93.113.180.31^
 ||93.113.25.102^
-||93.116.56.78^
 ||93.117.18.175^
 ||93.117.20.175^
 ||93.117.21.12^
 ||93.123.169.160^
 ||93.123.89.226^
 ||93.126.1.30^
-||93.130.197.194^
 ||93.157.106.238^
 ||93.157.253.209^
 ||93.170.131.209^
 ||93.177.77.204^
 ||93.182.76.169^
-||93.182.77.20^
 ||93.189.222.80^
 ||93.190.58.102^
 ||93.21.252.43^
@@ -370380,6 +370336,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||93.82.169.218^
 ||93.86.100.80^
 ||93.87.31.84^
+||93.87.42.154^
 ||93.88.204.28^
 ||93.88.204.7^
 ||93.88.204.87^
@@ -370422,7 +370379,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||94.166.18.125^
 ||94.183.182.179^
 ||94.183.232.177^
-||94.183.233.123^
 ||94.183.49.9^
 ||94.183.58.87^
 ||94.188.76.28^
@@ -370454,7 +370410,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||94.52.86.60^
 ||94.74.191.136^
 ||94.76.156.101^
-||94.99.15.31^
 ||94fae730-597f-4442-813c-86263972a8f0.usrfiles.com^
 ||94u4p.paper-knurl.ru^
 ||95.104.122.100^
@@ -370469,6 +370424,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||95.127.253.108^
 ||95.129.170.53^
 ||95.137.249.38^
+||95.139.107.233^
 ||95.139.111.237^
 ||95.141.135.138^
 ||95.15.36.43^
@@ -370481,6 +370437,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||95.164.55.32^
 ||95.165.162.234^
 ||95.169.212.91^
+||95.170.112.165^
 ||95.170.113.227^
 ||95.170.113.236^
 ||95.170.113.242^
@@ -370508,21 +370465,23 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||95.78.66.80^
 ||95.79.98.79^
 ||95.80.77.125^
+||95.83.158.46^
 ||95.9.236.229^
 ||9505.cl0ckmint.ru^
 ||95e.r2zin5pir.ru^
 ||96.125.128.58^
 ||96.125.189.7^
-||96.245.232.55^
 ||96.246.156.236^
 ||96.44.154.209^
 ||96.66.24.241^
 ||96.66.24.242^
 ||96.66.24.248^
 ||96.9.228.226^
+||96.9.87.21^
 ||967m.stormc0de.ru^
 ||969.br1ckw0rd.ru^
 ||972d1.n2imenei8hbor.ru^
+||973e8afd1e77d09e599406ec.keenetic.io^
 ||98.103.171.36^
 ||98.128.185.13^
 ||98.142.251.115^
@@ -370608,7 +370567,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||a9jpf.f1rewall.ru^
 ||aa.evermint.ru^
 ||aacobson.com^
-||aadhiwater.com^
 ||aagmaninfotech.com^
 ||aahhcmi.com^
 ||aanorman.com^
@@ -370672,6 +370630,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||aehz.id1otre5ist.ru^
 ||aesthetic-parfait-d56344.netlify.app^
 ||afinelineonline.com^
+||afrikanddos.xyz^
 ||ag9sdh7p.expre5ssme4d.ru^
 ||agence-immobiliere-lyon.com^
 ||agenportbet88.club^
@@ -370705,6 +370664,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||akamishitworks.jumpingcrab.com^
 ||akk.datap1xel.ru^
 ||akshf.windf0x.ru^
+||aktivates.fun^
 ||al93cs24.5hadowfiow.ru^
 ||alanbotnet.dpdns.org^
 ||alarmline.com.br^
@@ -370784,7 +370744,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||apk0807.pyirbds.top^
 ||apkplanet.pages.dev^
 ||apkqeqew.pages.dev^
-||aplikasiikan.com^
 ||apm.frostl1ne.ru^
 ||apn-87-251-249-41.static.gprs.plus.pl^
 ||app-9h4.pages.dev^
@@ -370897,7 +370856,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||awjrq1fn.crumple-jet.ru^
 ||awq.bluec0rest.ru^
 ||awy.sp-1-nterpad.ru^
-||ax.m0onforger.ru^
 ||axe34-altern-canterl-4er.blockchain-api-cloud-hub.in.net^
 ||axelvedos.sa.com^
 ||axiang-new.pages.dev^
@@ -370947,7 +370905,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||bach.cobaltquelle.ru^
 ||bach.copperalpen.ru^
 ||bach.dis-5-h-7-gien.ru^
-||bach.echohang.ru^
 ||bach.f1anerchan.ru^
 ||bach.falconmoor.ru^
 ||bach.glaciertal.ru^
@@ -370965,6 +370922,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||bach3.thistleforge.ru^
 ||backupallfresh2030.com^
 ||backupso.com^
+||bacollections.com^
 ||badge.b2ckymembe7.ru^
 ||baf8t.gr-1-tbinder.ru^
 ||bafybeiaj6jw2xhbppgji757tn3hg5uu6splaa5gyydkwnzwprzakcp44ve.ipfs.w3s.link^
@@ -371012,7 +370970,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||bcly.info^
 ||bcqz.clearspark.ru^
 ||bd.brightl1ne.ru^
-||bdbarrandov.cz^
 ||bdddda.cfd^
 ||beacon1.kn1fecast.ru^
 ||beacon6.trickilygrey.com^
@@ -371023,6 +370980,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||bench.drau8htl0dg.ru^
 ||bend.r1verdusk.ru^
 ||benra8.be8ref7ain.ru^
+||benshamcentre.co.uk^
 ||berg.graniteweide.ru^
 ||berichtenbox-nl.net^
 ||best.obs.cn-sz1.ctyun.cn^
@@ -371060,7 +371018,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||bghxlwkc.xyz^
 ||bgmb.f1ukomki5s.ru^
 ||bgwyvsce.xyz^
-||bh.frostwilder.ru^
 ||bhgqaz.bed0kur5noop.ru^
 ||biducaconfeitos.com.br^
 ||bigbins.rebirth.st^
@@ -371084,10 +371041,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||birch.m1styvaive.ru^
 ||birch.mount0ak.ru^
 ||birch.mystic0rb.ru^
-||birch.orionfeld.ru^
 ||birch.shad0wline.ru^
 ||birch.skyblend.ru^
-||birch.sparrowdock.ru^
 ||bird.mistf1eld.ru^
 ||birhc.2tannenpfad.ru^
 ||birhc.c1earpeak.ru^
@@ -371125,7 +371080,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||blog.tsrv1.ws^
 ||blogs.sokun.jp^
 ||blood.f0undst2rve.ru^
-||bloom.br1arwild.ru^
 ||bloom.brightl1ne.ru^
 ||bloom.neoniake.ru^
 ||bloom.ravelpink.ru^
@@ -371181,7 +371135,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||bq.c0pperknit.ru^
 ||bq5ect.br2qin5pect.ru^
 ||bqxsarhu.xyz^
-||br.frost-wilder.ru^
 ||br1gty.brightlake.ru^
 ||br1gva.br1ghtvaie.ru^
 ||br1ise.pr0p0sedtact.ru^
@@ -371233,7 +371186,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||brixen.bi1ingnause2.ru^
 ||brocode2s.com^
 ||broken-dust-20eb.bnxaz24270.workers.dev^
-||brook.cinderloom.ru^
 ||brook.ember-glade.ru^
 ||brook.gl0wmist.ru^
 ||brook.willowsteg.ru^
@@ -371413,7 +371365,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||cfs9.blog.daum.net^
 ||cfu.twr.mybluehost.me^
 ||cgjvix9p.xyz^
-||ch.0-pal-summit.ru^
 ||ch.stormf0x.ru^
 ||chain.plumeanchor.ru^
 ||chamber.st-1-lt-forge.ru^
@@ -371563,7 +371514,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||connecthost.live^
 ||connects-magiceden.io^
 ||constructora-alpigroup.com^
-||contentmentfairnesspesky.com^
 ||continentalgroup.net.in^
 ||copp3r.copperweide8.ru^
 ||copper.jaxmorrow.ru^
@@ -371773,7 +371723,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||debdiehl.com^
 ||decjan2026.blogspot.com^
 ||decryn.decor1cry5t.ru^
-||deegaanbile.org^
 ||deejaypuff.com^
 ||deep.cl0udforge.ru^
 ||deep.em1npe0ny.ru^
@@ -371866,7 +371815,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||dh28.s0ftcrest.ru^
 ||dhcp-100-248-59-5.metro86.ru^
 ||dhtk.deepf0rm.ru^
-||dhy.wind-barrow.ru^
 ||dhyt7.bri8hten0ld.ru^
 ||di.p2rabpr0nos.ru^
 ||di3.cog-whittle.ru^
@@ -371978,6 +371926,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||download.pdf-tool.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.suxiazai.com^
 ||download.towertour.appleoffortune.xyz^
 ||download2.huduntech.com^
 ||downloader.nvms9000.su^
@@ -372017,14 +371966,13 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||drapunninsom.floresflorchuvaouro.cfd^
 ||drapunval.floresdelphinium.cfd^
 ||drasqi.c1imby2p.ru^
+||draw.treetrauma.com^
 ||drb.amin0mer3ges.ru^
 ||dreamwatchevent.com^
 ||drgenov.com^
 ||drift.brambleholt.ru^
 ||drift.clears0ft.ru^
 ||drift.darkf1eld.ru^
-||drift.frost-wilder.ru^
-||drift.gi0wmarsh.ru^
 ||drift.gr0ssgar.top^
 ||drift.hre9in7mamma.ru^
 ||drift.sp1remoss.ru^
@@ -372164,15 +372112,12 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||eiche.dustycode.ru^
 ||eiche.guan0mesca.ru^
 ||eiche.harmfu1tw0.ru^
-||eiche.ibexweald.ru^
 ||eiche.m1ntcioud.ru^
-||eiche.quartzhain.ru^
 ||eiche.starfie1d.ru^
 ||eiche.wolkenhof.ru^
 ||eiche4.mintdrive.ru^
 ||eifpausee3.com^
 ||eiopause934.com^
-||eis.crimsonwald.ru^
 ||eis.nebulaquelle3.ru^
 ||eis.solarpfad.ru^
 ||eis3en.ravenstein.ru^
@@ -372357,7 +372302,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||fendaa.app^
 ||fenorp.lol^
 ||feqvan.windc0met.ru^
-||fern.br-1-ar-wild.ru^
 ||fern.gritpillow.ru^
 ||fern2.gl0wmist.ru^
 ||fern2.wildcr3st.ru^
@@ -372446,7 +372390,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||flame.pr2ctsu7v.ru^
 ||flar4e.emberklamm.ru^
 ||flar7e.mistflare.ru^
-||flare.frost-wilder.online^
 ||flare.iunarpeak.ru^
 ||flare.redb1rth.ru^
 ||flare.sc2ntrepid2t.ru^
@@ -372470,6 +372413,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||flisinfuntar.mail-lab.store^
 ||flomenrinder2.mariadobairro.sbs^
 ||flononconsal.mail-genius.store^
+||floral-king-36d7.michaelleclair1997.workers.dev^
 ||florix.fl0rinf2t.ru^
 ||flow.acr0b2tdiffer.ru^
 ||flow.cloudf0rm.ru^
@@ -372745,7 +372689,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||gizmo.skysh1ne.ru^
 ||gjin.ever-mint.ru^
 ||gk.quartz-leaf.ru^
-||gl.ember-trail.ru^
 ||gl0ow.deane4y5not.ru^
 ||gl0war.stormglow.ru^
 ||gl0wbx.b0xlight.ru^
@@ -372796,11 +372739,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||gleam.r1vermint.ru^
 ||gleam.sn-1-pixel.ru^
 ||gleam.st0bepress.ru^
-||gleam.xenonridge.ru^
 ||gleem.2tannenpfad.ru^
 ||gleem.deepv0yage.ru^
 ||glefenbonder.luxomail.store^
-||gleis.atlasufer.ru^
 ||gleis.auroralinde.ru^
 ||gleis.capi1aryhold.ru^
 ||gleis.co-0-peratre-4-er.ru^
@@ -372866,6 +372807,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||gnbe2.stoner0ck.ru^
 ||go1d7k.go1dkamy5hev.ru^
 ||goal123.wiki^
+||gobiotechpestcontrol.com^
 ||goboadvertising.autodealertech.co^
 ||gobxur.buoyc0mp1aint.ru^
 ||gocontract.co.uk^
@@ -372899,9 +372841,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||grandmarketsfx.com^
 ||grat.aurorafels.ru^
 ||grat.cl0udnest.ru^
-||grat.crimsonwald.ru^
 ||grat.dinfectt-0-rs-0.ru^
-||grat.dovemantel.ru^
 ||grat.shadowc0re.ru^
 ||grat.stormpeak.ru^
 ||grat.thunderkiesel.ru^
@@ -373006,7 +372946,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||haf3en.se1fish5tupid.ru^
 ||hafen.breezef0x.ru^
 ||hafen.brinewald.ru^
-||hafen.dovemantel.ru^
 ||hafen.emberbucht.ru^
 ||hafen.glaciertal.ru^
 ||hafen.m1stwood.ru^
@@ -373112,7 +373051,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||hezi1.com^
 ||hezqow.bobi1dece4.ru^
 ||hf.windm1nd.ru^
-||hfcv.gi-0-wmarsh.ru^
 ||hfe.windst0ne.ru^
 ||hfvty.f1eldgate.ru^
 ||hg.quartz-flip.ru^
@@ -373191,11 +373129,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||house.softr1ver.ru^
 ||hov3il.be2vesati5t.ru^
 ||hover.cl0udvex.ru^
-||hover.fr0stciiff.ru^
 ||hover.st0bepress.ru^
 ||hover.trickilygrey.com^
 ||hover3.g-0-ss-lamp.ru^
-||hover4.ember-trail.ru^
 ||hovlen.ru5t1eview.ru^
 ||howelllanddevelopment.com^
 ||howl.mistyw0lf.ru^
@@ -373220,7 +373156,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||hth.snareplum.ru^
 ||hth5.windl1nk.ru^
 ||htlnovx.blogspot.com^
-||hu.storm-harrow.ru^
 ||hu41o.ever-mint.ru^
 ||hu9.j1ttersnap.ru^
 ||huaweipresent.cfd^
@@ -373260,6 +373195,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||hzjx5.cloudb1te.ru^
 ||hzovbscu.xyz^
 ||hzxcaq-github-io.pages.dev^
+||i.404.pm^
 ||i1.bra9lupt5ev.ru^
 ||i2.windshift.ru^
 ||i2t0.b1eedu4yuk.ru^
@@ -373280,7 +373216,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||i8.spindle-way.ru^
 ||iamnashitop.chickenkiller.com^
 ||iaonocvn.atendimentozm.com^
-||ib.stormglade.ru^
 ||ibn00ky3.offe7sawmi1.ru^
 ||ibnbatutta.pk^
 ||ibundles.org^
@@ -373328,7 +373263,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||imgpx.com^
 ||imperi.a7mpr0tori.ru^
 ||impossible-arctic-graphical-declaration.trycloudflare.com^
-||imtoken8.cc^
 ||in7o.pi1er5pat.ru^
 ||inbibulf.xyz^
 ||index.datash1ft.ru^
@@ -373430,6 +373364,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||jat.suf1nau8h.ru^
 ||javnek.mintbrook.ru^
 ||javxet.imp0rttwi5t.ru^
+||jawaratekno.com^
 ||jaxbim.buoyc0mp1aint.ru^
 ||jaxhef.plume-vortex.ru^
 ||jaxvel.stonem1st.ru^
@@ -373661,7 +373596,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||kimz0r.mintbrook.ru^
 ||kingpe.online^
 ||kingspark.biz^
-||kis.marketing^
 ||kitadigi778.com^
 ||kj4j9.cheb0t5agit.ru^
 ||kjarz.com^
@@ -373680,7 +373614,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||klee.heatherpass.ru^
 ||klee.ironweide.ru^
 ||klee.mintstone.ru^
-||klee.orionfeld.ru^
 ||klee.pinewacht.ru^
 ||klee.ravenquelle.ru^
 ||klee.saffronhafen.ru^
@@ -373741,7 +373674,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||kreis.tundragrund.ru^
 ||krisidev.com^
 ||krone.chankexpe1.ru^
-||krone.echohang.ru^
 ||krone.kick5ubs4ance.ru^
 ||krone.st0nefall.ru^
 ||krone3.wolspfad.ru^
@@ -373823,7 +373755,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||layer.gethe4e.ru^
 ||layer.storml1ght.ru^
 ||lazf7o.d0ubletr2ffic.ru^
-||lbgxn.m0onforger.ru^
 ||lbjkxct4.heh0vli8ht.ru^
 ||lbs.windfiare.ru^
 ||lbw3ij2h.xyz^
@@ -373879,7 +373810,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||libraries-household-itunes-formed.trycloudflare.com^
 ||libretv-16e.pages.dev^
 ||libwaresourcewsd.com^
-||licht.argonbucht.ru^
 ||licht.brackenloft.ru^
 ||licht.bramblequell.ru^
 ||licht.breezef0x.ru^
@@ -373974,7 +373904,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||lolzzmortex.duckdns.org^
 ||lomejordesalamanca.es^
 ||lon-01.dlo4d.com^
-||londonairportstransfer.co.uk^
 ||long.l0ngprope1l.ru^
 ||longfeng188.com^
 ||loom.acidwrench.ru^
@@ -374101,7 +374030,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||majr5a.hubr1s5ajor.ru^
 ||make.mydaymakemyday.info^
 ||malibito.duckdns.org^
-||mandarin.net.au^
 ||mang0x.spongeclaw.ru^
 ||mantle.pr0wlmint.ru^
 ||maorunzhia-github-io.pages.dev^
@@ -374117,7 +374045,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||marqen.mar8arstr2t.ru^
 ||marrakechpalms.com^
 ||marsalek.cy^
-||marsh.embercross.ru^
 ||masgraves.dev^
 ||massaflex.com.br^
 ||mastergaming138.design^
@@ -374159,7 +374086,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||mepdic.buoyc0mp1aint.ru^
 ||mepxod.gr-1-tfable.ru^
 ||merajka.live^
-||merctransfers.gradycares.com^
 ||merdax.b2rtdenia1.ru^
 ||merliv.dur2tionjuda5.ru^
 ||merlox.pr1vilvoti2t.ru^
@@ -374186,7 +374112,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||mi5st.deane4y5not.ru^
 ||miabiollen.com^
 ||mibz3o.c2rb0lduty.ru^
-||mica.frostwilder.ru^
 ||micp.rainf0x.ru^
 ||microsoft-telemetry.at^
 ||microsoft-telemetry.cc^
@@ -374276,7 +374201,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||mondial-servicelocker.com^
 ||mondodiponyo.it^
 ||moon.le-3-nsnet-7-e.ru^
-||moor.atlasufer.ru^
 ||moor.brinewald.ru^
 ||moor.c0dehawk.ru^
 ||moor.ci2udforge.ru^
@@ -374294,7 +374218,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||moor.netit0c0rec.ru^
 ||moor.plumeanchor.ru^
 ||moor.saffronhafen.ru^
-||moor.sageufer.ru^
 ||moor.st0nefall.ru^
 ||moor.stormseed.ru^
 ||moor.willowgrat.ru^
@@ -374306,7 +374229,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||moos.capi1aryhold.ru^
 ||moos.chankexpe1.ru^
 ||moos.clearbyte.ru^
-||moos.granitebach.ru^
 ||moos.ivyvale.ru^
 ||moos.prismgrau.ru^
 ||moos.rap1d5t0ne.ru^
@@ -374358,7 +374280,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||mt526-github-io.pages.dev^
 ||mtedciwqaziujndfr.icu^
 ||mtedcyuitbnhfvskm.icu^
-||mto.gi-0-wmarsh.ru^
 ||mtokjnfgsbsxcwed.icu^
 ||mtrx.lol^
 ||mtsp.loinv.online^
@@ -374473,7 +374394,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||nebl4e.willowgase.ru^
 ||nebpt.b2ptb1ryuk.ru^
 ||neccgroup.com^
-||neirong.funshion.com^
 ||nelees.com^
 ||nerve.untergrund.net^
 ||nest.ravenbucht.ru^
@@ -374877,7 +374797,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||ped.br1stlefax.ru^
 ||pedgwkam.xyz^
 ||peepoo.online^
-||pegasustour.ru^
 ||pelniv.gu1detr2in.ru^
 ||pelqen.0rav2uterus.ru^
 ||pelqix.darkn0va.ru^
@@ -374886,7 +374805,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||pelyqu.ro1luzbek5.ru^
 ||penguinpublishers.org^
 ||peoeieiew.sirv.com^
-||pepgauge.com^
 ||peppersghost.org^
 ||perch.black0wl.ru^
 ||perferctdmng.is^
@@ -374910,7 +374828,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||pfad.crystalrun.ru^
 ||pfad.darkfeather.ru^
 ||pfad.dis5h7gien.ru^
-||pfad.elmquarry.ru^
 ||pfad.embertarn.ru^
 ||pfad.inha4itmu1ti.ru^
 ||pfad.night0ra.ru^
@@ -374949,7 +374866,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||pilzur.c0lombve8et.ru^
 ||pimzaf.b2tnikpu1yar.ru^
 ||pincer.twigmantle.ru^
-||pine.cioudharbor.ru^
 ||pine.nightf0rm.ru^
 ||pine.vex-timber.ru^
 ||pingnetnetwork.co.ke^
@@ -374998,7 +374914,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||plane.l2titsm1ne.ru^
 ||planetariumobil.ro^
 ||planmenpunval.floresixia.cfd^
-||planner5dl.com^
 ||planronpal2.floresixia.cfd^
 ||plasma.blo0dci7cul.ru^
 ||platanxonjal67.sortilegio.sbs^
@@ -375101,7 +375016,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||pstoto99.quest^
 ||pt6vy.knurlpocket.ru^
 ||ptarb.b2ptb1ryuk.ru^
-||ptk.0-pal-summit.ru^
 ||ptptonuwu.duckdns.org^
 ||pu.briarhaven.ru^
 ||pua4.spindleway.ru^
@@ -375181,7 +375095,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||pvsa.gxfugy.cn^
 ||pw0kt.de5criptun1ver.ru^
 ||pw91.xyz^
-||pwmt.embertrail.ru^
 ||px.gr1tmodule.ru^
 ||pxe51lm9.frostm1nd.ru^
 ||py9.bracketfern.ru^
@@ -375590,7 +375503,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||rune.lindenarc.ru^
 ||rune.midnightkiefer.ru^
 ||rune.netit-0-c-0-rec.ru^
-||rune.oakensiegel.ru^
 ||rune.re5u7coundrel.ru^
 ||rune.silentwave.ru^
 ||rune.walnutsteg.ru^
@@ -375961,7 +375873,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||softdl2.360tpcdn.com^
 ||softdl4.360.cn^
 ||softdown.pages.dev^
-||softswapp.com^
 ||softwaretech.pro^
 ||softwarez.site^
 ||soheofob.xyz^
@@ -375998,7 +375909,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||spark.hushzigzag.ru^
 ||spark.j-1-ngleknob.ru^
 ||spark.ko1osunde2d.ru^
-||spark.m-0-on-forger.ru^
 ||spark.mashvortex.ru^
 ||spark.n1ghtcore.ru^
 ||spark.nightp1xel.ru^
@@ -376095,7 +376005,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||steam-terraria.run^
 ||steam66.cn^
 ||steig.granitepfad.ru^
-||stein.anvilklee.ru^
 ||stein.co-0-peratre-4-er.ru^
 ||stein.quillgipfel.ru^
 ||stelyx.starl1ght.ru^
@@ -376119,7 +376028,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||stern.maplerand.ru^
 ||stern.med1aflow.ru^
 ||stern.oceanbyte.ru^
-||stern.quartzhain.ru^
 ||stern.r1vermint.ru^
 ||stern.st0rmfield.ru^
 ||stern.willowsteg.ru^
@@ -376211,7 +376119,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||superbet388.sbs^
 ||superbet388.wiki^
 ||supercleanspb.ru^
-||superfluitymagazine.com^
 ||superiortrophy.com^
 ||support-data.com^
 ||support.clz.kr^
@@ -376321,7 +376228,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||tau.ele6tricmul1ed.ru^
 ||tau.f0re5tline.ru^
 ||tau.fo0operate1.ru^
-||tau.ibexweald.ru^
 ||tau.ironweide.ru^
 ||tau.l1ghtseed.ru^
 ||tau.mintdrive.ru^
@@ -376334,7 +376240,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||tau.softl1ne.ru^
 ||tau.st0nefall.ru^
 ||tau.st0rmfield.ru^
-||tau.steelpfad.ru^
 ||tau.stormfiare.ru^
 ||tau.stormlaterne.ru^
 ||tau.tundragrund.ru^
@@ -376357,7 +376262,9 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||teacoffeepremix.in^
 ||teamc2.duckdns.org^
 ||techauto.net^
+||techbud.ro^
 ||techhkonnectt.top^
+||techtattva.in^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||tejxom.sy2bkywa1tz.ru^
@@ -376374,6 +376281,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||test.my-video-live.cloud^
 ||test.peperoncinochepassione.it^
 ||testfortesmasi.cc^
+||tests.yjzj.org^
 ||tevlor.mar8arstr2t.ru^
 ||tezqiw.chup7unwhe7e.ru^
 ||tf72zgyh.preisdrop.qpon^
@@ -376428,7 +376336,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||tilzor.windc0met.ru^
 ||tim4zx.t1metalk.ru^
 ||timbr3.flashwood.ru^
-||tiq.stormglade.ru^
 ||tissstok18.sbs^
 ||title-car.info^
 ||tivmon.gr-1-tfable.ru^
@@ -376469,7 +376376,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||top8onlinegame.com^
 ||topdigis889.com^
 ||topmatchline.com^
-||topmedsolution.com^
 ||topquangcaohieuqua.vip^
 ||torch.amber-coil.ru^
 ||torq3l.b2tnikpu1yar.ru^
@@ -376509,6 +376415,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||trace.v-0-xenridge.ru^
 ||trace4.raven-flux.ru^
 ||track4.stoner0ck.ru^
+||traderhype.com^
 ||trail.br1ghtmist.ru^
 ||trail.cliffwave.ru^
 ||trail.g1zmotrail.ru^
@@ -376671,10 +376578,8 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||ue.mistyshore.ru^
 ||ue.sun0rbit.ru^
 ||uefer.c1earpeak.ru^
-||uf6qo.fr0stciiff.ru^
 ||ufel.ember-cross.ru^
 ||ufer.acornhollow.ru^
-||ufer.anvilklee.ru^
 ||ufer.bluer1ver.ru^
 ||ufer.c0nsiumpond.ru^
 ||ufer.deep5tone.ru^
@@ -376690,7 +376595,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||ufer.quartzstollen.ru^
 ||ufer.s0ftwind.ru^
 ||ufer.shadowfelsen.ru^
-||ufer.shadowtal.ru^
 ||ufer.spruce5moor.ru^
 ||ufer.stoneharbor.ru^
 ||ufer.tundragrund.ru^
@@ -376712,7 +376616,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||ui.dua1i5mmuksun.ru^
 ||ui.qu1ck.ru^
 ||uioneizh.xyz^
-||uirs.br1arwild.ru^
 ||ujkujiiempp.tsrv1.ws^
 ||ujmfcahm.xyz^
 ||ujruppzo.xyz^
@@ -376738,6 +376641,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||uniquedreambuilders.in^
 ||unitv-apk.org^
 ||universalgroup.com.vc^
+||universalgroup.vc^
 ||uno.dicti0nvica1.ru^
 ||unruffled-chaum.185-36-205-153.plesk.page^
 ||uolu3j41.love5w0rd.ru^
@@ -376753,7 +376657,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||updrfrjt.xyz^
 ||upgratesecuritys.com^
 ||uploadclient32.com^
-||uploadsfre.com^
 ||upsinfo2025.com^
 ||upux.firetrail.ru^
 ||uqdz.nightl1ne.ru^
@@ -376822,13 +376725,11 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||valcyn.f1ysynchr0n.ru^
 ||valdek.di5pl2yleft.ru^
 ||vale.bowin1nca5.ru^
-||vale.cioudharbor.ru^
 ||vale.dup1ic4ermaph.ru^
 ||vale.patchvine.ru^
 ||vale.s0ftmint.ru^
 ||vale.wildr0sehub.ru^
 ||vale.zenith-snap.ru^
-||vale0.cinderloom.ru^
 ||vale1.le-3-nsnet-7-e.ru^
 ||vale2.regenwald.ru^
 ||vale6.c1earwave.ru^
@@ -377042,7 +376943,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||wal3d.deane4y5not.ru^
 ||wald.bluer1ver.ru^
 ||wald.c0nsiumpond.ru^
-||wald.copperhang.ru^
 ||wald.hum2nk0str.ru^
 ||wald.in-ha-4-it-mu-1-ti.ru^
 ||wald.l2-1-w2.ru^
@@ -377230,6 +377130,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||wirgol.lobo8rnerf1.ru^
 ||wisp.paperknurl.ru^
 ||wisp5.m1stycl0ud.ru^
+||wispy-butterfly-ed72.michaelleclair1997.workers.dev^
 ||wither-xmr.duckdns.org^
 ||witlzkaz.xyz^
 ||wittenhorst.eu^
@@ -377281,8 +377182,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||wolke.l1ghtcloud.ru^
 ||wolke.l1necloud.ru^
 ||wolke.mintzone.ru^
-||wolke.oakensiegel.ru^
-||wolke.orionfeld.ru^
 ||wolke.rapidmint.ru^
 ||wolke.re5u7coundrel.ru^
 ||wolke.shadowc0re.ru^
@@ -377353,7 +377252,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||wytlaf.hump7yb0lt.ru^
 ||wzbweoau.xyz^
 ||wztbj.cl1nkbarge.ru^
-||x1.m1dnightr0ad.ru^
 ||x2.bramblefix.ru^
 ||x2k8.g1zmobrain.ru^
 ||x2n.bestffriend.com^
@@ -377381,6 +377279,7 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||xdcjatgh.xyz^
 ||xdcq3.com^
 ||xe.ap2rthyub2n.ru^
+||xemhang.vn^
 ||xenlmazf.xyz^
 ||xenon.studio^
 ||xenvop.clearl1nk.ru^
@@ -377651,7 +377550,6 @@ comix.to##+js(json-edit-fetch-response, .result.items.*[?.content*="'+'"], props
 ||zk3.deepw0rd.ru^
 ||zkwf1jka.xyz^
 ||zlojs.v0rtapouch.ru^
-||zlonline.oss-cn-shenzhen.aliyuncs.com^
 ||zlx.5t0p.ru^
 ||zmasta.com^
 ||zn3foc66.skyc0rest.ru^
