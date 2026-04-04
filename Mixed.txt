@@ -1068,6 +1068,7 @@ ad.broadstreetads.com
 ||p.aprilads.space^
 ||p.bloblohub.com^
 ||p.octoberads.space^
+||p.popjanuary.shop^
 ||p.popunderoctober.store^
 ||photos.kiyonosaki.info^
 ||pickard.hubhubhub.name^
@@ -4068,6 +4069,7 @@ playareaz.com,carensureplan.com#%#//scriptlet('prevent-setTimeout', '/AdBlock/i'
 viduyy.com#@#.google-ad
 viduyy.com#@$#.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 viduyy.com#%#//scriptlet('prevent-fetch', 'mode:no-cors')
+nlcosplay.com##.banner-wrapper + div[id][class*=" "]
 modapk.world##body > #page > footer.site-footer + div[id][class*=" "]
 transfap.to###back-to-top + div[id][class]
 hispajav.com,sub69.online,itdmusicy.com,janammusic.in.net##body > div[id][class*=" "]:has(div.adblock_subtitle)
@@ -4341,6 +4343,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+||rf4-stat.ru/js/adblock.js
+rf4-stat.ru#%#//scriptlet('set-constant', 'detectAdBlock', 'noopFunc')
 allindiabullion.com#%#//scriptlet('remove-node-text', 'script', '/adScripts|bait/')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=allindiabullion.com
 allindiabullion.com#@#.ad-unit:not(.textads)
@@ -18689,11 +18693,12 @@ asilmedia.org#$#.site-wrap { margin-top: 0 !important; }
 asilmedia.org###banner
 ||googleapiscdn.com/admin/api/ads/
 ||googleapiscdn.com/static/jwplayer/vast.js
+storage.googleapiscdn.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'evaluate')
 animevietsub.id,storage.googleapiscdn.com,stream.googleapiscdn.com#%#//scriptlet('prevent-setTimeout', 'onDetect')
 animevietsub.id,storage.googleapiscdn.com,stream.googleapiscdn.com#@#.ad-space:not(.textads)
 animevietsub.id,storage.googleapiscdn.com,stream.googleapiscdn.com#@#.ad_unit
 @@||googleapiscdn.com/player/*animevietsub.$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=storage.googleapiscdn.com|stream.googleapiscdn.com|animevietsub.id
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,domain=storage.googleapiscdn.com|stream.googleapiscdn.com|animevietsub.id
 [$domain=/^vivicomi\d+\.info$/]#%#//scriptlet('abort-current-inline-script', 'document.write', '')
 phim-18.tv##.v3sb-box
 cdn.loadvid.com#%#//scriptlet('prevent-window-open', '', '1')
@@ -19575,7 +19580,7 @@ likemanga.ink,watchseries.tube,arcasiangrocer.store,rapelust.com#%#//scriptlet("
 pistona.xyz,gaystream.click,watchadsontape.com,advertisertape.com,nsw2u.*,tapeadvertisement.com,go-streamer.net,vgfplay.xyz,tioplayer.com,listeamed.net,adblockplustape.xyz,coolrea.link,tapelovesads.org,bembed.net,gettapeads.com,tapeadsenjoyer.com,embedv.net,vembed.net,vid-guard.com,noblocktape.com,antiadtape.com,lilymanga.net,hexupload.net,apkmody.fun,daddyhd.com,daddylive.*#%#//scriptlet('abort-on-stack-trace', 'String.prototype.charAt', '$0')
 lectortaurus.com#%#//scriptlet('abort-on-property-read', 'zfgstorage')
 nsw2u.*#%#//scriptlet('abort-on-stack-trace', 'XMLHttpRequest', '/Te[\s\S]*?rr[\s\S]*?Xe/')
-instalker.org,twstalker.com,file4go.lol,usescarlet.com,cloudfam.io,m1xdrop.bz,m1xdrop.com,doramasonline.org,hexload.com,myflixerz.to,3xyaoi.com,movies2watch.tv,livesporthub.shop,dstelemundo.site,bulksportsstores.top,yeahstreams.com,goalstreamer.shop,alphastreams.online,buffztreamz.shop,surfg.org,rippleplay.shop,yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz,seeflix.to,vidfast.pro,deportes.ksdjugfsddeports.com,m1xdrop.net,mixdrop23.net,vipbox.lc,omuzaani.me,mdy48tn97.com,embedtv.net,dlhd.*,capo6play.com,zorroplay.xyz,luluvdoo.com,vecloud.eu,cordneutral.net,thedaddy.*,fnjplay.xyz,yoxplay.xyz,streamlord.com,giize.com,viprow.nu,dopebox.to,zonatmo.com,sportshub.stream#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'delete window')
+instalker.org,twstalker.com,file4go.lol,usescarlet.com,cloudfam.io,m1xdrop.*,m1xdrop.com,doramasonline.org,hexload.com,myflixerz.to,3xyaoi.com,movies2watch.tv,livesporthub.shop,dstelemundo.site,bulksportsstores.top,yeahstreams.com,goalstreamer.shop,alphastreams.online,buffztreamz.shop,surfg.org,rippleplay.shop,yrtourguide.com,technons.com,tournguide.com,digiztechno.com,shrtslug.biz,seeflix.to,vidfast.pro,deportes.ksdjugfsddeports.com,m1xdrop.net,mixdrop23.net,vipbox.lc,omuzaani.me,mdy48tn97.com,embedtv.net,dlhd.*,capo6play.com,zorroplay.xyz,luluvdoo.com,vecloud.eu,cordneutral.net,thedaddy.*,fnjplay.xyz,yoxplay.xyz,streamlord.com,giize.com,viprow.nu,dopebox.to,zonatmo.com,sportshub.stream#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'delete window')
 dlhd.*,topcartoons.tv,hdtoday.tv,watchcartoononline.bz,hitsports.pro,arcasiangrocer.store,1qwebplay.xyz,itopmusic.com,projectfreetv.mx,fstream365.com,holymanga.net,mangareader.to,9animetv.to,buffsports.stream,moddroid.com,klmanga.*,manga1000.*,universanime.co,harimanga.com,gmanga.me,apkmody.io,netcine.*,kick4ss.com,theproxy.to,y2mate.com,pelismart.com,movies123.pk#%#//scriptlet("prevent-setInterval", "[$.")
 dlhd.*,topcartoons.tv,hdtoday.tv,watchcartoononline.bz,hitsports.pro,arcasiangrocer.store,1qwebplay.xyz,itopmusic.com,projectfreetv.mx,fstream365.com,holymanga.net,mangareader.to,9animetv.to,buffsports.stream,moddroid.com,klmanga.*,manga1000.*,universanime.co,harimanga.com,gmanga.me,apkmody.io,netcine.*,kick4ss.com,theproxy.to,y2mate.com,pelismart.com,movies123.pk,kickass.ws,kickass.love,kissanime.nz,repackov.com#%#//scriptlet("prevent-setTimeout", "[$.")
 dlhd.*,hdtoday.tv,watchcartoononline.bz,hitsports.pro,arcasiangrocer.store,1qwebplay.xyz,itopmusic.com,projectfreetv.mx,holymanga.net,mangareader.to,9animetv.to,buffsports.stream,moddroid.com,klmanga.*,manga1000.*,universanime.co,harimanga.com,gmanga.me,apkmody.io,netcine.*,ninjashare.to,kick4ss.com,turkish123.com,theproxy.to,y2mate.com,pelismart.com,downloadingadda.com,beef1999.blogspot.com,movies123.pk,sportstreamtv.live,kickass.ws,kickass.love,animafan.biz,kissanime.nz,repackov.com#%#//scriptlet("prevent-addEventListener", "", "[$.")
@@ -20560,7 +20565,7 @@ dlsharefile.com#%#//scriptlet("json-prune", "*.*", "*.clk")
 files.im#%#//scriptlet("json-prune", "*", "ppuClicks")
 strikeout.nu#%#//scriptlet("json-prune", "*.*", "*.clk")
 ontiva.com#%#//scriptlet("prevent-window-open")
-jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,hentaianimezone.com,cdn1.site,walterprettytheir.com,christopheruntilpoint.com,doujinantena.top,kimochi.info,sxyprn.net,sxyprn.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
+nlcosplay.com,jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,hentaianimezone.com,cdn1.site,walterprettytheir.com,christopheruntilpoint.com,doujinantena.top,kimochi.info,sxyprn.net,sxyprn.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
 mysexgamer.com#%#//scriptlet('prevent-setTimeout', 'window.location.href = "/out.php"')
 xpornzo.com#%#//scriptlet("abort-on-property-read", "iamout")
 lesboluvin.com#%#//scriptlet("abort-on-property-read", "iamout")
@@ -20844,8 +20849,8 @@ hotmovs.com#%#//scriptlet("abort-on-property-read", "vertis.popunder.neverblock"
 hotmovs.com#%#//scriptlet("set-constant", "chanforHe.neverblock.loaderUrl", "undefined")
 get-to.link#%#//scriptlet("prevent-window-open", "exdynsrv.com")
 cshort.org#%#//scriptlet("prevent-window-open", "/(greatdexchange|onclickmega)\.com/")
-m1xdrop.bz,m1xdrop.com,m1xdrop.net,mixdrop23.net,md3b0j6hj.com,mixdrop21.net,mixdropjmk.pw,mdzsmutpcvykb.net,mdfx9dc8n.net,mdbekjwqa.pw,mixdroop.*,mixdrp.*,mixdrop.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "dtnoppu")
-m1xdrop.bz,m1xdrop.com,m1xdrop.net,mixdrop23.net,md3b0j6hj.com,mixdrop21.net,mixdropjmk.pw,mdzsmutpcvykb.net,mdfx9dc8n.net,mdbekjwqa.pw,mixdroop.*,mixdrp.*,mixdrop.*#%#//scriptlet("prevent-addEventListener", "click", "dtnoppu")
+m1xdrop.*,m1xdrop.com,m1xdrop.net,mixdrop23.net,md3b0j6hj.com,mixdrop21.net,mixdropjmk.pw,mdzsmutpcvykb.net,mdfx9dc8n.net,mdbekjwqa.pw,mixdroop.*,mixdrp.*,mixdrop.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "dtnoppu")
+m1xdrop.*,m1xdrop.com,m1xdrop.net,mixdrop23.net,md3b0j6hj.com,mixdrop21.net,mixdropjmk.pw,mdzsmutpcvykb.net,mdfx9dc8n.net,mdbekjwqa.pw,mixdroop.*,mixdrp.*,mixdrop.*#%#//scriptlet("prevent-addEventListener", "click", "dtnoppu")
 [$domain=/mi?\d?xdrop\d{0,2}\.(net|com)/]#%#//scriptlet("abort-current-inline-script", "document.createElement", "dtnoppu")
 [$domain=/mi?\d?xdrop\d{0,2}\.(net|com)/]#%#//scriptlet("prevent-addEventListener", "click", "dtnoppu")
 typingtestnow.com#%#//scriptlet("prevent-setTimeout", "replace_blank_adsense_ads")
@@ -22456,12 +22461,16 @@ vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.
 .net^|$xmlhttprequest,third-party,domain=vipleague.pm|myflixerz.to|kaido.to|swatchseries.is|hianime.nz|dbsullca.com|hdtodayz.to|hdtoday.cc|myasiantv.ac|footyroom.top|miztv.shop|movieshd.watch|watch.cricstreams.re|mega4upload.net|vixcloud.co|yuppow.com|animeunity.so|zonatmo.com|dopebox.to|viprow.nu|animeflv.net|giize.com|hianimez.*|nmac.to|daddyhd.com|daddylive.*|topcinema.*|luckypatchers.com|tvableon.me|cricstreams.re|tvableon.me|kunmanga.com|anime3rb.com|forcedtoplay.xyz|thedaddy.*|streamlord.com|forcedtoplay.xyz|youtubemp4.to|tinyzonetv.cc|y2mate.*|cuevana.*|dorawatch.net|capo6play.com|hianime.to|dlhd.dad|embedtv.net|asd.homes|mlbbox.me|ico3c.com|hianime.do|watchluna.com|fs6.lol|movielair.cc|seeflix.to|asd.pics|doramasonline.org|kisskh.ovh
 .to^|$xmlhttprequest,third-party,domain=vipleague.pm|myflixerz.to|kaido.to|swatchseries.is|hianime.nz|dbsullca.com|hdtodayz.to|hdtoday.cc|myasiantv.ac|footyroom.top|miztv.shop|movieshd.watch|watch.cricstreams.re|mega4upload.net|vixcloud.co|yuppow.com|animeunity.so|zonatmo.com|dopebox.to|viprow.nu|animeflv.net|giize.com|hianimez.*|nmac.to|daddyhd.com|daddylive.*|topcinema.*|luckypatchers.com|tvableon.me|cricstreams.re|tvableon.me|kunmanga.com|anime3rb.com|forcedtoplay.xyz|thedaddy.*|streamlord.com|forcedtoplay.xyz|youtubemp4.to|tinyzonetv.cc|y2mate.*|cuevana.*|dorawatch.net|capo6play.com|hianime.to|dlhd.dad|embedtv.net|asd.homes|mlbbox.me|ico3c.com|hianime.do|watchluna.com|fs6.lol|movielair.cc|seeflix.to|asd.pics|doramasonline.org|kisskh.ovh
 .xyz^|$xmlhttprequest,third-party,domain=vipleague.pm|myflixerz.to|kaido.to|swatchseries.is|hianime.nz|dbsullca.com|hdtodayz.to|hdtoday.cc|myasiantv.ac|footyroom.top|miztv.shop|movieshd.watch|watch.cricstreams.re|mega4upload.net|vixcloud.co|yuppow.com|animeunity.so|zonatmo.com|dopebox.to|viprow.nu|animeflv.net|giize.com|hianimez.*|nmac.to|daddyhd.com|daddylive.*|topcinema.*|luckypatchers.com|tvableon.me|cricstreams.re|tvableon.me|kunmanga.com|anime3rb.com|forcedtoplay.xyz|thedaddy.*|streamlord.com|forcedtoplay.xyz|youtubemp4.to|tinyzonetv.cc|y2mate.*|cuevana.*|dorawatch.net|capo6play.com|hianime.to|dlhd.dad|embedtv.net|asd.homes|mlbbox.me|ico3c.com|hianime.do|watchluna.com|fs6.lol|movielair.cc|seeflix.to|asd.pics|doramasonline.org|kisskh.ovh
-/\.[a-z]{2,6}\/[0-9A-Za-z]{5,7}\.js$/$script,third-party,domain=bestjavporn.com|ero-anime.website|javdock.com|javtiful.com|onscreens.me|hdpornflix.com|supjav.com|analdin.com|up4fun.top
-/\.[a-z]{2,6}\/[0-9A-Za-z]{5,7}\.js$/$script,~third-party,domain=love4porn.com|suptube.com|upload-pics.com
+/\.[a-z]{2,6}\/[0-9A-Za-z]{5,8}\.js$/$script,third-party,domain=bestjavporn.com|ero-anime.website|javdock.com|javtiful.com|onscreens.me|hdpornflix.com|supjav.com|analdin.com|up4fun.top|thefantazy.com
+/\.[a-z]{2,6}\/[0-9A-Za-z]{5,8}\.js$/$script,~third-party,domain=love4porn.com|suptube.com|upload-pics.com
 $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 techarmor.xyz##.my-ad-container
+||xmoviescdn.online/ads/ads_1.gif
+||veck.io/ads/
+weebcentral.com##div[class][style]:has(> div.notranslate > iframe[sandbox*="allow-popups"])
+weloma.art#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'dataset.zone')
 bestsexpositions.com##a[href^="https://makehersquirt.org/"]
 bestsexpositions.com##a[href^="/z/"]
 ||bestsexpositions.com/pictures/2022/07/bigger-dick-*.gif
@@ -24100,7 +24109,7 @@ cricfy.net#%#//scriptlet('abort-current-inline-script', 'googletag', '')
 windowsonarm.org##div[aria-labelledby="fui-ra"] + div table tbody > tr:has(ins.adsbygoogle)
 windowsonarm.org##.sm\:px-6.lg\:px-8 > .py-8 > div:has(ins.adsbygoogle)
 venturebeat.com##.article-body > div[class]:has(> div[id*="-"]:only-child:empty)
-bigshare.io,herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
+vidsonic.net,bigshare.io,herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
 jojo-news.com###cb-row--footer-main:has(#bottombanner)
 24porn.com##.b-head-6
 umatechnology.org###rk-exit-modal-bg
@@ -33241,7 +33250,7 @@ adz7short.space###banner_slider_right
 ||adsafeprotected.com/vast/$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||x.instreamatic.com/v2/vast/*.xml$script,xmlhttprequest,other,redirect=noopvast-3.0
 ||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com$script,xmlhttprequest,other,redirect=noopvast-2.0
-filmelier.com,ncaa.com,short.croclix.me##.banner-container
+veck.io,filmelier.com,ncaa.com,short.croclix.me##.banner-container
 adz7short.space,short.cliquebook.net,short.goldenfaucet.io##.rectangles
 ||offers4all.net^$subdocument,third-party
 guru99.com##.content6
@@ -45831,7 +45840,7 @@ implbits.com#@#.banner_container
 @@||faiusr.com^$image,stealth=referrer
 @@||watchanimesub.net^$media,stealth=referrer,domain=watchcartoononline.com
 @@||dizifilmevreni.xyz/embed/$stealth=referrer
-@@||mxcontent.net^$media,stealth=referrer,domain=m1xdrop.com|m1xdrop.bz
+@@||mxcontent.net^$media,third-party,stealth=referrer
 @@||checkout.api.scayle.cloud/next/api/$stealth=3p-auth
 @@||gse.it^$stealth=ip
 @@||kfc.com^$stealth=ip
@@ -63083,17 +63092,16 @@ browsershots.org#@#.advert_area
 ||ads-static.conde.digital^
 ||alipromo.com^
 ||alitems.com^
-||arcatogamest.com^
 ||atdmt.com^
 ||auditude.com^
 ||buyeasy.by^
+||cayargyllscajoles.cyou^
 ||demand.supply^$script
-||educated-chip.pro^
+||elasticpull.pro^
 ||fwmrm.net^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
 ||imasdk.googleapis.com^
-||impeditenomoty.com^
 ||kqzyfj.com^
 ||loadercdn.com^
 ||macro.adnami.io^
@@ -63106,7 +63114,6 @@ browsershots.org#@#.advert_area
 ||totaladblock.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
-||zambianeudeve.cyou^
 ||0i0i0i0.com^$document
 ||123-stream.org^$document
 ||1asb.com^$document
@@ -63174,6 +63181,7 @@ browsershots.org#@#.advert_area
 ||appslime.com^$document
 ||appthe.click^$document
 ||argrowlitheor.com^$document
+||asosub.org^$document
 ||astjigglypuffchan.com^$document
 ||atp.revistamuchomas.com^$document
 ||atsg.me^$document
@@ -64799,6 +64807,7 @@ browsershots.org#@#.advert_area
 ||sceno.ru^$third-party
 ||scootloor.com^$third-party
 ||scrap.me^$third-party
+||scriptwrapper.com^$third-party
 ||sedoparking.com^$third-party
 ||seedtag.com^$third-party
 ||selectad.com^$third-party
@@ -72487,6 +72496,7 @@ sammobile.com###venatus-hybrid-banner
 nutritioninsight.com###verticlblks
 mykhel.com,oneindia.com###verticleLinks
 ghgossip.com###vi-sticky-ad
+sourceforge.net###vibe-coding-bar
 investing.com###video
 forums.tomsguide.com###video_ad
 gumtree.com.au###view-item-page__leaderboard-wrapper
@@ -73645,6 +73655,7 @@ mindbodygreen.com##.bftiFX
 theepochtimes.com##.bg-\[\#f8f8f8\]
 hotnewhiphop.com##.bg-ad-bg-color
 hotnewhiphop.com##.bg-ad-text
+english.mathrubhumi.com##.bg-adBackground
 batimes.com.ar##.bg-ads-space
 bgr.com##.bg-black
 whatismyisp.com##.bg-blue-50
@@ -74939,7 +74950,7 @@ theinertia.com##.inertia-ad-300x600
 theinertia.com##.inertia-ad-label
 theinertia.com##.inertia-ad-top
 inews.co.uk##.inews__advert
-inews.co.uk##.inews__mpu
+inews.co.uk##.inews__leaderboard
 motorcycle.com##.infeed-ads
 sevenforums.com##.infeed1
 wepc.com##.infin-wepc-channels
@@ -75853,6 +75864,7 @@ bangpremier.com##.presentation-space
 bangpremier.com##.presentation-space-m-panel
 outsideonline.com##.prestitial-ad
 manutd.com##.primary-header-sponsors
+economictimes.indiatimes.com##.primeDW
 tech.hindustantimes.com##.primeDay
 advfn.com##.primis-container
 astrology.com##.primis-video-module-horoscope
@@ -76985,7 +76997,7 @@ adexchanger.com##.widget_ai_ad_widget
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,missionlocal.org,ryxy.online,shtfplan.com,thestrongtraveller.com,topcartoons.tv,usmagazine.com,wiki-topia.com##.widget_block
 wplift.com##.widget_bsa
-4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,autotalk.co.nz,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,inews.co.uk,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceandliteracy.org,seganerds.com,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com,windowslatest.com##.widget_custom_html
+4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,autotalk.co.nz,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceandliteracy.org,seganerds.com,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com,windowslatest.com##.widget_custom_html
 insidehpc.com##.widget_download_manager_widget
 domaingang.com##.widget_execphp
 bitcoinist.com##.widget_featured_companies
@@ -77515,6 +77527,7 @@ bridgebase.com##[id*="_ad"]
 homedepot.com##[id*="sponsored"]
 80.lv##[id^="Image_bner_"]
 ldoceonline.com##[id^="ad_contentslot"]
+eloshapes.com##[id^="ads-"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 beforeitsnews.com##[id^="banners_"]
 pluggedingolf.com##[id^="black-studio-tinymce-"]
@@ -78763,6 +78776,7 @@ flipkart.com##div[style="max-width:1200px;width:100%"]:has(source[srcset^="https
 thisday.app##div[style="min-height: 340px;"]:has(div.ad)
 robtex.com##div[style]:has(> ins.adsbygoogle[data-ad-slot])
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-promoted-badge])
+english.mathrubhumi.com#?#.psd\:px-0.px-\[10px\]:contains(To advertise here)
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
@@ -78814,7 +78828,7 @@ financialexpress.com##.ie-network-taboola
 indianexpress.com##.o-taboola-story
 businesstoday.in##.right_side_tabola
 sportskeeda.com##.sk-ads-taboola-container
-6abc.com,abcnews.com,goodmorningamerica.com##.taboola
+6abc.com,abcnews.com,economictimes.indiatimes.com,goodmorningamerica.com##.taboola
 india.com##.taboola-bottom
 firstpost.com##.taboola-div
 indianexpress.com##.taboola-parent
@@ -162963,6 +162977,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 ||mmdm.ru/static/users/js/login.*.js$replace=/yaCounter\d+\.reachGoal\('\w+'\);//
 ||google-analytics.com^$object,redirect=noopjs
 ||googletagmanager.com/gtag/$third-party,object,redirect=noopjs
+||remarkable.com/api/proxy/marker
 ||poocloud.in/api/event
 ||s.tgrthaber.com/s/js/stats.js
 ||mpsp.mp.br/combo/?$script
@@ -177513,6 +177528,9 @@ cmp.focus.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9[title*="Z
 ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
 ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+revolutionrace.com#%#//scriptlet('trusted-set-cookie', 'CookieConsent_ConsentMode', '{"ad_storage":"denied","analytics_storage":"denied","functionality_storage":"denied","personalization_storage":"denied","security_storage":"granted"}')
+||challenges.fr/consent/sdk/
+whiteflowerfarm.com##.simplemodal-container
 videosection.live##.cookies-reminder
 dominternet.ru##.ck-s
 fhcontent.com###cookie-wall
@@ -179850,7 +179868,7 @@ podimo.com##div[data-sentry-component="CookieConsent"]
 kaliber.pl#$#.modal-backdrop { display: none !important; }
 kaliber.pl#$#body #cookieModal { display: none !important; }
 kaliber.pl#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
-particuliers.sg.fr#%#//scriptlet('trusted-click-element', '#popin_tc_privacy_button_3')
+particuliers.sg.fr#%#//scriptlet('trusted-click-element', '#popin_tc_privacy_button_3', '', '1500')
 avery-zweckform.com,beckhoff.com,clickandprint.de#$##klaro { display: none !important; }
 avery-zweckform.com,beckhoff.com,clickandprint.de#$#.no-scroll { overflow: auto !important; }
 kaspersky.ru##section[data-at-selector="cookie-banner"]
@@ -188148,7 +188166,7 @@ samsungparavoce.com.br,saraiva.com.br##.sy-lgpd
 human.ua,kocailem.com##.cookie-message-box
 cissamagazine.com.br##.informativo-lgpd
 macronext.pl,stockwatch.pl##.cppa
-gebe.com###cookiePolicyBox
+dancenter.de,gebe.com###cookiePolicyBox
 spbtv.online,spbtvonline.ru###agreeC
 medicina.ru##.popup--policy-absolutely
 faphouse.com,xhamsterpremium.com##.cookie-policy-agree
@@ -198656,6 +198674,9 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 klerk.ru#?#iframe[src^="https://autofill.yandex.ru/suggest?"][src*="widget"]
 sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+whiteflowerfarm.com#$#.preloaded_lightbox { display: none !important; }
+whiteflowerfarm.com#$#.fb_lightbox-overlay { display: none !important; }
+whiteflowerfarm.com#$#.box_active_disable_scrolling { overflow: auto !important; overscroll-behavior: auto !important; touch-action: auto !important; }
 sentinelcolorado.com##.newspack-popup-container
 ichip.ru##.subscriber
 ichip.ru##.tg-widget
@@ -207253,7 +207274,7 @@ rosenthal.de,kiwico.com,tennisuptodate.com,publicapis.io,businessinsider.nl,usma
 ksat.com,eltrecetv.com.ar,click2houston.com,venturebeat.com,247sports.com,tetsudo.com,gamer.no,urbanize.city,clublexus.com,wsls.com,fox29.com,13newsnow.com,footballtransfers.com,fox35orlando.com,fox61.com,time.com,euobserver.com,citynews.ca,fox32chicago.com,nobelprize.org,vice.com,whattowatch.com,asia.nikkei.com,laptopmag.com,musicradar.com,airmail.news,newsweek.com,zeit.de,currentaffairs.org,financefwd.com,proprivacy.com,bikeperfect.com,bookriot.com,komando.com,tn.com.ar,whathifi.com,futurestud.io,slate.com,businessinsider.de,fastcompany.com,heise.de,history.com,itprotoday.com,jewishjournal.com,king5.com,mic.com,motherjones.com,nydailynews.com,people.com,skyscanner.com.tw##.newsletter-signup
 geox.com,365daysofbakingandmore.com,lejournaldelamaison.fr,newsbomb.gr,hartsofstur.com,vg247.com,rockpapershotgun.com,eurogamer.net,silbonshop.com,dinos.co.jp,supermagnete.de,lampenwelt.de,oxfordlearning.com,caseking.de,lidyana.com,officedepot.co.cr##.footer-newsletter
 eveningtimes.co.uk,greenocktelegraph.co.uk,heraldscotland.com,swindonadvertiser.co.uk,wiltshiretimes.co.uk##.cta-component-full-width
-nur.kz,kontur.ru,fnvolga.ru,news.bg,lifestyle.bg,topsport.bg,m-strana.ru,thebellmirror.com,gadgets360.com,cityam.com,world.hey.com,mvs.gov.ua,kontur-extern.ru,okocrm.com,lifestyleasia.com,cars.av.by,business-standard.com,holiday.by,hcdinamo.by,ural56.ru,slidstvo.info,cozumpark.com,x-team.com,m.vz.ru,shoppinglive.ru,starhit.ru,gamemag.ru,careeraddict.com,glasswire.com,starhit.ru,busfor.ua,brighteon.com,championat.com,goodhouse.ru,ichip.ru,irk.ru,thepostmillennial.com,skidochnik.com.ua##.subscription
+whiteflowerfarm.com,nur.kz,kontur.ru,fnvolga.ru,news.bg,lifestyle.bg,topsport.bg,m-strana.ru,thebellmirror.com,gadgets360.com,cityam.com,world.hey.com,mvs.gov.ua,kontur-extern.ru,okocrm.com,lifestyleasia.com,cars.av.by,business-standard.com,holiday.by,hcdinamo.by,ural56.ru,slidstvo.info,cozumpark.com,x-team.com,m.vz.ru,shoppinglive.ru,starhit.ru,gamemag.ru,careeraddict.com,glasswire.com,starhit.ru,busfor.ua,brighteon.com,championat.com,goodhouse.ru,ichip.ru,irk.ru,thepostmillennial.com,skidochnik.com.ua##.subscription
 quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,greatamericanpolitics.com,dailylol.com,clickitconservativenews.com,brasspills.com,brandonvallorani.com,affluentinvestor.com,thinkamericana.com,schaftleinreport.com##body > div[id][style*="top: 0px; width: 100%; z-index: 99999999;"]
 havahaber.com,rotaborsa.com,tovima.gr,censor.net,gazeteipekyol.com,notisclepr5c-la.com,lepoint.fr,lpnt.fr,kriptokoin.com,laodong.vn,ajanstekirdag.com,enyenimedya.com,noktabursa.com.tr##.googlenews
 energymag.gr,smnovella.com,ici.radio-canada.ca,corrierenazionale.it,trustedreviews.com,superdeluxeedition.com,schmuckwerk.de,designrush.com,hbr-russia.ru,thewrap.com,reserved.com,citizenwatch.co.uk,mitvergnuegen.com,emergencemagazine.org,afound.com,made.com,elementor.com,infosperber.ch,salzburg-airport.com,michalpasterski.pl##.newsletter-popup
@@ -207266,6 +207287,7 @@ ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocael
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
+remarkable.com###section-4:has(form)
 auto.ru##.MarkupText:has(> a[href="https://t.me/+QNkXL-nO8TsxMzEy"])
 makeuseof.com##.w-google-addus-btn
 xxxfollow.com#%#//scriptlet('set-cookie', 'slide_signup', '1', '/', 'xxxfollow.com')
@@ -216504,6 +216526,9 @@ buttondown.email#@##subscribe-form
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+meczyki.pl#$#.native-app-spacer { display: none !important; }
+meczyki.pl#$#.header-menu > .menu { top: 0 !important; }
+cargurus.com##div[class^="_appDownloadBanner_"]
 goal.com#$#.fco-app-promo-modal { display: none !important; }
 goal.com#$#html { overflow: auto !important; }
 perplexity.ai##.relative.gap-x-sm > div.animate-in:has(> button.text-inverse > div.flex > div.-mb-px)
@@ -222462,6 +222487,7 @@ www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div > img { d
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div.header-navigation { margin-top: 0 !important; }
 www.kinopoisk.ru##div[class^="trailer-promo"]
 www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-footer-promotion.subscription-title"])
+mail.google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 dominternet.ru##div[data-test="small-search"]
 dominternet.ru##.container > div[data-test="seo-texts"]:has(> p > a[href="https://dominternet.ru/providers-to-address/"])
 fhcontent.com#%#//scriptlet('trusted-click-element', '#modal-root div#one-click-premium-modal > button[data-testid="one-click-premium-modal-close"]')
@@ -233259,6 +233285,9 @@ cmp.focus.de#%#//scriptlet('trusted-click-element', '.sp_choice_type_9[title*="Z
 ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$?#div[consent-skip-blocker] { remove: true; }
 ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#body[style] { overflow: auto !important; }
 ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apotheken.de,homeoftravel.de,greenit.systems,accace.pl,entrack.pl,kraemer-it.de,teslawissen.ch,scootertechno.com,mysize.ch,aeotec.com,geschichte-wissen.de,4kfilme.de,pk.edu.pl,warzywapolowe.pl,airportwebcams.net#$#html[style] { overflow: auto !important; }
+revolutionrace.com#%#//scriptlet('trusted-set-cookie', 'CookieConsent_ConsentMode', '{"ad_storage":"denied","analytics_storage":"denied","functionality_storage":"denied","personalization_storage":"denied","security_storage":"granted"}')
+||challenges.fr/consent/sdk/
+whiteflowerfarm.com##.simplemodal-container
 videosection.live##.cookies-reminder
 dominternet.ru##.ck-s
 fhcontent.com###cookie-wall
@@ -235596,7 +235625,7 @@ podimo.com##div[data-sentry-component="CookieConsent"]
 kaliber.pl#$#.modal-backdrop { display: none !important; }
 kaliber.pl#$#body #cookieModal { display: none !important; }
 kaliber.pl#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
-particuliers.sg.fr#%#//scriptlet('trusted-click-element', '#popin_tc_privacy_button_3')
+particuliers.sg.fr#%#//scriptlet('trusted-click-element', '#popin_tc_privacy_button_3', '', '1500')
 avery-zweckform.com,beckhoff.com,clickandprint.de#$##klaro { display: none !important; }
 avery-zweckform.com,beckhoff.com,clickandprint.de#$#.no-scroll { overflow: auto !important; }
 kaspersky.ru##section[data-at-selector="cookie-banner"]
@@ -243894,7 +243923,7 @@ samsungparavoce.com.br,saraiva.com.br##.sy-lgpd
 human.ua,kocailem.com##.cookie-message-box
 cissamagazine.com.br##.informativo-lgpd
 macronext.pl,stockwatch.pl##.cppa
-gebe.com###cookiePolicyBox
+dancenter.de,gebe.com###cookiePolicyBox
 spbtv.online,spbtvonline.ru###agreeC
 medicina.ru##.popup--policy-absolutely
 faphouse.com,xhamsterpremium.com##.cookie-policy-agree
@@ -254402,6 +254431,9 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 klerk.ru#?#iframe[src^="https://autofill.yandex.ru/suggest?"][src*="widget"]
 sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+whiteflowerfarm.com#$#.preloaded_lightbox { display: none !important; }
+whiteflowerfarm.com#$#.fb_lightbox-overlay { display: none !important; }
+whiteflowerfarm.com#$#.box_active_disable_scrolling { overflow: auto !important; overscroll-behavior: auto !important; touch-action: auto !important; }
 sentinelcolorado.com##.newspack-popup-container
 ichip.ru##.subscriber
 ichip.ru##.tg-widget
@@ -262999,7 +263031,7 @@ rosenthal.de,kiwico.com,tennisuptodate.com,publicapis.io,businessinsider.nl,usma
 ksat.com,eltrecetv.com.ar,click2houston.com,venturebeat.com,247sports.com,tetsudo.com,gamer.no,urbanize.city,clublexus.com,wsls.com,fox29.com,13newsnow.com,footballtransfers.com,fox35orlando.com,fox61.com,time.com,euobserver.com,citynews.ca,fox32chicago.com,nobelprize.org,vice.com,whattowatch.com,asia.nikkei.com,laptopmag.com,musicradar.com,airmail.news,newsweek.com,zeit.de,currentaffairs.org,financefwd.com,proprivacy.com,bikeperfect.com,bookriot.com,komando.com,tn.com.ar,whathifi.com,futurestud.io,slate.com,businessinsider.de,fastcompany.com,heise.de,history.com,itprotoday.com,jewishjournal.com,king5.com,mic.com,motherjones.com,nydailynews.com,people.com,skyscanner.com.tw##.newsletter-signup
 geox.com,365daysofbakingandmore.com,lejournaldelamaison.fr,newsbomb.gr,hartsofstur.com,vg247.com,rockpapershotgun.com,eurogamer.net,silbonshop.com,dinos.co.jp,supermagnete.de,lampenwelt.de,oxfordlearning.com,caseking.de,lidyana.com,officedepot.co.cr##.footer-newsletter
 eveningtimes.co.uk,greenocktelegraph.co.uk,heraldscotland.com,swindonadvertiser.co.uk,wiltshiretimes.co.uk##.cta-component-full-width
-nur.kz,kontur.ru,fnvolga.ru,news.bg,lifestyle.bg,topsport.bg,m-strana.ru,thebellmirror.com,gadgets360.com,cityam.com,world.hey.com,mvs.gov.ua,kontur-extern.ru,okocrm.com,lifestyleasia.com,cars.av.by,business-standard.com,holiday.by,hcdinamo.by,ural56.ru,slidstvo.info,cozumpark.com,x-team.com,m.vz.ru,shoppinglive.ru,starhit.ru,gamemag.ru,careeraddict.com,glasswire.com,starhit.ru,busfor.ua,brighteon.com,championat.com,goodhouse.ru,ichip.ru,irk.ru,thepostmillennial.com,skidochnik.com.ua##.subscription
+whiteflowerfarm.com,nur.kz,kontur.ru,fnvolga.ru,news.bg,lifestyle.bg,topsport.bg,m-strana.ru,thebellmirror.com,gadgets360.com,cityam.com,world.hey.com,mvs.gov.ua,kontur-extern.ru,okocrm.com,lifestyleasia.com,cars.av.by,business-standard.com,holiday.by,hcdinamo.by,ural56.ru,slidstvo.info,cozumpark.com,x-team.com,m.vz.ru,shoppinglive.ru,starhit.ru,gamemag.ru,careeraddict.com,glasswire.com,starhit.ru,busfor.ua,brighteon.com,championat.com,goodhouse.ru,ichip.ru,irk.ru,thepostmillennial.com,skidochnik.com.ua##.subscription
 quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,greatamericanpolitics.com,dailylol.com,clickitconservativenews.com,brasspills.com,brandonvallorani.com,affluentinvestor.com,thinkamericana.com,schaftleinreport.com##body > div[id][style*="top: 0px; width: 100%; z-index: 99999999;"]
 havahaber.com,rotaborsa.com,tovima.gr,censor.net,gazeteipekyol.com,notisclepr5c-la.com,lepoint.fr,lpnt.fr,kriptokoin.com,laodong.vn,ajanstekirdag.com,enyenimedya.com,noktabursa.com.tr##.googlenews
 energymag.gr,smnovella.com,ici.radio-canada.ca,corrierenazionale.it,trustedreviews.com,superdeluxeedition.com,schmuckwerk.de,designrush.com,hbr-russia.ru,thewrap.com,reserved.com,citizenwatch.co.uk,mitvergnuegen.com,emergencemagazine.org,afound.com,made.com,elementor.com,infosperber.ch,salzburg-airport.com,michalpasterski.pl##.newsletter-popup
@@ -263012,6 +263044,7 @@ ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocael
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
+remarkable.com###section-4:has(form)
 auto.ru##.MarkupText:has(> a[href="https://t.me/+QNkXL-nO8TsxMzEy"])
 makeuseof.com##.w-google-addus-btn
 xxxfollow.com#%#//scriptlet('set-cookie', 'slide_signup', '1', '/', 'xxxfollow.com')
@@ -272250,6 +272283,9 @@ buttondown.email#@##subscribe-form
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+meczyki.pl#$#.native-app-spacer { display: none !important; }
+meczyki.pl#$#.header-menu > .menu { top: 0 !important; }
+cargurus.com##div[class^="_appDownloadBanner_"]
 goal.com#$#.fco-app-promo-modal { display: none !important; }
 goal.com#$#html { overflow: auto !important; }
 perplexity.ai##.relative.gap-x-sm > div.animate-in:has(> button.text-inverse > div.flex > div.-mb-px)
@@ -280781,6 +280817,7 @@ www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div > img { d
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div.header-navigation { margin-top: 0 !important; }
 www.kinopoisk.ru##div[class^="trailer-promo"]
 www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-footer-promotion.subscription-title"])
+mail.google.com##div[data-rp-placement-id="gemkick-pep-icon-callout-id"]
 dominternet.ru##div[data-test="small-search"]
 dominternet.ru##.container > div[data-test="seo-texts"]:has(> p > a[href="https://dominternet.ru/providers-to-address/"])
 fhcontent.com#%#//scriptlet('trusted-click-element', '#modal-root div#one-click-premium-modal > button[data-testid="one-click-premium-modal-close"]')
@@ -318328,43 +318365,40 @@ browsershots.org#@#.advert_area
 ||ads-static.conde.digital^
 ||alipromo.com^
 ||alitems.com^
-||angeletguiders.cyou^
-||arcatogamest.com^
 ||atdmt.com^
 ||auditude.com^
-||backerfogie.cyou^
+||borleybrager.cyou^
 ||buyeasy.by^
-||closhinduce.cyou^
+||cayargyllscajoles.cyou^
+||creatincodecperks.cyou^
+||debusedoptive.cyou^
 ||demand.supply^$script
-||educated-chip.pro^
+||difficultdisease.pro^
+||elasticpull.pro^
+||fasciaeraupo.cyou^
 ||fwmrm.net^
+||gbqho9jml2kxrrugu.cfd^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
+||heronsdruggy.shop^
+||hgywagesmlnw.com^
 ||imasdk.googleapis.com^
-||impeditenomoty.com^
-||itaiundowny.cfd^
-||jfjk8j2lc642epz95vkeq3knr8qr.rest^
-||juvenilecalendar.com^
+||j8pngwt16ggotzxwp9ex5ftmj4byn35.rest^
 ||kqzyfj.com^
 ||loadercdn.com^
-||lustralplea.cyou^
 ||macro.adnami.io^
 ||monetag.com^
-||nikaucaragowds.qpon^
 ||ntv.io^
-||nutritioussilver.com^
 ||ojrq.net^
+||outjutsagrapha.cfd^
 ||paid.outbrain.com^
-||panochaolibene.cfd^
-||pjgypcdpi.com^
 ||redirectingat.com^
 ||rubiconproject.com^
+||ruvidkeres.cyou^
+||salmonbestuck.qpon^
 ||totaladblock.com^
-||ven5k12mb81cjklipi8nf.cfd^
 ||videoplaza.tv^
-||wombedtetract.cfd^
 ||wpnrtnmrewunrtok.xyz^
-||zambianeudeve.cyou^
 ||0i0i0i0.com^$document
 ||123-stream.org^$document
 ||1asb.com^$document
@@ -318432,6 +318466,7 @@ browsershots.org#@#.advert_area
 ||appslime.com^$document
 ||appthe.click^$document
 ||argrowlitheor.com^$document
+||asosub.org^$document
 ||astjigglypuffchan.com^$document
 ||atp.revistamuchomas.com^$document
 ||atsg.me^$document
@@ -320058,6 +320093,7 @@ browsershots.org#@#.advert_area
 ||sceno.ru^$third-party
 ||scootloor.com^$third-party
 ||scrap.me^$third-party
+||scriptwrapper.com^$third-party
 ||sedoparking.com^$third-party
 ||seedtag.com^$third-party
 ||selectad.com^$third-party
@@ -327755,6 +327791,7 @@ sammobile.com###venatus-hybrid-banner
 nutritioninsight.com###verticlblks
 mykhel.com,oneindia.com###verticleLinks
 ghgossip.com###vi-sticky-ad
+sourceforge.net###vibe-coding-bar
 investing.com###video
 forums.tomsguide.com###video_ad
 gumtree.com.au###view-item-page__leaderboard-wrapper
@@ -328913,6 +328950,7 @@ mindbodygreen.com##.bftiFX
 theepochtimes.com##.bg-\[\#f8f8f8\]
 hotnewhiphop.com##.bg-ad-bg-color
 hotnewhiphop.com##.bg-ad-text
+english.mathrubhumi.com##.bg-adBackground
 batimes.com.ar##.bg-ads-space
 bgr.com##.bg-black
 whatismyisp.com##.bg-blue-50
@@ -330208,7 +330246,7 @@ theinertia.com##.inertia-ad-300x600
 theinertia.com##.inertia-ad-label
 theinertia.com##.inertia-ad-top
 inews.co.uk##.inews__advert
-inews.co.uk##.inews__mpu
+inews.co.uk##.inews__leaderboard
 motorcycle.com##.infeed-ads
 sevenforums.com##.infeed1
 wepc.com##.infin-wepc-channels
@@ -331122,6 +331160,7 @@ bangpremier.com##.presentation-space
 bangpremier.com##.presentation-space-m-panel
 outsideonline.com##.prestitial-ad
 manutd.com##.primary-header-sponsors
+economictimes.indiatimes.com##.primeDW
 tech.hindustantimes.com##.primeDay
 advfn.com##.primis-container
 astrology.com##.primis-video-module-horoscope
@@ -332254,7 +332293,7 @@ adexchanger.com##.widget_ai_ad_widget
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,missionlocal.org,ryxy.online,shtfplan.com,thestrongtraveller.com,topcartoons.tv,usmagazine.com,wiki-topia.com##.widget_block
 wplift.com##.widget_bsa
-4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,autotalk.co.nz,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,inews.co.uk,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceandliteracy.org,seganerds.com,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com,windowslatest.com##.widget_custom_html
+4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,autotalk.co.nz,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceandliteracy.org,seganerds.com,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com,windowslatest.com##.widget_custom_html
 insidehpc.com##.widget_download_manager_widget
 domaingang.com##.widget_execphp
 bitcoinist.com##.widget_featured_companies
@@ -332784,6 +332823,7 @@ bridgebase.com##[id*="_ad"]
 homedepot.com##[id*="sponsored"]
 80.lv##[id^="Image_bner_"]
 ldoceonline.com##[id^="ad_contentslot"]
+eloshapes.com##[id^="ads-"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 beforeitsnews.com##[id^="banners_"]
 pluggedingolf.com##[id^="black-studio-tinymce-"]
@@ -334032,6 +334072,7 @@ flipkart.com##div[style="max-width:1200px;width:100%"]:has(source[srcset^="https
 thisday.app##div[style="min-height: 340px;"]:has(div.ad)
 robtex.com##div[style]:has(> ins.adsbygoogle[data-ad-slot])
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-promoted-badge])
+english.mathrubhumi.com#?#.psd\:px-0.px-\[10px\]:has-text(To advertise here)
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
@@ -334083,7 +334124,7 @@ financialexpress.com##.ie-network-taboola
 indianexpress.com##.o-taboola-story
 businesstoday.in##.right_side_tabola
 sportskeeda.com##.sk-ads-taboola-container
-6abc.com,abcnews.com,goodmorningamerica.com##.taboola
+6abc.com,abcnews.com,economictimes.indiatimes.com,goodmorningamerica.com##.taboola
 india.com##.taboola-bottom
 firstpost.com##.taboola-div
 indianexpress.com##.taboola-parent
@@ -345335,6 +345376,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||internetfuel.com/tracking/
 ||intuitwebsites.com/tracking/
 ||io.narrative.io/?$third-party
+||ip-check-perf.radar.cloudflare.com^$third-party
 ||ippen.space/idat
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
@@ -348197,6 +348239,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reelgood.com/v3.0/checkip
 ||rei.com/customer-analytics-attributes/
 ||reichelt.com/setsid.php?
+||remarkable.com/api/proxy/marker
 ||researchgate.net/beacon/
 ||researchgate.net/track/
 ||reservationday.com/metrics/
@@ -348294,6 +348337,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||slant.co/js/track.min.js
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
+||slc.cbssports.com/events
 ||slickdeals.net/ajax/stats/
 ||slideshare.net/frontend_tracking/
 ||slipstream.skyscanner.net^
@@ -363126,6 +363170,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||tapi.kaufda.de^
 ||tarnkappe.info^$ping
 ||taz.de/count/
+||telemetry.portal.voltdeutschland.org^
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/scripts/ttt.v2.js
 ||teltarif.de^$ping
@@ -372988,6 +373033,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||baiduwangpan.cc^$all
 ||chrome-gooogle-zh.hl.cn^$all
 ||google-chrrome-zh.hl.cn^$all
+||testio.ecartdev.com^
+||applot-jp.com^$all
+||orcanmedikal.com.tr^$doc
 ||0-rw1-t.jelvax.in.net^
 ||0022a601.pphost.net^
 ||00adv0.fabulos.in.net^
@@ -373055,8 +373103,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||101.108.129.18^
 ||101.108.13.91^
 ||101.108.72.54^
+||101.108.75.66^
 ||101.109.126.23^
 ||101.109.165.63^
+||101.109.236.218^
 ||101.109.242.120^
 ||101.126.11.168^
 ||101.127.184.185^
@@ -373085,7 +373135,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||102.214.109.147^
 ||102.216.105.81^
 ||102.216.69.112^
-||102.217.36.10^
 ||102.23.89.5^
 ||102.33.47.44^
 ||102.53.15.17^
@@ -373097,7 +373146,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||103.116.190.93^
 ||103.116.38.63^
 ||103.116.52.126^
-||103.116.52.219^
 ||103.116.52.44^
 ||103.12.161.225^
 ||103.12.227.112^
@@ -373117,11 +373165,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||103.152.158.65^
 ||103.153.93.18^
 ||103.156.141.240^
-||103.159.152.118^
 ||103.160.130.104^
 ||103.160.130.109^
 ||103.160.130.7^
-||103.160.130.8^
 ||103.160.62.234^
 ||103.163.119.220^
 ||103.164.117.74^
@@ -373142,23 +373188,24 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||103.182.189.250^
 ||103.187.151.107^
 ||103.190.22.80^
+||103.194.248.230^
 ||103.197.113.219^
 ||103.199.202.160^
 ||103.20.213.34^
 ||103.203.210.102^
 ||103.203.72.209^
 ||103.203.72.70^
-||103.205.253.156^
-||103.205.253.253^
 ||103.206.139.61^
 ||103.206.205.54^
 ||103.206.207.23^
+||103.208.202.85^
 ||103.209.184.118^
 ||103.209.184.121^
 ||103.209.67.34^
 ||103.211.218.101^
 ||103.212.53.219^
 ||103.213.235.26^
+||103.217.215.238^
 ||103.217.84.226^
 ||103.220.214.246^
 ||103.220.28.184^
@@ -373167,7 +373214,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||103.236.133.81^
 ||103.236.135.177^
 ||103.236.64.121^
-||103.236.93.228^
 ||103.240.211.121^
 ||103.245.10.51^
 ||103.245.195.38^
@@ -373192,15 +373238,12 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||103.38.52.39^
 ||103.38.70.37^
 ||103.39.139.222^
-||103.40.13.122^
-||103.42.201.36^
 ||103.43.6.118^
 ||103.43.8.15^
 ||103.43.8.166^
 ||103.44.136.227^
 ||103.45.245.174^
 ||103.50.4.171^
-||103.50.4.173^
 ||103.50.4.174^
 ||103.54.153.177^
 ||103.56.149.224^
@@ -373209,6 +373252,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||103.59.134.98^
 ||103.6.179.150^
 ||103.61.243.11^
+||103.63.231.168^
 ||103.67.197.187^
 ||103.67.244.205^
 ||103.67.52.140^
@@ -373246,6 +373290,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||103.98.212.184^
 ||104.131.89.219^
 ||104.168.5.54^
+||104.168.7.52^
 ||104.168.94.108^
 ||104.187.164.149^
 ||104.193.63.208^
@@ -373264,18 +373309,24 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||105.158.29.81^
 ||105.184.169.34^
 ||105.184.179.13^
+||105.184.244.54^
 ||105.184.248.222^
 ||105.184.25.148^
 ||105.184.56.145^
 ||105.184.6.122^
 ||105.184.97.119^
 ||105.186.133.53^
+||105.186.163.239^
 ||105.186.172.191^
 ||105.186.202.128^
+||105.186.204.59^
+||105.186.209.84^
 ||105.186.239.203^
 ||105.186.248.234^
 ||105.186.254.212^
 ||105.186.73.34^
+||105.186.76.78^
+||105.187.27.211^
 ||105.187.33.60^
 ||105.187.36.223^
 ||105.187.37.109^
@@ -373305,7 +373356,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||106.4.101.215^
 ||106.40.241.149^
 ||106.40.242.67^
-||106.40.66.159^
 ||106.41.138.93^
 ||106.41.74.112^
 ||106.46.104.42^
@@ -373320,13 +373370,14 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||106.56.148.106^
 ||106.56.150.238^
 ||106.57.1.231^
-||106.57.1.25^
 ||106.57.1.63^
+||106.58.108.152^
 ||106.58.126.176^
 ||106.58.23.214^
 ||106.58.23.242^
 ||106.59.0.186^
 ||106.59.100.71^
+||106.59.120.149^
 ||106.59.6.215^
 ||106.75.215.96^
 ||107.128.101.219^
@@ -373375,10 +373426,8 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||109.195.14.161^
 ||109.198.193.141^
 ||109.199.254.48^
-||109.202.63.7^
 ||109.205.213.2^
 ||109.207.217.114^
-||109.229.224.26^
 ||109.236.46.199^
 ||109.236.48.121^
 ||109.245.220.229^
@@ -373408,6 +373457,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.137.158.208^
 ||110.138.13.249^
 ||110.138.135.27^
+||110.139.32.232^
 ||110.182.236.7^
 ||110.182.252.233^
 ||110.182.252.249^
@@ -373421,7 +373471,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.186.231.184^
 ||110.186.231.22^
 ||110.186.231.59^
-||110.227.197.204^
 ||110.24.36.14^
 ||110.24.36.6^
 ||110.246.225.30^
@@ -373430,7 +373479,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.36.0.104^
 ||110.36.0.107^
 ||110.36.0.116^
-||110.36.0.129^
 ||110.36.0.159^
 ||110.36.0.174^
 ||110.36.0.175^
@@ -373443,7 +373491,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.36.14.229^
 ||110.36.14.252^
 ||110.36.15.110^
-||110.36.15.176^
 ||110.36.15.184^
 ||110.36.15.18^
 ||110.36.15.190^
@@ -373477,7 +373524,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.36.29.74^
 ||110.36.29.75^
 ||110.36.29.76^
-||110.36.29.78^
 ||110.36.29.81^
 ||110.36.30.247^
 ||110.36.30.37^
@@ -373583,7 +373629,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.37.112.55^
 ||110.37.112.66^
 ||110.37.114.13^
-||110.37.114.248^
 ||110.37.114.50^
 ||110.37.115.12^
 ||110.37.115.167^
@@ -373716,7 +373761,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.37.44.254^
 ||110.37.45.161^
 ||110.37.45.166^
-||110.37.45.1^
 ||110.37.45.243^
 ||110.37.46.191^
 ||110.37.46.245^
@@ -373780,7 +373824,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.37.66.64^
 ||110.37.66.78^
 ||110.37.66.90^
-||110.37.67.117^
 ||110.37.67.134^
 ||110.37.67.175^
 ||110.37.67.34^
@@ -373809,7 +373852,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.37.74.239^
 ||110.37.74.45^
 ||110.37.76.11^
-||110.37.76.16^
 ||110.37.76.189^
 ||110.37.76.196^
 ||110.37.77.143^
@@ -373857,7 +373899,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.37.94.225^
 ||110.37.95.117^
 ||110.37.95.229^
-||110.37.95.238^
 ||110.37.95.41^
 ||110.37.96.168^
 ||110.37.96.210^
@@ -373872,7 +373913,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.37.98.220^
 ||110.37.99.111^
 ||110.37.99.117^
-||110.37.99.38^
 ||110.37.99.51^
 ||110.38.192.158^
 ||110.38.192.30^
@@ -373922,7 +373962,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.38.221.182^
 ||110.38.222.159^
 ||110.38.223.5^
-||110.39.224.203^
 ||110.39.225.163^
 ||110.39.225.173^
 ||110.39.225.86^
@@ -374005,7 +374044,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||110.39.41.202^
 ||110.4.13.252^
 ||110.40.198.62^
-||110.42.39.182^
 ||110.73.248.207^
 ||110.74.195.77^
 ||110.74.207.194^
@@ -374063,6 +374101,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.140.191.204^
 ||112.163.117.220^
 ||112.168.60.136^
+||112.186.242.171^
 ||112.198.130.112^
 ||112.198.132.186^
 ||112.198.132.215^
@@ -374081,6 +374120,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.225.168.230^
 ||112.225.175.193^
 ||112.225.177.104^
+||112.225.177.204^
 ||112.225.195.111^
 ||112.225.204.66^
 ||112.225.48.155^
@@ -374120,11 +374160,11 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.238.57.118^
 ||112.238.7.133^
 ||112.239.101.126^
-||112.239.101.175^
 ||112.239.101.195^
 ||112.239.101.228^
 ||112.239.101.73^
 ||112.239.102.165^
+||112.239.102.211^
 ||112.239.102.248^
 ||112.239.103.185^
 ||112.239.103.253^
@@ -374186,6 +374226,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.246.22.35^
 ||112.246.99.21^
 ||112.247.12.53^
+||112.247.41.139^
 ||112.247.85.100^
 ||112.248.0.74^
 ||112.248.1.104^
@@ -374199,7 +374240,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.248.102.23^
 ||112.248.103.155^
 ||112.248.103.181^
-||112.248.103.183^
 ||112.248.104.126^
 ||112.248.104.143^
 ||112.248.104.195^
@@ -374211,7 +374251,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.248.107.131^
 ||112.248.107.177^
 ||112.248.107.253^
-||112.248.108.135^
 ||112.248.108.163^
 ||112.248.108.165^
 ||112.248.108.183^
@@ -374269,7 +374308,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.248.185.131^
 ||112.248.185.73^
 ||112.248.186.109^
-||112.248.186.142^
 ||112.248.186.172^
 ||112.248.186.48^
 ||112.248.187.241^
@@ -374319,7 +374357,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.249.64.233^
 ||112.249.70.74^
 ||112.249.75.12^
-||112.249.76.194^
 ||112.249.76.235^
 ||112.249.78.255^
 ||112.249.80.38^
@@ -374337,6 +374374,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||112.252.242.46^
 ||112.252.245.240^
 ||112.253.106.104^
+||112.253.117.78^
 ||112.253.99.65^
 ||112.254.105.46^
 ||112.254.185.20^
@@ -374395,7 +374433,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||113.180.188.90^
 ||113.182.204.67^
 ||113.187.37.200^
-||113.187.64.0^
 ||113.190.22.119^
 ||113.190.234.214^
 ||113.191.207.19^
@@ -374466,7 +374503,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||113.228.97.216^
 ||113.228.99.55^
 ||113.229.109.213^
-||113.229.109.46^
 ||113.229.117.101^
 ||113.229.117.109^
 ||113.229.117.10^
@@ -374508,7 +374544,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||113.230.94.250^
 ||113.231.120.31^
 ||113.231.124.245^
-||113.231.198.228^
 ||113.231.204.212^
 ||113.231.217.145^
 ||113.231.225.175^
@@ -374564,6 +374599,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||113.237.101.50^
 ||113.237.106.40^
 ||113.237.108.187^
+||113.237.109.187^
 ||113.237.110.99^
 ||113.237.111.57^
 ||113.237.162.75^
@@ -374630,7 +374666,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||113.239.69.15^
 ||113.239.69.238^
 ||113.249.12.115^
-||113.25.104.111^
 ||113.250.188.15^
 ||113.251.80.141^
 ||113.251.83.92^
@@ -374647,6 +374682,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||113.75.12.5^
 ||113.75.27.151^
 ||113.75.76.23^
+||113.94.31.173^
 ||113.94.31.225^
 ||113.94.58.172^
 ||113.98.201.248^
@@ -374655,11 +374691,11 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||114.129.49.131^
 ||114.132.86.182^
 ||114.134.251.144^
-||114.143.158.122^
 ||114.182.56.191^
 ||114.198.242.134^
 ||114.215.193.12^
 ||114.217.63.147^
+||114.218.212.110^
 ||114.219.156.119^
 ||114.226.120.51^
 ||114.226.127.57^
@@ -374698,6 +374734,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||114.66.51.223^
 ||114.66.52.198^
 ||114.7.160.114^
+||114.7.203.130^
 ||114.7.203.142^
 ||114.7.209.193^
 ||115.120.245.134^
@@ -374752,7 +374789,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.48.145.242^
 ||115.48.146.103^
 ||115.48.146.113^
-||115.48.146.251^
 ||115.48.146.32^
 ||115.48.146.33^
 ||115.48.146.54^
@@ -374787,7 +374823,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.48.152.135^
 ||115.48.152.187^
 ||115.48.152.19^
-||115.48.152.209^
 ||115.48.152.28^
 ||115.48.152.36^
 ||115.48.152.83^
@@ -374833,7 +374868,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.48.239.47^
 ||115.48.26.244^
 ||115.48.27.222^
-||115.48.3.125^
 ||115.48.34.150^
 ||115.48.34.161^
 ||115.48.35.196^
@@ -374889,7 +374923,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.49.2.54^
 ||115.49.200.113^
 ||115.49.200.123^
-||115.49.200.162^
 ||115.49.201.174^
 ||115.49.201.205^
 ||115.49.201.246^
@@ -375041,7 +375074,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.50.156.118^
 ||115.50.157.88^
 ||115.50.169.33^
-||115.50.175.20^
 ||115.50.176.154^
 ||115.50.177.138^
 ||115.50.178.28^
@@ -375078,6 +375110,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.50.226.133^
 ||115.50.226.71^
 ||115.50.226.99^
+||115.50.227.28^
 ||115.50.227.97^
 ||115.50.228.2^
 ||115.50.228.76^
@@ -375294,7 +375327,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.53.223.134^
 ||115.53.223.191^
 ||115.53.223.204^
-||115.53.23.211^
 ||115.53.243.132^
 ||115.53.245.106^
 ||115.53.27.166^
@@ -375312,6 +375344,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.54.121.157^
 ||115.54.123.224^
 ||115.54.124.15^
+||115.54.126.238^
 ||115.54.126.6^
 ||115.54.128.98^
 ||115.54.133.201^
@@ -375363,6 +375396,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.55.147.49^
 ||115.55.157.244^
 ||115.55.162.33^
+||115.55.163.38^
 ||115.55.167.26^
 ||115.55.172.194^
 ||115.55.172.59^
@@ -375370,17 +375404,18 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.55.174.104^
 ||115.55.174.218^
 ||115.55.175.144^
-||115.55.176.34^
 ||115.55.182.7^
 ||115.55.183.170^
 ||115.55.186.62^
 ||115.55.187.104^
 ||115.55.189.111^
+||115.55.191.129^
 ||115.55.191.138^
 ||115.55.192.171^
 ||115.55.192.186^
 ||115.55.192.201^
 ||115.55.193.115^
+||115.55.193.127^
 ||115.55.193.214^
 ||115.55.193.216^
 ||115.55.193.95^
@@ -375401,7 +375436,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.55.203.54^
 ||115.55.206.112^
 ||115.55.206.23^
-||115.55.207.224^
 ||115.55.207.47^
 ||115.55.207.73^
 ||115.55.21.121^
@@ -375533,7 +375567,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.55.48.159^
 ||115.55.48.204^
 ||115.55.49.129^
-||115.55.49.22^
 ||115.55.49.231^
 ||115.55.49.236^
 ||115.55.5.68^
@@ -375581,7 +375614,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.55.6.78^
 ||115.55.60.118^
 ||115.55.60.126^
-||115.55.60.72^
 ||115.55.60.76^
 ||115.55.61.105^
 ||115.55.61.230^
@@ -375674,8 +375706,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.56.159.25^
 ||115.56.159.66^
 ||115.56.160.225^
-||115.56.161.216^
-||115.56.164.191^
 ||115.56.165.223^
 ||115.56.167.171^
 ||115.56.167.58^
@@ -375805,6 +375835,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.58.135.224^
 ||115.58.14.107^
 ||115.58.14.147^
+||115.58.143.228^
 ||115.58.144.213^
 ||115.58.145.121^
 ||115.58.146.227^
@@ -375812,10 +375843,12 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.58.148.202^
 ||115.58.148.51^
 ||115.58.149.142^
+||115.58.149.156^
 ||115.58.149.207^
 ||115.58.15.132^
 ||115.58.15.169^
 ||115.58.156.96^
+||115.58.159.7^
 ||115.58.160.77^
 ||115.58.161.127^
 ||115.58.161.24^
@@ -375964,7 +375997,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.62.135.18^
 ||115.62.144.139^
 ||115.62.144.231^
-||115.62.145.15^
 ||115.62.147.80^
 ||115.62.148.53^
 ||115.62.15.6^
@@ -376029,6 +376061,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.63.14.17^
 ||115.63.14.185^
 ||115.63.14.227^
+||115.63.14.247^
 ||115.63.14.38^
 ||115.63.144.118^
 ||115.63.144.13^
@@ -376037,6 +376070,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.63.145.85^
 ||115.63.146.50^
 ||115.63.147.110^
+||115.63.148.113^
 ||115.63.148.18^
 ||115.63.148.252^
 ||115.63.149.131^
@@ -376062,6 +376096,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.63.190.14^
 ||115.63.190.248^
 ||115.63.200.132^
+||115.63.200.200^
 ||115.63.201.44^
 ||115.63.202.34^
 ||115.63.202.84^
@@ -376077,7 +376112,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.63.244.21^
 ||115.63.245.54^
 ||115.63.248.233^
-||115.63.249.115^
 ||115.63.250.238^
 ||115.63.32.205^
 ||115.63.34.97^
@@ -376109,7 +376143,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||115.63.52.240^
 ||115.63.52.54^
 ||115.63.52.99^
-||115.63.53.110^
 ||115.63.53.247^
 ||115.63.54.143^
 ||115.63.55.105^
@@ -376174,7 +376207,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||116.138.190.123^
 ||116.138.204.171^
 ||116.138.205.105^
-||116.138.219.163^
 ||116.138.223.97^
 ||116.138.242.61^
 ||116.138.244.143^
@@ -376203,6 +376235,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||116.139.26.230^
 ||116.139.33.154^
 ||116.139.42.16^
+||116.139.42.42^
 ||116.139.55.203^
 ||116.139.81.20^
 ||116.139.83.2^
@@ -376223,10 +376256,12 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||116.149.28.146^
 ||116.171.106.3^
 ||116.196.82.90^
+||116.198.233.179^
 ||116.2.55.4^
 ||116.2.58.106^
 ||116.2.87.35^
 ||116.202.108.183^
+||116.24.189.249^
 ||116.248.120.213^
 ||116.248.121.149^
 ||116.248.130.71^
@@ -376234,7 +376269,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||116.25.133.33^
 ||116.48.27.129^
 ||116.48.27.182^
-||116.48.27.3^
 ||116.48.27.92^
 ||116.53.31.41^
 ||116.54.62.135^
@@ -376255,10 +376289,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||116.91.125.215^
 ||117.131.92.150^
 ||117.146.92.46^
-||117.157.17.194^
 ||117.190.134.254^
 ||117.192.120.205^
 ||117.192.120.224^
+||117.192.121.248^
 ||117.192.123.26^
 ||117.192.125.225^
 ||117.192.127.12^
@@ -376316,7 +376350,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.196.172.101^
 ||117.196.172.138^
 ||117.196.172.139^
-||117.196.172.213^
 ||117.196.173.99^
 ||117.196.175.15^
 ||117.196.175.224^
@@ -376355,7 +376388,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.198.198.162^
 ||117.198.198.94^
 ||117.198.199.177^
-||117.198.20.63^
 ||117.198.202.115^
 ||117.198.203.205^
 ||117.198.205.219^
@@ -376379,6 +376411,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.199.73.108^
 ||117.199.77.240^
 ||117.2.125.90^
+||117.20.17.17^
 ||117.20.27.25^
 ||117.200.114.67^
 ||117.200.115.19^
@@ -376421,9 +376454,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.204.164.52^
 ||117.204.164.55^
 ||117.204.164.95^
-||117.204.165.118^
 ||117.204.165.238^
 ||117.204.165.244^
+||117.204.165.62^
 ||117.204.166.147^
 ||117.204.166.169^
 ||117.204.166.254^
@@ -376444,6 +376477,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.205.165.178^
 ||117.205.166.218^
 ||117.205.167.105^
+||117.205.168.128^
 ||117.205.168.233^
 ||117.205.169.104^
 ||117.205.171.21^
@@ -376470,6 +376504,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.205.90.51^
 ||117.205.91.222^
 ||117.205.91.224^
+||117.205.92.162^
 ||117.205.92.208^
 ||117.205.92.22^
 ||117.205.92.242^
@@ -376499,6 +376534,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.206.27.73^
 ||117.206.29.125^
 ||117.206.30.138^
+||117.206.31.192^
 ||117.206.31.45^
 ||117.206.36.109^
 ||117.206.36.136^
@@ -376525,6 +376561,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.207.116.151^
 ||117.207.118.36^
 ||117.207.203.251^
+||117.207.82.146^
 ||117.208.121.14^
 ||117.208.123.71^
 ||117.208.160.63^
@@ -376546,7 +376583,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.208.255.133^
 ||117.208.255.234^
 ||117.208.72.69^
-||117.208.88.48^
 ||117.208.98.2^
 ||117.209.0.103^
 ||117.209.0.154^
@@ -376632,6 +376668,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.209.16.206^
 ||117.209.16.20^
 ||117.209.16.211^
+||117.209.16.233^
 ||117.209.16.242^
 ||117.209.16.244^
 ||117.209.16.24^
@@ -376720,7 +376757,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.209.23.175^
 ||117.209.23.179^
 ||117.209.23.209^
-||117.209.23.20^
 ||117.209.23.220^
 ||117.209.23.234^
 ||117.209.23.241^
@@ -377143,7 +377179,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.209.95.234^
 ||117.209.95.27^
 ||117.209.95.31^
-||117.209.95.34^
 ||117.209.95.37^
 ||117.209.95.3^
 ||117.209.95.42^
@@ -377229,7 +377264,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.214.81.110^
 ||117.215.129.223^
 ||117.215.180.55^
-||117.215.182.215^
 ||117.215.187.106^
 ||117.215.190.120^
 ||117.215.208.100^
@@ -377544,6 +377578,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.241.204.71^
 ||117.241.205.114^
 ||117.241.205.197^
+||117.241.219.214^
 ||117.241.49.203^
 ||117.241.50.219^
 ||117.241.51.251^
@@ -377564,7 +377599,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.241.74.14^
 ||117.241.78.146^
 ||117.241.83.131^
-||117.241.86.163^
 ||117.241.87.158^
 ||117.241.93.90^
 ||117.241.95.105^
@@ -377573,7 +377607,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.242.203.52^
 ||117.242.207.178^
 ||117.242.224.204^
-||117.242.225.62^
 ||117.242.232.153^
 ||117.242.235.254^
 ||117.242.236.138^
@@ -377658,7 +377691,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||117.248.26.134^
 ||117.248.26.165^
 ||117.248.26.186^
-||117.248.26.3^
 ||117.248.26.62^
 ||117.248.27.139^
 ||117.248.27.146^
@@ -377747,7 +377779,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||118.136.158.12^
 ||118.139.167.36^
 ||118.140.76.210^
-||118.141.249.234^
 ||118.175.206.228^
 ||118.175.84.43^
 ||118.178.133.241^
@@ -377777,6 +377808,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||118.38.58.242^
 ||118.42.229.80^
 ||118.43.201.85^
+||118.44.144.198^
 ||118.46.63.2^
 ||118.68.254.207^
 ||118.69.157.212^
@@ -377882,6 +377914,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||119.117.252.250^
 ||119.117.253.142^
 ||119.117.253.170^
+||119.117.255.165^
 ||119.117.62.67^
 ||119.117.74.10^
 ||119.117.74.203^
@@ -377897,7 +377930,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||119.156.133.244^
 ||119.162.228.112^
 ||119.162.66.3^
-||119.163.232.127^
 ||119.163.91.73^
 ||119.164.12.224^
 ||119.164.204.174^
@@ -377922,8 +377954,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||119.179.237.255^
 ||119.179.237.29^
 ||119.179.237.71^
+||119.179.238.14^
 ||119.179.238.165^
 ||119.179.238.197^
+||119.179.238.229^
 ||119.179.238.241^
 ||119.179.238.44^
 ||119.179.239.109^
@@ -377942,7 +377976,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||119.179.252.119^
 ||119.179.252.133^
 ||119.179.252.167^
-||119.179.252.181^
 ||119.179.252.206^
 ||119.179.252.228^
 ||119.179.252.253^
@@ -377985,6 +378018,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||119.185.131.145^
 ||119.185.142.84^
 ||119.185.149.26^
+||119.185.158.1^
 ||119.185.162.76^
 ||119.185.168.247^
 ||119.185.169.199^
@@ -378054,7 +378088,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||119.189.237.116^
 ||119.189.237.48^
 ||119.189.241.38^
-||119.190.16.223^
 ||119.193.158.215^
 ||119.200.78.153^
 ||119.202.194.206^
@@ -378116,6 +378149,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||120.28.109.102^
 ||120.28.119.54^
 ||120.28.124.40^
+||120.28.139.121^
 ||120.28.139.94^
 ||120.28.144.161^
 ||120.28.160.164^
@@ -378338,7 +378372,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||122.170.110.131^
 ||122.170.8.40^
 ||122.179.136.112^
-||122.189.11.31^
 ||122.190.162.101^
 ||122.193.144.157^
 ||122.193.74.168^
@@ -378373,12 +378406,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.10.156.71^
 ||123.10.159.114^
 ||123.10.2.23^
-||123.10.200.47^
 ||123.10.203.252^
 ||123.10.203.70^
 ||123.10.230.211^
 ||123.10.230.86^
-||123.10.233.158^
 ||123.10.233.185^
 ||123.10.234.36^
 ||123.10.235.140^
@@ -378416,7 +378447,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.11.13.12^
 ||123.11.13.207^
 ||123.11.131.80^
-||123.11.135.239^
 ||123.11.14.145^
 ||123.11.14.211^
 ||123.11.14.55^
@@ -378445,8 +378475,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.11.241.158^
 ||123.11.241.179^
 ||123.11.241.196^
-||123.11.242.108^
-||123.11.242.140^
 ||123.11.242.7^
 ||123.11.243.100^
 ||123.11.243.242^
@@ -378474,6 +378502,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.11.76.32^
 ||123.11.76.47^
 ||123.11.76.99^
+||123.11.77.0^
 ||123.11.77.120^
 ||123.11.77.141^
 ||123.11.77.144^
@@ -378484,6 +378513,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.11.77.69^
 ||123.11.77.92^
 ||123.11.78.17^
+||123.11.78.220^
 ||123.11.78.255^
 ||123.11.79.144^
 ||123.11.79.84^
@@ -378575,6 +378605,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.12.40.125^
 ||123.12.42.194^
 ||123.12.42.68^
+||123.12.46.208^
 ||123.12.47.238^
 ||123.12.81.131^
 ||123.12.86.6^
@@ -378595,6 +378626,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.129.132.142^
 ||123.129.132.154^
 ||123.129.132.220^
+||123.129.132.231^
 ||123.129.133.112^
 ||123.129.133.131^
 ||123.129.133.199^
@@ -378649,7 +378681,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.130.207.72^
 ||123.130.37.177^
 ||123.132.156.16^
-||123.132.157.221^
 ||123.132.158.115^
 ||123.132.159.27^
 ||123.132.163.250^
@@ -378684,6 +378715,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.14.17.138^
 ||123.14.17.21^
 ||123.14.176.113^
+||123.14.177.53^
 ||123.14.180.117^
 ||123.14.180.160^
 ||123.14.183.164^
@@ -378711,6 +378743,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.14.238.168^
 ||123.14.244.38^
 ||123.14.245.201^
+||123.14.246.160^
 ||123.14.246.227^
 ||123.14.246.96^
 ||123.14.251.136^
@@ -378726,7 +378759,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.14.34.129^
 ||123.14.34.29^
 ||123.14.34.54^
-||123.14.36.117^
+||123.14.36.191^
 ||123.14.37.70^
 ||123.14.38.67^
 ||123.14.39.202^
@@ -378797,7 +378830,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.188.56.156^
 ||123.188.56.220^
 ||123.188.60.20^
-||123.188.62.106^
 ||123.188.64.18^
 ||123.188.65.34^
 ||123.188.69.156^
@@ -378806,7 +378838,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.188.72.7^
 ||123.188.74.122^
 ||123.188.74.148^
-||123.188.74.172^
 ||123.188.75.170^
 ||123.188.76.21^
 ||123.188.76.90^
@@ -378915,6 +378946,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.235.183.69^
 ||123.235.242.150^
 ||123.235.242.43^
+||123.235.72.116^
 ||123.235.95.85^
 ||123.24.64.77^
 ||123.245.108.32^
@@ -378972,7 +379004,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.4.249.207^
 ||123.4.29.101^
 ||123.4.32.142^
-||123.4.33.115^
 ||123.4.44.15^
 ||123.4.44.42^
 ||123.4.45.90^
@@ -379039,7 +379070,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.5.161.25^
 ||123.5.168.13^
 ||123.5.168.145^
-||123.5.168.6^
 ||123.5.168.73^
 ||123.5.168.83^
 ||123.5.169.250^
@@ -379114,6 +379144,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.7.227.37^
 ||123.7.237.39^
 ||123.7.238.71^
+||123.7.239.121^
 ||123.7.240.22^
 ||123.7.41.192^
 ||123.7.97.109^
@@ -379143,7 +379174,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.8.178.134^
 ||123.8.18.232^
 ||123.8.180.30^
-||123.8.181.57^
 ||123.8.182.85^
 ||123.8.186.210^
 ||123.8.186.6^
@@ -379264,7 +379294,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||123.9.93.175^
 ||123.9.95.95^
 ||123.9.99.242^
-||123.99.197.19^
 ||123.99.198.195^
 ||123.ywxww.net^
 ||124.11.64.42^
@@ -379404,7 +379433,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||124.94.171.210^
 ||124.94.171.23^
 ||124.94.173.9^
-||124.94.192.207^
 ||124.94.192.24^
 ||124.94.201.68^
 ||124.94.205.151^
@@ -379429,6 +379457,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||124.95.22.65^
 ||124.95.26.117^
 ||124.95.4.241^
+||124.95.40.217^
 ||124.95.41.191^
 ||124.95.44.164^
 ||124.95.8.227^
@@ -379442,11 +379471,13 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.118.141.22^
 ||125.120.250.204^
 ||125.147.166.152^
+||125.160.139.26^
 ||125.160.141.81^
 ||125.160.190.96^
 ||125.160.223.217^
 ||125.161.142.194^
 ||125.161.166.159^
+||125.161.249.66^
 ||125.162.229.209^
 ||125.162.87.188^
 ||125.163.157.37^
@@ -379454,11 +379485,11 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.167.189.139^
 ||125.19.150.122^
 ||125.198.18.91^
-||125.20.254.34^
 ||125.211.8.231^
 ||125.25.50.187^
 ||125.26.202.100^
 ||125.27.206.150^
+||125.40.0.118^
 ||125.40.1.108^
 ||125.40.108.152^
 ||125.40.11.53^
@@ -379474,7 +379505,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.40.123.244^
 ||125.40.129.126^
 ||125.40.139.118^
-||125.40.144.203^
 ||125.40.147.15^
 ||125.40.147.95^
 ||125.40.153.144^
@@ -379506,7 +379536,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.40.46.250^
 ||125.40.50.241^
 ||125.40.54.129^
-||125.40.56.83^
 ||125.40.57.193^
 ||125.40.68.213^
 ||125.40.74.120^
@@ -379539,6 +379568,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.41.103.139^
 ||125.41.103.53^
 ||125.41.104.30^
+||125.41.106.222^
 ||125.41.108.155^
 ||125.41.109.105^
 ||125.41.111.29^
@@ -379607,6 +379637,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.41.231.122^
 ||125.41.231.39^
 ||125.41.240.129^
+||125.41.244.29^
 ||125.41.245.206^
 ||125.41.246.228^
 ||125.41.247.110^
@@ -379694,6 +379725,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.43.11.226^
 ||125.43.124.82^
 ||125.43.126.42^
+||125.43.127.6^
 ||125.43.145.179^
 ||125.43.146.99^
 ||125.43.17.184^
@@ -379719,7 +379751,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.43.230.219^
 ||125.43.230.227^
 ||125.43.230.243^
-||125.43.230.79^
 ||125.43.230.9^
 ||125.43.231.156^
 ||125.43.231.97^
@@ -379829,7 +379860,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.44.29.30^
 ||125.44.31.15^
 ||125.44.33.232^
-||125.44.33.79^
 ||125.44.34.72^
 ||125.44.35.143^
 ||125.44.36.163^
@@ -379904,7 +379934,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.45.67.251^
 ||125.45.8.108^
 ||125.45.8.113^
-||125.45.8.128^
 ||125.45.8.154^
 ||125.45.8.158^
 ||125.45.8.68^
@@ -379921,7 +379950,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.46.198.249^
 ||125.46.198.85^
 ||125.46.199.134^
-||125.46.199.152^
 ||125.46.199.27^
 ||125.46.199.29^
 ||125.46.199.43^
@@ -379948,7 +379976,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||125.47.223.205^
 ||125.47.228.61^
 ||125.47.229.149^
-||125.47.229.224^
 ||125.47.229.22^
 ||125.47.243.29^
 ||125.47.251.102^
@@ -380088,6 +380115,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||139.218.43.94^
 ||139.224.16.185^
 ||139.255.67.189^
+||139.255.97.116^
 ||139.5.0.216^
 ||139.59.101.21^
 ||139.59.119.89^
@@ -380156,7 +380184,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||140.237.44.4^
 ||141-98-10-64.cprapid.com^
 ||141.11.107.134^
-||141.11.240.103^
 ||141.134.214.217^
 ||141.134.214.46^
 ||141.147.43.219^
@@ -380166,7 +380193,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||141.196.207.18^
 ||141.237.242.31^
 ||141.98.10.64^
-||142.11.209.25^
 ||142.113.182.186^
 ||142.171.223.34^
 ||142.248.228.197^
@@ -380348,7 +380374,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||153.179.12.165^
 ||153.199.144.178^
 ||153.232.246.106^
-||153.35.159.3^
 ||153.37.228.2^
 ||153.37.77.156^
 ||1533o.checkingsum.in.net^
@@ -380362,12 +380387,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||154.53.161.119^
 ||154.6.197.41^
 ||154.73.139.50^
-||154.73.64.16^
 ||154.84.212.18^
 ||154.9.241.34^
 ||155.117.155.45^
 ||155.2.213.252^
-||156.155.176.210^
 ||156.200.99.139^
 ||156.224.28.186^
 ||156.224.79.221^
@@ -380389,6 +380412,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||157.10.63.251^
 ||157.119.47.126^
 ||157.15.112.45^
+||157.157.252.77^
 ||157.230.250.192^
 ||157.230.43.57^
 ||157.245.121.29^
@@ -380448,7 +380472,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||160.177.32.125^
 ||160.179.232.22^
 ||160.202.15.212^
-||160.25.8.42^
 ||160.250.225.17^
 ||160.30.142.2^
 ||160.30.159.104^
@@ -380460,10 +380483,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||161.97.112.116^
 ||161.97.148.194^
 ||161.97.97.79^
-||162.19.205.62^
 ||162.194.8.169^
 ||162.212.153.138^
 ||162.215.130.152^
+||162.215.170.152^
 ||162.215.218.82^
 ||162.219.216.183^
 ||162.240.179.212^
@@ -380543,6 +380566,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||168.222.251.98^
 ||168.227.163.32^
 ||168.227.66.143^
+||168.227.66.240^
 ||168.228.6.22^
 ||168.232.158.148^
 ||168.70.85.60^
@@ -380552,10 +380576,13 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||169.40.135.69^
 ||169.40.135.84^
 ||170.0.60.80^
+||170.239.144.160^
 ||170.239.87.229^
+||170.244.180.22^
 ||170.246.163.25^
 ||170.247.148.41^
 ||170.254.10.212^
+||170.254.10.213^
 ||170.55.7.234^
 ||170.64.221.190^
 ||170.64.234.187^
@@ -380630,6 +380657,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||173.54.186.2^
 ||174.105.154.212^
 ||174.138.43.79^
+||174.142.195.203^
 ||174.163.48.188^
 ||174.34.242.140^
 ||174.34.242.49^
@@ -380639,6 +380667,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.0.66.172^
 ||175.0.72.159^
 ||175.0.74.173^
+||175.10.24.108^
 ||175.106.11.242^
 ||175.11.89.31^
 ||175.120.108.86^
@@ -380665,6 +380694,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.146.53.138^
 ||175.146.6.19^
 ||175.146.87.106^
+||175.146.87.186^
 ||175.147.111.116^
 ||175.147.152.208^
 ||175.147.153.201^
@@ -380676,12 +380706,12 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.147.195.5^
 ||175.147.198.141^
 ||175.147.198.22^
+||175.147.198.32^
 ||175.147.199.245^
 ||175.147.227.255^
 ||175.147.230.226^
 ||175.147.234.94^
 ||175.147.246.29^
-||175.147.247.132^
 ||175.147.252.128^
 ||175.147.253.93^
 ||175.147.48.229^
@@ -380727,11 +380757,11 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.148.188.65^
 ||175.148.200.20^
 ||175.148.210.121^
+||175.148.214.98^
 ||175.148.23.45^
 ||175.148.24.150^
 ||175.148.245.63^
 ||175.148.44.4^
-||175.148.56.87^
 ||175.148.72.112^
 ||175.149.108.152^
 ||175.149.113.54^
@@ -380762,7 +380792,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.150.114.213^
 ||175.150.130.111^
 ||175.150.133.224^
-||175.150.177.47^
 ||175.150.178.144^
 ||175.150.178.37^
 ||175.150.179.108^
@@ -380831,6 +380860,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.165.80.153^
 ||175.165.80.194^
 ||175.165.80.214^
+||175.165.80.251^
 ||175.165.80.253^
 ||175.165.81.140^
 ||175.165.81.178^
@@ -380844,11 +380874,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.165.82.231^
 ||175.165.82.36^
 ||175.165.82.70^
-||175.165.83.100^
 ||175.165.83.222^
 ||175.165.83.57^
 ||175.165.83.61^
-||175.165.83.75^
 ||175.165.84.104^
 ||175.165.84.139^
 ||175.165.84.141^
@@ -380873,7 +380901,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.166.2.183^
 ||175.166.51.48^
 ||175.166.77.246^
-||175.167.164.207^
 ||175.167.169.144^
 ||175.167.174.220^
 ||175.167.184.160^
@@ -380906,6 +380933,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.169.161.169^
 ||175.169.96.67^
 ||175.169.97.157^
+||175.171.205.73^
 ||175.173.100.136^
 ||175.173.101.73^
 ||175.173.104.189^
@@ -380933,7 +380961,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.173.80.65^
 ||175.173.80.88^
 ||175.173.81.179^
-||175.173.82.139^
 ||175.173.82.141^
 ||175.173.82.225^
 ||175.173.82.7^
@@ -380984,7 +381011,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.175.57.120^
 ||175.175.59.246^
 ||175.175.82.213^
-||175.178.112.226^
 ||175.178.174.23^
 ||175.178.251.212^
 ||175.194.21.174^
@@ -380992,6 +381018,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||175.200.208.28^
 ||175.207.169.188^
 ||175.209.135.175^
+||175.213.252.26^
 ||175.214.227.21^
 ||175.23.69.144^
 ||175.23.79.171^
@@ -381040,7 +381067,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||176.226.192.33^
 ||176.226.205.220^
 ||176.226.208.187^
-||176.226.209.93^
 ||176.226.211.94^
 ||176.229.134.172^
 ||176.229.199.64^
@@ -381049,6 +381075,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||176.35.149.73^
 ||176.35.55.164^
 ||176.57.184.77^
+||176.62.179.34^
 ||176.65.13.192^
 ||176.65.132.118^
 ||176.65.132.121^
@@ -381063,6 +381090,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||176.65.132.44^
 ||176.65.132.46^
 ||176.65.132.90^
+||176.65.139.102^
 ||176.65.139.11^
 ||176.65.139.12^
 ||176.65.139.13^
@@ -381099,6 +381127,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||176.65.139.96^
 ||176.65.139.99^
 ||176.65.139.9^
+||176.65.148.100^
 ||176.65.148.108^
 ||176.65.148.127^
 ||176.65.148.130^
@@ -381177,7 +381206,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||178.141.186.84^
 ||178.141.196.122^
 ||178.141.198.203^
-||178.141.221.107^
 ||178.141.68.58^
 ||178.141.74.223^
 ||178.141.90.124^
@@ -381222,7 +381250,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||178.198.246.24^
 ||178.205.59.12^
 ||178.206.144.30^
-||178.210.214.48^
 ||178.210.50.116^
 ||178.210.83.9^
 ||178.211.135.170^
@@ -381255,7 +381282,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||178.50.255.195^
 ||178.50.27.155^
 ||178.50.5.96^
-||178.50.99.87^
 ||178.55.251.22^
 ||178.61.160.6^
 ||178.62.63.125^
@@ -381294,6 +381320,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||180.120.0.93^
 ||180.14.155.226^
 ||180.157.129.132^
+||180.157.252.62^
 ||180.157.55.28^
 ||180.157.55.73^
 ||180.176.195.217^
@@ -381329,7 +381356,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||180.249.73.142^
 ||180.249.76.33^
 ||180.250.160.26^
+||180.252.216.66^
 ||180.252.221.19^
+||180.253.222.93^
 ||180.253.226.11^
 ||180.254.185.241^
 ||180.254.187.163^
@@ -381696,6 +381725,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.116.32.97^
 ||182.116.33.78^
 ||182.116.34.153^
+||182.116.34.160^
 ||182.116.34.30^
 ||182.116.34.75^
 ||182.116.35.120^
@@ -381718,6 +381748,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.116.48.32^
 ||182.116.49.144^
 ||182.116.49.77^
+||182.116.50.155^
 ||182.116.50.175^
 ||182.116.50.216^
 ||182.116.51.0^
@@ -381727,7 +381758,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.116.52.48^
 ||182.116.53.106^
 ||182.116.53.143^
-||182.116.53.146^
 ||182.116.53.182^
 ||182.116.53.195^
 ||182.116.54.26^
@@ -381774,7 +381804,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.117.147.72^
 ||182.117.148.75^
 ||182.117.150.249^
-||182.117.152.212^
 ||182.117.160.77^
 ||182.117.162.51^
 ||182.117.166.156^
@@ -381806,6 +381835,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.117.49.249^
 ||182.117.49.50^
 ||182.117.49.64^
+||182.117.50.126^
 ||182.117.50.182^
 ||182.117.50.217^
 ||182.117.51.191^
@@ -381840,7 +381870,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.117.78.128^
 ||182.117.78.183^
 ||182.117.78.34^
-||182.117.78.96^
 ||182.117.79.156^
 ||182.117.79.220^
 ||182.117.84.219^
@@ -381853,13 +381882,13 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.117.94.253^
 ||182.117.95.37^
 ||182.118.145.226^
-||182.118.146.219^
 ||182.118.147.63^
 ||182.118.186.32^
 ||182.118.187.145^
 ||182.118.189.54^
 ||182.118.190.205^
 ||182.118.191.29^
+||182.118.240.201^
 ||182.118.243.106^
 ||182.119.1.169^
 ||182.119.10.7^
@@ -381914,6 +381943,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.119.56.224^
 ||182.119.57.185^
 ||182.119.57.20^
+||182.119.57.50^
 ||182.119.57.66^
 ||182.119.58.238^
 ||182.119.58.53^
@@ -381959,7 +381989,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.121.104.189^
 ||182.121.104.59^
 ||182.121.105.204^
-||182.121.105.213^
 ||182.121.106.157^
 ||182.121.106.171^
 ||182.121.106.230^
@@ -382000,7 +382029,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.121.152.88^
 ||182.121.153.52^
 ||182.121.153.91^
-||182.121.154.114^
 ||182.121.154.51^
 ||182.121.154.62^
 ||182.121.155.202^
@@ -382013,6 +382041,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.121.159.31^
 ||182.121.162.221^
 ||182.121.163.49^
+||182.121.164.108^
 ||182.121.166.54^
 ||182.121.167.33^
 ||182.121.168.219^
@@ -382040,6 +382069,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.121.194.83^
 ||182.121.195.127^
 ||182.121.195.182^
+||182.121.195.225^
 ||182.121.195.231^
 ||182.121.199.71^
 ||182.121.201.71^
@@ -382082,7 +382112,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.121.41.102^
 ||182.121.41.122^
 ||182.121.41.15^
-||182.121.41.218^
 ||182.121.41.234^
 ||182.121.41.96^
 ||182.121.41.98^
@@ -382098,7 +382127,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.121.45.88^
 ||182.121.46.75^
 ||182.121.47.149^
-||182.121.49.11^
 ||182.121.49.199^
 ||182.121.52.112^
 ||182.121.62.159^
@@ -382241,7 +382269,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.124.203.113^
 ||182.124.211.17^
 ||182.124.216.250^
-||182.124.219.53^
 ||182.124.22.179^
 ||182.124.22.38^
 ||182.124.221.223^
@@ -382281,7 +382308,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.126.115.113^
 ||182.126.115.1^
 ||182.126.115.234^
-||182.126.115.240^
 ||182.126.116.94^
 ||182.126.117.162^
 ||182.126.117.7^
@@ -382368,7 +382394,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.126.94.12^
 ||182.126.94.159^
 ||182.126.95.129^
-||182.126.95.187^
 ||182.126.99.106^
 ||182.126.99.48^
 ||182.127.0.211^
@@ -382436,6 +382461,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.127.166.114^
 ||182.127.166.210^
 ||182.127.166.224^
+||182.127.167.135^
 ||182.127.168.164^
 ||182.127.168.185^
 ||182.127.176.191^
@@ -382484,6 +382510,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.127.48.41^
 ||182.127.49.137^
 ||182.127.5.158^
+||182.127.5.163^
 ||182.127.5.239^
 ||182.127.5.61^
 ||182.127.5.73^
@@ -382576,6 +382603,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||182.90.123.164^
 ||182.92.99.95^
 ||182.93.58.234^
+||182.93.83.124^
 ||182.96.163.254^
 ||182.96.164.217^
 ||182.96.165.80^
@@ -382604,8 +382632,8 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||183.30.204.252^
 ||183.80.124.127^
 ||183.81.156.121^
+||183.81.156.123^
 ||183.81.156.124^
-||183.81.156.125^
 ||183.83.186.77^
 ||183.92.204.242^
 ||183.97.32.167^
@@ -382644,7 +382672,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||185.166.91.145^
 ||185.167.234.235^
 ||185.168.174.117^
-||185.172.128.16^
 ||185.175.229.200^
 ||185.177.57.70^
 ||185.177.57.81^
@@ -382708,7 +382735,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||185.242.3.144^
 ||185.242.3.231^
 ||185.242.3.239^
-||185.243.99.154^
 ||185.244.182.35^
 ||185.247.224.107^
 ||185.252.24.15^
@@ -382720,6 +382746,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||185.36.205.153^
 ||185.38.142.156^
 ||185.43.16.137^
+||185.43.17.123^
 ||185.43.45.171^
 ||185.44.213.104^
 ||185.46.17.62^
@@ -382734,6 +382761,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||185.76.252.53^
 ||185.8.233.160^
 ||185.80.0.36^
+||185.89.157.150^
 ||185.9.139.117^
 ||185.91.127.182^
 ||185.93.89.75^
@@ -382814,6 +382842,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||188.167.179.75^
 ||188.170.32.148^
 ||188.170.48.204^
+||188.173.136.155^
 ||188.208.150.65^
 ||188.212.158.75^
 ||188.214.30.136^
@@ -382876,6 +382905,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||190.108.63.242^
 ||190.109.227.174^
 ||190.109.227.235^
+||190.110.204.150^
 ||190.113.124.155^
 ||190.115.114.38^
 ||190.12.99.194^
@@ -382893,6 +382923,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||190.2.237.104^
 ||190.201.154.113^
 ||190.214.55.142^
+||190.217.148.227^
 ||190.218.210.231^
 ||190.231.211.26^
 ||190.40.185.33^
@@ -382970,7 +383001,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||192.3.176.242^
 ||192.3.177.145^
 ||192.3.177.148^
-||192.3.179.166^
 ||192.3.233.166^
 ||192.3.27.135^
 ||192.3.47.183^
@@ -383047,7 +383077,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||194.223.59.102^
 ||194.26.141.203^
 ||194.26.192.109^
-||194.26.192.202^
 ||194.33.61.20^
 ||194.36.197.3^
 ||194.41.113.241^
@@ -383112,6 +383141,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||196.189.3.1^
 ||196.189.35.226^
 ||196.189.68.239^
+||196.189.9.233^
 ||196.189.9.27^
 ||196.189.96.138^
 ||196.189.96.59^
@@ -383202,7 +383232,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||2.183.110.200^
 ||2.183.123.251^
 ||2.183.85.228^
-||2.183.91.250^
 ||2.186.13.171^
 ||2.187.16.20^
 ||2.187.249.185^
@@ -383250,7 +383279,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||2.58.82.231^
 ||2.67.132.29^
 ||2.69.54.81^
-||2.69.66.82^
 ||2.80.184.127^
 ||2.83.229.165^
 ||2.84.87.230^
@@ -383258,6 +383286,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||2.85.116.157^
 ||2.99.112.46^
 ||2.99.251.73^
+||2.off3.ru^
 ||20.124.236.185^
 ||20.226.26.143^
 ||20.226.82.46^
@@ -383266,7 +383295,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||20.3.252.249^
 ||20.81.164.199^
 ||200.115.102.16^
-||200.115.249.127^
 ||200.118.103.42^
 ||200.122.211.138^
 ||200.14.250.72^
@@ -383303,10 +383331,8 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||201.16.236.188^
 ||201.178.236.110^
 ||201.182.25.51^
-||201.184.231.250^
 ||201.191.156.103^
 ||201.197.252.54^
-||201.20.100.30^
 ||201.20.93.86^
 ||201.223.240.1^
 ||201.223.242.89^
@@ -383323,6 +383349,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||202.107.23.0^
 ||202.107.28.254^
 ||202.107.29.187^
+||202.107.89.9^
 ||202.107.93.187^
 ||202.107.97.187^
 ||202.107.97.192^
@@ -383360,6 +383387,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||202.166.218.154^
 ||202.169.234.18^
 ||202.175.181.210^
+||202.189.11.21^
 ||202.3.248.178^
 ||202.3.248.179^
 ||202.4.101.78^
@@ -383367,9 +383395,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||202.40.178.238^
 ||202.5.52.110^
 ||202.5.61.33^
+||202.51.100.238^
 ||202.53.164.214^
 ||202.53.164.90^
-||202.57.39.2^
 ||202.57.43.234^
 ||202.59.90.109^
 ||202.61.139.34^
@@ -383379,7 +383407,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||202.96.88.244^
 ||203.101.187.22^
 ||203.109.201.77^
-||203.115.101.21^
 ||203.121.236.145^
 ||203.131.215.35^
 ||203.159.90.56^
@@ -383412,7 +383439,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||204.10.161.71^
 ||204.137.166.139^
 ||205.185.127.97^
-||205.209.114.243^
 ||205.250.174.95^
 ||206.0.172.171^
 ||206.0.183.28^
@@ -383442,7 +383468,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||209.38.104.63^
 ||209.38.18.1^
 ||209.38.92.52^
-||209.42.54.193^
 ||209.50.227.155^
 ||209.54.102.132^
 ||209.97.163.167^
@@ -383468,6 +383493,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||211.250.168.28^
 ||211.250.54.151^
 ||211.33.152.43^
+||211.46.228.110^
 ||211.51.58.126^
 ||211.74.101.30^
 ||211.93.86.176^
@@ -383497,11 +383523,12 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||212.46.33.16^
 ||212.50.57.143^
 ||212.55.98.177^
+||212.64.201.57^
 ||212.64.201.67^
 ||212.64.202.197^
 ||212.70.156.70^
+||212.73.75.82^
 ||212.85.166.12^
-||212.85.176.23^
 ||212.85.24.46^
 ||213.109.234.217^
 ||213.139.77.111^
@@ -383510,7 +383537,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||213.149.4.114^
 ||213.155.195.65^
 ||213.16.154.175^
-||213.164.194.88^
 ||213.165.183.55^
 ||213.165.45.163^
 ||213.165.60.60^
@@ -383547,7 +383573,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||216.126.236.17^
 ||216.126.237.216^
 ||216.126.239.100^
-||216.126.239.239^
 ||216.126.239.98^
 ||216.126.86.105^
 ||216.126.86.108^
@@ -383588,6 +383613,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||218.103.122.102^
 ||218.103.129.136^
 ||218.108.181.2^
+||218.13.149.41^
 ||218.153.161.181^
 ||218.155.74.6^
 ||218.155.92.14^
@@ -383677,6 +383703,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.155.195.183^
 ||219.155.200.107^
 ||219.155.200.122^
+||219.155.200.135^
 ||219.155.200.169^
 ||219.155.200.213^
 ||219.155.200.37^
@@ -383713,7 +383740,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.155.210.45^
 ||219.155.210.56^
 ||219.155.210.59^
-||219.155.210.61^
 ||219.155.210.6^
 ||219.155.210.87^
 ||219.155.210.97^
@@ -383735,7 +383761,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.155.230.3^
 ||219.155.231.206^
 ||219.155.231.208^
-||219.155.231.238^
 ||219.155.231.86^
 ||219.155.232.115^
 ||219.155.232.18^
@@ -383760,7 +383785,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.155.60.245^
 ||219.155.70.161^
 ||219.155.75.171^
-||219.155.75.192^
 ||219.155.80.78^
 ||219.155.81.102^
 ||219.155.81.198^
@@ -383834,7 +383858,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.156.58.17^
 ||219.156.61.172^
 ||219.156.62.140^
-||219.156.62.172^
 ||219.156.62.1^
 ||219.156.62.58^
 ||219.156.64.192^
@@ -383842,7 +383865,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.156.81.185^
 ||219.156.83.239^
 ||219.156.85.147^
-||219.156.88.190^
 ||219.156.90.247^
 ||219.156.93.124^
 ||219.156.95.63^
@@ -383877,7 +383899,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.157.20.200^
 ||219.157.20.35^
 ||219.157.20.64^
-||219.157.202.141^
 ||219.157.202.80^
 ||219.157.208.243^
 ||219.157.208.62^
@@ -383930,6 +383951,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.157.54.37^
 ||219.157.55.234^
 ||219.157.55.69^
+||219.157.55.95^
 ||219.157.56.151^
 ||219.157.56.193^
 ||219.157.56.63^
@@ -383943,6 +383965,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||219.157.62.177^
 ||219.157.62.239^
 ||219.157.62.44^
+||219.157.63.131^
 ||219.157.63.133^
 ||219.157.63.242^
 ||219.157.64.130^
@@ -384016,10 +384039,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||220.202.90.155^
 ||220.202.90.52^
 ||220.202.90.68^
+||220.202.91.127^
 ||220.202.91.191^
 ||220.202.91.31^
 ||220.202.91.49^
-||220.202.91.51^
 ||220.235.234.170^
 ||220.246.126.185^
 ||220.246.34.66^
@@ -384042,7 +384065,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.1.224.43^
 ||221.1.224.61^
 ||221.1.224.71^
-||221.1.225.33^
 ||221.1.225.65^
 ||221.1.225.7^
 ||221.1.226.106^
@@ -384053,7 +384075,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.1.227.251^
 ||221.1.227.43^
 ||221.1.245.13^
-||221.1.246.101^
 ||221.1.246.110^
 ||221.1.246.18^
 ||221.1.255.161^
@@ -384089,7 +384110,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.14.12.185^
 ||221.14.12.254^
 ||221.14.12.51^
-||221.14.122.105^
 ||221.14.129.122^
 ||221.14.13.237^
 ||221.14.15.117^
@@ -384122,7 +384142,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.15.11.196^
 ||221.15.12.100^
 ||221.15.12.20^
-||221.15.12.37^
 ||221.15.12.54^
 ||221.15.13.180^
 ||221.15.13.193^
@@ -384146,6 +384165,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.15.16.194^
 ||221.15.161.246^
 ||221.15.164.107^
+||221.15.165.59^
 ||221.15.17.193^
 ||221.15.17.206^
 ||221.15.17.81^
@@ -384209,7 +384229,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.15.252.150^
 ||221.15.252.176^
 ||221.15.4.146^
-||221.15.4.235^
 ||221.15.4.8^
 ||221.15.5.122^
 ||221.15.5.132^
@@ -384246,7 +384265,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.15.94.7^
 ||221.15.95.26^
 ||221.152.81.125^
-||221.158.206.225^
 ||221.162.58.69^
 ||221.200.117.247^
 ||221.200.120.62^
@@ -384264,7 +384282,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.202.107.240^
 ||221.202.107.59^
 ||221.202.17.160^
-||221.202.17.218^
 ||221.202.17.37^
 ||221.202.17.91^
 ||221.202.185.100^
@@ -384294,7 +384311,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||221.207.250.191^
 ||221.214.145.14^
 ||221.214.145.224^
-||221.214.153.11^
 ||221.214.191.18^
 ||221.214.193.245^
 ||221.214.207.82^
@@ -384331,6 +384347,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.127.55.231^
 ||222.127.60.98^
 ||222.127.63.144^
+||222.127.68.115^
 ||222.127.68.176^
 ||222.127.68.197^
 ||222.127.71.141^
@@ -384377,7 +384394,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.136.32.200^
 ||222.136.33.124^
 ||222.136.33.51^
-||222.136.36.124^
 ||222.136.42.61^
 ||222.136.43.56^
 ||222.137.102.151^
@@ -384391,6 +384407,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.137.118.28^
 ||222.137.123.77^
 ||222.137.144.152^
+||222.137.144.215^
 ||222.137.144.249^
 ||222.137.144.60^
 ||222.137.144.93^
@@ -384416,7 +384433,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.137.19.245^
 ||222.137.190.161^
 ||222.137.190.66^
-||222.137.191.16^
 ||222.137.20.215^
 ||222.137.20.233^
 ||222.137.208.31^
@@ -384442,7 +384458,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.137.40.50^
 ||222.137.41.26^
 ||222.137.43.162^
-||222.137.7.148^
 ||222.137.72.243^
 ||222.137.73.213^
 ||222.137.74.35^
@@ -384489,7 +384504,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.138.119.254^
 ||222.138.125.43^
 ||222.138.134.251^
-||222.138.138.131^
 ||222.138.148.149^
 ||222.138.148.179^
 ||222.138.148.219^
@@ -384498,7 +384512,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.138.149.150^
 ||222.138.149.160^
 ||222.138.149.204^
-||222.138.149.58^
 ||222.138.149.8^
 ||222.138.150.107^
 ||222.138.150.114^
@@ -384588,6 +384601,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.139.92.45^
 ||222.139.93.62^
 ||222.139.96.129^
+||222.139.98.160^
 ||222.139.98.86^
 ||222.139.99.65^
 ||222.140.107.107^
@@ -384641,7 +384655,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.140.180.235^
 ||222.140.180.93^
 ||222.140.181.224^
-||222.140.181.33^
 ||222.140.182.127^
 ||222.140.182.20^
 ||222.140.182.227^
@@ -384740,7 +384753,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.141.41.202^
 ||222.141.42.118^
 ||222.141.42.142^
-||222.141.42.47^
 ||222.141.43.126^
 ||222.141.43.157^
 ||222.141.45.168^
@@ -384846,7 +384858,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||222.142.93.65^
 ||222.154.246.166^
 ||222.160.220.47^
-||222.165.237.58^
 ||222.165.237.59^
 ||222.165.237.60^
 ||222.165.237.61^
@@ -384893,7 +384904,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||223.151.74.242^
 ||223.151.75.208^
 ||223.151.75.76^
-||223.151.76.51^
 ||223.17.225.98^
 ||223.197.231.77^
 ||223.26.63.57^
@@ -385144,7 +385154,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.215.178.166^
 ||27.215.178.168^
 ||27.215.178.191^
-||27.215.178.205^
 ||27.215.178.42^
 ||27.215.178.97^
 ||27.215.179.218^
@@ -385206,7 +385215,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.215.48.214^
 ||27.215.49.109^
 ||27.215.49.166^
-||27.215.49.73^
 ||27.215.50.105^
 ||27.215.50.18^
 ||27.215.50.239^
@@ -385217,6 +385225,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.215.52.162^
 ||27.215.52.223^
 ||27.215.52.78^
+||27.215.53.172^
 ||27.215.53.234^
 ||27.215.53.241^
 ||27.215.53.94^
@@ -385225,6 +385234,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.215.59.244^
 ||27.215.66.28^
 ||27.215.76.85^
+||27.215.77.105^
 ||27.215.78.238^
 ||27.215.80.14^
 ||27.215.80.188^
@@ -385238,6 +385248,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.215.83.0^
 ||27.215.83.213^
 ||27.215.83.7^
+||27.215.84.165^
 ||27.215.84.21^
 ||27.215.86.122^
 ||27.215.87.126^
@@ -385282,7 +385293,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.220.14.63^
 ||27.220.199.176^
 ||27.220.209.234^
-||27.220.240.166^
 ||27.220.247.48^
 ||27.220.251.52^
 ||27.220.89.54^
@@ -385291,6 +385301,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.221.244.100^
 ||27.222.177.69^
 ||27.222.42.38^
+||27.222.44.125^
 ||27.222.62.140^
 ||27.222.77.196^
 ||27.222.77.251^
@@ -385319,8 +385330,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.37.104.40^
 ||27.37.105.143^
 ||27.37.106.117^
+||27.37.107.127^
 ||27.37.107.173^
 ||27.37.107.221^
+||27.37.108.110^
 ||27.37.108.178^
 ||27.37.109.177^
 ||27.37.110.107^
@@ -385411,7 +385424,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||27.37.83.119^
 ||27.37.84.37^
 ||27.37.85.76^
-||27.37.85.79^
 ||27.37.86.125^
 ||27.37.86.71^
 ||27.37.86.7^
@@ -385458,6 +385470,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||31.13.208.135^
 ||31.130.248.85^
 ||31.132.152.126^
+||31.132.231.215^
 ||31.132.233.44^
 ||31.135.145.39^
 ||31.140.134.145^
@@ -385472,7 +385485,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||31.173.70.100^
 ||31.184.194.114^
 ||31.186.54.111^
-||31.186.54.203^
 ||31.207.243.122^
 ||31.208.67.180^
 ||31.210.217.24^
@@ -385568,6 +385580,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||36.70.231.171^
 ||36.70.234.148^
 ||36.70.238.54^
+||36.70.33.7^
 ||36.70.70.32^
 ||36.70.72.104^
 ||36.70.87.61^
@@ -385589,15 +385602,14 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||36.88.164.210^
 ||36.88.164.50^
 ||36.88.180.115^
-||36.88.244.2^
 ||36.88.6.203^
 ||36.89.62.19^
 ||36.91.144.195^
 ||36.92.110.187^
 ||36.92.154.210^
 ||36.92.154.218^
+||36.92.68.239^
 ||36.92.68.241^
-||36.93.2.29^
 ||36.93.88.82^
 ||36.95.137.155^
 ||36.97.200.199^
@@ -385720,7 +385732,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||38.38.250.99^
 ||38.38.251.244^
 ||38.52.142.194^
-||38.54.122.155^
 ||38.54.88.228^
 ||38.60.134.155^
 ||38.60.209.146^
@@ -385798,7 +385809,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||39.74.33.174^
 ||39.74.33.196^
 ||39.74.35.162^
-||39.74.35.86^
 ||39.74.36.235^
 ||39.74.37.237^
 ||39.74.39.212^
@@ -385853,13 +385863,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||39.79.8.58^
 ||39.79.81.83^
 ||39.79.82.42^
-||39.79.86.128^
 ||39.79.98.138^
 ||39.79.98.240^
 ||39.80.107.114^
-||39.80.61.172^
 ||39.81.152.190^
-||39.81.152.36^
 ||39.81.153.240^
 ||39.81.157.227^
 ||39.81.17.234^
@@ -385935,10 +385942,8 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||39.90.148.85^
 ||39.90.149.110^
 ||39.90.149.135^
-||39.90.149.194^
 ||39.90.150.187^
 ||39.90.150.230^
-||39.90.151.250^
 ||39.90.151.2^
 ||39.90.179.158^
 ||39.90.179.87^
@@ -386005,6 +386010,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||41.38.0.174^
 ||41.38.56.232^
 ||41.57.125.226^
+||41.77.74.90^
 ||41xyhih6.sunb2zealou5.ru^
 ||42.112.115.83^
 ||42.112.76.232^
@@ -386036,12 +386042,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.177.234.121^
 ||42.177.236.151^
 ||42.177.241.247^
-||42.177.242.67^
 ||42.177.247.113^
 ||42.177.250.240^
 ||42.177.59.146^
 ||42.177.59.216^
-||42.177.61.16^
 ||42.177.61.181^
 ||42.177.61.213^
 ||42.177.96.103^
@@ -386082,7 +386086,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.178.82.177^
 ||42.178.83.49^
 ||42.178.9.8^
-||42.178.96.16^
 ||42.178.96.180^
 ||42.178.96.220^
 ||42.178.96.235^
@@ -386101,7 +386104,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.179.15.104^
 ||42.179.151.149^
 ||42.179.152.48^
-||42.179.198.164^
 ||42.179.198.83^
 ||42.179.4.77^
 ||42.179.49.19^
@@ -386121,7 +386123,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.180.253.238^
 ||42.180.35.224^
 ||42.180.38.60^
-||42.180.40.76^
 ||42.180.67.156^
 ||42.180.8.10^
 ||42.180.8.201^
@@ -386173,6 +386174,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.224.149.89^
 ||42.224.150.213^
 ||42.224.150.99^
+||42.224.151.199^
 ||42.224.153.148^
 ||42.224.154.237^
 ||42.224.168.16^
@@ -386218,6 +386220,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.224.208.224^
 ||42.224.215.95^
 ||42.224.22.108^
+||42.224.22.160^
 ||42.224.234.25^
 ||42.224.24.127^
 ||42.224.24.237^
@@ -386225,7 +386228,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.224.248.127^
 ||42.224.248.205^
 ||42.224.25.119^
-||42.224.25.181^
 ||42.224.25.241^
 ||42.224.25.42^
 ||42.224.25.82^
@@ -386363,6 +386365,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.226.66.228^
 ||42.226.67.137^
 ||42.226.67.155^
+||42.226.68.107^
 ||42.226.68.229^
 ||42.226.68.26^
 ||42.226.68.76^
@@ -386373,6 +386376,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.226.70.176^
 ||42.226.70.53^
 ||42.226.70.66^
+||42.226.71.194^
 ||42.226.73.14^
 ||42.226.73.5^
 ||42.226.73.65^
@@ -386481,7 +386485,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.228.100.165^
 ||42.228.100.21^
 ||42.228.100.42^
-||42.228.101.138^
 ||42.228.101.191^
 ||42.228.101.226^
 ||42.228.102.166^
@@ -386641,6 +386644,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.230.37.29^
 ||42.230.38.84^
 ||42.230.39.196^
+||42.230.39.28^
 ||42.230.40.4^
 ||42.230.40.84^
 ||42.230.41.103^
@@ -386658,6 +386662,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.230.54.240^
 ||42.230.54.250^
 ||42.230.54.56^
+||42.230.68.209^
 ||42.230.68.72^
 ||42.230.70.173^
 ||42.230.71.193^
@@ -386830,7 +386835,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.233.160.226^
 ||42.233.162.221^
 ||42.233.163.243^
-||42.233.164.13^
 ||42.233.165.194^
 ||42.233.244.19^
 ||42.233.87.216^
@@ -386848,6 +386852,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.234.189.139^
 ||42.234.202.108^
 ||42.234.204.149^
+||42.234.204.17^
 ||42.234.204.54^
 ||42.234.208.154^
 ||42.234.232.117^
@@ -386885,7 +386890,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.235.147.183^
 ||42.235.147.201^
 ||42.235.148.10^
-||42.235.148.52^
 ||42.235.149.92^
 ||42.235.150.120^
 ||42.235.150.222^
@@ -386927,7 +386931,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.235.51.46^
 ||42.235.51.69^
 ||42.235.52.140^
-||42.235.52.143^
 ||42.235.52.239^
 ||42.235.52.245^
 ||42.235.52.55^
@@ -387033,14 +387036,12 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.238.170.75^
 ||42.238.170.86^
 ||42.238.171.128^
-||42.238.171.173^
 ||42.238.175.236^
 ||42.238.192.58^
 ||42.238.211.197^
 ||42.238.236.94^
 ||42.238.243.100^
 ||42.238.243.66^
-||42.238.245.13^
 ||42.238.245.64^
 ||42.238.248.100^
 ||42.238.250.193^
@@ -387077,7 +387078,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.239.159.165^
 ||42.239.165.247^
 ||42.239.166.109^
-||42.239.167.107^
 ||42.239.167.205^
 ||42.239.169.132^
 ||42.239.169.95^
@@ -387171,7 +387171,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.5.20.207^
 ||42.5.225.114^
 ||42.5.228.173^
-||42.5.228.193^
 ||42.5.229.137^
 ||42.5.229.233^
 ||42.5.229.64^
@@ -387247,7 +387246,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.53.32.15^
 ||42.53.39.89^
 ||42.53.52.80^
-||42.53.58.14^
 ||42.53.59.160^
 ||42.53.60.119^
 ||42.53.61.212^
@@ -387285,7 +387283,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.55.1.63^
 ||42.55.12.155^
 ||42.55.13.27^
-||42.55.134.212^
 ||42.55.16.190^
 ||42.55.184.72^
 ||42.55.2.130^
@@ -387299,7 +387296,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.55.4.151^
 ||42.55.41.116^
 ||42.55.41.89^
-||42.55.43.165^
 ||42.55.45.151^
 ||42.55.56.148^
 ||42.55.59.11^
@@ -387385,7 +387381,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.58.227.200^
 ||42.58.227.96^
 ||42.58.23.81^
-||42.58.238.107^
 ||42.58.45.22^
 ||42.59.114.164^
 ||42.59.114.42^
@@ -387424,7 +387419,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.59.76.120^
 ||42.59.79.172^
 ||42.59.88.23^
-||42.59.89.121^
 ||42.59.89.172^
 ||42.59.89.33^
 ||42.59.90.203^
@@ -387473,11 +387467,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.7.203.238^
 ||42.7.204.242^
 ||42.7.21.193^
-||42.7.214.160^
 ||42.7.214.76^
 ||42.7.222.179^
 ||42.7.222.18^
-||42.7.229.208^
+||42.7.222.67^
 ||42.7.236.142^
 ||42.7.237.153^
 ||42.7.241.217^
@@ -387486,8 +387479,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||42.7.247.122^
 ||42.7.30.89^
 ||42.7.99.125^
-||42.85.102.27^
-||42.85.114.229^
 ||42.85.114.89^
 ||42.85.12.22^
 ||42.85.13.16^
@@ -387581,6 +387572,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||43.161.215.22^
 ||43.161.245.186^
 ||43.224.0.5^
+||43.226.39.44^
 ||43.228.157.123^
 ||43.228.157.127^
 ||43.228.157.33^
@@ -387589,21 +387581,18 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||43.230.156.43^
 ||43.230.44.36^
 ||43.245.131.27^
-||43.248.118.169^
-||43.249.192.151^
 ||43.249.192.196^
 ||43.249.54.246^
 ||43.251.226.153^
 ||43.252.159.78^
 ||43.252.159.79^
-||43.255.216.26^
 ||44.208.147.17^
 ||44.246.189.12^
 ||45-90-98-218.plesk.page^
+||45.112.126.123^
 ||45.112.207.69^
 ||45.115.176.9^
 ||45.115.254.91^
-||45.116.68.12^
 ||45.117.177.93^
 ||45.118.32.122^
 ||45.118.79.103^
@@ -387675,14 +387664,15 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||45.151.155.223^
 ||45.153.129.239^
 ||45.153.34.139^
+||45.153.34.161^
 ||45.153.34.165^
 ||45.153.34.173^
+||45.153.34.175^
 ||45.153.34.179^
 ||45.153.34.199^
 ||45.153.34.209^
 ||45.153.34.252^
 ||45.153.34.52^
-||45.153.34.74^
 ||45.153.34.77^
 ||45.153.34.85^
 ||45.153.34.90^
@@ -387708,10 +387698,12 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||45.156.87.79^
 ||45.163.68.86^
 ||45.164.179.97^
+||45.166.191.8^
 ||45.167.249.58^
 ||45.168.22.54^
 ||45.171.177.193^
 ||45.173.12.30^
+||45.177.32.104^
 ||45.177.33.135^
 ||45.179.173.218^
 ||45.179.225.75^
@@ -387739,6 +387731,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||45.232.75.59^
 ||45.234.176.202^
 ||45.234.234.14^
+||45.236.116.198^
 ||45.237.130.120^
 ||45.240.237.3^
 ||45.38.42.187^
@@ -387810,6 +387803,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||45.91.133.229^
 ||45.92.1.25^
 ||45.92.1.28^
+||45.92.1.50^
 ||45.92.29.74^
 ||45.93.20.151^
 ||45.93.20.55^
@@ -387832,7 +387826,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||46.0.51.247^
 ||46.101.112.70^
 ||46.109.73.17^
-||46.122.12.254^
 ||46.124.33.133^
 ||46.124.36.81^
 ||46.124.40.3^
@@ -387877,9 +387870,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||46.231.35.22^
 ||46.236.165.78^
 ||46.236.171.191^
-||46.243.3.117^
 ||46.246.92.170^
 ||46.250.19.154^
+||46.250.54.75^
 ||46.38.156.31^
 ||46.44.46.247^
 ||46.6.12.101^
@@ -388026,20 +388019,18 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||5.181.3.211^
 ||5.181.87.103^
 ||5.198.242.56^
-||5.201.182.164^
 ||5.206.225.136^
 ||5.228.153.222^
 ||5.228.165.235^
 ||5.230.253.188^
 ||5.235.252.195^
 ||5.237.167.106^
-||5.237.255.184^
 ||5.239.213.91^
-||5.252.153.57^
 ||5.252.155.246^
 ||5.252.21.239^
 ||5.253.246.126^
 ||5.255.120.22^
+||5.26.174.234^
 ||5.26.195.93^
 ||5.27.224.88^
 ||5.27.227.29^
@@ -388054,6 +388045,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||5.54.157.172^
 ||5.55.216.214^
 ||5.59.106.115^
+||5.59.107.34^
 ||5.59.107.59^
 ||5.59.248.100^
 ||5.59.248.236^
@@ -388111,6 +388103,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||58.208.191.240^
 ||58.209.181.97^
 ||58.209.182.219^
+||58.216.207.82^
 ||58.23.178.174^
 ||58.23.221.65^
 ||58.242.20.192^
@@ -388333,7 +388326,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.183.109.83^
 ||59.183.110.39^
 ||59.183.113.113^
-||59.183.113.18^
 ||59.183.114.234^
 ||59.183.116.0^
 ||59.183.118.33^
@@ -388401,6 +388393,8 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.184.60.119^
 ||59.184.62.16^
 ||59.184.63.0^
+||59.2.5.54^
+||59.27.224.90^
 ||59.3.45.42^
 ||59.35.92.124^
 ||59.35.92.151^
@@ -388433,6 +388427,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.88.10.76^
 ||59.88.12.200^
 ||59.88.12.81^
+||59.88.129.55^
 ||59.88.130.154^
 ||59.88.130.93^
 ||59.88.131.9^
@@ -388451,8 +388446,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.88.144.13^
 ||59.88.144.52^
 ||59.88.146.238^
-||59.88.147.189^
-||59.88.147.99^
 ||59.88.149.106^
 ||59.88.151.180^
 ||59.88.152.76^
@@ -388515,7 +388508,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.89.1.51^
 ||59.89.10.180^
 ||59.89.13.91^
-||59.89.15.172^
 ||59.89.17.166^
 ||59.89.18.131^
 ||59.89.24.118^
@@ -388689,6 +388681,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.96.140.17^
 ||59.96.140.216^
 ||59.96.140.219^
+||59.96.140.247^
 ||59.96.140.37^
 ||59.96.141.109^
 ||59.96.141.123^
@@ -388723,6 +388716,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.96.143.20^
 ||59.96.143.210^
 ||59.96.143.215^
+||59.96.143.217^
 ||59.96.143.221^
 ||59.96.143.222^
 ||59.96.143.224^
@@ -388806,18 +388800,19 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.97.241.186^
 ||59.97.243.36^
 ||59.97.245.155^
+||59.97.246.171^
 ||59.97.247.179^
 ||59.97.248.162^
 ||59.97.248.176^
 ||59.97.248.197^
 ||59.97.249.158^
 ||59.97.249.181^
+||59.97.249.189^
 ||59.97.249.19^
 ||59.97.249.210^
 ||59.97.249.215^
 ||59.97.249.49^
 ||59.97.250.0^
-||59.97.250.111^
 ||59.97.250.158^
 ||59.97.250.178^
 ||59.97.250.196^
@@ -388830,7 +388825,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.97.250.45^
 ||59.97.250.93^
 ||59.97.251.14^
-||59.97.251.155^
 ||59.97.251.175^
 ||59.97.251.191^
 ||59.97.251.195^
@@ -388855,7 +388849,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||59.97.252.66^
 ||59.97.252.68^
 ||59.97.253.124^
-||59.97.253.128^
 ||59.97.253.1^
 ||59.97.253.250^
 ||59.97.253.255^
@@ -388958,6 +388951,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||60.161.46.253^
 ||60.161.59.219^
 ||60.162.195.238^
+||60.162.206.206^
 ||60.162.207.49^
 ||60.162.211.159^
 ||60.162.220.217^
@@ -388988,7 +388982,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||60.18.51.202^
 ||60.18.57.123^
 ||60.18.62.126^
-||60.18.69.146^
 ||60.18.69.215^
 ||60.18.70.11^
 ||60.18.70.146^
@@ -388998,7 +388991,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||60.18.81.162^
 ||60.18.85.84^
 ||60.18.9.66^
-||60.18.96.56^
 ||60.19.11.29^
 ||60.19.166.146^
 ||60.19.195.186^
@@ -389019,7 +389011,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||60.19.218.148^
 ||60.19.218.193^
 ||60.19.218.84^
-||60.19.218.8^
 ||60.19.219.195^
 ||60.19.219.3^
 ||60.19.219.78^
@@ -389034,7 +389025,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||60.19.222.207^
 ||60.19.222.210^
 ||60.19.222.244^
-||60.19.223.159^
 ||60.19.223.246^
 ||60.19.223.80^
 ||60.19.243.78^
@@ -389064,6 +389054,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||60.211.99.72^
 ||60.213.123.169^
 ||60.214.22.144^
+||60.214.240.96^
 ||60.214.59.181^
 ||60.215.160.249^
 ||60.218.192.46^
@@ -389154,10 +389145,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||60.23.68.107^
 ||60.23.74.43^
 ||60.23.76.111^
-||60.23.79.93^
 ||60.243.207.15^
 ||60.243.227.24^
 ||60.27.218.208^
+||60.3.44.167^
 ||60.50.89.116^
 ||60.52.110.24^
 ||60aaf9c6.salamanderprocessing.pages.dev^
@@ -389166,7 +389157,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||61.0.107.16^
 ||61.0.110.104^
 ||61.0.67.38^
-||61.0.94.72^
 ||61.0.97.230^
 ||61.0.98.134^
 ||61.1.145.16^
@@ -389217,13 +389207,11 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||61.137.159.146^
 ||61.137.185.109^
 ||61.137.192.243^
-||61.137.194.180^
 ||61.137.195.51^
 ||61.137.199.196^
 ||61.137.200.118^
 ||61.137.202.197^
 ||61.137.204.79^
-||61.158.158.245^
 ||61.160.213.179^
 ||61.160.215.114^
 ||61.162.202.122^
@@ -389251,7 +389239,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||61.176.118.72^
 ||61.176.119.0^
 ||61.176.119.63^
-||61.176.13.9^
 ||61.176.188.44^
 ||61.176.189.162^
 ||61.176.190.246^
@@ -389341,7 +389328,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||61.3.30.115^
 ||61.3.30.141^
 ||61.3.30.2^
-||61.3.30.49^
 ||61.3.31.205^
 ||61.3.31.57^
 ||61.3.97.175^
@@ -389376,7 +389362,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||61.52.156.237^
 ||61.52.156.25^
 ||61.52.156.4^
-||61.52.156.54^
 ||61.52.156.9^
 ||61.52.157.155^
 ||61.52.157.199^
@@ -389545,7 +389530,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||61.53.132.232^
 ||61.53.132.251^
 ||61.53.133.111^
-||61.53.133.52^
 ||61.53.133.9^
 ||61.53.135.185^
 ||61.53.135.186^
@@ -389725,7 +389709,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||61.7.184.226^
 ||61.7.184.38^
 ||61.7.209.88^
-||61.83.215.66^
 ||61.84.192.85^
 ||61yede8.migratetulle.in.net^
 ||62.122.96.124^
@@ -389742,14 +389725,11 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||62.182.81.38^
 ||62.197.62.195^
 ||62.228.11.239^
-||62.234.146.238^
 ||62.246.109.249^
 ||62.32.86.42^
 ||62.45.171.82^
 ||62.56.225.99^
-||62.60.226.13^
 ||62.60.226.159^
-||62.60.226.224^
 ||62.60.226.40^
 ||62.60.226.97^
 ||62.74.94.1^
@@ -389802,6 +389782,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||65.24.134.112^
 ||65.49.44.84^
 ||65.87.58.122^
+||65.99.181.12^
 ||655rd9or.caretouched.digital^
 ||66.154.110.34^
 ||66.167.166.231^
@@ -389843,6 +389824,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||69.173.182.43^
 ||69.197.134.210^
 ||69.46.43.35^
+||69.48.143.20^
 ||69.5.189.203^
 ||69.57.163.151^
 ||69.75.168.226^
@@ -389902,6 +389884,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||72.49.193.91^
 ||72.60.237.59^
 ||72.69.23.74^
+||72.80.246.9^
 ||72i62f.cobalt-ridge.in.net^
 ||72jk.skyroad.in.net^
 ||73.155.237.4^
@@ -389912,7 +389895,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||73rgwdew.getreplay.in.net^
 ||74.0.32.141^
 ||74.14.189.24^
-||74.194.191.52^
 ||74.214.56.173^
 ||74.48.34.10^
 ||74.50.123.25^
@@ -389969,6 +389951,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||77.209.74.82^
 ||77.210.147.248^
 ||77.210.157.113^
+||77.211.28.150^
 ||77.221.152.211^
 ||77.221.157.206^
 ||77.221.157.235^
@@ -389976,6 +389959,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||77.234.248.160^
 ||77.236.74.65^
 ||77.237.29.219^
+||77.238.209.82^
 ||77.238.232.165^
 ||77.239.20.75^
 ||77.245.107.223^
@@ -390021,6 +390005,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||77.90.61.79^
 ||77gfk.mirthbay.in.net^
 ||78.110.70.37^
+||78.111.30.28^
 ||78.111.82.210^
 ||78.132.111.230^
 ||78.132.112.17^
@@ -390039,7 +390024,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||78.153.140.16^
 ||78.153.155.97^
 ||78.161.193.73^
-||78.165.113.157^
 ||78.166.208.141^
 ||78.171.123.16^
 ||78.172.181.187^
@@ -390076,6 +390060,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||79.111.14.68^
 ||79.112.9.6^
 ||79.117.6.227^
+||79.122.193.32^
 ||79.124.59.142^
 ||79.124.72.22^
 ||79.132.24.163^
@@ -390267,7 +390252,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||83.218.189.32^
 ||83.218.189.41^
 ||83.219.1.198^
-||83.224.130.197^
 ||83.224.135.169^
 ||83.224.138.10^
 ||83.224.139.126^
@@ -390280,7 +390264,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||83.224.151.36^
 ||83.224.156.200^
 ||83.224.159.187^
-||83.224.161.123^
 ||83.224.162.132^
 ||83.224.164.41^
 ||83.224.165.156^
@@ -390315,6 +390298,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||84.200.24.238^
 ||84.200.87.36^
 ||84.21.173.41^
+||84.22.136.158^
 ||84.234.96.159^
 ||84.234.99.20^
 ||84.234.99.21^
@@ -390422,6 +390406,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||87.121.105.136^
 ||87.121.112.123^
 ||87.121.112.124^
+||87.121.112.57^
 ||87.121.79.127^
 ||87.121.79.186^
 ||87.121.79.23^
@@ -390477,6 +390462,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||88.24.52.121^
 ||88.24.74.0^
 ||88.247.113.210^
+||88.248.194.163^
 ||88.249.70.76^
 ||88.250.238.6^
 ||88.254.164.206^
@@ -390497,7 +390483,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||89.125.152.38^
 ||89.125.187.224^
 ||89.125.60.223^
-||89.140.171.60^
 ||89.155.135.65^
 ||89.165.251.230^
 ||89.184.185.198^
@@ -390508,7 +390493,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||89.207.70.144^
 ||89.208.39.43^
 ||89.210.62.39^
-||89.222.151.167^
 ||89.222.178.210^
 ||89.23.205.198^
 ||89.231.14.137^
@@ -390577,6 +390561,8 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||91.232.103.250^
 ||91.235.116.139^
 ||91.235.234.235^
+||91.244.169.56^
+||91.244.71.53^
 ||91.246.210.69^
 ||91.247.124.188^
 ||91.80.129.100^
@@ -390713,10 +390699,10 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||93.82.169.218^
 ||93.86.100.80^
 ||93.87.31.84^
-||93.87.42.154^
 ||94.124.245.98^
 ||94.130.229.174^
 ||94.141.135.186^
+||94.142.63.8^
 ||94.154.32.127^
 ||94.154.32.129^
 ||94.154.32.148^
@@ -390739,6 +390725,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||94.156.152.23^
 ||94.156.152.67^
 ||94.156.152.6^
+||94.156.166.84^
 ||94.156.170.255^
 ||94.156.170.86^
 ||94.156.170.95^
@@ -390764,6 +390751,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||94.244.113.217^
 ||94.244.36.34^
 ||94.249.228.212^
+||94.251.5.51^
 ||94.253.91.154^
 ||94.26.106.137^
 ||94.26.106.177^
@@ -390773,9 +390761,9 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||94.43.139.153^
 ||94.52.86.60^
 ||94.67.52.56^
+||94.72.35.59^
 ||94.76.156.101^
 ||94fae730-597f-4442-813c-86263972a8f0.usrfiles.com^
-||95.104.22.168^
 ||95.105.0.49^
 ||95.106.58.28^
 ||95.121.74.229^
@@ -390793,6 +390781,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||95.165.187.102^
 ||95.169.212.91^
 ||95.170.114.70^
+||95.170.119.100^
 ||95.170.119.57^
 ||95.181.175.155^
 ||95.182.100.55^
@@ -391222,7 +391211,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||audit-trail.foundationmetric.in.net^
 ||augsburg-auto.com^
 ||aurora519.coupon9cabin.coupons^
-||aurorabolnica.co.rs^
 ||aurum-net.goldhaven.in.net^
 ||austro02.austrodouble.in.net^
 ||auth-global-zone.schnellauf.coupons^
@@ -391398,7 +391386,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||best.obs.cn-sz1.ctyun.cn^
 ||best10cdn.blob.core.windows.net^
 ||best7.novalis.in.net^
-||bestcruisetravelinsurance.com^
 ||bestway.miravento.in.net^
 ||beszart.govt.hu^
 ||beta-node.deal4harbor.coupons^
@@ -391467,6 +391454,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||blenddense.paragonprospera.in.net^
 ||blendlayout.rassvet.in.net^
 ||blessdayservices.org^
+||blit.co.za^
 ||blitz-deal.blaukraft.coupons^
 ||block-sensor.metropolitangrid.in.net^
 ||block-storage.alignmentstorage.in.net^
@@ -391642,7 +391630,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||c1ien-forge.octagonon.in.net^
 ||c1ip-scope.sunbit.in.net^
 ||c2-core-sync.focozero.in.net^
-||c2.mc-live.online^
 ||c3436037.salamanderprocessing.pages.dev^
 ||c4mp-cast.yardnext.in.net^
 ||c5543.fythoria.in.net^
@@ -391684,7 +391671,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||capsule4u.com^
 ||captcha-verification-module.com^
 ||carboninternationalco.fwh.is^
-||carcaran.com^
 ||careersconnect.work^
 ||carg-man.radiatebeef.in.net^
 ||cargo9-stack.dancingvck.in.net^
@@ -391730,6 +391716,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||cdn-z7-edge.optico-voda.in.net^
 ||cdn.file6.goodid.com^
 ||cdn.gomlab.com^
+||cdn.ly.9377.com^
 ||cdn.mintvoucher.coupons^
 ||cdn.novoline.top^
 ||cdn.semifinal-matching.coupons^
@@ -391798,6 +391785,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||chilled-link.cryogenicbuffer.in.net^
 ||chilloutvrhub.com^
 ||chillwater.coldinriver.in.net^
+||chinaapper.com^
 ||chinasite.com.br^
 ||chip-set.infocircuit.in.net^
 ||chiptune.com^
@@ -392156,6 +392144,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||constant-io.isothermalmetric.in.net^
 ||constell-1node.constellupd.in.net^
 ||container.pear6box.coupons^
+||contentmentfairnesspesky.com^
 ||continentalgroup.net.in^
 ||contour-api.topographictrace.in.net^
 ||contour.paw85silhouette.coupons^
@@ -392714,7 +392703,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||dl.2345.com^
 ||dl.aginjector.com^
 ||dl.armour-inc-down.net^
-||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||dl.plum5parcel.coupons^
 ||dl.schnellauf.coupons^
@@ -392763,7 +392751,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||download-update.com^
 ||download-version.1-45-1.com^
 ||download-version.1-7-2.com^
-||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.google-chrome.cyou^
 ||download.haozip.com^
@@ -392782,7 +392769,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||dowonline.ru^
 ||doyu.digital^
 ||dps-radar.sbs^
-||dpshelp.space^
 ||dpshelp.store^
 ||dpvvgwcg.stormglade.in.net^
 ||dpwqj.gronstat.in.net^
@@ -392816,7 +392802,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||driveouter.yardnext.in.net^
 ||drivepro.lol^
 ||driver-tru.yellglass.in.net^
-||drivercool.lol^
 ||drp.greenenergygroup.org^
 ||drywind.sandwave.coupons^
 ||ds-grok.bokshire.in.net^
@@ -393476,6 +393461,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||formula.fusion2harbor.coupons^
 ||forrn4-mark.getlight.in.net^
 ||forspeed.onlinedown.net^
+||forxtra.com^
 ||fq2xm9rz.xyz^
 ||fqwhi8.echelonprosper.in.net^
 ||fr4me-hinge.breezefield.in.net^
@@ -393546,7 +393532,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||fxmixers.com^
 ||fxtlp6so.eyedmerlushka.digital^
 ||fyuu.tr4cefox.in.net^
-||fz.tiansys.cn^
 ||fz01ob.glowhaven.in.net^
 ||g0-data-z9.viametrica.in.net^
 ||g38198.batkascript.in.net^
@@ -393570,7 +393555,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||galeri3.arkitera.com^
 ||galerisenimutiara.com^
 ||gama567ad2.online^
-||gao.or.kr^
 ||gaos1opo.dataspark.digital^
 ||gard-cano.catflat.in.net^
 ||garde-sha.ironhub.in.net^
@@ -393742,7 +393726,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||go.perkparcel.coupons^
 ||go.stillesee.coupons^
 ||goboadvertising.autodealertech.co^
-||gohelpertechnologies.in^
 ||gohpit.lol^
 ||golbyte.ra8gera.in.net^
 ||gold-day.luminos.in.net^
@@ -394237,7 +394220,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||invoice-simplee.com^
 ||invoicepixe.decktop.in.net^
 ||invoicgran.cl0verrun.in.net^
-||invoker.rootxran.com^
 ||ion-channel.molecularbonding.in.net^
 ||ion-stream.stellarflux.in.net^
 ||ion0-frame.z7hire.in.net^
@@ -395057,6 +395039,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||mirogv.onfloor.in.net^
 ||mirror-sync.symmetricalflow.in.net^
 ||miryyjn.com^
+||miskolc-dugulaselharitas.hu^
 ||missed-picnic-purpose-daily.trycloudflare.com^
 ||mist-base.mistgrove.in.net^
 ||mist-logic.goodwork.in.net^
@@ -395500,7 +395483,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||onlinemoneyagency.top^
 ||only-one.novalis.in.net^
 ||onlymediumsteak.top^
-||onyxarmorcrypt.de^
 ||onyxcyberedge.de^
 ||onyxfortifypro.de^
 ||onyxguardify.de^
@@ -395893,6 +395875,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||prepstarcenter.com^
 ||pres-mode.horspresence.in.net^
 ||pressure-io.centralizedduct.in.net^
+||preziosamagazines.cc^
 ||pricehub.q7ravo.in.net^
 ||pricescene.vouayger.in.net^
 ||pricethread.starpit.in.net^
@@ -395913,7 +395896,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||prism.gadgetgrab.coupons^
 ||privateflame.checkstor.in.net^
 ||proappv2.com^
-||probable-winner.info^
 ||proc-9-auth.browser-crash-report.coupons^
 ||proc.networkoptimizer.in.net^
 ||proc1alpha.activegateway.in.net^
@@ -396030,7 +396012,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||pub-ce02802067934e0eb072f69bf6427bf6.r2.dev^
 ||pub-d0a63a1c278246a7bd42edfc4ade9a1a.r2.dev^
 ||pub-ddc283035a91433f85755edb9a06e562.r2.dev^
-||pub-df13d803030c4cab8b69722fbd66d7cd.r2.dev^
 ||pub-e0f31498c93c4562973d8295141e23d0.r2.dev^
 ||pub-e306adc6127c4521869ba034f1b34502.r2.dev^
 ||pub-e63a077448d34769b25e250ef5a7c938.r2.dev^
@@ -396302,6 +396283,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||refineterminal.foxrunet.in.net^
 ||refineterminal.jacksend.in.net^
 ||refinewinter.sightup.in.net^
+||refrigeracion.delmondexpress.com^
 ||region-sync-base.brightvale.ru^
 ||reifenquick.de^
 ||rein-dock.reinsurundock.in.net^
@@ -396590,7 +396572,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||sandboximport.covenantbloom.in.net^
 ||sandpulse.lionsand.in.net^
 ||sanghyun.nfile.net^
-||sanjaydharmraj.in^
 ||sannod.liberalpilka.in.net^
 ||sap0-node.zecoko.in.net^
 ||sap3-route.f0xharbor.in.net^
@@ -396673,7 +396654,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||secureimport.vouayger.in.net^
 ||secureswift.respecti.in.net^
 ||securityfax.servemp3.com^
-||securrty.cfd^
 ||seeking-packard-allowed-joke.trycloudflare.com^
 ||seio.vexmoor.in.net^
 ||sellmeyourbiz.com^
@@ -396738,7 +396718,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||shad-wave.temprock.in.net^
 ||shad0vv-rnix.shadow6nectar.coupons^
 ||shad6-scope.registar.in.net^
-||shaderm.com^
 ||shadowbat8s88sww.qzz.io^
 ||shadowbot-dih.pages.dev^
 ||shadowdispatch.quillridge.in.net^
@@ -397005,7 +396984,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||splitboos.decktop.in.net^
 ||splitcrim.dotnet.in.net^
 ||splitmedi.tr1bekit.in.net^
-||spoar.org.in^
 ||spooldiscover.silvermeadow.in.net^
 ||spoolfox.invulshuga.in.net^
 ||spr1ng-field.farmanager.in.net^
@@ -397055,7 +397033,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||ssagntroplexa.com^
 ||ssajebtiagency.it.com^
 ||ssdocinfo.info^
-||ssl-host.com^
 ||ssl.ftp21.cc^
 ||sswms.v7lora.in.net^
 ||st-4.weldoxis.in.net^
@@ -397134,6 +397111,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||stone3-lab.dancingvck.in.net^
 ||stonebet88.games^
 ||stonebridge.grayford.in.net^
+||stonecradle.com^
 ||stonegraze.goatbreed.in.net^
 ||stonepatch.mossrock.in.net^
 ||stonewild.wildandstone.in.net^
@@ -397495,6 +397473,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||swiftbasalt.octagonon.in.net^
 ||swiftbranch.fastleaf.in.net^
 ||swiftcore.cloudbridge.city^
+||swiftfusion.tech^
 ||switch-gear.sectoralcontrol.in.net^
 ||swog3mgt.openmatrix.digital^
 ||swvilsrf.xyz^
@@ -397863,7 +397842,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||trust-deep.closell.in.net^
 ||trustedotter.n1ghtbloom.in.net^
 ||truth-table.logicmatrix.in.net^
-||tryytmanyrei.live^
 ||ts2hfdf.cokefun.in.net^
 ||ts9qv.officeco.in.net^
 ||tt-privateuz.sbs^
@@ -398603,6 +398581,7 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||xwang02.com^
 ||xwph0rqa.xyz^
 ||xww.bucea.edu.cn^
+||xx.kak.is^
 ||xx4z5ilx.agingfrugally.digital^
 ||xxhq.batkascript.in.net^
 ||xxkvm5.temprock.in.net^
@@ -398657,7 +398636,6 @@ ublockorigin.app###main::before:style(content: 'This is not the official uBlock 
 ||youtube-russ.lol^
 ||youtubefromrussia.lol^
 ||youtubeslip.lol^
-||youtubrussia.lol^
 ||youtuxo.lol^
 ||ypmd72xu.latticepatronage.digital^
 ||ypzwu43.concretemixer.in.net^
