@@ -1,8 +1,8 @@
 ! Title: AdGuard Extension Merge
 ! Description: Merged AdGuard filters with Deduplication
-! Version: 1.0.1777148945
+! Version: 1.0.1777235325
 ! Homepage: https://github.com/RoadToNowhereX/AdGH-AdditionalRules
-! Last modified: 2026-04-25T20:29:06.556Z
+! Last modified: 2026-04-26T20:28:46.796Z
 ! Source: AdGE.txt
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83855,6 +83855,7 @@ browsershots.org#@#.advert_area
 ||answers.sg/embed/
 ||any.gs/visitScript/
 ||aoneroom.com/wefeed-h5-bff/ad/$xmlhttprequest
+||aoneroom.com/wefeed-h5api-bff/ad/
 ||api-player.globalsun.io/api/publishers/player/content?category_id=*&adserver_id=$xmlhttprequest
 ||api.bo3.gg/api/v1/ad_baners
 ||app.clickfunnels.com^$~stylesheet
@@ -87475,7 +87476,7 @@ buzzfeed.com,darkreading.com,gamedeveloper.com,iotworldtoday.com,sevendaysvt.com
 mui.com##.Ad-root
 deseret.com##.Ad-space
 jagranjosh.com##.Ad720x90
-thingiverse.com##.AdBanner__adBanner--GpB5d
+thingiverse.com##.AdBanner__adBanner--gSsno
 surfline.com##.AdBlock_modal__QwIcG
 jagranjosh.com##.AdCont
 laist.com##.AdModule-container
@@ -90378,6 +90379,7 @@ finextra.com##.module--sponsor
 webmd.com##.module-f-hs
 usmagazine.com##.module-storyme
 webmd.com##.module-top-picks
+topographic-map.com##.moduleAmazon
 fxsforexsrbijaforum.com##.module_ahlaejaba
 dfir.training##.moduleid-307
 dfir.training##.moduleid-347
@@ -357934,9 +357936,9 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group
 !#7
 !#8
 !#91porny.com
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
+xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
+xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
+xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
 ###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
