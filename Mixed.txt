@@ -22353,7 +22353,6 @@ weatherzone.com.au,lifehacker.jp#%#//scriptlet('trusted-replace-node-text', 'scr
 /^https:\/\/www\.[0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-]+\.xyz\/script\/[0-9A-Za-z.-]+\.[A-Za-z-][A-Za-z-]+\.js$/$script,third-party,match-case
 ||minecraftskins.com/miscjs/as*.js
 ||loader.motor-talk.de^
-||html-load.com^$important,domain=nikkansports.com|j-cast.com|picksandparlays.net|ranking.net|minkou.jp|aucfree.com|motor-talk.de|373news.com|northantstelegraph.co.uk|tavovaikas.lt|agriculture.com|travelandleisure.com|learnreligions.com|verywellhealth.com|statecollege.com|dayspedia.com|aussieaudiomart.com|ukaudiomart.com|usaudiomart.com|canuckaudiomart.com|thestreet.com|kurashiru.com|micechat.com|seriouseats.com|followfollow.com|financialpost.com|vancouversun.com|driving.ca|theprovince.com|calgaryherald.com|edmontonsun.com|athlonsports.com|leaderpost.com|thestarphoenix.com|parade.com|elnacional.cat|livescience.com|saikyo-jump.com|torontosun.com|robbreport.com|thelayoff.com|preventionrd.com|meteo60.fr|cybertruckownersclub.com|jlwranglerforums.com|yorkshirepost.co.uk|hometalk.com|foodtalkdaily.com|ontariofarmer.com|all-nationz.com|broncosportforum.com|deltiasgaming.com|taycanforum.com|urbandictionary.com|lfpress.com|4runner6g.com|f150gen14.com|mavericktruckclub.com|tacoma4g.com|game8.jp
 ||ad-shield.cc^
 thestreet.com#%#//scriptlet('trusted-replace-argument', 'JSON.parse', '0', 'replace:/"AdShield":{"isEnabled":true}/"AdShield":{"isEnabled":false}/', 'AdShield')
 gumtree.com#%#//scriptlet('json-prune', 'features.ad02 features.adshield')
@@ -22474,6 +22473,7 @@ smsonline.cloud#$?#html[data-theme][lang] [id^="img_"][style]:has(iframe[framebo
 ~dogdrip.net,~smsonline.cloud##div[id][class][style^="display"][style*="hidden"][style*="width:   "]
 ~dogdrip.net,~smsonline.cloud##div[id^="img_"][style^="width: 100%;height: 90px;position: fixed;bottom: 0px;left: 0px;z-index:"]
 ~dogdrip.net,~smsonline.cloud##div[id^="img_"] > button.gCloseButton
+~dogdrip.net,~smsonline.cloud##div[id] > div#gCloseButton
 ~dogdrip.net,~smsonline.cloud##amp-img[height="   120"]
 ~dogdrip.net,~smsonline.cloud##amp-img[width="   300"]
 ~dogdrip.net,~smsonline.cloud##amp-img[width="   336"]
@@ -22484,7 +22484,6 @@ smsonline.cloud#$?#html[data-theme][lang] [id^="img_"][style]:has(iframe[framebo
 ~dogdrip.net,~smsonline.cloud##div[id^="img_"][style$="height: 90px;"]
 ~dogdrip.net,~smsonline.cloud##div[id^="img_"][style$="max-height:100px;background-color:rgba(128, 128, 128, 0.4);"]
 content-loader.com,css-load.com,html-load.com,img-load.com#$?#html:not(:has(> head > style:only-child:contains(width:399px;height:411px))) { filter: opacity(0) !important; pointer-events: none !important; }
-~dogdrip.net,~smsonline.cloud##div[id^="img_"][style="min-width: 300px; min-height: 250px;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="height:    250px; width:    300px;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="width:    160px; height:    600px; margin: 0px auto; min-width: 160px; min-height: 600px;"]
 ~dogdrip.net,~smsonline.cloud##div[style^="width:    300px; height:    250px;"]
@@ -63860,33 +63859,46 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
-||15oil.net^
+||3jbli882tj2zwm8f442p3en.rest^
+||5licfbo4p7k4hmcti5j.cfd^
+||acrasingraters.cfd^
 ||admitad.com^
 ||ads-static.conde.digital^
 ||alipromo.com^
 ||alitems.com^
 ||atdmt.com^
 ||auditude.com^
+||beauit.cyou^
 ||buyeasy.by^
+||comitjegrubby.qpon^
 ||demand.supply^$script
+||dsyatr.com^
+||fivalgsy.com^
 ||fwmrm.net^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
+||hermeleoxalato.shop^
 ||imasdk.googleapis.com^
+||kharifungiant.cyou^
 ||kqzyfj.com^
 ||loadercdn.com^
 ||macro.adnami.io^
 ||monetag.com^
+||nerfzxkysjhjh.online^
+||nmroutvgijplm.space^
 ||ntv.io^
+||oirdwcadrzrqj.online^
 ||ojrq.net^
 ||paid.outbrain.com^
+||recaneschametz.shop^
 ||redirectingat.com^
 ||rubiconproject.com^
+||sawpitpuckishcording.cfd^
+||services8080.com^
 ||totaladblock.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
-||xlduvjimtbgox.website^
-||yagfbgbrjwqhd.online^
+||writeupfrap.cfd^
 ||0i0i0i0.com^$document
 ||123-stream.org^$document
 ||1asb.com^$document
@@ -64847,6 +64859,7 @@ browsershots.org#@#.advert_area
 ||afront.io^$third-party
 ||afy11.net^$third-party
 ||afyads.com^$third-party
+||agentio.com^$third-party
 ||aim4media.com^$third-party
 ||ainsyndication.com^$third-party
 ||airfind.com^$third-party
@@ -72662,6 +72675,7 @@ nintendoworldreport.com###hAd
 lapoderosa.com###hcAdd
 castanet.net###hdad
 inventorspot.com,mothering.com,wordfind.com###header
+ndtv.com###header-ad-slot
 fxempire.com###header-ads-block
 khelnow.com###header-adwords-section
 aeroexpo.online,agriexpo.online,directindustry.com,droidgamers.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com###header-banner
@@ -72958,7 +72972,7 @@ explainxkcd.com###p-Ads
 phpbb.com###page-footer > h3
 accuradio.com###pageSidebarWrapper
 cyclenews.com###pamnew
-aninews.in,devdiscourse.com,footballorgin.com,gadgets360.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
+aninews.in,devdiscourse.com,footballorgin.com,gadgets360.com,justthenews.com,oneindia.com,zeebiz.com###parentDiv0
 mg.co.za###partner-content
 standard.co.uk###partner-ctas
 hwbot.org###partner-tiles
@@ -73052,6 +73066,7 @@ immoweb.be###result-list-header
 apexcharts.com###revealDemandbaseAwarenesAnimationContainer
 homedepot.com,nordstrom.com###revjet_container
 10minutemail.net,eel.surf7.net.my###right
+ndtv.com###right-ad-slot
 msguides.com###right-bottom-camp
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
@@ -73403,6 +73418,7 @@ etherealgames.com###widgets-wrap-before-content
 wiki.gg###wikigg-sl-footer
 wiki.gg###wikigg-sl-header
 wiki.gg###wikigg-sl-rail
+cyberchef.org#$##workspace-wrapper > [id][style*="height"] { height: 100% !important }
 rediff.com###world_right1
 rediff.com###world_right2
 rediff.com###world_top
@@ -73475,6 +73491,7 @@ newspointapp.com##.Ad_wrapper
 aleteia.org##.Ad_wrapper__B_hxA
 greatandhra.com##.AdinHedare
 geometrygames.io,jagranjosh.com##.Ads
+upday.com##.AdsSolutionsSlot
 sportsnet.ca##.Ads_card-wrapper__RKLH4
 alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adLeaderboard
 alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adRectangle
@@ -73524,6 +73541,7 @@ emarketer.com##.ContentRightAd
 aerospacemanufacturinganddesign.com##.CoverPop-close-go
 ulta.com##.CriteoProductRail
 calcalistech.com##.Ctech_general_banner
+ndtv.com##.CustomAdWidget-module-scss-module__xgZgtW__ads-wrp
 lithub.com##.Custom_Ads
 inverness-courier.co.uk,johnogroat-journal.co.uk##.DMPU
 drudgereport.com##.DR-AD-SPACE
@@ -73586,6 +73604,7 @@ business-standard.com##.Nws_banner_Hp
 chicago.suntimes.com,mangasect.com,manhuaplus.com##.OUTBRAIN
 chronicle.com##.OneColumnContainer
 newscientist.com##.Outbrain
+upday.com##.OutbrainSlotWidget
 kentonline.co.uk##.PSDRGC
 laist.com##.Page-above
 newatlas.com##.Page-above-content
@@ -73647,7 +73666,6 @@ smh.com.au##.TPT1c
 newser.com##.TaboolaP1P2
 imgur.com##.Top300x600
 cnbc.com##.TopBanner-container
-ndtv.com##.TpGnAd_ad-wr
 dappradar.com##.Tracker__StyledSmartLink-sc-u8v3nu-0
 health.news##.UnderNavigationContainer
 meduza.io##.UnderTheSun-module-banner
@@ -73998,7 +74016,6 @@ watcher.guru##.add-header
 ians.in##.add-inner
 ruralview.com.au##.add-item
 zeenews.india.com##.add-placeholder
-ndtv.com##.add-section
 moneycontrol.com##.add-spot
 media4growth.com##.add-text
 brandingmag.com,khaleejtimes.com##.add-wrap
@@ -74006,11 +74023,8 @@ ndtv.com##.add-wrp
 muslimobserver.com##.add2
 projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
-ndtv.com##.add__txt
-ndtv.com##.add__wrp
 harpersbazaar.in##.add_box
 bridestoday.in##.add_container
-ndtv.com##.add_dxt-non
 longevity.technology,news18.com##.add_section
 harpersbazaar.in##.add_wrapper
 citationmachine.net##.adds-wrapper
@@ -74049,17 +74063,15 @@ geometrygames.io##.ads-970x250
 dallasinnovates.com##.ads-article-body
 nationthailand.com##.ads-billboard
 founderoo.co##.ads-block_component
-dnaindia.com,wionews.com##.ads-box-300x250
+dnaindia.com##.ads-box-300x250
 zeenews.india.com##.ads-box-300x250::before
-wionews.com##.ads-box-300x300
-dnaindia.com,wionews.com##.ads-box-970x90
-dnaindia.com,wionews.com##.ads-box-d90-m300
+dnaindia.com##.ads-box-970x90
 hubcloud.club##.ads-btns
 thefinancialexpress.com.bd##.ads-carousel-container
 mangabats.com,nelomanga.net##.ads-contain
 mangakakalot.gg##.ads-contain-v2
 gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,speakerdeck.com,spotify.com,techxplore.com##.ads-container
-pcquest.com,wionews.com##.ads-div-style
+pcquest.com##.ads-div-style
 freemalaysiatoday.com##.ads-dynamic-desktop
 thetruthaboutcars.com##.ads-fluid-wrap
 spambox.xyz##.ads-four
@@ -74103,6 +74115,7 @@ kbb.com##.ads__container
 kbb.com##.ads__container-kbbLockedAd
 indiatodaygaming.com##.ads__container_rhs
 metro.co.uk##.ads__index__adWrapper--cz7QL
+wionews.com##.ads_adsBlock__8hCp1
 vccircle.com##.ads_ads__qsWIu
 collegedunia.com##.ads_body_ad_code_container
 mediapost.com##.ads_inline_640
@@ -75580,6 +75593,7 @@ africanadvice.com,pspad.com,sudantribune.com##.google
 apkmirror.com##.google-ad-leaderboard
 secretchicago.com##.google-ad-manager-ads-header
 safeway.com##.google-adManager
+carwow.co.uk##.google-ad__disclaimer
 yandex.com##.google-sticky-adv-banner__desktop-disable-ad-button-wrapper
 dicoall.com##.googleAdMain
 manabadi.co.in##.googleAdsdiv
@@ -75598,8 +75612,8 @@ balls.ie##.gray-ad-title
 greatandhra.com##.great_andhra_logo_panel_top_box_201223_
 greatandhra.com##.great_andhra_main_201223_
 mma-core.com##.grec
-greekcitytimes.com##.greek-adlabel
-greekcitytimes.com##.greek-after-content
+greekcitytimes.com##.greek-2after-post
+greekcitytimes.com##.greek-2content
 curioustic.com##.grey
 rabble.ca##.grey-cta-block
 topminecraftservers.org##.grey-section
@@ -75759,7 +75773,6 @@ westword.com##.hil28zhf1wyd
 highwayradio.com##.hiway-widget
 deccanherald.com##.hizmZ
 hola.com##.hm-sticky-sidebar
-ndtv.com##.hmpage_rhs
 admonsters.com##.hmpg_full-bleed
 seattlepi.com##.hnpad-Flex1
 seattlepi.com##.hnpad-Inline
@@ -76226,7 +76239,7 @@ gfinityesports.com##.manifold-takeover
 get.pixelexperience.org##.mantine-arewlw
 whatsgabycooking.com##.manual-adthrive-sidebar
 metoffice.gov.uk##.maps-header-advert
-glasgowtimes.co.uk,heraldseries.co.uk,somersetcountygazette.co.uk,thenational.scot##.mar-leaderboard--top
+dailyecho.co.uk,dissmercury.co.uk,glasgowtimes.co.uk,heraldseries.co.uk,somersetcountygazette.co.uk,thenational.scot##.mar-leaderboard--top
 igi-global.com##.margin-bottom-15.inline-block-100
 linkvertise.com##.margin-bottom-class-20
 color-hex.com##.margin10
@@ -77266,6 +77279,7 @@ coingape.com##.sidebar-btn-container
 ixbt.games##.sidebar-c
 nfcw.com##.sidebar-display
 thehustle.co##.sidebar-feed-trends
+military.com##.sidebar-first
 gameflare.com##.sidebar-game
 lawandcrime.com,mediaite.com##.sidebar-hook
 spearswms.com##.sidebar-mpu-1
@@ -77303,7 +77317,7 @@ geoawesome.com##.single-post__extra-info
 abovethelaw.com##.single-post__sponsored-post--desktop
 policyoptions.irpp.org##.single__ad
 nypost.com##.single__outbrain
-dlhd.link,mixonline.com##.site-ad
+dlhd.link,mixonline.com,radioworld.com##.site-ad
 gg.deals##.site-banner-top-widget
 deshdoaba.com##.site-branding
 winaero.com##.site-content > div > p[style="margin: 22px"]
@@ -77485,7 +77499,7 @@ goterriers.com##.sticky-footer
 walletinvestor.com##.sticky-footer-content
 babylonbee.com##.sticky-footer-image
 kmzu.com##.sticky-footer-promo-container
-business2community.com##.sticky-header
+business2community.com,military.com##.sticky-header
 tampafp.com##.sticky-inside-pad
 leaf.tv,sciencing.com##.sticky-leaderboard-container
 fastcompany.com##.sticky-outer-wrapper
@@ -77594,6 +77608,7 @@ theanalyst.com##.ta-ad
 mishaptube.com##.table
 ucompares.com##.tablepress-id-46
 posemaniacs.com##.tabletL\:w-\[728px\]
+ndtv.com##.taboola-slot
 protocol.com##.tag-sponsored
 spectrum.ieee.org##.tag-type-whitepaper
 ghanaweb.com##.takeover
@@ -79899,7 +79914,6 @@ firstpost.com##.taboola-div
 indianexpress.com##.taboola-parent
 israelnationalnews.com##.taboola-top
 news18.com##.taboolaWrap
-ndtv.com##[class^="ads_"]
 ndtv.com##div:has(> [id^="adslot"])
 weather.com##div[id*="Taboola-sidebar"]
 weather.com##div[id^="Taboola-main-"]
@@ -79907,8 +79921,6 @@ drivespark.com,express.co.uk,goodreturns.in##div[id^="taboola-"]
 mail.aol.com##li:has(a[data-test-id="pencil-ad-messageList"])
 linkvertise.com##lv-taboola-ctr-ad-dummy
 filmibeat.com,gizbot.com,oneindia.com##ul > li:has(> div[id^="taboola-mid-home-stream"])
-ndtv.com,ndtv.in##[class^="firework"]
-ndtv.com,ndtv.in##[id^="firework"]
 aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupply.com,chpadblock.com,exoclick.com,hilltopads.com,juicyads.com,monetag.com,popads.net,propellerads.com,purpleads.io,trafficshop.com,yavli.com##HTML
 ##.ad-fallback
 ##.ad.reform-top
@@ -80076,6 +80088,7 @@ familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 athlonsports.com,autoblog.com,bringmethenews.com,dengarden.com,mensfitness.com,mensjournal.com,parade.com,paradehomeandgarden.com,paradepets.com,pethelpful.com,surfer.com,thespun.com,thestreet.com,travelhost.com##.exco-player-wrapper
+portsmouth.co.uk##.exco-video-player
 wral.com##.exco-wrapper
 goal.com##.fco-fc-video-player
 accuweather.com##.feature-tag
@@ -200611,7 +200624,7 @@ historyextra.com,businessinsider.com,discover.hubpages.com,freundin.de,utopia.de
 historyextra.com,businessinsider.com,discover.hubpages.com,freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.de,eatsmarter.de,inside-digital.de,vrt.be,manager-magazin.de,whats-on-netflix.com#$#html.sp-message-open body { overflow-y: visible !important; position: static !important; margin-top: 0 !important; }
 tag24.de,gamesradar.com#$#.sp-message-open { overflow-y: visible !important; position: static !important; }
 tag24.de,gamesradar.com#$#html.sp-message-open body { overflow-y: visible !important; position: static !important; }
-||cs.iubenda.com^$domain=gls-italy.com|lentepubblica.it|tinybeans.com|a2a.it|team.blue|bike-room.com|woodinstock.org|games-world4you.de|eurovolley.tv
+||cs.iubenda.com^$domain=gls-italy.com|lentepubblica.it|tinybeans.com|a2a.it|team.blue|bike-room.com|woodinstock.org|games-world4you.de|eurovolley.tv|browserchoicealliance.org
 panattonieurope.com,nogashoes.com,nuvolari.biz,sportmo.shop,unicampus.it,thewom.it,girotonno.it,freeway.it,ilfattoquotidiano.it,headfound.com,emergency-live.com,icrosettarossi.edu.it,leggioggi.it,pcprofessionale.it,linkiesta.it,drakonidromele.it,altervista.org,makte.it,windows8.myblog.it,fiscoetasse.com,fabricators.ltd,urbanpost.it,synlab.it,dissapore.com,leganerd.com,siracusanews.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it#$#body #iubenda-cs-banner { display: none !important; }
 panattonieurope.com,nogashoes.com,nuvolari.biz,sportmo.shop,unicampus.it,thewom.it,girotonno.it,freeway.it,ilfattoquotidiano.it,headfound.com,emergency-live.com,icrosettarossi.edu.it,leggioggi.it,pcprofessionale.it,linkiesta.it,drakonidromele.it,altervista.org,makte.it,windows8.myblog.it,fiscoetasse.com,fabricators.ltd,urbanpost.it,synlab.it,dissapore.com,leganerd.com,siracusanews.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it#$#html { overflow: auto !important; }
 ||cdn.iubenda.com/cs/iubenda_cs.js$domain=agrigentonotizie.it|anconatoday.it|arezzonotizie.it|avellinotoday.it|baritoday.it|bolognatoday.it|bresciatoday.it|brindisireport.it|cagliaritoday.it|casertanews.it|cataniatoday.it|cesenatoday.it|chietitoday.it|ferraratoday.it|firenzetoday.it|foggiatoday.it|forlitoday.it|frosinonetoday.it|genovatoday.it|ilpescara.it|ilpiacenza.it|latinatoday.it|lecceprima.it|leccotoday.it|livornotoday.it|messinatoday.it|milanotoday.it|modenatoday.it|monzatoday.it|napolitoday.it|novaratoday.it|padovaoggi.it|palermotoday.it|parmatoday.it|perugiatoday.it|pisatoday.it|pordenonetoday.it|quicomo.it|ravennatoday.it|reggiotoday.it|riminitoday.it|salernotoday.it|sondriotoday.it|ternitoday.it|torinotoday.it|trentotoday.it|trevisotoday.it|triesteprima.it|udinetoday.it|veneziatoday.it|veronasera.it|vicenzatoday.it|viterbotoday.it|dragonsecret.it|snaphunt.com
@@ -200656,6 +200669,9 @@ wegwandern.ch,compact-online.de#%#//scriptlet('trusted-click-element', 'dialog a
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
 ||cookietrace.webequalty.com^$domain=sabancivakfi.org
 sabancivakfi.org###ez-banner[role="banner"]
+netzkino.de#%#//scriptlet('trusted-set-local-storage-item', 'cookieSettings', '{"fullOptIn":false,"googleAnalytics":false,"facebookTrackingPixelandConversionAPI":false,"googleAds":false,"xPixel":false}')
+auroramap.org###am-cookie-banner
+vinos.de##.consent-cookie-box-light-box
 blindtyping.com#%#//scriptlet('trusted-set-local-storage-item', 'BLINDTYPING.accepted-cookies', '{"essential":true,"analytics":false,"marketing":false}')
 talep.peugeot.com.tr##.ihm-popup-overlay
 talep.peugeot.com.tr##.ihm-popup
@@ -202101,7 +202117,7 @@ bundesimmobilien.de#$#body[style^="overflow:"] { overflow: auto !important; padd
 psg.fr#%#//scriptlet('trusted-click-element', '.global-footer .cookie-button-container button[data-trk-id="reject-marketing-cookies"]')
 timeweb.cloud#%#//scriptlet('set-local-storage-item', 'cookieConfirm', 'true')
 shop.mango.com#%#//scriptlet('trusted-click-element', 'dialog[class^="CookiesWrapper_cookiesWrapper"] button[aria-disabled="false"]:has(+ button[aria-disabled="false"])', '!cookie:consentCookie')
-chollometro.com,preisjaeger.at,pepperdeals.com,pepperdeals.se#%#//scriptlet('trusted-click-element', '#app .popover-content.flex--inline button[data-t="rejectAll"]', '!cookie:cookie_policy_agreement')
+pepper.pl,chollometro.com,preisjaeger.at,pepperdeals.com,pepperdeals.se#%#//scriptlet('trusted-click-element', '#app .popover-content.flex--inline button[data-t="rejectAll"]', '!cookie:cookie_policy_agreement')
 radyofenomen.com#%#//scriptlet('set-cookie-reload', 'isSiteCookieReviewed', '0')
 microbit.org#%#//scriptlet('trusted-set-cookie', 'MBCC', '%7B%22version%22%3A1%2C%22functional%22%3Afalse%2C%22analytics%22%3Afalse%7D')
 u-tv.ru##.banner-cookie-advertisement
@@ -202617,7 +202633,7 @@ plus.nl#%#//scriptlet('set-cookie', 'plus_cookie_level', '0')
 neomedica.pl#$#body.overflow { overflow: auto !important; }
 pandotree.wetransfer.com#%#//scriptlet('trusted-click-element', '#fides-banner-container .fides-reject-all-button', '!cookie:fides_consent')
 ||internet-law.ru/template/warmapril/cookie.js
-week.pl,atmoskop.cz#%#//scriptlet('trusted-click-element', '#cc-main button.cm__btn--secondary')
+nakanapie.pl,week.pl,atmoskop.cz#%#//scriptlet('trusted-click-element', '#cc-main button.cm__btn--secondary')
 mobilissimo.ro##.ui-cookies-notice-overlay
 mondoshop.it##div[id^="cookiesplus-"]
 esplus.ru##.coo-poly
@@ -222149,6 +222165,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 klerk.ru#?#iframe[src^="https://autofill.yandex.ru/suggest?"][src*="widget"]
 sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+muko.kr###xt_join_site_addons
 prokadry.com.ua##.id3-login-root
 archive.org##psa-banners
 archive.org#%#//scriptlet('hide-in-shadow-dom', 'psa-banners')
@@ -230910,6 +230927,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
 clutchpoints.com,newstime.joyn.de,hisse.net,gazetegercek.com.tr,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,computerbase.de,gzt.com,crash.net,foxsports.com.mx,theguardian.com,star.com.tr,halktv.com.tr,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,turkiyegazetesi.com.tr,aksam.com.tr,trhaber.com.tr,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+blick.de##.pt-container__content > .grid__item--4:has(> .card > #nl_blick_optin_form)
+digiday.com##div[aria-label="Inline Form"][id^="lightbox-"]:has(> [aria-label^="Modal Overlay"])
 eurogamer.net##.preferred-source
 psm7.com##.psm-home-bottom-google-news
 psm7.com##.psm-home-subscribe-form-container
@@ -231089,7 +231108,7 @@ tastesbetterfromscratch.com###emailrecipe
 bhg.com.au##.newsletter-subscription-block
 bhg.com.au##.magazine-subscription-block__inline
 barefootcontessa.com##.recipe-sidebar__sticky > div:has(> img[alt="Newsletter Signup"])
-noktagazetesi.com.tr,aydinlik.com.tr,halktv.com.tr,yenicaggazetesi.com##.google-news-follow
+dunya.com,noktagazetesi.com.tr,aydinlik.com.tr,halktv.com.tr,yenicaggazetesi.com##.google-news-follow
 wenthere8this.com#%#//scriptlet('set-cookie', 'cp_style_75187', 'true')
 joyousapron.com##.entry-content > .fluentform_wrapper_3.ffs_custom_wrap
 joyousapron.com#%#//scriptlet('trusted-set-local-storage-item', 'ck/forms/modal/d6018ef4e1/hideUntil', '$now$')
@@ -231371,9 +231390,9 @@ edumail.su###emf-widget-stack
 elcomercio.pe##.st__gn
 elcomercio.pe##.st__w-box
 downdetector.com##.grid > div[data-testid="card"]:has(> div.flex > div[class] > div[class] > a[aria-label="Facebook"])
-shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] ~ .fb_lightbox-overlay { display: none !important; }
-shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] { display: none !important; }
-shop.mashable.com#$#.box_active_disable_scrolling { touch-action: auto !important; overflow: auto !important; overscroll-behavior: auto !important; }
+digiday.com,shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] ~ .fb_lightbox-overlay { display: none !important; }
+digiday.com,shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] { display: none !important; }
+digiday.com,shop.mashable.com#$#.box_active_disable_scrolling { touch-action: auto !important; overflow: auto !important; overscroll-behavior: auto !important; }
 umschool.net##.post-single-content-form
 theintercept.com#$#div[data-module-source$="_Email_Wall_2hr-Delay-After-NoAds"] { display: none !important; }
 theintercept.com#$#.meter-expired { max-height: 100% !important; }
@@ -231406,7 +231425,7 @@ bbc.com##a[href="https://www.whatsapp.com/channel/0029Vb5eTSkHFxP3rcjNq41i"]
 burton.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"][i18n_csv_url^="https://docs.google.com/spreadsheets/"] ~ .fb_lightbox-overlay { display: none !important; }
 burton.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"][i18n_csv_url^="https://docs.google.com/spreadsheets/"] { display: none !important; }
 burton.com#$#.box_active_disable_scrolling { touch-action: auto !important; overflow: auto !important; overscroll-behavior: auto !important; }
-webtekno.com,techblog.gr,aljazeera.com##.google-preferred-source
+hurriyet.com.tr,webtekno.com,techblog.gr,aljazeera.com##.google-preferred-source
 bike-room.com##.widget--signup
 funmix.pl#?#.row > .col-xxs:has(> .section-title > span:contains(Newsletter))
 megacatstudios.com#$#.popup__modal { display: none !important; }
@@ -231765,7 +231784,7 @@ pagellapolitica.it##.bg-blue:has(a[class^="hover:text-blue"])
 pagellapolitica.it##section.bg-black:has(> .container > .grid)
 powercompare.co.nz##floating-subscription-element
 tomsguide.com###bannerHeader
-timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
+tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
 reebok.jp##.footer_box
 economipedia.com##.econo-code-block
 dig.watch##.newsletter-subscribe-v2
@@ -240524,6 +240543,8 @@ buttondown.email#@##subscribe-form
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+||imgz.star.com.tr/folders/star-app.png
+muko.kr##.lp-install-chip
 idhubs.app##.pwa-overlay
 idhubs.app##.pwa-banner
 isinolsa.com##.isinolsa-cta-box
@@ -241482,7 +241503,6 @@ carrefoursa.com##.container > div.simple-banner-component:has(> a[href^="https:/
 teller.jp###footer_banner > div.item:has(> a[href^="https://tellernovel.onelink.me/"])
 bundle.app#?#.fixed-bottom:has(> div.popup button.download)
 zukan.com##.topbar__news:has(> p > a[href="https://mikke.zukan.com"])
-gunes.com,m.star.com.tr,m.aksam.com.tr##.footerSocials
 homerun.co.uk###appstore-desktop
 guidetoiceland.is##h2 ~ div[class^="x-"]:has(> aside[class^="x-"] > div[class^="x-"] > a[href^="https://apps.apple.com/ua/app/"])
 guidetoiceland.is###attractionContainer + div[style]:has(> div[class^="Container_container"] > div[class*="Section_notFirstSection__"])
@@ -257606,7 +257626,7 @@ historyextra.com,businessinsider.com,discover.hubpages.com,freundin.de,utopia.de
 historyextra.com,businessinsider.com,discover.hubpages.com,freundin.de,utopia.de,mein-schoener-garten.de,eveningnews24.co.uk,rollingstone.de,eatsmarter.de,inside-digital.de,vrt.be,manager-magazin.de,whats-on-netflix.com#$#html.sp-message-open body { overflow-y: visible !important; position: static !important; margin-top: 0 !important; }
 tag24.de,gamesradar.com#$#.sp-message-open { overflow-y: visible !important; position: static !important; }
 tag24.de,gamesradar.com#$#html.sp-message-open body { overflow-y: visible !important; position: static !important; }
-||cs.iubenda.com^$domain=gls-italy.com|lentepubblica.it|tinybeans.com|a2a.it|team.blue|bike-room.com|woodinstock.org|games-world4you.de|eurovolley.tv
+||cs.iubenda.com^$domain=gls-italy.com|lentepubblica.it|tinybeans.com|a2a.it|team.blue|bike-room.com|woodinstock.org|games-world4you.de|eurovolley.tv|browserchoicealliance.org
 panattonieurope.com,nogashoes.com,nuvolari.biz,sportmo.shop,unicampus.it,thewom.it,girotonno.it,freeway.it,ilfattoquotidiano.it,headfound.com,emergency-live.com,icrosettarossi.edu.it,leggioggi.it,pcprofessionale.it,linkiesta.it,drakonidromele.it,altervista.org,makte.it,windows8.myblog.it,fiscoetasse.com,fabricators.ltd,urbanpost.it,synlab.it,dissapore.com,leganerd.com,siracusanews.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it#$#body #iubenda-cs-banner { display: none !important; }
 panattonieurope.com,nogashoes.com,nuvolari.biz,sportmo.shop,unicampus.it,thewom.it,girotonno.it,freeway.it,ilfattoquotidiano.it,headfound.com,emergency-live.com,icrosettarossi.edu.it,leggioggi.it,pcprofessionale.it,linkiesta.it,drakonidromele.it,altervista.org,makte.it,windows8.myblog.it,fiscoetasse.com,fabricators.ltd,urbanpost.it,synlab.it,dissapore.com,leganerd.com,siracusanews.it,ansa.it,ilmessaggero.it,dilei.it,quifinanza.it,siviaggia.it,buonissimo.it,paginebianche.it,paginegialle.it,pgcasa.it,supereva.it,tuttocitta.it#$#html { overflow: auto !important; }
 ||cdn.iubenda.com/cs/iubenda_cs.js$domain=agrigentonotizie.it|anconatoday.it|arezzonotizie.it|avellinotoday.it|baritoday.it|bolognatoday.it|bresciatoday.it|brindisireport.it|cagliaritoday.it|casertanews.it|cataniatoday.it|cesenatoday.it|chietitoday.it|ferraratoday.it|firenzetoday.it|foggiatoday.it|forlitoday.it|frosinonetoday.it|genovatoday.it|ilpescara.it|ilpiacenza.it|latinatoday.it|lecceprima.it|leccotoday.it|livornotoday.it|messinatoday.it|milanotoday.it|modenatoday.it|monzatoday.it|napolitoday.it|novaratoday.it|padovaoggi.it|palermotoday.it|parmatoday.it|perugiatoday.it|pisatoday.it|pordenonetoday.it|quicomo.it|ravennatoday.it|reggiotoday.it|riminitoday.it|salernotoday.it|sondriotoday.it|ternitoday.it|torinotoday.it|trentotoday.it|trevisotoday.it|triesteprima.it|udinetoday.it|veneziatoday.it|veronasera.it|vicenzatoday.it|viterbotoday.it|dragonsecret.it|snaphunt.com
@@ -257651,6 +257671,9 @@ wegwandern.ch,compact-online.de#%#//scriptlet('trusted-click-element', 'dialog a
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
 ||cookietrace.webequalty.com^$domain=sabancivakfi.org
 sabancivakfi.org###ez-banner[role="banner"]
+netzkino.de#%#//scriptlet('trusted-set-local-storage-item', 'cookieSettings', '{"fullOptIn":false,"googleAnalytics":false,"facebookTrackingPixelandConversionAPI":false,"googleAds":false,"xPixel":false}')
+auroramap.org###am-cookie-banner
+vinos.de##.consent-cookie-box-light-box
 blindtyping.com#%#//scriptlet('trusted-set-local-storage-item', 'BLINDTYPING.accepted-cookies', '{"essential":true,"analytics":false,"marketing":false}')
 talep.peugeot.com.tr##.ihm-popup-overlay
 talep.peugeot.com.tr##.ihm-popup
@@ -259096,7 +259119,7 @@ bundesimmobilien.de#$#body[style^="overflow:"] { overflow: auto !important; padd
 psg.fr#%#//scriptlet('trusted-click-element', '.global-footer .cookie-button-container button[data-trk-id="reject-marketing-cookies"]')
 timeweb.cloud#%#//scriptlet('set-local-storage-item', 'cookieConfirm', 'true')
 shop.mango.com#%#//scriptlet('trusted-click-element', 'dialog[class^="CookiesWrapper_cookiesWrapper"] button[aria-disabled="false"]:has(+ button[aria-disabled="false"])', '!cookie:consentCookie')
-chollometro.com,preisjaeger.at,pepperdeals.com,pepperdeals.se#%#//scriptlet('trusted-click-element', '#app .popover-content.flex--inline button[data-t="rejectAll"]', '!cookie:cookie_policy_agreement')
+pepper.pl,chollometro.com,preisjaeger.at,pepperdeals.com,pepperdeals.se#%#//scriptlet('trusted-click-element', '#app .popover-content.flex--inline button[data-t="rejectAll"]', '!cookie:cookie_policy_agreement')
 radyofenomen.com#%#//scriptlet('set-cookie-reload', 'isSiteCookieReviewed', '0')
 microbit.org#%#//scriptlet('trusted-set-cookie', 'MBCC', '%7B%22version%22%3A1%2C%22functional%22%3Afalse%2C%22analytics%22%3Afalse%7D')
 u-tv.ru##.banner-cookie-advertisement
@@ -259612,7 +259635,7 @@ plus.nl#%#//scriptlet('set-cookie', 'plus_cookie_level', '0')
 neomedica.pl#$#body.overflow { overflow: auto !important; }
 pandotree.wetransfer.com#%#//scriptlet('trusted-click-element', '#fides-banner-container .fides-reject-all-button', '!cookie:fides_consent')
 ||internet-law.ru/template/warmapril/cookie.js
-week.pl,atmoskop.cz#%#//scriptlet('trusted-click-element', '#cc-main button.cm__btn--secondary')
+nakanapie.pl,week.pl,atmoskop.cz#%#//scriptlet('trusted-click-element', '#cc-main button.cm__btn--secondary')
 mobilissimo.ro##.ui-cookies-notice-overlay
 mondoshop.it##div[id^="cookiesplus-"]
 esplus.ru##.coo-poly
@@ -279144,6 +279167,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 klerk.ru#?#iframe[src^="https://autofill.yandex.ru/suggest?"][src*="widget"]
 sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+muko.kr###xt_join_site_addons
 prokadry.com.ua##.id3-login-root
 archive.org##psa-banners
 archive.org#%#//scriptlet('hide-in-shadow-dom', 'psa-banners')
@@ -287905,6 +287929,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
 clutchpoints.com,newstime.joyn.de,hisse.net,gazetegercek.com.tr,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,computerbase.de,gzt.com,crash.net,foxsports.com.mx,theguardian.com,star.com.tr,halktv.com.tr,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,turkiyegazetesi.com.tr,aksam.com.tr,trhaber.com.tr,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+blick.de##.pt-container__content > .grid__item--4:has(> .card > #nl_blick_optin_form)
+digiday.com##div[aria-label="Inline Form"][id^="lightbox-"]:has(> [aria-label^="Modal Overlay"])
 eurogamer.net##.preferred-source
 psm7.com##.psm-home-bottom-google-news
 psm7.com##.psm-home-subscribe-form-container
@@ -288084,7 +288110,7 @@ tastesbetterfromscratch.com###emailrecipe
 bhg.com.au##.newsletter-subscription-block
 bhg.com.au##.magazine-subscription-block__inline
 barefootcontessa.com##.recipe-sidebar__sticky > div:has(> img[alt="Newsletter Signup"])
-noktagazetesi.com.tr,aydinlik.com.tr,halktv.com.tr,yenicaggazetesi.com##.google-news-follow
+dunya.com,noktagazetesi.com.tr,aydinlik.com.tr,halktv.com.tr,yenicaggazetesi.com##.google-news-follow
 wenthere8this.com#%#//scriptlet('set-cookie', 'cp_style_75187', 'true')
 joyousapron.com##.entry-content > .fluentform_wrapper_3.ffs_custom_wrap
 joyousapron.com#%#//scriptlet('trusted-set-local-storage-item', 'ck/forms/modal/d6018ef4e1/hideUntil', '$now$')
@@ -288366,9 +288392,9 @@ edumail.su###emf-widget-stack
 elcomercio.pe##.st__gn
 elcomercio.pe##.st__w-box
 downdetector.com##.grid > div[data-testid="card"]:has(> div.flex > div[class] > div[class] > a[aria-label="Facebook"])
-shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] ~ .fb_lightbox-overlay { display: none !important; }
-shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] { display: none !important; }
-shop.mashable.com#$#.box_active_disable_scrolling { touch-action: auto !important; overflow: auto !important; overscroll-behavior: auto !important; }
+digiday.com,shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] ~ .fb_lightbox-overlay { display: none !important; }
+digiday.com,shop.mashable.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"] { display: none !important; }
+digiday.com,shop.mashable.com#$#.box_active_disable_scrolling { touch-action: auto !important; overflow: auto !important; overscroll-behavior: auto !important; }
 umschool.net##.post-single-content-form
 theintercept.com#$#div[data-module-source$="_Email_Wall_2hr-Delay-After-NoAds"] { display: none !important; }
 theintercept.com#$#.meter-expired { max-height: 100% !important; }
@@ -288401,7 +288427,7 @@ bbc.com##a[href="https://www.whatsapp.com/channel/0029Vb5eTSkHFxP3rcjNq41i"]
 burton.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"][i18n_csv_url^="https://docs.google.com/spreadsheets/"] ~ .fb_lightbox-overlay { display: none !important; }
 burton.com#$#.preloaded_lightbox[aria-label="Modal Overlay Box"][i18n_csv_url^="https://docs.google.com/spreadsheets/"] { display: none !important; }
 burton.com#$#.box_active_disable_scrolling { touch-action: auto !important; overflow: auto !important; overscroll-behavior: auto !important; }
-webtekno.com,techblog.gr,aljazeera.com##.google-preferred-source
+hurriyet.com.tr,webtekno.com,techblog.gr,aljazeera.com##.google-preferred-source
 bike-room.com##.widget--signup
 funmix.pl#?#.row > .col-xxs:has(> .section-title > span:contains(Newsletter))
 megacatstudios.com#$#.popup__modal { display: none !important; }
@@ -288760,7 +288786,7 @@ pagellapolitica.it##.bg-blue:has(a[class^="hover:text-blue"])
 pagellapolitica.it##section.bg-black:has(> .container > .grid)
 powercompare.co.nz##floating-subscription-element
 tomsguide.com###bannerHeader
-timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
+tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
 reebok.jp##.footer_box
 economipedia.com##.econo-code-block
 dig.watch##.newsletter-subscribe-v2
@@ -297519,6 +297545,8 @@ buttondown.email#@##subscribe-form
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+||imgz.star.com.tr/folders/star-app.png
+muko.kr##.lp-install-chip
 idhubs.app##.pwa-overlay
 idhubs.app##.pwa-banner
 isinolsa.com##.isinolsa-cta-box
@@ -298477,7 +298505,6 @@ carrefoursa.com##.container > div.simple-banner-component:has(> a[href^="https:/
 teller.jp###footer_banner > div.item:has(> a[href^="https://tellernovel.onelink.me/"])
 bundle.app#?#.fixed-bottom:has(> div.popup button.download)
 zukan.com##.topbar__news:has(> p > a[href="https://mikke.zukan.com"])
-gunes.com,m.star.com.tr,m.aksam.com.tr##.footerSocials
 homerun.co.uk###appstore-desktop
 guidetoiceland.is##h2 ~ div[class^="x-"]:has(> aside[class^="x-"] > div[class^="x-"] > a[href^="https://apps.apple.com/ua/app/"])
 guidetoiceland.is###attractionContainer + div[style]:has(> div[class^="Container_container"] > div[class*="Section_notFirstSection__"])
@@ -344026,48 +344053,54 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
-||15oil.net^
-||2g7366rbvvrzkj46piiuwx167t.rest^
+||3jbli882tj2zwm8f442p3en.rest^
+||5licfbo4p7k4hmcti5j.cfd^
+||acrasingraters.cfd^
 ||admitad.com^
 ||ads-static.conde.digital^
 ||alipromo.com^
 ||alitems.com^
-||alxdtwbkjlgn.com^
 ||atdmt.com^
 ||auditude.com^
+||beauit.cyou^
 ||buyeasy.by^
+||comitjegrubby.qpon^
 ||demand.supply^$script
+||dsyatr.com^
+||fivalgsy.com^
 ||fwmrm.net^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
-||heatenstroll.shop^
-||heroifyrotates.cfd^
+||helixingroszy.shop^
+||hermeleoxalato.shop^
 ||imasdk.googleapis.com^
-||kibxgtjvdfuw.com^
+||inarchyacking.cyou^
+||indicwilt.qpon^
+||kharifungiant.cyou^
 ||kqzyfj.com^
 ||loadercdn.com^
 ||macro.adnami.io^
-||martiniunriper.shop^
 ||monetag.com^
+||nerfzxkysjhjh.online^
+||nmroutvgijplm.space^
 ||ntv.io^
+||oirdwcadrzrqj.online^
 ||ojrq.net^
 ||paid.outbrain.com^
-||purportriyals.qpon^
+||peponidisidae.cyou^
+||prndhjxdlupit.online^
+||proxysmjameson.cfd^
+||qpizuvmta.com^
+||recaneschametz.shop^
 ||redirectingat.com^
 ||rubiconproject.com^
-||scabrinoutsea.cyou^
-||thuliasbangos.cyou^
+||sawpitpuckishcording.cfd^
+||services8080.com^
+||tgmbxplmlsclp.space^
 ||totaladblock.com^
-||turpifytettish.shop^
-||upwindfaecalvoyager.qpon^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
-||x7mrg96h6og3ecqrp9z1r7.cfd^
-||xlduvjimtbgox.website^
-||yagfbgbrjwqhd.online^
-||yfucuiauxwcis.space^
-||ylpmjupeyjeau.site^
-||ytvxumxmfsudp.website^
+||writeupfrap.cfd^
 ||0i0i0i0.com^$document
 ||123-stream.org^$document
 ||1asb.com^$document
@@ -345028,6 +345061,7 @@ browsershots.org#@#.advert_area
 ||afront.io^$third-party
 ||afy11.net^$third-party
 ||afyads.com^$third-party
+||agentio.com^$third-party
 ||aim4media.com^$third-party
 ||ainsyndication.com^$third-party
 ||airfind.com^$third-party
@@ -352853,6 +352887,7 @@ nintendoworldreport.com###hAd
 lapoderosa.com###hcAdd
 castanet.net###hdad
 inventorspot.com,mothering.com,wordfind.com###header
+ndtv.com###header-ad-slot
 fxempire.com###header-ads-block
 khelnow.com###header-adwords-section
 aeroexpo.online,agriexpo.online,directindustry.com,droidgamers.com,fonearena.com,frontlinesoffreedom.com,stakingrewards.com###header-banner
@@ -353149,7 +353184,7 @@ explainxkcd.com###p-Ads
 phpbb.com###page-footer > h3
 accuradio.com###pageSidebarWrapper
 cyclenews.com###pamnew
-aninews.in,devdiscourse.com,footballorgin.com,gadgets360.com,justthenews.com,ndtv.com,oneindia.com,wionews.com,zeebiz.com###parentDiv0
+aninews.in,devdiscourse.com,footballorgin.com,gadgets360.com,justthenews.com,oneindia.com,zeebiz.com###parentDiv0
 mg.co.za###partner-content
 standard.co.uk###partner-ctas
 hwbot.org###partner-tiles
@@ -353243,6 +353278,7 @@ immoweb.be###result-list-header
 apexcharts.com###revealDemandbaseAwarenesAnimationContainer
 homedepot.com,nordstrom.com###revjet_container
 10minutemail.net,eel.surf7.net.my###right
+ndtv.com###right-ad-slot
 msguides.com###right-bottom-camp
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
@@ -353594,6 +353630,7 @@ etherealgames.com###widgets-wrap-before-content
 wiki.gg###wikigg-sl-footer
 wiki.gg###wikigg-sl-header
 wiki.gg###wikigg-sl-rail
+cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 rediff.com###world_right1
 rediff.com###world_right2
 rediff.com###world_top
@@ -353666,6 +353703,7 @@ newspointapp.com##.Ad_wrapper
 aleteia.org##.Ad_wrapper__B_hxA
 greatandhra.com##.AdinHedare
 geometrygames.io,jagranjosh.com##.Ads
+upday.com##.AdsSolutionsSlot
 sportsnet.ca##.Ads_card-wrapper__RKLH4
 alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adLeaderboard
 alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adRectangle
@@ -353715,6 +353753,7 @@ emarketer.com##.ContentRightAd
 aerospacemanufacturinganddesign.com##.CoverPop-close-go
 ulta.com##.CriteoProductRail
 calcalistech.com##.Ctech_general_banner
+ndtv.com##.CustomAdWidget-module-scss-module__xgZgtW__ads-wrp
 lithub.com##.Custom_Ads
 inverness-courier.co.uk,johnogroat-journal.co.uk##.DMPU
 drudgereport.com##.DR-AD-SPACE
@@ -353777,6 +353816,7 @@ business-standard.com##.Nws_banner_Hp
 chicago.suntimes.com,mangasect.com,manhuaplus.com##.OUTBRAIN
 chronicle.com##.OneColumnContainer
 newscientist.com##.Outbrain
+upday.com##.OutbrainSlotWidget
 kentonline.co.uk##.PSDRGC
 laist.com##.Page-above
 newatlas.com##.Page-above-content
@@ -353838,7 +353878,6 @@ smh.com.au##.TPT1c
 newser.com##.TaboolaP1P2
 imgur.com##.Top300x600
 cnbc.com##.TopBanner-container
-ndtv.com##.TpGnAd_ad-wr
 dappradar.com##.Tracker__StyledSmartLink-sc-u8v3nu-0
 health.news##.UnderNavigationContainer
 meduza.io##.UnderTheSun-module-banner
@@ -354190,7 +354229,6 @@ watcher.guru##.add-header
 ians.in##.add-inner
 ruralview.com.au##.add-item
 zeenews.india.com##.add-placeholder
-ndtv.com##.add-section
 moneycontrol.com##.add-spot
 media4growth.com##.add-text
 brandingmag.com,khaleejtimes.com##.add-wrap
@@ -354198,11 +354236,8 @@ ndtv.com##.add-wrp
 muslimobserver.com##.add2
 projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
-ndtv.com##.add__txt
-ndtv.com##.add__wrp
 harpersbazaar.in##.add_box
 bridestoday.in##.add_container
-ndtv.com##.add_dxt-non
 longevity.technology,news18.com##.add_section
 harpersbazaar.in##.add_wrapper
 citationmachine.net##.adds-wrapper
@@ -354241,17 +354276,15 @@ geometrygames.io##.ads-970x250
 dallasinnovates.com##.ads-article-body
 nationthailand.com##.ads-billboard
 founderoo.co##.ads-block_component
-dnaindia.com,wionews.com##.ads-box-300x250
+dnaindia.com##.ads-box-300x250
 zeenews.india.com##.ads-box-300x250::before
-wionews.com##.ads-box-300x300
-dnaindia.com,wionews.com##.ads-box-970x90
-dnaindia.com,wionews.com##.ads-box-d90-m300
+dnaindia.com##.ads-box-970x90
 hubcloud.club##.ads-btns
 thefinancialexpress.com.bd##.ads-carousel-container
 mangabats.com,nelomanga.net##.ads-contain
 mangakakalot.gg##.ads-contain-v2
 gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,speakerdeck.com,spotify.com,techxplore.com##.ads-container
-pcquest.com,wionews.com##.ads-div-style
+pcquest.com##.ads-div-style
 freemalaysiatoday.com##.ads-dynamic-desktop
 thetruthaboutcars.com##.ads-fluid-wrap
 spambox.xyz##.ads-four
@@ -354295,6 +354328,7 @@ kbb.com##.ads__container
 kbb.com##.ads__container-kbbLockedAd
 indiatodaygaming.com##.ads__container_rhs
 metro.co.uk##.ads__index__adWrapper--cz7QL
+wionews.com##.ads_adsBlock__8hCp1
 vccircle.com##.ads_ads__qsWIu
 collegedunia.com##.ads_body_ad_code_container
 mediapost.com##.ads_inline_640
@@ -355773,6 +355807,7 @@ africanadvice.com,pspad.com,sudantribune.com##.google
 apkmirror.com##.google-ad-leaderboard
 secretchicago.com##.google-ad-manager-ads-header
 safeway.com##.google-adManager
+carwow.co.uk##.google-ad__disclaimer
 yandex.com##.google-sticky-adv-banner__desktop-disable-ad-button-wrapper
 dicoall.com##.googleAdMain
 manabadi.co.in##.googleAdsdiv
@@ -355791,8 +355826,8 @@ balls.ie##.gray-ad-title
 greatandhra.com##.great_andhra_logo_panel_top_box_201223_
 greatandhra.com##.great_andhra_main_201223_
 mma-core.com##.grec
-greekcitytimes.com##.greek-adlabel
-greekcitytimes.com##.greek-after-content
+greekcitytimes.com##.greek-2after-post
+greekcitytimes.com##.greek-2content
 curioustic.com##.grey
 rabble.ca##.grey-cta-block
 topminecraftservers.org##.grey-section
@@ -355952,7 +355987,6 @@ westword.com##.hil28zhf1wyd
 highwayradio.com##.hiway-widget
 deccanherald.com##.hizmZ
 hola.com##.hm-sticky-sidebar
-ndtv.com##.hmpage_rhs
 admonsters.com##.hmpg_full-bleed
 seattlepi.com##.hnpad-Flex1
 seattlepi.com##.hnpad-Inline
@@ -356420,7 +356454,7 @@ gfinityesports.com##.manifold-takeover
 get.pixelexperience.org##.mantine-arewlw
 whatsgabycooking.com##.manual-adthrive-sidebar
 metoffice.gov.uk##.maps-header-advert
-glasgowtimes.co.uk,heraldseries.co.uk,somersetcountygazette.co.uk,thenational.scot##.mar-leaderboard--top
+dailyecho.co.uk,dissmercury.co.uk,glasgowtimes.co.uk,heraldseries.co.uk,somersetcountygazette.co.uk,thenational.scot##.mar-leaderboard--top
 igi-global.com##.margin-bottom-15.inline-block-100
 linkvertise.com##.margin-bottom-class-20
 color-hex.com##.margin10
@@ -357460,6 +357494,7 @@ coingape.com##.sidebar-btn-container
 ixbt.games##.sidebar-c
 nfcw.com##.sidebar-display
 thehustle.co##.sidebar-feed-trends
+military.com##.sidebar-first
 gameflare.com##.sidebar-game
 lawandcrime.com,mediaite.com##.sidebar-hook
 spearswms.com##.sidebar-mpu-1
@@ -357497,7 +357532,7 @@ geoawesome.com##.single-post__extra-info
 abovethelaw.com##.single-post__sponsored-post--desktop
 policyoptions.irpp.org##.single__ad
 nypost.com##.single__outbrain
-dlhd.link,mixonline.com##.site-ad
+dlhd.link,mixonline.com,radioworld.com##.site-ad
 gg.deals##.site-banner-top-widget
 deshdoaba.com##.site-branding
 winaero.com##.site-content > div > p[style="margin: 22px"]
@@ -357679,7 +357714,7 @@ goterriers.com##.sticky-footer
 walletinvestor.com##.sticky-footer-content
 babylonbee.com##.sticky-footer-image
 kmzu.com##.sticky-footer-promo-container
-business2community.com##.sticky-header
+business2community.com,military.com##.sticky-header
 tampafp.com##.sticky-inside-pad
 leaf.tv,sciencing.com##.sticky-leaderboard-container
 fastcompany.com##.sticky-outer-wrapper
@@ -357788,6 +357823,7 @@ theanalyst.com##.ta-ad
 mishaptube.com##.table
 ucompares.com##.tablepress-id-46
 posemaniacs.com##.tabletL\:w-\[728px\]
+ndtv.com##.taboola-slot
 protocol.com##.tag-sponsored
 spectrum.ieee.org##.tag-type-whitepaper
 ghanaweb.com##.takeover
@@ -360093,7 +360129,6 @@ firstpost.com##.taboola-div
 indianexpress.com##.taboola-parent
 israelnationalnews.com##.taboola-top
 news18.com##.taboolaWrap
-ndtv.com##[class^="ads_"]
 ndtv.com##div:has(> [id^="adslot"])
 weather.com##div[id*="Taboola-sidebar"]
 weather.com##div[id^="Taboola-main-"]
@@ -360101,8 +360136,6 @@ drivespark.com,express.co.uk,goodreturns.in##div[id^="taboola-"]
 mail.aol.com##li:has(a[data-test-id="pencil-ad-messageList"])
 linkvertise.com##lv-taboola-ctr-ad-dummy
 filmibeat.com,gizbot.com,oneindia.com##ul > li:has(> div[id^="taboola-mid-home-stream"])
-ndtv.com,ndtv.in##[class^="firework"]
-ndtv.com,ndtv.in##[id^="firework"]
 aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupply.com,chpadblock.com,exoclick.com,hilltopads.com,juicyads.com,monetag.com,popads.net,propellerads.com,purpleads.io,trafficshop.com,yavli.com##HTML
 ##.ad-fallback
 ##.ad.reform-top
@@ -360270,6 +360303,7 @@ familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 athlonsports.com,autoblog.com,bringmethenews.com,dengarden.com,mensfitness.com,mensjournal.com,parade.com,paradehomeandgarden.com,paradepets.com,pethelpful.com,surfer.com,thespun.com,thestreet.com,travelhost.com##.exco-player-wrapper
+portsmouth.co.uk##.exco-video-player
 wral.com##.exco-wrapper
 goal.com##.fco-fc-video-player
 accuweather.com##.feature-tag
@@ -367271,6 +367305,7 @@ omni.soundestlink.com$image
 ||celebrus.com^$third-party
 ||center.io^$third-party
 ||cetrk.com^$third-party
+||cfmediaview.com^$third-party
 ||cftrack.com^$third-party
 ||chartaca.com^$third-party
 ||chartbeat.com^$third-party
@@ -372781,6 +372816,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||selectika.com/selectika-pixel.min.js
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
+||api.tblcontent.com*/log/
 ||indiatimes.com/pixel?
 ||tvid.in/log/
 ||mediagroupnetwork.com/js/ua.js
@@ -374691,6 +374727,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thefreedictionary.com/_/tr.ashx?
 ||thehackernews.com/ga/c
 ||thehackernews.com/ga4/c
+||thehealthsite.com/apstag.js
 ||theladders.com/api/user-tracking/
 ||thesun.co.uk/assets/client/analyticsListeners~
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
@@ -389902,6 +389939,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||videa.hu/flvplayer_setcookie.php?
 ||bhaskar.com/comscore-ajax/
 ||handler.amarujala.com/user/event
+||ndtv.in/estatic/hindi-fcm.js
 ||staticasset.amarujala.com/handler/recomUserEvent.js
 ||bukalapak.com/banner-redirector/impression
 ||bukalapak.com/track-external-visit
@@ -399145,6 +399183,7 @@ top##body > center + .A + .post
 ||1.181.227.68^
 ||1.189.26.217^
 ||1.196.78.114^
+||1.198.198.225^
 ||1.2.185.116^
 ||1.22.174.37^
 ||1.22.175.162^
@@ -399230,6 +399269,8 @@ top##body > center + .A + .post
 ||103.153.68.104^
 ||103.153.93.18^
 ||103.154.90.21^
+||103.155.92.221^
+||103.159.221.33^
 ||103.16.75.50^
 ||103.160.130.109^
 ||103.160.130.7^
@@ -399237,7 +399278,6 @@ top##body > center + .A + .post
 ||103.160.197.181^
 ||103.160.62.234^
 ||103.163.119.220^
-||103.164.117.74^
 ||103.164.128.162^
 ||103.164.128.50^
 ||103.164.128.58^
@@ -399265,6 +399305,7 @@ top##body > center + .A + .post
 ||103.19.49.134^
 ||103.190.22.80^
 ||103.190.23.91^
+||103.194.248.230^
 ||103.196.163.37^
 ||103.199.123.41^
 ||103.20.213.34^
@@ -399288,6 +399329,7 @@ top##body > center + .A + .post
 ||103.226.249.227^
 ||103.231.14.104^
 ||103.232.213.24^
+||103.236.133.81^
 ||103.240.211.121^
 ||103.241.42.40^
 ||103.245.10.51^
@@ -399330,6 +399372,7 @@ top##body > center + .A + .post
 ||103.83.86.91^
 ||103.83.87.122^
 ||103.84.57.217^
+||103.90.205.117^
 ||103.90.207.234^
 ||103.91.62.65^
 ||103.94.142.84^
@@ -399484,6 +399527,7 @@ top##body > center + .A + .post
 ||106.13.29.104^
 ||106.14.68.26^
 ||106.254.250.98^
+||106.38.32.194^
 ||106.4.101.215^
 ||106.4.65.137^
 ||106.4.65.159^
@@ -399552,30 +399596,25 @@ top##body > center + .A + .post
 ||108.61.209.100^
 ||109.107.168.138^
 ||109.108.38.224^
-||109.108.84.121^
-||109.129.108.174^
 ||109.160.87.2^
 ||109.167.133.17^
 ||109.193.105.79^
 ||109.205.213.2^
 ||109.207.216.197^
-||109.207.217.114^
 ||109.236.44.113^
 ||109.236.46.199^
 ||109.236.46.215^
 ||109.236.48.121^
-||109.245.220.229^
 ||109.25.123.70^
 ||109.254.26.70^
-||109.69.79.44^
 ||109.74.204.206^
-||109.87.223.241^
 ||109.92.143.90^
 ||109.92.232.94^
 ||10987.7zorelin.in.net^
 ||10gic-mark.retellin8tolle.bet^
 ||10ya0-dock.syke8liron.in.net^
 ||11-k44.bryzand.in.net^
+||110.136.102.112^
 ||110.136.33.111^
 ||110.136.45.76^
 ||110.136.46.178^
@@ -399685,6 +399724,7 @@ top##body > center + .A + .post
 ||110.36.27.124^
 ||110.36.27.186^
 ||110.36.27.207^
+||110.36.27.209^
 ||110.36.27.244^
 ||110.36.28.183^
 ||110.36.28.230^
@@ -399732,7 +399772,6 @@ top##body > center + .A + .post
 ||110.36.77.19^
 ||110.36.77.34^
 ||110.36.77.35^
-||110.36.77.36^
 ||110.36.77.93^
 ||110.36.80.162^
 ||110.36.80.163^
@@ -399809,7 +399848,6 @@ top##body > center + .A + .post
 ||110.37.12.8^
 ||110.37.120.17^
 ||110.37.120.234^
-||110.37.121.199^
 ||110.37.121.43^
 ||110.37.122.34^
 ||110.37.123.210^
@@ -399855,6 +399893,7 @@ top##body > center + .A + .post
 ||110.37.30.130^
 ||110.37.30.28^
 ||110.37.31.174^
+||110.37.31.182^
 ||110.37.31.90^
 ||110.37.32.20^
 ||110.37.32.228^
@@ -400108,7 +400147,6 @@ top##body > center + .A + .post
 ||110.4.2.146^
 ||110.74.207.194^
 ||110.77.170.38^
-||110.78.159.183^
 ||110.83.135.207^
 ||110.85.108.220^
 ||110.85.108.221^
@@ -400124,7 +400162,6 @@ top##body > center + .A + .post
 ||110.85.99.229^
 ||110.86.188.247^
 ||110.86.189.141^
-||111.127.226.170^
 ||111.127.226.51^
 ||111.127.227.31^
 ||111.127.232.59^
@@ -400184,7 +400221,6 @@ top##body > center + .A + .post
 ||112.113.247.136^
 ||112.123.44.210^
 ||112.123.45.74^
-||112.124.33.87^
 ||112.140.189.76^
 ||112.140.190.123^
 ||112.140.191.204^
@@ -400299,7 +400335,6 @@ top##body > center + .A + .post
 ||112.242.12.73^
 ||112.242.135.153^
 ||112.242.143.51^
-||112.242.153.93^
 ||112.242.188.194^
 ||112.242.20.212^
 ||112.242.21.149^
@@ -400340,9 +400375,9 @@ top##body > center + .A + .post
 ||112.248.102.164^
 ||112.248.102.197^
 ||112.248.103.206^
+||112.248.103.222^
 ||112.248.103.251^
 ||112.248.103.32^
-||112.248.104.126^
 ||112.248.104.145^
 ||112.248.104.46^
 ||112.248.105.102^
@@ -400361,6 +400396,7 @@ top##body > center + .A + .post
 ||112.248.112.229^
 ||112.248.112.236^
 ||112.248.112.243^
+||112.248.112.56^
 ||112.248.113.111^
 ||112.248.113.169^
 ||112.248.113.183^
@@ -400401,6 +400437,7 @@ top##body > center + .A + .post
 ||112.248.187.57^
 ||112.248.187.74^
 ||112.248.187.78^
+||112.248.188.117^
 ||112.248.188.242^
 ||112.248.188.55^
 ||112.248.188.71^
@@ -400436,7 +400473,6 @@ top##body > center + .A + .post
 ||112.249.118.46^
 ||112.249.123.111^
 ||112.249.61.9^
-||112.249.63.164^
 ||112.249.70.46^
 ||112.249.78.255^
 ||112.249.89.236^
@@ -400452,7 +400488,6 @@ top##body > center + .A + .post
 ||112.252.179.168^
 ||112.252.198.237^
 ||112.252.199.203^
-||112.252.242.46^
 ||112.253.104.117^
 ||112.253.117.78^
 ||112.253.133.48^
@@ -400465,7 +400500,7 @@ top##body > center + .A + .post
 ||112.255.87.117^
 ||112.31.180.128^
 ||112.31.189.32^
-||112.4.110.22^
+||112.31.247.176^
 ||112.4.110.28^
 ||112.4.110.42^
 ||112.78.191.254^
@@ -400607,7 +400642,6 @@ top##body > center + .A + .post
 ||113.229.178.69^
 ||113.229.184.191^
 ||113.229.185.91^
-||113.229.186.91^
 ||113.229.188.49^
 ||113.229.190.11^
 ||113.229.191.130^
@@ -400672,6 +400706,7 @@ top##body > center + .A + .post
 ||113.236.100.191^
 ||113.236.101.106^
 ||113.236.101.223^
+||113.236.107.68^
 ||113.236.113.47^
 ||113.236.119.126^
 ||113.236.127.92^
@@ -400762,9 +400797,11 @@ top##body > center + .A + .post
 ||113.239.74.216^
 ||113.239.80.69^
 ||113.239.81.183^
+||113.239.82.29^
 ||113.239.86.103^
 ||113.240.216.197^
 ||113.240.219.191^
+||113.250.188.15^
 ||113.53.121.31^
 ||113.53.125.151^
 ||113.57.8.243^
@@ -400801,7 +400838,6 @@ top##body > center + .A + .post
 ||114.139.213.64^
 ||114.143.158.122^
 ||114.182.56.191^
-||114.215.193.12^
 ||114.216.14.168^
 ||114.216.153.35^
 ||114.216.182.208^
@@ -400867,6 +400903,7 @@ top##body > center + .A + .post
 ||115.215.97.216^
 ||115.216.136.234^
 ||115.218.57.14^
+||115.218.59.71^
 ||115.218.60.94^
 ||115.222.153.80^
 ||115.230.19.188^
@@ -400894,6 +400931,7 @@ top##body > center + .A + .post
 ||115.48.137.68^
 ||115.48.144.141^
 ||115.48.144.161^
+||115.48.144.222^
 ||115.48.144.224^
 ||115.48.145.186^
 ||115.48.145.71^
@@ -400928,19 +400966,20 @@ top##body > center + .A + .post
 ||115.48.152.102^
 ||115.48.152.152^
 ||115.48.152.18^
-||115.48.152.19^
 ||115.48.152.46^
 ||115.48.152.54^
 ||115.48.152.83^
 ||115.48.160.182^
 ||115.48.160.29^
 ||115.48.160.63^
+||115.48.160.98^
 ||115.48.161.125^
 ||115.48.161.173^
 ||115.48.161.193^
 ||115.48.161.209^
 ||115.48.161.210^
 ||115.48.162.0^
+||115.48.162.135^
 ||115.48.162.200^
 ||115.48.162.62^
 ||115.48.162.65^
@@ -400948,7 +400987,6 @@ top##body > center + .A + .post
 ||115.48.163.164^
 ||115.48.163.183^
 ||115.48.163.251^
-||115.48.163.28^
 ||115.48.163.36^
 ||115.48.163.93^
 ||115.48.170.75^
@@ -400974,7 +401012,6 @@ top##body > center + .A + .post
 ||115.48.36.38^
 ||115.48.36.4^
 ||115.48.38.160^
-||115.48.38.49^
 ||115.48.4.119^
 ||115.48.4.205^
 ||115.48.43.197^
@@ -400990,10 +401027,10 @@ top##body > center + .A + .post
 ||115.49.106.40^
 ||115.49.113.199^
 ||115.49.113.83^
-||115.49.117.77^
 ||115.49.120.141^
 ||115.49.123.219^
 ||115.49.124.129^
+||115.49.126.117^
 ||115.49.127.101^
 ||115.49.127.44^
 ||115.49.127.70^
@@ -401024,6 +401061,7 @@ top##body > center + .A + .post
 ||115.49.211.109^
 ||115.49.211.249^
 ||115.49.211.251^
+||115.49.211.59^
 ||115.49.216.206^
 ||115.49.218.180^
 ||115.49.218.255^
@@ -401085,6 +401123,7 @@ top##body > center + .A + .post
 ||115.49.5.226^
 ||115.49.5.39^
 ||115.49.5.94^
+||115.49.6.120^
 ||115.49.6.169^
 ||115.49.6.55^
 ||115.49.6.82^
@@ -401134,7 +401173,6 @@ top##body > center + .A + .post
 ||115.50.1.138^
 ||115.50.103.74^
 ||115.50.103.78^
-||115.50.105.136^
 ||115.50.105.190^
 ||115.50.109.82^
 ||115.50.110.177^
@@ -401144,14 +401182,12 @@ top##body > center + .A + .post
 ||115.50.148.116^
 ||115.50.17.20^
 ||115.50.172.135^
-||115.50.177.138^
 ||115.50.178.214^
 ||115.50.178.94^
 ||115.50.185.64^
 ||115.50.19.26^
 ||115.50.190.220^
 ||115.50.191.151^
-||115.50.20.13^
 ||115.50.201.148^
 ||115.50.202.74^
 ||115.50.204.138^
@@ -401211,7 +401247,6 @@ top##body > center + .A + .post
 ||115.50.42.144^
 ||115.50.42.80^
 ||115.50.43.34^
-||115.50.45.103^
 ||115.50.45.107^
 ||115.50.46.18^
 ||115.50.5.102^
@@ -401353,7 +401388,6 @@ top##body > center + .A + .post
 ||115.53.200.87^
 ||115.53.201.217^
 ||115.53.201.246^
-||115.53.203.7^
 ||115.53.208.109^
 ||115.53.208.208^
 ||115.53.216.150^
@@ -401383,6 +401417,7 @@ top##body > center + .A + .post
 ||115.53.47.147^
 ||115.53.56.76^
 ||115.54.101.145^
+||115.54.102.62^
 ||115.54.102.66^
 ||115.54.104.8^
 ||115.54.105.175^
@@ -401498,7 +401533,6 @@ top##body > center + .A + .post
 ||115.55.198.141^
 ||115.55.198.34^
 ||115.55.199.80^
-||115.55.20.177^
 ||115.55.203.200^
 ||115.55.203.247^
 ||115.55.207.69^
@@ -401529,7 +401563,6 @@ top##body > center + .A + .post
 ||115.55.227.197^
 ||115.55.227.241^
 ||115.55.228.3^
-||115.55.229.117^
 ||115.55.229.129^
 ||115.55.229.148^
 ||115.55.229.210^
@@ -401609,7 +401642,6 @@ top##body > center + .A + .post
 ||115.55.253.171^
 ||115.55.254.179^
 ||115.55.254.182^
-||115.55.255.108^
 ||115.55.255.153^
 ||115.55.255.192^
 ||115.55.255.86^
@@ -401632,6 +401664,7 @@ top##body > center + .A + .post
 ||115.55.49.158^
 ||115.55.49.4^
 ||115.55.49.73^
+||115.55.5.137^
 ||115.55.50.173^
 ||115.55.50.241^
 ||115.55.50.40^
@@ -401641,6 +401674,7 @@ top##body > center + .A + .post
 ||115.55.53.133^
 ||115.55.53.184^
 ||115.55.53.218^
+||115.55.53.223^
 ||115.55.53.249^
 ||115.55.53.34^
 ||115.55.54.143^
@@ -401686,8 +401720,8 @@ top##body > center + .A + .post
 ||115.55.8.37^
 ||115.55.80.213^
 ||115.55.81.35^
-||115.55.85.112^
 ||115.55.85.17^
+||115.55.87.182^
 ||115.55.9.222^
 ||115.55.9.225^
 ||115.55.9.43^
@@ -401695,12 +401729,12 @@ top##body > center + .A + .post
 ||115.56.101.152^
 ||115.56.11.88^
 ||115.56.110.171^
-||115.56.111.237^
 ||115.56.112.121^
 ||115.56.112.222^
 ||115.56.112.254^
 ||115.56.113.102^
 ||115.56.113.31^
+||115.56.113.6^
 ||115.56.12.227^
 ||115.56.12.247^
 ||115.56.12.41^
@@ -401822,7 +401856,6 @@ top##body > center + .A + .post
 ||115.57.230.188^
 ||115.57.230.211^
 ||115.57.231.197^
-||115.57.231.22^
 ||115.57.231.40^
 ||115.57.231.46^
 ||115.57.232.182^
@@ -401850,6 +401883,7 @@ top##body > center + .A + .post
 ||115.57.249.172^
 ||115.57.249.185^
 ||115.57.250.157^
+||115.57.250.188^
 ||115.57.250.244^
 ||115.57.251.105^
 ||115.57.252.224^
@@ -401884,7 +401918,6 @@ top##body > center + .A + .post
 ||115.58.132.135^
 ||115.58.132.142^
 ||115.58.132.220^
-||115.58.132.71^
 ||115.58.134.218^
 ||115.58.135.123^
 ||115.58.135.129^
@@ -401970,6 +402003,7 @@ top##body > center + .A + .post
 ||115.59.27.175^
 ||115.59.30.77^
 ||115.59.30.87^
+||115.59.32.113^
 ||115.59.33.206^
 ||115.59.34.70^
 ||115.59.39.141^
@@ -402038,7 +402072,6 @@ top##body > center + .A + .post
 ||115.61.18.127^
 ||115.61.19.69^
 ||115.61.240.51^
-||115.61.3.215^
 ||115.61.3.225^
 ||115.61.3.9^
 ||115.61.40.17^
@@ -402082,7 +402115,6 @@ top##body > center + .A + .post
 ||115.62.186.148^
 ||115.62.187.141^
 ||115.62.188.110^
-||115.62.188.155^
 ||115.62.188.79^
 ||115.62.24.29^
 ||115.62.25.41^
@@ -402197,6 +402229,7 @@ top##body > center + .A + .post
 ||115.63.52.94^
 ||115.63.52.99^
 ||115.63.53.247^
+||115.63.54.169^
 ||115.63.54.253^
 ||115.63.55.105^
 ||115.63.55.137^
@@ -402210,7 +402243,6 @@ top##body > center + .A + .post
 ||115.63.8.198^
 ||115.63.8.202^
 ||115.63.8.36^
-||115.63.82.131^
 ||115.63.87.126^
 ||115.63.9.164^
 ||115.63.9.181^
@@ -402291,7 +402323,6 @@ top##body > center + .A + .post
 ||116.140.73.201^
 ||116.140.9.139^
 ||116.147.106.208^
-||116.148.109.182^
 ||116.149.146.119^
 ||116.149.28.146^
 ||116.149.31.4^
@@ -402320,14 +402351,15 @@ top##body > center + .A + .post
 ||116.55.64.167^
 ||116.55.64.75^
 ||116.58.229.39^
-||116.58.51.90^
 ||116.68.160.180^
 ||116.68.162.210^
 ||116.72.22.86^
 ||116.72.98.65^
 ||116.73.133.23^
 ||116.90.225.193^
+||116.90.236.250^
 ||117.10.39.242^
+||117.102.4.135^
 ||117.102.89.188^
 ||117.131.92.150^
 ||117.134.199.29^
@@ -402371,7 +402403,6 @@ top##body > center + .A + .post
 ||117.196.49.245^
 ||117.196.7.158^
 ||117.198.10.53^
-||117.198.11.118^
 ||117.198.193.19^
 ||117.198.197.88^
 ||117.198.198.162^
@@ -402395,7 +402426,6 @@ top##body > center + .A + .post
 ||117.200.218.64^
 ||117.200.232.25^
 ||117.200.237.26^
-||117.200.239.74^
 ||117.200.80.127^
 ||117.203.144.105^
 ||117.203.144.57^
@@ -402450,7 +402480,6 @@ top##body > center + .A + .post
 ||117.208.230.61^
 ||117.208.235.224^
 ||117.208.240.80^
-||117.208.242.121^
 ||117.208.244.60^
 ||117.208.244.97^
 ||117.208.248.112^
@@ -402460,6 +402489,7 @@ top##body > center + .A + .post
 ||117.209.10.106^
 ||117.209.10.135^
 ||117.209.10.71^
+||117.209.11.121^
 ||117.209.114.142^
 ||117.209.116.126^
 ||117.209.118.132^
@@ -402520,7 +402550,6 @@ top##body > center + .A + .post
 ||117.209.7.112^
 ||117.209.8.142^
 ||117.209.80.214^
-||117.209.80.235^
 ||117.209.80.33^
 ||117.209.80.45^
 ||117.209.81.176^
@@ -402568,7 +402597,6 @@ top##body > center + .A + .post
 ||117.210.192.97^
 ||117.210.194.141^
 ||117.210.199.15^
-||117.210.208.95^
 ||117.210.212.26^
 ||117.211.147.30^
 ||117.211.149.180^
@@ -402636,7 +402664,6 @@ top##body > center + .A + .post
 ||117.215.63.228^
 ||117.215.92.202^
 ||117.216.13.12^
-||117.216.139.127^
 ||117.216.16.123^
 ||117.216.17.138^
 ||117.216.177.12^
@@ -402657,9 +402684,6 @@ top##body > center + .A + .post
 ||117.216.26.133^
 ||117.216.30.211^
 ||117.216.31.158^
-||117.216.46.161^
-||117.216.46.201^
-||117.216.46.91^
 ||117.216.46.94^
 ||117.216.49.193^
 ||117.216.50.138^
@@ -402670,7 +402694,6 @@ top##body > center + .A + .post
 ||117.216.65.52^
 ||117.216.67.21^
 ||117.216.71.140^
-||117.217.129.247^
 ||117.217.18.48^
 ||117.217.193.248^
 ||117.217.196.124^
@@ -402744,7 +402767,6 @@ top##body > center + .A + .post
 ||117.235.117.8^
 ||117.235.123.214^
 ||117.235.126.164^
-||117.235.133.145^
 ||117.235.133.211^
 ||117.235.140.192^
 ||117.235.140.201^
@@ -402785,7 +402807,7 @@ top##body > center + .A + .post
 ||117.241.61.216^
 ||117.241.61.219^
 ||117.241.61.44^
-||117.241.78.146^
+||117.241.74.14^
 ||117.241.95.105^
 ||117.241.95.54^
 ||117.242.152.81^
@@ -402815,7 +402837,6 @@ top##body > center + .A + .post
 ||117.245.62.38^
 ||117.245.84.217^
 ||117.245.84.41^
-||117.247.101.185^
 ||117.247.101.217^
 ||117.247.101.61^
 ||117.247.101.63^
@@ -402864,6 +402885,7 @@ top##body > center + .A + .post
 ||117.254.177.213^
 ||117.254.183.28^
 ||117.254.96.157^
+||117.26.110.10^
 ||117.26.110.198^
 ||117.26.110.3^
 ||117.26.110.50^
@@ -402906,7 +402928,6 @@ top##body > center + .A + .post
 ||118.125.7.77^
 ||118.139.167.36^
 ||118.140.76.210^
-||118.141.249.234^
 ||118.163.99.134^
 ||118.174.171.155^
 ||118.175.205.150^
@@ -402936,11 +402957,11 @@ top##body > center + .A + .post
 ||118.253.80.93^
 ||118.34.109.121^
 ||118.38.58.242^
+||118.41.168.132^
 ||118.44.144.198^
 ||118.69.157.212^
 ||118.70.244.17^
 ||118.71.250.6^
-||118.97.222.219^
 ||118jq.desa1inatcount.in.net^
 ||119.100.119.110^
 ||119.102.18.69^
@@ -403078,6 +403099,7 @@ top##body > center + .A + .post
 ||119.167.1.100^
 ||119.167.1.193^
 ||119.167.2.100^
+||119.167.25.141^
 ||119.167.25.170^
 ||119.167.27.116^
 ||119.167.3.66^
@@ -403088,7 +403110,9 @@ top##body > center + .A + .post
 ||119.178.250.160^
 ||119.178.251.170^
 ||119.178.91.117^
+||119.179.10.230^
 ||119.179.11.166^
+||119.179.19.254^
 ||119.179.209.104^
 ||119.179.214.100^
 ||119.179.215.101^
@@ -403109,7 +403133,6 @@ top##body > center + .A + .post
 ||119.179.238.84^
 ||119.179.239.206^
 ||119.179.239.51^
-||119.179.248.192^
 ||119.179.248.81^
 ||119.179.249.188^
 ||119.179.249.34^
@@ -403120,6 +403143,7 @@ top##body > center + .A + .post
 ||119.179.250.77^
 ||119.179.251.214^
 ||119.179.251.41^
+||119.179.252.125^
 ||119.179.252.132^
 ||119.179.252.133^
 ||119.179.252.253^
@@ -403131,7 +403155,6 @@ top##body > center + .A + .post
 ||119.179.254.188^
 ||119.179.254.246^
 ||119.179.254.248^
-||119.179.255.197^
 ||119.179.255.252^
 ||119.179.255.99^
 ||119.179.76.135^
@@ -403151,6 +403174,7 @@ top##body > center + .A + .post
 ||119.183.55.196^
 ||119.183.55.47^
 ||119.184.15.129^
+||119.184.28.220^
 ||119.184.28.228^
 ||119.184.29.230^
 ||119.184.46.80^
@@ -403252,7 +403276,6 @@ top##body > center + .A + .post
 ||120.157.23.2^
 ||120.157.4.24^
 ||120.157.59.194^
-||120.196.95.249^
 ||120.2.196.255^
 ||120.211.89.61^
 ||120.238.189.72^
@@ -403276,7 +403299,6 @@ top##body > center + .A + .post
 ||120.28.180.87^
 ||120.28.189.137^
 ||120.28.189.182^
-||120.28.189.223^
 ||120.28.193.113^
 ||120.28.193.143^
 ||120.28.193.170^
@@ -403324,8 +403346,6 @@ top##body > center + .A + .post
 ||120.37.212.197^
 ||120.37.212.67^
 ||120.48.115.29^
-||120.50.10.30^
-||120.56.5.219^
 ||120.56.7.130^
 ||120.57.126.204^
 ||120.59.128.36^
@@ -403349,7 +403369,6 @@ top##body > center + .A + .post
 ||120.61.240.54^
 ||120.61.244.250^
 ||120.61.255.229^
-||120.61.30.141^
 ||120.61.5.39^
 ||120.61.70.227^
 ||120.61.77.246^
@@ -403364,7 +403383,6 @@ top##body > center + .A + .post
 ||120.84.213.171^
 ||120.84.213.31^
 ||120.84.214.130^
-||120.84.214.131^
 ||120.84.214.149^
 ||120.84.214.246^
 ||120.84.214.66^
@@ -403386,13 +403404,10 @@ top##body > center + .A + .post
 ||121.184.128.134^
 ||121.202.142.137^
 ||121.202.142.68^
-||121.202.153.132^
 ||121.202.196.93^
 ||121.202.204.227^
 ||121.202.208.193^
-||121.202.208.237^
 ||121.202.209.31^
-||121.202.209.46^
 ||121.202.211.217^
 ||121.202.215.196^
 ||121.21.104.230^
@@ -403520,11 +403535,9 @@ top##body > center + .A + .post
 ||123.10.37.216^
 ||123.10.38.32^
 ||123.10.38.47^
-||123.10.39.34^
 ||123.10.4.2^
 ||123.10.49.196^
 ||123.10.5.12^
-||123.10.5.7^
 ||123.10.51.10^
 ||123.10.51.8^
 ||123.10.52.16^
@@ -403567,7 +403580,6 @@ top##body > center + .A + .post
 ||123.11.171.104^
 ||123.11.171.68^
 ||123.11.171.85^
-||123.11.172.228^
 ||123.11.173.20^
 ||123.11.173.225^
 ||123.11.183.105^
@@ -403599,7 +403611,6 @@ top##body > center + .A + .post
 ||123.11.76.99^
 ||123.11.77.0^
 ||123.11.77.120^
-||123.11.77.144^
 ||123.11.77.171^
 ||123.11.77.199^
 ||123.11.77.237^
@@ -403624,9 +403635,7 @@ top##body > center + .A + .post
 ||123.11.9.175^
 ||123.11.9.254^
 ||123.11.9.87^
-||123.11.96.26^
 ||123.11.99.54^
-||123.110.182.187^
 ||123.117.136.97^
 ||123.12.11.204^
 ||123.12.153.43^
@@ -403647,10 +403656,10 @@ top##body > center + .A + .post
 ||123.12.193.100^
 ||123.12.193.246^
 ||123.12.194.122^
+||123.12.194.145^
 ||123.12.195.217^
 ||123.12.195.87^
 ||123.12.198.101^
-||123.12.199.133^
 ||123.12.199.227^
 ||123.12.21.50^
 ||123.12.221.23^
@@ -403692,16 +403701,16 @@ top##body > center + .A + .post
 ||123.12.25.132^
 ||123.12.25.36^
 ||123.12.25.56^
+||123.12.25.98^
 ||123.12.27.139^
 ||123.12.29.220^
 ||123.12.30.133^
-||123.12.30.5^
+||123.12.30.14^
 ||123.12.31.2^
 ||123.12.32.168^
 ||123.12.33.244^
 ||123.12.36.213^
 ||123.12.36.229^
-||123.12.40.125^
 ||123.12.41.203^
 ||123.12.42.68^
 ||123.12.44.123^
@@ -403717,7 +403726,6 @@ top##body > center + .A + .post
 ||123.12.87.187^
 ||123.123.207.225^
 ||123.129.128.101^
-||123.129.128.47^
 ||123.129.128.84^
 ||123.129.129.124^
 ||123.129.130.243^
@@ -403846,6 +403854,7 @@ top##body > center + .A + .post
 ||123.14.20.167^
 ||123.14.210.109^
 ||123.14.213.182^
+||123.14.216.134^
 ||123.14.217.137^
 ||123.14.217.145^
 ||123.14.218.190^
@@ -403971,6 +403980,7 @@ top##body > center + .A + .post
 ||123.188.214.59^
 ||123.188.217.174^
 ||123.188.223.242^
+||123.188.3.49^
 ||123.188.53.69^
 ||123.188.56.89^
 ||123.188.58.169^
@@ -404008,6 +404018,7 @@ top##body > center + .A + .post
 ||123.190.104.15^
 ||123.190.104.203^
 ||123.190.127.156^
+||123.190.160.21^
 ||123.190.161.33^
 ||123.190.17.23^
 ||123.190.17.86^
@@ -404062,13 +404073,13 @@ top##body > center + .A + .post
 ||123.4.147.72^
 ||123.4.149.209^
 ||123.4.160.23^
+||123.4.161.160^
 ||123.4.162.183^
 ||123.4.163.52^
 ||123.4.164.161^
 ||123.4.164.205^
 ||123.4.165.231^
 ||123.4.167.102^
-||123.4.178.185^
 ||123.4.180.185^
 ||123.4.192.222^
 ||123.4.196.139^
@@ -404225,6 +404236,7 @@ top##body > center + .A + .post
 ||123.58.64.57^
 ||123.7.154.130^
 ||123.7.154.59^
+||123.7.155.123^
 ||123.7.155.75^
 ||123.7.220.126^
 ||123.7.220.96^
@@ -404361,6 +404373,7 @@ top##body > center + .A + .post
 ||123.9.93.175^
 ||123.9.93.220^
 ||123.9.96.71^
+||123.ywxww.net^
 ||124.11.64.11^
 ||124.123.123.15^
 ||124.123.26.174^
@@ -404433,11 +404446,13 @@ top##body > center + .A + .post
 ||124.235.251.38^
 ||124.235.252.71^
 ||124.29.194.26^
+||124.29.214.246^
 ||124.29.214.39^
 ||124.29.223.148^
 ||124.29.223.19^
 ||124.29.225.50^
 ||124.29.239.50^
+||124.36.156.140^
 ||124.44.114.162^
 ||124.44.3.74^
 ||124.6.165.86^
@@ -404476,7 +404491,6 @@ top##body > center + .A + .post
 ||124.94.246.167^
 ||124.94.247.137^
 ||124.94.75.55^
-||124.94.78.2^
 ||124.94.86.183^
 ||124.94.90.164^
 ||124.95.121.74^
@@ -404568,7 +404582,6 @@ top##body > center + .A + .post
 ||125.40.19.12^
 ||125.40.2.67^
 ||125.40.225.181^
-||125.40.227.204^
 ||125.40.25.51^
 ||125.40.27.52^
 ||125.40.39.12^
@@ -404613,7 +404626,6 @@ top##body > center + .A + .post
 ||125.41.108.160^
 ||125.41.109.105^
 ||125.41.111.29^
-||125.41.136.64^
 ||125.41.137.93^
 ||125.41.139.251^
 ||125.41.140.238^
@@ -404690,6 +404702,7 @@ top##body > center + .A + .post
 ||125.41.4.161^
 ||125.41.4.194^
 ||125.41.4.238^
+||125.41.4.242^
 ||125.41.4.53^
 ||125.41.5.182^
 ||125.41.5.194^
@@ -404720,6 +404733,7 @@ top##body > center + .A + .post
 ||125.41.81.141^
 ||125.41.9.139^
 ||125.41.9.170^
+||125.41.93.102^
 ||125.42.11.215^
 ||125.42.116.146^
 ||125.42.116.69^
@@ -404753,6 +404767,7 @@ top##body > center + .A + .post
 ||125.42.40.11^
 ||125.42.42.50^
 ||125.42.42.78^
+||125.42.65.46^
 ||125.42.66.252^
 ||125.42.67.113^
 ||125.42.68.80^
@@ -404761,6 +404776,7 @@ top##body > center + .A + .post
 ||125.42.72.193^
 ||125.42.75.71^
 ||125.42.76.55^
+||125.42.78.150^
 ||125.43.0.17^
 ||125.43.10.242^
 ||125.43.104.117^
@@ -404784,7 +404800,6 @@ top##body > center + .A + .post
 ||125.43.225.56^
 ||125.43.225.65^
 ||125.43.227.15^
-||125.43.228.89^
 ||125.43.229.235^
 ||125.43.229.251^
 ||125.43.23.189^
@@ -404806,7 +404821,6 @@ top##body > center + .A + .post
 ||125.43.249.122^
 ||125.43.249.146^
 ||125.43.249.160^
-||125.43.25.193^
 ||125.43.25.32^
 ||125.43.250.45^
 ||125.43.252.161^
@@ -404841,6 +404855,7 @@ top##body > center + .A + .post
 ||125.43.9.29^
 ||125.44.157.61^
 ||125.44.16.187^
+||125.44.16.245^
 ||125.44.18.81^
 ||125.44.189.182^
 ||125.44.189.212^
@@ -404892,9 +404907,9 @@ top##body > center + .A + .post
 ||125.44.31.138^
 ||125.44.32.150^
 ||125.44.32.65^
+||125.44.33.254^
 ||125.44.37.209^
 ||125.44.38.181^
-||125.44.42.179^
 ||125.44.42.50^
 ||125.44.43.117^
 ||125.44.43.28^
@@ -404936,6 +404951,7 @@ top##body > center + .A + .post
 ||125.45.40.209^
 ||125.45.42.21^
 ||125.45.48.199^
+||125.45.48.220^
 ||125.45.48.249^
 ||125.45.48.86^
 ||125.45.54.191^
@@ -404946,7 +404962,6 @@ top##body > center + .A + .post
 ||125.45.58.131^
 ||125.45.58.49^
 ||125.45.59.68^
-||125.45.63.10^
 ||125.45.63.161^
 ||125.45.63.184^
 ||125.45.64.150^
@@ -404958,7 +404973,6 @@ top##body > center + .A + .post
 ||125.45.65.119^
 ||125.45.65.121^
 ||125.45.65.217^
-||125.45.65.9^
 ||125.45.66.107^
 ||125.45.66.19^
 ||125.45.66.210^
@@ -405038,7 +405052,6 @@ top##body > center + .A + .post
 ||125.47.33.178^
 ||125.47.34.217^
 ||125.47.34.237^
-||125.47.34.70^
 ||125.47.35.203^
 ||125.47.35.45^
 ||125.47.50.88^
@@ -405075,6 +405088,7 @@ top##body > center + .A + .post
 ||125.72.179.97^
 ||125.95.233.193^
 ||126.23.203.236^
+||129.0.120.134^
 ||129.152.20.82^
 ||129.213.9.74^
 ||13.36.168.159^
@@ -405090,7 +405104,6 @@ top##body > center + .A + .post
 ||130.12.181.60^
 ||130.12.181.62^
 ||130.12.182.175^
-||130.185.193.208^
 ||130.78.217.194^
 ||130.94.41.210^
 ||132.145.235.110^
@@ -405114,7 +405127,6 @@ top##body > center + .A + .post
 ||138.122.43.76^
 ||138.124.18.9^
 ||138.124.61.210^
-||138.188.38.198^
 ||138.197.117.175^
 ||138.201.128.249^
 ||138.204.196.136^
@@ -405122,6 +405134,7 @@ top##body > center + .A + .post
 ||138.219.58.34^
 ||138.36.2.110^
 ||138.68.76.70^
+||139.135.40.121^
 ||139.135.40.198^
 ||139.135.41.119^
 ||139.135.42.224^
@@ -405131,12 +405144,9 @@ top##body > center + .A + .post
 ||139.198.15.223^
 ||139.213.32.135^
 ||139.218.43.94^
-||139.255.97.116^
 ||139.59.231.32^
 ||139.99.75.86^
-||14-0-204-188.static.pccw-hkt.com^
 ||14.0.136.205^
-||14.0.204.188^
 ||14.1.107.44^
 ||14.128.50.87^
 ||14.142.209.198^
@@ -405151,12 +405161,9 @@ top##body > center + .A + .post
 ||14.205.104.200^
 ||14.224.162.164^
 ||14.224.205.246^
-||14.225.219.227^
 ||14.250.149.211^
 ||14.35.13.228^
 ||14.46.136.77^
-||14.54.96.182^
-||140.233.190.114^
 ||140.233.190.47^
 ||140.237.36.236^
 ||140.237.36.79^
@@ -405197,15 +405204,12 @@ top##body > center + .A + .post
 ||144.172.102.83^
 ||144.172.105.56^
 ||144.172.105.88^
-||144.172.107.27^
-||144.172.110.191^
 ||144.172.110.70^
 ||144.172.112.190^
 ||144.172.114.35^
 ||144.172.117.163^
 ||144.172.71.105^
 ||144.172.88.127^
-||144.172.91.253^
 ||144.172.94.235^
 ||144.172.95.54^
 ||144.172.96.34^
@@ -405226,6 +405230,7 @@ top##body > center + .A + .post
 ||144.31.221.96^
 ||144.31.236.60^
 ||144.48.123.149^
+||144.48.132.184^
 ||144.6.87.144^
 ||144.6.89.62^
 ||144.91.86.92^
@@ -405234,7 +405239,6 @@ top##body > center + .A + .post
 ||146.0.42.82^
 ||146.103.41.62^
 ||146.19.213.198^
-||146.255.245.170^
 ||147.45.209.42^
 ||147.45.42.251^
 ||147.45.45.245^
@@ -405292,7 +405296,6 @@ top##body > center + .A + .post
 ||153.101.9.82^
 ||153.117.32.174^
 ||153.117.37.25^
-||153.136.164.199^
 ||153.179.12.165^
 ||153.3.11.210^
 ||153.37.227.89^
@@ -405320,15 +405323,12 @@ top##body > center + .A + .post
 ||154.249.112.213^
 ||154.36.188.81^
 ||154.53.37.227^
-||154.73.64.24^
 ||154.84.212.18^
 ||154.89.148.115^
-||154.9.241.34^
 ||155.2.213.252^
 ||155b3nro.proxy-cascade.digital^
 ||156.200.99.139^
 ||156.226.174.212^
-||156.226.175.212^
 ||156.229.118.140^
 ||156.229.118.144^
 ||156.229.118.146^
@@ -405375,6 +405375,7 @@ top##body > center + .A + .post
 ||159.253.120.149^
 ||159.253.120.224^
 ||159.255.2.200^
+||159.255.20.177^
 ||159.255.22.184^
 ||159.65.6.197^
 ||159.89.171.49^
@@ -405414,6 +405415,7 @@ top##body > center + .A + .post
 ||163.142.77.164^
 ||163.142.77.174^
 ||163.142.78.131^
+||163.142.78.17^
 ||163.142.78.220^
 ||163.142.78.241^
 ||163.142.84.177^
@@ -405427,14 +405429,20 @@ top##body > center + .A + .post
 ||163.142.86.141^
 ||163.142.87.179^
 ||163.142.87.24^
+||163.142.92.123^
 ||163.142.92.153^
+||163.142.92.224^
+||163.142.92.241^
 ||163.142.92.24^
 ||163.142.92.37^
 ||163.142.92.40^
+||163.142.92.42^
 ||163.142.93.102^
 ||163.142.93.145^
+||163.142.93.155^
 ||163.142.93.191^
 ||163.142.93.220^
+||163.142.93.23^
 ||163.142.93.45^
 ||163.142.93.53^
 ||163.142.93.98^
@@ -405445,6 +405453,7 @@ top##body > center + .A + .post
 ||163.142.95.127^
 ||163.142.95.184^
 ||163.142.95.192^
+||163.142.95.249^
 ||163.142.95.53^
 ||163.142.95.5^
 ||163.245.208.50^
@@ -405471,7 +405480,6 @@ top##body > center + .A + .post
 ||166.1.89.46^
 ||166.143.253.132^
 ||166.144.131.188^
-||166.147.146.187^
 ||166.48.94.241^
 ||166.88.225.196^
 ||167.148.183.75^
@@ -405535,6 +405543,7 @@ top##body > center + .A + .post
 ||171.37.151.8^
 ||171.37.81.174^
 ||171.38.149.164^
+||171.38.40.122^
 ||171.38.41.15^
 ||171.38.42.108^
 ||171.38.79.118^
@@ -405560,6 +405569,7 @@ top##body > center + .A + .post
 ||172.245.95.28^
 ||172.245.95.30^
 ||172.245.95.9^
+||172.250.238.27^
 ||172.85.143.74^
 ||172.86.110.181^
 ||172.86.114.242^
@@ -405568,8 +405578,6 @@ top##body > center + .A + .post
 ||172.86.126.85^
 ||172.86.72.167^
 ||172.86.73.37^
-||172.86.89.251^
-||172.86.89.253^
 ||172.86.89.57^
 ||172.86.89.72^
 ||172.86.89.92^
@@ -405577,7 +405585,6 @@ top##body > center + .A + .post
 ||172.86.91.224^
 ||172.86.91.225^
 ||172.86.91.40^
-||172.94.9.187^
 ||172.94.9.224^
 ||172.96.189.153^
 ||173.208.51.53^
@@ -405620,6 +405627,7 @@ top##body > center + .A + .post
 ||175.146.17.20^
 ||175.146.200.89^
 ||175.146.204.231^
+||175.146.204.245^
 ||175.146.244.185^
 ||175.146.247.67^
 ||175.146.253.100^
@@ -405671,6 +405679,7 @@ top##body > center + .A + .post
 ||175.148.157.251^
 ||175.148.157.5^
 ||175.148.157.98^
+||175.148.158.106^
 ||175.148.158.177^
 ||175.148.158.226^
 ||175.148.158.32^
@@ -405794,7 +405803,6 @@ top##body > center + .A + .post
 ||175.164.96.190^
 ||175.164.98.99^
 ||175.165.106.127^
-||175.165.106.247^
 ||175.165.109.102^
 ||175.165.109.159^
 ||175.165.109.28^
@@ -405918,7 +405926,6 @@ top##body > center + .A + .post
 ||175.173.80.169^
 ||175.173.81.171^
 ||175.173.81.202^
-||175.173.84.207^
 ||175.173.84.220^
 ||175.173.84.53^
 ||175.173.85.107^
@@ -405986,6 +405993,7 @@ top##body > center + .A + .post
 ||176.106.241.72^
 ||176.116.56.92^
 ||176.118.209.172^
+||176.120.203.230^
 ||176.121.199.3^
 ||176.125.242.191^
 ||176.165.146.103^
@@ -406001,6 +406009,7 @@ top##body > center + .A + .post
 ||176.251.64.35^
 ||176.31.142.221^
 ||176.35.55.164^
+||176.65.132.109^
 ||176.65.132.117^
 ||176.65.132.139^
 ||176.65.132.159^
@@ -406167,7 +406176,6 @@ top##body > center + .A + .post
 ||178.141.155.38^
 ||178.141.156.236^
 ||178.141.166.195^
-||178.141.173.225^
 ||178.141.186.36^
 ||178.141.30.134^
 ||178.141.68.58^
@@ -406324,8 +406332,8 @@ top##body > center + .A + .post
 ||180.76.153.78^
 ||180.92.228.34^
 ||181.103.0.149^
-||181.129.100.123^
 ||181.129.182.138^
+||181.129.2.18^
 ||181.225.67.10^
 ||181.48.119.70^
 ||181.49.47.190^
@@ -406338,7 +406346,9 @@ top##body > center + .A + .post
 ||182.112.0.113^
 ||182.112.0.25^
 ||182.112.0.93^
+||182.112.10.44^
 ||182.112.103.105^
+||182.112.103.57^
 ||182.112.109.120^
 ||182.112.12.70^
 ||182.112.14.168^
@@ -406350,7 +406360,6 @@ top##body > center + .A + .post
 ||182.112.182.107^
 ||182.112.184.249^
 ||182.112.185.235^
-||182.112.186.130^
 ||182.112.187.241^
 ||182.112.190.91^
 ||182.112.209.155^
@@ -406405,6 +406414,7 @@ top##body > center + .A + .post
 ||182.112.91.244^
 ||182.112.92.80^
 ||182.112.99.168^
+||182.113.0.119^
 ||182.113.1.25^
 ||182.113.10.153^
 ||182.113.11.27^
@@ -406441,7 +406451,6 @@ top##body > center + .A + .post
 ||182.113.205.16^
 ||182.113.205.82^
 ||182.113.206.110^
-||182.113.206.7^
 ||182.113.207.103^
 ||182.113.207.115^
 ||182.113.207.154^
@@ -406469,6 +406478,7 @@ top##body > center + .A + .post
 ||182.113.30.27^
 ||182.113.31.165^
 ||182.113.31.224^
+||182.113.33.30^
 ||182.113.33.41^
 ||182.113.33.83^
 ||182.113.34.11^
@@ -406484,13 +406494,13 @@ top##body > center + .A + .post
 ||182.113.38.82^
 ||182.113.39.25^
 ||182.113.39.27^
-||182.113.4.159^
 ||182.113.4.51^
 ||182.113.40.54^
 ||182.113.40.93^
 ||182.113.41.20^
 ||182.113.41.216^
 ||182.113.41.59^
+||182.113.41.81^
 ||182.113.42.158^
 ||182.113.43.101^
 ||182.113.43.94^
@@ -406507,6 +406517,7 @@ top##body > center + .A + .post
 ||182.113.9.117^
 ||182.113.9.82^
 ||182.114.189.127^
+||182.114.192.248^
 ||182.114.192.83^
 ||182.114.193.114^
 ||182.114.193.247^
@@ -406559,7 +406570,6 @@ top##body > center + .A + .post
 ||182.114.34.251^
 ||182.114.35.199^
 ||182.114.35.229^
-||182.114.35.3^
 ||182.114.48.139^
 ||182.114.48.68^
 ||182.114.49.233^
@@ -406576,7 +406586,6 @@ top##body > center + .A + .post
 ||182.115.175.61^
 ||182.115.234.195^
 ||182.115.239.251^
-||182.115.239.32^
 ||182.115.78.213^
 ||182.116.10.86^
 ||182.116.10.93^
@@ -406648,7 +406657,6 @@ top##body > center + .A + .post
 ||182.116.35.74^
 ||182.116.36.85^
 ||182.116.38.160^
-||182.116.38.44^
 ||182.116.38.6^
 ||182.116.39.138^
 ||182.116.39.179^
@@ -406845,6 +406853,7 @@ top##body > center + .A + .post
 ||182.119.239.25^
 ||182.119.249.21^
 ||182.119.250.106^
+||182.119.250.171^
 ||182.119.250.63^
 ||182.119.253.124^
 ||182.119.253.241^
@@ -406892,6 +406901,7 @@ top##body > center + .A + .post
 ||182.120.160.228^
 ||182.120.162.185^
 ||182.120.33.201^
+||182.120.40.176^
 ||182.120.42.120^
 ||182.120.43.123^
 ||182.120.45.64^
@@ -406905,7 +406915,6 @@ top##body > center + .A + .post
 ||182.121.109.8^
 ||182.121.110.229^
 ||182.121.112.12^
-||182.121.112.216^
 ||182.121.113.57^
 ||182.121.113.79^
 ||182.121.114.197^
@@ -406913,6 +406922,7 @@ top##body > center + .A + .post
 ||182.121.114.247^
 ||182.121.115.177^
 ||182.121.115.226^
+||182.121.115.4^
 ||182.121.115.92^
 ||182.121.115.9^
 ||182.121.116.206^
@@ -406923,6 +406933,7 @@ top##body > center + .A + .post
 ||182.121.119.134^
 ||182.121.119.24^
 ||182.121.12.231^
+||182.121.12.47^
 ||182.121.13.0^
 ||182.121.14.233^
 ||182.121.142.254^
@@ -406931,6 +406942,7 @@ top##body > center + .A + .post
 ||182.121.15.82^
 ||182.121.150.17^
 ||182.121.152.140^
+||182.121.152.161^
 ||182.121.152.248^
 ||182.121.153.123^
 ||182.121.154.51^
@@ -406957,7 +406969,6 @@ top##body > center + .A + .post
 ||182.121.173.168^
 ||182.121.175.113^
 ||182.121.175.19^
-||182.121.175.251^
 ||182.121.177.34^
 ||182.121.181.97^
 ||182.121.184.103^
@@ -406981,6 +406992,7 @@ top##body > center + .A + .post
 ||182.121.215.49^
 ||182.121.217.39^
 ||182.121.224.139^
+||182.121.224.33^
 ||182.121.224.47^
 ||182.121.224.70^
 ||182.121.225.165^
@@ -407099,7 +407111,6 @@ top##body > center + .A + .post
 ||182.122.52.112^
 ||182.122.54.132^
 ||182.123.140.79^
-||182.123.160.2^
 ||182.123.161.149^
 ||182.123.164.82^
 ||182.123.176.198^
@@ -407149,10 +407160,10 @@ top##body > center + .A + .post
 ||182.123.239.95^
 ||182.123.242.208^
 ||182.123.243.182^
+||182.123.243.227^
 ||182.123.247.72^
 ||182.123.248.178^
 ||182.123.254.229^
-||182.123.80.47^
 ||182.123.92.189^
 ||182.124.10.210^
 ||182.124.112.31^
@@ -407221,6 +407232,7 @@ top##body > center + .A + .post
 ||182.126.107.228^
 ||182.126.108.125^
 ||182.126.109.85^
+||182.126.111.62^
 ||182.126.112.166^
 ||182.126.112.204^
 ||182.126.112.60^
@@ -407247,6 +407259,7 @@ top##body > center + .A + .post
 ||182.126.119.177^
 ||182.126.119.46^
 ||182.126.120.210^
+||182.126.120.55^
 ||182.126.121.63^
 ||182.126.122.64^
 ||182.126.123.184^
@@ -407303,7 +407316,6 @@ top##body > center + .A + .post
 ||182.126.80.11^
 ||182.126.80.129^
 ||182.126.80.82^
-||182.126.81.137^
 ||182.126.81.148^
 ||182.126.81.234^
 ||182.126.83.121^
@@ -407339,7 +407351,6 @@ top##body > center + .A + .post
 ||182.127.103.71^
 ||182.127.104.4^
 ||182.127.108.136^
-||182.127.108.177^
 ||182.127.108.17^
 ||182.127.108.200^
 ||182.127.108.234^
@@ -407405,7 +407416,6 @@ top##body > center + .A + .post
 ||182.127.165.93^
 ||182.127.166.224^
 ||182.127.167.135^
-||182.127.168.164^
 ||182.127.168.185^
 ||182.127.168.188^
 ||182.127.176.104^
@@ -407417,7 +407427,6 @@ top##body > center + .A + .post
 ||182.127.177.193^
 ||182.127.177.201^
 ||182.127.177.29^
-||182.127.177.51^
 ||182.127.177.8^
 ||182.127.178.140^
 ||182.127.178.147^
@@ -407465,9 +407474,9 @@ top##body > center + .A + .post
 ||182.127.5.163^
 ||182.127.53.122^
 ||182.127.53.90^
+||182.127.54.130^
 ||182.127.54.199^
 ||182.127.55.173^
-||182.127.6.166^
 ||182.127.6.252^
 ||182.127.69.241^
 ||182.127.69.38^
@@ -407498,8 +407507,8 @@ top##body > center + .A + .post
 ||182.148.204.134^
 ||182.148.7.171^
 ||182.148.85.228^
-||182.160.102.188^
 ||182.160.109.98^
+||182.160.116.52^
 ||182.163.114.232^
 ||182.173.199.8^
 ||182.176.116.4^
@@ -407591,7 +407600,6 @@ top##body > center + .A + .post
 ||183.35.50.185^
 ||183.35.50.73^
 ||183.48.166.162^
-||183.81.156.121^
 ||183.81.156.123^
 ||183.81.156.124^
 ||183.81.156.125^
@@ -407620,10 +407628,7 @@ top##body > center + .A + .post
 ||185.146.232.224^
 ||185.149.120.3^
 ||185.150.25.82^
-||185.152.219.150^
-||185.166.91.145^
 ||185.168.227.130^
-||185.172.128.16^
 ||185.177.239.181^
 ||185.184.170.16^
 ||185.186.244.57^
@@ -407663,14 +407668,12 @@ top##body > center + .A + .post
 ||185.32.4.30^
 ||185.4.64.128^
 ||185.43.16.137^
-||185.43.17.123^
-||185.43.19.103^
 ||185.43.45.171^
 ||185.49.168.84^
 ||185.50.148.169^
+||185.57.69.125^
 ||185.60.107.150^
 ||185.63.101.180^
-||185.71.233.23^
 ||185.8.233.160^
 ||185.80.0.36^
 ||185.82.111.122^
@@ -407740,13 +407743,11 @@ top##body > center + .A + .post
 ||188.29.186.243^
 ||188.29.69.141^
 ||188.38.158.163^
-||188.44.110.215^
 ||188.58.197.152^
 ||188.59.31.192^
 ||188.72.6.218^
 ||188.81.134.196^
 ||188.82.127.68^
-||188.95.148.167^
 ||189.165.253.208^
 ||189.174.142.184^
 ||189.61.50.98^
@@ -407773,14 +407774,12 @@ top##body > center + .A + .post
 ||190.115.114.38^
 ||190.12.99.194^
 ||190.128.195.138^
-||190.145.205.178^
 ||190.183.254.69^
 ||190.186.28.36^
 ||190.186.90.66^
 ||190.196.250.1^
 ||190.196.38.77^
 ||190.2.237.104^
-||190.217.148.227^
 ||190.255.90.152^
 ||190.4.1.150^
 ||190.40.185.33^
@@ -407817,6 +407816,8 @@ top##body > center + .A + .post
 ||192.159.99.32^
 ||192.159.99.39^
 ||192.159.99.47^
+||192.159.99.49^
+||192.168.10.100^
 ||192.176.50.190^
 ||192.177.26.196^
 ||192.21.160.221^
@@ -407840,7 +407841,6 @@ top##body > center + .A + .post
 ||192.3.228.209^
 ||192.3.233.166^
 ||192so3245.vybrelease.cn.com^
-||193.109.44.54^
 ||193.111.117.17^
 ||193.135.9.84^
 ||193.143.1.186^
@@ -407892,12 +407892,14 @@ top##body > center + .A + .post
 ||194.156.79.120^
 ||194.163.140.58^
 ||194.163.151.12^
+||194.183.186.164^
 ||194.208.56.60^
 ||194.26.192.153^
 ||194.26.192.157^
 ||194.26.192.187^
 ||194.26.192.44^
 ||194.32.248.126^
+||194.36.88.178^
 ||194.41.112.253^
 ||194.41.113.246^
 ||194.54.161.214^
@@ -407916,7 +407918,6 @@ top##body > center + .A + .post
 ||195.177.94.94^
 ||195.178.110.204^
 ||195.238.123.165^
-||195.250.173.158^
 ||195.26.97.59^
 ||195.34.102.234^
 ||195.34.91.22^
@@ -407959,7 +407960,6 @@ top##body > center + .A + .post
 ||196.199.55.11^
 ||196.199.55.23^
 ||196.206.57.215^
-||196.219.130.75^
 ||196.251.107.104^
 ||196.251.107.117^
 ||196.251.107.130^
@@ -407990,12 +407990,10 @@ top##body > center + .A + .post
 ||199.98.88.92.rev.sfr.net^
 ||1ab-grid.pavo8rex.lat^
 ||1aed1cm5.cloudzone.com.tr^
-||1ago-plate.blackford.in.net^
 ||1aqmr.junkie-talker.in.net^
 ||1att0-crest.pozellant.in.net^
 ||1aun0-zone.verd1ya.garden^
 ||1ayo-port.infirmary5care.in.net^
-||1ayo-route.harborcliff.in.net^
 ||1ce2-port.frost-echo.in.net^
 ||1ce6-route.fixionmunici9al.lat^
 ||1djqvowq.iaap2019.com^
@@ -408037,6 +408035,7 @@ top##body > center + .A + .post
 ||2.136.203.189^
 ||2.136.63.232^
 ||2.180.35.231^
+||2.187.6.236^
 ||2.192.102.162^
 ||2.238.146.33^
 ||2.249.142.165^
@@ -408056,7 +408055,6 @@ top##body > center + .A + .post
 ||2.54.84.143^
 ||2.54.85.90^
 ||2.54.88.115^
-||2.54.88.189^
 ||2.54.88.190^
 ||2.54.88.216^
 ||2.54.89.92^
@@ -408066,7 +408064,6 @@ top##body > center + .A + .post
 ||2.54.96.91^
 ||2.54.98.68^
 ||2.55.122.229^
-||2.55.126.179^
 ||2.55.81.169^
 ||2.55.82.160^
 ||2.55.94.142^
@@ -408142,12 +408139,12 @@ top##body > center + .A + .post
 ||202.175.181.210^
 ||202.3.248.178^
 ||202.3.248.179^
+||202.4.101.78^
 ||202.4.124.58^
 ||202.5.50.108^
 ||202.51.100.238^
 ||202.53.164.214^
 ||202.53.164.46^
-||202.57.39.2^
 ||202.57.43.234^
 ||202.59.90.109^
 ||202.62.41.165^
@@ -408200,7 +408197,6 @@ top##body > center + .A + .post
 ||204.76.203.248^
 ||204.76.203.30^
 ||205.185.121.21^
-||205.209.114.243^
 ||206.0.172.171^
 ||206.0.183.28^
 ||206.135.170.3^
@@ -408209,7 +408205,6 @@ top##body > center + .A + .post
 ||206.135.174.164^
 ||206.168.201.246^
 ||206.168.201.42^
-||206.189.107.18^
 ||206.189.22.92^
 ||206.189.93.37^
 ||206.189.98.25^
@@ -408271,10 +408266,11 @@ top##body > center + .A + .post
 ||211.92.69.163^
 ||211.93.95.46^
 ||212.107.232.167^
+||212.112.101.200^
 ||212.156.106.146^
 ||212.162.155.240^
+||212.178.3.64^
 ||212.200.106.94^
-||212.225.179.114^
 ||212.225.179.160^
 ||212.225.186.186^
 ||212.225.203.24^
@@ -408296,7 +408292,6 @@ top##body > center + .A + .post
 ||213.165.45.163^
 ||213.21.233.188^
 ||213.242.25.214^
-||213.47.243.57^
 ||213.5.194.56^
 ||213.6.196.230^
 ||213.6.74.138^
@@ -408308,9 +408303,6 @@ top##body > center + .A + .post
 ||216.119.126.23^
 ||216.126.225.120^
 ||216.126.225.174^
-||216.126.225.94^
-||216.126.236.17^
-||216.126.239.100^
 ||216.126.86.105^
 ||216.126.86.108^
 ||216.126.86.125^
@@ -408320,7 +408312,6 @@ top##body > center + .A + .post
 ||216.126.86.5^
 ||216.126.86.84^
 ||216.129.184.213^
-||216.155.92.203^
 ||216.201.80.197^
 ||216.245.140.191^
 ||216.245.184.171^
@@ -408342,6 +408333,7 @@ top##body > center + .A + .post
 ||217.211.117.55^
 ||217.218.139.205^
 ||217.24.176.168^
+||217.60.195.70^
 ||217.60.199.225^
 ||217.60.241.18^
 ||217.60.241.32^
@@ -408352,6 +408344,7 @@ top##body > center + .A + .post
 ||217.60.61.176^
 ||217.64.135.181^
 ||217.75.193.34^
+||217.92.214.15^
 ||218.103.122.102^
 ||218.108.181.2^
 ||218.13.149.41^
@@ -408413,7 +408406,6 @@ top##body > center + .A + .post
 ||219.154.172.180^
 ||219.154.172.227^
 ||219.154.174.92^
-||219.154.175.220^
 ||219.154.175.25^
 ||219.154.175.32^
 ||219.154.183.120^
@@ -408437,7 +408429,6 @@ top##body > center + .A + .post
 ||219.155.124.159^
 ||219.155.129.38^
 ||219.155.13.35^
-||219.155.131.143^
 ||219.155.15.174^
 ||219.155.170.169^
 ||219.155.174.73^
@@ -408448,6 +408439,7 @@ top##body > center + .A + .post
 ||219.155.194.54^
 ||219.155.195.25^
 ||219.155.195.93^
+||219.155.200.114^
 ||219.155.200.135^
 ||219.155.200.228^
 ||219.155.200.25^
@@ -408516,7 +408508,6 @@ top##body > center + .A + .post
 ||219.155.63.138^
 ||219.155.68.141^
 ||219.155.73.128^
-||219.155.75.171^
 ||219.155.80.103^
 ||219.155.80.78^
 ||219.155.81.102^
@@ -408647,11 +408638,11 @@ top##body > center + .A + .post
 ||219.157.203.99^
 ||219.157.21.124^
 ||219.157.214.66^
+||219.157.215.135^
 ||219.157.215.180^
 ||219.157.215.220^
 ||219.157.218.100^
 ||219.157.22.107^
-||219.157.22.183^
 ||219.157.22.244^
 ||219.157.221.146^
 ||219.157.223.143^
@@ -408663,6 +408654,7 @@ top##body > center + .A + .post
 ||219.157.234.221^
 ||219.157.235.231^
 ||219.157.240.70^
+||219.157.242.213^
 ||219.157.243.242^
 ||219.157.246.244^
 ||219.157.251.161^
@@ -408762,7 +408754,6 @@ top##body > center + .A + .post
 ||220.246.254.230^
 ||220.246.34.66^
 ||220.248.47.54^
-||220.78.182.254^
 ||220.80.34.25^
 ||220.81.58.40^
 ||220.89.164.81^
@@ -408891,7 +408882,6 @@ top##body > center + .A + .post
 ||221.15.15.241^
 ||221.15.15.254^
 ||221.15.15.51^
-||221.15.15.80^
 ||221.15.16.194^
 ||221.15.16.6^
 ||221.15.161.190^
@@ -408987,7 +408977,6 @@ top##body > center + .A + .post
 ||221.15.9.123^
 ||221.15.9.174^
 ||221.15.9.25^
-||221.15.9.50^
 ||221.15.90.192^
 ||221.15.90.241^
 ||221.15.91.16^
@@ -409036,7 +409025,6 @@ top##body > center + .A + .post
 ||221.203.147.241^
 ||221.203.170.228^
 ||221.203.182.4^
-||221.203.224.92^
 ||221.203.231.80^
 ||221.203.253.220^
 ||221.203.86.55^
@@ -409093,6 +409081,7 @@ top##body > center + .A + .post
 ||222.127.251.23^
 ||222.127.254.114^
 ||222.127.48.186^
+||222.127.48.44^
 ||222.127.49.161^
 ||222.127.49.242^
 ||222.127.53.189^
@@ -409111,7 +409100,6 @@ top##body > center + .A + .post
 ||222.127.76.40^
 ||222.127.77.227^
 ||222.127.90.242^
-||222.133.100.187^
 ||222.133.102.211^
 ||222.133.102.241^
 ||222.133.116.29^
@@ -409134,6 +409122,7 @@ top##body > center + .A + .post
 ||222.134.173.251^
 ||222.134.174.15^
 ||222.134.174.174^
+||222.134.175.207^
 ||222.134.175.5^
 ||222.135.129.29^
 ||222.135.133.252^
@@ -409199,6 +409188,7 @@ top##body > center + .A + .post
 ||222.137.20.8^
 ||222.137.21.188^
 ||222.137.212.116^
+||222.137.212.198^
 ||222.137.214.90^
 ||222.137.215.84^
 ||222.137.22.30^
@@ -409283,9 +409273,11 @@ top##body > center + .A + .post
 ||222.138.149.150^
 ||222.138.149.64^
 ||222.138.149.73^
+||222.138.150.0^
 ||222.138.150.114^
 ||222.138.150.240^
 ||222.138.150.30^
+||222.138.150.61^
 ||222.138.150.90^
 ||222.138.151.220^
 ||222.138.176.226^
@@ -409325,14 +409317,12 @@ top##body > center + .A + .post
 ||222.139.110.174^
 ||222.139.110.237^
 ||222.139.115.64^
-||222.139.119.111^
 ||222.139.119.74^
 ||222.139.12.47^
 ||222.139.123.40^
 ||222.139.125.60^
 ||222.139.127.137^
 ||222.139.15.197^
-||222.139.194.17^
 ||222.139.196.27^
 ||222.139.198.206^
 ||222.139.204.216^
@@ -409346,6 +409336,7 @@ top##body > center + .A + .post
 ||222.139.36.21^
 ||222.139.40.108^
 ||222.139.40.110^
+||222.139.40.4^
 ||222.139.41.227^
 ||222.139.42.166^
 ||222.139.42.174^
@@ -409415,7 +409406,6 @@ top##body > center + .A + .post
 ||222.140.187.197^
 ||222.140.187.63^
 ||222.140.189.209^
-||222.140.192.112^
 ||222.140.192.170^
 ||222.140.194.82^
 ||222.140.195.176^
@@ -409435,7 +409425,6 @@ top##body > center + .A + .post
 ||222.140.231.73^
 ||222.140.236.167^
 ||222.140.237.78^
-||222.141.101.131^
 ||222.141.105.137^
 ||222.141.105.198^
 ||222.141.113.119^
@@ -409454,6 +409443,7 @@ top##body > center + .A + .post
 ||222.141.130.43^
 ||222.141.131.33^
 ||222.141.132.225^
+||222.141.134.229^
 ||222.141.136.2^
 ||222.141.137.115^
 ||222.141.139.177^
@@ -409488,7 +409478,6 @@ top##body > center + .A + .post
 ||222.141.45.153^
 ||222.141.45.159^
 ||222.141.46.237^
-||222.141.46.248^
 ||222.141.46.37^
 ||222.141.46.48^
 ||222.141.73.146^
@@ -409525,7 +409514,6 @@ top##body > center + .A + .post
 ||222.142.206.119^
 ||222.142.206.71^
 ||222.142.208.17^
-||222.142.209.161^
 ||222.142.209.234^
 ||222.142.210.14^
 ||222.142.210.194^
@@ -409555,7 +409543,6 @@ top##body > center + .A + .post
 ||222.142.244.222^
 ||222.142.245.142^
 ||222.142.245.198^
-||222.142.245.77^
 ||222.142.246.207^
 ||222.142.247.18^
 ||222.142.247.38^
@@ -409571,7 +409558,6 @@ top##body > center + .A + .post
 ||222.142.252.191^
 ||222.142.253.68^
 ||222.142.254.106^
-||222.142.254.145^
 ||222.142.254.165^
 ||222.142.254.166^
 ||222.142.254.205^
@@ -409586,11 +409572,10 @@ top##body > center + .A + .post
 ||222.142.76.158^
 ||222.142.79.163^
 ||222.142.93.65^
-||222.154.246.166^
 ||222.160.220.47^
 ||222.165.237.58^
 ||222.165.237.59^
-||222.165.237.60^
+||222.165.237.61^
 ||222.165.237.62^
 ||222.166.248.15^
 ||222.185.133.5^
@@ -409627,6 +409612,7 @@ top##body > center + .A + .post
 ||223.123.38.120^
 ||223.123.38.121^
 ||223.123.38.33^
+||223.123.42.233^
 ||223.123.42.237^
 ||223.123.43.4^
 ||223.123.43.5^
@@ -409656,7 +409642,6 @@ top##body > center + .A + .post
 ||23.146.240.108^
 ||23.148.146.29^
 ||23.238.39.247^
-||23.241.17.95^
 ||23.92.130.154^
 ||23.94.232.76^
 ||23.95.247.31^
@@ -409669,7 +409654,6 @@ top##body > center + .A + .post
 ||24-35-228-16.fidnet.com^
 ||24.234.159.5^
 ||24.35.228.16^
-||24.37.71.230^
 ||24.44.175.24^
 ||24.54.85.143^
 ||24.54.95.49^
@@ -409787,7 +409771,6 @@ top##body > center + .A + .post
 ||27.202.30.50^
 ||27.202.39.195^
 ||27.202.39.59^
-||27.202.52.63^
 ||27.202.58.180^
 ||27.202.73.219^
 ||27.202.75.202^
@@ -409837,7 +409820,6 @@ top##body > center + .A + .post
 ||27.207.161.220^
 ||27.207.161.85^
 ||27.207.170.113^
-||27.207.184.209^
 ||27.207.184.58^
 ||27.207.186.157^
 ||27.207.186.37^
@@ -409911,7 +409893,6 @@ top##body > center + .A + .post
 ||27.215.126.15^
 ||27.215.126.166^
 ||27.215.126.193^
-||27.215.126.25^
 ||27.215.126.80^
 ||27.215.127.100^
 ||27.215.127.225^
@@ -409969,7 +409950,6 @@ top##body > center + .A + .post
 ||27.215.213.136^
 ||27.215.213.203^
 ||27.215.213.220^
-||27.215.214.134^
 ||27.215.214.99^
 ||27.215.215.117^
 ||27.215.215.125^
@@ -410006,7 +409986,6 @@ top##body > center + .A + .post
 ||27.215.54.162^
 ||27.215.54.235^
 ||27.215.55.132^
-||27.215.55.225^
 ||27.215.59.163^
 ||27.215.77.105^
 ||27.215.78.22^
@@ -410017,7 +409996,7 @@ top##body > center + .A + .post
 ||27.215.80.254^
 ||27.215.81.133^
 ||27.215.81.3^
-||27.215.82.209^
+||27.215.82.69^
 ||27.215.83.0^
 ||27.215.84.140^
 ||27.215.84.165^
@@ -410033,6 +410012,7 @@ top##body > center + .A + .post
 ||27.216.110.222^
 ||27.216.120.230^
 ||27.216.167.20^
+||27.216.243.150^
 ||27.216.250.235^
 ||27.216.44.248^
 ||27.217.184.93^
@@ -410043,7 +410023,6 @@ top##body > center + .A + .post
 ||27.218.14.140^
 ||27.218.57.214^
 ||27.219.117.196^
-||27.219.122.227^
 ||27.219.14.111^
 ||27.219.143.27^
 ||27.219.172.177^
@@ -410193,7 +410172,6 @@ top##body > center + .A + .post
 ||27.37.227.112^
 ||27.37.227.254^
 ||27.37.228.169^
-||27.37.230.121^
 ||27.37.231.217^
 ||27.37.24.153^
 ||27.37.24.163^
@@ -410259,7 +410237,6 @@ top##body > center + .A + .post
 ||27.72.159.162^
 ||27.8.107.22^
 ||27.8.9.245^
-||27.96.228.235^
 ||27.96.93.32^
 ||2718gc20.seresniki.com^
 ||277lk6.sadfont.in.net^
@@ -410280,6 +410257,7 @@ top##body > center + .A + .post
 ||2cpd365m.plaque5tucco.digital^
 ||2dqe6hsl.norsdwest.in.net^
 ||2dvs.miri7qen.lat^
+||2dz4gggg.betgopro.com^
 ||2dzxuao7.parossag.hu^
 ||2ffmg.bri4talin.in.net^
 ||2g1jl.sunpit.in.net^
@@ -410364,7 +410342,6 @@ top##body > center + .A + .post
 ||34.86.81.254^
 ||347hoy7r.signal-frontier.digital^
 ||34bbeito.canlibahis1xbet.click^
-||34lhj33.granitevalley.in.net^
 ||35.226.92.8^
 ||35.237.91.38^
 ||352xm1.biograph-discoball.pics^
@@ -410390,7 +410367,6 @@ top##body > center + .A + .post
 ||36.49.34.147^
 ||36.49.35.191^
 ||36.49.65.2^
-||36.64.14.250^
 ||36.64.174.210^
 ||36.64.174.50^
 ||36.64.174.98^
@@ -410402,7 +410378,6 @@ top##body > center + .A + .post
 ||36.66.139.36^
 ||36.66.151.7^
 ||36.67.25.26^
-||36.67.66.178^
 ||36.69.68.79^
 ||36.69.72.137^
 ||36.69.84.241^
@@ -410414,7 +410389,6 @@ top##body > center + .A + .post
 ||36.70.100.243^
 ||36.70.100.39^
 ||36.70.102.2^
-||36.70.108.122^
 ||36.70.111.157^
 ||36.70.142.105^
 ||36.70.142.109^
@@ -410458,6 +410432,7 @@ top##body > center + .A + .post
 ||36.84.112.61^
 ||36.84.113.27^
 ||36.84.113.62^
+||36.84.113.80^
 ||36.84.115.209^
 ||36.88.109.138^
 ||36.88.136.194^
@@ -410470,7 +410445,6 @@ top##body > center + .A + .post
 ||36.92.110.187^
 ||36.92.154.210^
 ||36.92.154.218^
-||36.92.68.239^
 ||36.92.68.241^
 ||36.95.137.155^
 ||36.95.77.138^
@@ -410489,7 +410463,6 @@ top##body > center + .A + .post
 ||37.157.219.158^
 ||37.202.49.118^
 ||37.220.123.125^
-||37.233.63.185^
 ||37.235.139.196^
 ||37.235.223.51^
 ||37.252.69.10^
@@ -410519,7 +410492,6 @@ top##body > center + .A + .post
 ||37.76.136.59^
 ||37.78.77.106^
 ||37.78.98.60^
-||37.9.25.206^
 ||3776.concent-shelm.in.net^
 ||37d389gt.botvn.net^
 ||37dmj.leafspring.garden^
@@ -410551,7 +410523,6 @@ top##body > center + .A + .post
 ||39.187.126.220^
 ||39.187.66.101^
 ||39.187.68.209^
-||39.187.68.85^
 ||39.187.82.151^
 ||39.187.82.156^
 ||39.187.82.244^
@@ -410594,6 +410565,7 @@ top##body > center + .A + .post
 ||39.73.17.241^
 ||39.73.18.206^
 ||39.73.242.5^
+||39.74.104.71^
 ||39.74.106.57^
 ||39.74.107.105^
 ||39.74.110.57^
@@ -410810,6 +410782,7 @@ top##body > center + .A + .post
 ||3jf88h.th0rniva.garden^
 ||3jms0.protocave.in.net^
 ||3k3qw9fd.system-forge.digital^
+||3mm5jtvt.mrbet90.com^
 ||3ndp1-reach.oguzok7ye.in.net^
 ||3nsojlm.cokenote.in.net^
 ||3nx4gks.desola-tidle.in.net^
@@ -410837,8 +410810,9 @@ top##body > center + .A + .post
 ||41.142.121.203^
 ||41.145.0.138^
 ||41.146.12.81^
-||41.190.57.114^
+||41.190.69.6^
 ||41.201.226.25^
+||41.215.23.222^
 ||41.216.188.223^
 ||41.216.188.231^
 ||41.247.21.100^
@@ -410888,6 +410862,7 @@ top##body > center + .A + .post
 ||42.177.234.121^
 ||42.177.236.151^
 ||42.177.236.185^
+||42.177.237.25^
 ||42.177.238.150^
 ||42.177.244.216^
 ||42.177.29.30^
@@ -410989,6 +410964,7 @@ top##body > center + .A + .post
 ||42.224.144.97^
 ||42.224.147.138^
 ||42.224.147.201^
+||42.224.149.128^
 ||42.224.149.182^
 ||42.224.149.206^
 ||42.224.15.13^
@@ -411042,7 +411018,6 @@ top##body > center + .A + .post
 ||42.224.29.43^
 ||42.224.30.123^
 ||42.224.30.21^
-||42.224.31.202^
 ||42.224.31.238^
 ||42.224.4.247^
 ||42.224.48.151^
@@ -411064,7 +411039,6 @@ top##body > center + .A + .post
 ||42.224.68.52^
 ||42.224.7.121^
 ||42.224.70.24^
-||42.224.71.74^
 ||42.224.73.206^
 ||42.224.78.240^
 ||42.224.8.114^
@@ -411100,7 +411074,6 @@ top##body > center + .A + .post
 ||42.225.204.153^
 ||42.225.204.233^
 ||42.225.204.90^
-||42.225.205.121^
 ||42.225.205.192^
 ||42.225.206.151^
 ||42.225.206.215^
@@ -411193,10 +411166,10 @@ top##body > center + .A + .post
 ||42.227.1.83^
 ||42.227.128.138^
 ||42.227.129.10^
-||42.227.131.190^
 ||42.227.133.138^
 ||42.227.134.103^
 ||42.227.134.27^
+||42.227.136.15^
 ||42.227.136.179^
 ||42.227.137.84^
 ||42.227.138.171^
@@ -411214,6 +411187,7 @@ top##body > center + .A + .post
 ||42.227.176.4^
 ||42.227.177.133^
 ||42.227.177.41^
+||42.227.178.149^
 ||42.227.179.213^
 ||42.227.184.227^
 ||42.227.186.118^
@@ -411306,6 +411280,8 @@ top##body > center + .A + .post
 ||42.228.194.211^
 ||42.228.195.148^
 ||42.228.216.214^
+||42.228.219.201^
+||42.228.220.33^
 ||42.228.221.166^
 ||42.228.221.19^
 ||42.228.221.217^
@@ -411367,7 +411343,6 @@ top##body > center + .A + .post
 ||42.229.157.42^
 ||42.229.158.84^
 ||42.229.160.161^
-||42.229.161.113^
 ||42.229.165.138^
 ||42.229.165.25^
 ||42.229.167.96^
@@ -411427,6 +411402,7 @@ top##body > center + .A + .post
 ||42.230.199.156^
 ||42.230.199.194^
 ||42.230.199.223^
+||42.230.200.225^
 ||42.230.201.223^
 ||42.230.202.124^
 ||42.230.206.51^
@@ -411467,6 +411443,7 @@ top##body > center + .A + .post
 ||42.230.38.139^
 ||42.230.39.123^
 ||42.230.39.169^
+||42.230.39.197^
 ||42.230.39.28^
 ||42.230.40.4^
 ||42.230.40.82^
@@ -411561,7 +411538,6 @@ top##body > center + .A + .post
 ||42.231.91.127^
 ||42.231.91.184^
 ||42.231.91.251^
-||42.231.91.49^
 ||42.231.92.154^
 ||42.231.92.253^
 ||42.231.92.37^
@@ -411588,7 +411564,6 @@ top##body > center + .A + .post
 ||42.232.224.133^
 ||42.232.224.14^
 ||42.232.224.161^
-||42.232.225.134^
 ||42.232.225.15^
 ||42.232.225.18^
 ||42.232.225.237^
@@ -411596,6 +411571,7 @@ top##body > center + .A + .post
 ||42.232.225.37^
 ||42.232.225.59^
 ||42.232.226.192^
+||42.232.227.235^
 ||42.232.228.122^
 ||42.232.228.254^
 ||42.232.228.96^
@@ -411610,6 +411586,7 @@ top##body > center + .A + .post
 ||42.232.232.110^
 ||42.232.232.52^
 ||42.232.233.127^
+||42.232.233.216^
 ||42.232.234.127^
 ||42.232.234.232^
 ||42.232.234.79^
@@ -411631,6 +411608,7 @@ top##body > center + .A + .post
 ||42.232.72.116^
 ||42.232.76.175^
 ||42.232.77.117^
+||42.232.83.193^
 ||42.232.86.100^
 ||42.232.86.121^
 ||42.232.86.2^
@@ -411694,6 +411672,7 @@ top##body > center + .A + .post
 ||42.234.149.59^
 ||42.234.151.238^
 ||42.234.153.44^
+||42.234.156.31^
 ||42.234.163.110^
 ||42.234.164.129^
 ||42.234.166.39^
@@ -411721,7 +411700,6 @@ top##body > center + .A + .post
 ||42.234.234.250^
 ||42.234.235.129^
 ||42.234.235.149^
-||42.234.235.62^
 ||42.234.235.79^
 ||42.234.244.107^
 ||42.234.245.241^
@@ -411730,6 +411708,7 @@ top##body > center + .A + .post
 ||42.234.73.137^
 ||42.234.75.160^
 ||42.234.97.5^
+||42.235.100.235^
 ||42.235.100.33^
 ||42.235.101.240^
 ||42.235.102.253^
@@ -411798,7 +411777,6 @@ top##body > center + .A + .post
 ||42.235.87.104^
 ||42.235.87.54^
 ||42.235.88.133^
-||42.235.89.249^
 ||42.235.90.141^
 ||42.235.90.235^
 ||42.235.90.238^
@@ -411827,6 +411805,7 @@ top##body > center + .A + .post
 ||42.236.223.242^
 ||42.237.1.75^
 ||42.237.100.79^
+||42.237.101.217^
 ||42.237.14.131^
 ||42.237.17.240^
 ||42.237.21.105^
@@ -411951,6 +411930,7 @@ top##body > center + .A + .post
 ||42.239.191.226^
 ||42.239.191.80^
 ||42.239.224.201^
+||42.239.225.26^
 ||42.239.225.54^
 ||42.239.226.200^
 ||42.239.227.184^
@@ -412027,7 +412007,6 @@ top##body > center + .A + .post
 ||42.5.225.41^
 ||42.5.228.227^
 ||42.5.228.37^
-||42.5.229.81^
 ||42.5.231.118^
 ||42.5.231.53^
 ||42.5.232.33^
@@ -412074,6 +412053,7 @@ top##body > center + .A + .post
 ||42.52.193.202^
 ||42.52.194.164^
 ||42.52.194.3^
+||42.52.201.30^
 ||42.52.204.105^
 ||42.52.205.23^
 ||42.52.212.152^
@@ -412117,6 +412097,7 @@ top##body > center + .A + .post
 ||42.54.143.150^
 ||42.54.145.242^
 ||42.54.150.169^
+||42.54.151.28^
 ||42.54.152.244^
 ||42.54.155.70^
 ||42.54.173.14^
@@ -412151,7 +412132,6 @@ top##body > center + .A + .post
 ||42.55.30.170^
 ||42.55.33.212^
 ||42.55.38.212^
-||42.55.41.116^
 ||42.55.41.89^
 ||42.55.43.82^
 ||42.55.54.139^
@@ -412277,6 +412257,7 @@ top##body > center + .A + .post
 ||42.6.253.178^
 ||42.6.32.18^
 ||42.6.32.230^
+||42.6.34.82^
 ||42.6.35.106^
 ||42.6.49.6^
 ||42.6.54.107^
@@ -412295,7 +412276,6 @@ top##body > center + .A + .post
 ||42.7.147.185^
 ||42.7.148.66^
 ||42.7.150.238^
-||42.7.152.129^
 ||42.7.194.79^
 ||42.7.202.19^
 ||42.7.202.79^
@@ -412329,7 +412309,6 @@ top##body > center + .A + .post
 ||42.85.51.149^
 ||42.85.51.177^
 ||42.85.74.201^
-||42.86.118.136^
 ||42.86.141.4^
 ||42.86.142.161^
 ||42.86.165.188^
@@ -412338,6 +412317,7 @@ top##body > center + .A + .post
 ||42.86.55.13^
 ||42.86.55.91^
 ||42.86.62.202^
+||42.86.62.239^
 ||42.86.80.179^
 ||42.87.111.156^
 ||42.87.114.188^
@@ -412360,7 +412340,6 @@ top##body > center + .A + .post
 ||42.87.229.177^
 ||42.87.252.165^
 ||42.87.41.126^
-||42.87.41.227^
 ||42.87.92.69^
 ||42.98.142.120^
 ||42.98.214.195^
@@ -412383,6 +412362,7 @@ top##body > center + .A + .post
 ||43.228.157.130^
 ||43.229.135.199^
 ||43.229.20.247^
+||43.229.20.42^
 ||43.230.107.46^
 ||43.245.39.47^
 ||43.248.15.119^
@@ -412397,11 +412377,10 @@ top##body > center + .A + .post
 ||45.11.229.145^
 ||45.11.229.69^
 ||45.11.56.76^
-||45.116.68.12^
 ||45.118.79.103^
 ||45.12.111.44^
 ||45.12.144.72^
-||45.120.38.214^
+||45.120.161.209^
 ||45.120.55.37^
 ||45.125.44.137^
 ||45.126.209.218^
@@ -412491,16 +412470,17 @@ top##body > center + .A + .post
 ||45.194.50.3^
 ||45.194.92.29^
 ||45.194.92.39^
-||45.194.92.55^
 ||45.198.224.38^
 ||45.198.224.42^
 ||45.198.224.8^
 ||45.201.157.212^
 ||45.202.241.21^
 ||45.202.243.118^
+||45.202.246.143^
 ||45.202.247.123^
 ||45.202.249.34^
 ||45.205.1.19^
+||45.205.1.59^
 ||45.225.135.61^
 ||45.225.187.6^
 ||45.230.66.104^
@@ -412522,7 +412502,6 @@ top##body > center + .A + .post
 ||45.61.149.180^
 ||45.61.150.125^
 ||45.61.150.97^
-||45.61.151.206^
 ||45.66.228.93^
 ||45.66.249.16^
 ||45.67.138.144^
@@ -412609,7 +412588,6 @@ top##body > center + .A + .post
 ||46.163.184.136^
 ||46.163.189.194^
 ||46.165.215.116^
-||46.175.139.20^
 ||46.175.184.8^
 ||46.180.158.120^
 ||46.183.222.116^
@@ -412627,6 +412605,7 @@ top##body > center + .A + .post
 ||46.236.65.136^
 ||46.236.65.145^
 ||46.236.65.161^
+||46.236.65.43^
 ||46.236.65.44^
 ||46.236.65.51^
 ||46.236.65.72^
@@ -412655,7 +412634,6 @@ top##body > center + .A + .post
 ||47.120.32.72^
 ||47.121.137.8^
 ||47.123.4.165^
-||47.152.112.236^
 ||47.160.151.251^
 ||47.201.14.128^
 ||47.215.185.216^
@@ -412665,7 +412643,6 @@ top##body > center + .A + .post
 ||47.80.11.103^
 ||47.83.203.183^
 ||47.86.190.58^
-||47.86.33.195^
 ||47.89.173.214^
 ||47.98.177.117^
 ||48bc.tockentrue.in.net^
@@ -412698,6 +412675,7 @@ top##body > center + .A + .post
 ||4getd0km.script-matrix.digital^
 ||4ggo.f0xharbor.in.net^
 ||4gzx0ikx.bankingrugnia.in.net^
+||4h79jvxe.metrobahiscark.com^
 ||4hs7joli.sokla3ren.in.net^
 ||4ijbsg80.sena9vix.surf^
 ||4iod03t4.eutoor.com^
@@ -412724,7 +412702,6 @@ top##body > center + .A + .post
 ||4t0mi-core.credibil-debauch.in.net^
 ||4ud18-ring.bluelight.in.net^
 ||4utu6-forge.darkboll.in.net^
-||4uzr61.autumnbrook.in.net^
 ||4vggd.zenithpatron.in.net^
 ||4vxdasln.brand5calpel.lat^
 ||4w9jp.checkbro.in.net^
@@ -412762,6 +412739,7 @@ top##body > center + .A + .post
 ||5.230.74.12^
 ||5.231.230.158^
 ||5.231.248.211^
+||5.231.70.34^
 ||5.250.157.166^
 ||5.252.155.138^
 ||5.252.155.246^
@@ -412855,6 +412833,7 @@ top##body > center + .A + .post
 ||58.253.129.91^
 ||58.255.40.164^
 ||58.255.40.187^
+||58.255.40.242^
 ||58.255.41.186^
 ||58.255.41.28^
 ||58.255.42.57^
@@ -412936,7 +412915,6 @@ top##body > center + .A + .post
 ||59.177.111.100^
 ||59.177.96.112^
 ||59.177.96.245^
-||59.177.96.247^
 ||59.177.96.46^
 ||59.177.97.111^
 ||59.177.98.13^
@@ -413000,7 +412978,6 @@ top##body > center + .A + .post
 ||59.183.108.60^
 ||59.183.109.83^
 ||59.183.113.113^
-||59.183.114.234^
 ||59.183.116.0^
 ||59.183.118.33^
 ||59.183.132.38^
@@ -413116,7 +413093,6 @@ top##body > center + .A + .post
 ||59.91.168.60^
 ||59.91.168.88^
 ||59.91.172.253^
-||59.91.181.172^
 ||59.91.246.237^
 ||59.91.246.6^
 ||59.91.250.90^
@@ -413255,7 +413231,6 @@ top##body > center + .A + .post
 ||59.97.247.198^
 ||59.97.248.162^
 ||59.97.248.176^
-||59.97.248.197^
 ||59.97.248.51^
 ||59.97.249.189^
 ||59.97.249.222^
@@ -413315,6 +413290,7 @@ top##body > center + .A + .post
 ||5ap-mesh.sylov8en.in.net^
 ||5ap-pulse.bry5laxon.in.net^
 ||5ay2qa01.electriccrash.bet^
+||5bksyseg.betistmobil.com^
 ||5bzb.tavro6xen.lat^
 ||5c4r-trail.tempiso.in.net^
 ||5cann5-wave.taketwo.in.net^
@@ -413382,7 +413358,6 @@ top##body > center + .A + .post
 ||5udd-signal.qen9varol.lat^
 ||5umm1-forge.runfast.in.net^
 ||5ummi5-mark.2rmpitoutstand.in.net^
-||5un-craft.harborcliff.in.net^
 ||5un-drive.frosthaven.garden^
 ||5un-lab.raxmi8vel.in.net^
 ||5un-line.duskforge.in.net^
@@ -413425,7 +413400,6 @@ top##body > center + .A + .post
 ||60.162.86.31^
 ||60.17.153.102^
 ||60.17.156.37^
-||60.17.158.18^
 ||60.17.158.25^
 ||60.17.159.203^
 ||60.17.16.140^
@@ -413438,6 +413412,7 @@ top##body > center + .A + .post
 ||60.178.147.73^
 ||60.179.74.111^
 ||60.18.10.74^
+||60.18.105.58^
 ||60.18.105.76^
 ||60.18.11.145^
 ||60.18.11.208^
@@ -413463,7 +413438,6 @@ top##body > center + .A + .post
 ||60.18.70.240^
 ||60.18.76.137^
 ||60.18.80.236^
-||60.18.81.162^
 ||60.18.85.182^
 ||60.18.9.150^
 ||60.18.9.66^
@@ -413483,8 +413457,6 @@ top##body > center + .A + .post
 ||60.19.217.202^
 ||60.19.218.61^
 ||60.19.219.238^
-||60.19.219.3^
-||60.19.220.151^
 ||60.19.220.78^
 ||60.19.221.232^
 ||60.19.221.36^
@@ -413552,6 +413524,7 @@ top##body > center + .A + .post
 ||60.22.49.72^
 ||60.22.58.204^
 ||60.22.85.240^
+||60.22.86.235^
 ||60.23.120.236^
 ||60.23.126.49^
 ||60.23.128.244^
@@ -413579,6 +413552,7 @@ top##body > center + .A + .post
 ||60.23.233.129^
 ||60.23.233.12^
 ||60.23.233.170^
+||60.23.233.177^
 ||60.23.233.220^
 ||60.23.233.241^
 ||60.23.233.53^
@@ -413625,6 +413599,7 @@ top##body > center + .A + .post
 ||60.3.44.167^
 ||60.3.55.113^
 ||60aaf9c6.salamanderprocessing.pages.dev^
+||60hx33ds.minescasino.bet^
 ||60moi.canone7node.in.net^
 ||61.0.107.16^
 ||61.0.82.176^
@@ -413643,7 +413618,6 @@ top##body > center + .A + .post
 ||61.1.249.55^
 ||61.1.26.99^
 ||61.1.29.85^
-||61.1.50.81^
 ||61.106.168.181^
 ||61.136.85.111^
 ||61.136.85.251^
@@ -413684,11 +413658,13 @@ top##body > center + .A + .post
 ||61.163.128.124^
 ||61.163.128.183^
 ||61.163.128.188^
+||61.163.128.202^
 ||61.163.129.6^
 ||61.163.130.53^
 ||61.163.130.55^
 ||61.163.130.60^
 ||61.163.149.229^
+||61.163.150.85^
 ||61.163.156.21^
 ||61.163.157.63^
 ||61.163.158.152^
@@ -413703,7 +413679,7 @@ top##body > center + .A + .post
 ||61.168.52.154^
 ||61.168.52.2^
 ||61.168.52.48^
-||61.174.147.26^
+||61.174.125.186^
 ||61.176.116.140^
 ||61.176.118.72^
 ||61.176.127.30^
@@ -413722,6 +413698,7 @@ top##body > center + .A + .post
 ||61.176.71.254^
 ||61.176.71.90^
 ||61.179.64.34^
+||61.183.16.127^
 ||61.2.149.79^
 ||61.2.159.201^
 ||61.2.246.248^
@@ -413736,7 +413713,6 @@ top##body > center + .A + .post
 ||61.243.128.123^
 ||61.243.140.234^
 ||61.243.140.9^
-||61.244.254.110^
 ||61.3.101.37^
 ||61.3.103.195^
 ||61.3.103.226^
@@ -413789,7 +413765,6 @@ top##body > center + .A + .post
 ||61.52.147.80^
 ||61.52.156.107^
 ||61.52.156.114^
-||61.52.156.117^
 ||61.52.156.128^
 ||61.52.156.169^
 ||61.52.156.170^
@@ -413879,13 +413854,11 @@ top##body > center + .A + .post
 ||61.52.51.73^
 ||61.52.53.104^
 ||61.52.53.254^
-||61.52.54.215^
 ||61.52.54.249^
 ||61.52.55.100^
 ||61.52.55.164^
 ||61.52.56.253^
 ||61.52.57.39^
-||61.52.58.107^
 ||61.52.58.117^
 ||61.52.58.181^
 ||61.52.59.8^
@@ -414000,7 +413973,6 @@ top##body > center + .A + .post
 ||61.53.133.230^
 ||61.53.133.69^
 ||61.53.135.222^
-||61.53.135.250^
 ||61.53.135.50^
 ||61.53.138.145^
 ||61.53.138.169^
@@ -414017,7 +413989,6 @@ top##body > center + .A + .post
 ||61.53.144.28^
 ||61.53.149.230^
 ||61.53.149.234^
-||61.53.149.79^
 ||61.53.149.92^
 ||61.53.151.206^
 ||61.53.153.6^
@@ -414061,7 +414032,6 @@ top##body > center + .A + .post
 ||61.53.74.56^
 ||61.53.74.66^
 ||61.53.75.0^
-||61.53.75.100^
 ||61.53.75.175^
 ||61.53.75.236^
 ||61.53.75.239^
@@ -414114,7 +414084,6 @@ top##body > center + .A + .post
 ||61.53.92.162^
 ||61.53.92.185^
 ||61.53.92.78^
-||61.53.93.158^
 ||61.53.93.214^
 ||61.53.93.227^
 ||61.53.93.86^
@@ -414172,12 +414141,11 @@ top##body > center + .A + .post
 ||62.171.152.61^
 ||62.181.55.38^
 ||62.197.62.195^
-||62.246.109.249^
-||62.45.171.82^
 ||62.56.225.99^
 ||62.60.130.237^
 ||62.60.226.140^
 ||62.60.226.159^
+||62.60.226.185^
 ||62.60.226.200^
 ||62.60.226.203^
 ||62.60.226.40^
@@ -414217,10 +414185,10 @@ top##body > center + .A + .post
 ||65.20.102.161^
 ||65.20.105.177^
 ||65.20.98.45^
-||65.49.44.84^
 ||65.87.7.5^
 ||65.99.181.12^
 ||655f.pepper-reprint.in.net^
+||66.131.243.81^
 ||66.167.147.95^
 ||66.167.166.231^
 ||66.167.169.155^
@@ -414324,7 +414292,6 @@ top##body > center + .A + .post
 ||71.207.128.92^
 ||71.42.105.34^
 ||71.56.88.23^
-||71.7.239.142^
 ||710fdch.ravenloop.in.net^
 ||713c.inferentrixhub.in.net^
 ||717mupv.idol-worship.in.net^
@@ -414338,6 +414305,7 @@ top##body > center + .A + .post
 ||72.255.19.110^
 ||72.255.19.244^
 ||72.255.19.83^
+||72.255.26.174^
 ||72.255.29.0^
 ||72.255.29.8^
 ||72.255.3.219^
@@ -414358,6 +414326,7 @@ top##body > center + .A + .post
 ||7309h.puro2tal.surf^
 ||730e.po4vaxel.in.net^
 ||73dwi.vividfox.in.net^
+||74.194.191.52^
 ||74.48.134.67^
 ||74.48.34.10^
 ||74.50.99.45^
@@ -414388,9 +414357,7 @@ top##body > center + .A + .post
 ||77.110.125.145^
 ||77.110.96.200^
 ||77.120.123.166^
-||77.125.241.200^
 ||77.172.14.72^
-||77.174.79.191^
 ||77.209.70.77^
 ||77.209.73.41^
 ||77.221.136.59^
@@ -414424,10 +414391,8 @@ top##body > center + .A + .post
 ||77.46.170.18^
 ||77.50.222.238^
 ||77.68.99.77^
-||77.73.49.254^
 ||77.79.160.210^
 ||77.83.39.60^
-||77.89.199.242^
 ||77.89.245.118^
 ||77.90.29.228^
 ||77.90.51.233^
@@ -414439,10 +414404,8 @@ top##body > center + .A + .post
 ||77gfk.mirthbay.in.net^
 ||77vlmbv.xeltronix.in.net^
 ||78-20-115-5.access.telenet.be^
-||78.111.82.210^
 ||78.13.245.82^
 ||78.140.248.242^
-||78.140.32.219^
 ||78.153.140.16^
 ||78.153.155.152^
 ||78.164.126.24^
@@ -414481,11 +414444,9 @@ top##body > center + .A + .post
 ||79.117.51.134^
 ||79.122.193.32^
 ||79.124.59.142^
-||79.124.72.22^
 ||79.125.226.184^
 ||79.137.195.151^
 ||79.17.142.40^
-||79.175.42.18^
 ||79.175.42.206^
 ||79.182.248.184^
 ||79.24.141.59^
@@ -414511,6 +414472,7 @@ top##body > center + .A + .post
 ||7onw.byerottin8.lat^
 ||7orku7ut.taxrundo.sk^
 ||7skoub.po9vtirel.in.net^
+||7tzr8pjb.mattheneus-healthcare.com^
 ||7uka.checkbro.in.net^
 ||7uopofgy.steel-evar-yes-valence.digital^
 ||7xekivp.nov2sirel.in.net^
@@ -414541,6 +414503,7 @@ top##body > center + .A + .post
 ||80.64.16.241^
 ||80.67.33.209^
 ||80.71.224.185^
+||80.89.189.98^
 ||80.89.224.210^
 ||80.89.237.112^
 ||80.89.237.130^
@@ -414601,8 +414564,8 @@ top##body > center + .A + .post
 ||82.60.49.228^
 ||82.60.6.147^
 ||82.66.224.73^
+||82.67.13.197^
 ||82.67.39.194^
-||82.77.57.16^
 ||82db.notice-ohlamon.surf^
 ||83.142.209.13^
 ||83.142.209.150^
@@ -414642,6 +414605,7 @@ top##body > center + .A + .post
 ||83.69.13.106^
 ||83j6hfza.runtime-forge.digital^
 ||83wi.snap-echo.in.net^
+||84.1.110.226^
 ||84.15.147.5^
 ||84.15.155.121^
 ||84.15.250.81^
@@ -414705,7 +414669,6 @@ top##body > center + .A + .post
 ||85.239.147.6^
 ||85.239.149.41^
 ||85.239.151.41^
-||85.239.53.207^
 ||85.25.72.70^
 ||85.57.30.25^
 ||85.72.122.98^
@@ -414716,7 +414679,6 @@ top##body > center + .A + .post
 ||859wyr.porukau8ar.lat^
 ||85ot.years-very.lat^
 ||86.106.101.159^
-||86.106.155.155^
 ||86.127.241.132^
 ||86.249.132.66^
 ||86.89.95.77^
@@ -414781,7 +414743,6 @@ top##body > center + .A + .post
 ||88.88.147.173^
 ||88.88.191.25^
 ||88dd44.quobix.in.net^
-||89.121.250.206^
 ||89.124.94.238^
 ||89.125.188.171^
 ||89.125.37.81^
@@ -414829,7 +414790,6 @@ top##body > center + .A + .post
 ||8xorq0f0.after-diacritic.digital^
 ||8xtx6dv2.gothiccathedralblueprint.digital^
 ||90.174.101.30^
-||90.177.125.64^
 ||90.2.25.142^
 ||90.224.208.161^
 ||90.224.208.190^
@@ -414851,7 +414811,6 @@ top##body > center + .A + .post
 ||91.185.1.70^
 ||91.196.32.55^
 ||91.197.122.35^
-||91.204.154.197^
 ||91.206.169.134^
 ||91.214.78.173^
 ||91.218.66.241^
@@ -414861,7 +414820,6 @@ top##body > center + .A + .post
 ||91.234.199.32^
 ||91.237.109.186^
 ||91.240.165.44^
-||91.244.169.56^
 ||91.244.71.53^
 ||91.80.149.117^
 ||91.80.188.11^
@@ -414915,11 +414873,11 @@ top##body > center + .A + .post
 ||92.63.185.32^
 ||92.66.30.68^
 ||92.88.98.199^
+||923nr8dp.chloroquineser.com^
 ||92vm44.qu2ntitative-tenero.pics^
 ||93.115.172.57^
 ||93.117.148.118^
 ||93.123.109.117^
-||93.126.1.30^
 ||93.152.224.39^
 ||93.157.253.209^
 ||93.182.76.169^
@@ -414933,7 +414891,6 @@ top##body > center + .A + .post
 ||93.55.251.246^
 ||93.82.169.218^
 ||93.87.31.84^
-||93.87.42.154^
 ||93.95.115.14^
 ||93f5qz.khudrukmumb1es.in.net^
 ||94.103.188.207^
@@ -414956,15 +414913,13 @@ top##body > center + .A + .post
 ||94.156.152.238^
 ||94.156.152.67^
 ||94.156.166.84^
-||94.156.170.86^
 ||94.159.74.226^
 ||94.16.119.223^
-||94.168.120.202^
 ||94.180.31.246^
 ||94.183.182.184^
+||94.183.188.60^
 ||94.183.232.247^
 ||94.189.222.143^
-||94.19.130.58^
 ||94.199.218.56^
 ||94.203.254.14^
 ||94.226.135.252^
@@ -415008,6 +414963,7 @@ top##body > center + .A + .post
 ||95.229.5.214^
 ||95.230.215.65^
 ||95.236.64.143^
+||95.255.114.11^
 ||95.32.111.24^
 ||95.32.41.127^
 ||95.43.75.2^
@@ -415114,10 +415070,12 @@ top##body > center + .A + .post
 ||a5say-craft.woodflo.in.net^
 ||a5say-spool.cobalt-ridge.in.net^
 ||a7px1y1v.container-pulse.digital^
+||a96ampff.mrgreenbetiran.com^
 ||aa5sf.vex4moral.in.net^
 ||aa63qt.assonanceka1e.lat^
 ||aaa4b.com^
 ||aakrutitexture.in^
+||aarcyyo.one1xbet.net^
 ||aaronart.com^
 ||abandoned-asylum-expedition.garden^
 ||abc.3bcs.cn^
@@ -415193,7 +415151,6 @@ top##body > center + .A + .post
 ||aftwizk.starforge.in.net^
 ||ag3nt1-lab.besthire.in.net^
 ||age-logic.lookyouthful.in.net^
-||agent-client-stoarge.webredirect.org^
 ||agent-proxy.catalyticprocess.in.net^
 ||agentairw.fina1vrub.surf^
 ||agentdel.greecesco7es.in.net^
@@ -415295,12 +415252,10 @@ top##body > center + .A + .post
 ||alt-f1eet.1zoravel.in.net^
 ||alt-h0llow.premiumtos.in.net^
 ||alt-hub.kronosis.in.net^
-||alt-hub.zenithra.in.net^
 ||alt-logic.aerovector.in.net^
 ||alt-m1x.bereathfertil.in.net^
 ||alt-me4sure.rodrules.surf^
 ||alt-net.kronosis.in.net^
-||alt-net.zenithra.in.net^
 ||alt-nirnbl.bo2rdreluct.in.net^
 ||alt-out1et.nexo5mir.surf^
 ||alt-qu1c.tatneft.in.net^
@@ -415331,8 +415286,6 @@ top##body > center + .A + .post
 ||amic-po1.sylonix-web.in.net^
 ||amici.addmagad.com^
 ||amp-control.circuitflux.in.net^
-||amp-hub.amperesilence.in.net^
-||amp-vault.amperesilence.in.net^
 ||ampgg.bossjy.cc.cd^
 ||ampsyst.brisklume.in.net^
 ||amrl.salvat5pozar.lat^
@@ -415544,7 +415497,6 @@ top##body > center + .A + .post
 ||app.appzcvb.com^
 ||app.cc-coins.xyz^
 ||app.clouditapp.pics^
-||app.enekora.com^
 ||app.idanburuku.sbs^
 ||app.physiolpo1icy.lat^
 ||app.softnetlink.pics^
@@ -415662,6 +415614,7 @@ top##body > center + .A + .post
 ||argrs.sylo6mer.in.net^
 ||argvlidcheck.co^
 ||aridlogicnode.canyonsyncgate.garden^
+||arihanp.jamjahani.website^
 ||ark-coreos.miri7qen.lat^
 ||ark-draum.xano4mel.lat^
 ||ark-fluxis.faint-gather.surf^
@@ -415748,7 +415701,6 @@ top##body > center + .A + .post
 ||as59n9n3.photoshopvn.net^
 ||ascfholn.salvat5pozar.lat^
 ||asdf.qimor6xel.in.net^
-||asdfgsdfgxcvbvcxasd-oss.top^
 ||ash-leaf.to9varon.in.net^
 ||ashsynt.p7ickmuch.lat^
 ||ashtes.cl0verrun.in.net^
@@ -415767,8 +415719,6 @@ top##body > center + .A + .post
 ||assetrid.sanctua-ryunt.in.net^
 ||assets.fxd-hz-tk-loop.in.net^
 ||astradomain.com^
-||astro-unit.astronis.in.net^
-||astro-v09.astronis.in.net^
 ||asts.datarunkey.lat^
 ||asynchronous-message-routing-framework.wiki^
 ||asynchronouswatering-system.garden^
@@ -415890,9 +415840,11 @@ top##body > center + .A + .post
 ||avaria102dtponlaine.vercel.app^
 ||avariya.cfd^
 ||avariya2026dtpru.vercel.app^
+||avhbto.yasbet90.com^
 ||aviator-chek.online^
 ||avjquzsd.seresniki.com^
 ||avk93cqg.ironhub.digital^
+||avygupe.one1xbet.casino^
 ||awzsl.oilglass.in.net^
 ||ax2e.tov1maren.in.net^
 ||axis-portal.formalisticcore.in.net^
@@ -415935,7 +415887,6 @@ top##body > center + .A + .post
 ||b53jdkck.photoshopvn.net^
 ||b5fdl2mw.hor1inka-lonely.digital^
 ||b74fa.mossgrove.garden^
-||b74nufw.rollbend.in.net^
 ||b7tibc5u.luxerabet1000.com^
 ||b7vwxeo.paragonprospera.in.net^
 ||b9-base-steel.secretovalle.in.net^
@@ -416143,13 +416094,7 @@ top##body > center + .A + .post
 ||being-log.ontofluxion.in.net^
 ||being-node.ontologicalflux.in.net^
 ||being-node.ontologicstream.in.net^
-||bend-base.oakbend.in.net^
-||bend-edge.starbend.in.net^
-||bend-ref.oakbend.in.net^
-||bend-v3.starbend.in.net^
-||bend-v6.rockbend.in.net^
 ||bendigo-homesa.info^
-||benshamcentre.co.uk^
 ||beoauto.alexion.rs^
 ||berg-4k.after-coordinat.in.net^
 ||berg-5.idol-worship.in.net^
@@ -416213,7 +416158,6 @@ top##body > center + .A + .post
 ||bigbadwolf.click^
 ||bigblograin.bond^
 ||bigboysclub.cyou^
-||bigbrainsholdings.com^
 ||biggestchlen.xyz^
 ||bigjump3.ra1xorin.in.net^
 ||bigwall3.aperitif-form.in.net^
@@ -416269,12 +416213,10 @@ top##body > center + .A + .post
 ||biropt.goodwork.in.net^
 ||bit-fox.mav2terol.surf^
 ||bit-fox.mav7loren.surf^
-||bit-hub.cryptixy.in.net^
 ||bit-hub.zentalis.in.net^
 ||bit-stream.logicstream.in.net^
 ||bit-stream.quantacircuit.in.net^
 ||bit-stream.quantaflux.in.net^
-||bit-vault.cryptixy.in.net^
 ||bit-vault.zentalis.in.net^
 ||bit-weave.logicalfabric.in.net^
 ||bit.fastbitbox.pics^
@@ -416459,12 +416401,10 @@ top##body > center + .A + .post
 ||boat-tour6.wi1msaren.in.net^
 ||boatbeach.online^
 ||boatdome.duckdns.org^
-||bobik-peak.bobikcleavage.in.net^
-||bobik-sys.bobikcleavage.in.net^
 ||boblegvlist.christmas^
-||bobnet.exiled.fit^
 ||body-fit5.3lomaren.in.net^
 ||bofcv8ir.bet90boro.com^
+||boixyye.jogodobicho.games^
 ||bold4-loop.chandelh2lifa.in.net^
 ||bold7logicgate.zenithflowgrid.garden^
 ||boldfluxsync.nebulafluxbase.garden^
@@ -416523,8 +416463,6 @@ top##body > center + .A + .post
 ||box2.fast-delivery.in.net^
 ||box4-file.bri2xalon.in.net^
 ||box4-file.bri7tanon.in.net^
-||boy-net.boynitsameow.in.net^
-||boy-site.boynitsameow.in.net^
 ||bpdwtj.saltball.in.net^
 ||bphiipa.evaz.io^
 ||bpja3y.to1varil.in.net^
@@ -416651,13 +416589,11 @@ top##body > center + .A + .post
 ||bula-silomercitationlaptop.wiki^
 ||bulk-export.datacrest.in.net^
 ||bulk-logic.datacascade.in.net^
-||bulledesophros.top^
 ||bundform.puro2tal.surf^
 ||bundldaw.dark-hypnosis.in.net^
 ||bundle-sheet.nov7liren.in.net^
 ||bundle.kpzip.com^
 ||bundleform.bexla2rin.in.net^
-||bundleroug.thunderplain.in.net^
 ||bundleser.di5honorman.in.net^
 ||bundlfilter.so6lavern.garden^
 ||bundstar.cuffsorbsky.in.net^
@@ -416675,6 +416611,8 @@ top##body > center + .A + .post
 ||buzawgn.daro6vex.lat^
 ||bv9fw.chuv2shfile.in.net^
 ||bvabf.budapesthandmade.hu^
+||bvaco.com^
+||bvnvrjx.kvbel.com^
 ||bwglxvk.di5honorman.in.net^
 ||bwqzszo.football2026.world^
 ||bxhnheh.vostrovape.com^
@@ -416740,7 +416678,6 @@ top##body > center + .A + .post
 ||c1ip-scope.sunbit.in.net^
 ||c1ip-signal.backeddown.in.net^
 ||c2-core-sync.focozero.in.net^
-||c2.mc-live.online^
 ||c299jq.pyn6toral.in.net^
 ||c2rdcpuv.runtime-sphere.digital^
 ||c3353u83.peddler-wasting.digital^
@@ -416834,8 +416771,6 @@ top##body > center + .A + .post
 ||cargovolt.so1aver.garden^
 ||carrefban.portailcnnt.sbs^
 ||carrie-branch.7doreval.lat^
-||carrierloose.dawnforest.in.net^
-||carrierstream.toolbend.in.net^
 ||carrypublish.besthire.in.net^
 ||cartwell-pastphantom.courses^
 ||casa-zw9e.mivon-hub.in.net^
@@ -416878,6 +416813,7 @@ top##body > center + .A + .post
 ||cavemodu.inconprofitab1e.surf^
 ||cavhn.effect-razina.in.net^
 ||cavvoya.catflow.in.net^
+||caxvhiw.jamjahani.org^
 ||cc-a89.pages.dev^
 ||cccimg.com^
 ||cdaonline.com.ar^
@@ -416901,7 +416837,6 @@ top##body > center + .A + .post
 ||cdn.novoline.top^
 ||cdn.smartlogicgate.lat^
 ||cdn.textits.pics^
-||cdn.xiaoduoai.com^
 ||cdn1-fast.qen4varix.in.net^
 ||cdn1.monero1478.com^
 ||cdn2-fetch.praxo6lin.in.net^
@@ -416970,6 +416905,7 @@ top##body > center + .A + .post
 ||ch3ckp-route.qyx7darem.in.net^
 ||chain-logic.molecularbonding.in.net^
 ||chanchanmiraixd.duckdns.org^
+||chanmiraicd1.duckdns.org^
 ||channe-grid.wetshardauth.lat^
 ||channe1-hold.pepper-reprint.in.net^
 ||channelash.ratflat.in.net^
@@ -417244,8 +417180,6 @@ top##body > center + .A + .post
 ||class-report5.mox3terin.in.net^
 ||class-sync.edunoppress.in.net^
 ||class1004.dothome.co.kr^
-||clay-gate.redclay.in.net^
-||clay-logic.redclay.in.net^
 ||clay8siteview.fossilcryptoweb.garden^
 ||cle-arbox6.mi5demeanwork.in.net^
 ||cle-arbox6.wate7pugnac.in.net^
@@ -417290,8 +417224,6 @@ top##body > center + .A + .post
 ||clearsky3.zom2lirex.in.net^
 ||clearview5.6zoremax.in.net^
 ||clearview5.ra9ximer.in.net^
-||cleav-base.bobikcleavage.in.net^
-||cleav-v6.bobikcleavage.in.net^
 ||clemanimpianti.it.com^
 ||cli.softwincli.pics^
 ||clie-zone.n1ghtridge.in.net^
@@ -417317,7 +417249,6 @@ top##body > center + .A + .post
 ||clip3-stream.buckish-nabere.lat^
 ||clipfactor.hostingvar.in.net^
 ||clipvale.dex9taren.in.net^
-||clipwes.crimsonridge.in.net^
 ||clisan.mossgrove.garden^
 ||clmkghe.bettime90.casino^
 ||cloflart.com^
@@ -417436,7 +417367,6 @@ top##body > center + .A + .post
 ||codemeshsite.cryptosyncflow.bet^
 ||codepit-rized-denengine.garden^
 ||coder-logic-vault.courses^
-||coffetime.xyz^
 ||coin.magicgoldlogic.lat^
 ||coin.puregoldkey.lat^
 ||coin4taskhub.verd7loka.bet^
@@ -417491,7 +417421,6 @@ top##body > center + .A + .post
 ||com-web.pavl9ore.surf^
 ||commbank-homesa.info^
 ||commbanka-homes.info^
-||communicationfirewall-security.cc^
 ||community.gtst.gr^
 ||comp-os4d.mivonex-serv.in.net^
 ||comp-vine.greenbloom.garden^
@@ -417534,8 +417463,6 @@ top##body > center + .A + .post
 ||comwebstat.pav6mirex.pics^
 ||comwebstat.pav8mirel.pics^
 ||concilicartoes.com.br^
-||cone-sync.conesemison.in.net^
-||cone-way.conesemison.in.net^
 ||confirmyouarehuman.top^
 ||conjur-kremlinshort.wiki^
 ||connect.kexlore.cfd^
@@ -417755,7 +417682,6 @@ top##body > center + .A + .post
 ||crimsonpublish.stormglade.in.net^
 ||crirn4-point.barondecont.in.net^
 ||crispy-chicken-cutlets.garden^
-||crm.razatelefonia.pro^
 ||cron1-task.qul7vexar.in.net^
 ||crop-api.bereathfertil.in.net^
 ||crop-api.ranchitro.in.net^
@@ -417766,8 +417692,6 @@ top##body > center + .A + .post
 ||crrgjic.vostrovape.com^
 ||cry5t4-stream.wetshardauth.lat^
 ||cryeast.sanctua-ryunt.in.net^
-||cryp-node.cryptixy.in.net^
-||cryp-v05.cryptixy.in.net^
 ||crypt-algorithm-analysis-expert-board.wiki^
 ||crypt0-vector.sunnode.in.net^
 ||crypterrr.42web.io^
@@ -418073,6 +417997,7 @@ top##body > center + .A + .post
 ||dbit.netloghubs.pics^
 ||dbit.netnodeset.pics^
 ||dbms.rowlocks.pics^
+||dbnnsjv.mangobetfarsi.com^
 ||dbvxnw.fullnrg.hu^
 ||dc1infra.applicationbuffer.in.net^
 ||dc1proc.operationalsystem.in.net^
@@ -418092,6 +418017,7 @@ top##body > center + .A + .post
 ||dcfn606z.inept-tail.in.net^
 ||dcq3oaq.velvet-dune.in.net^
 ||dcrun.co.uk^
+||dcwblida.dz^
 ||ddhvaj4.stonemuse.in.net^
 ||de.cloud.dxang.com^
 ||de3.filedwnld.top^
@@ -418100,7 +418026,6 @@ top##body > center + .A + .post
 ||deal1-point.greentea.in.net^
 ||dealmeshsite.lo4miren.bet^
 ||dealparc.sylo8mer.in.net^
-||debank-api.cc^
 ||debate-hub.dialectonforge.in.net^
 ||debate-hub.dialectosphere.in.net^
 ||debate-hub.dialectraforge.in.net^
@@ -418219,7 +418144,6 @@ top##body > center + .A + .post
 ||desk-sensor-tabel-tunnel-key.wiki^
 ||desktop-app.click^
 ||desktop-version.com^
-||dev-moral.askloop.in.net^
 ||dev-node1.foersteron.work^
 ||dev-shel.sorix1ar.lat^
 ||dev-t0-host.vectorbase.in.net^
@@ -418467,11 +418391,9 @@ top##body > center + .A + .post
 ||disrupt.anondns.net^
 ||dist-7-cache.pontesicuro.in.net^
 ||dist-core.nexulon.in.net^
-||dist-core.veloxis.in.net^
 ||dist-k4-meta.fluxovivavo.in.net^
 ||dist-mx5.patternshadow.in.net^
 ||dist-sync.nexulon.in.net^
-||dist-sync.veloxis.in.net^
 ||dist-v8-cache.vittoriaviva.in.net^
 ||dist-x2-sync.turboflow.in.net^
 ||dist-z02-edge.ponteluna.in.net^
@@ -418501,6 +418423,7 @@ top##body > center + .A + .post
 ||dkgxlcw.venusbetyek.com^
 ||dkhgk.zaszlorudbolt.hu^
 ||dkkvkpl.wi3msorel.in.net^
+||dkrbvhs.jamjahani.site^
 ||dl.1003b.56a.com^
 ||dl.2345.com^
 ||dl.armour-inc-down.net^
@@ -418511,11 +418434,11 @@ top##body > center + .A + .post
 ||dlied6.bytes.tcdnos.com^
 ||dlied6.yz.tcdnos.com^
 ||dlkcsdq.hotbet90app.com^
+||dlklyo.jamjahani2026.football^
 ||dllpluginmsbuild.duckdns.org^
 ||dlnhov4.granulatetouch.in.net^
 ||dlvryintl.com^
 ||dmnoyvf.diet-lanolin.in.net^
-||dmv.uqoo.nl^
 ||dn17wscb.svolota-player.in.net^
 ||dnmjqvy.trmegapari.com^
 ||dns-naum.bnaumann87.work^
@@ -418564,9 +418487,7 @@ top##body > center + .A + .post
 ||doc.vpssysnet.pics^
 ||docinstall.top^
 ||dock-svc.basaltloading.in.net^
-||dock-sync.winddock.in.net^
 ||dock-visu.stoneflare.garden^
-||dock-way.winddock.in.net^
 ||dockbrok.norxevin.in.net^
 ||dockfilter.lena3qit.lat^
 ||dockswitch.matchexact.in.net^
@@ -418646,7 +418567,6 @@ top##body > center + .A + .post
 ||down10d.zol.com.cn^
 ||downali.game.uc.cn^
 ||download-api-endpoint.com^
-||download-app-service-conect.info^
 ||download-version.1-7-2.com^
 ||download.caihong.com^
 ||download.cavepay.app^
@@ -418696,7 +418616,6 @@ top##body > center + .A + .post
 ||dream-12.mirante.in.net^
 ||dream-api.assyrfantasy.in.net^
 ||dream-hub.blindersyawn.in.net^
-||dreamwatchevent.com^
 ||drevos.ro^
 ||drgenov.com^
 ||drift-control.urbanflowmetric.in.net^
@@ -418850,7 +418769,6 @@ top##body > center + .A + .post
 ||e0-adobemodule-pdreaderl-w002-0llx00-uv0a0acr0bt-patch-dl0.pages.dev^
 ||e0vt7hv0.saostar.biz^
 ||e18apdkc.faint-gather.surf^
-||e2yy59.silvermeadow.in.net^
 ||e31txu7.eight-education.lat^
 ||e3t525.flare-path.in.net^
 ||e457.pozellant.in.net^
@@ -418944,10 +418862,10 @@ top##body > center + .A + .post
 ||edzgpr.n1ghtridge.in.net^
 ||ee1ewv3.glen4mora.garden^
 ||eehjqhe.homa.bet^
-||eenlgmi.harborcliff.in.net^
 ||eetvfoqv.abyssrevue.in.net^
 ||eewh.brightcove.in.net^
 ||ef8qorio.latat-long.digital^
+||efd7fi03.monti.bet^
 ||effgtty.ar888starz.bet^
 ||efiarz.merit-susyuka.in.net^
 ||efk47wb3.skewedencro2ch.lat^
@@ -418955,7 +418873,6 @@ top##body > center + .A + .post
 ||egg-vault.pairingreptile.in.net^
 ||eggsalt.clogg-opposition.surf^
 ||eglimermailer.org^
-||egydeals.store^
 ||eh-masled.courses^
 ||ehqkl.graincrest.in.net^
 ||ehshryo.zsatom.hu^
@@ -419029,6 +418946,7 @@ top##body > center + .A + .post
 ||engine-switch.kry6navex.in.net^
 ||engineeast.years-very.lat^
 ||enginetone.saget-sly.surf^
+||enkkxbi.n1betiran.com^
 ||enotbanknoti.co^
 ||enotpidarmot.pw^
 ||ensions.xyz^
@@ -419081,7 +418999,6 @@ top##body > center + .A + .post
 ||enwz.5dorexin.lat^
 ||enzym-nod.copyvrok.in.net^
 ||enzyrne-craft.crumpledzev.in.net^
-||eopulls.silvermeadow.in.net^
 ||eotdjma.miri7qen.lat^
 ||epanpano.com^
 ||epgl608r.accentol-federat.in.net^
@@ -419101,6 +419018,7 @@ top##body > center + .A + .post
 ||equscript.ra2xemil.in.net^
 ||ernbe-leaf.to2varon.in.net^
 ||erpqy89.quillspire.in.net^
+||errcxxn.libertabet.tv^
 ||error-log4.sizar-sniffy.in.net^
 ||ersesytuhbo.it.com^
 ||ertfu9pm.piculi5tep.in.net^
@@ -419114,6 +419032,7 @@ top##body > center + .A + .post
 ||estudarebomai.com^
 ||estudio.ythan.com.br^
 ||eswcaywn.judges-spire.in.net^
+||et5qogz2.one1xbet.promo^
 ||etab-0d.sylonix-web.in.net^
 ||etaknqgp.mivonex-serv.in.net^
 ||eth1-link.pra6lixon.in.net^
@@ -419145,8 +419064,6 @@ top##body > center + .A + .post
 ||ewgbx.qelto5rin.in.net^
 ||ewt2o.catflat.in.net^
 ||ex7gv4y7.bet90land.com^
-||excit-hub.excitfollower.in.net^
-||excit-net.excitfollower.in.net^
 ||exec-unit.herbertrutt.work^
 ||exhys.copyvrok.in.net^
 ||exist-api.ontologicalflux.in.net^
@@ -419416,7 +419333,6 @@ top##body > center + .A + .post
 ||exte-lab.glasso-greconstruct.in.net^
 ||extendbuild.gatedale.in.net^
 ||extendecho.keystonebloom.in.net^
-||extendnode.granitevalley.in.net^
 ||extendplain.againstvisitor.in.net^
 ||extendvia.de5xorin.in.net^
 ||exteneur.windbay.in.net^
@@ -419450,6 +419366,7 @@ top##body > center + .A + .post
 ||extractrela.audiheadboa7d.lat^
 ||extractwho.flare-path.in.net^
 ||eyahy.expo5ejouer.lat^
+||eycgzaa.jamjahani.site^
 ||eydfdx4.parchm-susyuka.in.net^
 ||eye-cover.blindersyawn.in.net^
 ||eyw3w.darkboll.in.net^
@@ -419486,7 +419403,6 @@ top##body > center + .A + .post
 ||f4bric7-point.oilglass.in.net^
 ||f4ct0-span.lightforge.garden^
 ||f4ct0ry-mark.zex3liron.in.net^
-||f4gyiajw.impeachlizob.digital^
 ||f4ith-chain.duskforge.in.net^
 ||f532v.oasis-reimburse.in.net^
 ||f8-flow-v11.basalticnode.in.net^
@@ -419659,6 +419575,7 @@ top##body > center + .A + .post
 ||ffzt1.fabledock.in.net^
 ||fgbojhem.meadowprocessingframework.garden^
 ||fgctlmw.blowdisassem.in.net^
+||fgeszrs.dahdahtoys.com^
 ||fgeyw.wi3sorel.in.net^
 ||fgmxk.optimumfitness.hu^
 ||fgpjr.vigaf.hu^
@@ -419706,6 +419623,7 @@ top##body > center + .A + .post
 ||file-svc.crumpledzev.in.net^
 ||file.blackint3.com^
 ||file.prime-media-gate.in.net^
+||file.uhsea.com^
 ||file1-raw.cloud-storage-unit.in.net^
 ||file1-swap.travemox.in.net^
 ||file2-obj.bryo2maxil.in.net^
@@ -419717,7 +419635,6 @@ top##body > center + .A + .post
 ||filerit.com^
 ||files.codecguide.com^
 ||files.wildskreen.shop^
-||files.wintestwin.xyz^
 ||film-edit3.to3varem.in.net^
 ||film-edit5.to3vamil.in.net^
 ||filo-8ao.qivon-store.in.net^
@@ -419909,8 +419826,6 @@ top##body > center + .A + .post
 ||fold-sync.crumpledzev.in.net^
 ||fold7taskhub.lo4miren.bet^
 ||folder-management-core.garden^
-||foll-flow.excitfollower.in.net^
-||foll-v12.excitfollower.in.net^
 ||font6-face.norxelium.in.net^
 ||food-api.pampushkatimp.in.net^
 ||food-truck.balkarbelyashi.in.net^
@@ -419920,8 +419835,6 @@ top##body > center + .A + .post
 ||force-field.molecularbonding.in.net^
 ||force-point.dynamismjuply.in.net^
 ||forcrash-classnet.christmas^
-||ford-core.ironford.in.net^
-||ford-sync.ironford.in.net^
 ||fore-k6mz.dexon-node.in.net^
 ||fore0-core.light-parcel.in.net^
 ||foredeliv.coddlcaught.in.net^
@@ -419970,7 +419883,6 @@ top##body > center + .A + .post
 ||fqwhi8.echelonprosper.in.net^
 ||fr0st-branch.dru6moxin.in.net^
 ||fr31g2-stream.zeq3varin.in.net^
-||fr4me-hinge.breezefield.in.net^
 ||fram-branch.byerottin8.lat^
 ||frame-api.theoreticvector.in.net^
 ||frame-api.theoristack.in.net^
@@ -420090,7 +420002,6 @@ top##body > center + .A + .post
 ||ftscfs.logicstack.ink^
 ||ftsif.handker-unicamer.surf^
 ||ftz730n.novi7xel.lat^
-||fuckcartel.icu^
 ||fucker1.duckdns.org^
 ||fuddj2yd.thornbyte.in.net^
 ||fujyh.qi2mavel.in.net^
@@ -420144,6 +420055,7 @@ top##body > center + .A + .post
 ||g0ld-bridge.handker-unicamer.surf^
 ||g0lden4-mark.multip-lway.in.net^
 ||g1yph5-switch.qi2mavel.in.net^
+||g2z2cnlz.pascal.casino^
 ||g38198.batkascript.in.net^
 ||g3ne-cast.puro2tal.surf^
 ||g3norn-stream.plor9vexi.in.net^
@@ -420153,7 +420065,6 @@ top##body > center + .A + .post
 ||g51vxer.paragonprospera.in.net^
 ||g6zaqd6k.schleer.hu^
 ||g7-db-point.velocicorsa.in.net^
-||g755rs.crimsonridge.in.net^
 ||g8uxn2.crestfall.in.net^
 ||g9jy.dickina-exagger.in.net^
 ||gacorbos.me^
@@ -420195,7 +420106,6 @@ top##body > center + .A + .post
 ||gate-gri.fastlog.in.net^
 ||gate-j2-entry.acustica-v.in.net^
 ||gate-node.firstbeasts.in.net^
-||gate-node.lakegate.in.net^
 ||gate-node.pampushkatimp.in.net^
 ||gate-p1-proxy.curvaforte.in.net^
 ||gate-p7-proxy.gravix-net.cfd^
@@ -420207,7 +420117,6 @@ top##body > center + .A + .post
 ||gate-secure.logicalfabric.in.net^
 ||gate-svc.choreograpshrew.in.net^
 ||gate-svc.fariseietogo.in.net^
-||gate-v05.lakegate.in.net^
 ||gate-v1-entry.enzymecore.in.net^
 ||gate-v5-entry.densa-materia.in.net^
 ||gate-v5-entry.fluido-v.cfd^
@@ -420298,7 +420207,6 @@ top##body > center + .A + .post
 ||gather-line.horizonprospera.in.net^
 ||gathgolde.exhumat8urgle.in.net^
 ||gaviao.ba.gov.br^
-||gaydkonx.fullgate.in.net^
 ||gb3r.mossbyte.in.net^
 ||gbfezss.noetisphere.in.net^
 ||gbhij.vilagom.hu^
@@ -420382,6 +420290,7 @@ top##body > center + .A + .post
 ||geo-vi5ua.kryntalor.in.net^
 ||geo-via1.ra5xovel.in.net^
 ||geostationary-orbit-altitude.garden^
+||geovin.bet404farsi.com^
 ||gerlimeri.net^
 ||gerlimeri.org^
 ||gestionycobranzas.com^
@@ -420513,8 +420422,6 @@ top##body > center + .A + .post
 ||gkrhs.dis9ualescapes.bet^
 ||gl0ss-grid.n0vabrook.in.net^
 ||gl0ss-vault.tor4nexil.in.net^
-||glac-net.glacierpeak.in.net^
-||glac-point.glacierpeak.in.net^
 ||glac-vector.thorni2va.garden^
 ||glac14-frame.vori7nex.surf^
 ||glacial-ice-core-sample.garden^
@@ -420627,12 +420534,10 @@ top##body > center + .A + .post
 ||gold-mond-2m.there5econd.in.net^
 ||gold-mond-8.miv8soren.in.net^
 ||gold-mond-9z.cicada-tkacki.in.net^
-||gold-run.goldpath.in.net^
 ||gold-star-2s.qivor-web.in.net^
 ||gold-star-4s.qiv5moren.in.net^
 ||gold-star4.wi9msorin.in.net^
 ||gold-v5.lunavilla.in.net^
-||gold-v77.goldpath.in.net^
 ||gold-wald-1v.limbe7revolut.in.net^
 ||gold.clogg-opposition.surf^
 ||gold.puregoldkey.lat^
@@ -420653,8 +420558,6 @@ top##body > center + .A + .post
 ||goo8039f.catflat.in.net^
 ||good-day5.big2mychild.in.net^
 ||good-end6.resolut-revening.in.net^
-||good-gate.goodtime.in.net^
-||good-logic.goodtime.in.net^
 ||good-luck5.kro2vilen.in.net^
 ||good-meal2.bov1serin.in.net^
 ||good-meal2.bovla8ren.in.net^
@@ -420690,6 +420593,7 @@ top##body > center + .A + .post
 ||gptjr.visszateritok.net^
 ||gq0e2dm9.kernel-beacon.digital^
 ||gqjz709j.bordoo.bet^
+||gqmalnx.ogwil.bet^
 ||gqsgdt.interimpro.hu^
 ||gqxhbsg.asa90.bet^
 ||gr0v-hold.chernomofnothes.in.net^
@@ -420701,7 +420605,6 @@ top##body > center + .A + .post
 ||gr1d1-vector.to2virex.in.net^
 ||gr1m-forge.norxevin.in.net^
 ||gr1m-index.zex2liron.in.net^
-||gr1m-mark.crimsonridge.in.net^
 ||gr1m-mark.userssawtone.lat^
 ||gr1m2-vault.againstvisitor.in.net^
 ||gr4n-panel.learnstingray.in.net^
@@ -420723,7 +420626,6 @@ top##body > center + .A + .post
 ||grandtheftauto6.cc^
 ||grandvegasbet.com.br^
 ||grandwhol.lumen-rift.in.net^
-||granit3-beam.summitgrove.in.net^
 ||granitcuriou.wi3sorel.in.net^
 ||granitebroad.mixzipcore64.lat^
 ||grantexx.gr^
@@ -420797,8 +420699,6 @@ top##body > center + .A + .post
 ||group-join6.aim-national.in.net^
 ||group-join6.dax6porel.in.net^
 ||grovalue.rockapp.in.net^
-||grove-base.harvestgrove.in.net^
-||grove-v01.harvestgrove.in.net^
 ||grow-vault.bereathfertil.in.net^
 ||grow6taskhub.goddess-tapir.bet^
 ||grow9-craft.autovete7an.in.net^
@@ -420824,7 +420724,6 @@ top##body > center + .A + .post
 ||guafux.ditch-obscene.in.net^
 ||guardfierce.xynotrax.in.net^
 ||guardtimb.kymle6rax.in.net^
-||guardtrans.toolbend.in.net^
 ||guarmea.n0vabrook.in.net^
 ||gud6pt4u.bet212.casino^
 ||guess-api.beckonuncert.in.net^
@@ -420932,8 +420831,6 @@ top##body > center + .A + .post
 ||harrain.diesel-stark.lat^
 ||harves3-spark.decembha1ifa.in.net^
 ||harvest-api.combinekabisia.in.net^
-||harvest-map.harvestgrove.in.net^
-||harvest-sync.harvestgrove.in.net^
 ||harvestchanne.xelvorimax.in.net^
 ||harvestedit.doabove.in.net^
 ||harvestfern.awry-pause.in.net^
@@ -420973,6 +420870,7 @@ top##body > center + .A + .post
 ||hcfll.workoutwithdorci.com^
 ||hcxvzqf.hostingvar.in.net^
 ||hdf358xa.sylo6mer.in.net^
+||hdkkxsm.kbshavanese.com^
 ||health-care2.kro2vilen.in.net^
 ||health-check.goingsick.in.net^
 ||health-node.maknothplacenta.in.net^
@@ -421016,6 +420914,7 @@ top##body > center + .A + .post
 ||herbal-extract-processing.garden^
 ||hero-svc.boyishglorified.in.net^
 ||hesq.dax8sovel.in.net^
+||hetljl.jamjahani.football^
 ||hexfiles.top^
 ||hexvm.cloud^
 ||hf0gzeo.scient-telograyka.lat^
@@ -421025,7 +420924,6 @@ top##body > center + .A + .post
 ||hfjivor0.go0duntenable.in.net^
 ||hfsdguf.asyabet303.bet^
 ||hfx03k.movementsheptun.in.net^
-||hfze93t5.autumnbrook.in.net^
 ||hgelsd.years-very.lat^
 ||hglj.nov2sirel.in.net^
 ||hgt3.7toralex.lat^
@@ -421098,7 +420996,6 @@ top##body > center + .A + .post
 ||hold8taskhub.piva1save.surf^
 ||holistic-detective-agency.garden^
 ||holisticdetective.christmas^
-||hollowcatalog.breezefield.in.net^
 ||holographic-projection-grid.garden^
 ||holy-path.eucharistshrink.in.net^
 ||holz-5.ma8nemezzan.in.net^
@@ -421127,7 +421024,6 @@ top##body > center + .A + .post
 ||home-chef1.apoth-shopping.in.net^
 ||home-chef1.bov7larex.in.net^
 ||home-chef1.bovla5ren.in.net^
-||home-client-online-stetament.webredirect.org^
 ||home-design1.2zorelin.in.net^
 ||home-section6.domna-replenish.in.net^
 ||home-section6.zom5pirel.in.net^
@@ -421272,7 +421168,6 @@ top##body > center + .A + .post
 ||httpsfewapi.surf^
 ||htusgm8k.sydo9marel.in.net^
 ||hub-gate.theorexuslayer.in.net^
-||hub-path.crimsonridge.in.net^
 ||hub-phase.darkboll.in.net^
 ||hub-relay.honeupwar.in.net^
 ||hub-secure.inferentrixhub.in.net^
@@ -421392,7 +421287,6 @@ top##body > center + .A + .post
 ||hypervisor-resource-grid.wiki^
 ||hypervisorcontrolplanegrid.wiki^
 ||hypervisorresourcecontroller.wiki^
-||hyrfnqqh.fullgate.in.net^
 ||hz1v.didoprotecauth.lat^
 ||hz7cbx.mor5laxis.in.net^
 ||hzlqlpfw.frost-engine.christmas^
@@ -421442,6 +421336,7 @@ top##body > center + .A + .post
 ||idea-vault.abstractlogic.in.net^
 ||ideal-node.theoreticvector.in.net^
 ||ideal-node.theoristack.in.net^
+||idwfsf.jamjahani.cash^
 ||idx.rowlocks.pics^
 ||ie78lu.greenbloom.garden^
 ||ieeljt.fittkor.hu^
@@ -421479,6 +421374,7 @@ top##body > center + .A + .post
 ||ilhvyrij.ipv4has-lampnew.cyou^
 ||illumewholes.capslock.in.net^
 ||illurn-plate.eskimotsutsik.in.net^
+||ilmlvxt.lolsurpriseball.com^
 ||ilonermailc.com^
 ||ilonermailc.net^
 ||ilonermailc.org^
@@ -421557,9 +421453,9 @@ top##body > center + .A + .post
 ||infra.rapidfirepixel.lat^
 ||inhalerotolaryngologist.courses^
 ||inherittruckdoge.courses^
+||inini.kesug.com^
 ||injectroblox.ru^
 ||ink-mar.aurorift.in.net^
-||inkcarry.dawnforest.in.net^
 ||inkchec.bramblepath.in.net^
 ||inkcoo.selflessrowdy.in.net^
 ||inkraven.kymle1rax.in.net^
@@ -421712,7 +421608,6 @@ top##body > center + .A + .post
 ||iron-8.dex2lavel.in.net^
 ||iron-8v.multi-machine.in.net^
 ||iron-9v.melting-torrent.in.net^
-||iron-data.ironford.in.net^
 ||iron-fire-6s.noven-hub.in.net^
 ||iron-fire-6s.novis-data.in.net^
 ||iron-land-1q.zex1liron.in.net^
@@ -421720,7 +421615,6 @@ top##body > center + .A + .post
 ||iron-mond-7x.archit-physiol.in.net^
 ||iron-star-2n.caissonnarc0m.in.net^
 ||iron-star-3.dua1ismmatron.in.net^
-||iron-v44.ironford.in.net^
 ||iron-works.mechaforge.in.net^
 ||iron-zeit-8.inject-mitroph.in.net^
 ||iron.cryptobase.surf^
@@ -421747,6 +421641,7 @@ top##body > center + .A + .post
 ||irrigationworkflowsystem.garden^
 ||irrvh.ceremoniavezeto.hu^
 ||iry0pqwo.easyyear.digital^
+||is34r2fh.marc90bet.com^
 ||iscpbxp.datastella.co^
 ||iscx3.velorix.life^
 ||isellchildren.online^
@@ -421780,6 +421675,7 @@ top##body > center + .A + .post
 ||ivorysta.technocsnatch.in.net^
 ||ivorystorage.stoneflare.garden^
 ||ivorywol.sorix7el.lat^
+||ivqivx.xenicalby6.com^
 ||iwd21.icu^
 ||iwiax.personal-danger.in.net^
 ||iwojm.webgondozas.hu^
@@ -421830,7 +421726,6 @@ top##body > center + .A + .post
 ||jem-mialwe.net^
 ||jem-mialwe.org^
 ||jessespridecharters.com^
-||jfjoj.askloop.in.net^
 ||jfkwjd.cinderpeak.in.net^
 ||jfmz4630.badabingsopranoslounge.digital^
 ||jfsiqmo.intellectnail.in.net^
@@ -421906,6 +421801,7 @@ top##body > center + .A + .post
 ||jqs3295y.nexa2vor.lat^
 ||jqzgl.briskvale.in.net^
 ||jrlcxt.zooblob.surf^
+||jrnxmey.one1xbet.casino^
 ||jrpzgr.jamejahani.bet^
 ||jrszz.popi999.net^
 ||js.byxly.eu.cc^
@@ -421942,6 +421838,7 @@ top##body > center + .A + .post
 ||juvobd.g1enmor.garden^
 ||juw0th09.runtime-atlas.digital^
 ||jv0nel9.pampushkatimp.in.net^
+||jvlckru.penalty.casino^
 ||jvrkh.testload.in.net^
 ||jvtu4ew.notice-ohlamon.surf^
 ||jwosviuw.7zorelax.lat^
@@ -422031,7 +421928,6 @@ top##body > center + .A + .post
 ||kel-forgeum.fabulos.in.net^
 ||kel-marken.dex7lavel.in.net^
 ||kel-markis.abyssrevue.in.net^
-||kel-meshet.thunderplain.in.net^
 ||kel-meshum.dotnet.in.net^
 ||kel-nexis.currvers.in.net^
 ||kel-tideen.tunetwo.in.net^
@@ -422065,7 +421961,6 @@ top##body > center + .A + .post
 ||kelmesha3.ironhub.in.net^
 ||kelmeshon.airport-clar.lat^
 ||kelmeshos7.extrav5achkovit.in.net^
-||kelnex2or.summitgrove.in.net^
 ||kelnex4a.novi7xel.lat^
 ||kelnexa.cr4ftlane.in.net^
 ||kelnexet4.qorivault.life^
@@ -422157,8 +422052,10 @@ top##body > center + .A + .post
 ||know-api.gnoseonflux.in.net^
 ||know-logic.gnoseologiccore.in.net^
 ||know-node.gnosticvector.in.net^
+||knstbms.nardtakhte.app^
 ||knyo.vex7lurin.in.net^
 ||koerhl.qivon-store.in.net^
+||kokorostore.it^
 ||kollins.co.za^
 ||komv9kg.swimsuit-unable.lat^
 ||konsor.ru^
@@ -422197,6 +422094,7 @@ top##body > center + .A + .post
 ||kuyquso.akharinbama.ir^
 ||kvtk.far-guess.in.net^
 ||kvvfusu.chernomofnothes.in.net^
+||kvzkqjf.ninjafruitcubes.bet^
 ||kx992.vylocore.in.net^
 ||kxep42pp.driveaway.in.net^
 ||kxlkbmz.303-bet.buzz^
@@ -422228,6 +422126,7 @@ top##body > center + .A + .post
 ||l6ms.flo5renth.garden^
 ||l8krrumc.cloud-sphere.digital^
 ||l9-auth-user.velocicorsa.in.net^
+||l9tynneu.mybookieiran.com^
 ||lab-access.bactergreat.in.net^
 ||lab-check.sciencestupids.in.net^
 ||lab-mark.buckish-nabere.lat^
@@ -422249,8 +422148,6 @@ top##body > center + .A + .post
 ||lafc2.matchexact.in.net^
 ||lago-lun.slashbak.in.net^
 ||lagoo-craft.rockapp.in.net^
-||lake-hub.lakegate.in.net^
-||lake-vault.lakegate.in.net^
 ||lake-view4.rav2piren.in.net^
 ||lake.wildfirelake.lat^
 ||lan.vpsgateway.pics^
@@ -422355,6 +422252,7 @@ top##body > center + .A + .post
 ||lb2steel.muralink.in.net^
 ||lb2sync.astropoint.in.net^
 ||lbcsuyq.payestation.com^
+||lbgkfp.jamjahani2026.football^
 ||lbkonz.tul2qorin.in.net^
 ||lbwtqscv.arapnik-nosog.in.net^
 ||lc94pexb.octagonon.in.net^
@@ -422376,6 +422274,7 @@ top##body > center + .A + .post
 ||leaf.greenforesthub.lat^
 ||leaf.terraview.surf^
 ||leafhostunit.goddess-tapir.bet^
+||leanmaestro.com^
 ||leap7pathgate.quantumbitlink.bet^
 ||learn-gate.edunoppress.in.net^
 ||learn1-app.semiunder-lear.in.net^
@@ -422409,6 +422308,7 @@ top##body > center + .A + .post
 ||lfgs.latticeharbinger.in.net^
 ||lfixa2ax.kyl6varet.in.net^
 ||lfmfi.bytegrid.lat^
+||lfrzjdk.one1x.bet^
 ||lfvkqfz.diesel-stark.lat^
 ||lfwboc.jamejahani.win^
 ||lfwxgs.com^
@@ -422482,8 +422382,6 @@ top##body > center + .A + .post
 ||liizlfb.bet30bet.com^
 ||like.exphelp.life^
 ||likely-hood.inductiveflux.in.net^
-||limb-core.limbsingle.in.net^
-||limb-sync.limbsingle.in.net^
 ||limit-gate.kokotkasquand.in.net^
 ||limit-less.exaltedinfinate.in.net^
 ||linchens.com^
@@ -422498,13 +422396,11 @@ top##body > center + .A + .post
 ||linguistic-puzzle-solver.garden^
 ||linguisticpuzzlesolver.christmas^
 ||link-api.emissarysooth.in.net^
-||link-gate.astronis.in.net^
 ||link-gate.ontocorex.in.net^
 ||link-gate.spectris.in.net^
 ||link-gate.symposiumwash.in.net^
 ||link-hub.goodtwain.in.net^
 ||link-hub.inferentrixhub.in.net^
-||link-logic.astronis.in.net^
 ||link-logic.spectris.in.net^
 ||link-net.structovista.in.net^
 ||link-node.structovista.in.net^
@@ -422562,7 +422458,6 @@ top##body > center + .A + .post
 ||listenercorte.danger-style.in.net^
 ||listenermacro.pav1mirex.lat^
 ||listeshap.red-sticker.in.net^
-||live-coupo.harborcliff.in.net^
 ||live-feed6.to3vamil.in.net^
 ||live-feed6.to3varem.in.net^
 ||live-show6.tippyv0lup.in.net^
@@ -422826,8 +422721,6 @@ top##body > center + .A + .post
 ||lumflux4um.covenantbloom.in.net^
 ||lumfluxor.verd1ya.garden^
 ||lumforgea.paragonbloomera.in.net^
-||lumi-edge.lumitron.in.net^
-||lumi-v3.lumitron.in.net^
 ||lumline0al.sewdarken.in.net^
 ||lumlinea.7zoralix.in.net^
 ||lumlithal.checkingsum.in.net^
@@ -422875,6 +422768,7 @@ top##body > center + .A + .post
 ||lvavdb.nyitottkeramia.hu^
 ||lvbj1i51.codeflux.lat^
 ||lveu.wi3msorel.in.net^
+||lvgnygm.nannafreving.com^
 ||lvhpvce.yeldfor.lat^
 ||lvk5wwb.glasso-greconstruct.in.net^
 ||lvqpbk.bex5loran.in.net^
@@ -422896,10 +422790,12 @@ top##body > center + .A + .post
 ||lz96krml.shim-windless.digital^
 ||lz9di.assonanceka1e.lat^
 ||lzascdxk.xenomorphhiveintel.christmas^
+||lzsmmza.one1xbet.app^
 ||lzukd.foot-ricochet.in.net^
 ||m-cache90.rolfgrassinger.work^
 ||m.hy-union.com^
 ||m.jkoa.co.kr^
+||m.meta-dm.com^
 ||m08xkitq.vexon4al.lat^
 ||m0del9-spool.mav8loren.lat^
 ||m0fb.stoppit.in.net^
@@ -422949,7 +422845,6 @@ top##body > center + .A + .post
 ||magina.online^
 ||maglev-propulsion-system.garden^
 ||magnetic-levitation-train.garden^
-||magnusworkspace.com^
 ||mahcr.banhidileadershipacademy.hu^
 ||maibnyf.303-bet.buzz^
 ||maidforyou1985.com^
@@ -422981,7 +422876,6 @@ top##body > center + .A + .post
 ||main-p4.tensorfield.in.net^
 ||main-peak.obsidianix.in.net^
 ||main-peak.orbisura.in.net^
-||main-peak.solarisx.in.net^
 ||main-po-int6.buckishing-out.in.net^
 ||main-po-int6.ra5xorel.in.net^
 ||main-po-int6.tarny-tsedilka.in.net^
@@ -423000,7 +422894,6 @@ top##body > center + .A + .post
 ||main-svc.naminkaprocess.in.net^
 ||main-sys.obsidianix.in.net^
 ||main-sys.orbisura.in.net^
-||main-sys.solarisx.in.net^
 ||main-v1-point.cellanode.in.net^
 ||main-v4-point.vortex-lab.in.net^
 ||main-z7-point.metallocampo.in.net^
@@ -423033,8 +422926,6 @@ top##body > center + .A + .post
 ||manifes-daw.light-parcel.in.net^
 ||manifestvita.great-insue.pics^
 ||manngua.mivonex-serv.in.net^
-||mant-net.overtmantram.in.net^
-||mant-v11.overtmantram.in.net^
 ||map-anchor.territoriallink.in.net^
 ||map-entry.herbertrutt.work^
 ||map-log.ontoversegrid.in.net^
@@ -423190,7 +423081,6 @@ top##body > center + .A + .post
 ||mendocs-opera-shub-cowddos.garden^
 ||mens-tu.dexon-node.in.net^
 ||menu-hub.pampushkatimp.in.net^
-||meow-run.boynitsameow.in.net^
 ||mer-corea.bex5loran.in.net^
 ||mer-crestal.imperturbs1av.in.net^
 ||mer-draet.sylo3rex.in.net^
@@ -423349,6 +423239,7 @@ top##body > center + .A + .post
 ||metrics-sync.kristallwelt.in.net^
 ||metrics.gocloudmaps.com^
 ||metro-station2.4zomiren.in.net^
+||mevetlab.cl^
 ||mewmm.trueflow.in.net^
 ||mfbrkbuv.betnoise-unionour.cyou^
 ||mfepyxz.bet888starzz.com^
@@ -423358,9 +423249,11 @@ top##body > center + .A + .post
 ||mg60yc.brightcove.in.net^
 ||mgjfhpa.overlokcu.com^
 ||mgr.openlogmgr.pics^
+||mgyhtpm.libertabetgiris.com^
 ||mh4j.onepal-liat.in.net^
 ||mhatuminerals.africa^
 ||mhepihh.footbal90bet.app^
+||mhjzma3p.betebetwin.com^
 ||mhkugefu.klinavor.in.net^
 ||mhrmjphd.oaknet.in.net^
 ||mhspcr.predestincent.in.net^
@@ -423563,7 +423456,6 @@ top##body > center + .A + .post
 ||moss-spark.latticeventure.in.net^
 ||mossbra.kymle2rax.in.net^
 ||mosselnet.co.za^
-||mossoak.blackford.in.net^
 ||mossphoto.zex8liron.in.net^
 ||mossroad.mistlatch.in.net^
 ||mosssou.hollow-spark.in.net^
@@ -423583,15 +423475,13 @@ top##body > center + .A + .post
 ||move.quickstepflow.lat^
 ||move2logicnet.kineticgatehub.bet^
 ||move9logicnet.kali9drift.surf^
-||mox-net.moxura.in.net^
-||mox-v11.moxura.in.net^
 ||moxii.brssolar.hu^
 ||mp696mc8.script-nexus.digital^
 ||mpfpni4.lix7morav.in.net^
 ||mpjim.parchm-susyuka.in.net^
 ||mpjrpw.mucus-rafter.in.net^
-||mpthp.summitgrove.in.net^
 ||mpvcbz.quantumvelocitylabs.study^
+||mqbjnx.jamjahani.app^
 ||mqo7n5b2.script-vault.digital^
 ||mramn.velorix.life^
 ||mrazotalog.lol^
@@ -423707,8 +423597,6 @@ top##body > center + .A + .post
 ||narrowsudden.vexmoor.in.net^
 ||natureoasisdesign.garden^
 ||natwest-homesa.info^
-||navig-node.navignord.in.net^
-||navig-sync.navignord.in.net^
 ||nbf101.great-site.net^
 ||nbfirv.sylov8en.in.net^
 ||nbfkdj.wex1miran.in.net^
@@ -423747,7 +423635,6 @@ top##body > center + .A + .post
 ||neo-f0rge.kry6navex.in.net^
 ||neo-f0x.travixon.in.net^
 ||neo-go1d.uptrend.in.net^
-||neo-gu1de.rollbend.in.net^
 ||neo-lo4d.getron.in.net^
 ||neo-payl0.mossgrove.garden^
 ||neo-r0ck.danger-style.in.net^
@@ -423904,8 +423791,6 @@ top##body > center + .A + .post
 ||newst-yle5.water-wagged.in.net^
 ||newstyle5.de8xapil.in.net^
 ||newtrip5.ra1xorin.in.net^
-||nex-base.nexoris.in.net^
-||nex-v01.nexoris.in.net^
 ||next-door3.cr2pskiing.in.net^
 ||next-door3.de8trevarm.in.net^
 ||next-door3.guardiansti1l.in.net^
@@ -423960,10 +423845,9 @@ top##body > center + .A + .post
 ||nisjdefz.pra7vexal.in.net^
 ||nitro-vault.cryogenicbuffer.in.net^
 ||nitrogateway.digital^
-||niv-flow.niventa.in.net^
-||niv-v08.niventa.in.net^
 ||nivo.arapnik-nosog.in.net^
 ||njf8.wex1miran.in.net^
+||njhhbmh.olabahiskayit.com^
 ||njlads.frost-pixel.in.net^
 ||njrwmhh.cyberframe.lat^
 ||njt8hire.tul2qorin.in.net^
@@ -424022,7 +423906,6 @@ top##body > center + .A + .post
 ||node2-obj.cloud-storage-unit.in.net^
 ||node2-port.secure-proxy-way.in.net^
 ||node2-power.green-energy-flow.in.net^
-||node2-py-store.com^
 ||node2-soft.don2tdouching.in.net^
 ||node2-ssh.remote-access-node.in.net^
 ||node2-sync.prime-media-gate.in.net^
@@ -424136,8 +424019,6 @@ top##body > center + .A + .post
 ||norcrest9os.represent-skittish.lat^
 ||norcresta.foot-ricochet.in.net^
 ||norcrestal.tempink.in.net^
-||nord-base.navignord.in.net^
-||nord-v01.navignord.in.net^
 ||nordraa8.aurasamodians.in.net^
 ||nordraal4.ratflat.in.net^
 ||nordraex.po3vaxel.in.net^
@@ -424145,7 +424026,6 @@ top##body > center + .A + .post
 ||nordraum7.thistlecore.in.net^
 ||norflux9a.sola5reth.lat^
 ||norflux9ar.scient-telograyka.lat^
-||norfluxex2.emberfield.in.net^
 ||norfluxis4.echelonprosper.in.net^
 ||norforge2ar.vortaqen.in.net^
 ||norlineis.wi9sorin.in.net^
@@ -424181,14 +424061,12 @@ top##body > center + .A + .post
 ||nortspec.poorbet.lat^
 ||norvale5on.mucus-rafter.in.net^
 ||norven5ar.skyl0om.in.net^
-||norven7en.dawnforest.in.net^
 ||norvenix2.vivatwoman.in.net^
 ||norvenix8.aurorift.in.net^
 ||not1fie-mesh.mixzipcore64.lat^
 ||notbak.com^
 ||note3-base.brief-point-sync.in.net^
 ||notifi-vault.cokenote.in.net^
-||notifierflame.granitevalley.in.net^
 ||notifieropti.sadfont.in.net^
 ||notifiersenso.gobright.in.net^
 ||notiflame.matri2rchyor.in.net^
@@ -424204,11 +424082,12 @@ top##body > center + .A + .post
 ||nova.powertechlink.lat^
 ||novacinder.digital^
 ||nozeunl.xfgautoparts.com^
-||np.simpleuseai.com^
+||npawoli.jamjahani.world^
 ||npcmrc.identify-celebrate.in.net^
 ||npmx.photot-sudok.in.net^
 ||nppw50at.driveaway.in.net^
 ||npukpk.fodraszoktatas.eu^
+||nqbecrh.one1x.bet^
 ||nqsl.catflat.in.net^
 ||nqvfew.flybuilt.eu^
 ||nr76.mess-laboratory.in.net^
@@ -424244,6 +424123,7 @@ top##body > center + .A + .post
 ||nxbided.bakhtbetyek.com^
 ||ny.lshdw.cc^
 ||nzaqn.sm188login.cyou^
+||nzfcrki.lolsurpriseball.com^
 ||nzhfxgcc.sylo7den.in.net^
 ||nzsrghd.qi4mavel.in.net^
 ||o24o.ru^
@@ -424259,12 +424139,7 @@ top##body > center + .A + .post
 ||o999.bovla7xel.in.net^
 ||oa4njxsv.byte-frontier.digital^
 ||oak-branch.swimsuit-unable.lat^
-||oak-net.oakbend.in.net^
-||oak-v11.oakbend.in.net^
 ||oakbalancer.setqueueat.lat^
-||oakum-gate.oakumsenile.in.net^
-||oakum-unit.oakumsenile.in.net^
-||oas1-sheet.emberfield.in.net^
 ||oasis1-span.pixel-harbor.life^
 ||oasis5-well.so1aver.garden^
 ||oasitre.paleontraglan.in.net^
@@ -424459,11 +424334,9 @@ top##body > center + .A + .post
 ||oplzpps.popi999.net^
 ||opp-check.dialectrixengine.in.net^
 ||ops-gate.dynastis.in.net^
-||ops-gate.lumitron.in.net^
 ||ops-mgr.mav2terol.surf^
 ||ops-mgr.mav7loren.surf^
 ||ops-unit.dynastis.in.net^
-||ops-unit.lumitron.in.net^
 ||ops.linkrunops.pics^
 ||ops.softwincli.pics^
 ||ops1-view.xel2mavor.in.net^
@@ -424623,7 +424496,6 @@ top##body > center + .A + .post
 ||out.flushgot.pics^
 ||out13-stream.grov9essa.garden^
 ||outdock.tix9sorel.in.net^
-||oute2-grid.blackford.in.net^
 ||outel.linchens.com^
 ||outer-reach.exaltedinfinate.in.net^
 ||outer-rim-09.espacesombre.in.net^
@@ -424639,15 +424511,10 @@ top##body > center + .A + .post
 ||outletarray.drumoxel.in.net^
 ||outletstead.aeromechsadn.in.net^
 ||ouya691.xynotrax.in.net^
-||ov.uqoo.nl^
-||ovbfopy8.bitterfisherm.digital^
 ||ovdtt.larkspin.in.net^
 ||overly.dinergysolutions.org^
-||overt-base.overtmantram.in.net^
-||overt-ref.overtmantram.in.net^
 ||ovjcwn.mav3torel.surf^
 ||ovumpg.racersta7ving.in.net^
-||ovv.uqoo.nl^
 ||owgnjyia.oilglass.in.net^
 ||owlcity.ru^
 ||owobk.brix9qen.lat^
@@ -424718,7 +424585,6 @@ top##body > center + .A + .post
 ||pack5-unit.speed-route-track.in.net^
 ||packagesca.woodfor.lat^
 ||packbind.kym2lirex.in.net^
-||packecle.breezefield.in.net^
 ||packet-distribution-core.christmas^
 ||packet-flow.logicstream.in.net^
 ||packet-flow.quantacircuit.in.net^
@@ -424827,8 +424693,6 @@ top##body > center + .A + .post
 ||path-hub.desertpract.in.net^
 ||path-logic.fariseietogo.in.net^
 ||path-logic.methodicstream.in.net^
-||path-net.goldpath.in.net^
-||path-site.goldpath.in.net^
 ||path-svc.gnosticvector.in.net^
 ||path.fastlinkprovider.pics^
 ||path.fielddie.pics^
@@ -424876,13 +424740,11 @@ top##body > center + .A + .post
 ||pe4k-chain.productter.in.net^
 ||peace-api.nicequiet.in.net^
 ||peak-access.polarisbloom.in.net^
-||peak-flow.glacierpeak.in.net^
 ||peak-lab.rentcad.in.net^
 ||peak-point.vertexbloom.in.net^
 ||peak-svc.apotheosbring.in.net^
 ||peak-tra.saltball.in.net^
 ||peak-traffic.elevationnodebox.in.net^
-||peak-v12.glacierpeak.in.net^
 ||peak.sculpture5traight.surf^
 ||peak7-frame.sylo1mer.in.net^
 ||peak8zoneview.canyonsyncgate.garden^
@@ -425123,6 +424985,7 @@ top##body > center + .A + .post
 ||pnt4sync.infrastructurecloud.in.net^
 ||po5a.skyl1tfern.in.net^
 ||po5ter-node.voidstream.garden^
+||po9isauo.bet90boro.com^
 ||pod4-sync.xelvarinox.in.net^
 ||podc4-node.puro2tal.surf^
 ||podcamoss.colonist-proph.lat^
@@ -425365,7 +425228,6 @@ top##body > center + .A + .post
 ||proxy.darkstonebase.lat^
 ||proxy.monop-oriental.surf^
 ||proxy.vpsgateway.pics^
-||proxy005.vgate.app^
 ||proxyblue8wave.nebulafluxbase.garden^
 ||proxyeas.zor2laven.in.net^
 ||proxyfastzone.cryptovoxelsync.garden^
@@ -425397,7 +425259,6 @@ top##body > center + .A + .post
 ||proxysserv.vexon3ix.pics^
 ||proxysserv.vexon4ar.pics^
 ||proxyvall.hundred5elf.lat^
-||prrnftoa.toolbend.in.net^
 ||pru2xh.thora8lin.lat^
 ||przvbelk.verda7lya.garden^
 ||ps10z3qz.eutoor.com^
@@ -425438,6 +425299,7 @@ top##body > center + .A + .post
 ||pub-95a14d2adf114a9197e294757bf8d7b7.r2.dev^
 ||pub-9682d5896df841679c5a17eb41273f89.r2.dev^
 ||pub-9c47b1bd45604a82bb27d7c7000ef589.r2.dev^
+||pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev^
 ||pub-aa4b4a4b76964ef7b9e03a074612353a.r2.dev^
 ||pub-b4da4442f31f48e59847169454eb667a.r2.dev^
 ||pub-bbbdebc2599c4d74b04c5d53e439f7a7.r2.dev^
@@ -425557,7 +425419,6 @@ top##body > center + .A + .post
 ||pxedkzjn.zeq8morin.in.net^
 ||pxmghr.duskforge.in.net^
 ||pxydleq.nbbmansehra.pk^
-||py-installer.cc^
 ||py28ionr.prefixwag.in.net^
 ||pyexv.yanis.hu^
 ||pyfptfv.anadoluslot.bet^
@@ -425643,6 +425504,7 @@ top##body > center + .A + .post
 ||qsve.cyrd.live^
 ||qsxrao.flybuilt.hu^
 ||qt774.wex1miran.in.net^
+||qtcfxojh.mostbetresmi.site^
 ||qu0t6-trail.personal-danger.in.net^
 ||qu1c-mesh.stormcove.in.net^
 ||qu1ck-flow.qazsadf.in.net^
@@ -425686,7 +425548,6 @@ top##body > center + .A + .post
 ||queu-scan.codeflux.lat^
 ||queue-manager.districtbuffer.in.net^
 ||queuedirect.tov6larek.in.net^
-||queuemarsh.fullgate.in.net^
 ||quick-7.novalento.in.net^
 ||quick-cash5.guy5mist.in.net^
 ||quick-cash5.pyn9sorel.in.net^
@@ -425748,7 +425609,6 @@ top##body > center + .A + .post
 ||quormark2et.wetshardauth.lat^
 ||quormark6os.polyate-eye.in.net^
 ||quormarkal8.habe7dpermanent.in.net^
-||quormarkis8.autumnbrook.in.net^
 ||quormarkix.appcheck.in.net^
 ||quormesh1os.qiv9moren.in.net^
 ||quormeshar.qul4xorin.in.net^
@@ -425994,7 +425854,6 @@ top##body > center + .A + .post
 ||red-mark4.sylo9rex.in.net^
 ||red-rose2.tav4sorel.in.net^
 ||red-stone.novalento.in.net^
-||red-unit.redclay.in.net^
 ||redbook6.aperitif-form.in.net^
 ||redbook6.overfeed-social.in.net^
 ||redeamazoniaazul.org^
@@ -426005,14 +425864,12 @@ top##body > center + .A + .post
 ||redo2taskhub.undo-wingless.bet^
 ||reed-pla.qi4mavel.in.net^
 ||reed8-drive.pares-system.in.net^
-||reedfreigh.summitgrove.in.net^
 ||reef-dat.doabove.in.net^
 ||reef-drive.airportbude.in.net^
 ||reef-mark.ra5ximor.in.net^
 ||reef.oceanwavepoint.lat^
 ||reef7-line.centrifuge-four.lat^
 ||reel-age.chifdark.in.net^
-||reel-mount.toolbend.in.net^
 ||reel-tok.costfee.in.net^
 ||reelfla.asso7tunexpl.in.net^
 ||reelmeshnode.peta1vrix.bet^
@@ -426211,6 +426068,7 @@ top##body > center + .A + .post
 ||rlaa5uje.stack-frontier.digital^
 ||rlkz.stoneflare.garden^
 ||rlovrqd.mor5laxis.in.net^
+||rmbvag.jamjahani2026shartbandi.com^
 ||rmjjmzw.jamjahani.online^
 ||rmly.onelight.in.net^
 ||rmvofu.embassyotolaryn.in.net^
@@ -426253,8 +426111,6 @@ top##body > center + .A + .post
 ||rock-core-v7.ferroluna.in.net^
 ||rock-core-z4.vitaserena.in.net^
 ||rock-oasis.woodflo.in.net^
-||rock-spot.rockbend.in.net^
-||rock-sys.rockbend.in.net^
 ||rock.cryptobase.surf^
 ||rock.sculpture5traight.surf^
 ||rock.solidcore.surf^
@@ -426352,7 +426208,6 @@ top##body > center + .A + .post
 ||royalgla.x7lora.in.net^
 ||royalindiancurryclub.com^
 ||royalmonitor.tempiso.in.net^
-||royalstream.breezefield.in.net^
 ||royalvita.attit-negligent.in.net^
 ||royapuls.qor9mital.in.net^
 ||rp7gpk.norva2xel.in.net^
@@ -426454,6 +426309,7 @@ top##body > center + .A + .post
 ||rushmeshsite.expresser-pray.bet^
 ||russia24.icu^
 ||rvfh.horizonprospera.in.net^
+||rvlpcvr.jogodobicho.games^
 ||rvubnzq.akharinbama.ir^
 ||rvvemra.takhtebet.app^
 ||rwwolv22.sylo3rex.in.net^
@@ -426461,6 +426317,7 @@ top##body > center + .A + .post
 ||rx64iv.nov7liren.in.net^
 ||rxpvcd.ksfogaszat.hu^
 ||rxquickpay.com^
+||rxxgnn.jamjahani.cash^
 ||rybfb.radiantharbinger.in.net^
 ||rydr.vex7lurin.in.net^
 ||ryfsowiu.icu^
@@ -426478,15 +426335,14 @@ top##body > center + .A + .post
 ||s0rt3-frame.to9varem.in.net^
 ||s0un-panel.yeldfor.lat^
 ||s1-ext-link.terrafirma.in.net^
-||s1-rarlab.com^
 ||s10w-pulse.brisklume.in.net^
 ||s1gna1-track.plotsafe.in.net^
 ||s1ovv-cast.tr4cefox.in.net^
-||s3-python.cc^
 ||s3-web-infra.ferroviva.in.net^
 ||s3.g.s4.mega.io^
 ||s3.mgirbvre.top^
 ||s3cre-plate.highjoke.in.net^
+||s3unirpm.bet90land.com^
 ||s5-sync-x1.navispazio.in.net^
 ||s61j30vp.snugglebloom.com.au^
 ||s71frp.stabletu.in.net^
@@ -426572,7 +426428,6 @@ top##body > center + .A + .post
 ||sat4link.infravariable.in.net^
 ||sat4link.termocenter.in.net^
 ||sat4link.terracore.in.net^
-||save.jnrsmcu.com^
 ||save1logicnet.piva1save.surf^
 ||save4pathgate.sara5byte.surf^
 ||save4taskhub.pilo1byte.surf^
@@ -426697,15 +426552,11 @@ top##body > center + .A + .post
 ||seismophonic.com^
 ||sellmeyourbiz.com^
 ||selyoptik.ro^
-||semi-flow.conesemison.in.net^
-||semi-v08.conesemison.in.net^
 ||send-mail5.dex9taren.in.net^
 ||send-relay.emissarysooth.in.net^
 ||send-relay.leavedistribut.in.net^
 ||send8siteview.expresser-pray.bet^
 ||sendit.sh^
-||seni-edge.oakumsenile.in.net^
-||seni-v3.oakumsenile.in.net^
 ||senior-staff2.aim-national.in.net^
 ||senior-staff2.dax6porel.in.net^
 ||senju.lol^
@@ -426830,7 +426681,6 @@ top##body > center + .A + .post
 ||shadowbot-dih.pages.dev^
 ||shadowdispatch.quillridge.in.net^
 ||shadowneural.citizenconjunct.in.net^
-||shafun.silvermeadow.in.net^
 ||shahamanatme.com^
 ||shal0-mount.ra2xemil.in.net^
 ||shal6-stream.onepal-liat.in.net^
@@ -426895,7 +426745,6 @@ top##body > center + .A + .post
 ||shift.casino-fascin.surf^
 ||shift.goldenleafway.lat^
 ||shiftcascade.vex1laxon.in.net^
-||shiftspace.creativemindsuaeu.com^
 ||shinenetview.quartzprismcloud.garden^
 ||ship-obser.multi-machine.in.net^
 ||ship-port3.sy7loden.in.net^
@@ -426960,8 +426809,6 @@ top##body > center + .A + .post
 ||signalwestport.kinetichostbit.garden^
 ||signhostunit.cryptosyncflow.bet^
 ||sile-reel.norxelav.in.net^
-||silen-node.amperesilence.in.net^
-||silen-v05.amperesilence.in.net^
 ||silenparser.deepglom.in.net^
 ||silent-node.nicequiet.in.net^
 ||silent-svc.blindersyawn.in.net^
@@ -426985,8 +426832,6 @@ top##body > center + .A + .post
 ||simple-form4.aim-national.in.net^
 ||simple-form4.dax6porel.in.net^
 ||simpleweb.mirante.in.net^
-||sing-data.limbsingle.in.net^
-||sing-v44.limbsingle.in.net^
 ||sinkingyourself.courses^
 ||sipzix.acquisit-batper.in.net^
 ||sir8uu.yandex-file.lat^
@@ -427000,10 +426845,8 @@ top##body > center + .A + .post
 ||site-map2.de4xpamil.in.net^
 ||site-map4.de8xporel.in.net^
 ||site-net.fluxoris.in.net^
-||site-net.terravia.in.net^
 ||site-node.bobinaslums.in.net^
 ||site-node.fluxoris.in.net^
-||site-node.terravia.in.net^
 ||site-svc.desertpract.in.net^
 ||site-top.miravento.in.net^
 ||site-vault.ministobelisk.in.net^
@@ -427251,7 +427094,6 @@ top##body > center + .A + .post
 ||soil-hub.bereathfertil.in.net^
 ||soil-monitor.fetterland.in.net^
 ||soil9siteview.goddess-tapir.bet^
-||sol-base.solarisx.in.net^
 ||sol-coreis.foam-take.in.net^
 ||sol-draet.nor3liven.in.net^
 ||sol-draon.bry5laxon.in.net^
@@ -427266,7 +427108,6 @@ top##body > center + .A + .post
 ||sol-tideen.stoppit.in.net^
 ||sol-tideex.boatdi1l.in.net^
 ||sol-tideor.fotestat.in.net^
-||sol-v6.solarisx.in.net^
 ||sol-venor.currencysn0ut.pics^
 ||solafirmw.miv7sorel.in.net^
 ||solar-api.helioshaven.in.net^
@@ -427443,9 +427284,7 @@ top##body > center + .A + .post
 ||splitmedi.tr1bekit.in.net^
 ||splitmeshnode.dismemb7harlot.bet^
 ||splitorche.autovete7an.in.net^
-||spoar.org.in^
 ||spool1-scope.verdi7qor.lat^
-||spooldiscover.silvermeadow.in.net^
 ||spoolfox.invulshuga.in.net^
 ||sport-match3.de5xpiren.in.net^
 ||sport-match3.dex6laper.in.net^
@@ -427712,9 +427551,7 @@ top##body > center + .A + .post
 ||star-ring.fortene7vous.in.net^
 ||star-svc.aurasamodians.in.net^
 ||star-track.boyishglorified.in.net^
-||star-unit.starbend.in.net^
 ||star-workshop.christmas^
-||star-zone.starbend.in.net^
 ||star.brightreef.surf^
 ||star.brightskyway.lat^
 ||star.darknightstar.lat^
@@ -428607,7 +428444,6 @@ top##body > center + .A + .post
 ||talspireor.gnosistack.in.net^
 ||talspireos.wi3sorin.in.net^
 ||taltide2ex.si1kforge.in.net^
-||taltideal3.emberfield.in.net^
 ||taltideis8.currencysn0ut.pics^
 ||talvaleet.histori-pneumonia.in.net^
 ||talven8ex.q7ravo.in.net^
@@ -428727,11 +428563,9 @@ top##body > center + .A + .post
 ||team-work3.ashes5upervise.in.net^
 ||team1-work.consiliumundu-lat.in.net^
 ||tech-base.galactoview.in.net^
-||tech-base.moxura.in.net^
 ||tech-base.quintura.in.net^
 ||tech-portal1.laryngol-needle.in.net^
 ||tech-ref.galactoview.in.net^
-||tech-ref.moxura.in.net^
 ||tech-ref.quintura.in.net^
 ||tech-script-logic-unit-reference.wiki^
 ||tech-tool1.dexpor1el.in.net^
@@ -428790,10 +428624,8 @@ top##body > center + .A + .post
 ||tercheck.kymle1rax.in.net^
 ||term-index.semanticvector.in.net^
 ||term-log.dialectdozing.in.net^
-||term-sync.niventa.in.net^
 ||term-sync.vibrante.in.net^
 ||term-sync.vibratronic.in.net^
-||term-way.niventa.in.net^
 ||term-way.vibrante.in.net^
 ||term-way.vibratronic.in.net^
 ||term4-text.active-phase-net.in.net^
@@ -428801,8 +428633,6 @@ top##body > center + .A + .post
 ||term5siteview.years-quackery.bet^
 ||ternp3-watch.goodwork.in.net^
 ||terr-53p.bexlor-net.in.net^
-||terr-run.terravia.in.net^
-||terr-v77.terravia.in.net^
 ||tertsiyavocalsunseenfile.wiki^
 ||teslasuit.to^
 ||test-api.sciencestupids.in.net^
@@ -428835,7 +428665,6 @@ top##body > center + .A + .post
 ||the0-drive.brimvale.in.net^
 ||thecowardlydog.com^
 ||theholidayroads.com^
-||thekingofarms.com^
 ||themaintechnician.us^
 ||thementordirectory.com^
 ||theor-spool.codcomparable.in.net^
@@ -428921,8 +428750,6 @@ top##body > center + .A + .post
 ||timbermerge.yellglass.in.net^
 ||time-check.covercotehour.in.net^
 ||time-step.cdmilestone.in.net^
-||time-unit.goodtime.in.net^
-||time-v09.goodtime.in.net^
 ||time1-out.global-server-sync.in.net^
 ||time3logicway.kren3sync.surf^
 ||time6siteview.centenary-kurgan.bet^
@@ -428944,7 +428771,6 @@ top##body > center + .A + .post
 ||tjvdbbc.yektbet.bet^
 ||tkthisww.space^
 ||tlbwfid.3toravix.lat^
-||tlccjre.thunderplain.in.net^
 ||tlnsb.zor2laven.in.net^
 ||tmcksa.com^
 ||tmp.cloudviewtop.pics^
@@ -429160,7 +428986,6 @@ top##body > center + .A + .post
 ||trans5-ring.westpit.in.net^
 ||trans6-stream.2zoravel.in.net^
 ||transdea.crestfall.in.net^
-||transfer.weepee.io^
 ||transit-sur.nexo5mir.surf^
 ||transmfield.wayton.in.net^
 ||transmitpass.snap-echo.in.net^
@@ -429206,7 +429031,6 @@ top##body > center + .A + .post
 ||tri-draa.plantpo1luter.in.net^
 ||tri-fluxa.miv7sorel.in.net^
 ||tri-fluxon.invert-manner.in.net^
-||tri-fluxor.askloop.in.net^
 ||tri-forgeix.momentumharbor.in.net^
 ||tri-markis.infirmary5care.in.net^
 ||tri-mesha.awry-pause.in.net^
@@ -429244,7 +429068,6 @@ top##body > center + .A + .post
 ||trimeshum.exhumat8urgle.in.net^
 ||trinex7is.pav8lorex.lat^
 ||trinexa.zun5larek.in.net^
-||trinexex5.autumnbrook.in.net^
 ||trip-advisor5.ra3xelin.in.net^
 ||trip-advisor5.rav8doxel.in.net^
 ||trip1-point.travel-point-trace.in.net^
@@ -429294,6 +429117,7 @@ top##body > center + .A + .post
 ||ts9qv.officeco.in.net^
 ||tshev.quant-splashes.in.net^
 ||tshrx.zexo4mira.in.net^
+||tsms.ogcs-tn.com^
 ||tspdegr.askvava.com^
 ||ttgfvj.bovla7xel.in.net^
 ||ttl3-limit.travexon.in.net^
@@ -429309,6 +429133,7 @@ top##body > center + .A + .post
 ||tutorial.clashverge.space^
 ||tuxbins.duckdns.org^
 ||tvlhpsjn.meadowprocessingframework.garden^
+||tvonayz.jamjahani.vip^
 ||tvqib.centrifuge-four.lat^
 ||tvrtwkf.ricebowl.io^
 ||tvxiarw7.silkforge.in.net^
@@ -429359,6 +429184,7 @@ top##body > center + .A + .post
 ||ufv174r8.farman.in.net^
 ||uga9ai.blowdisassem.in.net^
 ||ughckpku.vel7ramon.in.net^
+||ugmitqk.one1xbet.poker^
 ||uh83re33.magneticlevitationtrain.digital^
 ||ui2rn7ei.apexharvestor.digital^
 ||ui5cn.convinc8mission.bet^
@@ -429393,7 +429219,6 @@ top##body > center + .A + .post
 ||ujkj.didoprotecauth.lat^
 ||ujsl.octagonon.in.net^
 ||ujv18y.mess-laboratory.in.net^
-||ukguk71.ru^
 ||ukixhx.whitelist.in.net^
 ||ukkqtbst.snow-harbor.christmas^
 ||ukmcha.yasbet90.com^
@@ -429486,7 +429311,6 @@ top##body > center + .A + .post
 ||update.cg100iii.com^
 ||updatedserver.shop^
 ||updatedserverrr.io^
-||updateservice1-telegramweb.com^
 ||updv1.erectreset.in.net^
 ||uplink-r2-sat.prismaviva.in.net^
 ||uppxbwm.foxglade.in.net^
@@ -429510,12 +429334,10 @@ top##body > center + .A + .post
 ||urbanscarle.drumf1esh.in.net^
 ||urbanvoya.foxrunet.in.net^
 ||urbashallo.alfabon.in.net^
+||urdjsnn.jamjahani.net^
 ||url.fastlinkprovider.pics^
 ||urt925.restpay.in.net^
 ||urwiban.wentgot.lat^
-||us04web.zoom.us.pacl.us^
-||us06web.zoom.hiaa.us^
-||us06web.zoom.us.chsh.us^
 ||usaaatodaysgirlsnews.top^
 ||use-claude.com^
 ||user-auth-11.froidespace.in.net^
@@ -429580,6 +429402,7 @@ top##body > center + .A + .post
 ||uwfw.foot-ricochet.in.net^
 ||uwk7hxy.devopsn.in.net^
 ||uwor76f8.oaknet.digital^
+||uwxrhkk.mangobetfarsi.com^
 ||uwz7.veltraxis.in.net^
 ||uxcas7x8.skyip.in.net^
 ||uxld.po8vaxen.in.net^
@@ -429603,7 +429426,6 @@ top##body > center + .A + .post
 ||v1-sync-h07.fluxovivavo.in.net^
 ||v1107.fythoria.in.net^
 ||v1120.brythos.in.net^
-||v16m.emberfield.in.net^
 ||v1al-sheet.con9uerbunker.in.net^
 ||v1de0-mark.citizenconjunct.in.net^
 ||v1si-sync.kernelgrid.ink^
@@ -429616,6 +429438,7 @@ top##body > center + .A + .post
 ||v3lve4-core.qazsadf.in.net^
 ||v3lvet-core.matri2rchyor.in.net^
 ||v4-zone-12.stratagrid.in.net^
+||v47m17r8.cerocarey.com^
 ||v4lle-route.silver-dock.in.net^
 ||v4ul6-scope.windev.in.net^
 ||v6-api-node.pietraforte.in.net^
@@ -429647,8 +429470,6 @@ top##body > center + .A + .post
 ||valleydispatcher.nor8tavil.in.net^
 ||valleymount.foam-take.in.net^
 ||valleyreb.redpit.in.net^
-||valspro.granitevalley.in.net^
-||valu-crest.spinpath.in.net^
 ||valu-span.dredg8asman.in.net^
 ||value-point.axiologyflux.in.net^
 ||value-quota.wi9sorin.in.net^
@@ -429657,7 +429478,6 @@ top##body > center + .A + .post
 ||valve-sustainability-glasses-icons.trycloudflare.com^
 ||vame.be^
 ||vanillamods.xyz^
-||vans-towing.com^
 ||vanta.st^
 ||vantarat.st^
 ||vapb64us.insti1partition.in.net^
@@ -429740,7 +429560,6 @@ top##body > center + .A + .post
 ||vector3sitehub.vectorpointsite.garden^
 ||vehb.chromeflack.in.net^
 ||vekdf8au.srlashnbrow.com.au^
-||vel-data.veloxis.in.net^
 ||vel-draex.syke8liron.in.net^
 ||vel-fluxix.didoprotecauth.lat^
 ||vel-lineet.polyate-eye.in.net^
@@ -429756,7 +429575,6 @@ top##body > center + .A + .post
 ||vel-tideal.currencysn0ut.pics^
 ||vel-tideal.n1ghtridge.in.net^
 ||vel-tideen.armeniansgrate.in.net^
-||vel-v44.veloxis.in.net^
 ||vel-valeis.mist3briar.garden^
 ||velcore8en.decommiss-mint.bet^
 ||velcoreal.hisslytori.in.net^
@@ -429771,7 +429589,6 @@ top##body > center + .A + .post
 ||velforgeex.storm-ink.in.net^
 ||velg.deepoak.in.net^
 ||velline0os.vex1laxon.in.net^
-||velline5en.rollbend.in.net^
 ||vellineal.copyvrok.in.net^
 ||vellineen7.morphinve8et.in.net^
 ||vellith4en.qi4mavel.in.net^
@@ -429881,6 +429698,7 @@ top##body > center + .A + .post
 ||video-clip4.kym7sarel.in.net^
 ||video-clip4.kymli4rex.in.net^
 ||video-drop.cameoinfusion.in.net^
+||video-dtp6.vercel.app^
 ||video-files-24.cfd^
 ||video-screen5.tov4mixel.in.net^
 ||videobiome.backyard.in.net^
@@ -429924,6 +429742,7 @@ top##body > center + .A + .post
 ||vintage-telemetry-receiver.garden^
 ||vintage-vinyl-restoration.garden^
 ||vintagevinylrestoration.christmas^
+||viopkdh.kbshavanese.com^
 ||virtual-cdncloud.sbs^
 ||virtual-compute-engine-template-doc.wiki^
 ||virtual-gate-way.garden^
@@ -429954,6 +429773,7 @@ top##body > center + .A + .post
 ||visualpure.5zorelin.in.net^
 ||visuavital.gontake.in.net^
 ||vita-not.scriptmesh.ink^
+||vitacocoyougoloco.potassium.st^
 ||vitalpalette.mer4talon.in.net^
 ||vitalpur.sylo8mer.in.net^
 ||vitalpure.far-guess.in.net^
@@ -430191,8 +430011,6 @@ top##body > center + .A + .post
 ||vub10.charlotte5tereoph.in.net^
 ||vuelaviajero.com^
 ||vult-hub.spectrometric.in.net^
-||vult-node.nexoris.in.net^
-||vult-sync.nexoris.in.net^
 ||vult-vault.spectrometric.in.net^
 ||vumobeb.bakhtazmaeii.com^
 ||vupvuar8.grov9essa.garden^
@@ -430375,7 +430193,6 @@ top##body > center + .A + .post
 ||web1infra.nuxbase.in.net^
 ||web1meta.fluxobase.in.net^
 ||web1meta.vivaflux.in.net^
-||web3-walletnotify.cc^
 ||web3.terminalobserver.in.net^
 ||web4-proxy.praxo6lin.in.net^
 ||web5-relay.zorvelixan.in.net^
@@ -430558,9 +430375,7 @@ top##body > center + .A + .post
 ||wind-9q.histor5corching.in.net^
 ||wind-farm2.kymli2rex.in.net^
 ||wind-flow.brillwhistleb.in.net^
-||wind-flow.winddock.in.net^
 ||wind-speed6.wimso4rel.in.net^
-||wind-v08.winddock.in.net^
 ||wind.coldwindy.lat^
 ||wind.frostpoint.surf^
 ||wind.oceanblue.surf^
@@ -430638,7 +430453,6 @@ top##body > center + .A + .post
 ||wood.greenforesthub.lat^
 ||wood.terraview.surf^
 ||woodcora.devmatrix.lat^
-||woodenships-wholesale.com^
 ||woodspeci.stormcove.in.net^
 ||woonort.redbyte.in.net^
 ||word-api.dialectdozing.in.net^
@@ -430710,7 +430524,6 @@ top##body > center + .A + .post
 ||wwk6os4i.cloud-atlas.digital^
 ||wwkgzd.flybuiltstudio.com^
 ||wwklydao.amber-drift.in.net^
-||www2.0zz0.com^
 ||www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||wwyik.dependint7amur.in.net^
@@ -430724,7 +430537,6 @@ top##body > center + .A + .post
 ||wzovragk.driveaway.in.net^
 ||wzpmw.webrevelem.hu^
 ||x-12-c7.velotronic.in.net^
-||x.tlpoe.com^
 ||x.vodxz.icu^
 ||x0-space-open.altasphera.in.net^
 ||x0o600dr.clamshellkarakulchaalumina.digital^
@@ -430770,11 +430582,11 @@ top##body > center + .A + .post
 ||xenomorphhiveintel.christmas^
 ||xenon.studio^
 ||xfuhz.n1ghtlark.in.net^
-||xg38z.dawnforest.in.net^
 ||xg6xtld1.diet-lanolin.in.net^
 ||xgi87u.drimoxel.in.net^
 ||xgj9.fotestat.in.net^
 ||xhepy.skybit.in.net^
+||xhqkuit.kvbel.com^
 ||xiaoma-10021647.file.myqcloud.com^
 ||xipsrdlf.frost-pixel.in.net^
 ||xivuhpzc.onelight.in.net^
@@ -430828,6 +430640,7 @@ top##body > center + .A + .post
 ||xun7.redbyte.in.net^
 ||xuyk.radiantprospera.in.net^
 ||xuymf0.quant-splashes.in.net^
+||xvbfkf.jamjahani.app^
 ||xvceg.butoralberlet.com^
 ||xvfxe.technologiaiviz.hu^
 ||xvinmbn2.sorix1ar.lat^
@@ -430866,6 +430679,7 @@ top##body > center + .A + .post
 ||ybgctdtbzvgpdxjivafy.supabase.co^
 ||ybhub.com.au^
 ||ybhyrjaj.asynchronouswateringmesh.garden^
+||ybyvozc.jamjahani.vip^
 ||ycgyxlt2.ve1ori.garden^
 ||ychgg.vex1laxon.in.net^
 ||yci9.larkspin.in.net^
@@ -430882,6 +430696,7 @@ top##body > center + .A + .post
 ||yeqxnp.pavi1lor.lat^
 ||yertdw.3sefr3.ir^
 ||yfjgi.cuffsorbsky.in.net^
+||yghqghh.lolsurpriseball.com^
 ||ygxq.klinavor.in.net^
 ||yhrjk4yd.qantuni.lat^
 ||yhyrxap.bahisbey90.com^
@@ -430897,6 +430712,7 @@ top##body > center + .A + .post
 ||yk97w.bejont.in.net^
 ||ykdeqf.gyorsotthont.hu^
 ||ykrtpwu.destek1.com.tr^
+||ylccwf.jamjahani.games^
 ||yluumg.lunave5.garden^
 ||ym04rg.baked5ham.lat^
 ||ymfxhto.czhaijiangdrying.com^
@@ -430935,6 +430751,7 @@ top##body > center + .A + .post
 ||yx16l.n0vabrook.in.net^
 ||yxex4i.alexand-trouble.in.net^
 ||yxhe.voidstream.garden^
+||yxjmsvr.jamjahani.world^
 ||yxmptwzw.cutlog.in.net^
 ||yxngqe.cutlog.in.net^
 ||yy.kak.is^
@@ -431001,7 +430818,6 @@ top##body > center + .A + .post
 ||zen-crestex.concretemixer.in.net^
 ||zen-drais.boatdi1l.in.net^
 ||zen-draum.appcheck.in.net^
-||zen-flow.zenithra.in.net^
 ||zen-fluxa.drumirex.in.net^
 ||zen-fluxex.oakcore.in.net^
 ||zen-fluxon.checkbro.in.net^
@@ -431009,7 +430825,6 @@ top##body > center + .A + .post
 ||zen-nexos.bo2rdreluct.in.net^
 ||zen-spireor.beacostolid.in.net^
 ||zen-spireos.engineeringtech.in.net^
-||zen-v12.zenithra.in.net^
 ||zen-valeet.crestfall.in.net^
 ||zen-venen.inferentrixhub.in.net^
 ||zen-venor.klatren.lat^
@@ -431084,6 +430899,7 @@ top##body > center + .A + .post
 ||zeta.urbanpulse.surf^
 ||zfjlna0p.qorivault.life^
 ||zfkzwhk.bakhtazmaeii.com^
+||zfrfayl.one1xbet.app^
 ||zfvhht.pitifrube1la.in.net^
 ||zhe9.diesel-stark.lat^
 ||zhigao5191.com^
@@ -431183,6 +430999,7 @@ top##body > center + .A + .post
 ||zphaxvq.technologiaiviz.hu^
 ||zpxfn.buborekjatszohaz.hu^
 ||zqbegtka.floraanalyticshub.garden^
+||zqgqzuo.mangobetfarsi.com^
 ||zqhnvn.303-bet.xyz^
 ||zqyij.sm188login.rest^
 ||zr4ipb.glen4mora.garden^
@@ -431198,13 +431015,11 @@ top##body > center + .A + .post
 ||zub5gp24.skyhub.digital^
 ||zupreme-qbot.duckdns.org^
 ||zuzho.armeniansgrate.in.net^
-||zverda.space^
 ||zvxeaqm.jogodobicho.games^
 ||zwbnyop.jamjahani.org^
 ||zwjk9ew.glassterrible.in.net^
 ||zwlaax.n1ghtlark.in.net^
 ||zwyyuczn.vectorprospera.in.net^
-||zxjasjkask1992.sbs^
 ||zxuq0oha.bord90.bet^
 ||zxvy.diet-lanolin.in.net^
 ||zxzhjlk.artenadigital.com^
