@@ -1,8 +1,8 @@
 ! Title: AdGuard Extension Merge
 ! Description: Merged AdGuard filters with Deduplication
-! Version: 1.0.1792273960
+! Version: 1.0.1792361024
 ! Homepage: https://github.com/RoadToNowhereX/AdGH-AdditionalRules
-! Last modified: 2026-10-17T21:52:41.667Z
+! Last modified: 2026-10-18T22:03:45.985Z
 ! Compiled by @adguard/hostlist-compiler v2.1.1
 ! Source: AdGE.txt
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
@@ -57151,10 +57151,10 @@ uqload.*#%#//scriptlet('abort-current-inline-script', 'Node.prototype.appendChil
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.shop\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{4,5}(?:[&?]param_\d=\d+)*$/$subdocument,third-party,match-case
 ! https://github.com/easylist/easylist/issues/6476
 ! Example: https://curtisbarways.com/gZ1vfAd01DRoG/60809
-/^https?:\/\/(?:[a-z]{2}|[a-z]{6,7})?\.?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:[&?][0-9_a-z]+=[0-9A-Za-z-]+)*$/$subdocument,script,xmlhttprequest,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}|[a-z]{5,7})?\.?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:[&?][0-9_a-z]+=[0-9A-Za-z-]+)*$/$subdocument,script,xmlhttprequest,third-party,match-case
 ! It seems that script and popup modifier doesn't work correctly used together, related to - https://github.com/AdguardTeam/AdguardBrowserExtension/issues/1992
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:[&?][0-9_a-z]=[0-9A-Za-z-]+)*$/$popup,third-party,match-case
-/^https:\/\/([a-z]{2}|[a-z]{6,7})?\.?[a-z]{7,14}\.[a-z]{3,7}\/[fgprst][0-9A-Za-z]{10,}\/\d{3,6}$/$script,third-party,match-case
+/^https:\/\/([a-z]{2}|[a-z]{5,7})?\.?[a-z]{7,14}\.[a-z]{3,7}\/[fgprst][0-9A-Za-z]{10,}\/\d{3,6}$/$script,third-party,match-case
 ! Similar case like above but on some websites it's not blocked by apps due to "$third-party" modifier, so rules below should block it, and with header modifier it should be safe
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208512
 ! Example: https://cs.rivierewhimsey.com/rbmgfFdvNwvJ3tZ/OmkmG
@@ -82078,31 +82078,32 @@ browsershots.org#@#.advert_area
 ||atdmt.com^
 ||buyeasy.by^
 ||demand.supply^$script
+||ehrzuogdhrida.website^
 ||fl.corniercuffed.qpon^
 ||fwmrm.net^
+||ggiscozcogsga.online^
 ||googletagservices.com^
-||gsmlfgysryhhm.online^
 ||hazicu.hothomefuck.com^
 ||imasdk.googleapis.com^
 ||kqzyfj.com^
 ||loadercdn.com^
-||lqzayorfcnisr.site^
 ||macro.adnami.io^
 ||monetag.com^
+||mwumgrgiryetz.website^
+||nlfthbrebiuoy.online^
 ||ntv.io^
 ||ojrq.net^
 ||paid.outbrain.com^
-||pevdrkxf.com^
+||pgzmbkdavgilh.online^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
 ||redirectingat.com^
 ||rubiconproject.com^
 ||totaladblock.com^
+||udcuyvlyoqykt.site^
 ||videoplaza.tv^
-||vkipfmadahrwh.site^
-||vvdelmaxrtzas.online^
+||violtantlevroom.cfd^
 ||wpnrtnmrewunrtok.xyz^
-||zfejuxzgvqmlh.website^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
 ||2bestoffer.com^$document
@@ -90353,6 +90354,7 @@ homedepot.com,nordstrom.com###revjet_container
 10minutemail.net,eel.surf7.net.my###right
 ndtv.com###right-ad-slot
 msguides.com###right-bottom-camp
+wikily.gg###right-rail
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
 themarysue.com###right-rail-atf
@@ -90890,6 +90892,7 @@ theurbanlist.com##.LeaderboardAd
 nameberry.com##.LeaderboardAtfAd
 nationalgeographic.com##.LinkedImage
 inverness-courier.co.uk,johnogroat-journal.co.uk##.MPU
+forum.ragezone.com##.MentaLBannerUnit
 medievalists.net##.Mnet_TopLeft_970x250
 wired.com##.MobileProductCardOuter-kMqsSf
 autonocion.com##.Mobile_Bottom
@@ -91591,7 +91594,7 @@ wikihow.com##.al_method
 altfi.com##.alert
 accessnow.org##.alert-banner
 apkmb.com##.alert-noty-download
-rapidsave.com##.alert.col-md-offset-2
+rapidsave.com##.alert.col-md-offset-2:has(a[href^="https://docmost.com/"])
 peoplematters.in##.alertBar
 majorgeeks.com##.alford > tbody > tr
 shortlist.com##.align-xl-content-between
@@ -96730,6 +96733,7 @@ transdict.com##div[style="margin:24px 80px; padding:8px; height:120px;"]
 arealme.com##div[style="margin:auto;width:100%;min-height:250px;"]
 vr-compare.com##div[style="min-height: 250px; background-color: rgba(0, 0, 0, 0.133); display: flex; justify-content: center; align-items: center;"]
 autoblog.com##div[style="min-height: 250px;"]
+mydramalist.com##div[style="min-height: 250px;"]:has(> .ad-removal-info)
 alternativeto.net##div[style="min-height: 280px;"]
 editpad.org##div[style="min-height: 300px;min-width: 300px"]
 wikiwand.com##div[style="min-height: 325px; max-width: 600px;"]
@@ -97677,6 +97681,7 @@ ew.com###article__primary-video-jw_1-0
 barchart.com###bc-cnx-player
 gpone.com###block-gpone-advvideo
 stocktwits.com###bottom-nav-content
+gadgetreview.com###cls-video-container-RbX8WupV
 crash.net###cmg-vsly
 euronews.com###connatix-container
 wral.com###exco
@@ -352966,7 +352971,7 @@ reddit.com###eu-cookie-policy
 ! SECTION: Cookies - Popular rules
 ! common name
 ! ###cc--main
-affiliatepressplugin.com,peopleshealthtrust.org.uk,igne.com,ludlowfoodfestival.co.uk,drukarkowo.pl,etui360.pl,promees.pl,nowezyciepabianic.pl,fashionjobs.com,asbc.pl,villaro.pl,sklep.acana.com.pl,kamilkinas.pl,imm.com.pl,ilcaso.it,smart.gov.pl,labotiga.pl,runnea.de,hobbity.pl,graszki.pl,parktelshop.pl,silesia.org.pl,ibris.pl,sklep.devisystem.pl,ra-fix.pl,bunkus.org,bottari.pl,sklep.terravita.pl,niemirka.com,madgames.pl,shopgamer.pl,sportino.com.pl,iwobike.pl,oeglobal.org,dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,sunfun.pl,cinemark.com,ss24.pl,natugo.pl,outgear.pl,equadent.pl,berufsbetreuung.de,wydawnictwootwarte.pl,decorsystem.com.pl,fotelewarszawa.pl,aptekaprima24.pl,grilliogrod.pl,zdroweslodycze.pl,witalnapaczka.pl,swatt.pl,bmcservers.com,myagd.pl,esenbogaairport.com,medpak.com.pl,sklepbraders.pl,laptopypoznan.pl,e-treningowy.pl,narowery.pl,marthome.pl,foxkomputer.pl,ruffles.com.tr,doritos.com.tr,fritolay.com.tr,psychologie-heute.de,onionite.pl,affenhand.de,hydroexpress.pl,petcover.pl,zapsplat.com,aytemiz.com.tr,marko-shoes.ru,aleplanszowki.pl,whyte.pl,luxpoint.com.pl,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,tello.com.pl,mojezapachy.pl,oomiyake.com,kawapartner.pl,izapachy.pl,ynside.extranet-bw.de,vicountdown.com,tommycafe.pl,insta360.com.pl,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,wysepka.pl,starstore.pl,skladnicaksiegarska.pl,virail.jp,avtoexpress.dp.ua,avg.pl,monazo.pl,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,itbiznes.pl,gaming.gen.tr,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,epainfo.pl,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,bezpieczny.pl,hyperbook.pl,nesine.com,mistral-poland.pl,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,aptekamedkon.pl,xzone.pl,primepc.pl,starsfromthestars.pl,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,sklep.portosrolety.pl,antidote.info,entega.de,skechers.com.tr,cira.ca,infosport.pl,copcorp.pl,xlap24.pl,fargotex.pl,kolobrzeg.info.pl,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,wasgehtapp.de,stocksy.com,flowforge.com,zeno.fm,spielregeln-spielanleitungen.de,boardgamegeek.com,techreviewer.de,gutegutscheine.de###cc--main
+offlander.pl,affiliatepressplugin.com,peopleshealthtrust.org.uk,igne.com,ludlowfoodfestival.co.uk,drukarkowo.pl,etui360.pl,promees.pl,nowezyciepabianic.pl,fashionjobs.com,asbc.pl,villaro.pl,sklep.acana.com.pl,kamilkinas.pl,imm.com.pl,ilcaso.it,smart.gov.pl,labotiga.pl,runnea.de,hobbity.pl,graszki.pl,parktelshop.pl,silesia.org.pl,ibris.pl,sklep.devisystem.pl,ra-fix.pl,bunkus.org,bottari.pl,sklep.terravita.pl,niemirka.com,madgames.pl,shopgamer.pl,sportino.com.pl,iwobike.pl,oeglobal.org,dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,sunfun.pl,cinemark.com,ss24.pl,natugo.pl,outgear.pl,equadent.pl,berufsbetreuung.de,wydawnictwootwarte.pl,decorsystem.com.pl,fotelewarszawa.pl,aptekaprima24.pl,grilliogrod.pl,zdroweslodycze.pl,witalnapaczka.pl,swatt.pl,bmcservers.com,myagd.pl,esenbogaairport.com,medpak.com.pl,sklepbraders.pl,laptopypoznan.pl,e-treningowy.pl,narowery.pl,marthome.pl,foxkomputer.pl,ruffles.com.tr,doritos.com.tr,fritolay.com.tr,psychologie-heute.de,onionite.pl,affenhand.de,hydroexpress.pl,petcover.pl,zapsplat.com,aytemiz.com.tr,marko-shoes.ru,aleplanszowki.pl,whyte.pl,luxpoint.com.pl,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,tello.com.pl,mojezapachy.pl,oomiyake.com,kawapartner.pl,izapachy.pl,ynside.extranet-bw.de,vicountdown.com,tommycafe.pl,insta360.com.pl,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,wysepka.pl,starstore.pl,skladnicaksiegarska.pl,virail.jp,avtoexpress.dp.ua,avg.pl,monazo.pl,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,itbiznes.pl,gaming.gen.tr,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,epainfo.pl,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,bezpieczny.pl,hyperbook.pl,nesine.com,mistral-poland.pl,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,aptekamedkon.pl,xzone.pl,primepc.pl,starsfromthestars.pl,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,sklep.portosrolety.pl,antidote.info,entega.de,skechers.com.tr,cira.ca,infosport.pl,copcorp.pl,xlap24.pl,fargotex.pl,kolobrzeg.info.pl,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,wasgehtapp.de,stocksy.com,flowforge.com,zeno.fm,spielregeln-spielanleitungen.de,boardgamegeek.com,techreviewer.de,gutegutscheine.de###cc--main
 ! ##.cc-overlay
 imker.pl,lagerhaus.at,kmu-boerse.at,stopline.at,meisterdrucke.jp,omvpetrom.com,petrom.ro,omv.com,omv.ro,omv.at,omv-gas.de,omv-gas-storage.com,omv.de,seg-social.pt,hausmagazin.com,evn.at,foodbrothers.com,semikolon.com,leuchtturm1917.de,laenderbahn.com,jhdversicherungen.de,computerwelt.at,torquato.de,dtv.de,vinzenz-klinik.de,herold.at,internorm.com,colop.com##.cc-overlay
 ! ###__tealiumGDPRecModal
@@ -353530,7 +353535,7 @@ carpathia.gov.ua,oda.od.gov.ua##div[class^="CookieModal_overlay"]
 arzuhalci.com.tr#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent_choice', 'declined')
 daycoval.com.br##app-termo-aceite-lgpd
 visit-dresden-elbland.de#%#//scriptlet('trusted-set-cookie-reload', 'dw_cookie_consent', '%7B%22v%22%3A%221%22%2C%22groups%22%3A%5B%5D%7D')
-mein-lb.de#%#//scriptlet('set-cookie', 'cookies_and_content_security_policy', 'emptyArr')
+woj-pol.pl,mein-lb.de#%#//scriptlet('set-cookie', 'cookies_and_content_security_policy', 'emptyArr')
 baden-baden.de,dasrehaportal.de,fc-moto.com,visit-koblenz.de,ludwigsburg.de#%#//scriptlet('trusted-click-element', '.ccm-root .ccm--decline-cookies', '!localStorage:ccm_consent')
 cora.com.br##div[class^="style-module-scss-module__"][class$="__cookies"]
 next.me##div[data-testid="sticky-cookies"]
@@ -358953,7 +358958,7 @@ secrid.com#%#//scriptlet('set-cookie', 'cookies', 'true')
 vente-unique.*,kauf-unique.at,kauf-unique.de###vu_consent
 maklerinmuenster.de,garten-bienen.at###privacyCtrl
 panchlebek.pl,progreso.pl,uwe.edu.pl,wsb-nlu.edu.pl,golddrop.eu,console-way.com,blachotrapez.eu,sklep-mietus.pl##.TsConsentWrapper
-zaburzeniasnu.info,dentystapoleca.pl,ibs.org.pl,helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
+lesniludzie.pl,zaburzeniasnu.info,dentystapoleca.pl,ibs.org.pl,helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
 zeebiz.com##.cookieScreenOverlay
 leggo.it#$#html { overflow: auto !important; }
 leggo.it#$##richiesta_accettazione_abbonamento { display: none !important; }
@@ -396975,7 +396980,7 @@ usnews.com##.moneydecisionspromo
 usnews.com##.healthpromo
 shethepeople.tv###SIGNUP_PAGE
 independent.co.uk###newsletter-component
-goalkicker.com##.sign-up
+democracydocket.com,goalkicker.com##.sign-up
 concursosnobrasil.com.br##.box-boletim
 drphil.com##.main-newsletter-signup
 thehindubusinessline.com###articleInline-nl
@@ -399027,6 +399032,7 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137819#issuecomment-1364610357
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
+votebeat.org##.newsletter-composer
 ouedkniss.dz#$#.o-app-bar:has(> .v-toolbar__content > button) { display: none !important; }
 ouedkniss.dz#$#.o-app-bar { top: 0px !important; }
 aiaplus.aia.co.kr###mwAppDownload
@@ -420123,7 +420129,7 @@ reddit.com###eu-cookie-policy
 ! SECTION: Cookies - Popular rules
 ! common name
 ! ###cc--main
-affiliatepressplugin.com,peopleshealthtrust.org.uk,igne.com,ludlowfoodfestival.co.uk,drukarkowo.pl,etui360.pl,promees.pl,nowezyciepabianic.pl,fashionjobs.com,asbc.pl,villaro.pl,sklep.acana.com.pl,kamilkinas.pl,imm.com.pl,ilcaso.it,smart.gov.pl,labotiga.pl,runnea.de,hobbity.pl,graszki.pl,parktelshop.pl,silesia.org.pl,ibris.pl,sklep.devisystem.pl,ra-fix.pl,bunkus.org,bottari.pl,sklep.terravita.pl,niemirka.com,madgames.pl,shopgamer.pl,sportino.com.pl,iwobike.pl,oeglobal.org,dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,sunfun.pl,cinemark.com,ss24.pl,natugo.pl,outgear.pl,equadent.pl,berufsbetreuung.de,wydawnictwootwarte.pl,decorsystem.com.pl,fotelewarszawa.pl,aptekaprima24.pl,grilliogrod.pl,zdroweslodycze.pl,witalnapaczka.pl,swatt.pl,bmcservers.com,myagd.pl,esenbogaairport.com,medpak.com.pl,sklepbraders.pl,laptopypoznan.pl,e-treningowy.pl,narowery.pl,marthome.pl,foxkomputer.pl,ruffles.com.tr,doritos.com.tr,fritolay.com.tr,psychologie-heute.de,onionite.pl,affenhand.de,hydroexpress.pl,petcover.pl,zapsplat.com,aytemiz.com.tr,marko-shoes.ru,aleplanszowki.pl,whyte.pl,luxpoint.com.pl,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,tello.com.pl,mojezapachy.pl,oomiyake.com,kawapartner.pl,izapachy.pl,ynside.extranet-bw.de,vicountdown.com,tommycafe.pl,insta360.com.pl,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,wysepka.pl,starstore.pl,skladnicaksiegarska.pl,virail.jp,avtoexpress.dp.ua,avg.pl,monazo.pl,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,itbiznes.pl,gaming.gen.tr,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,epainfo.pl,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,bezpieczny.pl,hyperbook.pl,nesine.com,mistral-poland.pl,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,aptekamedkon.pl,xzone.pl,primepc.pl,starsfromthestars.pl,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,sklep.portosrolety.pl,antidote.info,entega.de,skechers.com.tr,cira.ca,infosport.pl,copcorp.pl,xlap24.pl,fargotex.pl,kolobrzeg.info.pl,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,wasgehtapp.de,stocksy.com,flowforge.com,zeno.fm,spielregeln-spielanleitungen.de,boardgamegeek.com,techreviewer.de,gutegutscheine.de###cc--main
+offlander.pl,affiliatepressplugin.com,peopleshealthtrust.org.uk,igne.com,ludlowfoodfestival.co.uk,drukarkowo.pl,etui360.pl,promees.pl,nowezyciepabianic.pl,fashionjobs.com,asbc.pl,villaro.pl,sklep.acana.com.pl,kamilkinas.pl,imm.com.pl,ilcaso.it,smart.gov.pl,labotiga.pl,runnea.de,hobbity.pl,graszki.pl,parktelshop.pl,silesia.org.pl,ibris.pl,sklep.devisystem.pl,ra-fix.pl,bunkus.org,bottari.pl,sklep.terravita.pl,niemirka.com,madgames.pl,shopgamer.pl,sportino.com.pl,iwobike.pl,oeglobal.org,dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,sunfun.pl,cinemark.com,ss24.pl,natugo.pl,outgear.pl,equadent.pl,berufsbetreuung.de,wydawnictwootwarte.pl,decorsystem.com.pl,fotelewarszawa.pl,aptekaprima24.pl,grilliogrod.pl,zdroweslodycze.pl,witalnapaczka.pl,swatt.pl,bmcservers.com,myagd.pl,esenbogaairport.com,medpak.com.pl,sklepbraders.pl,laptopypoznan.pl,e-treningowy.pl,narowery.pl,marthome.pl,foxkomputer.pl,ruffles.com.tr,doritos.com.tr,fritolay.com.tr,psychologie-heute.de,onionite.pl,affenhand.de,hydroexpress.pl,petcover.pl,zapsplat.com,aytemiz.com.tr,marko-shoes.ru,aleplanszowki.pl,whyte.pl,luxpoint.com.pl,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,tello.com.pl,mojezapachy.pl,oomiyake.com,kawapartner.pl,izapachy.pl,ynside.extranet-bw.de,vicountdown.com,tommycafe.pl,insta360.com.pl,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,wysepka.pl,starstore.pl,skladnicaksiegarska.pl,virail.jp,avtoexpress.dp.ua,avg.pl,monazo.pl,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,itbiznes.pl,gaming.gen.tr,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,epainfo.pl,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,bezpieczny.pl,hyperbook.pl,nesine.com,mistral-poland.pl,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,aptekamedkon.pl,xzone.pl,primepc.pl,starsfromthestars.pl,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,sklep.portosrolety.pl,antidote.info,entega.de,skechers.com.tr,cira.ca,infosport.pl,copcorp.pl,xlap24.pl,fargotex.pl,kolobrzeg.info.pl,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,wasgehtapp.de,stocksy.com,flowforge.com,zeno.fm,spielregeln-spielanleitungen.de,boardgamegeek.com,techreviewer.de,gutegutscheine.de###cc--main
 ! ##.cc-overlay
 imker.pl,lagerhaus.at,kmu-boerse.at,stopline.at,meisterdrucke.jp,omvpetrom.com,petrom.ro,omv.com,omv.ro,omv.at,omv-gas.de,omv-gas-storage.com,omv.de,seg-social.pt,hausmagazin.com,evn.at,foodbrothers.com,semikolon.com,leuchtturm1917.de,laenderbahn.com,jhdversicherungen.de,computerwelt.at,torquato.de,dtv.de,vinzenz-klinik.de,herold.at,internorm.com,colop.com##.cc-overlay
 ! ###__tealiumGDPRecModal
@@ -420687,7 +420693,7 @@ carpathia.gov.ua,oda.od.gov.ua##div[class^="CookieModal_overlay"]
 arzuhalci.com.tr#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent_choice', 'declined')
 daycoval.com.br##app-termo-aceite-lgpd
 visit-dresden-elbland.de#%#//scriptlet('trusted-set-cookie-reload', 'dw_cookie_consent', '%7B%22v%22%3A%221%22%2C%22groups%22%3A%5B%5D%7D')
-mein-lb.de#%#//scriptlet('set-cookie', 'cookies_and_content_security_policy', 'emptyArr')
+woj-pol.pl,mein-lb.de#%#//scriptlet('set-cookie', 'cookies_and_content_security_policy', 'emptyArr')
 baden-baden.de,dasrehaportal.de,fc-moto.com,visit-koblenz.de,ludwigsburg.de#%#//scriptlet('trusted-click-element', '.ccm-root .ccm--decline-cookies', '!localStorage:ccm_consent')
 cora.com.br##div[class^="style-module-scss-module__"][class$="__cookies"]
 next.me##div[data-testid="sticky-cookies"]
@@ -426110,7 +426116,7 @@ secrid.com#%#//scriptlet('set-cookie', 'cookies', 'true')
 vente-unique.*,kauf-unique.at,kauf-unique.de###vu_consent
 maklerinmuenster.de,garten-bienen.at###privacyCtrl
 panchlebek.pl,progreso.pl,uwe.edu.pl,wsb-nlu.edu.pl,golddrop.eu,console-way.com,blachotrapez.eu,sklep-mietus.pl##.TsConsentWrapper
-zaburzeniasnu.info,dentystapoleca.pl,ibs.org.pl,helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
+lesniludzie.pl,zaburzeniasnu.info,dentystapoleca.pl,ibs.org.pl,helmuzeum.pl,brandvital.eu,leclerc.pl###lmk_cookiebaner_container
 zeebiz.com##.cookieScreenOverlay
 leggo.it#$#html { overflow: auto !important; }
 leggo.it#$##richiesta_accettazione_abbonamento { display: none !important; }
@@ -464134,7 +464140,7 @@ usnews.com##.moneydecisionspromo
 usnews.com##.healthpromo
 shethepeople.tv###SIGNUP_PAGE
 independent.co.uk###newsletter-component
-goalkicker.com##.sign-up
+democracydocket.com,goalkicker.com##.sign-up
 concursosnobrasil.com.br##.box-boletim
 drphil.com##.main-newsletter-signup
 thehindubusinessline.com###articleInline-nl
@@ -466187,6 +466193,7 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137819#issuecomment-1364610357
 ! notifications - part of the functionality
 ! discord.com##div[class^="container"] > nav[class^="wrapper"] + div[class^="base"] > div[class^="notice-"]
+votebeat.org##.newsletter-composer
 ouedkniss.dz#$#.o-app-bar:has(> .v-toolbar__content > button) { display: none !important; }
 ouedkniss.dz#$#.o-app-bar { top: 0px !important; }
 aiaplus.aia.co.kr###mwAppDownload
@@ -490218,7 +490225,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 ||wy213.com^$popup,third-party
 ||xiyouence.com^$popup,third-party
 ||yy18.info^*thanks$popup
-$script,third-party,domain=52movieba.com|audio699.com|duboku.info|kan-tv.com|m.supfree.net|mvffm.net|xiaoheimi.cc|xiaoyakankan.com|xunleisou.info|xunleisou.life
+$script,third-party,domain=52movieba.com|audio699.com|duboku.info|kan-tv.com|m.supfree.net|mvffm.net|xiaoheimi.cc|xiaoyakankan.com|xunleisou.forum|xunleisou.info|xunleisou.life
 $script,third-party,websocket,domain=52codes.net
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
