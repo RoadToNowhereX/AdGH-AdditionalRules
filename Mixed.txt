@@ -6216,6 +6216,10 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+pzonehd.com#%#//scriptlet('prevent-fetch', '/poweredby\.jads\.co|cdn\.tsyndicate\.com/')
+akari46.com#$##a46ab { display: none !important; }
+akari46.com#$#html, body { overflow: auto !important; }
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akari46.com
 ||retrovault.ch/assets/js/rv-guard.js
 retrovault.ch#%#//scriptlet('prevent-setTimeout', 'aclibLoaded')
 redtub.live#%#//scriptlet('prevent-setTimeout', '.clientHeight')
@@ -6536,6 +6540,7 @@ kodibeginner.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=i24news.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=i24news.tv
 xxvideoss.net#%#//scriptlet('prevent-setTimeout', '_0x')
+wispbyte.com#%#//scriptlet('prevent-setTimeout', 'offsetHeight===0')
 ||wispbyte.com/client/scripts/wisp-cmp-bridge.js
 gvhot.net,gvhot.com###adblock-overlay
 pfps.gg#@#.ad-slot
@@ -9099,14 +9104,7 @@ upfilesgo.com#%#//scriptlet('set-constant', 'window.vhit.detectAdblock', 'noopFu
 upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#@#.ad-inner
 upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#@#.ads-container
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#$#.adsbygoogle.ads-container[style] { display: block !important; }
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const e=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").set,t=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").get;Object.defineProperty(Element.prototype,"innerHTML",{get(){return t.call(this)},set(t){if(t?.includes?.("disable Adblock"))return;e.call(this,t)}})})();
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const t=/free-download-form|'\),_0x|\)\]\(function\(_0x|=>\{return/,e={apply:(t,e,o)=>{const n=o[0];"boolean"==typeof n&&!0===n&&(o[0]=!1),setTimeout((()=>Reflect.apply(t,e,o)),2e3)}},o={apply:(o,n,r)=>{const i=r[0];return"function"==typeof i&&t.test(i.toString())&&(r[0]=new Proxy(r[0],e)),Reflect.apply(o,n,r)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,o);const n=async t=>{t.preventDefault();const e=t.currentTarget;"function"==typeof window.vhit?.report&&await window.vhit.report(),e.form.requestSubmit(e)};window.addEventListener("load",(()=>{const t=document.querySelector("form#go-link button#link-button");if(t){const e=t.cloneNode(!0);t.parentNode.replaceChild(e,t),e.removeAttribute("disabled"),e.addEventListener("click",n)}}))})();
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const t={apply:(t,o,e)=>{try{const t=e[0];t&&"object"==typeof t&&Object.prototype.hasOwnProperty.call(t,"failed_hosts")&&Object.prototype.hasOwnProperty.call(t,"blocked")&&(t.failed_hosts="",t.blocked=!1)}catch(t){}return Reflect.apply(t,o,e)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'c.amazon-adsystem.com')
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'cdn.taboola.com')
-upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'ads.pubmatic.com')
+upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', '/scorecardresearch\.com|outbrain\.com|taboola\.com|criteo\.net|rubiconproject\.com|adform\.net|casalemedia\.com|adservice\.google\.com/', '', 'opaque')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=falpus.com|fooak.com|upfiles-urls.com|upfiles.app|upfion.com
 @@||citynews.ca/*/get_ad_$domain=citynews.ca
 ||citynews.ca/*/get_ad_$xmlhttprequest,redirect=noopjson,domain=citynews.ca,important
@@ -13029,8 +13027,7 @@ jagledam.com#@#.google-ads
 businessnovinite.bg###zora-banner
 fofmyanmar.com##div[style*="text-align: center;"] > a > img[style="width: 100%; height: auto"]
 fofmyanmar.com##center > a[rel="noopener noreferrer"] > img
-@@||balkantelevizija.net^$generichide
-balkantelevizija.net#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+||native.tportal.hr/black-friday/
 user.net.hr###net-product-gallery
 index.hr##div.js-carousel-campaign
 dnevnik.hr##.banner-holder
@@ -13055,6 +13052,8 @@ filmoviplex.com###vivadice
 telegram.hr##.banner-separator + div.full
 telegram.hr##.banner-separator
 vecernji.hr##div[data-client="vecernji_hr_spotlight"]
+@@||balkantelevizija.net^$generichide
+balkantelevizija.net#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 hercegovina.info##.banner-placeholder
 hercegovina.info##.banner-space
 hercegovina.info##.banner-placeholder-side
@@ -16635,6 +16634,9 @@ delfi.lv##div[data-ad-placement]
 delfi.lv##div[id^="zave_"]
 delfi.lv#%#//scriptlet("set-constant", "Adform", "emptyObj")
 delfi.lv#?#section > div[style]:has(> span:contains(/^Реклама$|^Reklāma$/))
+kaunas.kasvyksta.lt###kasvyksta_lt_top
+kaunas.kasvyksta.lt##div.catheter-recovery-host:has(> .catheter-sponsored-card)
+kaunas.kasvyksta.lt##.raw-html-component--ad
 ||krepsinis.net/catheter/detector.js^
 ||tv3.lt/Uploads/image/TOP-7bet/
 krepsinis.net###toTheTop
@@ -20237,6 +20239,10 @@ elektroda.pl##.sidebar-wrap .the-list > li[class]:not([class="clearfix"]) > a[hr
 iiv.pl#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 @@||iiv.pl^$generichide
 naszemiasto.pl#%#window.adBlockTest = true;
+shinden.pl##.hp-rot
+shinden.pl###sh-promo
+shinden.pl##.takie-tam
+shinden.pl##.sh-side-ad
 shinden.pl###spolSticky
 shinden.pl##.spolecznoscinet
 shinden.pl##iframe[src^="https://reklama.shinden.eu/adpeeps.php?"]
@@ -20245,6 +20251,8 @@ shinden.pl#%#//scriptlet('abort-current-inline-script', 'atob', 'getElementsByTa
 shinden.pl#%#//scriptlet("abort-on-property-read", "popjs.init")
 shinden.pl#%#//scriptlet("set-constant", "_pop", "noopFunc")
 shinden.pl#%#//scriptlet("abort-on-property-write", "AdservingModule")
+shinden.pl#%#//scriptlet('trusted-replace-argument', 'Document.prototype.querySelectorAll', '0', 'body', '[id^="spolecznosci-"] iframe')
+shinden.pl#%#//scriptlet('json-prune', 'bramka', 'bramkaLinki')
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
 ||spolecznosci.net^$domain=shinden.pl,important
 ||smartadserver.com/ac$script,redirect=noopjs,domain=shinden.pl,important
@@ -21230,7 +21238,7 @@ asilmedia.org#$#.site-wrap { margin-top: 0 !important; }
 ||yangi-kinolar.ru/*/pc.gif
 ||yangi-kinolar.ru/vast/*.xml
 asilmedia.org###banner
-cobephim.ink##.sspp-area
+cobephim.club##.sspp-area
 motchille.ws#%#//scriptlet('set-constant', 'HTMLAnchorElement.prototype.click', 'noopFunc')
 motchille.ws##div.fixed.inset-0
 damconuong.uno#%#//scriptlet('prevent-window-open', '_blank')
@@ -22140,7 +22148,7 @@ animeshd.online,streamsport.pro,soccerstreams.net,123mkv.*,bagas31.info,akwam.*,
 ganooll.co,aii.sh,oko.sh,cloudvideo.tv,file-up.org#%#//scriptlet("abort-current-inline-script", "Math", "/=function\(str,vocabulary\)/")
 milfcaps.com,book18.fans,hpjav.in,openload.movmomon-ga.com,nyahentai.*,javfan.one,jav.direct,javmix.tv,livecamrips.tv,whoreshub.com,mdhstream.cc,forums.socialmediagirls.com#%#//scriptlet('prevent-addEventListener', 'load', 'puURLstrpcht')
 javeve.tv,141jav.com#%#//scriptlet('abort-current-inline-script', 'onload', 'univresalP')
-1337x.st,thehentai.net,aagmaal.cx,hentaianimezone.com,javsaga.ninja,evojav.pro,momon-ga.com,torrentkitty.one,141ppv.com,camcam.cc,javneon.tv,1337x.to,hdporn92.com,eachporn.com,yourdailypornvideos.ws#%#//scriptlet('set-constant', 'univresalP', 'noopFunc')
+x1337x.eu,x1337x.*,1337x.st,1337x.*,thehentai.net,aagmaal.cx,hentaianimezone.com,javsaga.ninja,evojav.pro,momon-ga.com,torrentkitty.one,141ppv.com,camcam.cc,javneon.tv,1337x.to,hdporn92.com,eachporn.com,yourdailypornvideos.ws#%#//scriptlet('set-constant', 'univresalP', 'noopFunc')
 pornd.pro,uzaymanga.com,dfilmizle.com,cartoonporno.xxx,69games.xxx,mirrorace.com,safirfilmizle1.com,mylink.vc#%#//scriptlet("abort-on-property-read", "initPu")
 pornd.pro,asianpornjav.com,fetish-games.com,porngames.tv,twstalker.com,xbokepfb.co,javmix.app,shemaleporn.xxx,lizardporn.com,45.133.203.223,filmdelisi.co,seyredeger.com,masterplayer.*,filmseyretizlet.com,milfzr.com,movies07.live,hotscopes.*,hentaianimedownloads.com,eroticpub.com,boobsrealm.com,kickass.ws,naughtymachinima.com,xxxparodyhd.net,torrentproject.cc,porcore.com,mangoporn.net,pornkino.cc,watchpornfree.info,imguur.pictures,xxxmoviestream.xyz,mangoporn.co,kickass.vc,kickass.love,xopenload.me,streamporn.pw#%#//scriptlet('set-constant', 'puShown', 'true')
 mangakita.net,westmanga.*#%#//scriptlet('set-constant', 'puShown1', 'true')
@@ -24757,7 +24765,7 @@ mandiner.hu#%#//scriptlet('set-constant', 'Object.prototype.htmlLoadScriptServic
 variety.com,deadline.com,billboard.com,wwd.com,artnews.com,hollywoodreporter.com,rollingstone.com,robbreport.com,vibe.com,indiewire.com,goldderby.com,sportico.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/HTMLIFrameElement|JSON\[|_contentWindow/')
 variety.com,deadline.com,billboard.com,wwd.com,artnews.com,hollywoodreporter.com,rollingstone.com,robbreport.com,vibe.com,indiewire.com,goldderby.com,sportico.com#%#//scriptlet('abort-current-inline-script', 'btoa', '/HTMLIFrameElement|JSON\[|_contentWindow/')
 /^https:\/\/[a-z]{3,}\.[a-z]{7,}\.[a-z]{2,4}\/.{12,}/$script,third-party,denyallow=ai|au|be|br|de|hr|io|jp|pl|ru|tv|uk|edu|gov|net|adobedtm.com|ampproject.org|amazonaws.com|bootstrapcdn.com|chartbeat.com|cleverpush.com|cloudflare.com|connatix.com|cookiebot.com|cookielaw.org|dailymotion.com|dianomi.com|facebook.com|googleapis.com|googletagmanager.com|gstatic.com|instagram.com|intentiq.com|jwplatform.com|jwplayer.com|musixmatch.com|onesignal.com|onetrust.com|outbrain.com|paypalobjects.com|quantserve.com|recurly.com|scorecardresearch.com|thecontentserver.com|tinypass.com|twitter.com|uservoice.com|wpmucdn.com|youtube.com,domain=variety.com|deadline.com|billboard.com|wwd.com|artnews.com|rollingstone.com|robbreport.com|vibe.com|indiewire.com|goldderby.com|sportico.com|hollywoodreporter.com
-netvasco.com.br,variety.com,deadline.com,billboard.com,wwd.com,artnews.com,hollywoodreporter.com,rollingstone.com,robbreport.com,vibe.com,indiewire.com,goldderby.com,sportico.com$$script[data-cfasync="false"][nowprocket]
+keizai.biz,netvasco.com.br,variety.com,deadline.com,billboard.com,wwd.com,artnews.com,hollywoodreporter.com,rollingstone.com,robbreport.com,vibe.com,indiewire.com,goldderby.com,sportico.com$$script[data-cfasync="false"][nowprocket]
 gamebanana.com,torontosun.com,athlonsports.com,edmontonsun.com,driving.ca,vancouversun.com$$script:contains(window.adshield)
 ||fokstatic.nl/fp/global/*adshield.js
 ||ads.adthrive.com/abd/abd.js$xmlhttprequest,redirect=noopjs
@@ -24794,10 +24802,10 @@ newser.com#%#//scriptlet('abort-current-inline-script', 'btoa', 'abcdefghijklmno
 .com/store/*.js|$script,third-party,domain=standard-freeholder.com
 .com/script/*.js|$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|motor-talk.de|worldhistory.org|kr-weathernews.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org|nicovideo.jp|cpu-monkey.com|dic.pixiv.net|ameblo.jp|comingsoon.net|superherohype.com
 ://www.*.xyz/script/$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|motor-talk.de|worldhistory.org|kr-weathernews.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org|cpu-monkey.com|dic.pixiv.net|ameblo.jp
-/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.[a-z]{2,4}\/.{12,}/$script,third-party,denyallow=ai|au|be|br|de|hr|io|jp|pl|ru|tv|uk|edu|gov|net|adobedtm.com|ampproject.org|amazonaws.com|bootstrapcdn.com|chartbeat.com|cleverpush.com|cloudflare.com|connatix.com|cookiebot.com|cookielaw.org|dailymotion.com|dianomi.com|facebook.com|googleapis.com|googletagmanager.com|gstatic.com|instagram.com|intentiq.com|jwplatform.com|jwplayer.com|musixmatch.com|onesignal.com|onetrust.com|outbrain.com|paypalobjects.com|quantserve.com|recurly.com|scorecardresearch.com|thecontentserver.com|tinypass.com|twitter.com|uservoice.com|wpmucdn.com|youtube.com,domain=reuters.com|euronews.com
+/^https:\/\/[a-z]{3,}\.[a-z]{7,}\.[a-z]{2,4}\/.{12,}/$script,third-party,denyallow=ai|au|be|br|de|hr|io|jp|pl|ru|tv|uk|edu|gov|net|adobedtm.com|ampproject.org|amazonaws.com|bootstrapcdn.com|chartbeat.com|cleverpush.com|cloudflare.com|connatix.com|cookiebot.com|cookielaw.org|dailymotion.com|dianomi.com|facebook.com|googleapis.com|googletagmanager.com|gstatic.com|instagram.com|intentiq.com|jwplatform.com|jwplayer.com|musixmatch.com|onesignal.com|onetrust.com|outbrain.com|paypalobjects.com|quantserve.com|recurly.com|scorecardresearch.com|spot.im|thecontentserver.com|tinypass.com|twitter.com|uservoice.com|wpmucdn.com|youtube.com,domain=reuters.com|euronews.com
 reuters.com#%#//scriptlet('remove-node-text', 'script', 'adshieldScript')
 addictinggames.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/HTMLIFrameElement|JSON\[|_contentWindow/')
-telegraph.co.uk,u.gg,euronews.com,addictinggames.com#%#//scriptlet('abort-current-inline-script', 'btoa', '/HTMLIFrameElement|JSON\[|_contentWindow/')
+gumtree.com,telegraph.co.uk,u.gg,euronews.com,addictinggames.com#%#//scriptlet('abort-current-inline-script', 'btoa', '/HTMLIFrameElement|JSON\[|_contentWindow/')
 reuters.com$$script:contains(adshieldScript)
 mavericktruckclub.com,f150gen14.com,4runner6g.com,f150lightningforum.com,slateforums.com,jeepgladiatorforum.com,broncosportforum.com,taycanforum.com,macanevowners.com,jlwranglerforums.com,spanjevandaag.com$$script[data-cfasync="false"][nowprocket]
 dolldivine.com$$script:contains(adrecover.com)
@@ -24857,7 +24865,7 @@ lastwordonsports.com##.lwos-incontent-ad
 /adblock.js$domain=anisnatch.top|anisnatch.to
 ||helpers.publisherdesk.com/main.js
 hk01.com#%#//scriptlet('trusted-replace-argument', 'HTMLScriptElement.prototype.setAttribute', '1', 'replace:/.*(async[\s]*\(\)[\s]*=>[\s]*\{[\s]*try[\s]*\{[\s]*(const|var)[\s]*e[\s]*=[\s]*e[\s]*=>|if[\s]*\(await eval\(|[a-z]\([a-z]\),setTimeout\(\(\(\)=>\{[a-z]\(!1\)|\(async\(\)=>[\s\S]*?\(\)=>eval\)?,.:|\(async \(\) =>[\s\S]*?\(\) => eval\)?,\n.*.:|:\(\)=>eval|;\(async\(\)=>\{\([\s\S]*?:void 0\|\|window,|;\(async\(\)=>\{\([\s\S]*?:\d&&window,|\(function\(\)\{function[\s\S]*]===undefined\)\{var[\s\S]*:-0x|\.adshield\.|;\(async\(\)=>\{[\s\S]*?,..?:(\'|")|\.join\(String\.fromCharCode.*?\(async\(\)=>\{var).*//g')
-okuyami-information.com,netvasco.com.br,euronews.com,manchestereveningnews.co.uk,gamingbible.com,getnews.jp,zekamashi.net,przegladsportowy.onet.pl,nlab.itmedia.co.jp,dictionary.cambridge.org,myinstants.com,mamastar.jp,uppercutmma.com,oxfordlearnersdictionaries.com,weatherzone.com,cyclingnews.com,9gag.com,automobile-catalog.com,hb-nippon.com,worldjournal.com,nikkansports.com,robbreport.com,rollingstone.com,gloria.hr,deadline.com,vibe.com,goldderby.com,artnews.com,gearjunkie.com,urldecoder.org,base64decode.org,index.hr,willyweather.com.au,fandom.com#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
+keizai.biz,okuyami-information.com,netvasco.com.br,euronews.com,manchestereveningnews.co.uk,gamingbible.com,getnews.jp,zekamashi.net,przegladsportowy.onet.pl,nlab.itmedia.co.jp,dictionary.cambridge.org,myinstants.com,mamastar.jp,uppercutmma.com,oxfordlearnersdictionaries.com,weatherzone.com,cyclingnews.com,9gag.com,automobile-catalog.com,hb-nippon.com,worldjournal.com,nikkansports.com,robbreport.com,rollingstone.com,gloria.hr,deadline.com,vibe.com,goldderby.com,artnews.com,gearjunkie.com,urldecoder.org,base64decode.org,index.hr,willyweather.com.au,fandom.com#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
 thesavvyexplorers.com,thegoldendaily.com,hometalkpaid.com,hometalk.com,homehobbiesdaily.com,foodtalkdaily.com,rvguide.com,petguide.com,motorcycle.com,atv.com,redesigndaily.com,thesimplifydaily.com,autoguide.com#%#//scriptlet('set-constant', 'loadShield', 'noopFunc')
 xbitlabs.com#%#//scriptlet('abort-current-inline-script', 'Node.prototype.appendChild', '/-parseInt\(.*=new WebSocket\(/')
 wetter.com#%#//scriptlet('set-constant', 'wcomBlock', 'noopFunc')
@@ -25114,6 +25122,28 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ai|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+downforeveryoneorjustme.com##.pw-ad-slot
+downforeveryoneorjustme.com##.grid > div > div.pb-4:has(> p > a[href="http://www.playwire.com"])
+porofessor.gg##.cards-list > li:has(> div.inline-video-player)
+getav.net##section[data-ad-slot-key]
+getav.net##.hidden[style*="min-height:"]
+getav.net##section[aria-label="Advertisement"]
+getav.net#%#//scriptlet('trusted-set-local-storage-item', 'popunder_blocked_until', '4102444800000')
+pgatour.com##div.no-print:has(> div[class^="AdSlot_"])
+pgatour.com##div[class^="css-"]:has(> div.no-print > div[id^="ad-"])
+pgatour.com##iframe[title="leaderboard-header-rolex-clock"]
+pgatour.com##div[class^="WeatherForecastModal_sponsorColumn"]
+watch.plex.tv##div[class^="DisplayAd-module__"]
+pornsack.com##.watch-ad-links
+pornsack.com##.footer-community-button--theporndude
+cybernews.com##.editorial__sidebar-ads
+cybernews.com##.direct-ad
+akari46.com##.widget.HTML:has(> .widget-content > ins.adsbygoogle)
+akari46.com###sidebar > .widget.Stats ~ div[class="widget HTML"]
+gayhaus.com##.col.second:has(> .spot-holder)
+gayhaus.com###comment .related-video
+gayhaus.com##div[class*="pornlynx-"]
+||gayhaus.com/*.js?*=videop-
 extraetf.com##app-promotion
 extraetf.com##.card:has(> .card-body > div > a[rel*="sponsored"])
 divvydiary.com##main > div[class]:has(> div:only-child > aside:only-child > a[href^="https://partner"]:only-child)
@@ -25209,7 +25239,8 @@ sportsnaut.com##.tpd-ad-slot-block
 pymnts.com#$#.container-scroller { --billboard-h: 0px !important; }
 games.gg##.ad-rail-reserve
 ||cms.games.gg/api/advertisements
-||1337x.st/mm.js
+||x1337x.*/mm.js^
+||1337x.*/mm.js^
 gayporntube.com##.category-banner
 thepostmillennial.com##aside[aria-label="Advertisement"]
 topsitecam.com##body .ad-banner
@@ -25337,7 +25368,6 @@ xxxfetish.tube##a[href][target="_blank"][rel*="sponsored"]
 xxxfetish.tube##.header-promo-link
 xxxfetish.tube##.header-inner > nav > a:not([href^="https://xxxfetish.tube/"])
 xxxfetish.tube##.fh-videos
-xxxfetish.tube##.fp-logo
 xxxfetish.tube##.promo-box
 filecrypt.cc#%#//scriptlet('prevent-addEventListener', 'click', '/_0x|window\.open/')
 content.st#%#//scriptlet('json-prune', '$.[?(@.id && @.needCheck && @.plan)].plan')
@@ -26557,7 +26587,7 @@ publishersweekly.com###right-column-boom-box
 ipaomtk.com##.ipaomtk-ad-slot
 wiirom.com##button.file-download-btnn
 rootz.so#%#//scriptlet('trusted-create-element', 'body', 'div', 'id="rootz-ad"')
-fuckingfast.net,fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
+datavaults.co,fuckingfast.net,fuckingfast.co,uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 missav.*##div[style="width: 300px; height: 100px;"]
 onedio.co###masthead-background
 onedio.co###masthead-container
@@ -38768,7 +38798,7 @@ audiogon.com###main-content div.content-marketing-panes:not(:last-child)
 audiogon.com###main-content div.content-marketing-panes > div[class]:first-child + div[class]
 thefunpost.com##.ad-spacing
 reuters.com##div[class^="StickyContainer-container-"][style^="height: 1200px;"][style*="margin-bottom: 120px;"]
-katestube.com,xtits.*,mybestxtube.com,teencumpot.com,sexroom.xxx,asiansex.life##.spot-holder
+gayhaus.com,katestube.com,xtits.*,mybestxtube.com,teencumpot.com,sexroom.xxx,asiansex.life##.spot-holder
 ||sexroom.xxx/xxx/fastload.js
 asianporn.life,asiansex.life##.full-ave
 asianporn.life,asiansex.life##.top-mo-ave
@@ -39385,7 +39415,7 @@ lnk.parts##.display-link-layer > .display-300x250
 az511.gov##.adsContainerTop
 sitepoint.com##div[class^="styledHeader__TopBanner-"]
 gamelab.com,play.dictionary.com##div[class^="DisplayAd__container_"]
-faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
+gayhaus.com,xxxfetish.tube,faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
 kolombox.com###dlbtn_big
 ||kolombox.com/images/downicon.png
 stylecaster.com##.wrapper-header-ad-slot
@@ -52615,7 +52645,7 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 /adasync.js$script
 /adasync.min.js$script
 /adbanners/*$image
-/adblock/frontend_loader.js
+/adblock/frontend_loader.js$~xmlhttprequest
 /adchoice.png$image
 /adcount.js$script
 /addyn|*;adtech;
@@ -53139,6 +53169,7 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 /slide_in_ads_close.gif$image
 /sliderad.js$script
 /small_ad.$image,domain=~eh-ic.com
+/snigel-billboard.
 /sp/delivery/*$script
 /spacedesc=
 /spc.php?$script
@@ -53440,7 +53471,7 @@ _prebid.js$script
 /jquery.peelback.$script
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
-/ad-blocking-detector/assets/js/adblock-detector.min.js
+/ad-blocking-detector/assets/js/adblock-detector.min.js$~xmlhttprequest
 /adblock-detect.$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock_detector2.$script
@@ -54880,7 +54911,6 @@ _800x80_
 ###adb_bottom
 ###adbackground
 ###adbanner-container
-###adbanner1
 ###adbannerbox
 ###adbannerdiv
 ###adbannerleft
@@ -54893,9 +54923,6 @@ _800x80_
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
-###adblock1
-###adblock2
-###adblock4
 ###adblockbottom
 ###adbn
 ###adbnr
@@ -64168,6 +64195,7 @@ _800x80_
 ##.iframe-ads
 ##.iframeAd
 ##.iframeAds
+##.ii-snigel-billboard
 ##.image-advertisement
 ##.imageAd
 ##.imageAds
@@ -66634,6 +66662,7 @@ _800x80_
 ##[data-mobile-ad-id]
 ##[data-rc-widget]
 ##[data-revive-zoneid]
+##[data-shutterstock-state]
 ##[data-template-type="nativead"]
 ##[data-testid="adBanner-wrapper"]
 ##[data-testid="ad_testID"]
@@ -67779,11 +67808,15 @@ embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
 ||admitad.com^
 ||ads-static.conde.digital^
+||ajccwxvuiblhp.online^
 ||alipromo.com^
 ||alitems.com^
 ||atdmt.com^
 ||buyeasy.by^
 ||demand.supply^$script
+||donuheridimylo.com^
+||fh-dxy.com^
+||fhgte.com^
 ||fl.corniercuffed.qpon^
 ||fwmrm.net^
 ||googletagservices.com^
@@ -67793,9 +67826,11 @@ browsershots.org#@#.advert_area
 ||loadercdn.com^
 ||macro.adnami.io^
 ||monetag.com^
+||nidolwfkiaw.in^
 ||ntv.io^
 ||ojrq.net^
 ||paid.outbrain.com^
+||prncsrnlslpsc.website^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
 ||redirectingat.com^
@@ -67803,6 +67838,8 @@ browsershots.org#@#.advert_area
 ||totaladblock.com^
 ||videoplaza.tv^
 ||wpnrtnmrewunrtok.xyz^
+||xjyzuvwjcvixx.space^
+||ybxajjlbsoiwx.space^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
 ||2bestoffer.com^$document
@@ -74212,6 +74249,8 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||underwriting.allclassical.org/player-banners/
 ||unmoor.com/config.json
 ||uploadcloud.pro/altad/
+||uqload.vc/58228/m7j7j669.js
+||uqload.vc/7g6m8/8g4h3mhm.js
 ||userscript.zone/s.js
 ||usrfiles.com^$domain=melophobemusic.com|utterlyinteresting.com
 ||utilitydive.com/static/js/prestitial.js
@@ -74730,6 +74769,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pantyhoseposing.com/ed/
 ||pantyhoseshow.com/fd/
 ||pantyhoseteases.com/mass/
+||peachr.tv/api/spot/
 ||phonerotica.com/resources/img/banners/
 ||picshick.com/b9ng.js
 ||pimpandhost.com^$subdocument
@@ -75421,6 +75461,7 @@ academictorrents.com###carbon
 downforeveryoneorjustme.com###carbonDiv
 csdb.dk###casdivhor
 csdb.dk###casdivver
+eqmusicblog.com###cb-bg-to
 cbn.com###cbn_leaderboard_atf
 cloudwards.net,guitaradvise.com###cbox
 linuxinsider.com###cboxOverlay
@@ -76995,6 +77036,7 @@ canoe.com##.ad__section-border
 asianjournal.com##.ad_before_title
 kyivpost.com##.ad_between_paragraphs
 cheatcodes.com##.ad_btf_728
+watzatsong.com##.ad_container
 tribuneindia.com##.ad_div_incls
 ntvkenya.co.ke##.ad_flex
 base64decode.org,base64encode.org,beautifyjson.org,minifyjson.org,prettifycss.com,prettifyjs.net,uglifycss.com,uglifyjs.net,urldecoder.org,urlencoder.org##.ad_header_box
@@ -77347,6 +77389,7 @@ adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.co
 streetdirectory.com##.anchor_bottom
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
+leetcode.com##.announcement-bar__container
 phonearena.com##.announcement-section
 phonearena.com##.announcements
 minecraftskins.com##.antiblock-wrapper
@@ -78404,6 +78447,7 @@ executivegov.com##.execu-widget
 metric-conversions.org##.exists
 gobankingrates.com##.exit-intent
 proprivacy.com##.exit-popup.modal-background
+notmeter.com##.exitlag-badge
 streamingmedia.com##.expand
 thejakartapost.com##.expandable-bottom-sticky
 appuals.com##.expu-protipeop
@@ -78535,6 +78579,7 @@ searchcommander.com##.footer-widget
 gelbooru.com##.footerAd2
 businessnow.mt,igamingcapital.mt,maltaceos.mt,whoswho.mt##.footer__second
 pbs.org##.footer__sub
+arkadium.com##.footer_ad--bottom
 satbeams.com##.footer_banner
 techopedia.com##.footer_inner_ads
 realmadrid.com##.footer_rm_sponsors_container
@@ -78733,6 +78778,7 @@ onlymyhealth.com##.gutterBanner
 worldpopulationreview.com##.h-64
 tvcancelrenew.com##.h-72
 lolalytics.com,thenewdaily.com.au##.h-\[100px\]
+emojipedia.org##.h-\[112px\]
 nextchessmove.com##.h-\[112px\].flex.justify-center
 posemaniacs.com##.h-\[250px\]
 freemalaysiatoday.com##.h-\[260px\]
@@ -80229,6 +80275,7 @@ terminal.hackernoon.com##.right
 cnbctv18.com##.right-ad-amp
 mathgames.com##.right-ad-override
 news.net##.right-banner-wr > .right
+watzatsong.com##.right-column-why-ads
 countrylife.co.uk,cyclingweekly.com##.right-hand-adunit
 africanews.com##.right-legend
 essentialenglish.review##.right-panel
@@ -80384,6 +80431,10 @@ pressdemocrat.com##.sfb2024-section__ad
 troypoint.com##.sgpb-popup-dialog-main-div-wrapper
 analyticsinsight.net,moviedokan.lol,shortorial.com,troypoint.com##.sgpb-popup-overlay
 stockhouse.com##.sh-ad
+shattered.io##.sh-ad-ia
+shattered.io##.sh-ad-leaderboard
+shattered.io##.sh-ad-rail
+shattered.io##.sh-eng-adslot
 soaphub.com##.sh-sh_belowpost
 soaphub.com##.sh-sh_inpost_1
 soaphub.com##.sh-sh_inpost_2
@@ -80469,7 +80520,9 @@ abovethelaw.com,breakingdefense.com,medcitynews.com##.sidebar__top-sticky
 snopes.com##.sidebar_ad
 pcgamesn.com##.sidebar_affiliate_disclaimer
 lightspeedmagazine.com##.sidebar_box:has(.adtext)
+watzatsong.com##.sidebar_lhs
 bxr.com##.sidebar_promo
+watzatsong.com##.sidebar_rhs
 alternet.org##.sidebar_sticky_container
 macrumors.com##.sidebarblock
 macrumors.com##.sidebarblock2
@@ -80585,6 +80638,7 @@ newsroom.co.nz##.sponsor-logos2
 trace.moe##.sponsor-module__2LoZHG__sponsor
 fimfiction.net##.sponsor-reminder
 compellingtruth.org##.sponsor-sidebar
+news.lavx.hu##.sponsor-slot
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
@@ -80622,6 +80676,7 @@ vuejs.org##.sponsors-aside-text
 foojay.io##.sponsors-block
 salixos.org##.sponsors-container
 libhunt.com##.sponsors-list-content
+acode.app##.sponsors-section
 petri.com##.sponsorsInline
 newswiretoday.com,przoom.com##.sponsortd
 sportsspectrum.com##.sport-target
@@ -81365,6 +81420,7 @@ wallapop.com##[class*="__topSky"]
 gamezop.com##[class*="_ad_container"]
 crazygames.*##[class*="_leaderboardContainer_"]
 onlymyhealth.com##[class*="_omh_banner_"]
+notmeter.com##[class*="ad-rail"]
 cointelegraph.com,doodle.com##[class*="ad-slot"]
 whitecoatinvestor.com##[class*="blog-"][class*="-as"]
 bmwblog.com##[class*="bmwbl-300x250"]
@@ -81378,6 +81434,7 @@ pixiv.net##[class*="style_ads_"]
 giphy.com##[class*="w-adCarousel"]
 fullmatch.info##[class*="wp-image"]
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.lt,douglas.lv,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk,nocibe.fr##[class="cms-criteo"]
+notmeter.com##[class="exitlag-promotion"]
 m.economictimes.com##[class="wdt-taboola"]
 kcra.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu.com,wgal.com,wlwt.com,wmtw.com,wmur.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##[class]:has(>[data-type])
 topgear.com##[class^="AdContainer"]
@@ -81417,6 +81474,7 @@ investing.com##[data-ad-label="Advertisement"]
 usnews.com##[data-ad-props]
 techrepublic.com##[data-ad-slot]
 axios.com##[data-ad-status="AD"]
+pngtree.com##[data-ad-status]
 androidauthority.com,soundguys.com##[data-ad-type]
 dexerto.com##[data-ad-unit-id]
 kingmods.net##[data-ad-wrapper-slot]
@@ -81489,6 +81547,7 @@ eater.com,sbnation.com##[data-native-ad-id="container"]
 flatpanelshd.com##[data-onpage="true"]
 wsj.com##[data-parsely-slot] > p[style="text-align:center"]
 jeffdornik.com##[data-pin-url]
+arkadium.com##[data-placement]
 extremetech.com##[data-pogo="sidebar"]
 mashable.com##[data-pogo="top"]
 healthgrades.com##[data-qa-target="leaderboard-ad"]
@@ -81497,6 +81556,7 @@ scmp.com##[data-qa="ArticleContentRightSection-AdSlot"]
 scmp.com##[data-qa="OutstreamAdSlot-Container"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
+arkadium.com##[data-rail-widgets-below-ads]
 ginx.tv##[data-ref]
 gridinsoft.com##[data-report-ad]
 euroweeklynews.com##[data-revive-zoneid]
@@ -406912,6 +406972,7 @@ d4?appid*type*
 !### Temporary ###
 @@||st-*.dynamicyield.com/st*&inHead=true&id=*&jsession=*scriptVersion=*&noConsent=
 !#################
+||googletagmanager.com/gtag/js$redirect=noopjs,domain=propertyguru.com.my
 @@||googletagmanager.com/gtag/js$domain=5ch.io
 @@||googletagmanager.com/gtm.js$domain=support.brother.com
 @@||googletagmanager.com/gtm.js$script,domain=aeon.co.jp
@@ -407011,7 +407072,6 @@ pedalparts.co.kr#%#//scriptlet('set-constant', 'aCounterPageScriptGoodsView', 'n
 @@||cr.acecounter.com/Web/AceCounter_AW.js$domain=pedalparts.co.kr
 footballtransfers.com#%#//scriptlet('prevent-element-src-loading', 'script', '/dotmetrics\.net|covatic\.io/')
 @@||cdn.cxense.com/cx.js$domain=gizmodo.jp
-@@||assets.adobedtm.com^$domain=realtor.com
 @@||ssl.kaptcha.com/collect/$domain=app.airtm.com
 @@||edge.adobedc.net/*/identity/acquire?$domain=goldmansachs.com
 goldmansachs.com#%#//scriptlet('prevent-fetch', 'edge.adobedc.net')
@@ -410618,7 +410678,6 @@ $removeparam=xmt,domain=threads.com|threads.net
 ||assetstore.unity.com^$removeparam=aid
 ||airvpn.org^$removeparam=referred_by
 ||protonvpn.com^$removeparam=url_id
-||protonvpn.com^$removeparam=plan
 ||protonvpn.com^$removeparam=ref
 ||go.getproton.me^$removeparam=aff_c
 ||proton.me^$removeparam=url_id
@@ -412093,7 +412152,6 @@ $removeparam=search_domain,domain=ya.ru|yandex.*
 ||google.*/search$removeparam=sca_esv
 ||google.*/search$removeparam=sclient
 ||google.*/search$removeparam=ved
-||google.*/search$removeparam=oq
 ||google.*/search$removeparam=oe
 ||google.*/websearch$removeparam=visit_id
 ||google.*/search$removeparam=sa
@@ -414877,6 +414935,21 @@ cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][dat
 ||cookietrace.webequalty.com^$domain=sabancivakfi.org
 sabancivakfi.org###ez-banner[role="banner"]
 military24.pl,softimi.pl,yarnpower.pl,baumgart-kaffee.pl,decorlabs.pl,werbus.pl,xeromania.pl,dzielnicazdrowia.pl,sklepy-cynamonowe.eu,elektronar.pl,granitnaturalny.pl,sklep-ppoz.pl,alphastore.pl,latamfpv.pl,krugermatz.com,patandrub.eu,sklepkoszykarski.pl,dayabeauty.pl,najlepszyfiltr.pl,wildleather.pl,sklep.szymkowiak-karcher.pl,coolmarket.pl,sklep.hmmcleaning.pl,biogo.pl,sklep-marinelab.pl,rarecraft.pl,kaweo.pl,yummo.pl,candy-shop.pl,slodyczowo.pl,friser.pl,sklep.cryptotech.com.pl,jupiter.com.pl,sklep.bacowkatowary.pl,higienamed.pl,voiceshop.pl,superrower.pl##.consents
+shockprice.com##shockprice-ui-cookie-consent
+kefirgames.com##dialog[class^="PopupCookies"]
+048.ua##app-cookie-consent-popup
+bobswatches.com#$#.consent-overlay { display: none !important; }
+bobswatches.com#$#html.consent-open { overflow: auto !important; }
+telekom-security.com#$##cookie-container { display: none !important; }
+telekom-security.com#$#body { overflow: auto !important; }
+wearmedicine.com##div[data-test="cookiesConsentModal"]
+fluxpayroll.ai#%#//scriptlet('set-cookie', 'flux_tracking_consent', 'false')
+senet.cloud##[aria-labelledby="cookie-notice-title"]
+senet.cloud##button[data-consent-region][data-consent-country]
+joybuggy.com##div[aria-labelledby="onboarding-modal-title"]:has(button[data-testid="accept-essential"])
+||ncez.pzh.gov.pl/*/plugins/lightweight-cookie-consent/
+plitch.com##.cookiebar-overlay
+xn--80az8a.xn--d1aqf.xn--p1ai#%#//scriptlet('set-local-storage-item', 'isConfirmTerms', 'true')
 ||primecook.pl/catalog/view/theme/primecook/js/vendor/primecook-consent-nosnippet-
 jtexpress.de###cookie-use-sdk-container
 vermoegenswirksame-leistungen.de###jlplg-lovecoding-cookie-info-container
@@ -415683,7 +415756,7 @@ afyonpostasi.com.tr##.cookie-consent-body
 infrawire.net##.sm\:w-auto.sm\:p-4.z-\[99999\]
 falabella.com.pe##.overlay-popover
 spid.center##div[class^="_"]:has(> a[href="/privacy"])
-seyredelim.com,cinobo.pl,mining.sandvik##div[data-consent-banner]
+cinobo.com,seyredelim.com,cinobo.pl,mining.sandvik##div[data-consent-banner]
 naturitas.pl#%#//scriptlet('trusted-set-cookie', 'cookie-consent', 'none')
 skyscanner.at,skyscanner.cz,skyscanner.de,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.pl,skyscanner.se,skyscanner.net,skyscanner.*#$#body { overflow: auto !important; padding-right: 0 !important; position: static !important; touch-action: auto !important }
 skyscanner.at,skyscanner.cz,skyscanner.de,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.pl,skyscanner.se,skyscanner.net,skyscanner.*#$#.consent-banner-wrapper { display: none !important; }
@@ -415753,7 +415826,7 @@ infopraca.pl#$#.cookie-modal-backdrop { display: none !important; }
 infopraca.pl#$#body[style^="overflow:"] { overflow: auto !important; padding-right: 0 !important; }
 kanopy.com##.gpc-banner
 xhamster46.desi##div[data-role="cookies-modal"]
-antalyahakkinda.com,antalyakorfez.com,61saat.com,bomba32.com,kayserihaber.com,haberts.com,milligazete.com.tr,ilerigazetesi.com.tr,kamudanhaber.net,turkinform.com.tr,2eylul.com.tr,eskisehirhaberajansi.com,urfanatik.com,politikam.com,sonsoz.com.tr#?#.js-cookie-consent
+samsunhaber.com,antalyahakkinda.com,antalyakorfez.com,61saat.com,bomba32.com,kayserihaber.com,haberts.com,milligazete.com.tr,ilerigazetesi.com.tr,kamudanhaber.net,turkinform.com.tr,2eylul.com.tr,eskisehirhaberajansi.com,urfanatik.com,politikam.com,sonsoz.com.tr#?#.js-cookie-consent
 supply.amazon.com#%#//scriptlet('set-cookie', 'sc-ccv2', '1')
 advertising.amazon.com###ccb-exists
 sunandsnow.pl#$#html { overflow-y: auto !important; }
@@ -418200,7 +418273,7 @@ pepper.pl#$#.zIndex--modal.popover--layout-fixed-bottomSheet:has(.vue-portal-tar
 pepper.pl#$#.popover-cover.zIndex--modal:empty:has(+ .zIndex--modal.popover--layout-fixed-bottomSheet .vue-portal-target > .flex > button[data-t="showCookiesSettings"]) { display: none !important; }
 sber.ru,sberbank.ru,sberbank.com#%#//scriptlet('set-cookie', 'sbrf.pers_notice', '1')
 pionergame.com#%#//scriptlet('set-cookie', 'ca', 'true')
-cuffway.us,bluemail.me,chargeandsleep.com,thingtesting.com##div[aria-label="Cookie notice"]
+patchmyrom.com,cuffway.us,bluemail.me,chargeandsleep.com,thingtesting.com##div[aria-label="Cookie notice"]
 brandirectory.com##.app-cookie-banner--banner
 playinzoi.com##.csm
 supereyes.ru##.s-cookes
@@ -420657,7 +420730,7 @@ palcomp3.com.br#?#footer ~ div .grid > div[class]:has(> span ~ div > div > p > a
 chizhik.club#?#div[class] > div[style]:has(> div[class] > div.policy_icon)
 polskie-drobiarstwo.pl#%#//scriptlet('set-local-storage-item', 'accept-rodo', '1')
 hola.org###content_of_consent
-vizor.helpshift.com,roviosupport.helpshift.com,embark-studios.helpshift.com##.cookie-notif-banner
+kefirgames.helpshift.com,vizor.helpshift.com,roviosupport.helpshift.com,embark-studios.helpshift.com##.cookie-notif-banner
 kamtridit.cz##.modal-bottom-fixed-cookies
 infojobs.it###cmpContainer
 chromeactions.com##footer > div > div
@@ -424048,7 +424121,7 @@ tokion.jp##.tkn-cookie-accept__area
 openbankingbrasil.org.br#$#.modal-privacidade { display: none!important; }
 openbankingbrasil.org.br#$#.modal-privacidade ~ .modal-backdrop { display: none!important; }
 openbankingbrasil.org.br#$#body { overflow: visible!important; padding-right: 0!important; }
-muzykalnya.ru,artplex.ru,mhcenter.ru,avtodozor-gps.com.ua,tab.digital##.t972
+arbital.ru,muzykalnya.ru,artplex.ru,mhcenter.ru,avtodozor-gps.com.ua,tab.digital##.t972
 mibaby.de##.overlay_buddy_wrapper.align_bottom.style_green
 internxt.com##div[class^="Footer_cookiesBgFallback"]
 fitline.com##section[class^="CookiesGDPR_initial"]
@@ -424801,7 +424874,7 @@ tresorit.com##footer + aside
 thecap.com.br##body > div[style$="position: fixed; width: 100%; z-index: 99999999;"]
 ||infopedia.pt/*klaro/klaro-pe.js
 nostter.app,todtv.com.tr,cryptonews.com,duellinksmeta.com##.cookieConsentWrapper
-atoz2512.com,getmodapks.in,elaoffcial.com,ch1n.com.br,zapowiedzi24.blogspot.com,rockmods.net##.cookies-show
+akari46.com,atoz2512.com,getmodapks.in,elaoffcial.com,ch1n.com.br,zapowiedzi24.blogspot.com,rockmods.net##.cookies-show
 anthropologie.com,urbanoutfitters.com##.cookie-message__cookieMessage
 adslgr.com,cxense.com###cookieConsentDiv
 discoverybrasil.com##div[data-testid="test-root"]
@@ -431905,6 +431978,9 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo.pl,r360.eu,centrumwyobrazni.pl#$#main { filter: none !important; pointer-events: auto!important; }
 poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo.pl,r360.eu,centrumwyobrazni.pl#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
+@@||b.delivery.consentmanager.net/delivery/$domain=nn.de
+telekom-security.com#@##cookie-container
+telekom-security.com#@#.cookie-content
 @@||picpay.com/scripts/cookie-consent.js$domain=picpay.com
 liderlamp.pl#@#.cookie-setting
 liderlamp.pl#@#.cookie-content
@@ -435304,7 +435380,6 @@ smartzone.de##.toast-ad-block-wrapper
 ||a.pemsrv.com/ad-provider.js$domain=xvideos.es,redirect=nooptext
 cloudfam.io##.cf-warning-section
 myradioonline.pl##.js-appAdv
-myradioonline.pl##.popup_layer
 myradioonline.pl#%#//scriptlet('prevent-element-src-loading', 'script', 'cfusion-internet.com')
 replacedbyrobot.info#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'window.getComputedStyle')
 manoramamax.com#$#body { overflow: auto !important; }
@@ -437834,6 +437909,9 @@ claude.ai,inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accoun
 klerk.ru#?#iframe[src^="https://autofill.yandex.ru/suggest?"][src*="widget"]
 sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+cyderes.com###hs-web-interactives-bottom-anchor
+bigo.tv##.room-recommend-live ~ div.login-popup:not(:has(.btn-close))
+||ncez.pzh.gov.pl/*/plugins/ncez-ebook-popup/
 ruangguru.com###bantuan-divs-container
 justthegays.tv##.hp-tip
 justthegays.tv##.notification[aria-label="Make it ad-free."]
@@ -446037,6 +446115,7 @@ labs.google.com#@##google-hats-survey
 turkiyegazetesi.com.tr,tozlu.com,ekonomika.org.tr,lagacetadesalamanca.es,lovense.com,evvelcevap.com,wal.yalenkino.org,pibig.info,lefigaro.fr,banki.ru,a2zapk.dev,delfi.lt,ganyancanavari.com,turkcell.com.tr,a101.com.tr,news.mail.ru,realitatea.net,winnipegfreepress.com,tenorshare.com,gzt.com,haber.biz,sakshi.com,shiftdelete.net,community.oneplus.com,lnc.nc,superfilmes.ph,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
 wallstreet-online.de,dni.ru#%#if (window.PushManager) { window.PushManager.prototype.subscribe = function () { return { then: function (func) { } }; }; }
 macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFunc")
+fan.books.rakuten.co.jp#%#//scriptlet('set-local-storage-item', 'firstBannerClosed', 'true')
 ||epiotrkow.pl/build/theme/epiotrkow/js/push-prompt.js
 indiatimes.com,maharashtratimes.com##.topNotification
 footyheadlines.com##.push-badge
@@ -446990,7 +447069,7 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,greatamericanpolitic
 havahaber.com,rotaborsa.com,tovima.gr,censor.net,gazeteipekyol.com,notisclepr5c-la.com,lepoint.fr,lpnt.fr,kriptokoin.com,laodong.vn,ajanstekirdag.com,enyenimedya.com,noktabursa.com.tr##.googlenews
 energymag.gr,smnovella.com,ici.radio-canada.ca,corrierenazionale.it,trustedreviews.com,superdeluxeedition.com,schmuckwerk.de,designrush.com,hbr-russia.ru,thewrap.com,reserved.com,citizenwatch.co.uk,mitvergnuegen.com,emergencemagazine.org,afound.com,made.com,elementor.com,infosperber.ch,salzburg-airport.com,michalpasterski.pl##.newsletter-popup
 cairoreport.org,arx.com.ua,julieseatsandtreats.com,lentepubblica.it,thegamebusiness.com,blog.bytebytego.com,sources.news,www-ntv-com-tr.cdn.ampproject.org,dwarkesh.com,secondthoughts.ai,ciw.news,pillarcatholic.com,noahpinion.blog,newcomer.co,blog.corkmac.app,blog.sshh.io,hardcoresoftware.learningbyshipping.com,newsletter.techworld-with-milan.com,newsletter.pragmaticengineer.com,read.engineerscodex.com,ntv.com.tr,newsguardrealitycheck.com,thecoder.cafe,gamefile.news,admissionnotice.com,forbesindia.com,materializedview.io,computerenhance.com,clubstrannik.ru,noktabursa.com.tr,girlonthenet.com,substack.com,santiye.com.tr,rb.ru,investors.com##.subscribe-widget
-bastion.tv,baikalsr.ru,rivne1.tv,hispanidad.com,flb.ru,4freerussia.org,carnegieendowment.org,rozetked.me,pozirk.online,zagorodna.com,markformelle.by,mc.today,dobrotsen.ru,65ymas.com,techtimes.com,elplural.com,kinometro.ru,sport24.ua,newsweek.com,positronica.ru,eurasia.expert,hockey.by,kleo.ru,focusme.com,charbelnemnom.com,iphonegeek.me,afanasy.biz,media.nenaprasno.ru,vogue.ru,hyperhost.ua,pravda.ru,reverso.net,vokrug.tv##.subscribe-block
+bobswatches.com,nknews.org,bastion.tv,baikalsr.ru,rivne1.tv,hispanidad.com,flb.ru,4freerussia.org,carnegieendowment.org,rozetked.me,pozirk.online,zagorodna.com,markformelle.by,mc.today,dobrotsen.ru,65ymas.com,techtimes.com,elplural.com,kinometro.ru,sport24.ua,newsweek.com,positronica.ru,eurasia.expert,hockey.by,kleo.ru,focusme.com,charbelnemnom.com,iphonegeek.me,afanasy.biz,media.nenaprasno.ru,vogue.ru,hyperhost.ua,pravda.ru,reverso.net,vokrug.tv##.subscribe-block
 secretmelbourne.com,kdnuggets.com,eleftherostypos.gr,presse-citron.net,teknoloji.org,slantmagazine.com,newsmaker.md,seance.ru,photorecept.ru,helpnetsecurity.com,forbes.com.br,javacodegeeks.com,turizmgunlugu.com##.mc4wp-form
 sources.news,nicolasbustamante.com,blog.bytebytego.com,thegamebusiness.com,architecture-weekly.com,dwarkesh.com,secondthoughts.ai,pillarcatholic.com,chipsandcheese.com,noahpinion.blog,newcomer.co,blog.corkmac.app,blog.sshh.io,hardcoresoftware.learningbyshipping.com,newsguardrealitycheck.com,newsletter.techworld-with-milan.com,substack.com,transformernews.ai,domainanalysis.io,pragmaticengineer.com,thecoder.cafe,gamefile.news,afisha.ru,theolognion.com,materializedview.io,read.engineerscodex.com,ciw.news##.subscribe-footer
 ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.as
@@ -446998,6 +447077,18 @@ ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocael
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
+nn.de###piano_nl_home
+kompas.com##.buttonOnGoogle
+giga.de##.alice-button-container--google
+giga.de##.alice-layout-article-meta-google
+cyderes.com##.right_column > div.hs_cos_wrapper:has(> div.howler-card)
+lenta.ru##.trusted-sources-notification
+freiepresse.de##.article__google-preferred
+teamgb.com#%#//scriptlet('set-cookie', 'newsletter_popup_seen', 'true')
+pornsack.com##.footer-community-button--telegram
+pornsack.com##.footer-community-button--discord
+ncez.pzh.gov.pl###newsletter + .et_block_section:has(.ec-v-form-input > input.ec-v-forms-form-control[type="email"])
+wallstreet-online.de###newsArticleGoogle
 wallstreet-online.de##a[href="https://www.wallstreet-online.de/newsletter"]
 extraetf.com##.container-footer-newsletter
 oggi.it##a[aria-label*="Google Discover"]
@@ -447322,7 +447413,6 @@ drive.com.au###drive-subscribe-newsletter
 bringmethenews.com##div[class^="styles_announcementBanner"]:has(> div[class^="styles_announcementBannerContainer"] > a[href="https://alerts.bringmethenews.com/newsletters"])
 mmaweekly.com,paulickreport.com,meidasnews.com,bringmethenews.com,athlonsports.com,thestreet.com##.preferred-source-slot
 playmods.net##.game-telChannel
-nordbayern.de##.modul--newsticker-more
 techspot.com##.gps-only-desktop
 carscoops.com##.follow-carscoops-container
 gratka.pl##.subscription-fluid-button
@@ -447867,7 +447957,7 @@ chillflix.lol#%#//scriptlet('set-session-storage-item', 'chillflix:community-pro
 edmunds.com##.news-subscription-button
 eltern.de##.x-embed--newsletter-subscription
 ozbargain.com.au###main > div.node:not([id]):has(> div.n-right > form#newsletter_form)
-cosmopolitan.com,delish.com,goodhousekeeping.com,menshealth.com,roadandtrack.com##[data-vars-block-type="Newsletter"]
+esquire.com,cosmopolitan.com,delish.com,goodhousekeeping.com,menshealth.com,roadandtrack.com##[data-vars-block-type="Newsletter"]
 oprahdaily.com,runnersworld.com##div[data-theme-key="newsletter-feedpage-wrapper"]
 secrets.tbank.ru##div[data-testid="promo_banner-background"]
 gogov.ru##.gg-post-meta__subscribe
@@ -450496,7 +450586,6 @@ nknews.org#$##subscribeModal { display: none !important; }
 nknews.org#$#.modal-backdrop { display: none !important; }
 nknews.org#$#.modal-open { overflow: auto !important; }
 nknews.org#$#body.modal-open .container { filter: none !important; }
-nknews.org##.subscribe-block
 nknews.org###fwidget-text-70
 gloria-jeans.ru##div[class*="-page__subscription"]
 ysia.ru##.theme-post-read-us
@@ -457861,6 +457950,10 @@ buttondown.email#@##subscribe-form
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+kurashiru.com##.browsi_spaside_to_app_banner
+zeta-ai.io##.relative > div.flex:has(> a[data-sentry-component="AppDownloadBanner"])
+context.reverso.net##a[id^="home-"][id$="app-banner"]
+pornsack.com##.footer-community-button--app
 pn.ru##.Footer__banner
 ||anime-go.org/theme/assets/js/app-banner.js
 antaranews.com##.footer-download-bg
@@ -464418,6 +464511,11 @@ hd.kinopoisk.ru#%#//scriptlet('trusted-click-element', 'body.body div.ReactModal
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div > img { display: none !important; }
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div.header-navigation { margin-top: 0 !important; }
 www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-footer-promotion.subscription-title"])
+lenta.ru##.giveaway-banner
+yayoi-kk.co.jp##.acq-media:has(a:is([href="/lp/shinkoku-ol-02/"], [href="/kigyo/starting/"]))
+yayoi-kk.co.jp##.oyakudachi-box-media
+fazier.com##div[class^="Home_homeContainer"] > div.row > div[style^="min-height:"] > div[class]:has(a[href="https://dub.sh/fazier-sponsor"])
+fazier.com##div[class^="Home_homeContainer"] > div.row div[class^="mb-"] > a[href^="/launches/"] + div[class]
 wikily.gg##.wiki-ad-boundary
 oggi.it##main > div.gridRow:has(> div.gridRow__item > div.gridRow__block > div.centeredContent > a[href^="https://www.oggi.it/speciale/"])
 sprava.ua#%#//scriptlet('set-session-storage-item', 'promo_closed', '1')
@@ -472862,6 +472960,7 @@ daddyhd.com##.sidebar__inner
 ||helpdeskeddy.com//js/contact-widget.js$domain=litres.ru
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 litres.ru###call_support
+||chat.pinspb.ru/widget.js
 maps.roadtrippers.com###rt-support-root
 489.fm###botbonnie-chatbox
 ||mobileapi.n11.com/chatbot/
@@ -476064,6 +476163,21 @@ cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][dat
 ||cookietrace.webequalty.com^$domain=sabancivakfi.org
 sabancivakfi.org###ez-banner[role="banner"]
 military24.pl,softimi.pl,yarnpower.pl,baumgart-kaffee.pl,decorlabs.pl,werbus.pl,xeromania.pl,dzielnicazdrowia.pl,sklepy-cynamonowe.eu,elektronar.pl,granitnaturalny.pl,sklep-ppoz.pl,alphastore.pl,latamfpv.pl,krugermatz.com,patandrub.eu,sklepkoszykarski.pl,dayabeauty.pl,najlepszyfiltr.pl,wildleather.pl,sklep.szymkowiak-karcher.pl,coolmarket.pl,sklep.hmmcleaning.pl,biogo.pl,sklep-marinelab.pl,rarecraft.pl,kaweo.pl,yummo.pl,candy-shop.pl,slodyczowo.pl,friser.pl,sklep.cryptotech.com.pl,jupiter.com.pl,sklep.bacowkatowary.pl,higienamed.pl,voiceshop.pl,superrower.pl##.consents
+shockprice.com##shockprice-ui-cookie-consent
+kefirgames.com##dialog[class^="PopupCookies"]
+048.ua##app-cookie-consent-popup
+bobswatches.com#$#.consent-overlay { display: none !important; }
+bobswatches.com#$#html.consent-open { overflow: auto !important; }
+telekom-security.com#$##cookie-container { display: none !important; }
+telekom-security.com#$#body { overflow: auto !important; }
+wearmedicine.com##div[data-test="cookiesConsentModal"]
+fluxpayroll.ai#%#//scriptlet('set-cookie', 'flux_tracking_consent', 'false')
+senet.cloud##[aria-labelledby="cookie-notice-title"]
+senet.cloud##button[data-consent-region][data-consent-country]
+joybuggy.com##div[aria-labelledby="onboarding-modal-title"]:has(button[data-testid="accept-essential"])
+||ncez.pzh.gov.pl/*/plugins/lightweight-cookie-consent/
+plitch.com##.cookiebar-overlay
+xn--80az8a.xn--d1aqf.xn--p1ai#%#//scriptlet('set-local-storage-item', 'isConfirmTerms', 'true')
 ||primecook.pl/catalog/view/theme/primecook/js/vendor/primecook-consent-nosnippet-
 jtexpress.de###cookie-use-sdk-container
 vermoegenswirksame-leistungen.de###jlplg-lovecoding-cookie-info-container
@@ -476870,7 +476984,7 @@ afyonpostasi.com.tr##.cookie-consent-body
 infrawire.net##.sm\:w-auto.sm\:p-4.z-\[99999\]
 falabella.com.pe##.overlay-popover
 spid.center##div[class^="_"]:has(> a[href="/privacy"])
-seyredelim.com,cinobo.pl,mining.sandvik##div[data-consent-banner]
+cinobo.com,seyredelim.com,cinobo.pl,mining.sandvik##div[data-consent-banner]
 naturitas.pl#%#//scriptlet('trusted-set-cookie', 'cookie-consent', 'none')
 skyscanner.at,skyscanner.cz,skyscanner.de,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.pl,skyscanner.se,skyscanner.net,skyscanner.*#$#body { overflow: auto !important; padding-right: 0 !important; position: static !important; touch-action: auto !important }
 skyscanner.at,skyscanner.cz,skyscanner.de,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.pl,skyscanner.se,skyscanner.net,skyscanner.*#$#.consent-banner-wrapper { display: none !important; }
@@ -476940,7 +477054,7 @@ infopraca.pl#$#.cookie-modal-backdrop { display: none !important; }
 infopraca.pl#$#body[style^="overflow:"] { overflow: auto !important; padding-right: 0 !important; }
 kanopy.com##.gpc-banner
 xhamster46.desi##div[data-role="cookies-modal"]
-antalyahakkinda.com,antalyakorfez.com,61saat.com,bomba32.com,kayserihaber.com,haberts.com,milligazete.com.tr,ilerigazetesi.com.tr,kamudanhaber.net,turkinform.com.tr,2eylul.com.tr,eskisehirhaberajansi.com,urfanatik.com,politikam.com,sonsoz.com.tr#?#.js-cookie-consent
+samsunhaber.com,antalyahakkinda.com,antalyakorfez.com,61saat.com,bomba32.com,kayserihaber.com,haberts.com,milligazete.com.tr,ilerigazetesi.com.tr,kamudanhaber.net,turkinform.com.tr,2eylul.com.tr,eskisehirhaberajansi.com,urfanatik.com,politikam.com,sonsoz.com.tr#?#.js-cookie-consent
 supply.amazon.com#%#//scriptlet('set-cookie', 'sc-ccv2', '1')
 advertising.amazon.com###ccb-exists
 sunandsnow.pl#$#html { overflow-y: auto !important; }
@@ -479387,7 +479501,7 @@ pepper.pl#$#.zIndex--modal.popover--layout-fixed-bottomSheet:has(.vue-portal-tar
 pepper.pl#$#.popover-cover.zIndex--modal:empty:has(+ .zIndex--modal.popover--layout-fixed-bottomSheet .vue-portal-target > .flex > button[data-t="showCookiesSettings"]) { display: none !important; }
 sber.ru,sberbank.ru,sberbank.com#%#//scriptlet('set-cookie', 'sbrf.pers_notice', '1')
 pionergame.com#%#//scriptlet('set-cookie', 'ca', 'true')
-cuffway.us,bluemail.me,chargeandsleep.com,thingtesting.com##div[aria-label="Cookie notice"]
+patchmyrom.com,cuffway.us,bluemail.me,chargeandsleep.com,thingtesting.com##div[aria-label="Cookie notice"]
 brandirectory.com##.app-cookie-banner--banner
 playinzoi.com##.csm
 supereyes.ru##.s-cookes
@@ -481844,7 +481958,7 @@ palcomp3.com.br#?#footer ~ div .grid > div[class]:has(> span ~ div > div > p > a
 chizhik.club#?#div[class] > div[style]:has(> div[class] > div.policy_icon)
 polskie-drobiarstwo.pl#%#//scriptlet('set-local-storage-item', 'accept-rodo', '1')
 hola.org###content_of_consent
-vizor.helpshift.com,roviosupport.helpshift.com,embark-studios.helpshift.com##.cookie-notif-banner
+kefirgames.helpshift.com,vizor.helpshift.com,roviosupport.helpshift.com,embark-studios.helpshift.com##.cookie-notif-banner
 kamtridit.cz##.modal-bottom-fixed-cookies
 infojobs.it###cmpContainer
 chromeactions.com##footer > div > div
@@ -485235,7 +485349,7 @@ tokion.jp##.tkn-cookie-accept__area
 openbankingbrasil.org.br#$#.modal-privacidade { display: none!important; }
 openbankingbrasil.org.br#$#.modal-privacidade ~ .modal-backdrop { display: none!important; }
 openbankingbrasil.org.br#$#body { overflow: visible!important; padding-right: 0!important; }
-muzykalnya.ru,artplex.ru,mhcenter.ru,avtodozor-gps.com.ua,tab.digital##.t972
+arbital.ru,muzykalnya.ru,artplex.ru,mhcenter.ru,avtodozor-gps.com.ua,tab.digital##.t972
 mibaby.de##.overlay_buddy_wrapper.align_bottom.style_green
 internxt.com##div[class^="Footer_cookiesBgFallback"]
 fitline.com##section[class^="CookiesGDPR_initial"]
@@ -485988,7 +486102,7 @@ tresorit.com##footer + aside
 thecap.com.br##body > div[style$="position: fixed; width: 100%; z-index: 99999999;"]
 ||infopedia.pt/*klaro/klaro-pe.js
 nostter.app,todtv.com.tr,cryptonews.com,duellinksmeta.com##.cookieConsentWrapper
-atoz2512.com,getmodapks.in,elaoffcial.com,ch1n.com.br,zapowiedzi24.blogspot.com,rockmods.net##.cookies-show
+akari46.com,atoz2512.com,getmodapks.in,elaoffcial.com,ch1n.com.br,zapowiedzi24.blogspot.com,rockmods.net##.cookies-show
 anthropologie.com,urbanoutfitters.com##.cookie-message__cookieMessage
 adslgr.com,cxense.com###cookieConsentDiv
 discoverybrasil.com##div[data-testid="test-root"]
@@ -493092,6 +493206,9 @@ poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo
 poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo.pl,r360.eu,centrumwyobrazni.pl#$#main { filter: none !important; pointer-events: auto!important; }
 poznancongresscenter.pl,arenapoznan.pl,garden-city.pl,city-marketing.pl,ideaexpo.pl,r360.eu,centrumwyobrazni.pl#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
+@@||b.delivery.consentmanager.net/delivery/$domain=nn.de
+telekom-security.com#@##cookie-container
+telekom-security.com#@#.cookie-content
 @@||picpay.com/scripts/cookie-consent.js$domain=picpay.com
 liderlamp.pl#@#.cookie-setting
 liderlamp.pl#@#.cookie-content
@@ -496491,7 +496608,6 @@ smartzone.de##.toast-ad-block-wrapper
 ||a.pemsrv.com/ad-provider.js$domain=xvideos.es,redirect=nooptext
 cloudfam.io##.cf-warning-section
 myradioonline.pl##.js-appAdv
-myradioonline.pl##.popup_layer
 myradioonline.pl#%#//scriptlet('prevent-element-src-loading', 'script', 'cfusion-internet.com')
 replacedbyrobot.info#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'window.getComputedStyle')
 manoramamax.com#$#body { overflow: auto !important; }
@@ -499021,6 +499137,9 @@ claude.ai,inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accoun
 klerk.ru#?#iframe[src^="https://autofill.yandex.ru/suggest?"][src*="widget"]
 sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+cyderes.com###hs-web-interactives-bottom-anchor
+bigo.tv##.room-recommend-live ~ div.login-popup:not(:has(.btn-close))
+||ncez.pzh.gov.pl/*/plugins/ncez-ebook-popup/
 ruangguru.com###bantuan-divs-container
 justthegays.tv##.hp-tip
 justthegays.tv##.notification[aria-label="Make it ad-free."]
@@ -507224,6 +507343,7 @@ labs.google.com#@##google-hats-survey
 turkiyegazetesi.com.tr,tozlu.com,ekonomika.org.tr,lagacetadesalamanca.es,lovense.com,evvelcevap.com,wal.yalenkino.org,pibig.info,lefigaro.fr,banki.ru,a2zapk.dev,delfi.lt,ganyancanavari.com,turkcell.com.tr,a101.com.tr,news.mail.ru,realitatea.net,winnipegfreepress.com,tenorshare.com,gzt.com,haber.biz,sakshi.com,shiftdelete.net,community.oneplus.com,lnc.nc,superfilmes.ph,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
 wallstreet-online.de,dni.ru#%#if (window.PushManager) { window.PushManager.prototype.subscribe = function () { return { then: function (func) { } }; }; }
 macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFunc")
+fan.books.rakuten.co.jp#%#//scriptlet('set-local-storage-item', 'firstBannerClosed', 'true')
 ||epiotrkow.pl/build/theme/epiotrkow/js/push-prompt.js
 indiatimes.com,maharashtratimes.com##.topNotification
 footyheadlines.com##.push-badge
@@ -508177,7 +508297,7 @@ quinhillyer.com,johnbiver.com,jasonmattera.com,ipatriot.com,greatamericanpolitic
 havahaber.com,rotaborsa.com,tovima.gr,censor.net,gazeteipekyol.com,notisclepr5c-la.com,lepoint.fr,lpnt.fr,kriptokoin.com,laodong.vn,ajanstekirdag.com,enyenimedya.com,noktabursa.com.tr##.googlenews
 energymag.gr,smnovella.com,ici.radio-canada.ca,corrierenazionale.it,trustedreviews.com,superdeluxeedition.com,schmuckwerk.de,designrush.com,hbr-russia.ru,thewrap.com,reserved.com,citizenwatch.co.uk,mitvergnuegen.com,emergencemagazine.org,afound.com,made.com,elementor.com,infosperber.ch,salzburg-airport.com,michalpasterski.pl##.newsletter-popup
 cairoreport.org,arx.com.ua,julieseatsandtreats.com,lentepubblica.it,thegamebusiness.com,blog.bytebytego.com,sources.news,www-ntv-com-tr.cdn.ampproject.org,dwarkesh.com,secondthoughts.ai,ciw.news,pillarcatholic.com,noahpinion.blog,newcomer.co,blog.corkmac.app,blog.sshh.io,hardcoresoftware.learningbyshipping.com,newsletter.techworld-with-milan.com,newsletter.pragmaticengineer.com,read.engineerscodex.com,ntv.com.tr,newsguardrealitycheck.com,thecoder.cafe,gamefile.news,admissionnotice.com,forbesindia.com,materializedview.io,computerenhance.com,clubstrannik.ru,noktabursa.com.tr,girlonthenet.com,substack.com,santiye.com.tr,rb.ru,investors.com##.subscribe-widget
-bastion.tv,baikalsr.ru,rivne1.tv,hispanidad.com,flb.ru,4freerussia.org,carnegieendowment.org,rozetked.me,pozirk.online,zagorodna.com,markformelle.by,mc.today,dobrotsen.ru,65ymas.com,techtimes.com,elplural.com,kinometro.ru,sport24.ua,newsweek.com,positronica.ru,eurasia.expert,hockey.by,kleo.ru,focusme.com,charbelnemnom.com,iphonegeek.me,afanasy.biz,media.nenaprasno.ru,vogue.ru,hyperhost.ua,pravda.ru,reverso.net,vokrug.tv##.subscribe-block
+bobswatches.com,nknews.org,bastion.tv,baikalsr.ru,rivne1.tv,hispanidad.com,flb.ru,4freerussia.org,carnegieendowment.org,rozetked.me,pozirk.online,zagorodna.com,markformelle.by,mc.today,dobrotsen.ru,65ymas.com,techtimes.com,elplural.com,kinometro.ru,sport24.ua,newsweek.com,positronica.ru,eurasia.expert,hockey.by,kleo.ru,focusme.com,charbelnemnom.com,iphonegeek.me,afanasy.biz,media.nenaprasno.ru,vogue.ru,hyperhost.ua,pravda.ru,reverso.net,vokrug.tv##.subscribe-block
 secretmelbourne.com,kdnuggets.com,eleftherostypos.gr,presse-citron.net,teknoloji.org,slantmagazine.com,newsmaker.md,seance.ru,photorecept.ru,helpnetsecurity.com,forbes.com.br,javacodegeeks.com,turizmgunlugu.com##.mc4wp-form
 sources.news,nicolasbustamante.com,blog.bytebytego.com,thegamebusiness.com,architecture-weekly.com,dwarkesh.com,secondthoughts.ai,pillarcatholic.com,chipsandcheese.com,noahpinion.blog,newcomer.co,blog.corkmac.app,blog.sshh.io,hardcoresoftware.learningbyshipping.com,newsguardrealitycheck.com,newsletter.techworld-with-milan.com,substack.com,transformernews.ai,domainanalysis.io,pragmaticengineer.com,thecoder.cafe,gamefile.news,afisha.ru,theolognion.com,materializedview.io,read.engineerscodex.com,ciw.news##.subscribe-footer
 ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisgazetesi.com,kocaelikoz.com,enkocaeli.com##.block-pano > div.as
@@ -508185,6 +508305,18 @@ ozgurkocaeli.com.tr,turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocael
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#html > body.tp-modal-open { overflow: auto !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
+nn.de###piano_nl_home
+kompas.com##.buttonOnGoogle
+giga.de##.alice-button-container--google
+giga.de##.alice-layout-article-meta-google
+cyderes.com##.right_column > div.hs_cos_wrapper:has(> div.howler-card)
+lenta.ru##.trusted-sources-notification
+freiepresse.de##.article__google-preferred
+teamgb.com#%#//scriptlet('set-cookie', 'newsletter_popup_seen', 'true')
+pornsack.com##.footer-community-button--telegram
+pornsack.com##.footer-community-button--discord
+ncez.pzh.gov.pl###newsletter + .et_block_section:has(.ec-v-form-input > input.ec-v-forms-form-control[type="email"])
+wallstreet-online.de###newsArticleGoogle
 wallstreet-online.de##a[href="https://www.wallstreet-online.de/newsletter"]
 extraetf.com##.container-footer-newsletter
 oggi.it##a[aria-label*="Google Discover"]
@@ -508509,7 +508641,6 @@ drive.com.au###drive-subscribe-newsletter
 bringmethenews.com##div[class^="styles_announcementBanner"]:has(> div[class^="styles_announcementBannerContainer"] > a[href="https://alerts.bringmethenews.com/newsletters"])
 mmaweekly.com,paulickreport.com,meidasnews.com,bringmethenews.com,athlonsports.com,thestreet.com##.preferred-source-slot
 playmods.net##.game-telChannel
-nordbayern.de##.modul--newsticker-more
 techspot.com##.gps-only-desktop
 carscoops.com##.follow-carscoops-container
 gratka.pl##.subscription-fluid-button
@@ -509054,7 +509185,7 @@ chillflix.lol#%#//scriptlet('set-session-storage-item', 'chillflix:community-pro
 edmunds.com##.news-subscription-button
 eltern.de##.x-embed--newsletter-subscription
 ozbargain.com.au###main > div.node:not([id]):has(> div.n-right > form#newsletter_form)
-cosmopolitan.com,delish.com,goodhousekeeping.com,menshealth.com,roadandtrack.com##[data-vars-block-type="Newsletter"]
+esquire.com,cosmopolitan.com,delish.com,goodhousekeeping.com,menshealth.com,roadandtrack.com##[data-vars-block-type="Newsletter"]
 oprahdaily.com,runnersworld.com##div[data-theme-key="newsletter-feedpage-wrapper"]
 secrets.tbank.ru##div[data-testid="promo_banner-background"]
 gogov.ru##.gg-post-meta__subscribe
@@ -511683,7 +511814,6 @@ nknews.org#$##subscribeModal { display: none !important; }
 nknews.org#$#.modal-backdrop { display: none !important; }
 nknews.org#$#.modal-open { overflow: auto !important; }
 nknews.org#$#body.modal-open .container { filter: none !important; }
-nknews.org##.subscribe-block
 nknews.org###fwidget-text-70
 gloria-jeans.ru##div[class*="-page__subscription"]
 ysia.ru##.theme-post-read-us
@@ -519048,6 +519178,10 @@ buttondown.email#@##subscribe-form
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,ortobom.com.br,dicionarioinformal.com.br,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,naked-science.ru,vod.tvp.pl,tvn24.pl,m.lamoda.ru,lkfl2.nalog.ru,kocailem.com,dartworld.shopgate.com,m.alles10euro.de,dodopizza.ru,allo.ua,tempo.co,beymen.com,tvnmeteo.tvn24.pl,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##body .smartbanner
+kurashiru.com##.browsi_spaside_to_app_banner
+zeta-ai.io##.relative > div.flex:has(> a[data-sentry-component="AppDownloadBanner"])
+context.reverso.net##a[id^="home-"][id$="app-banner"]
+pornsack.com##.footer-community-button--app
 pn.ru##.Footer__banner
 ||anime-go.org/theme/assets/js/app-banner.js
 antaranews.com##.footer-download-bg
@@ -525341,6 +525475,7 @@ daddyhd.com##.sidebar__inner
 ||helpdeskeddy.com//js/contact-widget.js$domain=litres.ru
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 litres.ru###call_support
+||chat.pinspb.ru/widget.js
 maps.roadtrippers.com###rt-support-root
 489.fm###botbonnie-chatbox
 ||mobileapi.n11.com/chatbot/
@@ -528360,6 +528495,11 @@ hd.kinopoisk.ru#%#//scriptlet('trusted-click-element', 'body.body div.ReactModal
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div > img { display: none !important; }
 www.kinopoisk.ru#$#header[class][style*="--header-height:150px"] > div.header-navigation { margin-top: 0 !important; }
 www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-footer-promotion.subscription-title"])
+lenta.ru##.giveaway-banner
+yayoi-kk.co.jp##.acq-media:has(a:is([href="/lp/shinkoku-ol-02/"], [href="/kigyo/starting/"]))
+yayoi-kk.co.jp##.oyakudachi-box-media
+fazier.com##div[class^="Home_homeContainer"] > div.row > div[style^="min-height:"] > div[class]:has(a[href="https://dub.sh/fazier-sponsor"])
+fazier.com##div[class^="Home_homeContainer"] > div.row div[class^="mb-"] > a[href^="/launches/"] + div[class]
 wikily.gg##.wiki-ad-boundary
 oggi.it##main > div.gridRow:has(> div.gridRow__item > div.gridRow__block > div.centeredContent > a[href^="https://www.oggi.it/speciale/"])
 sprava.ua#%#//scriptlet('set-session-storage-item', 'promo_closed', '1')
@@ -535491,6 +535631,11 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 ||im.1vkx.cn/uploads/images/*.gif$third-party
+nnyy.in#%#//scriptlet('m3u-prune', 'adjump', '.m3u8')
+||engine.17yoo.cn/v1/fa^
+17yoo.cn##.popup[data-popup="placement"]
+17yoo.cn#%#//scriptlet('trusted-json-set', 'Object.prototype.hasOwnProperty', '$.adData.*', '$remove$', '', 'this', 'setState')
+minebbs.com##div[class^="cooperationProvider"]
 ||91cg1.com/ssp/
 91cg1.com##.post-content > div[style="text-align:center;margin:20px 0;"]
 cars.tvbs.com.tw##div[class]:has(> div[class^="min-h-"] > div[id^="car_"][id*="_read_"])
@@ -537463,7 +537608,7 @@ hmitalk.com##div[data-adid]
 teepr.com##div[class^="mid-post-ad-"]
 ||159i.com/sxxd.js
 share.dmhy.org##div[align="center"][id] > a > img
-cava.tw,vikacg.com,papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se,liaoningmovie.net##.banner
+17yoo.cn,cava.tw,vikacg.com,papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se,liaoningmovie.net##.banner
 huya.com##.J_ad
 techbang.com##.ad_grey_floor
 /tghr.js$domain=159i.com
@@ -550136,7 +550281,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adasync.js$script
 /adasync.min.js$script
 /adbanners/*$image
-/adblock/frontend_loader.js
+/adblock/frontend_loader.js$~xmlhttprequest
 /adchoice.png$image
 /adcount.js$script
 /addyn|*;adtech;
@@ -550660,6 +550805,7 @@ fqsousou.com,kengso.com#@#.user-share
 /slide_in_ads_close.gif$image
 /sliderad.js$script
 /small_ad.$image,domain=~eh-ic.com
+/snigel-billboard.
 /sp/delivery/*$script
 /spacedesc=
 /spc.php?$script
@@ -550961,7 +551107,7 @@ _prebid.js$script
 /jquery.peelback.$script
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
-/ad-blocking-detector/assets/js/adblock-detector.min.js
+/ad-blocking-detector/assets/js/adblock-detector.min.js$~xmlhttprequest
 /adblock-detect.$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock_detector2.$script
@@ -552403,7 +552549,6 @@ _800x80_
 ###adb_bottom
 ###adbackground
 ###adbanner-container
-###adbanner1
 ###adbannerbox
 ###adbannerdiv
 ###adbannerleft
@@ -552416,9 +552561,6 @@ _800x80_
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
-###adblock1
-###adblock2
-###adblock4
 ###adblockbottom
 ###adbn
 ###adbnr
@@ -561692,6 +561834,7 @@ _800x80_
 ##.iframe-ads
 ##.iframeAd
 ##.iframeAds
+##.ii-snigel-billboard
 ##.image-advertisement
 ##.imageAd
 ##.imageAds
@@ -564159,6 +564302,7 @@ _800x80_
 ##[data-mobile-ad-id]
 ##[data-rc-widget]
 ##[data-revive-zoneid]
+##[data-shutterstock-state]
 ##[data-template-type="nativead"]
 ##[data-testid="adBanner-wrapper"]
 ##[data-testid="ad_testID"]
@@ -565302,38 +565446,63 @@ spoilertv.com#@##adsensewide
 lagruyere.ch#@##adv-top
 embed.wcostream.com#@#.ad-unit
 browsershots.org#@#.advert_area
+||abpocvnpwckpd.space^
 ||admitad.com^
 ||ads-static.conde.digital^
+||ajccwxvuiblhp.online^
 ||alipromo.com^
 ||alitems.com^
+||alluredscrout.com^
+||apiolinarriere.com^
 ||atdmt.com^
-||bghivvoygrywm.site^
-||biztowsgairwa.space^
+||bertherplotty.cyou^
+||bocksglenoid.cfd^
 ||buyeasy.by^
+||casualviolet.com^
+||ccwverhyosidc.space^
+||chiackpeckage.cfd^
+||csurvhsqmuvmt.site^
 ||demand.supply^$script
-||dyrjbabposnvu.website^
+||deraysurosis.cfd^
+||donuheridimylo.com^
+||fgrdxyqnoapxw.website^
+||fh-dxy.com^
+||fhgte.com^
 ||fl.corniercuffed.qpon^
 ||fwmrm.net^
+||ggvpqqkjpeeqc.online^
 ||googletagservices.com^
 ||hazicu.hothomefuck.com^
-||hxdaevqueqpnv.site^
+||heilyexsert.cyou^
 ||imasdk.googleapis.com^
 ||kqzyfj.com^
-||lgpngvkjl.com^
-||lkuawjxzqywzl.space^
+||lkjmtmpbopihc.space^
 ||loadercdn.com^
 ||macro.adnami.io^
 ||monetag.com^
+||nidolwfkiaw.in^
 ||ntv.io^
 ||ojrq.net^
 ||paid.outbrain.com^
+||prncsrnlslpsc.website^
+||pulianyn.com^
+||pulsedtilsloasa.cyou^
 ||record.betzillopartners.com^
 ||record.thepokiespartners.com^
 ||redirectingat.com^
 ||rubiconproject.com^
+||soberspawns.click^
 ||totaladblock.com^
+||txsouckpmodtl.site^
 ||videoplaza.tv^
+||witty-survey.pro^
 ||wpnrtnmrewunrtok.xyz^
+||xjyzuvwjcvixx.space^
+||xpbzfvfahpech.website^
+||yawlalgae.click^
+||ybxajjlbsoiwx.space^
+||ygwgfpeewfhfi.online^
+||zfdosrxcopvpc.website^
 ||0i0i0i0.com^$document
 ||1asb.com^$document
 ||2bestoffer.com^$document
@@ -571752,6 +571921,8 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||underwriting.allclassical.org/player-banners/
 ||unmoor.com/config.json
 ||uploadcloud.pro/altad/
+||uqload.vc/58228/m7j7j669.js
+||uqload.vc/7g6m8/8g4h3mhm.js
 ||userscript.zone/s.js
 ||usrfiles.com^$domain=melophobemusic.com|utterlyinteresting.com
 ||utilitydive.com/static/js/prestitial.js
@@ -572270,6 +572441,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||pantyhoseposing.com/ed/
 ||pantyhoseshow.com/fd/
 ||pantyhoseteases.com/mass/
+||peachr.tv/api/spot/
 ||phonerotica.com/resources/img/banners/
 ||picshick.com/b9ng.js
 ||pimpandhost.com^$subdocument
@@ -572962,6 +573134,7 @@ academictorrents.com###carbon
 downforeveryoneorjustme.com###carbonDiv
 csdb.dk###casdivhor
 csdb.dk###casdivver
+eqmusicblog.com###cb-bg-to
 cbn.com###cbn_leaderboard_atf
 cloudwards.net,guitaradvise.com###cbox
 linuxinsider.com###cboxOverlay
@@ -574537,6 +574710,7 @@ canoe.com##.ad__section-border
 asianjournal.com##.ad_before_title
 kyivpost.com##.ad_between_paragraphs
 cheatcodes.com##.ad_btf_728
+watzatsong.com##.ad_container
 tribuneindia.com##.ad_div_incls
 ntvkenya.co.ke##.ad_flex
 base64decode.org,base64encode.org,beautifyjson.org,minifyjson.org,prettifycss.com,prettifyjs.net,uglifycss.com,uglifyjs.net,urldecoder.org,urlencoder.org##.ad_header_box
@@ -574889,6 +575063,7 @@ adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.co
 streetdirectory.com##.anchor_bottom
 rok.guide##.ancr-sticky
 rok.guide##.ancr-top-spacer
+leetcode.com##.announcement-bar__container
 phonearena.com##.announcement-section
 phonearena.com##.announcements
 minecraftskins.com##.antiblock-wrapper
@@ -575946,6 +576121,7 @@ executivegov.com##.execu-widget
 metric-conversions.org##.exists
 gobankingrates.com##.exit-intent
 proprivacy.com##.exit-popup.modal-background
+notmeter.com##.exitlag-badge
 streamingmedia.com##.expand
 thejakartapost.com##.expandable-bottom-sticky
 appuals.com##.expu-protipeop
@@ -576078,6 +576254,7 @@ searchcommander.com##.footer-widget
 gelbooru.com##.footerAd2
 businessnow.mt,igamingcapital.mt,maltaceos.mt,whoswho.mt##.footer__second
 pbs.org##.footer__sub
+arkadium.com##.footer_ad--bottom
 satbeams.com##.footer_banner
 techopedia.com##.footer_inner_ads
 realmadrid.com##.footer_rm_sponsors_container
@@ -576276,6 +576453,7 @@ onlymyhealth.com##.gutterBanner
 worldpopulationreview.com##.h-64
 tvcancelrenew.com##.h-72
 lolalytics.com,thenewdaily.com.au##.h-\[100px\]
+emojipedia.org##.h-\[112px\]
 nextchessmove.com##.h-\[112px\].flex.justify-center
 posemaniacs.com##.h-\[250px\]
 freemalaysiatoday.com##.h-\[260px\]
@@ -577773,6 +577951,7 @@ terminal.hackernoon.com##.right
 cnbctv18.com##.right-ad-amp
 mathgames.com##.right-ad-override
 news.net##.right-banner-wr > .right
+watzatsong.com##.right-column-why-ads
 countrylife.co.uk,cyclingweekly.com##.right-hand-adunit
 africanews.com##.right-legend
 essentialenglish.review##.right-panel
@@ -577928,6 +578107,10 @@ pressdemocrat.com##.sfb2024-section__ad
 troypoint.com##.sgpb-popup-dialog-main-div-wrapper
 analyticsinsight.net,moviedokan.lol,shortorial.com,troypoint.com##.sgpb-popup-overlay
 stockhouse.com##.sh-ad
+shattered.io##.sh-ad-ia
+shattered.io##.sh-ad-leaderboard
+shattered.io##.sh-ad-rail
+shattered.io##.sh-eng-adslot
 soaphub.com##.sh-sh_belowpost
 soaphub.com##.sh-sh_inpost_1
 soaphub.com##.sh-sh_inpost_2
@@ -578013,7 +578196,9 @@ abovethelaw.com,breakingdefense.com,medcitynews.com##.sidebar__top-sticky
 snopes.com##.sidebar_ad
 pcgamesn.com##.sidebar_affiliate_disclaimer
 lightspeedmagazine.com##.sidebar_box:has(.adtext)
+watzatsong.com##.sidebar_lhs
 bxr.com##.sidebar_promo
+watzatsong.com##.sidebar_rhs
 alternet.org##.sidebar_sticky_container
 macrumors.com##.sidebarblock
 macrumors.com##.sidebarblock2
@@ -578129,6 +578314,7 @@ newsroom.co.nz##.sponsor-logos2
 trace.moe##.sponsor-module__2LoZHG__sponsor
 fimfiction.net##.sponsor-reminder
 compellingtruth.org##.sponsor-sidebar
+news.lavx.hu##.sponsor-slot
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
@@ -578166,6 +578352,7 @@ vuejs.org##.sponsors-aside-text
 foojay.io##.sponsors-block
 salixos.org##.sponsors-container
 libhunt.com##.sponsors-list-content
+acode.app##.sponsors-section
 petri.com##.sponsorsInline
 newswiretoday.com,przoom.com##.sponsortd
 sportsspectrum.com##.sport-target
@@ -578909,6 +579096,7 @@ wallapop.com##[class*="__topSky"]
 gamezop.com##[class*="_ad_container"]
 crazygames.*##[class*="_leaderboardContainer_"]
 onlymyhealth.com##[class*="_omh_banner_"]
+notmeter.com##[class*="ad-rail"]
 cointelegraph.com,doodle.com##[class*="ad-slot"]
 whitecoatinvestor.com##[class*="blog-"][class*="-as"]
 bmwblog.com##[class*="bmwbl-300x250"]
@@ -578922,6 +579110,7 @@ pixiv.net##[class*="style_ads_"]
 giphy.com##[class*="w-adCarousel"]
 fullmatch.info##[class*="wp-image"]
 douglas.at,douglas.be,douglas.ch,douglas.cz,douglas.de,douglas.es,douglas.hr,douglas.hu,douglas.it,douglas.lt,douglas.lv,douglas.nl,douglas.pl,douglas.pt,douglas.ro,douglas.si,douglas.sk,nocibe.fr##[class="cms-criteo"]
+notmeter.com##[class="exitlag-promotion"]
 m.economictimes.com##[class="wdt-taboola"]
 kcra.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu.com,wgal.com,wlwt.com,wmtw.com,wmur.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##[class]:has(>[data-type])
 topgear.com##[class^="AdContainer"]
@@ -578961,6 +579150,7 @@ investing.com##[data-ad-label="Advertisement"]
 usnews.com##[data-ad-props]
 techrepublic.com##[data-ad-slot]
 axios.com##[data-ad-status="AD"]
+pngtree.com##[data-ad-status]
 androidauthority.com,soundguys.com##[data-ad-type]
 dexerto.com##[data-ad-unit-id]
 kingmods.net##[data-ad-wrapper-slot]
@@ -579033,6 +579223,7 @@ eater.com,sbnation.com##[data-native-ad-id="container"]
 flatpanelshd.com##[data-onpage="true"]
 wsj.com##[data-parsely-slot] > p[style="text-align:center"]
 jeffdornik.com##[data-pin-url]
+arkadium.com##[data-placement]
 extremetech.com##[data-pogo="sidebar"]
 mashable.com##[data-pogo="top"]
 healthgrades.com##[data-qa-target="leaderboard-ad"]
@@ -579041,6 +579232,7 @@ scmp.com##[data-qa="ArticleContentRightSection-AdSlot"]
 scmp.com##[data-qa="OutstreamAdSlot-Container"]
 washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
+arkadium.com##[data-rail-widgets-below-ads]
 ginx.tv##[data-ref]
 gridinsoft.com##[data-report-ad]
 euroweeklynews.com##[data-revive-zoneid]
@@ -584730,6 +584922,7 @@ gamcore.com##li.d-md-block > a[rel]
 /collect/view_count?
 /collect?appName
 /collect?callback=
+/collect?configId=
 /collect?d=
 /collect?data=
 /collect?eid=
@@ -585304,6 +585497,7 @@ gamcore.com##li.d-md-block > a[rel]
 /i.php?i=
 /i.png?id=
 /i/api/kn/afterclick/*$~third-party,xmlhttprequest
+/i/v0/e/*
 /i2a.js
 /i2yesCounter.js
 /i?e=pv&url=
@@ -585354,6 +585548,8 @@ gamcore.com##li.d-md-block > a[rel]
 /index.php/analytics/cookieAnalytics|$xmlhttprequest
 /index.track?
 /indextools.js
+/ingest/array/*/config.js
+/ingest/i/v0/*
 /init?*&fallbackUserId=
 /inline-pixel.js
 /inpl.measure.jssc
@@ -585667,6 +585863,7 @@ gamcore.com##li.d-md-block > a[rel]
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/collect?
 /monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
@@ -585772,6 +585969,9 @@ gamcore.com##li.d-md-block > a[rel]
 /orichipixel.min.js
 /ot_e404.gif?
 /OtAutoBlock.js
+/otel/v1/logs
+/otel/v1/metrics
+/otel/v1/traces
 /ouibounce.min.js
 /outbrain.js$~xmlhttprequest
 /outbrainAd.
@@ -585977,6 +586177,7 @@ gamcore.com##li.d-md-block > a[rel]
 /printpixel.js
 /printtracker.js
 /prnx_track.js
+/pro-analytics.
 /probance_tracker-min.js
 /probance_tracker.js
 /prod/ncg/ncg.js
@@ -586872,6 +587073,7 @@ gamcore.com##li.d-md-block > a[rel]
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
 /web-vitals-analytics.js
+/web-vitals-with-attribution.js
 /web-vitals.iife.js
 /web/push?
 /web_analytics/*
@@ -586914,6 +587116,7 @@ gamcore.com##li.d-md-block > a[rel]
 /wix-engage-visitors-
 /wlexpert_tracker.js
 /wmxtracker.js
+/woocommerce-analytics/*
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-analytify-forms/assets/js/tracking.js
@@ -587110,6 +587313,7 @@ _trackWebtrekkEvents.
 _view_pixel&$image
 _webanalytics.
 _WebVitalsReporter_
+/cl/2x2.json
 /cdn/wpm/b3918e4e0wbf3ac3cepc5707306mb02b36c6m.js
 /_static/deliver.js?nonce=$script,~third-party
 /javascripts/browserfp.min.js?templateId=
@@ -590600,6 +590804,7 @@ omni.soundestlink.com$image
 ||zlx.com.br^$third-party
 ||fastwebtrends.com^
 ||oceancloudhosts.com^$~xmlhttprequest
+||outpro.net^
 /htdocs/js/admiral/init.js
 ||acustomizedgift.com^$domain=masslive.com|silive.com
 ||autoblog.com/.api/admiral
@@ -592352,6 +592557,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
 ||fresh.inlinkz.com^$third-party
 ||frontend-logger.flippback.com/api/logging
+||fscdn.eppo.cloud/api/flag-config/v1/config?
 ||ftimg.net/js/log.js?
 ||fubuki-umami.space/api/script.js
 ||fudge.ai/metrics?
@@ -592612,6 +592818,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||letv.com/cloud_pl/
 ||letv.com/env/
 ||levelaccess.net/analytics/
+||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/$domain=kimi.ai
 ||lh.bigcrunch.com^
 ||lhinsights.com/collect?
 ||libs.platform.californiatimes.com/meteringjs/
@@ -593240,6 +593447,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.skimresources.com^
 ||t.splicky.com^
 ||t2.profityi.com/api/visit/
+||tab.volces.com/service/2/abtest_config/
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 ||tag.aticdn.net^
@@ -593254,6 +593462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tarteaucitron.io/log/
 ||tatadigital.com/analytics-engine/
 ||td.doubleclick.net^
+||tdum.alibaba.com/dss.js
 ||technolutions.net/ping?
 ||technorati.com/technoratimedia-pixel.js
 ||techtarget.com^*/GetCookiesWithCallback?
@@ -594437,6 +594646,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appanalysis.banggood.com^
 ||apple-mapkit.com/mw/v1/reportAnalytics
 ||aptoide-mmp.aptoide.com^
+||arc.msn.com^
 ||arena.ai/rpc/e/
 ||arena.ai/rpc/i/v0/e/
 ||argtesa.com/cdn-cgi/trace
@@ -594586,6 +594796,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||character.ai/scripts/googlefc-config.js
 ||chartkidmatt.com/nectar_analytics
 ||chartkidmatt.com/page_view
 ||chase.com/apps/services/clientBeacon.html
@@ -594678,6 +594889,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentpass.net/stats
 ||convert.guru/pageview^
 ||cookpad.com/*/activity_logs
+||copilot.com/events
 ||core-features.cambridge.org/proxy/client/metrics
 ||coros.com/traceapi
 ||count.all.biz^
@@ -595119,6 +595331,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||inq.com/tagserver/logging/logline
 ||insideevs.com/analytics.js
 ||insights-mxp-cdn.coursecareers.com^
+||insights.builderprofile.aws.dev^
 ||instagram.com/ajax/bz
 ||instagram.com/ajax/qm/?
 ||instructables.com/counter
@@ -595353,6 +595566,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msn.com/OneCollector/
 ||mtm.bondagevalley.cc^
 ||mtrics.cdc.gov^
+||muse.ai/api/auth/caa-events
 ||musescore.com/components/data?
 ||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
@@ -595428,6 +595642,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||observe.metarouter.io^
 ||ocular.pepperdeals.com^
 ||odysee.com/reports/
+||offloop.org/_vid/v1/collect
 ||ohm-dot-hackster-io.appspot.com^
 ||oklink.com/jsstat/
 ||okx.com/jsstat/sb?
@@ -595463,6 +595678,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.ost2.fyi/event^
 ||p.sfx.ms/is/invis.gif
 ||p.spotidownloader.com^
+||p.teamily.ai^
 ||pac.thescottishsun.co.uk^
 ||pac.thetimes.com^
 ||papi.stylar.ai^
@@ -595486,6 +595702,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pdffiller.com/funnel.php?
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
+||peachr.tv/s.js
 ||pearos.xyz/track.php
 ||pelisfree.site/cdn-cgi/trace
 ||pendo.scopus.com/data/ptm.gif
@@ -595553,6 +595770,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||private.wccftech.com^
 ||prod-events.nykaa.com^
 ||prod-foxkit.kts.fox^
+||prodregistryv2.org^$domain=character.ai
 ||progressive.com/Log/
 ||projectmultatuli.org/analytics/
 ||promos.investing.com/*/digibox.gif?
@@ -595861,7 +596079,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtapewithadblock.xyz/stat/
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
-||stuff.co.nz/otel/
 ||stytch.com/sdk/v1/events
 ||suaurl.com/adblock/js/smarttag.js
 ||substrate.office.com/search/api/v1/events
@@ -595990,7 +596207,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tms.hft.greenchef.com^
 ||tms.hft.hellofresh.com^
 ||tnaflix.com/stats.php
-||together.ai/otel/v1/traces
 ||toms.com/*/FacebookCAPI-Event
 ||toms.com/*/PinterestCAPI-Event
 ||tongji-res.meizu.com^
@@ -596212,6 +596428,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wstats.e-wok.tv^
 ||www-backend.strinova.com/api/common/uid
 ||www.airbnb.*/gtg/$script
+||www.bing.com/th?pid=$domain=copilot.com
 ||www.ebay.*/gh/dfpsvc?
 ||www.eventim.*/orchestra/
 ||www.vivastreet.*/cfgtg/
@@ -596305,6 +596522,18 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zillowstatic.com/contact-pixel/$image,domain=zillow.com
 ||zoosk.com/cs/tp.png?
 ||zumper.com/events
+||abritel.fr/tagging-client
+||carrentals.com/tagging-client
+||cheaptickets.com/tagging-client
+||expedia.*/tagging-client
+||fewo-direkt.de/tagging-client
+||hotels.com/tagging-client
+||hotwire.com/tagging-client
+||orbitz.com/tagging-client
+||stayz.*/tagging-client
+||travelocity.com/tagging-client
+||vrbo.com/tagging-client
+||wotif.*/tagging-client
 ||googleusercontent.com/*/wf/open?upn=$image
 ://track.opentable.
 ://tralut.*/collect/value?
@@ -596612,17 +596841,18 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||static.chartbeat.com/js/chartbeat.js$redirect=chartbeat.js,script
 ||static.chartbeat.com/js/chartbeat_mab.js$redirect=chartbeat.js,script
 iphoneincanada.ca##+js(acs, document.createElement, __apNoHold)
-foxnews.com##+js(aeld, /load|error/, , G=null), clearTimeout(K), !)
+foxbusiness.com,foxnews.com##+js(aeld, /load|error/, \,G=null)\,clearTimeout(K)\,!)
 ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
 cleveland.com,fox11online.com,oregonlive.com,reuters.com,weartv.com##+js(aost, admiral, .js?)
 al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylive.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,masslive.com,mlive.com,news8000.com,oregonlive.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,silive.com,sporcle.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 mensjournal.com##+js(json-edit, ..props.children.*[?.key=="admiral-script"])
-foxnews.com##+js(nostif, , G=null), clearTimeout(K), !)
+foxbusiness.com,foxnews.com##+js(nostif, \,G=null)\,clearTimeout(K)\,!)
 247sports.com,cbsnews.com,cbssports.com,indiewire.com,nypost.com,pagesix.com,pennlive.com##+js(rmnt, script, '"data-adm-url"')
 baeldung.com,cheatsheet.com,pcwelt.de,pwinsider.com##+js(rmnt, script, admiral)
 cbssports.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com##+js(set, admiral, noopFunc)
 usatoday.com##+js(set, gnt.x.adm, '')
 foxnews.com##+js(set-constant, admrlWpJsonP, emptyObj)
+foxbusiness.com,foxnews.com##+js(set-cookie-reload, admbenefits, 1)
 ||operationsports.com/wp-json/navy/v1/tag?pid=
 ||askdriver.com^$redirect=noopjs,script
 ||backtension.com^$redirect=noopjs,script
@@ -610454,7 +610684,6 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||nvapi.nicovideo.jp/v1/bandit-machine/
 ||odsyms15.com/impression?
 ||oita-press.co.jp/js2020/analytics.js
-||portal.kotodaman.jp/api/otel/v1/logs
 ||pvtag.yahoo.co.jp^
 ||r.r10s.jp/com/ap/plugin/mediatrack/mediatracker_ichiba_item.js
 ||rakuten.co.jp/com/js/omniture/
@@ -611041,6 +611270,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
+@@||d2gt2ux04o03l1.cloudfront.net^$third-party,domain=avery.com
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 @@||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js$domain=tatacliq.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v8/bugsnag.min.js$script,domain=forecastapp.com
@@ -611845,6 +612075,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 ad-balancer.net
 127.0.0.1 ad-cupid.com
 127.0.0.1 ad-delivery.net
+127.0.0.1 ad-maven.com
 127.0.0.1 ad-pay.de
 127.0.0.1 ad-rotator.com
 127.0.0.1 ad-score.com
@@ -612722,6 +612953,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 127.0.0.1 awin1.com
 127.0.0.1 awstrack.me
 127.0.0.1 awzbijw.com
+127.0.0.1 axcii.com
 127.0.0.1 axonix.com
 127.0.0.1 ay.delivery
 127.0.0.1 ayads.co
@@ -620285,7 +620517,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||101.108.60.81^
 ||101.108.64.45^
 ||101.108.69.64^
-||101.108.7.49^
 ||101.108.73.165^
 ||101.108.74.145^
 ||101.108.76.181^
@@ -620467,6 +620698,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||103.240.211.121^
 ||103.243.4.165^
 ||103.245.10.51^
+||103.245.204.42^
 ||103.245.237.10^
 ||103.247.164.242^
 ||103.249.199.1^
@@ -620496,6 +620728,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||103.70.87.32^
 ||103.74.5.124^
 ||103.77.246.150^
+||103.78.81.106^
 ||103.79.185.121^
 ||103.8.164.18^
 ||103.80.57.126^
@@ -620519,6 +620752,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||104.168.4.206^
 ||104.168.70.142^
 ||104.168.70.171^
+||104.168.70.178^
 ||104.193.195.143^
 ||104.194.11.16^
 ||104.194.138.119^
@@ -620536,6 +620770,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||104.249.10.137^
 ||104.249.10.240^
 ||104.250.238.131^
+||104.251.180.214^
 ||104.64.0.199^
 ||105.106.34.46^
 ||105.154.111.213^
@@ -620861,9 +621096,11 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||105.224.56.184^
 ||105.224.56.236^
 ||105.224.58.130^
+||105.224.59.0^
 ||105.224.60.120^
 ||105.224.60.222^
 ||105.224.60.250^
+||105.224.75.116^
 ||105.224.8.225^
 ||105.224.80.12^
 ||105.224.80.24^
@@ -620950,6 +621187,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||105.226.5.81^
 ||105.226.6.223^
 ||105.226.64.252^
+||105.226.64.72^
 ||105.226.7.171^
 ||105.226.7.80^
 ||105.228.63.132^
@@ -621013,7 +621251,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||107.173.227.124^
 ||107.173.227.126^
 ||107.173.227.74^
-||107.174.251.112^
 ||107.174.33.14^
 ||107.174.34.145^
 ||107.175.148.115^
@@ -621022,7 +621259,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||107.175.82.242^
 ||107.175.88.100^
 ||107.175.88.71^
-||107.175.88.87^
 ||107.180.89.159^
 ||107.181.241.102^
 ||107.189.27.223^
@@ -621043,16 +621279,16 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||109.107.155.75^
 ||109.108.36.153^
 ||109.108.56.174^
-||109.108.84.121^
 ||109.123.243.121^
 ||109.126.197.13^
 ||109.160.87.2^
+||109.165.41.47^
 ||109.165.53.128^
-||109.166.211.222^
 ||109.171.67.100^
 ||109.193.105.79^
 ||109.194.28.77^
 ||109.207.216.197^
+||109.207.217.114^
 ||109.235.7.1^
 ||109.236.44.237^
 ||109.236.44.241^
@@ -621065,9 +621301,9 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||109.25.123.70^
 ||109.61.211.193^
 ||109.63.128.197^
-||109.69.79.44^
 ||109.74.204.206^
 ||109.87.223.241^
+||109.92.143.90^
 ||109.97.45.66^
 ||110.136.10.85^
 ||110.136.100.29^
@@ -621102,6 +621338,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||110.137.153.36^
 ||110.137.154.161^
 ||110.137.158.202^
+||110.137.159.252^
 ||110.138.0.149^
 ||110.138.1.45^
 ||110.138.112.212^
@@ -621136,7 +621373,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||110.186.228.185^
 ||110.186.228.232^
 ||110.186.228.55^
-||110.186.229.108^
 ||110.186.229.109^
 ||110.186.229.124^
 ||110.186.229.48^
@@ -621163,6 +621399,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||110.83.152.175^
 ||110.85.98.184^
 ||110.85.99.209^
+||110.86.100.2^
 ||110.86.160.129^
 ||110.86.160.97^
 ||110.86.161.169^
@@ -621201,6 +621438,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||112.113.101.55^
 ||112.113.135.104^
 ||112.113.175.13^
+||112.113.176.162^
 ||112.113.68.159^
 ||112.116.92.153^
 ||112.122.69.198^
@@ -621258,7 +621496,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||112.230.173.206^
 ||112.231.205.143^
 ||112.232.224.88^
-||112.232.226.68^
 ||112.232.229.167^
 ||112.232.70.255^
 ||112.233.65.251^
@@ -621326,6 +621563,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||112.247.5.140^
 ||112.247.81.29^
 ||112.247.82.85^
+||112.247.83.93^
 ||112.247.84.180^
 ||112.247.86.49^
 ||112.248.0.3^
@@ -621386,7 +621624,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||112.248.162.40^
 ||112.248.163.165^
 ||112.248.17.144^
-||112.248.174.58^
 ||112.248.184.210^
 ||112.248.184.226^
 ||112.248.184.44^
@@ -621435,10 +621672,12 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||112.252.197.213^
 ||112.252.198.182^
 ||112.252.199.225^
+||112.253.127.79^
 ||112.254.146.106^
 ||112.254.154.168^
 ||112.254.188.159^
 ||112.254.194.251^
+||112.254.21.177^
 ||112.254.233.217^
 ||112.254.25.161^
 ||112.254.26.64^
@@ -621494,6 +621733,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||113.206.4.6^
 ||113.206.97.32^
 ||113.21.43.36^
+||113.218.235.214^
 ||113.218.235.41^
 ||113.221.11.164^
 ||113.221.11.64^
@@ -621711,7 +621951,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||113.234.198.81^
 ||113.235.59.91^
 ||113.236.116.189^
-||113.236.118.216^
 ||113.236.118.39^
 ||113.236.121.214^
 ||113.236.122.119^
@@ -621944,6 +622183,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||114.235.249.68^
 ||114.239.110.169^
 ||114.239.130.251^
+||114.239.19.240^
 ||114.239.199.121^
 ||114.239.44.32^
 ||114.239.56.148^
@@ -621962,6 +622202,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.151.143.135^
 ||115.151.143.151^
 ||115.151.143.157^
+||115.151.143.176^
 ||115.151.143.217^
 ||115.151.143.25^
 ||115.151.143.29^
@@ -621985,6 +622226,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.196.7.123^
 ||115.196.76.174^
 ||115.197.33.158^
+||115.197.65.155^
 ||115.197.65.206^
 ||115.197.88.233^
 ||115.197.91.35^
@@ -622033,10 +622275,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.235.20.5^
 ||115.237.29.144^
 ||115.42.71.239^
-||115.48.10.6^
 ||115.48.11.166^
 ||115.48.119.213^
-||115.48.12.174^
 ||115.48.12.75^
 ||115.48.136.227^
 ||115.48.137.150^
@@ -622067,6 +622307,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.48.146.57^
 ||115.48.148.121^
 ||115.48.148.67^
+||115.48.148.68^
 ||115.48.149.0^
 ||115.48.149.107^
 ||115.48.149.116^
@@ -622094,6 +622335,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.48.160.185^
 ||115.48.160.216^
 ||115.48.160.255^
+||115.48.160.26^
 ||115.48.161.211^
 ||115.48.162.115^
 ||115.48.162.174^
@@ -622104,7 +622346,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.48.163.169^
 ||115.48.163.214^
 ||115.48.163.254^
-||115.48.163.35^
 ||115.48.163.48^
 ||115.48.163.59^
 ||115.48.163.88^
@@ -622296,6 +622537,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.50.168.193^
 ||115.50.172.148^
 ||115.50.173.159^
+||115.50.177.218^
 ||115.50.177.89^
 ||115.50.18.210^
 ||115.50.189.22^
@@ -622342,7 +622584,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.50.252.33^
 ||115.50.253.204^
 ||115.50.253.9^
-||115.50.254.53^
 ||115.50.28.52^
 ||115.50.3.162^
 ||115.50.31.109^
@@ -622355,6 +622596,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.50.36.197^
 ||115.50.36.77^
 ||115.50.38.196^
+||115.50.39.42^
 ||115.50.39.45^
 ||115.50.4.162^
 ||115.50.4.17^
@@ -622435,7 +622677,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.51.37.116^
 ||115.51.37.71^
 ||115.51.4.41^
-||115.51.4.93^
 ||115.51.45.90^
 ||115.51.58.88^
 ||115.51.60.58^
@@ -622521,6 +622762,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.53.209.112^
 ||115.53.209.120^
 ||115.53.209.141^
+||115.53.209.143^
 ||115.53.209.172^
 ||115.53.209.178^
 ||115.53.209.24^
@@ -622654,6 +622896,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.55.194.149^
 ||115.55.194.55^
 ||115.55.194.73^
+||115.55.196.193^
 ||115.55.197.127^
 ||115.55.197.99^
 ||115.55.198.28^
@@ -622716,7 +622959,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.55.235.236^
 ||115.55.236.175^
 ||115.55.236.179^
-||115.55.236.213^
 ||115.55.237.197^
 ||115.55.237.207^
 ||115.55.238.219^
@@ -622792,7 +623034,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.55.51.189^
 ||115.55.51.3^
 ||115.55.52.180^
-||115.55.52.24^
 ||115.55.52.39^
 ||115.55.53.12^
 ||115.55.53.131^
@@ -622822,6 +623063,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.55.60.81^
 ||115.55.61.217^
 ||115.55.61.246^
+||115.55.61.2^
 ||115.55.62.112^
 ||115.55.62.144^
 ||115.55.62.175^
@@ -622866,7 +623108,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.56.146.196^
 ||115.56.147.16^
 ||115.56.147.183^
-||115.56.147.247^
 ||115.56.147.94^
 ||115.56.148.54^
 ||115.56.149.105^
@@ -622930,7 +623171,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.56.96.49^
 ||115.56.98.215^
 ||115.57.12.233^
-||115.57.121.48^
 ||115.57.123.19^
 ||115.57.13.93^
 ||115.57.14.28^
@@ -622945,7 +623185,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.57.180.25^
 ||115.57.180.33^
 ||115.57.180.72^
-||115.57.182.131^
 ||115.57.182.192^
 ||115.57.183.7^
 ||115.57.184.196^
@@ -622959,7 +623198,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.57.195.58^
 ||115.57.199.235^
 ||115.57.205.89^
-||115.57.212.220^
 ||115.57.212.234^
 ||115.57.212.85^
 ||115.57.212.94^
@@ -623173,6 +623411,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.60.221.175^
 ||115.60.223.148^
 ||115.60.223.220^
+||115.60.250.224^
 ||115.60.251.152^
 ||115.60.252.127^
 ||115.60.252.50^
@@ -623239,7 +623478,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.62.117.185^
 ||115.62.117.230^
 ||115.62.133.38^
-||115.62.135.216^
 ||115.62.144.158^
 ||115.62.145.147^
 ||115.62.145.186^
@@ -623266,6 +623504,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||115.62.176.165^
 ||115.62.176.189^
 ||115.62.176.18^
+||115.62.176.202^
 ||115.62.177.111^
 ||115.62.177.126^
 ||115.62.177.138^
@@ -623442,6 +623681,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||116.138.235.185^
 ||116.138.241.167^
 ||116.138.242.95^
+||116.138.243.21^
 ||116.138.244.139^
 ||116.138.245.251^
 ||116.138.26.89^
@@ -623497,11 +623737,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||116.140.95.39^
 ||116.149.147.99^
 ||116.15.188.27^
+||116.167.193.121^
 ||116.167.48.231^
 ||116.171.106.3^
 ||116.2.43.97^
-||116.2.50.30^
-||116.2.53.55^
 ||116.205.168.247^
 ||116.207.221.240^
 ||116.207.223.13^
@@ -623540,6 +623779,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||116.75.87.176^
 ||116.76.206.254^
 ||116.77.75.252^
+||116.90.225.193^
 ||116.90.236.250^
 ||117.102.208.80^
 ||117.131.92.150^
@@ -623577,6 +623817,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||117.223.140.48^
 ||117.223.141.104^
 ||117.223.141.105^
+||117.223.141.123^
 ||117.223.141.161^
 ||117.223.141.168^
 ||117.223.141.189^
@@ -623585,6 +623826,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||117.223.141.255^
 ||117.223.141.2^
 ||117.223.142.140^
+||117.223.142.249^
 ||117.223.142.45^
 ||117.223.142.62^
 ||117.223.143.128^
@@ -623600,6 +623842,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||117.235.151.208^
 ||117.235.157.207^
 ||117.235.158.240^
+||117.235.158.35^
 ||117.235.41.62^
 ||117.235.42.184^
 ||117.235.62.173^
@@ -623712,7 +623955,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||118.253.80.19^
 ||118.34.109.121^
 ||118.69.157.212^
-||118.70.244.17^
 ||118.71.250.6^
 ||118.79.230.232^
 ||118.96.39.119^
@@ -623768,7 +624010,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||119.114.62.34^
 ||119.114.63.0^
 ||119.114.63.127^
-||119.114.63.205^
 ||119.114.63.69^
 ||119.115.144.69^
 ||119.115.161.6^
@@ -623880,7 +624121,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||119.117.252.99^
 ||119.117.74.19^
 ||119.117.74.66^
-||119.117.76.11^
 ||119.117.76.203^
 ||119.117.88.50^
 ||119.118.129.51^
@@ -623929,6 +624169,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||119.167.7.197^
 ||119.176.53.238^
 ||119.178.1.107^
+||119.178.188.241^
 ||119.178.216.181^
 ||119.178.218.102^
 ||119.178.251.26^
@@ -623999,7 +624240,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||119.183.3.207^
 ||119.183.3.34^
 ||119.183.5.86^
-||119.183.51.162^
 ||119.183.52.171^
 ||119.183.7.193^
 ||119.183.8.122^
@@ -624203,7 +624443,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||120.57.126.32^
 ||120.57.126.39^
 ||120.76.202.245^
-||120.77.1.20^
 ||120.79.64.164^
 ||120.82.203.7^
 ||120.84.212.102^
@@ -624216,7 +624455,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||120.84.212.164^
 ||120.84.212.202^
 ||120.84.212.206^
-||120.84.212.210^
 ||120.84.212.216^
 ||120.84.212.21^
 ||120.84.212.223^
@@ -624228,6 +624466,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||120.84.212.86^
 ||120.84.212.87^
 ||120.84.212.89^
+||120.84.212.92^
 ||120.84.212.9^
 ||120.84.213.110^
 ||120.84.213.128^
@@ -624287,7 +624526,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||120.84.215.236^
 ||120.84.215.239^
 ||120.84.215.253^
-||120.84.215.27^
+||120.84.215.30^
 ||120.84.215.55^
 ||120.84.215.56^
 ||120.84.215.61^
@@ -624343,7 +624582,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||121.231.77.20^
 ||121.231.77.24^
 ||121.231.77.41^
-||121.233.205.151^
 ||121.234.172.138^
 ||121.234.248.185^
 ||121.238.240.45^
@@ -624352,7 +624590,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||121.239.148.213^
 ||121.31.177.76^
 ||121.31.194.18^
-||121.40.213.105^
 ||121.43.104.75^
 ||121.61.49.44^
 ||121.61.51.249^
@@ -624379,6 +624616,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||122.179.136.112^
 ||122.189.194.59^
 ||122.192.191.125^
+||122.231.14.118^
 ||122.231.184.30^
 ||122.233.29.62^
 ||122.234.106.200^
@@ -624420,6 +624658,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.10.156.124^
 ||123.10.156.96^
 ||123.10.178.144^
+||123.10.200.29^
 ||123.10.202.19^
 ||123.10.203.156^
 ||123.10.203.32^
@@ -624430,6 +624669,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.10.230.178^
 ||123.10.233.243^
 ||123.10.234.172^
+||123.10.235.148^
 ||123.10.235.158^
 ||123.10.237.153^
 ||123.10.238.251^
@@ -624442,6 +624682,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.10.25.44^
 ||123.10.27.206^
 ||123.10.35.107^
+||123.10.37.54^
 ||123.10.4.234^
 ||123.10.5.102^
 ||123.10.5.110^
@@ -624574,7 +624815,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.12.169.223^
 ||123.12.173.255^
 ||123.12.176.63^
-||123.12.177.12^
 ||123.12.179.200^
 ||123.12.183.224^
 ||123.12.193.128^
@@ -624645,7 +624885,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.12.41.218^
 ||123.12.42.147^
 ||123.12.46.185^
-||123.12.46.19^
 ||123.12.8.15^
 ||123.12.82.151^
 ||123.12.86.205^
@@ -624692,6 +624931,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.129.56.38^
 ||123.129.57.22^
 ||123.129.58.19^
+||123.129.60.223^
 ||123.129.63.253^
 ||123.129.7.76^
 ||123.13.0.143^
@@ -624788,7 +625028,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.14.176.37^
 ||123.14.176.71^
 ||123.14.177.167^
-||123.14.178.128^
 ||123.14.178.242^
 ||123.14.179.154^
 ||123.14.181.201^
@@ -624880,12 +625119,14 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.14.91.240^
 ||123.14.92.216^
 ||123.14.96.22^
+||123.14.97.111^
 ||123.14.97.143^
 ||123.14.97.74^
 ||123.14.99.199^
 ||123.14.99.236^
 ||123.143.141.75^
 ||123.144.203.141^
+||123.144.232.157^
 ||123.147.83.74^
 ||123.147.86.183^
 ||123.148.129.109^
@@ -624893,6 +625134,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.148.143.61^
 ||123.148.188.77^
 ||123.148.212.69^
+||123.148.215.195^
+||123.15.157.1^
 ||123.15.158.13^
 ||123.15.67.95^
 ||123.15.75.224^
@@ -624919,7 +625162,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.172.249.63^
 ||123.172.51.198^
 ||123.172.56.34^
-||123.172.77.129^
 ||123.172.78.134^
 ||123.172.80.34^
 ||123.172.82.253^
@@ -625004,6 +625246,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.189.219.153^
 ||123.189.219.73^
 ||123.189.23.122^
+||123.189.23.50^
 ||123.189.8.59^
 ||123.189.89.213^
 ||123.190.104.125^
@@ -625016,7 +625259,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.190.162.76^
 ||123.190.163.197^
 ||123.190.163.251^
-||123.190.17.0^
 ||123.190.17.125^
 ||123.190.19.174^
 ||123.190.19.176^
@@ -625258,6 +625500,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.8.0.85^
 ||123.8.1.4^
 ||123.8.10.199^
+||123.8.13.249^
 ||123.8.162.45^
 ||123.8.163.56^
 ||123.8.163.82^
@@ -625305,7 +625548,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.9.192.251^
 ||123.9.193.142^
 ||123.9.194.116^
-||123.9.195.116^
 ||123.9.195.122^
 ||123.9.196.5^
 ||123.9.197.209^
@@ -625315,9 +625557,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||123.9.218.23^
 ||123.9.220.211^
 ||123.9.221.136^
-||123.9.223.160^
-||123.9.240.151^
 ||123.9.241.148^
+||123.9.242.192^
 ||123.9.242.26^
 ||123.9.244.144^
 ||123.9.244.39^
@@ -625349,6 +625590,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||124.129.119.149^
 ||124.129.163.79^
 ||124.129.61.14^
+||124.130.242.185^
 ||124.130.78.241^
 ||124.130.8.34^
 ||124.131.128.79^
@@ -625391,7 +625633,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||124.162.81.35^
 ||124.162.82.251^
 ||124.163.212.119^
-||124.194.46.204^
 ||124.198.131.158^
 ||124.198.131.228^
 ||124.198.131.75^
@@ -625596,6 +625837,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||125.40.153.124^
 ||125.40.153.186^
 ||125.40.153.24^
+||125.40.154.203^
 ||125.40.158.142^
 ||125.40.158.185^
 ||125.40.158.189^
@@ -625651,6 +625893,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||125.41.142.120^
 ||125.41.169.115^
 ||125.41.169.180^
+||125.41.169.44^
 ||125.41.169.4^
 ||125.41.169.91^
 ||125.41.170.212^
@@ -625670,6 +625913,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||125.41.2.40^
 ||125.41.204.131^
 ||125.41.205.10^
+||125.41.206.112^
 ||125.41.208.245^
 ||125.41.209.99^
 ||125.41.211.58^
@@ -625819,6 +626063,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||125.43.22.51^
 ||125.43.224.175^
 ||125.43.225.141^
+||125.43.225.18^
 ||125.43.226.173^
 ||125.43.226.64^
 ||125.43.227.97^
@@ -625845,6 +626090,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||125.43.36.129^
 ||125.43.36.61^
 ||125.43.37.95^
+||125.43.38.139^
 ||125.43.38.242^
 ||125.43.39.192^
 ||125.43.39.224^
@@ -625852,7 +626098,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||125.43.40.194^
 ||125.43.40.90^
 ||125.43.41.115^
-||125.43.41.147^
 ||125.43.41.93^
 ||125.43.42.239^
 ||125.43.43.232^
@@ -626118,6 +626363,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||125.47.87.202^
 ||125.47.87.230^
 ||125.47.88.126^
+||125.47.91.253^
 ||125.47.92.240^
 ||125.47.92.67^
 ||125.59.14.119^
@@ -626164,6 +626410,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||130.61.147.74^
 ||130.94.103.77^
 ||130.94.3.67^
+||130.94.37.220^
 ||130.94.57.169^
 ||131.123.40.104^
 ||131.123.43.239^
@@ -626193,6 +626440,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||138.204.196.244^
 ||138.204.196.254^
 ||138.219.58.34^
+||138.226.236.2^
 ||138.249.133.202^
 ||138.255.178.214^
 ||138.255.178.75^
@@ -626215,10 +626463,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||139.95.24.51^
 ||139.99.209.90^
 ||139.99.90.3^
-||14.107.121.45^
 ||14.124.232.70^
 ||14.137.46.81^
-||14.142.209.198^
 ||14.145.162.180^
 ||14.145.162.58^
 ||14.157.16.203^
@@ -626239,12 +626485,13 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||14.221.239.228^
 ||14.224.205.246^
 ||140.150.227.94^
+||140.237.37.5^
 ||140.237.44.158^
 ||140.237.48.186^
 ||140.237.48.248^
-||140.237.7.157^
 ||140.237.7.57^
 ||140.238.229.80^
+||141.0.142.237^
 ||141.0.143.61^
 ||141.134.214.217^
 ||141.134.214.46^
@@ -626325,6 +626572,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||147.45.116.134^
 ||147.45.116.99^
 ||147.79.62.90^
+||147.91.249.85^
 ||148.113.205.94^
 ||149.106.141.136^
 ||149.255.10.46^
@@ -626360,6 +626608,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||151.235.31.133^
 ||151.236.247.230^
 ||151.237.28.235^
+||151.237.4.20^
 ||151.240.100.74^
 ||151.240.151.223^
 ||151.240.151.7^
@@ -626399,6 +626648,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||153.117.70.74^
 ||153.117.9.113^
 ||153.36.11.139^
+||153.36.169.98^
 ||153.37.77.156^
 ||153.52.111.73^
 ||153.56.180.69^
@@ -626449,8 +626699,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||154.70.152.216^
 ||154.73.64.24^
 ||154.80.128.122^
+||154.80.128.9^
 ||154.83.85.63^
-||154.84.212.18^
 ||154.9.235.100^
 ||154.94.232.212^
 ||155.103.69.104^
@@ -626484,6 +626734,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||157.254.223.63^
 ||157.254.223.89^
 ||157.66.146.183^
+||158.140.167.192^
+||158.179.216.62^
 ||158.220.105.179^
 ||158.255.83.202^
 ||158.255.83.204^
@@ -626542,6 +626794,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||161.33.46.141^
 ||161.35.115.91^
 ||161.81.121.227^
+||162.210.172.34^
 ||162.215.130.152^
 ||162.215.218.82^
 ||162.215.218.94^
@@ -626597,7 +626850,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||163.142.92.82^
 ||163.142.92.88^
 ||163.142.92.93^
-||163.142.93.0^
+||163.142.93.105^
 ||163.142.93.136^
 ||163.142.93.139^
 ||163.142.93.152^
@@ -626674,6 +626927,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||167.88.175.180^
 ||168.119.85.190^
 ||168.121.168.84^
+||168.138.147.21^
 ||168.138.162.78^
 ||168.195.81.51^
 ||168.222.254.17^
@@ -626729,6 +626983,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||171.213.169.136^
 ||171.213.194.183^
 ||171.213.198.0^
+||171.213.198.180^
 ||171.213.207.77^
 ||171.213.208.56^
 ||171.213.210.178^
@@ -626774,7 +627029,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||172.245.209.249^
 ||172.245.244.105^
 ||172.245.61.210^
-||172.245.95.62^
 ||172.85.143.74^
 ||172.86.108.117^
 ||172.86.114.3^
@@ -626792,6 +627046,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||172.86.85.96^
 ||172.86.88.189^
 ||172.93.180.99^
+||173.182.86.23^
 ||173.208.207.44^
 ||173.231.196.249^
 ||173.255.247.97^
@@ -626916,6 +627171,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||175.147.89.33^
 ||175.147.89.87^
 ||175.147.89.9^
+||175.147.90.24^
 ||175.147.90.253^
 ||175.147.91.136^
 ||175.147.91.14^
@@ -627086,7 +627342,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||175.165.196.97^
 ||175.165.197.135^
 ||175.165.197.206^
-||175.165.197.57^
 ||175.165.199.119^
 ||175.165.199.185^
 ||175.165.23.170^
@@ -627238,7 +627493,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||175.167.84.182^
 ||175.167.87.144^
 ||175.167.87.199^
-||175.168.114.203^
 ||175.168.193.191^
 ||175.168.197.209^
 ||175.168.218.36^
@@ -627262,6 +627516,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||175.172.26.116^
 ||175.172.9.203^
 ||175.173.102.18^
+||175.173.102.83^
 ||175.173.112.175^
 ||175.173.116.250^
 ||175.173.117.164^
@@ -627297,7 +627552,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||175.174.1.212^
 ||175.174.100.13^
 ||175.174.101.44^
-||175.174.102.151^
 ||175.174.105.195^
 ||175.174.13.217^
 ||175.174.15.183^
@@ -627381,10 +627635,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||176.165.146.103^
 ||176.193.139.219^
 ||176.194.109.14^
+||176.213.27.12^
 ||176.213.86.238^
 ||176.214.121.253^
 ||176.221.111.222^
-||176.222.224.91^
 ||176.226.132.173^
 ||176.226.155.53^
 ||176.226.195.243^
@@ -627535,7 +627789,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||178.141.28.94^
 ||178.141.99.30^
 ||178.151.143.2^
-||178.151.163.54^
 ||178.16.52.105^
 ||178.16.52.139^
 ||178.16.52.209^
@@ -627583,11 +627836,14 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||178.207.243.137^
 ||178.210.214.48^
 ||178.22.31.214^
+||178.242.171.174^
+||178.242.33.146^
 ||178.245.129.234^
 ||178.247.228.13^
 ||178.248.3.202.ll.sta.mana.pf^
 ||178.34.124.22^
 ||178.35.81.8^
+||178.45.32.224^
 ||178.46.196.5^
 ||178.48.13.117^
 ||178.61.160.6^
@@ -627609,6 +627865,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||179.43.186.243^
 ||179.43.187.84^
 ||179.43.189.122^
+||179.43.189.125^
 ||179.49.213.85^
 ||179.51.168.26^
 ||179.60.216.19^
@@ -627651,6 +627908,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||180.120.0.49^
 ||180.123.98.254^
 ||180.131.167.125^
+||180.149.198.22^
 ||180.149.219.213^
 ||180.165.31.92^
 ||180.173.73.242^
@@ -627742,7 +628000,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||180.252.221.56^
 ||180.252.221.81^
 ||180.76.137.37^
-||180.76.153.78^
 ||180.76.52.207^
 ||180.92.225.138^
 ||180.93.111.142^
@@ -627812,7 +628069,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.112.76.135^
 ||182.112.8.123^
 ||182.112.8.212^
-||182.112.89.53^
 ||182.112.9.131^
 ||182.112.9.189^
 ||182.112.93.63^
@@ -627829,6 +628085,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.113.12.130^
 ||182.113.12.216^
 ||182.113.12.248^
+||182.113.13.234^
 ||182.113.191.78^
 ||182.113.192.177^
 ||182.113.192.68^
@@ -627860,6 +628117,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.113.207.137^
 ||182.113.207.181^
 ||182.113.207.62^
+||182.113.208.112^
 ||182.113.208.136^
 ||182.113.209.116^
 ||182.113.209.143^
@@ -627915,6 +628173,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.113.38.18^
 ||182.113.38.252^
 ||182.113.38.83^
+||182.113.39.154^
 ||182.113.39.174^
 ||182.113.39.207^
 ||182.113.39.42^
@@ -627936,7 +628195,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.113.43.212^
 ||182.113.44.204^
 ||182.113.44.41^
-||182.113.44.60^
 ||182.113.45.165^
 ||182.113.45.180^
 ||182.113.45.93^
@@ -627965,6 +628223,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.114.197.195^
 ||182.114.197.218^
 ||182.114.198.88^
+||182.114.199.134^
 ||182.114.199.146^
 ||182.114.246.180^
 ||182.114.247.205^
@@ -628007,7 +628266,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.115.79.151^
 ||182.116.10.163^
 ||182.116.10.230^
-||182.116.11.55^
 ||182.116.112.212^
 ||182.116.112.226^
 ||182.116.112.64^
@@ -628178,6 +628436,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.117.151.7^
 ||182.117.155.139^
 ||182.117.157.57^
+||182.117.159.184^
 ||182.117.163.106^
 ||182.117.163.171^
 ||182.117.164.78^
@@ -628213,7 +628472,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.117.50.118^
 ||182.117.50.169^
 ||182.117.50.210^
-||182.117.51.201^
 ||182.117.54.127^
 ||182.117.6.145^
 ||182.117.68.170^
@@ -628226,6 +628484,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.117.69.14^
 ||182.117.69.222^
 ||182.117.69.59^
+||182.117.69.91^
 ||182.117.7.153^
 ||182.117.70.195^
 ||182.117.70.206^
@@ -628357,7 +628616,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.119.58.161^
 ||182.119.59.43^
 ||182.119.59.66^
-||182.119.6.45^
 ||182.119.63.184^
 ||182.119.63.98^
 ||182.119.64.209^
@@ -628378,7 +628636,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.120.10.236^
 ||182.120.11.141^
 ||182.120.11.232^
-||182.120.13.196^
 ||182.120.132.147^
 ||182.120.138.14^
 ||182.120.148.13^
@@ -628437,6 +628694,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.121.114.245^
 ||182.121.114.249^
 ||182.121.114.85^
+||182.121.116.42^
 ||182.121.117.199^
 ||182.121.118.241^
 ||182.121.119.101^
@@ -628463,7 +628721,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.121.151.11^
 ||182.121.152.52^
 ||182.121.153.213^
-||182.121.153.246^
 ||182.121.154.159^
 ||182.121.155.152^
 ||182.121.156.108^
@@ -628485,6 +628742,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.121.171.41^
 ||182.121.172.105^
 ||182.121.173.152^
+||182.121.173.227^
 ||182.121.173.75^
 ||182.121.173.87^
 ||182.121.176.90^
@@ -628519,6 +628777,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.121.224.2^
 ||182.121.224.34^
 ||182.121.224.68^
+||182.121.225.249^
 ||182.121.227.170^
 ||182.121.227.48^
 ||182.121.228.95^
@@ -628531,10 +628790,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.121.236.237^
 ||182.121.239.171^
 ||182.121.242.193^
-||182.121.247.247^
 ||182.121.248.47^
 ||182.121.249.23^
-||182.121.250.165^
 ||182.121.250.59^
 ||182.121.253.127^
 ||182.121.253.183^
@@ -628542,7 +628799,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.121.254.245^
 ||182.121.41.150^
 ||182.121.41.234^
-||182.121.43.33^
 ||182.121.44.120^
 ||182.121.44.163^
 ||182.121.45.158^
@@ -628606,6 +628862,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.122.233.74^
 ||182.122.236.109^
 ||182.122.236.126^
+||182.122.237.51^
 ||182.122.237.74^
 ||182.122.238.136^
 ||182.122.238.92^
@@ -628619,7 +628876,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.122.54.46^
 ||182.122.55.63^
 ||182.123.141.237^
-||182.123.162.14^
 ||182.123.162.80^
 ||182.123.164.203^
 ||182.123.164.66^
@@ -628641,6 +628897,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.123.244.214^
 ||182.123.247.177^
 ||182.123.252.49^
+||182.123.40.223^
 ||182.123.45.159^
 ||182.123.47.145^
 ||182.123.91.68^
@@ -628653,6 +628910,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.124.12.142^
 ||182.124.12.91^
 ||182.124.121.111^
+||182.124.129.24^
 ||182.124.13.13^
 ||182.124.14.60^
 ||182.124.164.121^
@@ -628725,6 +628983,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.126.121.42^
 ||182.126.122.180^
 ||182.126.122.49^
+||182.126.122.58^
 ||182.126.124.102^
 ||182.126.124.131^
 ||182.126.124.137^
@@ -628773,7 +629032,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.126.245.143^
 ||182.126.246.201^
 ||182.126.247.75^
-||182.126.248.10^
 ||182.126.248.159^
 ||182.126.248.166^
 ||182.126.248.175^
@@ -628819,7 +629077,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.126.89.149^
 ||182.126.89.41^
 ||182.126.9.221^
-||182.126.90.106^
 ||182.126.90.15^
 ||182.126.90.177^
 ||182.126.90.217^
@@ -629015,6 +629272,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.139.177.113^
 ||182.146.185.160^
 ||182.146.222.235^
+||182.149.246.46^
 ||182.160.102.188^
 ||182.163.114.232^
 ||182.176.116.4^
@@ -629064,6 +629322,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||182.34.62.251^
 ||182.34.62.62^
 ||182.46.17.53^
+||182.46.45.4^
 ||182.52.125.221^
 ||182.52.128.18^
 ||182.52.128.240^
@@ -629120,6 +629379,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||183.151.201.28^
 ||183.151.202.172^
 ||183.153.114.172^
+||183.156.163.159^
 ||183.156.212.86^
 ||183.158.16.87^
 ||183.158.162.161^
@@ -629132,7 +629392,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||183.23.130.153^
 ||183.23.131.96^
 ||183.23.132.19^
-||183.23.132.41^
 ||183.23.133.4^
 ||183.23.134.193^
 ||183.23.134.221^
@@ -629210,6 +629469,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||185.177.239.241^
 ||185.187.18.209^
 ||185.187.18.22^
+||185.191.89.120^
+||185.191.89.122^
 ||185.198.58.153^
 ||185.2.229.122^
 ||185.20.19.72^
@@ -629233,6 +629494,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||185.242.3.238^
 ||185.242.3.5^
 ||185.242.3.87^
+||185.246.118.8^
 ||185.247.118.41^
 ||185.29.10.102^
 ||185.29.10.35^
@@ -629244,6 +629506,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||185.34.144.137^
 ||185.34.144.138^
 ||185.39.181.103^
+||185.39.181.223^
 ||185.4.64.128^
 ||185.43.16.137^
 ||185.43.17.123^
@@ -629269,8 +629532,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||186.227.246.231^
 ||186.227.246.242^
 ||186.235.86.129^
-||186.73.152.142^
-||186.87.82.140^
 ||187.110.223.227^
 ||187.121.141.133^
 ||187.121.141.140^
@@ -629287,14 +629548,12 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||188.121.201.22^
 ||188.124.151.9^
 ||188.129.184.210^
-||188.129.186.246^
 ||188.129.251.7^
 ||188.134.8.43^
 ||188.147.175.138^
 ||188.16.85.54^
 ||188.167.179.75^
 ||188.17.67.167^
-||188.170.32.148^
 ||188.173.136.155^
 ||188.187.91.186^
 ||188.19.145.228^
@@ -629332,6 +629591,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||190.103.72.229^
 ||190.104.195.210^
 ||190.108.63.242^
+||190.109.227.110^
 ||190.109.227.137^
 ||190.109.227.156^
 ||190.109.227.158^
@@ -629375,7 +629635,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||191.37.19.74^
 ||191.44.112.76^
 ||191.44.114.109^
-||191.44.114.243^
 ||191.44.114.74^
 ||191.44.66.129^
 ||192.159.99.164^
@@ -629448,6 +629707,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||194.163.143.72^
 ||194.163.178.71^
 ||194.164.29.150^
+||194.180.157.77^
 ||194.233.70.145^
 ||194.238.29.124^
 ||194.238.57.213^
@@ -629551,6 +629811,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||196.206.98.23^
 ||196.210.57.231^
 ||196.217.1.226^
+||196.217.1.70^
 ||196.217.112.249^
 ||196.217.5.142^
 ||196.221.145.214^
@@ -629577,14 +629838,16 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||197.206.54.196^
 ||197.232.45.36^
 ||197.232.51.163^
+||197.44.77.98^
 ||198-144-179-82-host.colocrossing.com^
 ||198-macros.com^
 ||198.12.126.186^
 ||198.12.126.187^
+||198.12.126.189^
 ||198.12.83.76^
+||198.2.110.105^
 ||198.20.153.28^
 ||198.23.144.123^
-||198.23.144.125^
 ||198.23.150.2^
 ||198.23.177.220^
 ||198.251.85.84^
@@ -629592,11 +629855,14 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||198.44.125.15^
 ||198.44.46.58^
 ||198.46.161.135^
+||198.46.174.139^
 ||198.58.186.53^
 ||198.84.87.4^
 ||198.91.87.184^
 ||198348.gl^
 ||198macros.org^
+||199.104.63.31^
+||199.104.63.41^
 ||199.16.59.198^
 ||199.168.184.115^
 ||199.245.176.23^
@@ -629713,6 +629979,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||202.110.9.54^
 ||202.111.130.108^
 ||202.111.130.33^
+||202.129.16.119^
 ||202.129.16.172^
 ||202.131.234.26^
 ||202.131.244.202^
@@ -629721,7 +629988,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||202.148.18.220^
 ||202.148.18.221^
 ||202.148.5.34^
-||202.162.36.210^
 ||202.163.102.169^
 ||202.163.107.242^
 ||202.163.68.169^
@@ -629731,7 +629997,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||202.189.12.244^
 ||202.3.248.178^
 ||202.3.248.179^
-||202.40.178.238^
+||202.4.101.78^
 ||202.47.46.183^
 ||202.47.54.175^
 ||202.57.39.2^
@@ -629744,9 +630010,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||202.78.201.3^
 ||202.83.167.117^
 ||202.88.234.44^
-||202.95.11.173^
-||202.95.11.181^
-||202.95.11.209^
 ||202.95.15.139^
 ||202.95.15.49^
 ||202.97.172.7^
@@ -629777,11 +630040,9 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||203.212.222.22^
 ||203.221.8.159^
 ||203.34.241.171^
-||203.83.186.62^
 ||203.99.180.141^
 ||204.141.236.157^
 ||204.194.50.3^
-||204.44.69.216^
 ||204.44.69.243^
 ||204.44.93.119^
 ||204.44.93.123^
@@ -629796,6 +630057,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||206.130.211.211^
 ||206.187.193.83^
 ||206.206.78.39^
+||206.72.195.216^
 ||207.180.58.136^
 ||207.188.90.226^
 ||207.188.90.227^
@@ -629862,10 +630124,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||211.204.100.20^
 ||211.21.108.140^
 ||211.219.49.173^
-||211.229.127.206^
 ||211.47.121.143^
 ||211.75.38.154^
 ||211.93.92.3^
+||212.107.232.167^
 ||212.113.116.111^
 ||212.113.116.112^
 ||212.156.106.146^
@@ -629882,7 +630144,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||212.50.57.143^
 ||212.54.86.171^
 ||212.69.61.19^
-||212.73.75.82^
 ||212.73.75.84^
 ||212.80.205.63^
 ||212.83.160.70^
@@ -629899,12 +630160,12 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||213.5.194.56^
 ||213.6.101.83^
 ||213.6.196.230^
+||213.6.74.138^
 ||213.64.230.238^
 ||213.66.64.21^
 ||213.66.68.29^
 ||213.67.132.80^
 ||213.87.112.128^
-||213.91.236.237^
 ||213.96.13.100^
 ||216.108.234.33^
 ||216.126.71.86^
@@ -629961,7 +630222,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||217.145.226.120^
 ||217.145.226.130^
 ||217.145.72.196^
-||217.154.188.255^
 ||217.154.7.237^
 ||217.154.79.223^
 ||217.156.64.28^
@@ -630022,6 +630282,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||218.16.164.246^
 ||218.16.164.2^
 ||218.16.164.35^
+||218.16.164.43^
 ||218.16.164.47^
 ||218.16.164.56^
 ||218.16.164.8^
@@ -630166,7 +630427,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||219.155.31.114^
 ||219.155.60.214^
 ||219.155.60.99^
-||219.155.61.0^
 ||219.155.62.69^
 ||219.155.63.127^
 ||219.155.80.139^
@@ -630179,6 +630439,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||219.155.81.76^
 ||219.155.81.88^
 ||219.155.82.33^
+||219.155.83.212^
 ||219.155.83.223^
 ||219.155.83.56^
 ||219.155.86.205^
@@ -630237,6 +630498,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||219.156.34.146^
 ||219.156.34.50^
 ||219.156.35.142^
+||219.156.35.48^
 ||219.156.42.167^
 ||219.156.51.237^
 ||219.156.52.228^
@@ -630252,12 +630514,13 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||219.156.87.59^
 ||219.156.92.2^
 ||219.156.96.131^
-||219.156.98.218^
+||219.156.96.138^
 ||219.156.99.138^
 ||219.157.10.14^
 ||219.157.13.139^
 ||219.157.132.51^
 ||219.157.133.197^
+||219.157.133.239^
 ||219.157.133.43^
 ||219.157.134.110^
 ||219.157.140.92^
@@ -630322,7 +630585,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||219.157.242.174^
 ||219.157.244.150^
 ||219.157.246.193^
-||219.157.249.227^
 ||219.157.252.176^
 ||219.157.253.88^
 ||219.157.254.40^
@@ -630365,6 +630627,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||220.158.234.4^
 ||220.158.234.65^
 ||220.161.100.141^
+||220.161.100.142^
 ||220.161.100.55^
 ||220.161.100.72^
 ||220.161.160.148^
@@ -630416,6 +630679,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||220.198.113.45^
 ||220.198.113.61^
 ||220.198.113.72^
+||220.198.114.189^
 ||220.198.114.225^
 ||220.198.114.39^
 ||220.198.114.55^
@@ -630681,6 +630945,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||221.200.114.91^
 ||221.200.166.125^
 ||221.200.208.161^
+||221.200.211.197^
 ||221.200.211.78^
 ||221.200.211.94^
 ||221.200.213.226^
@@ -630752,7 +631017,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||221.37.167.72.host.secureserver.net^
 ||222.112.70.149^
 ||222.113.196.55^
-||222.118.158.30^
 ||222.124.53.235^
 ||222.124.53.60^
 ||222.124.55.6^
@@ -630846,7 +631110,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||222.137.100.254^
 ||222.137.102.74^
 ||222.137.105.190^
-||222.137.105.216^
 ||222.137.112.17^
 ||222.137.113.232^
 ||222.137.118.243^
@@ -630860,6 +631123,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||222.137.141.71^
 ||222.137.141.81^
 ||222.137.142.48^
+||222.137.143.231^
 ||222.137.143.236^
 ||222.137.144.228^
 ||222.137.145.114^
@@ -630937,7 +631201,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||222.138.101.213^
 ||222.138.101.246^
 ||222.138.101.8^
-||222.138.103.241^
 ||222.138.103.80^
 ||222.138.104.7^
 ||222.138.116.139^
@@ -631011,6 +631274,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||222.139.193.14^
 ||222.139.194.121^
 ||222.139.194.242^
+||222.139.199.251^
 ||222.139.204.189^
 ||222.139.226.201^
 ||222.139.229.169^
@@ -631049,6 +631313,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||222.139.77.4^
 ||222.139.81.174^
 ||222.139.88.239^
+||222.139.92.13^
 ||222.139.94.14^
 ||222.139.94.187^
 ||222.140.156.108^
@@ -631133,7 +631398,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||222.141.129.76^
 ||222.141.130.234^
 ||222.141.131.32^
-||222.141.132.237^
 ||222.141.133.202^
 ||222.141.133.234^
 ||222.141.135.181^
@@ -631346,6 +631610,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||223.108.82.26^
 ||223.11.56.145^
 ||223.11.56.3^
+||223.11.58.82^
 ||223.112.189.134^
 ||223.122.120.36^
 ||223.123.126.197^
@@ -631372,7 +631637,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||223.151.73.208^
 ||223.151.73.230^
 ||223.151.73.30^
-||223.151.74.149^
 ||223.151.74.171^
 ||223.151.74.18^
 ||223.151.74.233^
@@ -631409,14 +631673,13 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||23.252.123.134^
 ||23.254.195.48^
 ||23.94.145.112^
+||23.94.145.115^
 ||23.94.145.229^
 ||23.94.145.243^
 ||23.94.145.88^
-||23.94.148.3^
 ||23.94.148.56^
 ||23.94.252.153^
 ||23.94.252.211^
-||23.95.103.215^
 ||23.95.147.80^
 ||23.95.217.226^
 ||23.95.228.20^
@@ -631477,6 +631740,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||27.193.50.197^
 ||27.193.51.129^
 ||27.193.62.54^
+||27.194.175.162^
 ||27.194.210.69^
 ||27.194.233.103^
 ||27.194.240.129^
@@ -631585,7 +631849,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||27.207.190.236^
 ||27.207.198.119^
 ||27.207.205.57^
-||27.207.216.59^
 ||27.207.221.25^
 ||27.207.222.65^
 ||27.207.224.176^
@@ -631739,7 +632002,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||27.215.51.161^
 ||27.215.51.6^
 ||27.215.52.181^
-||27.215.52.217^
 ||27.215.52.52^
 ||27.215.53.47^
 ||27.215.54.15^
@@ -631809,7 +632071,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||27.220.80.126^
 ||27.220.81.202^
 ||27.220.83.105^
-||27.220.84.239^
 ||27.220.85.22^
 ||27.220.86.44^
 ||27.220.9.217^
@@ -631939,7 +632200,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||27.44.145.189^
 ||27.44.145.195^
 ||27.44.145.199^
-||27.44.145.210^
 ||27.44.145.222^
 ||27.44.145.224^
 ||27.44.145.226^
@@ -632003,6 +632263,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||27.44.147.55^
 ||27.44.147.63^
 ||27.44.147.65^
+||27.44.147.70^
 ||27.44.147.72^
 ||27.44.147.83^
 ||27.44.147.91^
@@ -632053,6 +632314,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||31.40.204.4^
 ||31.42.176.91^
 ||31.42.177.185^
+||31.55.236.199^
 ||31.56.19.114^
 ||31.56.19.21^
 ||31.56.209.11^
@@ -632065,7 +632327,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||31.56.52.6^
 ||31.56.53.160^
 ||31.57.184.249^
-||31.58.171.194^
 ||31.59.40.122^
 ||31.59.41.172^
 ||31.7.149.228^
@@ -632076,27 +632337,26 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||31.76.252.97^
 ||31.76.61.78^
 ||31.76.94.111^
+||31.77.10.77^
 ||31.77.109.224^
 ||31.77.144.86^
 ||31.77.170.107^
 ||31.77.183.191^
-||31.77.227.121^
 ||31.shaderzone.org^
 ||32.219.189.94^
 ||33841-28554.dchost.com^
 ||34.45.47.180^
 ||34.70.102.215^
 ||34.89.60.35^
-||35.178.245.215^
 ||35.75.68.158^
 ||36.100.244.98^
 ||36.104.222.80^
 ||36.104.223.219^
 ||36.110.15.211^
+||36.138.125.70^
 ||36.138.222.77^
 ||36.151.74.42^
 ||36.152.102.46^
-||36.154.188.50^
 ||36.158.34.122^
 ||36.20.76.9^
 ||36.22.241.125^
@@ -632136,7 +632396,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||36.49.34.21^
 ||36.49.52.140^
 ||36.49.54.62^
-||36.5.87.54^
 ||36.50.134.86^
 ||36.64.184.26^
 ||36.64.210.218^
@@ -632255,7 +632514,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||36.92.110.187^
 ||36.92.24.250^
 ||36.92.68.241^
-||36.95.137.155^
 ||36.95.77.138^
 ||36.97.200.35^
 ||37.112.49.136^
@@ -632278,7 +632536,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||37.220.123.125^
 ||37.221.65.76^
 ||37.221.79.128^
-||37.221.93.40^
 ||37.233.63.185^
 ||37.26.86.216^
 ||37.28.177.69^
@@ -632353,7 +632610,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||38.75.202.173^
 ||38.75.202.230^
 ||38.9.96.215^
-||38.97.56.196^
 ||39.100.33.142^
 ||39.105.223.127^
 ||39.109.57.179^
@@ -632446,6 +632702,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||39.74.101.68^
 ||39.74.114.50^
 ||39.74.115.234^
+||39.74.130.200^
 ||39.74.145.166^
 ||39.74.153.192^
 ||39.74.18.45^
@@ -632486,6 +632743,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||39.77.231.207^
 ||39.77.248.62^
 ||39.77.250.226^
+||39.77.251.235^
 ||39.77.48.16^
 ||39.78.160.101^
 ||39.78.182.86^
@@ -632587,6 +632845,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||39.90.150.253^
 ||39.90.150.255^
 ||39.90.151.123^
+||39.90.151.124^
 ||39.90.151.154^
 ||39.90.185.198^
 ||39.90.186.130^
@@ -632594,6 +632853,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||39.90.238.94^
 ||39.91.91.144^
 ||39.97.246.227^
+||3byy0j.oss-cn-beijing.aliyuncs.com^
 ||3d4ebf0-54a1-4844-bd7a-709370159964.selectivewilled.cc^
 ||40.160.102.155^
 ||40.160.135.244^
@@ -632609,6 +632869,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||41.142.182.30^
 ||41.142.223.242^
 ||41.142.23.166^
+||41.142.235.73^
 ||41.142.43.253^
 ||41.142.63.142^
 ||41.143.113.129^
@@ -632645,7 +632906,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||41.251.99.73^
 ||41.252.58.139^
 ||41.252.58.224^
-||41.38.56.232^
 ||41.63.163.119^
 ||41.74.123.66^
 ||41.78.75.186^
@@ -632715,7 +632975,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.178.220.88^
 ||42.178.227.203^
 ||42.178.23.168^
-||42.178.23.194^
 ||42.178.232.134^
 ||42.178.24.74^
 ||42.178.27.133^
@@ -632780,6 +633039,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.224.101.5^
 ||42.224.102.154^
 ||42.224.102.171^
+||42.224.102.203^
 ||42.224.102.98^
 ||42.224.103.52^
 ||42.224.103.64^
@@ -632824,7 +633084,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.224.148.91^
 ||42.224.15.6^
 ||42.224.150.162^
-||42.224.151.118^
 ||42.224.151.147^
 ||42.224.153.218^
 ||42.224.154.92^
@@ -632960,7 +633219,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.225.231.138^
 ||42.225.231.39^
 ||42.225.241.115^
-||42.225.241.153^
 ||42.225.241.49^
 ||42.225.242.148^
 ||42.225.242.204^
@@ -633082,6 +633340,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.227.205.122^
 ||42.227.205.202^
 ||42.227.206.143^
+||42.227.206.182^
 ||42.227.206.252^
 ||42.227.207.135^
 ||42.227.207.208^
@@ -633098,6 +633357,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.227.37.242^
 ||42.227.37.65^
 ||42.227.39.4^
+||42.227.4.145^
 ||42.227.4.254^
 ||42.227.42.211^
 ||42.227.44.100^
@@ -633128,7 +633388,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.228.222.245^
 ||42.228.223.88^
 ||42.228.232.201^
-||42.228.233.155^
 ||42.228.233.166^
 ||42.228.235.140^
 ||42.228.236.172^
@@ -633221,7 +633480,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.230.190.172^
 ||42.230.205.25^
 ||42.230.206.118^
-||42.230.209.22^
 ||42.230.216.25^
 ||42.230.216.82^
 ||42.230.218.97^
@@ -633268,7 +633526,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.230.43.21^
 ||42.230.43.253^
 ||42.230.44.33^
-||42.230.45.47^
 ||42.230.46.0^
 ||42.230.46.104^
 ||42.230.46.20^
@@ -633305,7 +633562,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.231.189.168^
 ||42.231.201.16^
 ||42.231.201.3^
-||42.231.203.243^
 ||42.231.204.76^
 ||42.231.205.106^
 ||42.231.206.17^
@@ -633324,6 +633580,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.231.237.80^
 ||42.231.248.255^
 ||42.231.249.63^
+||42.231.251.16^
 ||42.231.251.190^
 ||42.231.251.2^
 ||42.231.252.202^
@@ -633562,6 +633819,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.235.43.128^
 ||42.235.44.102^
 ||42.235.44.190^
+||42.235.46.120^
 ||42.235.48.102^
 ||42.235.48.143^
 ||42.235.48.186^
@@ -633824,7 +634082,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.4.209.168^
 ||42.4.21.210^
 ||42.4.97.14^
-||42.5.10.102^
 ||42.5.109.239^
 ||42.5.11.232^
 ||42.5.129.154^
@@ -633973,7 +634230,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.56.135.154^
 ||42.56.135.44^
 ||42.56.135.50^
-||42.56.136.70^
 ||42.56.140.178^
 ||42.56.148.12^
 ||42.56.148.18^
@@ -634142,6 +634398,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||42.85.169.231^
 ||42.85.175.38^
 ||42.85.187.243^
+||42.85.197.163^
 ||42.85.203.171^
 ||42.85.203.26^
 ||42.85.205.103^
@@ -634226,8 +634483,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||45.118.79.103^
 ||45.123.9.197^
 ||45.125.44.137^
+||45.126.126.120^
 ||45.129.231.1^
 ||45.13.186.37^
+||45.13.225.164^
 ||45.130.191.2^
 ||45.133.73.61^
 ||45.135.193.113^
@@ -634260,7 +634519,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||45.148.10.240^
 ||45.148.148.31^
 ||45.148.148.89^
-||45.150.195.235^
+||45.150.195.130^
 ||45.151.122.34^
 ||45.153.34.108^
 ||45.153.34.166^
@@ -634275,6 +634534,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||45.156.87.128^
 ||45.156.87.230^
 ||45.156.87.243^
+||45.156.87.27^
 ||45.156.87.87^
 ||45.158.199.240^
 ||45.158.199.24^
@@ -634318,6 +634578,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||45.198.224.34^
 ||45.198.224.43^
 ||45.198.224.60^
+||45.198.224.75^
 ||45.198.224.89^
 ||45.198.224.97^
 ||45.2.198.109^
@@ -634331,6 +634592,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||45.205.1.167^
 ||45.207.157.28^
 ||45.207.222.89^
+||45.207.243.243^
 ||45.224.83.130^
 ||45.225.135.160^
 ||45.225.135.18^
@@ -634339,10 +634601,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||45.233.226.43^
 ||45.233.94.135^
 ||45.234.234.14^
-||45.236.116.198^
 ||45.239.137.80^
 ||45.248.33.200^
 ||45.249.84.27^
+||45.251.240.174^
 ||45.32.215.222^
 ||45.39.84.142^
 ||45.48.226.174^
@@ -634374,10 +634636,12 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||45.8.118.17^
 ||45.83.28.78^
 ||45.86.62.54^
+||45.86.68.34^
 ||45.87.174.8^
 ||45.88.186.164^
 ||45.88.186.196^
 ||45.88.186.201^
+||45.88.91.135^
 ||45.9.149.168^
 ||45.9.2.239^
 ||45.90.13.169^
@@ -634424,9 +634688,9 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||46.224.166.188^
 ||46.23.178.177^
 ||46.233.237.237^
+||46.236.108.86^
 ||46.236.65.106^
 ||46.236.65.12^
-||46.236.65.141^
 ||46.236.65.145^
 ||46.236.65.158^
 ||46.236.65.160^
@@ -634461,6 +634725,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||47.109.23.53^
 ||47.109.94.146^
 ||47.115.37.164^
+||47.120.32.72^
 ||47.120.34.30^
 ||47.121.138.211^
 ||47.121.184.138^
@@ -634606,7 +634871,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||54.54.43.70^
 ||540239621396215402.raymelo.vu^
 ||5459-457c-fdff.tawnyfold.cc^
-||57.129.23.24^
 ||58.168.224.103^
 ||58.182.146.104^
 ||58.208.136.102^
@@ -634653,7 +634917,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||58.37.101.152^
 ||58.47.104.163^
 ||58.47.104.232^
-||58.47.104.43^
 ||58.47.104.96^
 ||58.47.105.153^
 ||58.47.105.165^
@@ -634708,6 +634971,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.180.128.59^
 ||59.180.128.60^
 ||59.180.132.133^
+||59.180.132.174^
 ||59.180.132.206^
 ||59.180.132.51^
 ||59.180.133.124^
@@ -634795,6 +635059,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.180.169.61^
 ||59.180.171.22^
 ||59.180.172.227^
+||59.180.172.99^
 ||59.180.173.183^
 ||59.180.174.220^
 ||59.180.181.204^
@@ -634829,6 +635094,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.96.136.42^
 ||59.96.136.55^
 ||59.96.136.71^
+||59.96.136.83^
 ||59.96.137.129^
 ||59.96.137.142^
 ||59.96.137.14^
@@ -634841,6 +635107,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.96.137.209^
 ||59.96.137.214^
 ||59.96.137.224^
+||59.96.137.230^
 ||59.96.137.243^
 ||59.96.137.244^
 ||59.96.137.250^
@@ -634851,6 +635118,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.96.138.118^
 ||59.96.138.120^
 ||59.96.138.122^
+||59.96.138.124^
 ||59.96.138.132^
 ||59.96.138.137^
 ||59.96.138.13^
@@ -634866,17 +635134,18 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.96.138.225^
 ||59.96.138.239^
 ||59.96.138.23^
+||59.96.138.253^
 ||59.96.138.25^
 ||59.96.138.28^
 ||59.96.138.33^
 ||59.96.138.45^
 ||59.96.138.46^
+||59.96.138.64^
 ||59.96.138.6^
 ||59.96.138.72^
 ||59.96.138.94^
 ||59.96.139.105^
 ||59.96.139.109^
-||59.96.139.113^
 ||59.96.139.115^
 ||59.96.139.118^
 ||59.96.139.150^
@@ -634991,6 +635260,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.96.143.234^
 ||59.96.143.235^
 ||59.96.143.28^
+||59.96.143.36^
 ||59.96.143.48^
 ||59.96.143.49^
 ||59.96.143.52^
@@ -635065,6 +635335,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.97.251.243^
 ||59.97.251.248^
 ||59.97.251.249^
+||59.97.251.255^
 ||59.97.251.2^
 ||59.97.251.49^
 ||59.97.251.4^
@@ -635102,7 +635373,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||59.97.253.187^
 ||59.97.253.196^
 ||59.97.253.202^
-||59.97.253.208^
 ||59.97.253.212^
 ||59.97.253.217^
 ||59.97.253.220^
@@ -635225,7 +635495,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||60.184.200.82^
 ||60.184.201.67^
 ||60.184.202.36^
-||60.186.126.198^
 ||60.186.138.183^
 ||60.186.209.6^
 ||60.187.85.171^
@@ -635249,6 +635518,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||60.19.217.158^
 ||60.19.217.178^
 ||60.19.217.253^
+||60.19.217.37^
 ||60.19.217.54^
 ||60.19.218.19^
 ||60.19.218.80^
@@ -635283,6 +635553,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||60.19.252.160^
 ||60.19.252.247^
 ||60.19.255.12^
+||60.19.32.68^
 ||60.19.4.185^
 ||60.19.47.25^
 ||60.19.6.86^
@@ -635319,7 +635590,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||60.214.62.213^
 ||60.215.197.174^
 ||60.216.121.136^
-||60.217.123.198^
 ||60.217.161.244^
 ||60.219.148.208^
 ||60.219.162.27^
@@ -635563,6 +635833,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.168.53.208^
 ||61.174.126.73^
 ||61.174.127.164^
+||61.174.230.205^
 ||61.176.123.105^
 ||61.176.197.31^
 ||61.176.69.110^
@@ -635606,6 +635877,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.52.156.146^
 ||61.52.156.158^
 ||61.52.156.240^
+||61.52.156.243^
 ||61.52.156.249^
 ||61.52.156.250^
 ||61.52.156.254^
@@ -635627,13 +635899,13 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.52.159.140^
 ||61.52.159.144^
 ||61.52.159.152^
-||61.52.159.178^
 ||61.52.159.237^
 ||61.52.159.83^
 ||61.52.159.90^
 ||61.52.169.123^
 ||61.52.169.211^
 ||61.52.177.113^
+||61.52.178.200^
 ||61.52.178.31^
 ||61.52.179.156^
 ||61.52.179.224^
@@ -635651,6 +635923,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.52.192.227^
 ||61.52.195.226^
 ||61.52.197.17^
+||61.52.198.117^
 ||61.52.198.150^
 ||61.52.198.36^
 ||61.52.2.173^
@@ -635761,7 +636034,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.53.119.15^
 ||61.53.119.228^
 ||61.53.120.105^
-||61.53.120.157^
 ||61.53.120.20^
 ||61.53.120.245^
 ||61.53.121.122^
@@ -635829,7 +636101,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.53.205.255^
 ||61.53.205.39^
 ||61.53.218.227^
-||61.53.220.201^
 ||61.53.223.56^
 ||61.53.236.111^
 ||61.53.236.32^
@@ -635861,7 +636132,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.53.82.240^
 ||61.53.83.129^
 ||61.53.83.215^
-||61.53.84.173^
 ||61.53.84.44^
 ||61.53.84.94^
 ||61.53.84.98^
@@ -635909,7 +636179,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.53.94.99^
 ||61.53.95.150^
 ||61.53.95.155^
-||61.53.95.17^
 ||61.53.95.200^
 ||61.54.167.178^
 ||61.54.172.163^
@@ -635931,7 +636200,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||61.54.253.155^
 ||61.54.253.190^
 ||61.54.253.20^
-||61.54.253.22^
 ||61.54.40.139^
 ||61.54.40.75^
 ||61.54.41.100^
@@ -635958,10 +636226,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||62.246.109.249^
 ||62.60.226.140^
 ||62.60.226.181^
-||62.60.226.185^
 ||62.60.227.112^
 ||62.60.234.77^
 ||62.82.237.213^
+||62.94.13.193^
 ||63.245.153.41^
 ||63.245.153.71^
 ||64.112.84.195^
@@ -635984,7 +636252,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||64.89.160.97^
 ||64.89.161.130^
 ||64.89.161.131^
-||64.89.161.187^
 ||64.89.161.65^
 ||64.89.163.224^
 ||64.89.163.22^
@@ -635992,6 +636259,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||64.89.163.8^
 ||64.94.84.173^
 ||65.108.62.224^
+||65.31.97.25^
 ||65.49.44.84^
 ||65.87.7.90^
 ||65.99.181.12^
@@ -636000,7 +636268,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||66.116.243.130^
 ||66.128.38.79^
 ||66.185.26.66^
-||66.196.62.177^
 ||66.205.236.106^
 ||66.205.236.147^
 ||66.205.236.190^
@@ -636039,11 +636306,11 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||69.122.175.34^
 ||69.169.99.158^
 ||69.173.180.110^
-||69.33.213.199^
 ||69.48.143.20^
 ||6ab746fb57212ca6e1e7b121.imgix.net^
 ||6ae7d77987027fb6113ab10c.imgix.net^
 ||6af3227a926b60443dfa4412.imgix.net^
+||6ak-tehnik.si^
 ||6sim.vip^
 ||6tu2zzl7q5wtdm6icmutlb6ifr7zz3z2svxvieaz7u4pqxrbblc7ltid.onion^
 ||70.166.118.40^
@@ -636183,6 +636450,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||79.106.74.163^
 ||79.106.74.167^
 ||79.110.49.140^
+||79.110.49.223^
 ||79.111.175.89^
 ||79.116.166.243^
 ||79.127.15.178^
@@ -636201,6 +636469,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||8.134.166.209^
 ||8.136.138.165^
 ||8.138.96.41^
+||8.140.239.162^
 ||8.152.203.130^
 ||8.153.207.91^
 ||8.163.15.89^
@@ -636220,7 +636489,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||8.222.247.229^
 ||80.11.25.16^
 ||80.11.36.4^
-||80.110.37.104^
 ||80.14.38.66^
 ||80.147.155.189^
 ||80.225.83.93^
@@ -636258,7 +636526,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||81.251.40.212^
 ||81.26.83.155^
 ||81.31.208.171^
-||81.4.156.50^
 ||81.42.247.62^
 ||81.42.249.132^
 ||81.45.183.125^
@@ -636271,8 +636538,9 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||82.144.86.37^
 ||82.146.62.232^
 ||82.148.194.54^
-||82.156.56.214^
+||82.153.68.113^
 ||82.158.89.140^
+||82.165.181.96^
 ||82.165.60.187^
 ||82.208.107.90^
 ||82.209.204.6^
@@ -636287,6 +636555,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||82.54.132.207^
 ||82.63.243.95^
 ||82.77.57.16^
+||83.141.76.231^
 ||83.149.17.194^
 ||83.168.110.123^
 ||83.168.110.24^
@@ -636305,6 +636574,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||83.68.249.16^
 ||84.0.26.48^
 ||84.1.217.223^
+||84.200.16.52^
 ||84.200.33.163^
 ||84.214.80.208^
 ||84.244.11.29^
@@ -636316,7 +636586,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||84.95.86.227^
 ||85.105.125.15^
 ||85.108.84.109^
-||85.108.86.149^
 ||85.108.86.221^
 ||85.108.87.246^
 ||85.11.161.57^
@@ -636338,7 +636607,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||85.121.177.55^
 ||85.121.5.9^
 ||85.130.160.219^
-||85.137.246.220^
 ||85.137.53.167^
 ||85.137.54.178^
 ||85.140.44.96^
@@ -636346,6 +636614,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||85.15.112.44^
 ||85.15.114.111^
 ||85.15.117.156^
+||85.15.119.153^
 ||85.15.119.255^
 ||85.15.92.109^
 ||85.162.170.211^
@@ -636357,6 +636626,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||85.192.48.80^
 ||85.193.68.206^
 ||85.193.68.244^
+||85.198.28.212^
 ||85.202.161.25^
 ||85.202.163.162^
 ||85.203.4.64^
@@ -636424,7 +636694,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||88.115.204.4^
 ||88.116.62.226^
 ||88.135.26.83^
-||88.180.236.68^
 ||88.190.74.159^
 ||88.224.98.84^
 ||88.229.96.205^
@@ -636444,6 +636713,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||89.106.83.205^
 ||89.106.83.29^
 ||89.121.250.206^
+||89.125.246.42^
 ||89.163.157.131^
 ||89.169.55.22^
 ||89.184.185.198^
@@ -636543,9 +636813,11 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||92.248.162.165^
 ||92.248.175.43^
 ||92.248.238.90^
+||92.253.237.180^
 ||92.34.131.196^
 ||92.42.134.120^
 ||92.42.134.80^
+||92.43.24.71^
 ||92.63.181.175^
 ||92.63.181.79^
 ||93-152-221-234.plesk.page^
@@ -636557,10 +636829,12 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||93.118.112.68^
 ||93.123.109.188^
 ||93.126.1.30^
+||93.127.133.123^
 ||93.152.205.20^
 ||93.152.209.8^
 ||93.152.211.27^
 ||93.152.213.151^
+||93.152.217.16^
 ||93.152.220.62^
 ||93.152.221.121^
 ||93.152.221.124^
@@ -636617,7 +636891,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||94.154.43.190^
 ||94.154.43.192^
 ||94.154.43.195^
-||94.154.43.196^
 ||94.154.43.197^
 ||94.154.43.200^
 ||94.154.43.201^
@@ -636670,11 +636943,9 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||94.183.174.80^
 ||94.183.174.83^
 ||94.183.203.15^
-||94.19.130.58^
 ||94.203.254.14^
 ||94.228.175.10^
 ||94.230.141.123^
-||94.231.164.10^
 ||94.233.15.145^
 ||94.237.59.114^
 ||94.241.30.16^
@@ -636721,6 +636992,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||95.230.215.65^
 ||95.232.72.185^
 ||95.233.24.29^
+||95.236.156.150^
 ||95.237.154.159^
 ||95.239.101.161^
 ||95.244.90.77^
@@ -636759,6 +637031,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||96.62.71.5^
 ||96.66.24.241^
 ||96.8.112.30^
+||97.74.91.200^
 ||98.103.171.36^
 ||98.142.247.51^
 ||98.197.230.147^
@@ -636872,7 +637145,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||areyouready.co.za^
 ||argon-client.com^
 ||armoniamiddleeast.ae^
-||art-jewels.de^
 ||artalivedesign.com^
 ||ascomsecurity.com.au^
 ||asdsocial.pt^
@@ -636907,8 +637179,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||axqua.com^
 ||ayub.cptz.wtf^
 ||azhu.cakkaao.com^
-||azlvaka.vu^
-||azq0yqtjd.s3.ap-southeast-1.amazonaws.com^
 ||b.9-9-11.com^
 ||b.clu-e.eu^
 ||b2b.jewmailer.net^
@@ -636926,7 +637196,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||bankruptcyrhodeisland.com^
 ||baolongwes.oss-ap-southeast-1.aliyuncs.com^
 ||baomma.kmmiiaaa.com^
-||baoxissde.one^
 ||baritoneclient.net^
 ||basequill9.com^
 ||bb2c6-42dfkea8-9fhh47-927aebce12d4.fasterflogging.cc^
@@ -636953,7 +637222,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||bipfdjnk.com^
 ||bismarckchiropractor.com^
 ||bitbrowse.oss-cn-hongkong.aliyuncs.com^
-||bj5y6-0f-9h4-9fgg4-1324992141.cos.ap-bangkok.myqcloud.com^
 ||bjyunte.com^
 ||bkktech-thai.com^
 ||black-breeze-bc02.weedhack.workers.dev^
@@ -636969,11 +637237,11 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||blueprint-71.com^
 ||bluerelic155.mypi.co^
 ||blueskycheat.com^
-||bm2contabilidade.com.br^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||boitim.oss-eu-west-2.aliyuncs.com^
+||bonboncraft.com^
 ||book.rollingvideogames.com^
 ||boost-19.com^
 ||boost-90.com^
@@ -637000,7 +637268,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||bserail.com^
 ||btorsercoyt31.cc^
 ||bucket-cf-weur-a.uploadnow.io^
-||bucketforada.s3.ap-south-1.amazonaws.com^
 ||build.polysupport.team^
 ||buloru.com^
 ||bumcoinc.site^
@@ -637043,8 +637310,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||cdk.monther.life^
 ||cdm.wovplaying.help^
 ||cdn-10049480.file.myqcloud.com^
+||cdn-1s.hypstock.info^
+||cdn-2s.hypstock.info^
+||cdn-4f.hypstock.info^
 ||cdn.876553.xyz^
-||cdn.file6.goodid.com^
 ||cdn.gomlab.com^
 ||cdn.hypstock.info^
 ||cdn.monther.life^
@@ -637114,6 +637383,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||clubdetiroelpicarcho.com^
 ||cmp4.top^
 ||cn.devglobal.biz^
+||cn.unionlever.com^
 ||coconutoficial.com.br^
 ||cocuktekstil.com^
 ||coinworknew.com^
@@ -637123,7 +637393,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||complianceportals.com^
 ||compuserviceonline.com.br^
 ||configprovider.short.gy^
-||connectmagazineads.com^
 ||contididit.conti.pk^
 ||continentalgroup.net.in^
 ||controliumbt.com^
@@ -637132,9 +637401,9 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||correa.ind.br^
 ||corzclient.net^
 ||cosmical2049.com^
+||cosmicsky.cc^
 ||counterscale.jean-r-mi-larcelet-prost.workers.dev^
 ||cpc188.day^
-||cpofficial.com^
 ||cqintzfep6rw6jc9.public.blob.vercel-storage.com^
 ||crackedclients.com^
 ||crackedclients.online^
@@ -637151,7 +637420,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||cryptovectorhub1.lol^
 ||crystalbranchtw.blog^
 ||crystalpvp.ru^
-||cs.go.kg^
 ||cs2xexternal.com^
 ||csgroup.host^
 ||cta.edu.pe^
@@ -637217,6 +637485,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||da607p7qeops0oicos80yyk1xp4wk7n6u.oast.pro^
 ||da607p7qeops0oicos80zdoqyj354qpgc.oast.pro^
 ||da607p7qeops0oicos80ziid7cccxfxjm.oast.pro^
+||da7wg.realtimefuturedev.buzz^
 ||damiancollier.com^
 ||dao1an8ingei2dinnnpgqa7k564nf3q81.oast.live^
 ||darkroute.mypi.co^
@@ -637275,7 +637544,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||dl.2345.com^
 ||dl.downloadonly.me^
 ||dl.dzqzd.com^
-||dl.myresult.co.za^
 ||dl.natgo.cn^
 ||dl.unicron-dl.click^
 ||dl1.claudflare-gateway.net^
@@ -637288,8 +637556,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||docmntageant.com^
 ||docs.cs-supplements.de^
 ||docs.thelobbyx.info^
-||docuslutmentadoonline.top^
-||docuuumennnntonline.top^
+||docsloaded.site^
 ||docuviewse.com^
 ||dodiihome.com^
 ||dolphlinksan.online^
@@ -637356,7 +637623,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||drastok.xyz^
 ||dreambot.cc^
 ||dreambot.info^
-||dreamwatchevent.com^
 ||drgenov.com^
 ||dropboxb3.duckdns.org^
 ||dsfojsofsdofijdsofjisdofjisdofijsdfijsdiojsdo.com^
@@ -637375,6 +637641,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||dxa.multidex.life^
 ||dxa.rewan.live^
 ||dxb.rewan.live^
+||dxx5.fixlow.shop^
+||dxx5g.fixlow.shop^
+||dxx5o.fixlow.shop^
+||dxx5q.fixlow.shop^
 ||dxxs.fixlow.shop^
 ||dy.dpwqwaapp.xyz^
 ||dynga.pl^
@@ -637395,7 +637665,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||elitecheatsx.live^
 ||elrianda.com^
 ||elrneba.com^
-||elxxvvx.xyz^
 ||embalageral.hospedagemdesites.ws^
 ||embedone.com^
 ||emeraldstonegc.blog^
@@ -637451,7 +637720,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||fcitantibot.pro^
 ||fcmelle.de^
 ||fd.v2downf.shop^
-||fdrv.beeyuskincare.co.nz^
 ||fe29jf323.kesug.com^
 ||featuresfoundation.com^
 ||feed-delta.com^
@@ -637473,6 +637741,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||files.54daysaverage.qzz.io^
 ||files.8weeksaverage.xyz^
 ||files.mcclients.com^
+||files.polisia.cam^
 ||files.trade4rex.com^
 ||fileupdates.blob.core.windows.net^
 ||filezilla.cc^
@@ -637482,13 +637751,14 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||first-security-verden.de^
 ||firstalwayshere.com^
 ||fiscalizarais.xyz^
+||fitbodnz.com^
+||fitforevercavan.ie^
 ||fivvx.fixlow.shop^
 ||fkjhsdfg478fdm.com^
 ||flexsportpools.com^
 ||flicargo.com^
 ||flint-32.com^
 ||flocmaterials.shop^
-||flooriscoveringworld.com^
 ||floppaclient.com^
 ||floppaclient.org^
 ||flycheats.xyz^
@@ -637605,6 +637875,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||groverudder12.com^
 ||growgreenhorizons.com^
 ||grupocaprem.com^
+||gtm.aryzap.com^
 ||guanfangxiazai-oss-cn-singapore-aliyuncs.top^
 ||haeum.nfile.net^
 ||hagosuro.lc^
@@ -637624,7 +637895,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||hasilgov-my.shop^
 ||haven-post.com^
 ||hdsoftware.org^
-||helnivo.vu^
 ||helpdesk09-26.com^
 ||hf-offshores.cc^
 ||hfm-qnyxrf78xc1i0k.cfd^
@@ -637641,6 +637911,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||hnjgdl.geps.glodon.com^
 ||horion-static.pages.dev^
 ||horizonlauncher.net^
+||hospital-prod-bucket.s3.amazonaws.com^
+||hospital-prod-bucket.s3.ap-southeast-1.amazonaws.com^
 ||host-195-103-203-106.business.telecomitalia.it^
 ||host-95-230-215-65.business.telecomitalia.it^
 ||host-95-255-114-11.business.telecomitalia.it^
@@ -637687,7 +637959,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||imperia243.com^
 ||imperiailmports.com^
 ||implantdentistrytx.com^
-||importantdocumentscopys.s3.us-east-2.amazonaws.com^
+||incypreaw.pages.dev^
 ||infocardphoto.info^
 ||injurylawsocal.com^
 ||intelli-sys.co.zw^
@@ -637697,7 +637969,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||inventorychanger.com^
 ||invmove.com^
 ||ioknet.kehma.online^
-||ip-69-33-213-199.dfw.megapath.net^
 ||iploglab.store^
 ||iqwblsfvqcopxrijnzwx.supabase.co^
 ||ircftp.net^
@@ -637705,7 +637976,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||isiore.com.co^
 ||itbakersfield.com^
 ||itco.pe^
-||itsmystik.com^
 ||itssprout.com^
 ||ivory-antoinette-9.tiiny.site^
 ||iyn4ce9o.casero.store^
@@ -637713,6 +637983,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||jagexlauncher.net^
 ||java.omsules.life^
 ||javb.omsules.life^
+||jawaratekno.com^
 ||jcsncorp.screenconnect.com^
 ||jd-forever.com^
 ||jdaram.com^
@@ -637757,6 +638028,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||kj6pcc.net^
 ||kjjt.pages.dev^
 ||kk88cc.com^
+||kkam.download^
 ||kkkx.b-cdn.net^
 ||kmmiiaaa.com^
 ||kn.devmicro7.workers.dev^
@@ -637800,6 +638072,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||lavos.life^
 ||lawfirm.paperbirdtech.com^
 ||ld-cf.com^
+||ldbnaldjfajggfa.xxe1211.xyz^
 ||leafdraft18.com^
 ||lebang.si^
 ||lehmann-autohaus.de^
@@ -637879,7 +638152,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||medicosantiagomarrero.com^
 ||mediocasavolponi.com^
 ||medises.co.kr^
-||meeting.supply-reflection.shop^
 ||meissner.ae^
 ||melonandworld.top^
 ||mersped.mycpanel.rs^
@@ -637906,7 +638178,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||minecraft-cheats.com^
 ||minefox.lol^
 ||miner.pages.dev^
-||mininews.kpzip.com^
 ||minnarasanen.com^
 ||minpop.com^
 ||miriamgualda.com.br^
@@ -637914,6 +638185,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||misleading-lime-termite.myfilebase.com^
 ||mitreart.com^
 ||mkconstructions.net^
+||mm2027.oss-cn-hangzhou.aliyuncs.com^
 ||mmns.oss-me-east-1.aliyuncs.com^
 ||mna.multidex.life^
 ||mng.multidex.life^
@@ -637935,8 +638207,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||msud148.com^
 ||muaklekcoop.com^
 ||muledo.com^
-||multiculturalbridge.screenconnect.com^
-||multisavcx.xyz^
 ||munihuacho.gob.pe^
 ||mx9x.com^
 ||mxh4h.com^
@@ -637971,7 +638241,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||nexorafoundry.com^
 ||nfadealer.top^
 ||nfshgu.top^
-||nieuw.technoberg.nl^
 ||niggersmp.net^
 ||nightmare-cheats.su^
 ||nimblenumbers.screenconnect.com^
@@ -638020,8 +638289,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||ofice365.github.io^
 ||ohhhhhmoney.com^
 ||ohwcadvisor.com^
+||oim.doganltd.com.tr^
 ||oj44472.com^
 ||ojang.pe.kr^
+||ok3.hypstock.info^
 ||okhan.net^
 ||okieprint.screenconnect.com^
 ||oknoplastik.sk^
@@ -638076,7 +638347,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||paretandassociates.screenconnect.com^
 ||paste.mangsud.org^
 ||patricstoremegans2.com^
-||paularavanelli.com.br^
 ||pawsockenjoyer.site^
 ||pay.aqiu6.com^
 ||payap.ir^
@@ -638130,6 +638400,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||porvootransitioncare.com^
 ||posicionamientonatural.es^
 ||postelnini.mk^
+||pounddose.top^
 ||power-shell.cc^
 ||power.belyxhost.in^
 ||powershell.lat^
@@ -638151,7 +638422,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||productoslili.cl^
 ||profileone.jo3.org^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
-||programandojuntos.us.tempcloudsite.com^
 ||proishestviyagoodru.vercel.app^
 ||projetodegente.com^
 ||promnet.jp^
@@ -638163,17 +638433,14 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||pub-0478b308b8cf46709a73d0eed5afd633.r2.dev^
 ||pub-0aa1ca9c603a4b99b4e4dd7636b31f10.r2.dev^
 ||pub-0bf4d4ca8a6e426ea7d3d00ec3ecd192.r2.dev^
-||pub-153d2a9e026942c4aff3b3aca8f80952.r2.dev^
 ||pub-1614932a526c40d79fe5bf23e71e3ff7.r2.dev^
 ||pub-16981d679a944b08a8bdb8d808cba6ee.r2.dev^
 ||pub-17ab5f90ca394fc2a98a106eb938ff35.r2.dev^
 ||pub-1900be17f2994b5580d602f23eb7fb93.r2.dev^
 ||pub-1c4ef2a315ec4b89b9dfad9472afee69.r2.dev^
-||pub-1f5a501a59d74a6a97e77126cf1fc526.r2.dev^
 ||pub-2731c5c84ec94bb78b02c025b7b3f6c4.r2.dev^
 ||pub-309aaffb1a3643d58aaa9c444941fef3.r2.dev^
 ||pub-364c6b3011ca492cab2354176cfaf3f0.r2.dev^
-||pub-378362a70f714a30b26c109732cabca4.r2.dev^
 ||pub-37f3a615586d47f4996e932bf6df7670.r2.dev^
 ||pub-3e3889b5442b4ed4ab5f97beec5959ea.r2.dev^
 ||pub-406c38dcf6254a1e9d626f6b34967826.r2.dev^
@@ -638198,12 +638465,11 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||pub-8c944cde37db4a589e86137d049091b0.r2.dev^
 ||pub-8cd123cf29f247f8bf6c3b4507e3a5fb.r2.dev^
 ||pub-8d59738861b849e5a38b795cc17b1019.r2.dev^
-||pub-8f07b712b50246eca5982f64bd695eea.r2.dev^
 ||pub-9edd485f8a3c4fb1942935530b075a5d.r2.dev^
 ||pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev^
 ||pub-a327f9d03def4b07b51dba5303fc3620.r2.dev^
-||pub-a6ae2d4aa393400aa29f7b02ac7ab213.r2.dev^
 ||pub-ac263311e26f4866accaf2881f4fcc45.r2.dev^
+||pub-ad86ac82a03a47edba1b8c889708a32d.r2.dev^
 ||pub-b0f74488c3df4fc5a193cc220a0f3bf1.r2.dev^
 ||pub-b98155d31c7b46ecbdf79eab5e37bae3.r2.dev^
 ||pub-bbbdebc2599c4d74b04c5d53e439f7a7.r2.dev^
@@ -638227,7 +638493,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||pub-ec081eb0fab74385a17d8d77afeeda3b.r2.dev^
 ||pub-ecb7161ffc7a4a67bdd8761583e21d16.r2.dev^
 ||pub-ef44c35b13984ebc836b5bb28bb93c95.r2.dev^
-||pub-f225fc4c925f4cad963c543c3378b1ae.r2.dev^
 ||pub-f36b05599c3043ddb16520acf6cc3cce.r2.dev^
 ||pub-f9f2f77b53d14531ba49bd6d0bd18740.r2.dev^
 ||pub-fcf9a4a0a9f54d8b8240c682f65e12f9.r2.dev^
@@ -638242,7 +638507,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||purxiyclient.org^
 ||puschl.langhaar-schaeferhunde.com^
 ||pvsa.gxfugy.cn^
-||python3.en-us--balancing.co^
 ||q7k2m9xb.us-theeloncode.com^
 ||qbd.fillall.life^
 ||qdzip-1476850762.cos.ap-singapore.myqcloud.com^
@@ -638302,7 +638566,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||robertrowe.com^
 ||robertsonelectrlcal.screenconnect.com^
 ||robinhood.media^
-||robinhoodwallet.dervano.vu^
 ||roblox-expl.info^
 ||robloxscript.top^
 ||roboth.ir^
@@ -638332,6 +638595,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||ryzhe.com^
 ||s1w21.comen.store^
 ||s4.ncreuh.icu^
+||s6k.hypstock.info^
+||s7g.hypstock.info^
 ||saf-oil.ru^
 ||safe-pdf-viewer.lat^
 ||safeifm.com^
@@ -638381,6 +638646,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||seohumanoid.com^
 ||sep.dailytechinsight.com^
 ||seputartuban.com^
+||seraitsgame.pages.dev^
 ||server.miranarts-top.cc^
 ||server.toeicswt.co.kr^
 ||severidades.cfd^
@@ -638394,7 +638660,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||sh.classera.com^
 ||shadowbot-dih.pages.dev^
 ||shipminttracking.net^
-||shortsouth.screenconnect.com^
 ||shqdown.ggzuhao.com^
 ||sidebyside26.org^
 ||siedle-balkan.com^
@@ -638407,7 +638672,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||situation-significance-replace-coral.trycloudflare.com^
 ||situations-clarity-pill-preceding.trycloudflare.com^
 ||sivemss.fixlow.shop^
-||sivrex.click^
 ||sixmexicos.com^
 ||sk-comtel.com^
 ||skcrss.icu^
@@ -638442,7 +638706,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||software.security-analyze.ltd^
 ||sogo-download.oss-cn-hongkong.aliyuncs.com^
 ||sok.soclable8jas.top^
-||somostask.co^
 ||soniamart.com^
 ||sosogou.oss-cn-hongkong.aliyuncs.com^
 ||sourcemirrors.org^
@@ -638453,6 +638716,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||spaceware.cc^
 ||spaceware.info^
 ||spaceware.to^
+||spartensgame.pages.dev^
 ||speddebug.com^
 ||spgint.com^
 ||spielefrosch.de^
@@ -638473,10 +638737,12 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||stat.bestcompliance.net^
 ||statementreaderdownload.com^
 ||static.3001.net^
+||static.ilclock.com^
 ||static.startcode.cyou^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||static.zongheng.com^
+||stdown.dinju.com^
 ||steelstanleystaystrong.top^
 ||stellaspicy.org^
 ||stg1l.hyperfx.info^
@@ -638499,12 +638765,12 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||students16.screenconnect.com^
 ||studio-cf.com^
 ||studiogagnegagne.screenconnect.com^
+||studiogioeli.it^
 ||sugarfreedcup.co.za^
 ||sugarfreedcupcake.co.za^
 ||summitcapitalpatners.info^
 ||summitcapitalpatners.ink^
 ||sumnitasinvestment.com^
-||sunix-technology.com^
 ||superdudesjr.com^
 ||support.clz.kr^
 ||support.connectuser.store^
@@ -638513,7 +638779,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||survivomatic.com^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swanrecovery.com^
 ||swatting.wiki^
 ||swervimgbackj.top^
 ||swiftfusion.tech^
@@ -638531,7 +638796,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||talkandtypeapp.com^
 ||tangible-drink.surge.sh^
 ||tanscarattorneys.co.tz^
-||tantralegacy.com^
 ||tapestryoftruth.com^
 ||tapped.top^
 ||tartaklegnica.pl^
@@ -638550,6 +638814,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||telpak.icu^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
+||tensealservices.com^
 ||termoglas.ba^
 ||test.peperoncinochepassione.it^
 ||tetris-supdate.xyz^
@@ -638580,10 +638845,11 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||tom2.mitechsystems.net^
 ||tool.nffnj.workers.dev^
 ||tools.lumma.cy^
-||toolshare.com.tr^
 ||top8onlinegame.com^
+||topkitss.icu^
 ||torurr.click^
 ||totemstudios.xyz^
+||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||trabzonmegareklamllc.shop^
 ||transparenciacanaa.com.br^
@@ -638614,7 +638880,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||twenlesx.fixlow.shop^
 ||twentytwen.fixlow.shop^
 ||twitch.tj^
-||twu-hwt.org^
 ||txp.fixlow.shop^
 ||txt.fixlow.shop^
 ||txxt.fixlow.shop^
@@ -638676,11 +638941,11 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||veryboys.com^
 ||vexonmods.shop^
 ||vfils.shop^
-||vibecoders.vip^
 ||victorregenerativemedicinecenters.com^
 ||videdtp-rus.vercel.app^
 ||videosnw-ru.vercel.app^
 ||viewgit.sbs^
+||vinacomelectric.top^
 ||vine-linen.com^
 ||vintageeventos.com.mx^
 ||virtual-video-session.com^
@@ -638707,6 +638972,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||websenorllc.com^
 ||website.mypetapp.co.za^
 ||weco2.oss-me-east-1.aliyuncs.com^
+||weedstealer.xyz^
 ||wegrowcoaching.com^
 ||wehrtechnik-koblenz.de^
 ||wehrtechnische-dienststelle.de^
@@ -638731,6 +638997,7 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||windowskernel.lol^
 ||windriversfiles.imeitools.com^
 ||winds11.site^
+||wintweakers.com^
 ||winx64-letskauliian-1374029367.cos.ap-tokyo.myqcloud.com^
 ||wios.tron3.vip^
 ||wir.consultingics.com^
@@ -638747,12 +639014,10 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||ww.menara5d.net^
 ||wwalucircle.com^
 ||wwce.hellowortnm.cn^
-||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www2.0zz0.com^
 ||www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com^
 ||wwwiiisss.oss-ap-northeast-1.aliyuncs.com^
-||wylkpznq.xyz^
 ||x9v2mq4t.bossbey.store^
 ||xaerosminimap.com^
 ||xeno-cheats.xyz^
@@ -638764,7 +639029,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||xiangduck.sld.tw^
 ||xiaozzz.oss-me-east-1.aliyuncs.com^
 ||xiazailianjie.com^
-||xn--h6qpop2cq9nl9c.pages.dev^
 ||xn--on3b15m2lco2u.com^
 ||xn--yh4bx88a.com^
 ||xolep1.tos-cn-beijing.volces.com^
@@ -638774,10 +639038,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||xshop.com.tr^
 ||xskx.artemida.live^
 ||xww.bucea.edu.cn^
-||xxpro.dev^
 ||xz-1507771301.cos.ap-singapore.myqcloud.com^
 ||y32me8.com^
-||yakult-hk.com^
 ||yaniatbisb.duckdns.org^
 ||ybgctdtbzvgpdxjivafy.supabase.co^
 ||yifayiapp.oss-cn-hongkong.aliyuncs.com^
@@ -638793,7 +639055,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||zanderrealestate.com^
 ||zcalton.com^
 ||zenithclient.com^
-||zenledgerpolicy.com^
 ||zetaval.metcalfphoto.com^
 ||zhikey.com^
 ||zhimaly.com^
@@ -638801,5 +639062,6 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 ||ziio.oss-ap-southeast-1.aliyuncs.com^
 ||zimzar.site^
 ||zip.dailytechinsight.com^
+||zuawjtuceszhrdvkgsrd.supabase.co^
 ||zumvu.net^
 ||zunimar.cl^
